@@ -1,0 +1,8 @@
+Origin: apt.radxa.us
+Label: apt repository
+Codename: jessie
+Architectures: armhf source
+Components: main
+Description: Debian packages for radxa products
+SignWith: yes
+Pull: jessie
