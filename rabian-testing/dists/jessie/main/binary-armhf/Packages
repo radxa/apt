@@ -268,24 +268,6 @@ Description: Linux kernel 3.0.36 for radxa rock(2013 version)
  The Linux kernel 3.0.36 and modules for use on rock.
  This kernel is developed and maintained by radxa
 
-Package: linux-image-3.0.36-rock-pro-lite
-version: 3.0.36+git150317+d708e8b-1
-Architecture: armhf
-Maintainer: Jim Robert <jim@radxa.com>
-Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
-Depends: coreutils (>= 5.96)
-Provides: linux-image, linux-image-3.0.36-rock-pro-lite
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-image-3.0.36-rock-pro-lite/linux-image-3.0.36-rock-pro-lite_3.0.36+git150317+d708e8b-1_armhf.deb
-Size: 9848670
-SHA256: 2527b0765cc0c3f1cb2d741a91b8363115fddf96dd7f17a140168927ccb49d2a
-SHA1: dbf1a3cc9b131f197612c91dadc72715ac6872f6
-MD5sum: 96e6c4ff9e7b924d8a645be066cf42fe
-Description: Linux kernel 3.0.36 for radxa rock pro and lite
- The Linux kernel 3.0.36 and modules for use on rock pro and lite.
- This kernel is developed and maintained by radxa
-
 Package: linux-image-3.10.0-rock2-square
 version: 3.10.0+git150409+625f93f-2
 Architecture: armhf
