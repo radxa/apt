@@ -250,6 +250,24 @@ MD5sum: 8d0adb0f2ab8e81b6f238a7859f8666f
 Description: Flash player plugin for chromium browser on ARM platform
  This package provide Adobe flash player for chromium browser
 
+Package: linux-image-3.0.36-rock
+version: 3.0.36+git141104+8ba5020-1
+Architecture: armhf
+Maintainer: Jim Robert <jim@radxa.com>
+Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
+Depends: coreutils (>= 5.96)
+Provides: linux-image, linux-image-3.0.36-rock
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-image-3.0.36-rock/linux-image-3.0.36-rock_3.0.36+git141104+8ba5020-1_armhf.deb
+Size: 7709148
+SHA256: 950b246df64437caaa296d5e8152fa3d154ab33f3e4e16738417f866e06fa4fb
+SHA1: aee6a922f24600f79889d0de2049ae4c8a6de41f
+MD5sum: ec8f7a0aa3cb5ad59fc206b369a48fdb
+Description: Linux kernel 3.0.36 for radxa rock(2013 version)
+ The Linux kernel 3.0.36 and modules for use on rock.
+ This kernel is developed and maintained by radxa
+
 Package: linux-image-3.0.36-rock-pro-lite
 version: 3.0.36+git150317+d708e8b-1
 Architecture: armhf

@@ -1,27 +1,27 @@
 Origin: apt.radxa.us
 Label: apt repository
 Codename: jessie
-Date: Tue, 14 Apr 2015 07:56:30 UTC
+Date: Wed, 15 Apr 2015 12:37:34 UTC
 Architectures: armhf
 Components: main
 Description: Debian packages for radxa products
 MD5Sum:
- 0f2fdd16f95a433d670bee09216726b1 18328 main/binary-armhf/Packages
- a3c4810571e0f715bd7a1b450081f4b5 5581 main/binary-armhf/Packages.gz
+ cfdffc28837207f0e7a310a434463e49 19063 main/binary-armhf/Packages
+ f1f49cfcdd0b888183161b4443f3b952 5739 main/binary-armhf/Packages.gz
  d98fd37f698fa9f35f31be62aa1621c6 127 main/binary-armhf/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  5c22c90988c2d1a47791d0d033b71966 128 main/source/Release
 SHA1:
- 117f5714085470a879d987bf421faec00d765966 18328 main/binary-armhf/Packages
- 6685557bfc4191e95be06902c0aa4742c6a14b2e 5581 main/binary-armhf/Packages.gz
+ c3e49e8132ff9f37e60f0900b65d59bef21907aa 19063 main/binary-armhf/Packages
+ b3518c771fff5ea0484f679e8dc55800a794cfc7 5739 main/binary-armhf/Packages.gz
  57c580cc7c8e31ea380057db14615cd95f988e72 127 main/binary-armhf/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  68d121ac86d0c18d9553540ea29e994ab93684b3 128 main/source/Release
 SHA256:
- 38a0ad77cfd9b5e4091fd64376622b7d6ebfdfa909cacaa6960102268b5f6a52 18328 main/binary-armhf/Packages
- 5430d65f85a7017add93e9c1e8f5384fce701f9c19560d3d55c7c80aa5cfaad2 5581 main/binary-armhf/Packages.gz
+ 8df21e2377a144e799621615570781f017a696c13686fe2140fd6d474977fb5f 19063 main/binary-armhf/Packages
+ bc455c648ebaeae3fc1527d3270d40e132ad6e32ebcec163f8661b99f16b0f68 5739 main/binary-armhf/Packages.gz
  4476a843b703c0a2511fc898abe02389459f0f0a0bcaec7db673f11fe5210b64 127 main/binary-armhf/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
