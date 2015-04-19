@@ -373,6 +373,21 @@ Description: Ambiance & Radiance Flat is a Modern, Beautiful
   and flat "reboot" of the Ambiance & Radiance GTK 2/3 Themes.
   It features modern and clean "flat" look of your choice of 13 vibrant colors
 
+Package: rock-overlay
+Version: 1.0.0-1
+Architecture: armhf
+Maintainer: Build Developers <build@radxa.com>
+Installed-Size: 46
+Priority: optional
+Section: utils
+Filename: pool/main/r/rock-overlay/rock-overlay_1.0.0-1_armhf.deb
+Size: 1570
+SHA256: d5d99fe428a37b27e6ae180b0e2cd3444c9cf3ffedd0494ff42e2317697f09f3
+SHA1: 60fa12acb17aa5cedabd8ccbbfb5480053ad7d0f
+MD5sum: fce9265490d6560791a3172f48ca75a7
+Description: Radxa Overlay for Radxa headless/minimal images
+ some configs for rock boards.
+
 Package: rock2-overlay
 Version: 1.0.1-1
 Architecture: armhf
