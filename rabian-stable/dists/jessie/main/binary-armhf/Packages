@@ -250,20 +250,56 @@ MD5sum: 8d0adb0f2ab8e81b6f238a7859f8666f
 Description: Flash player plugin for chromium browser on ARM platform
  This package provide Adobe flash player for chromium browser
 
-Package: linux-image-3.0.36-rock-pro-lite
+Package: linux-image-3.0.36-rock
+version: 3.0.36+git141104+8ba5020-1
+Architecture: armhf
+Maintainer: Jim Robert <jim@radxa.com>
+Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
+Depends: coreutils (>= 5.96)
+Provides: linux-image, linux-image-3.0.36-rock
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-image-3.0.36-rock/linux-image-3.0.36-rock_3.0.36+git141104+8ba5020-1_armhf.deb
+Size: 7709148
+SHA256: 950b246df64437caaa296d5e8152fa3d154ab33f3e4e16738417f866e06fa4fb
+SHA1: aee6a922f24600f79889d0de2049ae4c8a6de41f
+MD5sum: ec8f7a0aa3cb5ad59fc206b369a48fdb
+Description: Linux kernel 3.0.36 for radxa rock(2013 version)
+ The Linux kernel 3.0.36 and modules for use on rock.
+ This kernel is developed and maintained by radxa
+
+Package: linux-image-3.0.36-rock-lite
 version: 3.0.36+git150317+d708e8b-1
 Architecture: armhf
 Maintainer: Jim Robert <jim@radxa.com>
 Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
 Depends: coreutils (>= 5.96)
-Provides: linux-image, linux-image-3.0.36-rock-pro-lite
+Provides: linux-image, linux-image-3.0.36-rock-lite
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-image-3.0.36-rock-pro-lite/linux-image-3.0.36-rock-pro-lite_3.0.36+git150317+d708e8b-1_armhf.deb
-Size: 9848670
-SHA256: 2527b0765cc0c3f1cb2d741a91b8363115fddf96dd7f17a140168927ccb49d2a
-SHA1: dbf1a3cc9b131f197612c91dadc72715ac6872f6
-MD5sum: 96e6c4ff9e7b924d8a645be066cf42fe
+Filename: pool/main/l/linux-image-3.0.36-rock-lite/linux-image-3.0.36-rock-lite_3.0.36+git150317+d708e8b-1_armhf.deb
+Size: 9850226
+SHA256: 8628425581e40af57136b8d594b574ac0cc8562d6bebf77b6168eac23b7edc09
+SHA1: 098b7aa4b6225cb187c511cc659b90474e2831fb
+MD5sum: 4edaa977040602243297a54ccd20387d
+Description: Linux kernel 3.0.36 for radxa rock pro and lite
+ The Linux kernel 3.0.36 and modules for use on rock pro and lite.
+ This kernel is developed and maintained by radxa
+
+Package: linux-image-3.0.36-rock-pro
+version: 3.0.36+git150317+d708e8b-1
+Architecture: armhf
+Maintainer: Jim Robert <jim@radxa.com>
+Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
+Depends: coreutils (>= 5.96)
+Provides: linux-image, linux-image-3.0.36-rock-pro
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-image-3.0.36-rock-pro/linux-image-3.0.36-rock-pro_3.0.36+git150317+d708e8b-1_armhf.deb
+Size: 9850828
+SHA256: 120c5fe956a42a0267b83d9d8226fc44d01f63bc0b4166cd5ea78ea4127d888a
+SHA1: 1a3431fad5772fcb11449fe8e0f6b25073a266a0
+MD5sum: 23756c7d7bfd0bc4511fa5425be6cd19
 Description: Linux kernel 3.0.36 for radxa rock pro and lite
  The Linux kernel 3.0.36 and modules for use on rock pro and lite.
  This kernel is developed and maintained by radxa
@@ -336,6 +372,21 @@ MD5sum: 0032f0c38a9990d5744c4dbd948dc708
 Description: Ambiance & Radiance Flat is a Modern, Beautiful
   and flat "reboot" of the Ambiance & Radiance GTK 2/3 Themes.
   It features modern and clean "flat" look of your choice of 13 vibrant colors
+
+Package: rock-overlay
+Version: 1.0.0-1
+Architecture: armhf
+Maintainer: Build Developers <build@radxa.com>
+Installed-Size: 46
+Priority: optional
+Section: utils
+Filename: pool/main/r/rock-overlay/rock-overlay_1.0.0-1_armhf.deb
+Size: 1570
+SHA256: d5d99fe428a37b27e6ae180b0e2cd3444c9cf3ffedd0494ff42e2317697f09f3
+SHA1: 60fa12acb17aa5cedabd8ccbbfb5480053ad7d0f
+MD5sum: fce9265490d6560791a3172f48ca75a7
+Description: Radxa Overlay for Radxa headless/minimal images
+ some configs for rock boards.
 
 Package: rock2-overlay
 Version: 1.0.1-1
