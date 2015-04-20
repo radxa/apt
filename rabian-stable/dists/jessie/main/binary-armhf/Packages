@@ -373,6 +373,21 @@ Description: Ambiance & Radiance Flat is a Modern, Beautiful
   and flat "reboot" of the Ambiance & Radiance GTK 2/3 Themes.
   It features modern and clean "flat" look of your choice of 13 vibrant colors
 
+Package: rock-lite-overlay
+Version: 1.0.0-1
+Architecture: armhf
+Maintainer: Build Developers <build@radxa.com>
+Installed-Size: 46
+Priority: optional
+Section: utils
+Filename: pool/main/r/rock-lite-overlay/rock-lite-overlay_1.0.0-1_armhf.deb
+Size: 1574
+SHA256: d3c23f4ee72e8f91cf03718bfc74acf9fda99c418dd45cba8a47e4ca84171b56
+SHA1: 3fc34e0770eaa9d774c072071f47f7f928eea283
+MD5sum: 8f3f94cbad081182ff747013ecc02591
+Description: Radxa Overlay for Radxa headless/minimal images
+ some configs for rock lite boards.
+
 Package: rock-overlay
 Version: 1.0.0-1
 Architecture: armhf
@@ -385,6 +400,21 @@ Size: 1570
 SHA256: d5d99fe428a37b27e6ae180b0e2cd3444c9cf3ffedd0494ff42e2317697f09f3
 SHA1: 60fa12acb17aa5cedabd8ccbbfb5480053ad7d0f
 MD5sum: fce9265490d6560791a3172f48ca75a7
+Description: Radxa Overlay for Radxa headless/minimal images
+ some configs for rock boards.
+
+Package: rock-pro-overlay
+Version: 1.0.0-1
+Architecture: armhf
+Maintainer: Build Developers <build@radxa.com>
+Installed-Size: 46
+Priority: optional
+Section: utils
+Filename: pool/main/r/rock-pro-overlay/rock-pro-overlay_1.0.0-1_armhf.deb
+Size: 1578
+SHA256: 8105815131e421565a9c4cc42e8e05b2466a2cf37cdbdcd94bd6c68a7315585c
+SHA1: 5608eca19a334bcadc5c276f338d09a08410f8c1
+MD5sum: 0165491563bb3733750a2ec02ce68336
 Description: Radxa Overlay for Radxa headless/minimal images
  some configs for rock boards.
 
