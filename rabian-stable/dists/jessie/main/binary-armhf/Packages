@@ -389,17 +389,17 @@ Description: Radxa Overlay for Radxa headless/minimal images
  some configs for rock lite boards.
 
 Package: rock-overlay
-Version: 1.0.0-1
+Version: 1.0.1-1
 Architecture: armhf
 Maintainer: Build Developers <build@radxa.com>
 Installed-Size: 46
 Priority: optional
 Section: utils
-Filename: pool/main/r/rock-overlay/rock-overlay_1.0.0-1_armhf.deb
-Size: 1570
-SHA256: d5d99fe428a37b27e6ae180b0e2cd3444c9cf3ffedd0494ff42e2317697f09f3
-SHA1: 60fa12acb17aa5cedabd8ccbbfb5480053ad7d0f
-MD5sum: fce9265490d6560791a3172f48ca75a7
+Filename: pool/main/r/rock-overlay/rock-overlay_1.0.1-1_armhf.deb
+Size: 1632
+SHA256: 7d5de3f86be62a60a32d52c582d12dc06b34ff3fd32337249aff281a174a5d4b
+SHA1: 63d4bd23ecfff4d64c553af44930dfb1e6285c7b
+MD5sum: 9e492cda745f6229a26437aeb20ac4a1
 Description: Radxa Overlay for Radxa headless/minimal images
  some configs for rock boards.
 
