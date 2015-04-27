@@ -404,17 +404,17 @@ Description: Radxa Overlay for Radxa headless/minimal images
  some configs for rock boards.
 
 Package: rock-pro-overlay
-Version: 1.0.0-1
+Version: 1.0.1-1
 Architecture: armhf
 Maintainer: Build Developers <build@radxa.com>
 Installed-Size: 46
 Priority: optional
 Section: utils
-Filename: pool/main/r/rock-pro-overlay/rock-pro-overlay_1.0.0-1_armhf.deb
-Size: 1578
-SHA256: 8105815131e421565a9c4cc42e8e05b2466a2cf37cdbdcd94bd6c68a7315585c
-SHA1: 5608eca19a334bcadc5c276f338d09a08410f8c1
-MD5sum: 0165491563bb3733750a2ec02ce68336
+Filename: pool/main/r/rock-pro-overlay/rock-pro-overlay_1.0.1-1_armhf.deb
+Size: 1574
+SHA256: dac77e6f2e9fd2af9bb90b3735ceda330b96dbb0071b111c41698bba24c16e7d
+SHA1: 22b442eaff3cd1d513cb792d75f7432b96dc15b7
+MD5sum: 8b718df447edd5ddcd0574917befd7e9
 Description: Radxa Overlay for Radxa headless/minimal images
  some configs for rock boards.
 
@@ -430,6 +430,21 @@ Size: 2298
 SHA256: 26b2006e88e5c48a618d3b1964d9ff37a85c313cc783bd7daeec23457c95b3a0
 SHA1: de4e21c143439728ea85db3ae82c6ee4fae0d18a
 MD5sum: 7baac4a8b5a0bd340325d86aaa441618
+Description: Radxa Overlay for Radxa headless/minimal images
+ ships a autologinroot upstart conf
+
+Package: rock2-square-overlay
+Version: 1.0.1-1
+Architecture: armhf
+Maintainer: Build Developers <build@radxa.com>
+Installed-Size: 46
+Priority: optional
+Section: utils
+Filename: pool/main/r/rock2-square-overlay/rock2-square-overlay_1.0.1-1_armhf.deb
+Size: 2824
+SHA256: d30930c4874ded64977e15b5cccb9cc448ee02c17efd0dd09de3ecc10c97a099
+SHA1: 4ab239f794b529b88163fbac4753dc9b912dea00
+MD5sum: e1cab05c78ceb7d70662d6e4957864ac
 Description: Radxa Overlay for Radxa headless/minimal images
  ships a autologinroot upstart conf
 
