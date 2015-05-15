@@ -441,47 +441,47 @@ Description: Ambiance & Radiance Flat is a Modern, Beautiful
   It features modern and clean "flat" look of your choice of 13 vibrant colors
 
 Package: rock-lite-overlay
-Version: 1.0.0-1
+Version: 1.0.2-1
 Architecture: armhf
 Maintainer: Build Developers <build@radxa.com>
 Installed-Size: 46
 Priority: optional
 Section: utils
-Filename: pool/main/r/rock-lite-overlay/rock-lite-overlay_1.0.0-1_armhf.deb
-Size: 1574
-SHA256: d3c23f4ee72e8f91cf03718bfc74acf9fda99c418dd45cba8a47e4ca84171b56
-SHA1: 3fc34e0770eaa9d774c072071f47f7f928eea283
-MD5sum: 8f3f94cbad081182ff747013ecc02591
+Filename: pool/main/r/rock-lite-overlay/rock-lite-overlay_1.0.2-1_armhf.deb
+Size: 1740
+SHA256: 408f4a99a67d392f0444f1c25f009f83c9cbd5adf57aa4321f7a5e4b1e704c41
+SHA1: 4db58c60a7401bba2e71f6d618e8a9533469dc1d
+MD5sum: cc2ee4ffd1f7a5fc1586e6277c43b115
 Description: Radxa Overlay for Radxa headless/minimal images
  some configs for rock lite boards.
 
 Package: rock-overlay
-Version: 1.0.1-1
+Version: 1.0.2-1
 Architecture: armhf
 Maintainer: Build Developers <build@radxa.com>
 Installed-Size: 46
 Priority: optional
 Section: utils
-Filename: pool/main/r/rock-overlay/rock-overlay_1.0.1-1_armhf.deb
-Size: 1632
-SHA256: 7d5de3f86be62a60a32d52c582d12dc06b34ff3fd32337249aff281a174a5d4b
-SHA1: 63d4bd23ecfff4d64c553af44930dfb1e6285c7b
-MD5sum: 9e492cda745f6229a26437aeb20ac4a1
+Filename: pool/main/r/rock-overlay/rock-overlay_1.0.2-1_armhf.deb
+Size: 1666
+SHA256: b44b4d21c6b80f01c7029f7b8176cefc3dfe8f358200a193e609afcc09427d06
+SHA1: b117193627f99abcc6deeffe095aec787224ab81
+MD5sum: 24c2e236e7b7aa743cb10bfefee40756
 Description: Radxa Overlay for Radxa headless/minimal images
  some configs for rock boards.
 
 Package: rock-pro-overlay
-Version: 1.0.1-1
+Version: 1.0.2-1
 Architecture: armhf
 Maintainer: Build Developers <build@radxa.com>
 Installed-Size: 46
 Priority: optional
 Section: utils
-Filename: pool/main/r/rock-pro-overlay/rock-pro-overlay_1.0.1-1_armhf.deb
-Size: 1574
-SHA256: dac77e6f2e9fd2af9bb90b3735ceda330b96dbb0071b111c41698bba24c16e7d
-SHA1: 22b442eaff3cd1d513cb792d75f7432b96dc15b7
-MD5sum: 8b718df447edd5ddcd0574917befd7e9
+Filename: pool/main/r/rock-pro-overlay/rock-pro-overlay_1.0.2-1_armhf.deb
+Size: 1662
+SHA256: 7dc773cf036000f60a85ed4c75295666e8e8fc2ed300f9f829b075f2e5aa5bc9
+SHA1: 796c22132ecb2410c7b72bec2fb1568a04f12c7a
+MD5sum: 4b01d2024e85c6cf5f60acb3994b9050
 Description: Radxa Overlay for Radxa headless/minimal images
  some configs for rock boards.
 
@@ -501,17 +501,17 @@ Description: Radxa Overlay for Radxa headless/minimal images
  ships a autologinroot upstart conf
 
 Package: rock2-square-overlay
-Version: 1.0.1-1
+Version: 1.0.2-1
 Architecture: armhf
 Maintainer: Build Developers <build@radxa.com>
 Installed-Size: 46
 Priority: optional
 Section: utils
-Filename: pool/main/r/rock2-square-overlay/rock2-square-overlay_1.0.1-1_armhf.deb
-Size: 2824
-SHA256: d30930c4874ded64977e15b5cccb9cc448ee02c17efd0dd09de3ecc10c97a099
-SHA1: 4ab239f794b529b88163fbac4753dc9b912dea00
-MD5sum: e1cab05c78ceb7d70662d6e4957864ac
+Filename: pool/main/r/rock2-square-overlay/rock2-square-overlay_1.0.2-1_armhf.deb
+Size: 2828
+SHA256: b20ee03b961ca29334f4de72d09d49098bb6cf44cb4e209f5e1edb55d890ca0a
+SHA1: 3aec6fe9a499eaec1b263ec1573a7cfcbc597239
+MD5sum: 9ef7c8bd119f111a28143882e7f48528
 Description: Radxa Overlay for Radxa headless/minimal images
  ships a autologinroot upstart conf
 
