@@ -16,6 +16,73 @@ Description: Ambiance & Radiance Flat is a Modern, Beautiful
   and flat "reboot" of the Ambiance & Radiance GTK 2/3 Themes.
   It features modern and clean "flat" look of your choice of 13 vibrant colors
 
+Package: blueman
+Version: 1.23-git201403102151-1ubuntu1
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2494
+Depends: libbluetooth3 (>= 4.91), libc6 (>= 2.4), libglib2.0-0 (>= 2.31.8), libgtk2.0-0 (>= 2.16), libpython2.7 (>= 2.7), libstartup-notification0 (>= 0.4), python (>= 2.7), python (<< 2.8), python:any (>= 2.7.1-0ubuntu2), dbus, bluez (>= 4.61), obex-data-server (>= 0.4.3), python-gtk2 (>= 2.12), python-dbus, python-gi, python-notify, notification-daemon, librsvg2-common, gnome-icon-theme, libpulse-mainloop-glib0
+Recommends: python-gconf, policykit-1
+Homepage: https://launchpad.net/blueman
+Priority: optional
+Section: x11
+Filename: pool/main/b/blueman/blueman_1.23-git201403102151-1ubuntu1_armhf.deb
+Size: 383936
+SHA256: 0aa346aac9ec43a7a8a608349907822fb1c74662ad02b95f81d03196043a248d
+SHA1: 1d1356e47565bb4493b3e93eb4f62c43619ae56c
+MD5sum: 60f4b38919a30e1446f4e3fcacb33c7d
+Description: Graphical bluetooth manager
+ Blueman is a GTK+ bluetooth management utility for GNOME using bluez D-Bus
+ backend.
+Original-Maintainer: Christopher Schramm <debian@shakaweb.org>
+
+Package: bluetooth
+Source: bluez
+Version: 4.101-0ubuntu13
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 75
+Depends: bluez
+Recommends: bluez-alsa, bluez-cups, bluez-gstreamer
+Homepage: http://www.bluez.org
+Priority: optional
+Section: admin
+Filename: pool/main/b/bluez/bluetooth_4.101-0ubuntu13_all.deb
+Size: 12226
+SHA256: 48753c91cbaa0a22db13aa5296a63522aaf413cc51a57f675aa691659aae0852
+SHA1: 43a1df07a351ea6101941bb6b25a615d4f19dbda
+MD5sum: c35df3a68fb048e3c75f25f0873928b6
+Description: Bluetooth support
+ This package provides all of the different plugins supported
+ by the Bluez bluetooth stack.
+Original-Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+
+Package: bluez
+Version: 4.101-0ubuntu13.1
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1661
+Depends: libc6 (>= 2.15), libdbus-1-3 (>= 1.1.1), libglib2.0-0 (>= 2.28.0), libreadline6 (>= 6.0), libudev1 (>= 183), libusb-0.1-4 (>= 2:0.1.12), sysv-rc (>= 2.88dsf-24) | file-rc (>= 0.8.16), module-init-tools, udev (>= 170-1), lsb-base, dbus, python3-dbus
+Suggests: bluez-hcidump
+Conflicts: bluez-audio (<= 3.36-3), bluez-utils (<= 3.36-3)
+Breaks: udev (<< 170-1)
+Replaces: bluez-audio (<= 3.36-3), bluez-input, bluez-network, bluez-serial, bluez-utils (<= 3.36-3), udev (<< 170-1)
+Multi-Arch: foreign
+Homepage: http://www.bluez.org
+Priority: optional
+Section: admin
+Filename: pool/main/b/bluez/bluez_4.101-0ubuntu13.1_armhf.deb
+Size: 503910
+SHA256: f9d9183692ff6f04781de5c9044ffc854c3a2a424a8f61ef6bc94cd77ab9a06e
+SHA1: 76f58d6a510856952b3601fca6ee55876d4f3521
+MD5sum: 43a5c171d13c24d66e26709161359217
+Description: Bluetooth tools and daemons
+ This package contains tools and system daemons for using Bluetooth devices.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+Original-Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+
 Package: chromium-browser
 Version: 41.0.2272.76-0ubuntu0.14.10.1.1118
 Architecture: armhf
