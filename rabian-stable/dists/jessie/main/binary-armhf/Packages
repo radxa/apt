@@ -422,6 +422,21 @@ Description: Linux kernel source for version 3.10.0+git150317+69eecea-1
  which has been designed to ease the task of creating kernel image
  packages.
 
+Package: mali-opengl
+Version: 1.0.1
+Architecture: armhf
+Maintainer: Build Developer <build@radxa.com>
+Homepage: http://radxa.com/Rock2
+Priority: optional
+Section: utils
+Filename: pool/main/m/mali-opengl/mali-opengl_1.0.1_armhf.deb
+Size: 24922994
+SHA256: 432238e56f8b71b3c5908ef0c9089463a0b3600212c5f549132b7691a0fcc393
+SHA1: 0371a0f552ec8a7568a72f948d9dff9cb14a3537
+MD5sum: ffad4cfacf3ab91ec7cf9e5b69488582
+Description: Source code for Mali-T6xx, Mali-T7xx & Mali-T860/T880 GPU Kernel Device Drivers
+   it easier to include Mali GPU drivers on any Linux or Android platform
+
 Package: radiance-flat-colors
 Version: 14.04.2~trusty~NoobsLab.com
 Architecture: all
