@@ -356,17 +356,17 @@ Description: Linux kernel source for version 3.10.0+git150317+69eecea-1
  packages.
 
 Package: mali-opengl-es-sdk
-Version: 2.4.4
+Version: 2.4.4-1
 Architecture: armhf
 Maintainer: Mali Developer Center <support@arm.com>
 Homepage: http://malideveloper.arm.com/
 Priority: optional
 Section: utils
-Filename: pool/main/m/mali-opengl-es-sdk/mali-opengl-es-sdk_2.4.4_armhf.deb
-Size: 18566268
-SHA256: 5aa40f8c7a346032c7acdf02356354c196d6b6cc123d53a8cae9dcd5d854600a
-SHA1: cad4e4dca2a41a0571c947cdc5a7a9b3a2e51aee
-MD5sum: 9d7955e718538635f983cfbca5a96636
+Filename: pool/main/m/mali-opengl-es-sdk/mali-opengl-es-sdk_2.4.4-1_armhf.deb
+Size: 18571370
+SHA256: 10d3658830c0edb4acbbe82f8876dd9350290a4c5e4e43ec49149e7aa5420874
+SHA1: 575a237a4baaef013762dc5d397bec1e8eb9585d
+MD5sum: af0301f60dd61acc8691ed60122d61da
 Description: The various examples and tutorials are built upon a simple framework that can be easily inte	grated within your own applications. These samples currently build for fbdev.
 
 Package: mali-t76x-r5p0-06rel0-linux-1+fbdev
