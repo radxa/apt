@@ -305,7 +305,7 @@ Description: Linux kernel 3.0.36 for radxa rock pro and lite
  This kernel is developed and maintained by radxa
 
 Package: linux-image-3.10.0-rock2-square
-Version: 3.10.0+git150616+29690bc-2
+Version: 3.10.0+git150616+fa84103-1
 Architecture: armhf
 Maintainer: Jim Robert <jim@radxa.com>
 Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
@@ -313,11 +313,11 @@ Depends: coreutils (>= 5.96)
 Provides: linux-image, linux-image-3.10.0-rock2-square
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-image-3.10.0-rock2-square/linux-image-3.10.0-rock2-square_3.10.0+git150616+29690bc-2_armhf.deb
-Size: 9037014
-SHA256: 4ee3ebd636c46a9fefbd87670b7e916741bdc87a2992e73d5a8af5d23ed9bce8
-SHA1: d0b7ca23af314a5c51a5e3b2e5c2f09764c44ec4
-MD5sum: f026d13309c066475ec1fab2e8b1dd09
+Filename: pool/main/l/linux-image-3.10.0-rock2-square/linux-image-3.10.0-rock2-square_3.10.0+git150616+fa84103-1_armhf.deb
+Size: 10034330
+SHA256: 1debb1fab2e91b3e58ee07f177c445d161afb6150c120fe2a254bef65c275500
+SHA1: 58f0b44b22eb8d579602b023ee23043ceb44189f
+MD5sum: d6f00e4f4b821be8dd009fd38b6611e9
 Description: Linux image 3.10.0 for Radxa Rock2 Square
  The Linux kernel 3.10.0 and modules for Radxa Rock2 Square.
  This kernel is developed and maintained by radxa
