@@ -1,10 +1,15 @@
-# apt.radxa.com
-Debian packages repository for radxa products.
+# apt.radxa.us
+Debian packages repository for radxa products. This repository hosts packages that are built and maintained by radxa team for the Rabian distribution. For more information, please check http://radxa.com/Rabian. Some of these packages can also be installed on other platforms.
 
 # Usage
 Edit your `/etc/apt/sources.list` and add the following:
 
     deb http://apt.radxa.us/rabian-stable/ jessie main
+
+then run
+
+    sudo apt-get update && sudo apt-get upgrade
+    sudo apt-get install *package-name*
 
 # Available packages
 
