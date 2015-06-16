@@ -6,6 +6,10 @@ Edit your `/etc/apt/sources.list` and add the following:
 
     deb http://apt.radxa.us/rabian-stable/ jessie main
 
+Get the pub key
+
+    wget -O -  apt.radxa.us/rabian-stable/public.key | sudo apt-key add -
+
 then run
 
     sudo apt-get update && sudo apt-get upgrade
