@@ -370,17 +370,17 @@ MD5sum: 9d7955e718538635f983cfbca5a96636
 Description: The various examples and tutorials are built upon a simple framework that can be easily inte	grated within your own applications. These samples currently build for fbdev.
 
 Package: mali-t76x-r5p0-06rel0-linux-1+fbdev
-Version: 1-r5p0-06rel0
+Version: 2-r5p0-06rel0
 Architecture: armhf
 Maintainer: Mali Developer Center <support@arm.com>
 Homepage: http://malideveloper.arm.com/
 Priority: optional
 Section: utils
-Filename: pool/main/m/mali-t76x-r5p0-06rel0-linux-1+fbdev/mali-t76x-r5p0-06rel0-linux-1+fbdev_1-r5p0-06rel0_armhf.deb
-Size: 6356352
-SHA256: e77f99bbdd7e9779b7e36c0f7d2b71811f0fc74fe462ce1c2d8cd4080896d1d8
-SHA1: f3e341473fb67aabaff85b721ec7d44b1d4876eb
-MD5sum: ae82c6a008c231fd81345a97adb68061
+Filename: pool/main/m/mali-t76x-r5p0-06rel0-linux-1+fbdev/mali-t76x-r5p0-06rel0-linux-1+fbdev_2-r5p0-06rel0_armhf.deb
+Size: 6356354
+SHA256: 08bf4fca044c6eab456e33b03781c23dc8d00865689839429dbd3c3d74932569
+SHA1: 108633418dce211d5fa1e7c77ad2ce06395df7a4
+MD5sum: b30b6d3c5062a533a07f37d3faa9cb23
 Description: Source code for Mali-T6xx, Mali-T7xx & Mali-T860/T880 GPU Kernel Device Drivers
    	It easier to include Mali GPU drivers on any Linux or Android platform
 
