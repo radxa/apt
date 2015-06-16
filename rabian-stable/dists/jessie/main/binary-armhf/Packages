@@ -372,7 +372,7 @@ Description: Linux kernel 3.0.36 for radxa rock pro and lite
  This kernel is developed and maintained by radxa
 
 Package: linux-image-3.10.0-rock2-square
-version: 3.10.0+git150409+625f93f-2
+Version: 3.10.0+git150616+29690bc-1
 Architecture: armhf
 Maintainer: Jim Robert <jim@radxa.com>
 Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
@@ -380,11 +380,11 @@ Depends: coreutils (>= 5.96)
 Provides: linux-image, linux-image-3.10.0-rock2-square
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-image-3.10.0-rock2-square/linux-image-3.10.0-rock2-square_3.10.0+git150409+625f93f-2_armhf.deb
-Size: 9028624
-SHA256: f711af767d57d201692a4a72ed68830eb798e3cce1a691be0eb08f4d3a7f378d
-SHA1: da10c87bb41c0d97f92257af7f414536915a981d
-MD5sum: ce3627e60a79fec6affefff65dcf2342
+Filename: pool/main/l/linux-image-3.10.0-rock2-square/linux-image-3.10.0-rock2-square_3.10.0+git150616+29690bc-1_armhf.deb
+Size: 9037016
+SHA256: 0522bbee7f3e4cac83777395ef7df20a23e6afe9a825133aa40248331fb1c992
+SHA1: 4be4521bb1018fbb8cbdf350ebe5bee054c7bb12
+MD5sum: 296d3e7b2620e66328a833caed4c1062
 Description: Linux image 3.10.0 for Radxa Rock2 Square
  The Linux kernel 3.10.0 and modules for Radxa Rock2 Square.
  This kernel is developed and maintained by radxa
@@ -436,6 +436,35 @@ SHA1: 0371a0f552ec8a7568a72f948d9dff9cb14a3537
 MD5sum: ffad4cfacf3ab91ec7cf9e5b69488582
 Description: Source code for Mali-T6xx, Mali-T7xx & Mali-T860/T880 GPU Kernel Device Drivers
    it easier to include Mali GPU drivers on any Linux or Android platform
+
+Package: mali-opengl-es-sdk
+Version: 2.4.4
+Architecture: armhf
+Maintainer: Mali Developer Center <support@arm.com>
+Homepage: http://malideveloper.arm.com/
+Priority: optional
+Section: utils
+Filename: pool/main/m/mali-opengl-es-sdk/mali-opengl-es-sdk_2.4.4_armhf.deb
+Size: 18571368
+SHA256: 67b4aa9961be2249ae72f50e00bdf09bb511b148b535f7f8e27e88faaa1276d0
+SHA1: 27aa2abff16aa3acda52d789b9ee3b277f4759ce
+MD5sum: 09f9b3504e1605bc12a3a6867fff0c2a
+Description: The various examples and tutorials are built upon a simple framework that can be easily inte	grated within your own applications. These samples currently build for fbdev.
+
+Package: mali-t76x-r5p0-06rel0-linux-1+fbdev
+Version: 1-r5p0-06rel0
+Architecture: armhf
+Maintainer: Mali Developer Center <support@arm.com>
+Homepage: http://malideveloper.arm.com/
+Priority: optional
+Section: utils
+Filename: pool/main/m/mali-t76x-r5p0-06rel0-linux-1+fbdev/mali-t76x-r5p0-06rel0-linux-1+fbdev_1-r5p0-06rel0_armhf.deb
+Size: 6356352
+SHA256: 0f6359c9499a89432b43eca324f1bb2be2f3f54ed84717a408b8ca004cb171d6
+SHA1: 6da09b8bb1e17facf15a36630f253353a1ceda23
+MD5sum: ebc8c9a9da71030db7c866b7718b980c
+Description: Source code for Mali-T6xx, Mali-T7xx & Mali-T860/T880 GPU Kernel Device Drivers
+   	It easier to include Mali GPU drivers on any Linux or Android platform
 
 Package: radiance-flat-colors
 Version: 14.04.2~trusty~NoobsLab.com
