@@ -355,6 +355,35 @@ Description: Linux kernel source for version 3.10.0+git150317+69eecea-1
  which has been designed to ease the task of creating kernel image
  packages.
 
+Package: mali-opengl-es-sdk
+Version: 2.4.4
+Architecture: armhf
+Maintainer: Mali Developer Center <support@arm.com>
+Homepage: http://malideveloper.arm.com/
+Priority: optional
+Section: utils
+Filename: pool/main/m/mali-opengl-es-sdk/mali-opengl-es-sdk_2.4.4_armhf.deb
+Size: 18566268
+SHA256: 5aa40f8c7a346032c7acdf02356354c196d6b6cc123d53a8cae9dcd5d854600a
+SHA1: cad4e4dca2a41a0571c947cdc5a7a9b3a2e51aee
+MD5sum: 9d7955e718538635f983cfbca5a96636
+Description: The various examples and tutorials are built upon a simple framework that can be easily inte	grated within your own applications. These samples currently build for fbdev.
+
+Package: mali-t76x-r5p0-06rel0-linux-1+fbdev
+Version: 1-r5p0-06rel0
+Architecture: armhf
+Maintainer: Mali Developer Center <support@arm.com>
+Homepage: http://malideveloper.arm.com/
+Priority: optional
+Section: utils
+Filename: pool/main/m/mali-t76x-r5p0-06rel0-linux-1+fbdev/mali-t76x-r5p0-06rel0-linux-1+fbdev_1-r5p0-06rel0_armhf.deb
+Size: 6356352
+SHA256: e77f99bbdd7e9779b7e36c0f7d2b71811f0fc74fe462ce1c2d8cd4080896d1d8
+SHA1: f3e341473fb67aabaff85b721ec7d44b1d4876eb
+MD5sum: ae82c6a008c231fd81345a97adb68061
+Description: Source code for Mali-T6xx, Mali-T7xx & Mali-T860/T880 GPU Kernel Device Drivers
+   	It easier to include Mali GPU drivers on any Linux or Android platform
+
 Package: radiance-flat-colors
 Version: 14.04.2~trusty~NoobsLab.com
 Architecture: all
