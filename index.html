@@ -1,46 +1,117 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="apt.radxa.us : radxa debian packages repository">
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>apt.radxa.us by radxa</title>
+    <title>apt.radxa.us</title>
   </head>
 
   <body>
 
-    <header>
-      <div class="container">
-        <h1>apt.radxa.us</h1>
-        <h2>radxa debian packages repository</h2>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/radxa/apt">View on GitHub</a>
 
-        <section id="downloads">
-          <a href="https://github.com/radxa/apt/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/radxa/apt/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/radxa/apt" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
+          <h1 id="project_title">apt.radxa.us</h1>
+          <h2 id="project_tagline">radxa debian packages repository</h2>
 
-    <div class="container">
-      <section id="main_content">
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/radxa/apt/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/radxa/apt/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
         <h1>
 <a id="aptradxaus" class="anchor" href="#aptradxaus" aria-hidden="true"><span class="octicon octicon-link"></span></a>apt.radxa.us</h1>
 
-<p>Debian packages repository for radxa products.</p>
+<p>Debian packages repository for radxa products. This repository hosts packages that are built and maintained by radxa team for the Rabian distribution. For more information, please check <a href="http://radxa.com/Rabian">http://radxa.com/Rabian</a>. Some of these packages can also be installed on other platforms.</p>
 
 <h1>
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h1>
 
+<p>Edit your <code>/etc/apt/sources.list</code> and add the following:</p>
+
+<pre><code>deb http://apt.radxa.us/rabian-stable/ jessie main
+</code></pre>
+
+<p>Get the pub key</p>
+
+<pre><code>wget -O -  apt.radxa.us/rabian-stable/public.key | sudo apt-key add -
+</code></pre>
+
+<p>then run</p>
+
+<pre><code>sudo apt-get update &amp;&amp; sudo apt-get upgrade
+sudo apt-get install *package-name*
+</code></pre>
+
 <h1>
 <a id="available-packages" class="anchor" href="#available-packages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Available packages</h1>
+
+<ul>
+<li>ambiance-flat-colors</li>
+<li>blueman</li>
+<li>bluetooth</li>
+<li>bluez</li>
+<li>chromium-browser</li>
+<li>chromium-browser-l10n</li>
+<li>chromium-chromedriver</li>
+<li>chromium-chromedriver-dbg</li>
+<li>chromium-codecs-ffmpeg</li>
+<li>chromium-codecs-ffmpeg-dbg</li>
+<li>chromium-codecs-ffmpeg-extra</li>
+<li>chromium-codecs-ffmpeg-extra-dbg</li>
+<li>fonts-ubuntu-font-family-console</li>
+<li>libpepflashplayer</li>
+<li>linux-image-3.0.36-rock</li>
+<li>linux-image-3.0.36-rock-lite</li>
+<li>linux-image-3.0.36-rock-pro</li>
+<li>linux-image-3.10.0-rock2-square</li>
+<li>linux-source-3.10.0-rock2-square</li>
+<li>mali-opengl</li>
+<li>mali-opengl-es-sdk</li>
+<li>mali-t76x-r5p0-06rel0-linux-1+fbdev</li>
+<li>radiance-flat-colors</li>
+<li>rock-lite-overlay</li>
+<li>rock-overlay</li>
+<li>rock-pro-overlay</li>
+<li>rock2-overlay</li>
+<li>rock2-square-overlay</li>
+<li>ttf-ubuntu-font-family</li>
+<li>vibrancy-colors</li>
+</ul>
       </section>
     </div>
 
-    
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">apt.radxa.us maintained by <a href="https://github.com/radxa">radxa</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-64159581-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
   </body>
 </html>
