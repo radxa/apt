@@ -302,6 +302,54 @@ Description: Ubuntu Font Family Linux console fonts, sans-serif monospace
  to produce the font family are distributed under an open licence and
  you are expressly encouraged to experiment, modify, share and improve.
 
+Package: hostapd-ap6335
+Version: 1-linux-3.10.0
+Architecture: armhf
+Maintainer: Build Developer <build@radxa.com>
+Depends: dnsmasq, haveged, hostapd
+Homepage: http://radxa.com/Rock2/Wireless
+Priority: optional
+Section: net
+Filename: pool/main/h/hostapd-ap6335/hostapd-ap6335_1-linux-3.10.0_armhf.deb
+Size: 11114
+SHA256: 7dbf91f1296b0b4f6082395cd549426335d31d1fd3aa7456f412457f4721a5b1
+SHA1: af9129a2f69824db20c2059a4bec1a5a70f44dc5
+MD5sum: d7de6f94b3f7a0b8ed28adba34f513bc
+Description: hostapd is a user space daemon for wireless access point and authentication servers
+ it can function well on the AP6335 chip, rock2, rock_square are the use of this chip
+
+Package: hostapd-rtl8188eu
+Version: 1-linux-3.0.36
+Architecture: armhf
+Maintainer: Build Developer <build@radxa.com>
+Depends: dnsmasq, haveged
+Homepage: http://radxa.com/Rock/Wireless
+Priority: optional
+Section: net
+Filename: pool/main/h/hostapd-rtl8188eu/hostapd-rtl8188eu_1-linux-3.0.36_armhf.deb
+Size: 829172
+SHA256: cbd401049dcaf7927eb765d08c8452a8d9720e8834261486af41b5bb7da25eff
+SHA1: eb1bdf3809aa5c0ec8fc2ff374b6e4ad84fba464
+MD5sum: f8ed40c30bada2ead8c6149473392b39
+Description: hostapd is a user space daemon for wireless access point and authentication servers
+ it can function well on the rtl8188eu chip, rock_lite is the use of this chip
+
+Package: hostapd-rtl8723au
+Version: 1-linux-3.0.36
+Architecture: armhf
+Maintainer: Build Developer <build@radxa.com>
+Depends: dnsmasq, haveged
+Homepage: http://radxa.com/Rock/Wireless
+Priority: optional
+Section: net
+Filename: pool/main/h/hostapd-rtl8723au/hostapd-rtl8723au_1-linux-3.0.36_armhf.deb
+Size: 945522
+SHA256: 50eb72b0ddb724dfeb087e7871c6eda1643653ca4b7fe65b3d73b08035fe3816
+SHA1: 875def321c8b38ebca518ba87a2d19618f71d161
+MD5sum: ecc64495e0079296d1dcf08ce69d6135
+Description: hostapd is a user space daemon for wireless access point and authentication servers
+ it can function well on the rtl8723au chip, rock, rock_pro are the use of this chip
+
 Package: libpepflashplayer
 Version: 11.5.31.105-1
 Architecture: armhf
