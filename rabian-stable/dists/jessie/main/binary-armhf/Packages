@@ -366,7 +366,7 @@ Description: Flash player plugin for chromium browser on ARM platform
  This package provide Adobe flash player for chromium browser
 
 Package: linux-image-3.0.36-rock
-version: 3.0.36+git150527+8ba5020-1
+version: 3.0.36+git150720+8ba5020-1
 Architecture: armhf
 Maintainer: Jim Robert <jim@radxa.com>
 Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
@@ -374,17 +374,17 @@ Depends: coreutils (>= 5.96)
 Provides: linux-image, linux-image-3.0.36-rock
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-image-3.0.36-rock/linux-image-3.0.36-rock_3.0.36+git150527+8ba5020-1_armhf.deb
-Size: 7709478
-SHA256: 80a8b2aba33d93a87f12fb05b3b5830c760b51d248b872fbef780712b4ff780b
-SHA1: 3dd3cd0a55d3167fcb793ed10966bfacd3cd40c9
-MD5sum: 534c62ede71ae912ad99c7c953e61880
+Filename: pool/main/l/linux-image-3.0.36-rock/linux-image-3.0.36-rock_3.0.36+git150720+8ba5020-1_armhf.deb
+Size: 7756508
+SHA256: 1e0a637a68d4870f64a9380a3bcded0e1f1cda0d2a553aadd9e6d56c0283ba7f
+SHA1: 5efed7869dd34fe690b5db07321c53eaaa6e8259
+MD5sum: 6c2afa76bca9ac75fb4efce183cba6a4
 Description: Linux kernel 3.0.36 for radxa rock(2013 version)
  The Linux kernel 3.0.36 and modules for use on rock.
  This kernel is developed and maintained by radxa
 
 Package: linux-image-3.0.36-rock-lite
-version: 3.0.36+git150527+d708e8b-1
+version: 3.0.36+git150720+d708e8b-1
 Architecture: armhf
 Maintainer: Jim Robert <jim@radxa.com>
 Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
@@ -392,17 +392,17 @@ Depends: coreutils (>= 5.96)
 Provides: linux-image, linux-image-3.0.36-rock-lite
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-image-3.0.36-rock-lite/linux-image-3.0.36-rock-lite_3.0.36+git150527+d708e8b-1_armhf.deb
-Size: 9850706
-SHA256: 1677d9fc7424535c953c51f2c137b9c002adad212d4b0dfcb96ec9b7811b7235
-SHA1: 2b4a461d01a27846801125496e1da88a3469f9fa
-MD5sum: d2adf27ea9d5ff34ca75ad51c4d59598
+Filename: pool/main/l/linux-image-3.0.36-rock-lite/linux-image-3.0.36-rock-lite_3.0.36+git150720+d708e8b-1_armhf.deb
+Size: 9877410
+SHA256: b0a4a3c071e5a0d31b7e57ef5fe1154b505c35e66833f74f20f27d2df4c452e2
+SHA1: 40de1cf795efdd1a367016aec222a3e49cd60bf8
+MD5sum: 19829d2cae05b7fe50b9c089e03b78b7
 Description: Linux kernel 3.0.36 for radxa rock pro and lite
  The Linux kernel 3.0.36 and modules for use on rock pro and lite.
  This kernel is developed and maintained by radxa
 
 Package: linux-image-3.0.36-rock-pro
-version: 3.0.36+git150527+d708e8b-1
+version: 3.0.36+git150720+d708e8b-1
 Architecture: armhf
 Maintainer: Jim Robert <jim@radxa.com>
 Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
@@ -410,11 +410,11 @@ Depends: coreutils (>= 5.96)
 Provides: linux-image, linux-image-3.0.36-rock-pro
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-image-3.0.36-rock-pro/linux-image-3.0.36-rock-pro_3.0.36+git150527+d708e8b-1_armhf.deb
-Size: 9849174
-SHA256: 39c4fcff6e669a13c6e2a00fff930a1d16d89d2f6c8ec6d176839dbb6595d69f
-SHA1: 4a44b9fc0d654d5bfc0dcec468acef66ef02abb1
-MD5sum: 702a462a0298c8c742f9a0767c5cdfbb
+Filename: pool/main/l/linux-image-3.0.36-rock-pro/linux-image-3.0.36-rock-pro_3.0.36+git150720+d708e8b-1_armhf.deb
+Size: 9875802
+SHA256: 0c3f2bfb1028c14f5f894300be9d89dd9f2a01bf4772c7f039e9acc84b85132b
+SHA1: 23b0c4681cef8873494cceefceb46a1271ec0531
+MD5sum: 7c14154d7a928c2b28a618053e9cc8d8
 Description: Linux kernel 3.0.36 for radxa rock pro and lite
  The Linux kernel 3.0.36 and modules for use on rock pro and lite.
  This kernel is developed and maintained by radxa
