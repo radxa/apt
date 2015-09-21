@@ -506,21 +506,6 @@ SHA1: a3365b3bbf58956bc704d2f61840c88a45a3eb34
 MD5sum: 6c75b624c0738c20846d3dff4247d001
 Description: no description given
 
-Package: mali-opengl
-Version: 1.0.1
-Architecture: armhf
-Maintainer: Build Developer <build@radxa.com>
-Homepage: http://radxa.com/Rock2
-Priority: optional
-Section: utils
-Filename: pool/main/m/mali-opengl/mali-opengl_1.0.1_armhf.deb
-Size: 24922994
-SHA256: 432238e56f8b71b3c5908ef0c9089463a0b3600212c5f549132b7691a0fcc393
-SHA1: 0371a0f552ec8a7568a72f948d9dff9cb14a3537
-MD5sum: ffad4cfacf3ab91ec7cf9e5b69488582
-Description: Source code for Mali-T6xx, Mali-T7xx & Mali-T860/T880 GPU Kernel Device Drivers
-   it easier to include Mali GPU drivers on any Linux or Android platform
-
 Package: mali-opengl-es-sdk
 Version: 2.4.4
 Architecture: armhf
