@@ -4,27 +4,27 @@ Hash: SHA1
 Origin: apt.radxa.us
 Label: apt repository
 Codename: jessie
-Date: Tue, 16 Jun 2015 09:10:33 UTC
+Date: Mon, 26 Oct 2015 02:21:26 UTC
 Architectures: armhf
 Components: main
 Description: Debian packages for radxa products
 MD5Sum:
- 342fa8ee39d924f6b702d947338b4346 23138 main/binary-armhf/Packages
- 5e053a5df935a687caa074b3dac9b1b0 6825 main/binary-armhf/Packages.gz
+ 1c8721a21eee1064f4b2982b581f6106 23568 main/binary-armhf/Packages
+ 31000104c7781702cfb4dd8d9d1eeb9f 7005 main/binary-armhf/Packages.gz
  d98fd37f698fa9f35f31be62aa1621c6 127 main/binary-armhf/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  5c22c90988c2d1a47791d0d033b71966 128 main/source/Release
 SHA1:
- fb8a51bcbfcf338f4f0f311d757ed328e1949ebb 23138 main/binary-armhf/Packages
- 5e3f96b32d59671cc11e043e3e91d7774b626b49 6825 main/binary-armhf/Packages.gz
+ 6d49969e17f63a5b4f61d6b7f3470b051f2f6f42 23568 main/binary-armhf/Packages
+ cd347d7ca388db8a69ba8e3152ae02baca025bf0 7005 main/binary-armhf/Packages.gz
  57c580cc7c8e31ea380057db14615cd95f988e72 127 main/binary-armhf/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  68d121ac86d0c18d9553540ea29e994ab93684b3 128 main/source/Release
 SHA256:
- 3f514cd617c52af6df01e9107bfe173de9c86aef4be8254c0aa4780a409ad2a6 23138 main/binary-armhf/Packages
- 8690db9abc8e9833b2a8fa0e14e4d683c191fbc32b0506604ff3dc1983f7f63c 6825 main/binary-armhf/Packages.gz
+ 62e5db4853fec220b7802fabfb31fb43da1b9d79bfb5e7107298e859d880505f 23568 main/binary-armhf/Packages
+ 500e68e59192a88f7c670b583fb5b0ec300244b504fb57390792b8c2983389e4 7005 main/binary-armhf/Packages.gz
  4476a843b703c0a2511fc898abe02389459f0f0a0bcaec7db673f11fe5210b64 127 main/binary-armhf/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
@@ -32,11 +32,11 @@ SHA256:
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJVf+gJAAoJEMGE47oytLmMvAgH/1AeHGrV+e6jKTVnrhpHy3Gd
-z1atEFyCtp7rAokH5CSUV2luvUVKCsdrVloJfwMj18lex/kWE1sjO4H97rx1MqFX
-UZATjCqenm50KrCzBr5m4mwlJ5Nz+JiGvoHhW9ICUn7dpdCfnxwdegE0MItt/dlZ
-Xy+1jwaDDo90ceZ8ej46DvnsrpsEcmg5e5d3wTDxv68qHiPiPSv1f9eSBPsN8yHR
-JJMhsK3We/1suDdp6Z0ZXRCG+zo+a39FtCpeQQ7buFjM7Le1ucAqU9v9NRuanvDb
-dg0Ox0+yGIDRvJTNVM/r0IhnSeKJVxWOm2q+U7agu/CcgWomBlQZMXTSgJVW2P0=
-=w5TL
+iQEcBAEBAgAGBQJWLY4nAAoJEMGE47oytLmM5oYH/1Eedol3mjZ8jfXkAg7PE8R/
+947yeb+Jig4/dbvM2IZD/TVC0eftfmbOhg9vcPD5wMcznfVRuY/vrnkwgLgDa6Ov
+asNKpB4hbFzWUCO/6vv2Ua2ExOFiKSPfdAepkw31lufFibZLk2TVpX5dLaitQ2RJ
+rM+umeJqzfJNHco3znxkDdscJjnxp0AF+K7HcDl+/JE6bhuewsmGZxeqsBVeZkjA
+UpyZJHnp9oVMa/XNOm7EdZJ1E2UThLLPM7BE+ZZWhNqjV4ysHA1ghRnZ0UYA3ug/
+WzRqZCuhV5/h99baFlr/CfZ3Hh21WD8pLNvjcPN8DX9eWNhtmbwOCDZH1mWr+k0=
+=c7Q2
 -----END PGP SIGNATURE-----
