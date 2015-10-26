@@ -365,6 +365,20 @@ MD5sum: 8d0adb0f2ab8e81b6f238a7859f8666f
 Description: Flash player plugin for chromium browser on ARM platform
  This package provide Adobe flash player for chromium browser
 
+Package: libwiringx
+Version: 1.0--g
+Architecture: armhf
+Installed-Size: 200
+Maintainer: CurlyMo <info@pilight.org>
+Priority: optional
+Section: devel
+Filename: pool/main/libw/libwiringx/libwiringx_1.0--g_armhf.deb
+Size: 69532
+SHA256: 0932b3f5beff84910d71698932bcd7868881e892589d2bfb776f898c151ace2a
+SHA1: e355fd9481df3433cd3e3a0a771d47a2700cc101
+MD5sum: 86d4b48f2667e1d5a642341bf0ef4ee9
+Description: Cross-platform GPIO Interface
+
 Package: linux-image-3.0.36-rock
 version: 3.0.36+git150720+8ba5020-1
 Architecture: armhf
