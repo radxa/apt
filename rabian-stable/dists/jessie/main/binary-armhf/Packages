@@ -484,6 +484,25 @@ Description: Linux kernel source for version 3.10.0+git150317+69eecea-1
  which has been designed to ease the task of creating kernel image
  packages.
 
+Package: luvcview
+Version: 1:0.2.6-6
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Aurelien Jarno <aurel32@debian.org>
+Installed-Size: 111
+Depends: libc6 (>= 2.15-0ubuntu8), libsdl1.2debian (>= 1.2.10-1), libv4l-0 (>= 0.5.0)
+Homepage: http://luvcview.sourceforge.net
+Priority: optional
+Section: x11
+Filename: pool/main/l/luvcview/luvcview_0.2.6-6_armhf.deb
+Size: 48620
+SHA256: efd7c916b6bb6bcf630ac79cf13332adbfae04331bd1088ad7a845aa1382c83d
+SHA1: 62ebf11890c3c75734425268520628eb87b7effa
+MD5sum: 5cfe4b7d2970ba02d6818b4073b429c1
+Description: USB Video Class grabber
+ luvcview is a camera viewer for UVC based webcams. It includes an mjpeg
+ decoder and is able to save the video stream as an AVI file.
+
 Package: machybris
 Version: 0.1.0
 License: unknown
