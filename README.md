@@ -1,14 +1,14 @@
-# apt.radxa.us
+# apt.radxa.com
 Debian packages repository for radxa products. This repository hosts packages that are built and maintained by radxa team for the Rabian distribution. For more information, please check http://radxa.com/Rabian. Some of these packages can also be installed on other platforms.
 
 # Usage
 Edit your `/etc/apt/sources.list` and add the following:
 
-    deb http://apt.radxa.us/rabian-stable/ jessie main
+    deb http://apt.radxa.com/rabian-stable/ jessie main
 
 Get the pub key
 
-    wget -O -  apt.radxa.us/rabian-stable/public.key | sudo apt-key add -
+    wget -O -  apt.radxa.com/rabian-stable/public.key | sudo apt-key add -
 
 then run
 
