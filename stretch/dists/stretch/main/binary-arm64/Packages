@@ -1,0 +1,14 @@
+Package: brcm-patchram-plus1-64
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: arm64
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/b/brcm-patchram-plus1-64/brcm-patchram-plus1-64_0.1_arm64.deb
+Size: 5924
+SHA256: 1eb1afe52996cfc21a962a4e32e64c6bc385ba66594b03ed72bd29d21593fb08
+SHA1: bf371205d0f395e5f95633c4a66733ced9c4ee77
+MD5sum: abdefdc05ffdb66ac2f36db24d20643e
+Description: Broadcom bluetooth patching tool
+

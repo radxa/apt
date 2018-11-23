@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: apt.radxa.com
+Label: apt.radxa.com
+Codename: stretch
+Date: Fri, 23 Nov 2018 07:40:41 UTC
+Architectures: armhf arm64
+Components: main
+Description: Apt repository for Radxa products
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-armhf/Packages.gz
+ c565b989b8ee8e7795fc8705eff55600 126 main/binary-armhf/Release
+ d4d53a188807cefcd06197f4a506cacc 450 main/binary-arm64/Packages
+ 8fe28c9de665631b04d19dc80ccbe9b5 327 main/binary-arm64/Packages.gz
+ 1948d7c313289de2d434bc8958eb4305 126 main/binary-arm64/Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-armhf/Packages.gz
+ 23e42ffe5fe8220d4ce8cebe5afa9046010d91e9 126 main/binary-armhf/Release
+ edea10c116f3eb80380da0e0cc5eee48ec109ded 450 main/binary-arm64/Packages
+ a4a0e641f9c9a2db6152a0b3ff99094c34ac675b 327 main/binary-arm64/Packages.gz
+ af41e6144b1def9a2be005d93fbb7932edd05a3c 126 main/binary-arm64/Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-armhf/Packages.gz
+ 82b7adf84d0ca01b19114872693eb76ee52c66422528a43f813b163a4938b9af 126 main/binary-armhf/Release
+ 0d7b2798c649ecf0fe64c27a64c172514305ebe42fa2cdec81412ffffa6d3ee1 450 main/binary-arm64/Packages
+ 8d21324c5f54970c40a143fce60cfd31ae268f975ea63f4b2f0c1697a7bed8d3 327 main/binary-arm64/Packages.gz
+ d75661930a67b30a72b8f44ddbb16f3960a82997c1150e8d92dac8b31b364e40 126 main/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEx5740UnPycBBippgV2EoiytSzJAFAlv3rvkACgkQV2EoiytS
+zJDDtwv/Ql6sHatFF7V3BQmpyK39Vmb69qvUOLFNiNzhXW/uH19spCc4dw+xYJ+B
+fJ/0SYAniKmfV00fnRF4xopNrH9FmgK6yh/rTr0SwYE10HKFFUUK+nYV5Nrk2su+
+P+bdtIDYCpZl5W9exb1bztydl8QAEHb28MpJePFiW+FffmrkgN/EIuZF+Rcl3dYf
+Xv/pTU7nqjEynexfuf6Y6P0+ycIQ8by51tkO13SSsPRGrKoLIgBernoLw0+OfPTU
+5mfgKcgZbr1MmvrQDLjB0SZ3WS58s9u8iemsPeFzoe78CfJT1+9obDYkgcJ1sCgO
+ZcNVGetw3yCKSzeSerC8BjjhzI7ggQZJcLUC6VKT02Mzh9kxiXdVC5rj7v7hxP5T
+VNq+sxuxRBC4UHeRVIrKmT7yXWZp8vUBvVrPWUdOyG2LcLRm4DADixhMLuMxi1Ke
+M3cpsKcqqREf+hdHoa/PYsf6Yp1iyR+b6JhBtCwYlR9CIiKPsxdhtv09/RSpuNKf
+sWA760/C
+=voDR
+-----END PGP SIGNATURE-----
