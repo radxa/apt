@@ -12,3 +12,17 @@ SHA1: d446328485206c9a0c942c0de133a2d006974d48
 MD5sum: 5254a5935ac043c26bde2a980d8528b9
 Description: General chip ap6256 firmware.
 
+Package: rockchip-overlay
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_0.1_all.deb
+Size: 4004
+SHA256: ebd22ba30083d7cc5211c89ecb2732cc025d78869dd2a104ac807fbf439330b1
+SHA1: 9966761178dda8e9734720cc5a1d081abaef4ac3
+MD5sum: 44872ebe878cd5b06d3510e7db64ecab
+Description: General rockchip overlay package for rock pi 4.
+
