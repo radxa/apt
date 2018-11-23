@@ -27,16 +27,16 @@ MD5sum: 45dfb51aaa51d35f27e34c80dafc8bc3
 Description: Broadcom bluetooth patching tool
 
 Package: rockchip-overlay
-Version: 0.1
+Version: 0.2
 Maintainer: Radxa <dev@radxa.com>
 Architecture: all
 Component: main
 Priority: optional
 Section: utils
-Filename: pool/main/r/rockchip-overlay/rockchip-overlay_0.1_all.deb
-Size: 4004
-SHA256: ebd22ba30083d7cc5211c89ecb2732cc025d78869dd2a104ac807fbf439330b1
-SHA1: 9966761178dda8e9734720cc5a1d081abaef4ac3
-MD5sum: 44872ebe878cd5b06d3510e7db64ecab
-Description: General rockchip overlay package for rock pi 4.
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_0.2_all.deb
+Size: 3904
+SHA256: 0f1448f2c424e5ee1f4998def7e49a5ed76b5b41770b944018fdba79c571e2dc
+SHA1: 695c3f90b952668e530f5c812567ef25a329c7ce
+MD5sum: 398a2703d7d47aeddfed21a84d8b5531
+Description: General rockchip overlay package.
 
