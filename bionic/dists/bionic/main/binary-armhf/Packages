@@ -12,3 +12,17 @@ SHA1: d446328485206c9a0c942c0de133a2d006974d48
 MD5sum: 5254a5935ac043c26bde2a980d8528b9
 Description: General chip ap6256 firmware.
 
+Package: brcm-patchram-plus1-32
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: armhf
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/b/brcm-patchram-plus1-32/brcm-patchram-plus1-32_0.1_armhf.deb
+Size: 7308
+SHA256: 417d35cd1f08e85c8a9f037532130ea45b5daf614024da8205bbccde2439d72b
+SHA1: 9af370cc1ac8b9fffe4864fc1dfebf20acc04555
+MD5sum: 45dfb51aaa51d35f27e34c80dafc8bc3
+Description: Broadcom bluetooth patching tool
+
