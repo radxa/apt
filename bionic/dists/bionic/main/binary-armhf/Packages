@@ -26,6 +26,21 @@ SHA1: 9af370cc1ac8b9fffe4864fc1dfebf20acc04555
 MD5sum: 45dfb51aaa51d35f27e34c80dafc8bc3
 Description: Broadcom bluetooth patching tool
 
+Package: rockchip-fstab
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockchip-fstab/rockchip-fstab_0.1_all.deb
+Size: 1036
+SHA256: 094915569317798044291d0824d777ab15b76ff5f23a6cf9f2d7ebc436ab1483
+SHA1: e67fb4789ced8ae0e8f93fde5523921d472274ad
+MD5sum: 33a9fd6da925a5955af5a59cfbfa4426
+Description: Rockchip default fstab
+Depends: util-linux, bash
+
 Package: rockchip-overlay
 Version: 0.2
 Maintainer: Radxa <dev@radxa.com>
