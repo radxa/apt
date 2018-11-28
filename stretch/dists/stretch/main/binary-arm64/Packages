@@ -1,3 +1,17 @@
+Package: ap6256-firmware
+Version: 0.2
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/a/ap6256-firmware/ap6256-firmware_0.2_all.deb
+Size: 278744
+SHA256: 35620f8ddbe83a1a3b56bc688620a3e188319c83cd60ce336adc973ecb02d189
+SHA1: ba3ad696b064672578cf1e0c7c25af4ff8110dd1
+MD5sum: 8d7b7e89c0499e2e93bc69bef2421a52
+Description: General chip ap6256 firmware.
+
 Package: brcm-patchram-plus1-64
 Version: 0.1
 Maintainer: Radxa <dev@radxa.com>
