@@ -26,6 +26,26 @@ SHA1: ff576340ff8fb24f7f64212d18244214acf25eee
 MD5sum: 5a941b6338200b24655a044130779fe8
 Description: Broadcom bluetooth patching tool
 
+Package: linux-headers-4.4.154-10-g209c242-dirty
+Source: linux-4.4.154-10-g209c242-dirty
+Version: 4.4.154-10
+Architecture: arm64
+Maintainer: Anonymous <root@stephen-desktop>
+Installed-Size: 46644
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-10-g209c242-dirty/linux-headers-4.4.154-10-g209c242-dirty_4.4.154-10_arm64.deb
+Size: 7124366
+SHA256: 5f00de590fdd58cbdc319e72a4c724b8ea94e1f844ade8b7fa6f2670e00bc750
+SHA1: 7080df8d6ca73c0c3092f171ea268efaa9a2bf83
+MD5sum: 711737009c3e2a5d4b538463e425f995
+Description: Linux kernel headers for 4.4.154-10-g209c242-dirty on arm64
+ This package provides kernel header files for 4.4.154-10-g209c242-dirty on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-headers-4.4.154-ge0ce80a-dirty
 Source: linux-4.4.154-ge0ce80a-dirty
 Version: 4.4.154-ge0ce80a-dirty-6
@@ -45,6 +65,45 @@ Description: Linux kernel headers for 4.4.154-ge0ce80a-dirty on arm64
  This package provides kernel header files for 4.4.154-ge0ce80a-dirty on arm64
  .
  This is useful for people who need to build external modules
+
+Package: linux-image-4.4.154-10-g209c242-dirty
+Source: linux-4.4.154-10-g209c242-dirty
+Version: 4.4.154-10
+Architecture: arm64
+Maintainer: Anonymous <root@stephen-desktop>
+Installed-Size: 31631
+Suggests: linux-firmware-image-4.4.154-10-g209c242-dirty
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-10-g209c242-dirty
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-10-g209c242-dirty/linux-image-4.4.154-10-g209c242-dirty_4.4.154-10_arm64.deb
+Size: 7007446
+SHA256: 23f27306928918356addefb3b173c27d0ef51e3dd65614f755062a7edd07e654
+SHA1: 6c21ae62c08231408ea922340912f9dadf627c0d
+MD5sum: 85e01228a216737eda20f39ca4e2f4d2
+Description: Linux kernel, version 4.4.154-10-g209c242-dirty
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-10-g209c242-dirty.
+
+Package: linux-image-4.4.154-10-g209c242-dirty-dbg
+Source: linux-4.4.154-10-g209c242-dirty
+Version: 4.4.154-10
+Architecture: arm64
+Maintainer: Anonymous <root@stephen-desktop>
+Installed-Size: 230339
+Provides: linux-debug, linux-debug-4.4.154-10-g209c242-dirty
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: debug
+Filename: pool/main/l/linux-4.4.154-10-g209c242-dirty/linux-image-4.4.154-10-g209c242-dirty-dbg_4.4.154-10_arm64.deb
+Size: 52824752
+SHA256: 3e501a7c9b99d0e133229d04d7f25b37702aeeb314d241f68cc10d6bdca6c98b
+SHA1: a11e353f8f51a8ad490da7a02ca7608ef9219a6c
+MD5sum: 56a14cb99260fad6872e6b54ee5f3ae2
+Description: Linux kernel debugging symbols for 4.4.154-10-g209c242-dirty
+ This package will come in handy if you need to debug the kernel. It provides
+ all the necessary debug symbols for the kernel and its modules.
 
 Package: linux-image-4.4.154-ge0ce80a-dirty
 Source: linux-4.4.154-ge0ce80a-dirty
