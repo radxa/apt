@@ -42,16 +42,16 @@ Description: Rockchip default fstab
 Depends: util-linux, bash
 
 Package: rockchip-overlay
-Version: 0.2
+Version: 0.3
 Maintainer: Radxa <dev@radxa.com>
 Architecture: all
 Component: main
 Priority: optional
 Section: utils
-Filename: pool/main/r/rockchip-overlay/rockchip-overlay_0.2_all.deb
-Size: 3904
-SHA256: 0f1448f2c424e5ee1f4998def7e49a5ed76b5b41770b944018fdba79c571e2dc
-SHA1: 695c3f90b952668e530f5c812567ef25a329c7ce
-MD5sum: 398a2703d7d47aeddfed21a84d8b5531
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_0.3_all.deb
+Size: 4676
+SHA256: 4343a19334c3c9bb0d0579eed21406aee2599329e53dc215dadcb21255e8668e
+SHA1: c8303f4e2f17b878d57c16d39f2d983e40ce4874
+MD5sum: 40a3ec0fc83b12062e493611cdeaa771
 Description: General rockchip overlay package.
 
