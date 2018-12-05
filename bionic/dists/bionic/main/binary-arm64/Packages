@@ -192,3 +192,21 @@ SHA1: 9997a2530674b07a90fe0d98dd346873c123fa20
 MD5sum: 1acb2e74554165ce7a7b482b5db6d522
 Description: General rockchip overlay package.
 
+Package: rockpi4b-rk-ubootimg
+Version: 2017.09-02085-g5a6aeld
+Architecture: arm64
+Maintainer: Radxa <dev@radxa.com>
+Depends: debsums, mtd-utils
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpi4b-rk-ubootimg/rockpi4b-rk-ubootimg_2017.09-02085-g5a6aeld_arm64.deb
+Size: 290796
+SHA256: 468ef42a962415dc5a8205d7532562b9f51bbf6ea78235fc3a51d1038d83c023
+SHA1: 907aa245fbc47534a42731a8149f1513dd2d20ed
+MD5sum: 76bc8e270b9ef5bdc5114c681ce8493b
+Description: rockpi4b u-boot package
+Multi-Arch: foreign
+Replaces: rockpi4b-rk-ubootimg
+Conflicts: rockpi4b-rk-ubootimg
+Provides: rockpi4b-rk-ubootimg
+
