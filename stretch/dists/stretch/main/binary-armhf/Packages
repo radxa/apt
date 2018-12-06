@@ -26,6 +26,84 @@ SHA1: 5504a7e3156f99fc4967475cbabcd9df40b2f261
 MD5sum: 9be51e1944a1987243eadeabc8a9b406
 Description: Broadcom bluetooth patching tool
 
+Package: linux-headers-4.4.154-10-g209c242-dirty
+Source: linux-4.4.154-10-g209c242-dirty
+Version: 4.4.154-10
+Architecture: all
+Maintainer: Anonymous <root@stephen-desktop>
+Installed-Size: 46644
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-10-g209c242-dirty/linux-headers-4.4.154-10-g209c242-dirty_4.4.154-10_all.deb
+Size: 7118724
+SHA256: b14a62c971c99a32f51f91eed36021db4b115181e400fe04b61e73a4014defd7
+SHA1: e859db44c7d1965361fda8745dc508ead546e1f6
+MD5sum: 50ce608f9debb3b9e5d43970a9ffce83
+Description: Linux kernel headers for 4.4.154-10-g209c242-dirty on arm64
+ This package provides kernel header files for 4.4.154-10-g209c242-dirty on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-4.4.154-10-g209c242-dirty
+Source: linux-4.4.154-10-g209c242-dirty
+Version: 4.4.154-10
+Architecture: all
+Maintainer: Anonymous <root@stephen-desktop>
+Installed-Size: 31631
+Suggests: linux-firmware-image-4.4.154-10-g209c242-dirty
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-10-g209c242-dirty
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-10-g209c242-dirty/linux-image-4.4.154-10-g209c242-dirty_4.4.154-10_all.deb
+Size: 7001868
+SHA256: 3a2ceb494d6c14b480c175b1f9cfc33ea144fd42ee8ed72de015dae59f86b479
+SHA1: 46c0552c7e7ede63c5b2aaf25f2b730b49a07aab
+MD5sum: e6818642614f6b57f767ac96a9063e77
+Description: Linux kernel, version 4.4.154-10-g209c242-dirty
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-10-g209c242-dirty.
+
+Package: linux-image-4.4.154-10-g209c242-dirty-dbg
+Source: linux-4.4.154-10-g209c242-dirty
+Version: 4.4.154-10
+Architecture: all
+Maintainer: Anonymous <root@stephen-desktop>
+Installed-Size: 230339
+Provides: linux-debug, linux-debug-4.4.154-10-g209c242-dirty
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: debug
+Filename: pool/main/l/linux-4.4.154-10-g209c242-dirty/linux-image-4.4.154-10-g209c242-dirty-dbg_4.4.154-10_all.deb
+Size: 53507292
+SHA256: 901decf05f22c1407b63385060f9b5c224fae41ef4601cbef83c0a62e8b91367
+SHA1: e19c06eb06c6d0ad6289231b15893a71f5b02894
+MD5sum: dad006ca6873943b9f8b55376ca56e59
+Description: Linux kernel debugging symbols for 4.4.154-10-g209c242-dirty
+ This package will come in handy if you need to debug the kernel. It provides
+ all the necessary debug symbols for the kernel and its modules.
+
+Package: linux-libc-dev
+Source: linux-4.4.154-10-g209c242-dirty
+Version: 4.4.154-10
+Architecture: all
+Maintainer: Anonymous <root@stephen-desktop>
+Installed-Size: 4129
+Provides: linux-kernel-headers
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-4.4.154-10-g209c242-dirty/linux-libc-dev_4.4.154-10_all.deb
+Size: 812116
+SHA256: 8f5071d3fd7b10f6b58a9918d7b7abfb2dfa1c2e8ebbd4e044ac9becbf5d52f9
+SHA1: 313edfab6368fd3c53a1de617158382b6db4015d
+MD5sum: ed15fcd6b6b39878d7abd2db800ec68c
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
 Package: rockchip-fstab
 Version: 0.1
 Maintainer: Radxa <dev@radxa.com>
