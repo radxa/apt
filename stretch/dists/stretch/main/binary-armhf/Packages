@@ -46,6 +46,26 @@ Description: Linux kernel headers for 4.4.154-10-g209c242-dirty on arm64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-4.4.154-ge0ce80a-dirty
+Source: linux-4.4.154-ge0ce80a-dirty
+Version: 4.4.154-ge0ce80a-dirty-6
+Architecture: all
+Maintainer: Anonymous <root@mrs-hebe>
+Installed-Size: 46646
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-ge0ce80a-dirty/linux-headers-4.4.154-ge0ce80a-dirty_4.4.154-ge0ce80a-dirty-6_all.deb
+Size: 7101032
+SHA256: 433005dc9af33b29c3d68ff740f6fa3b8a7ae644c559083f49b71c98065bf658
+SHA1: 2a8b5df580c152f5a2c333c5273290731d2cae4d
+MD5sum: 48ec67466c15a66573e04b5f8d7d5778
+Description: Linux kernel headers for 4.4.154-ge0ce80a-dirty on arm64
+ This package provides kernel header files for 4.4.154-ge0ce80a-dirty on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-4.4.154-10-g209c242-dirty
 Source: linux-4.4.154-10-g209c242-dirty
 Version: 4.4.154-10
@@ -85,21 +105,60 @@ Description: Linux kernel debugging symbols for 4.4.154-10-g209c242-dirty
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 
-Package: linux-libc-dev
-Source: linux-4.4.154-10-g209c242-dirty
-Version: 4.4.154-10
+Package: linux-image-4.4.154-ge0ce80a-dirty
+Source: linux-4.4.154-ge0ce80a-dirty
+Version: 4.4.154-ge0ce80a-dirty-6
 Architecture: all
-Maintainer: Anonymous <root@stephen-desktop>
+Maintainer: Anonymous <root@mrs-hebe>
+Installed-Size: 20573
+Suggests: linux-firmware-image-4.4.154-ge0ce80a-dirty
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-ge0ce80a-dirty
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-ge0ce80a-dirty/linux-image-4.4.154-ge0ce80a-dirty_4.4.154-ge0ce80a-dirty-6_all.deb
+Size: 7006556
+SHA256: bf7c7355307776422833b38b4a61098bb9fa1fca60fc33f4b3b2584ccac23cf7
+SHA1: 43e9a732a5a0a18d1f6c8225906f959ab1048ec5
+MD5sum: ed24d62171e5f1b1c3ccf87d79973859
+Description: Linux kernel, version 4.4.154-ge0ce80a-dirty
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-ge0ce80a-dirty.
+
+Package: linux-image-4.4.154-ge0ce80a-dirty-dbg
+Source: linux-4.4.154-ge0ce80a-dirty
+Version: 4.4.154-ge0ce80a-dirty-6
+Architecture: all
+Maintainer: Anonymous <root@mrs-hebe>
+Installed-Size: 230421
+Provides: linux-debug, linux-debug-4.4.154-ge0ce80a-dirty
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: debug
+Filename: pool/main/l/linux-4.4.154-ge0ce80a-dirty/linux-image-4.4.154-ge0ce80a-dirty-dbg_4.4.154-ge0ce80a-dirty-6_all.deb
+Size: 53521028
+SHA256: a83d01a65e1eba417ae561d2425a570f5c0166695d51d4d694f06789e1fc7d7c
+SHA1: 4dc7a69ababdc3a276561471be24c9b1de764a50
+MD5sum: 249a981e21f5c4864d87bdc6a6a993d9
+Description: Linux kernel debugging symbols for 4.4.154-ge0ce80a-dirty
+ This package will come in handy if you need to debug the kernel. It provides
+ all the necessary debug symbols for the kernel and its modules.
+
+Package: linux-libc-dev
+Source: linux-4.4.154-ge0ce80a-dirty
+Version: 4.4.154-ge0ce80a-dirty-6
+Architecture: all
+Maintainer: Anonymous <root@mrs-hebe>
 Installed-Size: 4129
 Provides: linux-kernel-headers
 Homepage: http://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-4.4.154-10-g209c242-dirty/linux-libc-dev_4.4.154-10_all.deb
-Size: 812116
-SHA256: 8f5071d3fd7b10f6b58a9918d7b7abfb2dfa1c2e8ebbd4e044ac9becbf5d52f9
-SHA1: 313edfab6368fd3c53a1de617158382b6db4015d
-MD5sum: ed15fcd6b6b39878d7abd2db800ec68c
+Filename: pool/main/l/linux-4.4.154-ge0ce80a-dirty/linux-libc-dev_4.4.154-ge0ce80a-dirty-6_all.deb
+Size: 812284
+SHA256: 66e77378fe4cacdfb39ddf6bb271d49e55fef4712ed2f5f020a9de664ba861f6
+SHA1: 18e2cc0156fdaa467faab822b89a0d41eb8b706e
+MD5sum: df5fc31f9d5b661ce71eee714d85aa3a
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
