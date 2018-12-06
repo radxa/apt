@@ -39,15 +39,24 @@
 <h1>
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h1>
 
+
+<p>For Debian Stretch</p>
+
+<pre><code>wget -O -  apt.radxa.com/stretch/public.key | sudo apt-key add - </code></pre>
 <p>Edit your <code>/etc/apt/sources.list</code> and add the following:</p>
+<pre><code>deb http://apt.radxa.com/stretch/ stretch main</code></pre>
 
-<pre><code>deb http://apt.radxa.com/rabian-stable/ jessie main
-</code></pre>
+<p>For Ubuntu Bionic</p>
 
-<p>Get the pub key</p>
+<pre><code>wget -O -  apt.radxa.com/bionic/public.key | sudo apt-key add - </code></pre>
+<p>Edit your <code>/etc/apt/sources.list</code> and add the following:</p>
+<pre><code>deb http://apt.radxa.com/bionic/ bionic main</code></pre>
 
-<pre><code>wget -O -  apt.radxa.com/rabian-stable/public.key | sudo apt-key add -
-</code></pre>
+
+<p>For Rabian Jessie</p>
+<pre><code>wget -O -  apt.radxa.com/rabian-stable/public.key | sudo apt-key add - </code></pre>
+<p>Edit your <code>/etc/apt/sources.list</code> and add the following:</p>
+<pre><code>deb http://apt.radxa.com/rabian-stable/ jessie main</code></pre>
 
 <p>then run</p>
 
