@@ -46,6 +46,26 @@ Description: Linux kernel headers for 4.4.154-10-g209c242-dirty on arm64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-4.4.154-11-gaad28c8-dirty
+Source: linux-4.4.154-11-gaad28c8-dirty
+Version: 4.4.154-11
+Architecture: all
+Maintainer: Anonymous <root@stephen-desktop>
+Installed-Size: 46675
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-11-gaad28c8-dirty/linux-headers-4.4.154-11-gaad28c8-dirty_4.4.154-11_all.deb
+Size: 7110700
+SHA256: fbfc0f10416c20c99d4c055cc9785c8a93acca71867b2d3547f675f3ca48508c
+SHA1: 63d37ed88f2e90f542c130e83623316269431918
+MD5sum: 10c8e29b311b2d62530d022285063517
+Description: Linux kernel headers for 4.4.154-11-gaad28c8-dirty on all
+ This package provides kernel header files for 4.4.154-11-gaad28c8-dirty on all
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-headers-4.4.154-ge0ce80a-dirty
 Source: linux-4.4.154-ge0ce80a-dirty
 Version: 4.4.154-ge0ce80a-dirty-6
@@ -104,6 +124,26 @@ MD5sum: dad006ca6873943b9f8b55376ca56e59
 Description: Linux kernel debugging symbols for 4.4.154-10-g209c242-dirty
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
+
+Package: linux-image-4.4.154-11-gaad28c8-dirty
+Source: linux-4.4.154-11-gaad28c8-dirty
+Version: 4.4.154-11
+Architecture: all
+Maintainer: Anonymous <root@stephen-desktop>
+Installed-Size: 31633
+Suggests: linux-firmware-image-4.4.154-11-gaad28c8-dirty
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-11-gaad28c8-dirty
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-11-gaad28c8-dirty/linux-image-4.4.154-11-gaad28c8-dirty_4.4.154-11_all.deb
+Size: 7019674
+SHA256: a8de1f83c485f4b1305b87e9f4250c629c206c00b4a880cbe774349bd80d25f2
+SHA1: b507cd6c9a045726c5a72bd018f0a41e931bbc9e
+MD5sum: 0512367c21b8460bbf06370031eaf11d
+Description: Linux kernel, version 4.4.154-11-gaad28c8-dirty
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-11-gaad28c8-dirty.
 
 Package: linux-image-4.4.154-ge0ce80a-dirty
 Source: linux-4.4.154-ge0ce80a-dirty
