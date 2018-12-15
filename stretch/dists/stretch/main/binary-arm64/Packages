@@ -26,6 +26,23 @@ SHA1: bf371205d0f395e5f95633c4a66733ced9c4ee77
 MD5sum: abdefdc05ffdb66ac2f36db24d20643e
 Description: Broadcom bluetooth patching tool
 
+Package: linux-firmware-image-4.4.154-59-rockchip-g5e70f14
+Source: linux-4.4.154-59-rockchip-g5e70f14
+Version: 4.4.154-59-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-59-rockchip-g5e70f14/linux-firmware-image-4.4.154-59-rockchip-g5e70f14_4.4.154-59-rockchip_all.deb
+Size: 185968
+SHA256: 536921090bcbb650c98e6152a7342982fd4968d15544e85d90dbcfad7248280a
+SHA1: 8886911b8ecd229846bb74baed17fdcb01d99a6d
+MD5sum: 7ad949b8ba76556a9ccd0e0686a14671
+Description: Linux kernel firmware, version 4.4.154-59-rockchip-g5e70f14
+ This package contains firmware from the Linux kernel, version 4.4.154-59-rockchip-g5e70f14.
+
 Package: linux-headers-4.4.154-10-g209c242-dirty
 Source: linux-4.4.154-10-g209c242-dirty
 Version: 4.4.154-10
@@ -63,6 +80,26 @@ SHA1: 63d37ed88f2e90f542c130e83623316269431918
 MD5sum: 10c8e29b311b2d62530d022285063517
 Description: Linux kernel headers for 4.4.154-11-gaad28c8-dirty on all
  This package provides kernel header files for 4.4.154-11-gaad28c8-dirty on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-59-rockchip-g5e70f14
+Source: linux-4.4.154-59-rockchip-g5e70f14
+Version: 4.4.154-59-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 70505
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-59-rockchip-g5e70f14/linux-headers-4.4.154-59-rockchip-g5e70f14_4.4.154-59-rockchip_all.deb
+Size: 10119840
+SHA256: 42cc8e57688292815d68512b6a221bd833fb2310355348d184fadbf117577a33
+SHA1: 7cea6e8c03e1bd413c4e74a196f6cf3bc426c38c
+MD5sum: 76f3de71408f3716cfa153b6057b944e
+Description: Linux kernel headers for 4.4.154-59-rockchip-g5e70f14 on all
+ This package provides kernel header files for 4.4.154-59-rockchip-g5e70f14 on all
  .
  This is useful for people who need to build external modules
 
@@ -144,6 +181,26 @@ MD5sum: 0512367c21b8460bbf06370031eaf11d
 Description: Linux kernel, version 4.4.154-11-gaad28c8-dirty
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-11-gaad28c8-dirty.
+
+Package: linux-image-4.4.154-59-rockchip-g5e70f14
+Source: linux-4.4.154-59-rockchip-g5e70f14
+Version: 4.4.154-59-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 68977
+Suggests: linux-firmware-image-4.4.154-59-rockchip-g5e70f14
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-59-rockchip-g5e70f14
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-59-rockchip-g5e70f14/linux-image-4.4.154-59-rockchip-g5e70f14_4.4.154-59-rockchip_all.deb
+Size: 13313628
+SHA256: 6f1c09a3eef314f2c06577aeb27c4bedcc26f6c1106f1649a4fb8d89f25cc221
+SHA1: 86bf7854a68f1a585ec3f36a6b3a3cd9fe607502
+MD5sum: d149c714b0c8416721337dfaad91d2b7
+Description: Linux kernel, version 4.4.154-59-rockchip-g5e70f14
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-59-rockchip-g5e70f14.
 
 Package: linux-image-4.4.154-ge0ce80a-dirty
 Source: linux-4.4.154-ge0ce80a-dirty
