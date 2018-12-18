@@ -274,6 +274,24 @@ Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
 
+Package: rock960ab-rk-ubootimg
+Version: 2017.09-02088-ga198532
+Architecture: all
+Maintainer: Vamrs <dev@vamrs.com>
+Depends: debsums, mtd-utils
+Priority: optional
+Section: admin
+Filename: pool/main/r/rock960ab-rk-ubootimg/rock960ab-rk-ubootimg_2017.09-02088-ga198532_all.deb
+Size: 290704
+SHA256: 6b1f1e6882f69f3a96946e5a1b433d53d9faa68b54a42a5688b7096fe8e47f76
+SHA1: 79e0a0191ce6a565313d6b94f83194cd36677abd
+MD5sum: 111bf6cf6cfb49c003dd0f2f07ec679b
+Description: rock960ab u-boot package
+Multi-Arch: foreign
+Replaces: rock960ab-rk-ubootimg
+Conflicts: rock960ab-rk-ubootimg
+Provides: rock960ab-rk-ubootimg
+
 Package: rockchip-fstab
 Version: 0.1
 Maintainer: Radxa <dev@radxa.com>
