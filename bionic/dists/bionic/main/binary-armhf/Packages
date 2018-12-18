@@ -150,17 +150,17 @@ Description: Rockchip default fstab
 Depends: util-linux, bash
 
 Package: rockchip-overlay
-Version: 0.9
+Version: 1.0
 Maintainer: Radxa <dev@radxa.com>
 Architecture: all
 Component: main
 Depends: linux-base
 Priority: optional
 Section: utils
-Filename: pool/main/r/rockchip-overlay/rockchip-overlay_0.9_all.deb
-Size: 4852
-SHA256: 1e5fd559d2c44e7e55b849a04a2247b9f4730303aa0c63f68f2307d13b218961
-SHA1: 22d2e75de81055d3d960a7e49cfc1aa3b04d0f15
-MD5sum: 0092b5e9a8eb8e9ee9228b5ffb3597a6
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_1.0_all.deb
+Size: 4620
+SHA256: 3794566197531f252c9d8aaa8c6e35033963eb7b96834a13eab784b7fa44156d
+SHA1: 46ec8e04db89cc447c541538752ba8c4c660c851
+MD5sum: 963f53bbd4c3564d8de43746b31b459f
 Description: General rockchip overlay package.
 
