@@ -1,3 +1,17 @@
+Package: ap6255-firmware
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/a/ap6255-firmware/ap6255-firmware_0.1_all.deb
+Size: 321632
+SHA256: 8a8517f6ab02c66ea9ae86028c4f9a68c82059d1460843f09d8bc5b3ef8c548a
+SHA1: 2604951a0877d04eee074eea83116092d982aa81
+MD5sum: c9824442a7eae8879283dc6c1adcfe2c
+Description: General chip ap6255 firmware.
+
 Package: ap6256-firmware
 Version: 0.3
 Maintainer: Radxa <dev@radxa.com>
