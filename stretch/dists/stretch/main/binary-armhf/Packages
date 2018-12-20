@@ -40,6 +40,357 @@ SHA1: 5504a7e3156f99fc4967475cbabcd9df40b2f261
 MD5sum: 9be51e1944a1987243eadeabc8a9b406
 Description: Broadcom bluetooth patching tool
 
+Package: gstreamer1.0-rockchip1
+Source: gstreamer1.0-rockchip
+Version: 20171218-1
+Architecture: armhf
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 55
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base1.0-0 (>= 1.2.0), libgstreamer1.0-0 (>= 1.4.0), librockchip-mpp1
+Homepage: http://www.rock-chips.com/
+Priority: optional
+Section: libs
+Filename: pool/main/g/gstreamer1.0-rockchip/gstreamer1.0-rockchip1_20171218-1_armhf.deb
+Size: 21436
+SHA256: 8ee319ad53dbe4d1b5b79a88c304465bbb0a7d10ace525964463d1a0c157d10a
+SHA1: 6c1a2ff0c720b7845f6f682b2e65f855617d085d
+MD5sum: 68ca49dad5c941e49fa6874b3b3384b7
+Description: The Gstreamer plugins for Rockchip RK3xxx platform.
+
+Package: gstreamer1.0-rockchip1-dbgsym
+Source: gstreamer1.0-rockchip
+Version: 20171218-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 116
+Depends: gstreamer1.0-rockchip1 (= 20171218-1)
+Homepage: http://www.rock-chips.com/
+Priority: extra
+Section: debug
+Filename: pool/main/g/gstreamer1.0-rockchip/gstreamer1.0-rockchip1-dbgsym_20171218-1_armhf.deb
+Size: 93350
+SHA256: 620e12045d2d195420fdeaab265f36e5e50f33162d71490ed226b783508514b5
+SHA1: 87793566635aaa63fb6b534aeb8f7ebdfa4f93ef
+MD5sum: 976554c5fb6f4b6563e15393403b73f4
+Description: Debug symbols for gstreamer1.0-rockchip1
+Build-Ids: 73840da2176d7bd1995862cb326228be0ff89745
+
+Package: gstreamer1.0-rockchip1-extra
+Source: gstreamer1.0-rockchip-extra
+Version: 20180115-1
+Architecture: armhf
+Maintainer: Jacob Chen <jacob2.chen@rock-chips.com>
+Installed-Size: 740
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.47), libgcc1 (>= 1:3.5), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base1.0-0 (>= 1.6.0), libgstreamer1.0-0 (>= 1.8.0), libstdc++6 (>= 4.1.1), libv4l-0 (>= 0.5.0), libx11-6
+Homepage: http://www.rock-chips.com/
+Priority: optional
+Section: libs
+Filename: pool/main/g/gstreamer1.0-rockchip-extra/gstreamer1.0-rockchip1-extra_20180115-1_armhf.deb
+Size: 250366
+SHA256: 69dfcf1ffcd89c5736a3dbce2bc8c6dfd7f2a045f01b1a732946ae04d82e4ff2
+SHA1: c48e57e32c6cd14708536ec8a110d01953062f37
+MD5sum: e213648699c393b7fa2ea5732d789b8a
+Description: The Extra Gstreamer plugins for Rockchip platform.
+
+Package: gstreamer1.0-rockchip1-extra-dbgsym
+Source: gstreamer1.0-rockchip-extra
+Version: 20180115-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jacob Chen <jacob2.chen@rock-chips.com>
+Installed-Size: 743
+Depends: gstreamer1.0-rockchip1-extra (= 20180115-1)
+Homepage: http://www.rock-chips.com/
+Priority: extra
+Section: debug
+Filename: pool/main/g/gstreamer1.0-rockchip-extra/gstreamer1.0-rockchip1-extra-dbgsym_20180115-1_armhf.deb
+Size: 549308
+SHA256: e707a238710da21bdcf2bc11e1b68c503d5ad07b483874d7a0c7af6bfb4317f2
+SHA1: 92a307958041f689bc143019887b980c8a2ee163
+MD5sum: b267ba15a658b081494a8e81506c564d
+Description: Debug symbols for gstreamer1.0-rockchip1-extra
+Build-Ids: 4c1ef79d6639a8d6d34114b31ced2ce8b75edd96 70110a0b2c9a9e2210c7b75f73b1e35158f26c7f 96981c3105689e943fe628fef46b43aefa377cac fe085bc6d127626cdb229ae61cec79dbdc0552a6
+
+Package: libgstreamer-plugins-bad1.0-0
+Source: gst-plugins-bad1.0
+Version: 1.10.4-1
+Architecture: armhf
+Maintainer: Maintainers of GStreamer packages <pkg-gstreamer-maintainers@lists.alioth.debian.org>
+Installed-Size: 2441
+Depends: libc6 (>= 2.7), libegl1-mesa (>= 7.8.1) | libegl1-x11, libgles2-mesa (>= 7.8.1) | libgles2, libglib2.0-0 (>= 2.40), libgstreamer-plugins-base1.0-0 (>= 1.8.0), libgstreamer1.0-0 (>= 1.10.0), liborc-0.4-0 (>= 1:0.4.25), libwayland-client0 (>= 1.9.91), libwayland-cursor0 (>= 1.0.2), libwayland-egl1-mesa (>= 10.0.2) | libwayland-egl1, libx11-6
+Multi-Arch: same
+Homepage: http://gstreamer.freedesktop.org/modules/gst-plugins-bad.html
+Priority: extra
+Section: libs
+Filename: pool/main/g/gst-plugins-bad1.0/libgstreamer-plugins-bad1.0-0_1.10.4-1_armhf.deb
+Size: 1849162
+SHA256: 30b65492dac28b6641e8dd619f6c2dd47c8b50281695ac555c9d15512bc514f1
+SHA1: 727be88ee88aae14b6d7436deb9cb79a3f802458
+MD5sum: 9fe894f0085519de03aa9ef6c976df71
+Description: GStreamer development files for libraries from the "bad" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared
+ to the rest. They might be close to being good quality, but they're missing
+ something - be it a good code review, some documentation, a set of tests, a
+ real live maintainer, or some actual wide use.
+ .
+ This package contains shared GStreamer libraries from the "bad" set. The API
+ is not guaranteed to be stable.
+
+Package: libmali-rk-dev
+Source: libmali-rk
+Version: 1.6-1
+Architecture: armhf
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 981
+Replaces: libegl1-mesa-dev, libgbm-dev, libgles2-mesa-dev, opencl-c-headers
+Provides: libegl1-mesa-dev, libgbm-dev, libgles2-mesa-dev, opencl-c-headers
+Multi-Arch: same
+Homepage: http://www.rock-chips.com/
+Priority: optional
+Section: libdevel
+Filename: pool/main/libm/libmali-rk/libmali-rk-dev_1.6-1_armhf.deb
+Size: 81670
+SHA256: bfcbea358bd755c790ac3f0812ed523cc49299b46f16a784494e9bd74204919c
+SHA1: 16f4401c6fe888d813afd683919558a9bcca000e
+MD5sum: b6673b8d65e8404d3f9d7a1d07336db2
+Description: The mali library for Rockchip RK3288.
+ .
+ This package provides the development environment for compiling programs
+ against the GBM library.
+
+Package: libmali-rk-midgard-t76x-r14p0-r0p0
+Source: libmali-rk
+Version: 1.6-1
+Architecture: armhf
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 17199
+Depends: libc6 (>= 2.15), libdrm2 (>= 2.3.1), libgcc1 (>= 1:3.5), libstdc++6 (>= 4.8), libx11-6, libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb1
+Replaces: libegl1-mesa, libegl1-x11, libgbm1, libgles2-mesa
+Provides: libegl1, libegl1-mesa, libgbm1, libgles2-mesa, libwayland-egl1-mesa
+Multi-Arch: same
+Homepage: http://www.rock-chips.com/
+Priority: optional
+Section: libs
+Filename: pool/main/libm/libmali-rk/libmali-rk-midgard-t76x-r14p0-r0p0_1.6-1_armhf.deb
+Size: 7276504
+SHA256: 11efd3e470b850c6b407cdc7176f59d0f7dcea752f750a0f4bd6d5c283b8950b
+SHA1: 07a8da2a85bb986672eb9540b04f126bdef5dc59
+MD5sum: a0686b2e3a57df077885b87f794db915
+Description: The mali library for Rockchip RK3288(not included RK3288W).
+
+Package: libmali-rk-midgard-t76x-r14p0-r0p0-wayland
+Source: libmali-rk
+Version: 1.6-1
+Architecture: armhf
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 17197
+Depends: libc6 (>= 2.15), libdrm2 (>= 2.3.1), libgcc1 (>= 1:3.5), libstdc++6 (>= 4.8), libwayland-client0 (>= 1.9.91), libwayland-server0 (>= 1.2.0)
+Replaces: libegl1-mesa, libegl1-x11, libgbm1, libgles2-mesa, libwayland-egl1-mesa
+Provides: libegl1, libegl1-mesa, libgbm1, libgles2-mesa, libwayland-egl1-mesa
+Multi-Arch: same
+Homepage: http://www.rock-chips.com/
+Priority: optional
+Section: libs
+Filename: pool/main/libm/libmali-rk/libmali-rk-midgard-t76x-r14p0-r0p0-wayland_1.6-1_armhf.deb
+Size: 7282188
+SHA256: d03eb76f6e64d33a152620028b939d519c7fcd8ad7aedd76056db0754316f03a
+SHA1: 5695ca86a8d27586f072dc8bae14d3c92fb09f3b
+MD5sum: b4d812deb130203f2a79ec6226f09699
+Description: The mali library for Rockchip RK3288(not included RK3288W).
+
+Package: libmali-rk-midgard-t76x-r14p0-r1p0
+Source: libmali-rk
+Version: 1.6-1
+Architecture: armhf
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 17199
+Depends: libc6 (>= 2.15), libdrm2 (>= 2.3.1), libgcc1 (>= 1:3.5), libstdc++6 (>= 4.8), libx11-6, libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb1
+Replaces: libegl1-mesa, libegl1-x11, libgbm1, libgles2-mesa
+Provides: libegl1, libegl1-mesa, libgbm1, libgles2-mesa, libwayland-egl1-mesa
+Multi-Arch: same
+Homepage: http://www.rock-chips.com/
+Priority: optional
+Section: libs
+Filename: pool/main/libm/libmali-rk/libmali-rk-midgard-t76x-r14p0-r1p0_1.6-1_armhf.deb
+Size: 7282086
+SHA256: b2a3376f53359a2fb639f1f501e27a51b924dd661b8fd362c7b2a83b86dc25b5
+SHA1: 797630ec9fa61e0590609dd4434b3e4e2cf9c705
+MD5sum: 9ccf6640b5428ea83bdee2a82dce8a3c
+Description: The mali library for Rockchip RK3288W.
+
+Package: libmali-rk-midgard-t86x-r14p0
+Source: libmali-rk
+Version: 1.6-1
+Architecture: armhf
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 17199
+Depends: libc6 (>= 2.15), libdrm2 (>= 2.3.1), libgcc1 (>= 1:3.5), libstdc++6 (>= 4.8), libx11-6, libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb1
+Replaces: libegl1-mesa, libegl1-x11, libgbm1, libgles2-mesa
+Provides: libegl1, libegl1-mesa, libgbm1, libgles2-mesa, libwayland-egl1-mesa
+Multi-Arch: same
+Homepage: http://www.rock-chips.com/
+Priority: optional
+Section: libs
+Filename: pool/main/libm/libmali-rk/libmali-rk-midgard-t86x-r14p0_1.6-1_armhf.deb
+Size: 7278056
+SHA256: df34a1c39f1bdf06c5a773da9e7cd5cedbbce8b9bdafc1137d4c50f544b9e5f9
+SHA1: 40edfe975be1ce898a459fcc88cebf56a680122f
+MD5sum: e09d3e85f8460dae18d1fd68010781b6
+Description: The mali library for Rockchip RK3399 (32bit).
+
+Package: libmali-rk-utgard-400-r7p0
+Source: libmali-rk
+Version: 1.6-1
+Architecture: armhf
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 875
+Depends: libc6 (>= 2.4), libdrm2 (>= 2.3.1), libx11-6 (>= 2:1.4.99.1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3
+Replaces: libegl1-mesa, libegl1-x11, libgbm1, libgles2-mesa
+Provides: libegl1, libegl1-mesa, libgbm1, libgles2-mesa, libwayland-egl1-mesa
+Multi-Arch: same
+Homepage: http://www.rock-chips.com/
+Priority: optional
+Section: libs
+Filename: pool/main/libm/libmali-rk/libmali-rk-utgard-400-r7p0_1.6-1_armhf.deb
+Size: 414172
+SHA256: 5ba2d814110fa2273fa6e815cce0f8f792f85765a5e80283f855b15d4d697dfe
+SHA1: 86e1a31a98b6565b126f2f907441dda078d0102c
+MD5sum: ea40fb27f870b8e9fcaa1502874a7880
+Description: The mali library for Rockchip RK30 serial.
+
+Package: libmali-rk-utgard-450-r7p0
+Source: libmali-rk
+Version: 1.6-1
+Architecture: armhf
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 875
+Depends: libc6 (>= 2.4), libdrm2 (>= 2.3.1), libx11-6 (>= 2:1.4.99.1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3
+Replaces: libegl1-mesa, libegl1-x11, libgbm1, libgles2-mesa
+Provides: libegl1, libegl1-mesa, libgbm1, libgles2-mesa, libwayland-egl1-mesa
+Multi-Arch: same
+Homepage: http://www.rock-chips.com/
+Priority: optional
+Section: libs
+Filename: pool/main/libm/libmali-rk/libmali-rk-utgard-450-r7p0_1.6-1_armhf.deb
+Size: 413980
+SHA256: 982d1ac93e8504fd2a78d620ed597a0087feede2e2d32f1781e81bcf08122904
+SHA1: 2dd14b21a6d33d855640817c1f782a499e24e01e
+MD5sum: a326a43788c41cd1d23d0a18a3224de7
+Description: The mali library for Rockchip RK3328 (32bit).
+
+Package: librockchip-mpp-dev
+Source: mpp
+Version: 20171218-2
+Architecture: armhf
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 135
+Depends: librockchip-mpp1 (= 20171218-2)
+Homepage: http://www.rock-chips.com
+Priority: optional
+Section: libdevel
+Filename: pool/main/m/mpp/librockchip-mpp-dev_20171218-2_armhf.deb
+Size: 29808
+SHA256: e7b11aacdc08b8db9361386b34271b64bdbbeb57b4c1dcbe964da8b5e45916fa
+SHA1: 86aaaed78f9f3abab02e9928439975b574e96e95
+MD5sum: 6dfaf0e4b4673ee5a3ee7daebbeed31a
+Description: Media Process Platform
+
+Package: librockchip-mpp-static
+Source: mpp
+Version: 20171218-2
+Architecture: armhf
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 107
+Homepage: http://www.rock-chips.com
+Priority: optional
+Section: libs
+Filename: pool/main/m/mpp/librockchip-mpp-static_20171218-2_armhf.deb
+Size: 32852
+SHA256: 1d9913997346e1a96429abf199a3d88b1fd36b4129328fd898eb67bee1c062e5
+SHA1: 44fb9893a89592ef9697ca4e478a73811ad853a9
+MD5sum: 4fe3ff90e7140628523941bedf1a110e
+Description: Media Process Platform
+
+Package: librockchip-mpp1
+Source: mpp
+Version: 20171218-2
+Architecture: armhf
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 653
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.5), libstdc++6 (>= 5)
+Homepage: http://www.rock-chips.com
+Priority: optional
+Section: libs
+Filename: pool/main/m/mpp/librockchip-mpp1_20171218-2_armhf.deb
+Size: 307200
+SHA256: ea2e85aa5261b60c0de001f3910b4d7f431f9c84f7a5054e0deef0341f3eebc6
+SHA1: c8a20286d6f315abf997d4b8261f350d2bae57f0
+MD5sum: 99f74a23137c36a318d8c591c033df90
+Description: Media Process Platform
+
+Package: librockchip-mpp1-dbgsym
+Source: mpp
+Version: 20171218-2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 1124
+Depends: librockchip-mpp1 (= 20171218-2)
+Homepage: http://www.rock-chips.com
+Priority: extra
+Section: debug
+Filename: pool/main/m/mpp/librockchip-mpp1-dbgsym_20171218-2_armhf.deb
+Size: 1019164
+SHA256: 09ff6ff95f977cab527492ea8c0e99b14624d1b7d8a77f997bed1239a9621442
+SHA1: 05ec28db2eb945f9ee20b4d3c5b41a211d8f9b15
+MD5sum: 4cf1db35f89b81f5d188964af7978185
+Description: Debug symbols for librockchip-mpp1
+Build-Ids: a11f6bfa8a0677924fd15f62f8d2e595f4103aa2
+
+Package: librockchip-vpu0
+Source: mpp
+Version: 20171218-2
+Architecture: armhf
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 54
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), librockchip-mpp1, libstdc++6 (>= 5)
+Homepage: http://www.rock-chips.com
+Priority: optional
+Section: libs
+Filename: pool/main/m/mpp/librockchip-vpu0_20171218-2_armhf.deb
+Size: 21950
+SHA256: e7aca0a4552c9072f62d9e61b74576da10c0d6d3bad5fa0776212423291874bd
+SHA1: d3a0bfb1f32a08c97c41746f211312fa862aec7e
+MD5sum: fdc3ee7b163b75e059ead623e5f4a4a4
+Description: Media Process Platform
+
+Package: librockchip-vpu0-dbgsym
+Source: mpp
+Version: 20171218-2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 82
+Depends: librockchip-vpu0 (= 20171218-2)
+Homepage: http://www.rock-chips.com
+Priority: extra
+Section: debug
+Filename: pool/main/m/mpp/librockchip-vpu0-dbgsym_20171218-2_armhf.deb
+Size: 61172
+SHA256: 9490bf89954a5987facbe23c1a4323d03b016a8e63e8df0d7dc8f1b0660a2789
+SHA1: a75d304beae1b64d6f83b132509d20d1d0d46aae
+MD5sum: 1614c3ab616662e1654c5db2233f7cc5
+Description: Debug symbols for librockchip-vpu0
+Build-Ids: 52d7db6d52871437fec95ada7814ca5893207696
+
 Package: linux-firmware-image-4.4.154-59-rockchip-g5e70f14
 Source: linux-4.4.154-59-rockchip-g5e70f14
 Version: 4.4.154-59-rockchip
@@ -306,6 +657,42 @@ SHA1: e67fb4789ced8ae0e8f93fde5523921d472274ad
 MD5sum: 33a9fd6da925a5955af5a59cfbfa4426
 Description: Rockchip default fstab
 Depends: util-linux, bash
+
+Package: rockchip-mpp-demos
+Source: mpp
+Version: 20171218-2
+Architecture: armhf
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 193
+Depends: librockchip-mpp1 (= 20171218-2), librockchip-vpu0 (= 20171218-2)
+Homepage: http://www.rock-chips.com
+Priority: optional
+Section: libs
+Filename: pool/main/m/mpp/rockchip-mpp-demos_20171218-2_armhf.deb
+Size: 52300
+SHA256: fd2a5846f2075a3e02d7c7fd9dcb9152693320105612c66f20855f990cf06f60
+SHA1: 792165dc55a1030d0667f78fe05cdafe32b9e24b
+MD5sum: 29d5124092fd582e125ffb8b84820b61
+Description: Media Process Platform
+
+Package: rockchip-mpp-demos-dbgsym
+Source: mpp
+Version: 20171218-2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 300
+Depends: rockchip-mpp-demos (= 20171218-2)
+Homepage: http://www.rock-chips.com
+Priority: extra
+Section: debug
+Filename: pool/main/m/mpp/rockchip-mpp-demos-dbgsym_20171218-2_armhf.deb
+Size: 207160
+SHA256: 4683b8c461f18964cccca49cc2b8da78195025e2ae84474b8f2f0c4fde91d486
+SHA1: 18882482cc7dd3db8d354a13b3c4c00a5ea45087
+MD5sum: 9f87cb38974179ddcd21f22d0f289dbf
+Description: Debug symbols for rockchip-mpp-demos
+Build-Ids: 154f31d450fef30f52227253b365b6a2af122d47 2df858616f40b3a0a74aac72c92c44797c7fbfd1 30337d28b57fe17bff9cdbea9528997d808d1452 475d28e63aabe41e9ab023f5fd0470ad09dc765e 6ab6db001b829c0f8216fa04c65c843680566fa0 702643c88d592d288ea916af95edd7aab3bd5782 731bc22cfb76d2a473d396edb4d9ff7451455a97 8ad7f1f74a34bf7977774f757f90c7e23d2f27cf b9b64839343ede570ec2448bc590b5a0eb8e506f e5e0815e45f2bc67f424889836f7c26906d4be80 f020efd98f18ed1356f47ccdafab1ad5cdcbd85c
 
 Package: rockchip-overlay
 Version: 1.0
