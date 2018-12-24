@@ -1,0 +1,708 @@
+Package: ambiance-flat-colors
+Version: 14.04.2~trusty~NoobsLab.com
+Architecture: all
+Maintainer: Umair Riaz <noobslab.com@gmail.com>
+Installed-Size: 25731
+Depends: gtk2-engines-murrine, gtk2-engines-pixbuf
+Homepage: http://www.NoobsLab.com
+Priority: extra
+Section: gnome
+Filename: pool/main/a/ambiance-flat-colors/ambiance-flat-colors_14.04.2~trusty~NoobsLab.com_all.deb
+Size: 469934
+SHA256: 047b1ad82ebf19e4c0785b46d8e9eefbe748b5c9bf286b43f7e81b4cc3eea5d5
+SHA1: d407f0c3e0f729e97165c673dd49176d50562a83
+MD5sum: a6dc41dd5324d0f885baaa492919f82f
+Description: Ambiance & Radiance Flat is a Modern, Beautiful
+  and flat "reboot" of the Ambiance & Radiance GTK 2/3 Themes.
+  It features modern and clean "flat" look of your choice of 13 vibrant colors
+
+Package: blueman
+Version: 1.23-git201403102151-1ubuntu1
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2494
+Depends: libbluetooth3 (>= 4.91), libc6 (>= 2.4), libglib2.0-0 (>= 2.31.8), libgtk2.0-0 (>= 2.16), libpython2.7 (>= 2.7), libstartup-notification0 (>= 0.4), python (>= 2.7), python (<< 2.8), python:any (>= 2.7.1-0ubuntu2), dbus, bluez (>= 4.61), obex-data-server (>= 0.4.3), python-gtk2 (>= 2.12), python-dbus, python-gi, python-notify, notification-daemon, librsvg2-common, gnome-icon-theme, libpulse-mainloop-glib0
+Recommends: python-gconf, policykit-1
+Homepage: https://launchpad.net/blueman
+Priority: optional
+Section: x11
+Filename: pool/main/b/blueman/blueman_1.23-git201403102151-1ubuntu1_armhf.deb
+Size: 383936
+SHA256: 0aa346aac9ec43a7a8a608349907822fb1c74662ad02b95f81d03196043a248d
+SHA1: 1d1356e47565bb4493b3e93eb4f62c43619ae56c
+MD5sum: 60f4b38919a30e1446f4e3fcacb33c7d
+Description: Graphical bluetooth manager
+ Blueman is a GTK+ bluetooth management utility for GNOME using bluez D-Bus
+ backend.
+Original-Maintainer: Christopher Schramm <debian@shakaweb.org>
+
+Package: bluetooth
+Source: bluez
+Version: 4.101-0ubuntu13
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 75
+Depends: bluez
+Recommends: bluez-alsa, bluez-cups, bluez-gstreamer
+Homepage: http://www.bluez.org
+Priority: optional
+Section: admin
+Filename: pool/main/b/bluez/bluetooth_4.101-0ubuntu13_all.deb
+Size: 12226
+SHA256: 48753c91cbaa0a22db13aa5296a63522aaf413cc51a57f675aa691659aae0852
+SHA1: 43a1df07a351ea6101941bb6b25a615d4f19dbda
+MD5sum: c35df3a68fb048e3c75f25f0873928b6
+Description: Bluetooth support
+ This package provides all of the different plugins supported
+ by the Bluez bluetooth stack.
+Original-Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+
+Package: bluez
+Version: 4.101-0ubuntu13.1
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1661
+Depends: libc6 (>= 2.15), libdbus-1-3 (>= 1.1.1), libglib2.0-0 (>= 2.28.0), libreadline6 (>= 6.0), libudev1 (>= 183), libusb-0.1-4 (>= 2:0.1.12), sysv-rc (>= 2.88dsf-24) | file-rc (>= 0.8.16), module-init-tools, udev (>= 170-1), lsb-base, dbus, python3-dbus
+Suggests: bluez-hcidump
+Conflicts: bluez-audio (<= 3.36-3), bluez-utils (<= 3.36-3)
+Breaks: udev (<< 170-1)
+Replaces: bluez-audio (<= 3.36-3), bluez-input, bluez-network, bluez-serial, bluez-utils (<= 3.36-3), udev (<< 170-1)
+Multi-Arch: foreign
+Homepage: http://www.bluez.org
+Priority: optional
+Section: admin
+Filename: pool/main/b/bluez/bluez_4.101-0ubuntu13.1_armhf.deb
+Size: 503910
+SHA256: f9d9183692ff6f04781de5c9044ffc854c3a2a424a8f61ef6bc94cd77ab9a06e
+SHA1: 76f58d6a510856952b3601fca6ee55876d4f3521
+MD5sum: 43a5c171d13c24d66e26709161359217
+Description: Bluetooth tools and daemons
+ This package contains tools and system daemons for using Bluetooth devices.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+Original-Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+
+Package: chromium-browser
+Version: 41.0.2272.76-0ubuntu0.14.10.1.1118
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 125462
+Pre-Depends: dpkg (>= 1.15.6)
+Depends: gconf-service, libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.16), libcairo2 (>= 1.6.0), libcap2 (>= 2.10), libcups2 (>= 1.4.0), libdbus-1-3 (>= 1.2.14), libexpat1 (>= 2.0.1), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:4.4.0), libgconf-2-4 (>= 3.2.5), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgnome-keyring0 (>= 3.2.2-2~), libgtk2.0-0 (>= 2.24.0), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10), libnss3 (>= 2:3.14.3), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libstdc++6 (>= 4.8), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3 (>= 1:5.0), libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.99.2), libxrender1, libxss1, libxtst6, bash (>= 4), xdg-utils, chromium-codecs-ffmpeg-extra (>= 0.6) | chromium-codecs-ffmpeg (>= 0.6)
+Recommends: chromium-browser-l10n
+Suggests: webaccounts-chromium-extension, unity-chromium-extension, chromiumflashplugin
+Conflicts: chromium-browser-inspector
+Replaces: chromium-browser-inspector
+Provides: chromium-browser-inspector, www-browser
+Homepage: http://code.google.com/chromium/
+Priority: optional
+Section: web
+Filename: pool/main/c/chromium-browser/chromium-browser_41.0.2272.76-0ubuntu0.14.10.1.1118_armhf.deb
+Size: 43787450
+SHA256: 7a212b524367ba98a2eb3f46cf1e0b305efb83d630cc122b8bb72f12e7c6b4c5
+SHA1: 0460ee03530192820f904b769ab813c2d1f526f6
+MD5sum: b6898c7d70e354ead6e3e980e864b9ea
+Description: Chromium web browser, open-source version of Chrome
+ An open-source browser project that aims to build a safer, faster, and more
+ stable way for all Internet users to experience the web.
+
+Package: chromium-browser-l10n
+Source: chromium-browser
+Version: 41.0.2272.76-0ubuntu0.14.10.1.1118
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 19086
+Pre-Depends: dpkg (>= 1.15.6)
+Depends: chromium-browser (>= 41.0.2272.76-0ubuntu0.14.10.1.1118), chromium-browser (<< 41.0.2272.76-0ubuntu0.14.10.1.1118.1~)
+Replaces: chromium-browser
+Homepage: http://code.google.com/chromium/
+Priority: optional
+Section: web
+Filename: pool/main/c/chromium-browser/chromium-browser-l10n_41.0.2272.76-0ubuntu0.14.10.1.1118_all.deb
+Size: 3206378
+SHA256: 9b984e61cf1a48aec5dea62a923364f3b4a02e7ec87e693640cca387aa43fd34
+SHA1: 5fccb7f61c5e5fb6b3dcb813a314df0c1a85e6b2
+MD5sum: 4ab5d536241cbd87278399100c2d1935
+Description: chromium-browser language packages
+ An open-source browser project that aims to build a safer, faster, and more
+ stable way for all Internet users to experience the web.
+ .
+ This package contains language packages for 65 languages:
+ am, ar, ast, bg, bn, bs, ca, ca@valencia, cs, da, de, el, en-AU, en-GB, eo,
+ es-419, es, et, eu, fa, fil, fi, fr, gl, gu, he, hi, hr, hu, hy, ia, id, it,
+ ja, ka, kn, ko, ku, kw, lt, lv, ml, mr, ms, nb, nl, pl, pt-BR, pt-PT, ro, ru,
+ sk, sl, sr, sv, sw, ta, te, th, tr, ug, uk, vi, zh-CN, zh-TW
+
+Package: chromium-chromedriver
+Source: chromium-browser
+Version: 41.0.2272.76-0ubuntu0.14.10.1.1118
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1916
+Pre-Depends: dpkg (>= 1.15.6)
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.6), libx11-6, libxi6, chromium-browser (>= 4.0.203.0~)
+Homepage: http://code.google.com/chromium/
+Priority: optional
+Section: web
+Filename: pool/main/c/chromium-browser/chromium-chromedriver_41.0.2272.76-0ubuntu0.14.10.1.1118_armhf.deb
+Size: 354948
+SHA256: 7d150b11e691a7cbb0f35d69208285c115f491969c7be6361bbc5477a2870daf
+SHA1: 567ac49752c63c81c704bad42d9d26ea8e169f21
+MD5sum: c909cabed8eb351b265677e78c890ab7
+Description: WebDriver driver for the Chromium Browser
+ Chromedriver serves as a bridge between Chromium Browser and Selenium
+ WebDriver.
+ .
+ See http://code.google.com/p/selenium/wiki/ChromeDriver for details.
+
+Package: chromium-chromedriver-dbg
+Source: chromium-browser
+Version: 41.0.2272.76-0ubuntu0.14.10.1.1118
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 12025
+Pre-Depends: dpkg (>= 1.15.6)
+Depends: chromium-chromedriver (= 41.0.2272.76-0ubuntu0.14.10.1.1118)
+Homepage: http://code.google.com/chromium/
+Priority: extra
+Section: debug
+Filename: pool/main/c/chromium-browser/chromium-chromedriver-dbg_41.0.2272.76-0ubuntu0.14.10.1.1118_armhf.deb
+Size: 2755746
+SHA256: 87e7777ee69c505e503e54854323a992e8a26d39ec6301c02247e82becca6811
+SHA1: 7d55f536604ae00173ab16b5dbbdb70824a947d2
+MD5sum: 0a6aac66d263a26576e59b09fc75cc3f
+Description: chromium-chromedriver debug symbols
+ Debug symbols for the chromium-chromedriver package.
+
+Package: chromium-codecs-ffmpeg
+Source: chromium-browser
+Version: 41.0.2272.76-0ubuntu0.14.10.1.1118
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1934
+Pre-Depends: dpkg (>= 1.15.6)
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.4.0), zlib1g (>= 1:1.1.4)
+Conflicts: chromium-codecs-ffmpeg-extra
+Replaces: chromium-codecs-ffmpeg-extra
+Homepage: http://code.google.com/chromium/
+Priority: optional
+Section: web
+Filename: pool/main/c/chromium-browser/chromium-codecs-ffmpeg_41.0.2272.76-0ubuntu0.14.10.1.1118_armhf.deb
+Size: 463236
+SHA256: ac835b112ec3270c9b718e780417d87f482f28b426abe15ecd35d8917fe8af17
+SHA1: 4315cc0516ed1ceec1263b18d8ec05817a289388
+MD5sum: 3d2e15dd715c968c1c8135e0c1774374
+Description: Free ffmpeg codecs for the Chromium Browser
+ An open-source browser project that aims to build a safer, faster, and more
+ stable way for all Internet users to experience the web.
+ .
+ This package contains the multi-threaded ffmpeg codecs needed for the HTML5
+ <audio> and <video> tags. Only the free ogg, vorbis and theora codecs are
+ included. See chromium-codecs-ffmpeg-extra for additional codecs
+
+Package: chromium-codecs-ffmpeg-dbg
+Source: chromium-browser
+Version: 41.0.2272.76-0ubuntu0.14.10.1.1118
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 4591
+Pre-Depends: dpkg (>= 1.15.6)
+Depends: chromium-codecs-ffmpeg (= 41.0.2272.76-0ubuntu0.14.10.1.1118)
+Conflicts: chromium-codecs-ffmpeg-extra-dbg
+Replaces: chromium-codecs-ffmpeg-extra-dbg
+Homepage: http://code.google.com/chromium/
+Priority: extra
+Section: debug
+Filename: pool/main/c/chromium-browser/chromium-codecs-ffmpeg-dbg_41.0.2272.76-0ubuntu0.14.10.1.1118_armhf.deb
+Size: 887760
+SHA256: 6f3191951f8c4e34708752eff3a9cea5c74635ca112f29c882eb076361db46b9
+SHA1: 9c89824c638dafb51004c795438c2c9acca9f818
+MD5sum: e66ba11e6968b63b3e45b337e05ca0f9
+Description: chromium-codecs-ffmpeg debug symbols
+ Debug symbols for the free ffmpeg-mt codecs
+
+Package: chromium-codecs-ffmpeg-extra
+Source: chromium-browser
+Version: 41.0.2272.76-0ubuntu0.14.10.1.1118
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2557
+Pre-Depends: dpkg (>= 1.15.6)
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.4.0), zlib1g (>= 1:1.1.4)
+Conflicts: chromium-codecs-ffmpeg
+Replaces: chromium-codecs-ffmpeg
+Homepage: http://code.google.com/chromium/
+Priority: optional
+Section: web
+Filename: pool/main/c/chromium-browser/chromium-codecs-ffmpeg-extra_41.0.2272.76-0ubuntu0.14.10.1.1118_armhf.deb
+Size: 742300
+SHA256: 39df6aa043101f9ec3a704ae9f252ffc6a6b9432a24e2b44e712d372e46e6128
+SHA1: 5e03001de5f81b7439b0fa89219f9cdb3a3e9f3f
+MD5sum: 03c5ac58bb5f652c661d96081841ee0a
+Description: Extra ffmpeg codecs for the Chromium Browser
+ An open-source browser project that aims to build a safer, faster, and more
+ stable way for all Internet users to experience the web.
+ .
+ This package contains the multi-threaded ffmpeg codecs needed for the HTML5
+ <audio> and <video> tags. In addition to the patent-free ogg, vorbis and
+ theora codecs, aac/ac3/mpeg4audio/h264/mov/mp3 are also included.  See
+ chromium-codecs-ffmpeg if you prefer only the patent-free codecs
+
+Package: chromium-codecs-ffmpeg-extra-dbg
+Source: chromium-browser
+Version: 41.0.2272.76-0ubuntu0.14.10.1.1118
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 7796
+Pre-Depends: dpkg (>= 1.15.6)
+Depends: chromium-codecs-ffmpeg-extra (= 41.0.2272.76-0ubuntu0.14.10.1.1118)
+Conflicts: chromium-codecs-ffmpeg-dbg
+Replaces: chromium-codecs-ffmpeg-dbg
+Homepage: http://code.google.com/chromium/
+Priority: extra
+Section: debug
+Filename: pool/main/c/chromium-browser/chromium-codecs-ffmpeg-extra-dbg_41.0.2272.76-0ubuntu0.14.10.1.1118_armhf.deb
+Size: 1611580
+SHA256: de1c151fcd211eefa7d5674ea44cd96ae6c1cbc50e983b09d51f39ad41ed205d
+SHA1: 7d189b65458424bcbee7dc5e545f0c0a15a93236
+MD5sum: f3e976c09a74d76667bfc6087c7078d5
+Description: chromium-codecs-ffmpeg-extra debug symbols
+ Debug symbols for the extra ffmpeg-mt codecs
+
+Package: fonts-ubuntu-font-family-console
+Source: ubuntu-font-family-sources
+Version: 0.80-0ubuntu6
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Paul Sladen <ubuntu@paul.sladen.org>
+Installed-Size: 59
+Multi-Arch: foreign
+Homepage: http://font.ubuntu.com/
+Priority: optional
+Section: fonts
+Filename: pool/main/u/ubuntu-font-family-sources/fonts-ubuntu-font-family-console_0.80-0ubuntu6_all.deb
+Size: 15614
+SHA256: 55fe56e51632d3267ce83743e5c68e0ed9118b4c6ed4ba53a166cd556d7b21ae
+SHA1: 13890f11cadd482ef047a765b5f43cdad696897b
+MD5sum: 1a7533372064037f77632cc1f53fd362
+Description: Ubuntu Font Family Linux console fonts, sans-serif monospace
+ The Ubuntu Font Family are a set of matching new libre/open fonts in
+ development during 2010--2011. The development is being funded by
+ Canonical Ltd on behalf the wider Free Software community and the
+ Ubuntu project.  The technical font design work and implementation is
+ being undertaken by Dalton Maag.
+ .
+ This package contains the "Ubuntu Mono" monospace members of the
+ typeface, rendered for Linux console use.  These bitmap fonts can be
+ loaded by dropping to a console with Ctrl-Alt-F1 and executing
+ "setfont /usr/share/consolefonts/UbuntuMono*.psf"
+ .
+ Both the final font Truetype/OpenType files and the design files used
+ to produce the font family are distributed under an open licence and
+ you are expressly encouraged to experiment, modify, share and improve.
+
+Package: hostapd-ap6335
+Version: 1-linux-3.10.0
+Architecture: armhf
+Maintainer: Build Developer <build@radxa.com>
+Depends: dnsmasq, haveged, hostapd
+Homepage: http://radxa.com/Rock2/Wireless
+Priority: optional
+Section: net
+Filename: pool/main/h/hostapd-ap6335/hostapd-ap6335_1-linux-3.10.0_armhf.deb
+Size: 11114
+SHA256: 7dbf91f1296b0b4f6082395cd549426335d31d1fd3aa7456f412457f4721a5b1
+SHA1: af9129a2f69824db20c2059a4bec1a5a70f44dc5
+MD5sum: d7de6f94b3f7a0b8ed28adba34f513bc
+Description: hostapd is a user space daemon for wireless access point and authentication servers
+ it can function well on the AP6335 chip, rock2, rock_square are the use of this chip
+
+Package: hostapd-rtl8188eu
+Version: 1-linux-3.0.36
+Architecture: armhf
+Maintainer: Build Developer <build@radxa.com>
+Depends: dnsmasq, haveged
+Homepage: http://radxa.com/Rock/Wireless
+Priority: optional
+Section: net
+Filename: pool/main/h/hostapd-rtl8188eu/hostapd-rtl8188eu_1-linux-3.0.36_armhf.deb
+Size: 829172
+SHA256: cbd401049dcaf7927eb765d08c8452a8d9720e8834261486af41b5bb7da25eff
+SHA1: eb1bdf3809aa5c0ec8fc2ff374b6e4ad84fba464
+MD5sum: f8ed40c30bada2ead8c6149473392b39
+Description: hostapd is a user space daemon for wireless access point and authentication servers
+ it can function well on the rtl8188eu chip, rock_lite is the use of this chip
+
+Package: hostapd-rtl8723au
+Version: 1-linux-3.0.36
+Architecture: armhf
+Maintainer: Build Developer <build@radxa.com>
+Depends: dnsmasq, haveged
+Homepage: http://radxa.com/Rock/Wireless
+Priority: optional
+Section: net
+Filename: pool/main/h/hostapd-rtl8723au/hostapd-rtl8723au_1-linux-3.0.36_armhf.deb
+Size: 945522
+SHA256: 50eb72b0ddb724dfeb087e7871c6eda1643653ca4b7fe65b3d73b08035fe3816
+SHA1: 875def321c8b38ebca518ba87a2d19618f71d161
+MD5sum: ecc64495e0079296d1dcf08ce69d6135
+Description: hostapd is a user space daemon for wireless access point and authentication servers
+ it can function well on the rtl8723au chip, rock, rock_pro are the use of this chip
+
+Package: libpepflashplayer
+Version: 11.5.31.105-1
+Architecture: armhf
+Depends: libc6 (>= 2.19), libgcc1 (>= 1:4.9.2)
+Maintainer: build developer <build@radxa.com>
+Priority: optional
+Section: net
+Filename: pool/main/libp/libpepflashplayer/libpepflashplayer_11.5.31.105-1_armhf.deb
+Size: 5922738
+SHA256: 0ea937572348570739d54d2997a28b8dc5607e106c1e0a4d7df1761c090a03fa
+SHA1: 9ebc06a5903d8e570fcde3ac75bef06bcae1abaa
+MD5sum: 8d0adb0f2ab8e81b6f238a7859f8666f
+Description: Flash player plugin for chromium browser on ARM platform
+ This package provide Adobe flash player for chromium browser
+
+Package: libwiringx
+Version: 1.0--g
+Architecture: armhf
+Installed-Size: 200
+Maintainer: CurlyMo <info@pilight.org>
+Priority: optional
+Section: devel
+Filename: pool/main/libw/libwiringx/libwiringx_1.0--g_armhf.deb
+Size: 69532
+SHA256: 0932b3f5beff84910d71698932bcd7868881e892589d2bfb776f898c151ace2a
+SHA1: e355fd9481df3433cd3e3a0a771d47a2700cc101
+MD5sum: 86d4b48f2667e1d5a642341bf0ef4ee9
+Description: Cross-platform GPIO Interface
+
+Package: linux-image-3.0.36-rock
+version: 3.0.36+git150720+8ba5020-1
+Architecture: armhf
+Maintainer: Jim Robert <jim@radxa.com>
+Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
+Depends: coreutils (>= 5.96)
+Provides: linux-image, linux-image-3.0.36-rock
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-image-3.0.36-rock/linux-image-3.0.36-rock_3.0.36+git150720+8ba5020-1_armhf.deb
+Size: 7756508
+SHA256: 1e0a637a68d4870f64a9380a3bcded0e1f1cda0d2a553aadd9e6d56c0283ba7f
+SHA1: 5efed7869dd34fe690b5db07321c53eaaa6e8259
+MD5sum: 6c2afa76bca9ac75fb4efce183cba6a4
+Description: Linux kernel 3.0.36 for radxa rock(2013 version)
+ The Linux kernel 3.0.36 and modules for use on rock.
+ This kernel is developed and maintained by radxa
+
+Package: linux-image-3.0.36-rock-lite
+version: 3.0.36+git150916+ea43a29-1
+Architecture: armhf
+Maintainer: Jim Robert <jim@radxa.com>
+Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
+Depends: coreutils (>= 5.96)
+Provides: linux-image, linux-image-3.0.36-rock-lite
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-image-3.0.36-rock-lite/linux-image-3.0.36-rock-lite_3.0.36+git150916+ea43a29-1_armhf.deb
+Size: 9879406
+SHA256: a2340d783abdfcee4de4892e23817fc7f7f44afcde366ef6d77fba0a278e580f
+SHA1: 5a3db0dfc53b5f84a5991a264880e20b10160b50
+MD5sum: 578ac72f371830c414f2ed53e6728960
+Description: Linux kernel 3.0.36 for radxa rock pro and lite
+ The Linux kernel 3.0.36 and modules for use on rock pro and lite.
+ This kernel is developed and maintained by radxa
+
+Package: linux-image-3.0.36-rock-pro
+version: 3.0.36+git150720+d708e8b-1
+Architecture: armhf
+Maintainer: Jim Robert <jim@radxa.com>
+Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
+Depends: coreutils (>= 5.96)
+Provides: linux-image, linux-image-3.0.36-rock-pro
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-image-3.0.36-rock-pro/linux-image-3.0.36-rock-pro_3.0.36+git150720+d708e8b-1_armhf.deb
+Size: 9875802
+SHA256: 0c3f2bfb1028c14f5f894300be9d89dd9f2a01bf4772c7f039e9acc84b85132b
+SHA1: 23b0c4681cef8873494cceefceb46a1271ec0531
+MD5sum: 7c14154d7a928c2b28a618053e9cc8d8
+Description: Linux kernel 3.0.36 for radxa rock pro and lite
+ The Linux kernel 3.0.36 and modules for use on rock pro and lite.
+ This kernel is developed and maintained by radxa
+
+Package: linux-image-3.10.0-rock2-square
+Version: 3.10.0+git150805+0322e9b-1
+Architecture: armhf
+Maintainer: Jim Robert <jim@radxa.com>
+Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
+Depends: coreutils (>= 5.96)
+Provides: linux-image, linux-image-3.10.0-rock2-square
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-image-3.10.0-rock2-square/linux-image-3.10.0-rock2-square_3.10.0+git150805+0322e9b-1_armhf.deb
+Size: 10134272
+SHA256: f646f1984fed80842dbb75e4b06164d0373bf872d8db10d0925a0327beeaca8c
+SHA1: 83c1f389625913edc1c03890642d2b02bb8982df
+MD5sum: f04c9e9aa75122bb323bf4f4a19a65bf
+Description: Linux image 3.10.0 for Radxa Rock2 Square
+ The Linux kernel 3.10.0 and modules for Radxa Rock2 Square.
+ This kernel is developed and maintained by radxa
+
+Package: linux-source-3.10.0-rock2-square
+Version: 3.10.0+git150317+69eecea-1
+Architecture: armhf
+Maintainer: Jim Robert <jim@radxa.com>
+Installed-Size: 113358
+Depends: binutils, bzip2, file, p7zip
+Recommends: libc6-dev | libc-dev, gcc | c-compiler, make (>= 3.80-10), po-debconf, gettext, binutils (>= 2.12), util-linux (>= 2.10o), module-init-tools (>= 0.9.10), debianutils (>= 2.30)
+Suggests: libncurses-dev, kernel-package, xmlto, libdb3-dev, docbook-utils, e2fsprogs (>= 1.29), linux-initramfs-tool
+Provides: linux-source, linux-source-3.10.0
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-source-3.10.0-rock2-square/linux-source-3.10.0-rock2-square_3.10.0+git150317+69eecea-1_armhf.deb
+Size: 99300278
+SHA256: 254fd9ce7991dec6ecbc1961f0ae849992e730ccb2c838b946ef75cfbe8ef481
+SHA1: c44e7e68b2e3c910d02290dadbfe3e063ac70a79
+MD5sum: 74a1edb46cacc12abe638d76b83212aa
+Description: Linux kernel source for version 3.10.0+git150317+69eecea-1
+ This package provides the source code for the Linux kernel, specifically,
+ version 3.10.0+git150317+69eecea-1.
+ .
+ You may configure the kernel to your setup by typing "make config"
+ and following instructions, but you could get ncursesX.X-dev and try
+ "make menuconfig" for a jazzier, and easier to use interface. There
+ are options to use QT or GNOME based configuration interfaces, but they
+ need additional packages to be installed. Also, please read the detailed
+ documentation in the file README.headers.gz in the documentation directory
+ /usr/share/doc/linux-source-3.10.0-rock2-square/.
+ .
+ If you wish to use this package to create a custom Linux kernel, then
+ it is suggested that you investigate the package kernel-package,
+ which has been designed to ease the task of creating kernel image
+ packages.
+
+Package: luvcview
+Version: 1:0.2.6-6
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Aurelien Jarno <aurel32@debian.org>
+Installed-Size: 111
+Depends: libc6 (>= 2.15-0ubuntu8), libsdl1.2debian (>= 1.2.10-1), libv4l-0 (>= 0.5.0)
+Homepage: http://luvcview.sourceforge.net
+Priority: optional
+Section: x11
+Filename: pool/main/l/luvcview/luvcview_0.2.6-6_armhf.deb
+Size: 48620
+SHA256: efd7c916b6bb6bcf630ac79cf13332adbfae04331bd1088ad7a845aa1382c83d
+SHA1: 62ebf11890c3c75734425268520628eb87b7effa
+MD5sum: 5cfe4b7d2970ba02d6818b4073b429c1
+Description: USB Video Class grabber
+ luvcview is a camera viewer for UVC based webcams. It includes an mjpeg
+ decoder and is able to save the video stream as an AVI file.
+
+Package: machybris
+Version: 0.1.0
+License: unknown
+Vendor: firefly@firefly
+Architecture: armhf
+Maintainer: <firefly@firefly>
+Installed-Size: 202685
+Depends: kbd, fbset, openssh-server, sshfs
+Homepage: http://example.com/no-uri-given
+Priority: extra
+Section: default
+Filename: pool/main/m/machybris/machybris_0.1.0_armhf.deb
+Size: 94472800
+SHA256: d81231898dd835e8aa15fddb09e9038cf6059e6cae3e68e75c94bbd6ff9da6f2
+SHA1: 31d2586c58c5a9f0eccae9a7930f8fb738e1321c
+MD5sum: 6e457f0fe6d05e331cc763632774bd41
+Description: no description given
+
+Package: mackodi
+Version: 0.1.0
+License: unknown
+Vendor: rock@rabian
+Architecture: armhf
+Maintainer: <rock@rabian>
+Installed-Size: 70156
+Depends: libasound2, libavahi-client3, libavahi-common3, libbluetooth3, libbz2-1.0, libcap2, libcdio13, libdbus-1-3, libdvdread4, libexpat1, libfreetype6, libfribidi0, libftgl2, libjasper1, libjbig0, libjpeg62-turbo, liblzo2-2, libmicrohttpd10, libmysqlclient18, libpcre3, libpcrecpp0, libpng12-0, libpostproc52, libpulse0, libpython2.7, libsamplerate0, libsidplay2, libsmbclient, libsqlite3-0, libssh-4, libssl1.0.0, libtag1c2a, libtiff5, libtinyxml2.6.2, libudev1, libxml2, libxslt1.1, libyajl2, libcurl3-gnutls, libass5, libbluray1, libcec2, libflac8, libhdhomerun1, libmad0, libmodplug1, libmp3lame0, libmpeg2-4, libnfs4, libogg0, libplist2, librtmp1, libshairport2, libvorbis0a, libvorbisenc2, libvorbisfile3, fonts-roboto, libjs-jquery, libjs-iscroll, python-imaging, python
+Homepage: http://example.com/no-uri-given
+Priority: extra
+Section: default
+Filename: pool/main/m/mackodi/mackodi_0.1.0_armhf.deb
+Size: 36716778
+SHA256: 528b499978c6b2cfb701dcee51e4e4a4947259795384b8b7358df54e9864c40a
+SHA1: a3365b3bbf58956bc704d2f61840c88a45a3eb34
+MD5sum: 6c75b624c0738c20846d3dff4247d001
+Description: no description given
+
+Package: mali-opengl-es-sdk
+Version: 2.4.4
+Architecture: armhf
+Maintainer: Mali Developer Center <support@arm.com>
+Homepage: http://malideveloper.arm.com/
+Priority: optional
+Section: utils
+Filename: pool/main/m/mali-opengl-es-sdk/mali-opengl-es-sdk_2.4.4_armhf.deb
+Size: 18571368
+SHA256: 67b4aa9961be2249ae72f50e00bdf09bb511b148b535f7f8e27e88faaa1276d0
+SHA1: 27aa2abff16aa3acda52d789b9ee3b277f4759ce
+MD5sum: 09f9b3504e1605bc12a3a6867fff0c2a
+Description: The various examples and tutorials are built upon a simple framework that can be easily inte	grated within your own applications. These samples currently build for fbdev.
+
+Package: mali-t76x-r5p0-06rel0-linux-1+fbdev
+Version: 1-r5p0-06rel0
+Architecture: armhf
+Maintainer: Mali Developer Center <support@arm.com>
+Homepage: http://malideveloper.arm.com/
+Priority: optional
+Section: utils
+Filename: pool/main/m/mali-t76x-r5p0-06rel0-linux-1+fbdev/mali-t76x-r5p0-06rel0-linux-1+fbdev_1-r5p0-06rel0_armhf.deb
+Size: 6356352
+SHA256: 0f6359c9499a89432b43eca324f1bb2be2f3f54ed84717a408b8ca004cb171d6
+SHA1: 6da09b8bb1e17facf15a36630f253353a1ceda23
+MD5sum: ebc8c9a9da71030db7c866b7718b980c
+Description: Source code for Mali-T6xx, Mali-T7xx & Mali-T860/T880 GPU Kernel Device Drivers
+   	It easier to include Mali GPU drivers on any Linux or Android platform
+
+Package: radiance-flat-colors
+Version: 14.04.2~trusty~NoobsLab.com
+Architecture: all
+Maintainer: Umair Riaz <noobslab.com@gmail.com>
+Installed-Size: 12503
+Depends: gtk2-engines-murrine, gtk2-engines-pixbuf
+Homepage: http://www.NoobsLab.com
+Priority: extra
+Section: gnome
+Filename: pool/main/r/radiance-flat-colors/radiance-flat-colors_14.04.2~trusty~NoobsLab.com_all.deb
+Size: 298146
+SHA256: 1c4ea4b0f3ae3402c859d35296a0f663fc2d1486b7214d331b6fba7985daf1ec
+SHA1: fb68036295bbce34c278b2c35782e2179352119d
+MD5sum: 0032f0c38a9990d5744c4dbd948dc708
+Description: Ambiance & Radiance Flat is a Modern, Beautiful
+  and flat "reboot" of the Ambiance & Radiance GTK 2/3 Themes.
+  It features modern and clean "flat" look of your choice of 13 vibrant colors
+
+Package: rock-lite-overlay
+Version: 1.0.2-1
+Architecture: armhf
+Maintainer: Build Developers <build@radxa.com>
+Installed-Size: 46
+Priority: optional
+Section: utils
+Filename: pool/main/r/rock-lite-overlay/rock-lite-overlay_1.0.2-1_armhf.deb
+Size: 1740
+SHA256: 408f4a99a67d392f0444f1c25f009f83c9cbd5adf57aa4321f7a5e4b1e704c41
+SHA1: 4db58c60a7401bba2e71f6d618e8a9533469dc1d
+MD5sum: cc2ee4ffd1f7a5fc1586e6277c43b115
+Description: Radxa Overlay for Radxa headless/minimal images
+ some configs for rock lite boards.
+
+Package: rock-overlay
+Version: 1.0.2-1
+Architecture: armhf
+Maintainer: Build Developers <build@radxa.com>
+Installed-Size: 46
+Priority: optional
+Section: utils
+Filename: pool/main/r/rock-overlay/rock-overlay_1.0.2-1_armhf.deb
+Size: 1666
+SHA256: b44b4d21c6b80f01c7029f7b8176cefc3dfe8f358200a193e609afcc09427d06
+SHA1: b117193627f99abcc6deeffe095aec787224ab81
+MD5sum: 24c2e236e7b7aa743cb10bfefee40756
+Description: Radxa Overlay for Radxa headless/minimal images
+ some configs for rock boards.
+
+Package: rock-pro-overlay
+Version: 1.0.2-1
+Architecture: armhf
+Maintainer: Build Developers <build@radxa.com>
+Installed-Size: 46
+Priority: optional
+Section: utils
+Filename: pool/main/r/rock-pro-overlay/rock-pro-overlay_1.0.2-1_armhf.deb
+Size: 1662
+SHA256: 7dc773cf036000f60a85ed4c75295666e8e8fc2ed300f9f829b075f2e5aa5bc9
+SHA1: 796c22132ecb2410c7b72bec2fb1568a04f12c7a
+MD5sum: 4b01d2024e85c6cf5f60acb3994b9050
+Description: Radxa Overlay for Radxa headless/minimal images
+ some configs for rock boards.
+
+Package: rock2-overlay
+Version: 1.0.1-1
+Architecture: armhf
+Maintainer: Build Developers <build@radxa.com>
+Installed-Size: 46
+Priority: optional
+Section: utils
+Filename: pool/main/r/rock2-overlay/rock2-overlay_1.0.1-1_armhf.deb
+Size: 2298
+SHA256: 26b2006e88e5c48a618d3b1964d9ff37a85c313cc783bd7daeec23457c95b3a0
+SHA1: de4e21c143439728ea85db3ae82c6ee4fae0d18a
+MD5sum: 7baac4a8b5a0bd340325d86aaa441618
+Description: Radxa Overlay for Radxa headless/minimal images
+ ships a autologinroot upstart conf
+
+Package: rock2-square-overlay
+Version: 1.0.2-1
+Architecture: armhf
+Maintainer: Build Developers <build@radxa.com>
+Installed-Size: 46
+Priority: optional
+Section: utils
+Filename: pool/main/r/rock2-square-overlay/rock2-square-overlay_1.0.2-1_armhf.deb
+Size: 2828
+SHA256: b20ee03b961ca29334f4de72d09d49098bb6cf44cb4e209f5e1edb55d890ca0a
+SHA1: 3aec6fe9a499eaec1b263ec1573a7cfcbc597239
+MD5sum: 9ef7c8bd119f111a28143882e7f48528
+Description: Radxa Overlay for Radxa headless/minimal images
+ ships a autologinroot upstart conf
+
+Package: ttf-ubuntu-font-family
+Source: ubuntu-font-family-sources
+Version: 0.80-0ubuntu6
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Paul Sladen <ubuntu@paul.sladen.org>
+Installed-Size: 3936
+Conflicts: ubuntu-private-fonts, ubuntu-private-nda-fonts
+Replaces: ubuntu-private-fonts, ubuntu-private-nda-fonts
+Provides: ubuntu-private-fonts, ubuntu-private-nda-fonts
+Multi-Arch: foreign
+Homepage: http://font.ubuntu.com/
+Priority: optional
+Section: fonts
+Filename: pool/main/u/ubuntu-font-family-sources/ttf-ubuntu-font-family_0.80-0ubuntu6_all.deb
+Size: 1992838
+SHA256: c3b1b71c1ce3b7e9720fb736348f2415936471d0714fe5d8f8584743008c9d8a
+SHA1: 7d90cd24ab1d81118fa601ddea381c284848b815
+MD5sum: 8b030ecdd9ae57ec7d64bc41f59780f1
+Description: Ubuntu Font Family, sans-serif typeface hinted for clarity
+ The Ubuntu Font Family are a set of matching new libre/open fonts in
+ development during 2010--2011. The development is being funded by
+ Canonical Ltd on behalf the wider Free Software community and the
+ Ubuntu project.  The technical font design work and implementation is
+ being undertaken by Dalton Maag.
+ .
+ Both the final font Truetype/OpenType files and the design files used
+ to produce the font family are distributed under an open licence and
+ you are expressly encouraged to experiment, modify, share and improve.
+
+Package: vibrancy-colors
+Version: 2.2~trusty~Noobslab.com
+Architecture: all
+Maintainer: Umair Riaz <noobslab.com@gmail.com>
+Installed-Size: 90701
+Homepage: http://www.NoobsLab.com
+Priority: extra
+Section: gnome
+Filename: pool/main/v/vibrancy-colors/vibrancy-colors_2.2~trusty~Noobslab.com_all.deb
+Size: 22237186
+SHA256: 6eb1d13f661eafd2634a3ec3f556a0460c9cbb080f6f2c69230fb30edbf2fdb8
+SHA1: 2a396c6872823e076ded41786b9e1465245006d4
+MD5sum: 2fba8b82d69c5c8f4804e67d9a046d94
+Description: Vibrancy-Colors Icons
+

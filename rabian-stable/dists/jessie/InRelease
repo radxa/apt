@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: apt.radxa.com
+Label: apt repository
+Codename: jessie
+Date: Mon, 24 Dec 2018 07:52:10 UTC
+Architectures: armhf
+Components: main
+Description: Debian packages for radxa products
+MD5Sum:
+ 2ad950db99573a49767391f5a77940a1 31303 main/binary-armhf/Packages
+ 251d9860b2eb50e3105bba8361d5cd5f 9682 main/binary-armhf/Packages.gz
+ e0ea1e5bc447b1e0cffaeec3873fe956 128 main/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ f479cba592f38fb325f3c142ef6c4c4d 129 main/source/Release
+SHA1:
+ 06c3a68b94bb6ca67ff780259a95494dcf98266a 31303 main/binary-armhf/Packages
+ 1f47ec3c8d081ae7b99d0eb210b2eb6eeb0b8ae4 9682 main/binary-armhf/Packages.gz
+ 6544e72ab12c3acbbfac70a68b4d4eea1a20f270 128 main/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ 400127e46e9d5391f0200710ab7adc81939ee13f 129 main/source/Release
+SHA256:
+ 29271a0401416a2b3bbeacdaf4e24a8c6cfa1a270fbb3ad0053dd84eb2c5dcf5 31303 main/binary-armhf/Packages
+ f022c2537ceebd84dd1790b940f14cb97e8576c48453c20bc66576ad60e588b8 9682 main/binary-armhf/Packages.gz
+ 6de195245c70679a8cb234fbb0a2d1687544ada563598ff0136244b49d562f38 128 main/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ b83429f1468a2ec7185f1463528fcaac9a80ce587377e20557a98d52693c6770 129 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEx5740UnPycBBippgV2EoiytSzJAFAlwgkCoACgkQV2EoiytS
+zJD1BQv/bS9V0MhSvu9wIueghB+NZN7xk6GvCs19sRMD92DbDaPS811Jyz6/CXpm
+6LjoFgCJDtzVMvgs4CgJN0SLacaq0cinaBxFmg5a4M4w1Up8KAoC99RFShQTSSPd
+eKv0qC5Wh0FWJ2NTwOQMMp5Wrr/3GsFDJzlx/ss6acU4vvxcMAh0Q+/E4g9GSPgB
+OLGgCQq4aVPRSkGVIue8Ut2cFI2lMZsh35Tch3h1b+JRODCfZotXaqIvlnCZvvU+
+4ZtkS22FR53aRCPD38rwtj/N5D0lxDw1utFHnkMVXHACe66oWAwwB19NeqBTVQSr
+lnlyCswDHuYF7sM96u4uxcunaHJGVJzPsDirHlvVggRKbhsjbPWCULgCKgDlk9Y/
+qM7sFBUWourBIRI3J3zYnF5trhc0nCz1SygITCv3M4NWeaAHM9CO86UcD+ZfaDAs
+Hw34nkLsyhIc87gZfRXnWL4ZN2tOyyf37Q9oxJgjHVWDKknd+4NWsdRJTHTXLOnh
+M6l/Ueui
+=LGDG
+-----END PGP SIGNATURE-----
