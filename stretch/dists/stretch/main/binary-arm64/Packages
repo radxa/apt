@@ -412,18 +412,18 @@ MD5sum: 3906c1e949a5ebb86cb67f6ac144798b
 Description: The OpenCV library for rockchip serial.
 
 Package: rockchip-overlay
-Version: 1.0
+Version: 1.1
 Maintainer: Radxa <dev@radxa.com>
 Architecture: all
 Component: main
 Depends: linux-base
 Priority: optional
 Section: utils
-Filename: pool/main/r/rockchip-overlay/rockchip-overlay_1.0_all.deb
-Size: 4620
-SHA256: 3794566197531f252c9d8aaa8c6e35033963eb7b96834a13eab784b7fa44156d
-SHA1: 46ec8e04db89cc447c541538752ba8c4c660c851
-MD5sum: 963f53bbd4c3564d8de43746b31b459f
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_1.1_all.deb
+Size: 4640
+SHA256: 22a432d5e6ae3269bf786868862eba9f4fe52f720c54cc7675b8c2ccbe8a68a5
+SHA1: f693944ab60f9b06aa1f2376f7d8c8d751ef7f08
+MD5sum: 72252719e4d14dfff8ea98f25a0b92d6
 Description: General rockchip overlay package.
 
 Package: rockpi4b-rk-ubootimg
