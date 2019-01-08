@@ -285,6 +285,20 @@ Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
 
+Package: opencv4.0
+Version: 4.0.1-1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: arm64
+Component: main
+Priority: optional
+Section: libs
+Filename: pool/main/o/opencv4.0/opencv4.0_4.0.1-1_arm64.deb
+Size: 13955280
+SHA256: 2294447669ce4490c9f501396f1199d962d3b774d61dd9f061ba64033f6a23ad
+SHA1: 11eec2df120bb83ccc343b194ed19195740b50d7
+MD5sum: 8ce9de5dc45b91c28e08919a9385ade0
+Description: The OpenCV library.
+
 Package: rock960ab-rk-ubootimg
 Version: 2017.09-02088-ga198532
 Architecture: all
