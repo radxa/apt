@@ -397,20 +397,6 @@ SHA1: 19403c634dd6411b2491884019816df732f4ba38
 MD5sum: 2178fd7df25700c5bdc73800f7495c57
 Description: The ARM Mali™ library for Rockchip serial.
 
-Package: rockchip-opencv
-Version: 4.0.1-1
-Maintainer: Radxa <dev@radxa.com>
-Architecture: arm64
-Component: main
-Priority: optional
-Section: libs
-Filename: pool/main/r/rockchip-opencv/rockchip-opencv_4.0.1-1_arm64.deb
-Size: 13950488
-SHA256: a4a9f4a84eda59c0b90fb443b487e031804c15214914a6ad7a65cf940dbb01b1
-SHA1: b16c17b28ced064593fa9d8c34b6f0b246a0be64
-MD5sum: 3906c1e949a5ebb86cb67f6ac144798b
-Description: The OpenCV library for rockchip serial.
-
 Package: rockchip-overlay
 Version: 1.1
 Maintainer: Radxa <dev@radxa.com>
