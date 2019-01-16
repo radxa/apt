@@ -108,6 +108,23 @@ MD5sum: 7ad949b8ba76556a9ccd0e0686a14671
 Description: Linux kernel firmware, version 4.4.154-59-rockchip-g5e70f14
  This package contains firmware from the Linux kernel, version 4.4.154-59-rockchip-g5e70f14.
 
+Package: linux-firmware-image-4.4.154-72-rockchip-g6520deb
+Source: linux-4.4.154-72-rockchip-g6520deb
+Version: 4.4.154-72-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-72-rockchip-g6520deb/linux-firmware-image-4.4.154-72-rockchip-g6520deb_4.4.154-72-rockchip_all.deb
+Size: 186928
+SHA256: 5ea435caf17e9653d0edda905afbc0cc892a1877dc1c48abab711596f1aad8bf
+SHA1: f0ddcb93f0975418fcd1b92bf6be8eb74c176b7a
+MD5sum: 5b164a620a14d0681434c0352dc1408f
+Description: Linux kernel firmware, version 4.4.154-72-rockchip-g6520deb
+ This package contains firmware from the Linux kernel, version 4.4.154-72-rockchip-g6520deb.
+
 Package: linux-headers-4.4.154-10-g209c242-dirty
 Source: linux-4.4.154-10-g209c242-dirty
 Version: 4.4.154-10
@@ -145,6 +162,26 @@ SHA1: 7cea6e8c03e1bd413c4e74a196f6cf3bc426c38c
 MD5sum: 76f3de71408f3716cfa153b6057b944e
 Description: Linux kernel headers for 4.4.154-59-rockchip-g5e70f14 on all
  This package provides kernel header files for 4.4.154-59-rockchip-g5e70f14 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-72-rockchip-g6520deb
+Source: linux-4.4.154-72-rockchip-g6520deb
+Version: 4.4.154-72-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 70512
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-72-rockchip-g6520deb/linux-headers-4.4.154-72-rockchip-g6520deb_4.4.154-72-rockchip_all.deb
+Size: 10118074
+SHA256: 3fa3a4a94f9feaedb7826d2f56edf7bb77ecc00bad65b4e85141e625d0436a9f
+SHA1: 7398bd42b6e4ac4224e18ddc003cad9b56c73eb1
+MD5sum: 687ede473e50642ee4443035d6658aab
+Description: Linux kernel headers for 4.4.154-72-rockchip-g6520deb on all
+ This package provides kernel header files for 4.4.154-72-rockchip-g6520deb on all
  .
  This is useful for people who need to build external modules
 
@@ -226,6 +263,26 @@ MD5sum: d149c714b0c8416721337dfaad91d2b7
 Description: Linux kernel, version 4.4.154-59-rockchip-g5e70f14
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-59-rockchip-g5e70f14.
+
+Package: linux-image-4.4.154-72-rockchip-g6520deb
+Source: linux-4.4.154-72-rockchip-g6520deb
+Version: 4.4.154-72-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 69050
+Suggests: linux-firmware-image-4.4.154-72-rockchip-g6520deb
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-72-rockchip-g6520deb
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-72-rockchip-g6520deb/linux-image-4.4.154-72-rockchip-g6520deb_4.4.154-72-rockchip_all.deb
+Size: 13342270
+SHA256: 0704959a91a63082892dfe7b437618c5b509bdbc9668f8e332d8fce7cb82fc3b
+SHA1: 46add1f06ae7debc84256f60ae23453fd5089353
+MD5sum: 94d9624a100b3e52ba300cd5a5c6758d
+Description: Linux kernel, version 4.4.154-72-rockchip-g6520deb
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-72-rockchip-g6520deb.
 
 Package: linux-image-4.4.154-ge0ce80a-dirty
 Source: linux-4.4.154-ge0ce80a-dirty
