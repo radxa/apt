@@ -40,57 +40,6 @@ SHA1: ff576340ff8fb24f7f64212d18244214acf25eee
 MD5sum: 5a941b6338200b24655a044130779fe8
 Description: Broadcom bluetooth patching tool
 
-Package: gstreamer1.0-rockchip1
-Source: gstreamer1.0-rockchip
-Version: 1.14-1~bpo9+1
-Architecture: arm64
-Maintainer: Randy Li <randy.li@rock-chips.com>
-Installed-Size: 77
-Depends: libc6 (>= 2.17), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base1.0-0 (>= 1.2.0), libgstreamer1.0-0 (>= 1.4.0), librockchip-mpp1
-Homepage: http://www.rock-chips.com/
-Priority: optional
-Section: libs
-Filename: pool/main/g/gstreamer1.0-rockchip/gstreamer1.0-rockchip1_1.14-1~bpo9+1_arm64.deb
-Size: 22638
-SHA256: 4ed7c56ce8f193133787ec8d42f173bf98a7fa6bd185c1e118ac64ea6c94a414
-SHA1: ce4cdf8c74cc75c071c4b9b49d2044860218bd5f
-MD5sum: c0c99d6278a466f902f4dc6938301458
-Description: The Gstreamer plugins for Rockchip RK3xxx platform.
-
-Package: gstreamer1.0-rockchip1-extra
-Source: gstreamer1.0-rockchip-extra
-Version: 20180115-1
-Architecture: arm64
-Maintainer: Jacob Chen <jacob2.chen@rock-chips.com>
-Installed-Size: 113
-Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.47), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base1.0-0 (>= 1.6.0), libgstreamer1.0-0 (>= 1.8.0), libx11-6
-Homepage: http://www.rock-chips.com/
-Priority: optional
-Section: libs
-Filename: pool/main/g/gstreamer1.0-rockchip-extra/gstreamer1.0-rockchip1-extra_20180115-1_arm64.deb
-Size: 29282
-SHA256: aa94a8fe1b516884070901c658bd623986e23b5b37ec59e6e939f7572fecec13
-SHA1: 078d629692479ba13031019cf828827baaf0bc5f
-MD5sum: 92144dedca1574d15145556d5b7a47f3
-Description: The Extra Gstreamer plugins for Rockchip platform.
-
-Package: librockchip-mpp1
-Source: mpp
-Version: 1.4.5-1~bpo9+1
-Architecture: arm64
-Maintainer: Randy Li <randy.li@rock-chips.com>
-Installed-Size: 693
-Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
-Homepage: http://www.rock-chips.com
-Priority: optional
-Section: libs
-Filename: pool/main/m/mpp/librockchip-mpp1_1.4.5-1~bpo9+1_arm64.deb
-Size: 241524
-SHA256: 12a442a07fba2bbf990d7bc837013ecfcefd0f717f251bd4f48aa6c42c7e4dbe
-SHA1: a057c22dd53b8f3911da7be7b6c6f2e6be282ea6
-MD5sum: 7379d6440355fe7952af4764bb26d5fd
-Description: Media Process Platform
-
 Package: linux-firmware-image-4.4.154-59-rockchip-g5e70f14
 Source: linux-4.4.154-59-rockchip-g5e70f14
 Version: 4.4.154-59-rockchip
@@ -388,45 +337,6 @@ SHA1: e67fb4789ced8ae0e8f93fde5523921d472274ad
 MD5sum: 33a9fd6da925a5955af5a59cfbfa4426
 Description: Rockchip default fstab
 Depends: util-linux, bash
-
-Package: rockchip-mali-midgard-dev
-Source: mali-binary
-Version: 1.6-1
-Architecture: arm64
-Maintainer: Randy Li <randy.li@rock-chips.com>
-Installed-Size: 11
-Depends: rockchip-mali-midgard14 (= 1.6-1)
-Replaces: libegl1-mesa-dev, libgbm-dev, libgles2-mesa-dev, opencl-c-headers
-Provides: libegl1-mesa-dev, libgbm-dev, libgles2-mesa-dev, opencl-c-headers
-Homepage: http://www.rock-chips.com/
-Priority: optional
-Section: libdevel
-Filename: pool/main/m/mali-binary/rockchip-mali-midgard-dev_1.6-1_arm64.deb
-Size: 2536
-SHA256: 0c44fc3c10d0da18b9f8325a66c9c45910d4fd0ca56350e75d2f0d4f6c61172f
-SHA1: f2c5753d75e1db809ae27faa4e26577efdc7a498
-MD5sum: 17377858789f117badfd1cf8fb5bd712
-Description: This package provides the development environment for compiling
- programs against the ARM Mali™ library.
-
-Package: rockchip-mali-midgard14
-Source: mali-binary
-Version: 1.6-1
-Architecture: arm64
-Maintainer: Randy Li <randy.li@rock-chips.com>
-Installed-Size: 25685
-Depends: libc6 (>= 2.17), libdrm2 (>= 2.3.1), libgcc1 (>= 1:3.4), libstdc++6 (>= 4.8), libx11-6, libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb1
-Replaces: libegl1-mesa, libegl1-x11, libgbm1, libgles2-mesa
-Provides: libegl1, libegl1-mesa, libgbm1, libgles2-mesa
-Homepage: http://www.rock-chips.com/
-Priority: optional
-Section: libs
-Filename: pool/main/m/mali-binary/rockchip-mali-midgard14_1.6-1_arm64.deb
-Size: 7168504
-SHA256: da8140093c15d4eec5cdb432919735328600ec99bfed031f3c5d85586ae0d29d
-SHA1: 19403c634dd6411b2491884019816df732f4ba38
-MD5sum: 2178fd7df25700c5bdc73800f7495c57
-Description: The ARM Mali™ library for Rockchip serial.
 
 Package: rockchip-overlay
 Version: 1.2
