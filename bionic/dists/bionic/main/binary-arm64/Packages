@@ -40,6 +40,34 @@ SHA1: ff576340ff8fb24f7f64212d18244214acf25eee
 MD5sum: 5a941b6338200b24655a044130779fe8
 Description: Broadcom bluetooth patching tool
 
+Package: gstreamer1.0-rockchip1
+Version: 1.15-3
+Architecture: arm64
+Maintainer: Radxa <dev@radxa.com>
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.47), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base1.0-0 (>= 1.6.0), libgstreamer1.0-0 (>= 1.12.0), libx11-6
+Priority: optional
+Section: libs
+Filename: pool/main/g/gstreamer1.0-rockchip1/gstreamer1.0-rockchip1_1.15-3_arm64.deb
+Size: 724464
+SHA256: fd1d79a9dce7cd3e6baf1653b749b62305fdee7a8777dd6f50c561c9b61238f6
+SHA1: 55a611344cde8b2af430cc2a7fd0541944e3fb37
+MD5sum: c7abab2822ad2a4fd699590878713646
+Description: The Gstreamer plugins for Rockchip RK3xxx platform.
+
+Package: librockchip-mpp1
+Version: 1.4.5-2
+Maintainer: Radxa <dev@radxa.com>
+Architecture: arm64
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
+Priority: optional
+Section: libs
+Filename: pool/main/libr/librockchip-mpp1/librockchip-mpp1_1.4.5-2_arm64.deb
+Size: 894912
+SHA256: 7400d6804bb915a141732d902eaaa196e2bec28008b3c07824c9bdcd39bffd30
+SHA1: fc08e049ac5f384617a9bb8600ef6a73deff71d8
+MD5sum: 40c95b93bfab6cc8148a98a906012488
+Description: Media Process Platform
+
 Package: linux-firmware-image-4.4.154-59-rockchip-g5e70f14
 Source: linux-4.4.154-59-rockchip-g5e70f14
 Version: 4.4.154-59-rockchip
@@ -290,6 +318,20 @@ MD5sum: 9e30ef4df1c2cd9a48a93c340417cd9a
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
+
+Package: mpv
+Version: 1.3
+Architecture: arm64
+Maintainer: Radxa <dev@radxa.com>
+Depends: libfdk-aac1, liblcms2-2, libmp3lame0, libopus0, libspeex1, libvorbis0a, libgbm1, libvpx5, libvorbisenc2, libx264-152, libx265-146, libxv1, libpulse0, libuchardet0, libegl1, libva-x11-2, libjpeg-turbo8, libasound2, liblua5.2-0, librubberband2, libbluray2, libcaca0, libva-drm2, libvdpau1, libass9, libxss1, libxinerama1, libxrandr2, libgl1, libjack-jackd2-0
+Priority: optional
+Section: video
+Filename: pool/main/m/mpv/mpv_1.3_arm64.deb
+Size: 10749684
+SHA256: feba01649b80b0082c309fa3ac6c6ca836ee44e05490d1c361b01154c538cb35
+SHA1: b23d69b98dec9ba5f56c56f4b688d52c4650e190
+MD5sum: 4ca89889f17fd67261faee3cc2c95c45
+Description: mpv
 
 Package: opencv4.0
 Version: 4.0.1-1

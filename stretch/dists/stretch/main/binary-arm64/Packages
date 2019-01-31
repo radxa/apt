@@ -41,20 +41,17 @@ MD5sum: abdefdc05ffdb66ac2f36db24d20643e
 Description: Broadcom bluetooth patching tool
 
 Package: gstreamer1.0-rockchip1
-Source: gstreamer1.0-rockchip
-Version: 1.14-1~bpo9+1
+Version: 1.15-3
 Architecture: arm64
-Maintainer: Randy Li <randy.li@rock-chips.com>
-Installed-Size: 77
-Depends: libc6 (>= 2.17), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base1.0-0 (>= 1.2.0), libgstreamer1.0-0 (>= 1.4.0), librockchip-mpp1
-Homepage: http://www.rock-chips.com/
+Maintainer: Radxa <dev@radxa.com>
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.47), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base1.0-0 (>= 1.6.0), libgstreamer1.0-0 (>= 1.12.0), libx11-6
 Priority: optional
 Section: libs
-Filename: pool/main/g/gstreamer1.0-rockchip/gstreamer1.0-rockchip1_1.14-1~bpo9+1_arm64.deb
-Size: 22638
-SHA256: 4ed7c56ce8f193133787ec8d42f173bf98a7fa6bd185c1e118ac64ea6c94a414
-SHA1: ce4cdf8c74cc75c071c4b9b49d2044860218bd5f
-MD5sum: c0c99d6278a466f902f4dc6938301458
+Filename: pool/main/g/gstreamer1.0-rockchip1/gstreamer1.0-rockchip1_1.15-3_arm64.deb
+Size: 724464
+SHA256: fd1d79a9dce7cd3e6baf1653b749b62305fdee7a8777dd6f50c561c9b61238f6
+SHA1: 55a611344cde8b2af430cc2a7fd0541944e3fb37
+MD5sum: c7abab2822ad2a4fd699590878713646
 Description: The Gstreamer plugins for Rockchip RK3xxx platform.
 
 Package: gstreamer1.0-rockchip1-extra
@@ -75,20 +72,17 @@ MD5sum: 92144dedca1574d15145556d5b7a47f3
 Description: The Extra Gstreamer plugins for Rockchip platform.
 
 Package: librockchip-mpp1
-Source: mpp
-Version: 1.4.5-1~bpo9+1
+Version: 1.4.5-2
+Maintainer: Radxa <dev@radxa.com>
 Architecture: arm64
-Maintainer: Randy Li <randy.li@rock-chips.com>
-Installed-Size: 693
 Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
-Homepage: http://www.rock-chips.com
 Priority: optional
 Section: libs
-Filename: pool/main/m/mpp/librockchip-mpp1_1.4.5-1~bpo9+1_arm64.deb
-Size: 241524
-SHA256: 12a442a07fba2bbf990d7bc837013ecfcefd0f717f251bd4f48aa6c42c7e4dbe
-SHA1: a057c22dd53b8f3911da7be7b6c6f2e6be282ea6
-MD5sum: 7379d6440355fe7952af4764bb26d5fd
+Filename: pool/main/libr/librockchip-mpp1/librockchip-mpp1_1.4.5-2_arm64.deb
+Size: 894912
+SHA256: 7400d6804bb915a141732d902eaaa196e2bec28008b3c07824c9bdcd39bffd30
+SHA1: fc08e049ac5f384617a9bb8600ef6a73deff71d8
+MD5sum: 40c95b93bfab6cc8148a98a906012488
 Description: Media Process Platform
 
 Package: linux-firmware-image-4.4.154-59-rockchip-g5e70f14
@@ -381,6 +375,20 @@ MD5sum: df5fc31f9d5b661ce71eee714d85aa3a
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
+
+Package: mpv
+Version: 1.3
+Architecture: arm64
+Maintainer: Radxa <dev@radxa.com>
+Depends: libfdk-aac1, liblcms2-2, libmp3lame0, libopus0, libspeex1, libvorbis0a, libgbm1, libvpx5, libvorbisenc2, libx264-152, libx265-146, libxv1, libpulse0, libuchardet0, libegl1, libva-x11-2, libjpeg-turbo8, libasound2, liblua5.2-0, librubberband2, libbluray2, libcaca0, libva-drm2, libvdpau1, libass9, libxss1, libxinerama1, libxrandr2, libgl1, libjack-jackd2-0
+Priority: optional
+Section: video
+Filename: pool/main/m/mpv/mpv_1.3_arm64.deb
+Size: 10749684
+SHA256: feba01649b80b0082c309fa3ac6c6ca836ee44e05490d1c361b01154c538cb35
+SHA1: b23d69b98dec9ba5f56c56f4b688d52c4650e190
+MD5sum: 4ca89889f17fd67261faee3cc2c95c45
+Description: mpv
 
 Package: opencv4.0
 Version: 4.0.1-1
