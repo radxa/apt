@@ -491,6 +491,20 @@ SHA1: 111fc7e94a16ae932e8af3ce94dc9d68d255b2c5
 MD5sum: 6b5fba2ea77c6127884b49d6f3514aec
 Description: General rockchip overlay package.
 
+Package: rockpi4-dtbo
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockpi4-dtbo/rockpi4-dtbo_0.1_all.deb
+Size: 1396
+SHA256: 3ed5e254208050a1ba97d6138f6ca35aca5b3b4685646a29a5c05c28ffe7ab67
+SHA1: b47a485f2dcb430038fcc2f478a308421e92a232
+MD5sum: f5ef531df29dc24ef14f164a0eca231e
+Description: ROCK Pi 4 device tree overlays
+
 Package: rockpi4b-rk-ubootimg
 Version: 2017.09-02085-g5a6aeld
 Architecture: all
