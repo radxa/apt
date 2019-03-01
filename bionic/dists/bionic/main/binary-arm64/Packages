@@ -483,21 +483,3 @@ SHA1: 1507caf48016b9fed36de2ae8279e2010270894f
 MD5sum: a3af884b20825aad047ba59b0b0fad66
 Description: ROCK Pi 4 device tree overlays
 
-Package: rockpi4b-rk-ubootimg
-Version: 2017.09-02085-g5a6aeld
-Architecture: arm64
-Maintainer: Radxa <dev@radxa.com>
-Depends: debsums, mtd-utils
-Priority: optional
-Section: admin
-Filename: pool/main/r/rockpi4b-rk-ubootimg/rockpi4b-rk-ubootimg_2017.09-02085-g5a6aeld_arm64.deb
-Size: 290796
-SHA256: 468ef42a962415dc5a8205d7532562b9f51bbf6ea78235fc3a51d1038d83c023
-SHA1: 907aa245fbc47534a42731a8149f1513dd2d20ed
-MD5sum: 76bc8e270b9ef5bdc5114c681ce8493b
-Description: rockpi4b u-boot package
-Multi-Arch: foreign
-Replaces: rockpi4b-rk-ubootimg
-Conflicts: rockpi4b-rk-ubootimg
-Provides: rockpi4b-rk-ubootimg
-
