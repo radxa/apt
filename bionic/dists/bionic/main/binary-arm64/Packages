@@ -499,3 +499,21 @@ MD5sum: daa587ea85e01fe55730ead20856532a
 Description: rockpi4b u-boot virtual package
  This package will always depend on rockpi4b-rk-ubootimg.
 
+Package: rockpi4b-rk-ubootimg
+Version: 2017.09-00004-g2920a61
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Depends: debsums, mtd-utils
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpi4b-rk-ubootimg/rockpi4b-rk-ubootimg_2017.09-00004-g2920a61_all.deb
+Size: 294120
+SHA256: bef49f9d066c7eee2066376e7e93c1fac968e8e0f63dd5258572bdda6ca9f447
+SHA1: 74b3e16e92901c9c506307ed6d22bae752a95f20
+MD5sum: 342270e45b94af77627175316c1526ad
+Description: rockpi4b u-boot package
+Multi-Arch: foreign
+Replaces: rockpi4b-rk-ubootimg
+Conflicts: rockpi4b-rk-ubootimg
+Provides: rockpi4b-rk-ubootimg
+
