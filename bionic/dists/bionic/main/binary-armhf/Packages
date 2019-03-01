@@ -154,25 +154,6 @@ Description: Linux kernel, version 4.4.154-72-rockchip-g6520deb
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-72-rockchip-g6520deb.
 
-Package: linux-libc-dev
-Source: linux-4.4.154-59-rockchip-g5e70f14
-Version: 4.4.154-59-rockchip
-Architecture: all
-Maintainer: Anonymous <root@mrs-ella>
-Installed-Size: 4129
-Provides: linux-kernel-headers
-Homepage: http://www.kernel.org/
-Priority: optional
-Section: devel
-Filename: pool/main/l/linux-4.4.154-59-rockchip-g5e70f14/linux-libc-dev_4.4.154-59-rockchip_all.deb
-Size: 816654
-SHA256: ba2b955710fa85d49ee4e2453eb16921fc2fd8968277f2c477dc72c3d9333834
-SHA1: 060093c18827ed45ce5f7954cac3d480afb6d4b0
-MD5sum: df35f56b251bd41f3942ea34a9fce8cd
-Description: Linux support headers for userspace development
- This package provides userspaces headers from the Linux kernel.  These headers
- are used by the installed headers for GNU glibc and other system libraries.
-
 Package: rock960ab-rk-ubootimg
 Version: 2017.09-02088-ga198532
 Architecture: all

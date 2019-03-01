@@ -300,25 +300,6 @@ Description: Linux kernel debugging symbols for 4.4.154-ge0ce80a-dirty
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 
-Package: linux-libc-dev
-Source: linux-4.4.154-ge0ce80a-dirty
-Version: 4.4.154-ge0ce80a-dirty-6
-Architecture: arm64
-Maintainer: Anonymous <root@mrs-hebe>
-Installed-Size: 4129
-Provides: linux-kernel-headers
-Homepage: http://www.kernel.org/
-Priority: optional
-Section: devel
-Filename: pool/main/l/linux-4.4.154-ge0ce80a-dirty/linux-libc-dev_4.4.154-ge0ce80a-dirty-6_arm64.deb
-Size: 817616
-SHA256: 2d676445adfd3c4e162390093179ad567e155720611b35d4aec8cc3e2a550ef2
-SHA1: 9c88af87f3e51ee14437828e345a2a7443bc5139
-MD5sum: 9e30ef4df1c2cd9a48a93c340417cd9a
-Description: Linux support headers for userspace development
- This package provides userspaces headers from the Linux kernel.  These headers
- are used by the installed headers for GNU glibc and other system libraries.
-
 Package: mpv
 Version: 1.3
 Architecture: arm64
