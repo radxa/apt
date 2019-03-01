@@ -85,6 +85,23 @@ SHA1: fc08e049ac5f384617a9bb8600ef6a73deff71d8
 MD5sum: 40c95b93bfab6cc8148a98a906012488
 Description: Media Process Platform
 
+Package: linux-4.4-lastest
+Version: 4.4.154-73
+Architecture: all
+Component: main
+Depends: linux-image-4.4.154-73-rockchip-00007-g155a65a, linux-firmware-image-4.4.154-73-rockchip-00007-g155a65a, linux-headers-4.4.154-73-rockchip-00007-g155a65a
+Maintainer: Radxa <dev@radxa.com>
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4-lastest/linux-4.4-lastest_4.4.154-73_all.deb
+Size: 808
+SHA256: 074bec539d2f47048984b973a2b9ce4547639c1ef50dee0ea732cd5fa5bb77d2
+SHA1: 8b5db57d5d6465da770968bef1c478dd3c16400c
+MD5sum: 9a36c3e4c21addcfcad401ce8b6b6e19
+Description: Linux Kernel, firmware, headers
+ This package will always depend on linux-image and
+ linux-headers and linux-firmware-image.
+
 Package: linux-firmware-image-4.4.154-59-rockchip-g5e70f14
 Source: linux-4.4.154-59-rockchip-g5e70f14
 Version: 4.4.154-59-rockchip
