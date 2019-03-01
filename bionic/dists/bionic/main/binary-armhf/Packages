@@ -326,6 +326,22 @@ SHA1: e2842a5c934b8273ed2e88daec34e64b16eb7fd1
 MD5sum: 532624efd946053a1d39664e523f5820
 Description: ROCK Pi 4 device tree overlays
 
+Package: rockpi4b-rk-u-boot-lastest
+Version: 2017.09-00004-g2920a61
+Architecture: all
+Component: main
+Depends: rockpi4b-rk-ubootimg(= 2017.09-00004-g2920a61)
+Maintainer: Radxa <dev@radxa.com>
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpi4b-rk-u-boot-lastest/rockpi4b-rk-u-boot-lastest_2017.09-00004-g2920a61_all.deb
+Size: 772
+SHA256: 3f2ae6cb02fcfbe247262a81c29f5d4cd2231dc7c171e77f4b64233b560bec87
+SHA1: d13119b89dc768c107094e83e1b3fa366d8642b1
+MD5sum: 2c6752c0e502a278dada665e0fc39653
+Description: rockpi4b u-boot lastest version package
+ This package will always depend on rockpi4b-rk-ubootimg.
+
 Package: rockpi4b-rk-u-boot-virtual
 Version: 2017.09-00004-g2920a61
 Architecture: all
