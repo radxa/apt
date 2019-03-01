@@ -376,6 +376,23 @@ Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
 
+Package: linux-virtual-generic
+Version: 4.4.154-73
+Architecture: all
+Component: main
+Depends: linux-image-4.4.154-73-rockchip-00007-g155a65a, linux-firmware-image-4.4.154-73-rockchip-00007-g155a65a, linux-headers-4.4.154-73-rockchip-00007-g155a65a
+Maintainer: Radxa <dev@radxa.com>
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-virtual-generic/linux-virtual-generic_4.4.154-73_all.deb
+Size: 808
+SHA256: 430e695ec702f032f6a87ed428d9dcaf603710164074cadccf4b04e810199f41
+SHA1: 5a5f98a50d74e220e43a720cbf383376e204c89a
+MD5sum: 215b29583733d3bb099e4316610567a8
+Description: Linux Kernel, firmware, headers
+ This package will always depend on linux-image and
+ linux-headers and linux-firmware-image.
+
 Package: mpv
 Version: 1.3
 Architecture: arm64
