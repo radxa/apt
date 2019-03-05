@@ -773,6 +773,74 @@ Description: Linux Kernel, firmware, headers
  This package will always depend on linux-image and
  linux-headers and linux-firmware-image.
 
+Package: rock960ab-rk-u-boot-lastest
+Version: 2017.09-00005-gc5ccd14
+Architecture: all
+Component: main
+Depends: rock960ab-rk-ubootimg(= 2017.09-00005-gc5ccd14)
+Maintainer: Radxa <dev@radxa.com>
+Priority: optional
+Section: admin
+Filename: pool/main/r/rock960ab-rk-u-boot-lastest/rock960ab-rk-u-boot-lastest_2017.09-00005-gc5ccd14_all.deb
+Size: 776
+SHA256: af1d17333b1dfe1a75347761af8b49d05c0acee0c040e903e01d7edde79e0498
+SHA1: 94f768457eff855ef0756c8418be24af1bc1aa69
+MD5sum: 9f3782dc871785490e3732a8b7914706
+Description: rock960ab u-boot lastest version package
+ This package will always depend on rock960ab-rk-ubootimg.
+
+Package: rock960ab-rk-ubootimg
+Version: 2017.09-00005-gc5ccd14
+Architecture: all
+Maintainer: Vamrs <dev@vamrs.com>
+Depends: debsums, mtd-utils
+Priority: optional
+Section: admin
+Filename: pool/main/r/rock960ab-rk-ubootimg/rock960ab-rk-ubootimg_2017.09-00005-gc5ccd14_all.deb
+Size: 290380
+SHA256: ab39d58639e957be1c9a855539c04626ca09a17c6ee606d7e8b88e0b9023d80c
+SHA1: 0170455a3a06639957404ae5ad630ea0a1636ad2
+MD5sum: 4321e6e1d6ef9c5aa1234848fe409ee6
+Description: rock960ab u-boot package
+Multi-Arch: foreign
+Replaces: rock960ab-rk-ubootimg
+Conflicts: rock960ab-rk-ubootimg
+Provides: rock960ab-rk-ubootimg
+
+Package: rock960c-rk-u-boot-lastest
+Version: 2017.09-00005-gc5ccd14
+Architecture: all
+Component: main
+Depends: rock960c-rk-ubootimg(= 2017.09-00005-gc5ccd14)
+Maintainer: Radxa <dev@radxa.com>
+Priority: optional
+Section: admin
+Filename: pool/main/r/rock960c-rk-u-boot-lastest/rock960c-rk-u-boot-lastest_2017.09-00005-gc5ccd14_all.deb
+Size: 772
+SHA256: de45d20b16207acb5059515331371377aaaf43159babc614e48982d229e19b83
+SHA1: 770d86e8736771c2f337d34702537911b60b1515
+MD5sum: 7d5ea3ea18358198a963c20d4f5555c7
+Description: rock960c u-boot lastest version package
+ This package will always depend on rock960c-rk-ubootimg.
+
+Package: rock960c-rk-ubootimg
+Version: 2017.09-00005-gc5ccd14
+Architecture: all
+Maintainer: Vamrs <dev@vamrs.com>
+Depends: debsums, mtd-utils
+Priority: optional
+Section: admin
+Filename: pool/main/r/rock960c-rk-ubootimg/rock960c-rk-ubootimg_2017.09-00005-gc5ccd14_all.deb
+Size: 290520
+SHA256: a140abd4b7c8384e49da20ce8ca94750d83094036efd0f68f0edc9b621ab92b7
+SHA1: 7b56724cb7dbda92be355f6ed68538b1010a2291
+MD5sum: 1d72611fa2c19d9f28e9e73ad5ede0cf
+Description: rock960c u-boot package
+Multi-Arch: foreign
+Replaces: rock960c-rk-ubootimg
+Conflicts: rock960c-rk-ubootimg
+Provides: rock960c-rk-ubootimg
+
 Package: rockchip-fstab
 Version: 0.1
 Maintainer: Radxa <dev@radxa.com>
@@ -854,18 +922,36 @@ MD5sum: 532624efd946053a1d39664e523f5820
 Description: ROCK Pi 4 device tree overlays
 
 Package: rockpi4b-rk-u-boot-lastest
-Version: 2017.09-00004-g2920a61
+Version: 2017.09-00005-gc5ccd14
 Architecture: all
 Component: main
-Depends: rockpi4b-rk-ubootimg(= 2017.09-00004-g2920a61)
+Depends: rockpi4b-rk-ubootimg(= 2017.09-00005-gc5ccd14)
 Maintainer: Radxa <dev@radxa.com>
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpi4b-rk-u-boot-lastest/rockpi4b-rk-u-boot-lastest_2017.09-00004-g2920a61_all.deb
+Filename: pool/main/r/rockpi4b-rk-u-boot-lastest/rockpi4b-rk-u-boot-lastest_2017.09-00005-gc5ccd14_all.deb
 Size: 772
-SHA256: 3f2ae6cb02fcfbe247262a81c29f5d4cd2231dc7c171e77f4b64233b560bec87
-SHA1: d13119b89dc768c107094e83e1b3fa366d8642b1
-MD5sum: 2c6752c0e502a278dada665e0fc39653
+SHA256: 1e8fc2ad6d7ddd7204089c55025324549d7a05c4274616e85b297af42c5e9a60
+SHA1: fbd3752ef36546657eb2e78c1f155107e9cc5587
+MD5sum: 91fc17405ee0535c31e6045938981104
 Description: rockpi4b u-boot lastest version package
  This package will always depend on rockpi4b-rk-ubootimg.
+
+Package: rockpi4b-rk-ubootimg
+Version: 2017.09-00005-gc5ccd14
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Depends: debsums, mtd-utils
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpi4b-rk-ubootimg/rockpi4b-rk-ubootimg_2017.09-00005-gc5ccd14_all.deb
+Size: 294032
+SHA256: 6b56e80ac12db3cbcfa90e7f78316a26f21220c1483628d46fedf9825a3480ae
+SHA1: 21f52e328843082f1ab1323fc75a9464334a09d8
+MD5sum: 3c4ef0745d2e2621529b232a5c274824
+Description: rockpi4b u-boot package
+Multi-Arch: foreign
+Replaces: rockpi4b-rk-ubootimg
+Conflicts: rockpi4b-rk-ubootimg
+Provides: rockpi4b-rk-ubootimg
 
