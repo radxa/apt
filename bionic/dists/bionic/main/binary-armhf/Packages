@@ -264,24 +264,6 @@ Description: Linux Kernel, firmware, headers
  This package will always depend on linux-image and
  linux-headers and linux-firmware-image.
 
-Package: rock960ab-rk-ubootimg
-Version: 2017.09-02088-ga198532
-Architecture: all
-Maintainer: Vamrs <dev@vamrs.com>
-Depends: debsums, mtd-utils
-Priority: optional
-Section: admin
-Filename: pool/main/r/rock960ab-rk-ubootimg/rock960ab-rk-ubootimg_2017.09-02088-ga198532_all.deb
-Size: 290704
-SHA256: 6b1f1e6882f69f3a96946e5a1b433d53d9faa68b54a42a5688b7096fe8e47f76
-SHA1: 79e0a0191ce6a565313d6b94f83194cd36677abd
-MD5sum: 111bf6cf6cfb49c003dd0f2f07ec679b
-Description: rock960ab u-boot package
-Multi-Arch: foreign
-Replaces: rock960ab-rk-ubootimg
-Conflicts: rock960ab-rk-ubootimg
-Provides: rock960ab-rk-ubootimg
-
 Package: rockchip-fstab
 Version: 0.1
 Maintainer: Radxa <dev@radxa.com>
@@ -341,38 +323,4 @@ SHA1: d13119b89dc768c107094e83e1b3fa366d8642b1
 MD5sum: 2c6752c0e502a278dada665e0fc39653
 Description: rockpi4b u-boot lastest version package
  This package will always depend on rockpi4b-rk-ubootimg.
-
-Package: rockpi4b-rk-u-boot-virtual
-Version: 2017.09-00004-g2920a61
-Architecture: all
-Component: main
-Depends: rockpi4b-rk-ubootimg(= 2017.09-00004-g2920a61)
-Maintainer: Radxa <dev@radxa.com>
-Priority: optional
-Section: admin
-Filename: pool/main/r/rockpi4b-rk-u-boot-virtual/rockpi4b-rk-u-boot-virtual_2017.09-00004-g2920a61_all.deb
-Size: 768
-SHA256: 15faf67b8b2c044d40dd14a8040a25812f9f2ac08b77cdeeb8a0cd9b9050cfdc
-SHA1: 6437f7ff052bebff0d045ea1c87ca0bfad6a5e41
-MD5sum: daa587ea85e01fe55730ead20856532a
-Description: rockpi4b u-boot virtual package
- This package will always depend on rockpi4b-rk-ubootimg.
-
-Package: rockpi4b-rk-ubootimg
-Version: 2017.09-00004-g2920a61
-Architecture: all
-Maintainer: Radxa <dev@radxa.com>
-Depends: debsums, mtd-utils
-Priority: optional
-Section: admin
-Filename: pool/main/r/rockpi4b-rk-ubootimg/rockpi4b-rk-ubootimg_2017.09-00004-g2920a61_all.deb
-Size: 294120
-SHA256: bef49f9d066c7eee2066376e7e93c1fac968e8e0f63dd5258572bdda6ca9f447
-SHA1: 74b3e16e92901c9c506307ed6d22bae752a95f20
-MD5sum: 342270e45b94af77627175316c1526ad
-Description: rockpi4b u-boot package
-Multi-Arch: foreign
-Replaces: rockpi4b-rk-ubootimg
-Conflicts: rockpi4b-rk-ubootimg
-Provides: rockpi4b-rk-ubootimg
 
