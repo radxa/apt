@@ -55,17 +55,17 @@ MD5sum: c7abab2822ad2a4fd699590878713646
 Description: The Gstreamer plugins for Rockchip RK3xxx platform.
 
 Package: libmraa-rockpi4
-Version: 0.1
+Version: 0.2
 Maintainer: Radxa <dev@radxa.com>
 Architecture: arm64
 Component: main
 Priority: optional
 Section: libs
-Filename: pool/main/libm/libmraa-rockpi4/libmraa-rockpi4_0.1_arm64.deb
-Size: 167676
-SHA256: 8e95f1c359e8644a913baff853ca2dcf72070c13882f0e35c2fd216e36000052
-SHA1: 55e57cd24ca8a136ca782242af66114d7b78f58f
-MD5sum: dfae36af34b2504f6348c3f0484d3090
+Filename: pool/main/libm/libmraa-rockpi4/libmraa-rockpi4_0.2_arm64.deb
+Size: 168128
+SHA256: 05cc33abe7177471e1df9767132ae126c058252460732d9eb27b593b506a4b77
+SHA1: aa25fe3e69e25042a7c96c0d0a2fb0e675dcc95b
+MD5sum: 8f2f46ab0f7d2e112e3e700d1da815ed
 Description: libmraa rockpi4
 
 Package: librockchip-mpp1
