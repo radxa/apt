@@ -150,6 +150,23 @@ MD5sum: bd6456a493bbb6f6716f83646d918de3
 Description: Linux kernel firmware, version 4.4.154-73-rockchip-00007-g155a65a
  This package contains firmware from the Linux kernel, version 4.4.154-73-rockchip-00007-g155a65a.
 
+Package: linux-firmware-image-4.4.154-74-rockchip-00012-g0333c19
+Source: linux-4.4.154-74-rockchip-00012-g0333c19
+Version: 4.4.154-74-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-74-rockchip-00012-g0333c19/linux-firmware-image-4.4.154-74-rockchip-00012-g0333c19_4.4.154-74-rockchip_all.deb
+Size: 187276
+SHA256: a17f0524a6272b6d31020f7aee831f1f54dfa74344caa401e1a67759da288180
+SHA1: b988302c3e155d37cec166fc1f424850f0b24dec
+MD5sum: 42d0af059221482700221735c2692124
+Description: Linux kernel firmware, version 4.4.154-74-rockchip-00012-g0333c19
+ This package contains firmware from the Linux kernel, version 4.4.154-74-rockchip-00012-g0333c19.
+
 Package: linux-headers-4.4.154-10-g209c242-dirty
 Source: linux-4.4.154-10-g209c242-dirty
 Version: 4.4.154-10
@@ -227,6 +244,26 @@ SHA1: 0ca6999959a91037199a37504e01b9f3038f3e1c
 MD5sum: 06d2ed6a8853bbfe09ef1e585f13512d
 Description: Linux kernel headers for 4.4.154-73-rockchip-00007-g155a65a on all
  This package provides kernel header files for 4.4.154-73-rockchip-00007-g155a65a on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-74-rockchip-00012-g0333c19
+Source: linux-4.4.154-74-rockchip-00012-g0333c19
+Version: 4.4.154-74-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 70617
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-74-rockchip-00012-g0333c19/linux-headers-4.4.154-74-rockchip-00012-g0333c19_4.4.154-74-rockchip_all.deb
+Size: 10133472
+SHA256: 5c7850e23b70e80bc154bf6f98b1d33ff390a9bb2cf090c80ac7bec0255bbe6e
+SHA1: 80bc9f088943925b9249550dfc83f81c490edf95
+MD5sum: e3f9ab4bed724817b6c1dfdb1ed4a5f2
+Description: Linux kernel headers for 4.4.154-74-rockchip-00012-g0333c19 on all
+ This package provides kernel header files for 4.4.154-74-rockchip-00012-g0333c19 on all
  .
  This is useful for people who need to build external modules
 
@@ -349,6 +386,26 @@ Description: Linux kernel, version 4.4.154-73-rockchip-00007-g155a65a
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-73-rockchip-00007-g155a65a.
 
+Package: linux-image-4.4.154-74-rockchip-00012-g0333c19
+Source: linux-4.4.154-74-rockchip-00012-g0333c19
+Version: 4.4.154-74-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 69069
+Suggests: linux-firmware-image-4.4.154-74-rockchip-00012-g0333c19
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-74-rockchip-00012-g0333c19
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-74-rockchip-00012-g0333c19/linux-image-4.4.154-74-rockchip-00012-g0333c19_4.4.154-74-rockchip_all.deb
+Size: 13368128
+SHA256: 1589f042e337f127b06715eef69c32e0987b5e622e04611a440b0180dc0a71d5
+SHA1: 4e9d11b4ec70b5921172180cc0458a788abf4470
+MD5sum: 93d1fce2ca3d9c9a2a94a014e3a75fd2
+Description: Linux kernel, version 4.4.154-74-rockchip-00012-g0333c19
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-74-rockchip-00012-g0333c19.
+
 Package: linux-image-4.4.154-ge0ce80a-dirty
 Source: linux-4.4.154-ge0ce80a-dirty
 Version: 4.4.154-ge0ce80a-dirty-6
@@ -389,8 +446,8 @@ Description: Linux kernel debugging symbols for 4.4.154-ge0ce80a-dirty
  all the necessary debug symbols for the kernel and its modules.
 
 Package: linux-libc-dev
-Source: linux-4.4.154-73-rockchip-00007-g155a65a
-Version: 4.4.154-73-rockchip
+Source: linux-4.4.154-74-rockchip-00012-g0333c19
+Version: 4.4.154-74-rockchip
 Architecture: all
 Maintainer: Anonymous <root@mrs-ella>
 Installed-Size: 4129
@@ -398,11 +455,11 @@ Provides: linux-kernel-headers
 Homepage: http://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-4.4.154-73-rockchip-00007-g155a65a/linux-libc-dev_4.4.154-73-rockchip_all.deb
-Size: 816748
-SHA256: e2a451056d1a87b7b1b99143a94e3f0090939c623c6c5128beb039606c9a56b2
-SHA1: 9c9b3a1ce3f078c06fc979fa4d988ff6ee282bf9
-MD5sum: 4a2dd55e2dc84113daba7a181fe335e3
+Filename: pool/main/l/linux-4.4.154-74-rockchip-00012-g0333c19/linux-libc-dev_4.4.154-74-rockchip_all.deb
+Size: 816794
+SHA256: c17aa00958e29c24c8abcfe9d52ec1923c7bea978746eed3ab05de768c88ce43
+SHA1: 16fa809876b8f207a4973e48e47736af8b4a43c1
+MD5sum: d9bfba3e00b5f40c78f5f5ade9cdbb37
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
