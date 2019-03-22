@@ -100,18 +100,18 @@ MD5sum: 40c95b93bfab6cc8148a98a906012488
 Description: Media Process Platform
 
 Package: linux-4.4-lastest
-Version: 4.4.154-73
+Version: 4.4.154-74
 Architecture: all
 Component: main
-Depends: linux-image-4.4.154-73-rockchip-00007-g155a65a, linux-firmware-image-4.4.154-73-rockchip-00007-g155a65a, linux-headers-4.4.154-73-rockchip-00007-g155a65a
+Depends: linux-image-4.4.154-74-rockchip-00012-g0333c19, linux-firmware-image-4.4.154-74-rockchip-00012-g0333c19, linux-headers-4.4.154-74-rockchip-00012-g0333c19
 Maintainer: Radxa <dev@radxa.com>
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-4.4-lastest/linux-4.4-lastest_4.4.154-73_all.deb
-Size: 808
-SHA256: 074bec539d2f47048984b973a2b9ce4547639c1ef50dee0ea732cd5fa5bb77d2
-SHA1: 8b5db57d5d6465da770968bef1c478dd3c16400c
-MD5sum: 9a36c3e4c21addcfcad401ce8b6b6e19
+Filename: pool/main/l/linux-4.4-lastest/linux-4.4-lastest_4.4.154-74_all.deb
+Size: 736
+SHA256: 2bf30233a4e90370badd5fd6639e2fad68a86a77cfe4c1e0f9eabb1fc590da1c
+SHA1: 7e271cee2998f4893e1831be08cd967f05af47e0
+MD5sum: c978de674ea1744e8bb1bf7bdebb0cb1
 Description: Linux Kernel, firmware, headers
  This package will always depend on linux-image and
  linux-headers and linux-firmware-image.
