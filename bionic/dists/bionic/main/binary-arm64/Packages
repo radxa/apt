@@ -649,6 +649,45 @@ MD5sum: 33a9fd6da925a5955af5a59cfbfa4426
 Description: Rockchip default fstab
 Depends: util-linux, bash
 
+Package: rockchip-mali-midgard-dev
+Source: mali-binary
+Version: 1.6-1
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 11
+Depends: rockchip-mali-midgard14 (= 1.6-1)
+Replaces: libegl1-mesa-dev, libgbm-dev, libgles2-mesa-dev, opencl-c-headers
+Provides: libegl1-mesa-dev, libgbm-dev, libgles2-mesa-dev, opencl-c-headers
+Homepage: http://www.rock-chips.com/
+Priority: optional
+Section: libdevel
+Filename: pool/main/m/mali-binary/rockchip-mali-midgard-dev_1.6-1_arm64.deb
+Size: 2536
+SHA256: 0c44fc3c10d0da18b9f8325a66c9c45910d4fd0ca56350e75d2f0d4f6c61172f
+SHA1: f2c5753d75e1db809ae27faa4e26577efdc7a498
+MD5sum: 17377858789f117badfd1cf8fb5bd712
+Description: This package provides the development environment for compiling
+ programs against the ARM Mali™ library.
+
+Package: rockchip-mali-midgard14
+Source: mali-binary
+Version: 1.6-1
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 25685
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.3.1), libgcc1 (>= 1:3.4), libstdc++6 (>= 4.8), libx11-6, libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb1
+Replaces: libegl1-mesa, libegl1-x11, libgbm1, libgles2-mesa
+Provides: libegl1, libegl1-mesa, libgbm1, libgles2-mesa
+Homepage: http://www.rock-chips.com/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mali-binary/rockchip-mali-midgard14_1.6-1_arm64.deb
+Size: 7168504
+SHA256: da8140093c15d4eec5cdb432919735328600ec99bfed031f3c5d85586ae0d29d
+SHA1: 19403c634dd6411b2491884019816df732f4ba38
+MD5sum: 2178fd7df25700c5bdc73800f7495c57
+Description: The ARM Mali™ library for Rockchip serial.
+
 Package: rockchip-overlay
 Version: 1.3
 Maintainer: Radxa <dev@radxa.com>
