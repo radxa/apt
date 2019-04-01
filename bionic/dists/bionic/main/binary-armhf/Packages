@@ -692,21 +692,3 @@ MD5sum: 91fc17405ee0535c31e6045938981104
 Description: rockpi4b u-boot lastest version package
  This package will always depend on rockpi4b-rk-ubootimg.
 
-Package: rockpi4b-rk-ubootimg
-Version: 2017.09-00005-gc5ccd14
-Architecture: all
-Maintainer: Radxa <dev@radxa.com>
-Depends: debsums, mtd-utils
-Priority: optional
-Section: admin
-Filename: pool/main/r/rockpi4b-rk-ubootimg/rockpi4b-rk-ubootimg_2017.09-00005-gc5ccd14_all.deb
-Size: 294032
-SHA256: 6b56e80ac12db3cbcfa90e7f78316a26f21220c1483628d46fedf9825a3480ae
-SHA1: 21f52e328843082f1ab1323fc75a9464334a09d8
-MD5sum: 3c4ef0745d2e2621529b232a5c274824
-Description: rockpi4b u-boot package
-Multi-Arch: foreign
-Replaces: rockpi4b-rk-ubootimg
-Conflicts: rockpi4b-rk-ubootimg
-Provides: rockpi4b-rk-ubootimg
-
