@@ -41,18 +41,38 @@ MD5sum: 5a941b6338200b24655a044130779fe8
 Description: Broadcom bluetooth patching tool
 
 Package: gstreamer1.0-rockchip1
-Version: 1.15-3
+Source: gstreamer1.0-rockchip
+Version: 1.14-1~bpo9+1
 Architecture: arm64
-Maintainer: Radxa <dev@radxa.com>
-Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.47), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base1.0-0 (>= 1.6.0), libgstreamer1.0-0 (>= 1.12.0), libx11-6
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 77
+Depends: libc6 (>= 2.17), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base1.0-0 (>= 1.2.0), libgstreamer1.0-0 (>= 1.4.0), librockchip-mpp1
+Homepage: http://www.rock-chips.com/
 Priority: optional
 Section: libs
-Filename: pool/main/g/gstreamer1.0-rockchip1/gstreamer1.0-rockchip1_1.15-3_arm64.deb
-Size: 724464
-SHA256: fd1d79a9dce7cd3e6baf1653b749b62305fdee7a8777dd6f50c561c9b61238f6
-SHA1: 55a611344cde8b2af430cc2a7fd0541944e3fb37
-MD5sum: c7abab2822ad2a4fd699590878713646
+Filename: pool/main/g/gstreamer1.0-rockchip/gstreamer1.0-rockchip1_1.14-1~bpo9+1_arm64.deb
+Size: 22638
+SHA256: 4ed7c56ce8f193133787ec8d42f173bf98a7fa6bd185c1e118ac64ea6c94a414
+SHA1: ce4cdf8c74cc75c071c4b9b49d2044860218bd5f
+MD5sum: c0c99d6278a466f902f4dc6938301458
 Description: The Gstreamer plugins for Rockchip RK3xxx platform.
+
+Package: gstreamer1.0-rockchip1-extra
+Source: gstreamer1.0-rockchip-extra
+Version: 20180115-1
+Architecture: arm64
+Maintainer: Jacob Chen <jacob2.chen@rock-chips.com>
+Installed-Size: 113
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.47), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base1.0-0 (>= 1.6.0), libgstreamer1.0-0 (>= 1.8.0), libx11-6
+Homepage: http://www.rock-chips.com/
+Priority: optional
+Section: libs
+Filename: pool/main/g/gstreamer1.0-rockchip-extra/gstreamer1.0-rockchip1-extra_20180115-1_arm64.deb
+Size: 29282
+SHA256: aa94a8fe1b516884070901c658bd623986e23b5b37ec59e6e939f7572fecec13
+SHA1: 078d629692479ba13031019cf828827baaf0bc5f
+MD5sum: 92144dedca1574d15145556d5b7a47f3
+Description: The Extra Gstreamer plugins for Rockchip platform.
 
 Package: libmraa-rockpi4
 Version: 0.2
