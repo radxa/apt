@@ -2331,20 +2331,6 @@ Description: Linux Kernel, firmware, headers
  This package will always depend on linux-image and
  linux-headers and linux-firmware-image.
 
-Package: mpv
-Version: 1.3
-Architecture: arm64
-Maintainer: Radxa <dev@radxa.com>
-Depends: libfdk-aac1, liblcms2-2, libmp3lame0, libopus0, libspeex1, libvorbis0a, libgbm1, libvpx5, libvorbisenc2, libx264-152, libx265-146, libxv1, libpulse0, libuchardet0, libegl1, libva-x11-2, libjpeg-turbo8, libasound2, liblua5.2-0, librubberband2, libbluray2, libcaca0, libva-drm2, libvdpau1, libass9, libxss1, libxinerama1, libxrandr2, libgl1, libjack-jackd2-0
-Priority: optional
-Section: video
-Filename: pool/main/m/mpv/mpv_1.3_arm64.deb
-Size: 10749684
-SHA256: feba01649b80b0082c309fa3ac6c6ca836ee44e05490d1c361b01154c538cb35
-SHA1: b23d69b98dec9ba5f56c56f4b688d52c4650e190
-MD5sum: 4ca89889f17fd67261faee3cc2c95c45
-Description: mpv
-
 Package: mpv-rkmpp
 Version: 0.26.0+20170925
 Architecture: arm64
