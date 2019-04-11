@@ -1493,18 +1493,18 @@ Description: Debug symbols for libswscale4
 Build-Ids: 9e4a68ba90c38fd1b588ee2bf4b7bcff425a1da7
 
 Package: linux-4.4-lastest
-Version: 4.4.154-81
+Version: 4.4.154-82
 Architecture: all
 Component: main
-Depends: linux-image-4.4.154-81-rockchip-00021-g43bca74, linux-firmware-image-4.4.154-81-rockchip-00021-g43bca74, linux-headers-4.4.154-81-rockchip-00021-g43bca74
+Depends: linux-image-4.4.154-82-rockchip-00022-gb99b90e, linux-firmware-image-4.4.154-82-rockchip-00022-gb99b90e, linux-headers-4.4.154-82-rockchip-00022-gb99b90e
 Maintainer: Radxa <dev@radxa.com>
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-4.4-lastest/linux-4.4-lastest_4.4.154-81_all.deb
-Size: 808
-SHA256: 5ea096224e3f370e0ca75c721080c83ad0d238f2498c2f29775815a60d3b54a7
-SHA1: 83640d14e9427cf28fa9f290f57a6977476aa980
-MD5sum: e612c51f18c3e734155a55d465564093
+Filename: pool/main/l/linux-4.4-lastest/linux-4.4-lastest_4.4.154-82_all.deb
+Size: 804
+SHA256: 8fe70ef6c407a7afa00c845c6f6a768fdc56b5abdf00f80bf0c5fed53d6b0bc8
+SHA1: f7aedfc29e470a9304caafe9bdae6c94e33a04c0
+MD5sum: 0628a7a06a21a72715af6234f5a0b8cf
 Description: Linux Kernel, firmware, headers
  This package will always depend on linux-image and
  linux-headers and linux-firmware-image.
