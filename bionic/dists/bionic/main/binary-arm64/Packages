@@ -1834,6 +1834,23 @@ MD5sum: dd8de3d3907e963a80a793e0ec84b7e8
 Description: Linux kernel firmware, version 4.4.154-82-rockchip-00022-gb99b90e
  This package contains firmware from the Linux kernel, version 4.4.154-82-rockchip-00022-gb99b90e.
 
+Package: linux-firmware-image-4.4.154-83-rockchip-00023-gae7a309
+Source: linux-4.4.154-83-rockchip-00023-gae7a309
+Version: 4.4.154-83-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-83-rockchip-00023-gae7a309/linux-firmware-image-4.4.154-83-rockchip-00023-gae7a309_4.4.154-83-rockchip_all.deb
+Size: 186766
+SHA256: b6370788e3071c42efa8ee8e56e45901bc8653bb44cb86743ae47c93abdfd615
+SHA1: ce2a7b796b82783666d308ca8119951c84c1cf95
+MD5sum: 89799bda42f3bd87327d9d102c81fde5
+Description: Linux kernel firmware, version 4.4.154-83-rockchip-00023-gae7a309
+ This package contains firmware from the Linux kernel, version 4.4.154-83-rockchip-00023-gae7a309.
+
 Package: linux-headers-4.4.154-10-g209c242-dirty
 Source: linux-4.4.154-10-g209c242-dirty
 Version: 4.4.154-10
@@ -2051,6 +2068,26 @@ SHA1: ed6c051dafcecd4078c70e5b419549f48d9e1ee6
 MD5sum: b027b92295f53a42dc078c6de727b4a8
 Description: Linux kernel headers for 4.4.154-82-rockchip-00022-gb99b90e on all
  This package provides kernel header files for 4.4.154-82-rockchip-00022-gb99b90e on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-83-rockchip-00023-gae7a309
+Source: linux-4.4.154-83-rockchip-00023-gae7a309
+Version: 4.4.154-83-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 70689
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-83-rockchip-00023-gae7a309/linux-headers-4.4.154-83-rockchip-00023-gae7a309_4.4.154-83-rockchip_all.deb
+Size: 10140002
+SHA256: 5839bfb9fe7c9876ebeac73bcd3656e90404d708d88b175fbecdba61672e8fc9
+SHA1: 11623b24c6dd13abab910c0cfbefcac2899b691b
+MD5sum: e2ab77a5d20bc251734d1b57980421fe
+Description: Linux kernel headers for 4.4.154-83-rockchip-00023-gae7a309 on all
+ This package provides kernel header files for 4.4.154-83-rockchip-00023-gae7a309 on all
  .
  This is useful for people who need to build external modules
 
@@ -2313,6 +2350,26 @@ Description: Linux kernel, version 4.4.154-82-rockchip-00022-gb99b90e
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-82-rockchip-00022-gb99b90e.
 
+Package: linux-image-4.4.154-83-rockchip-00023-gae7a309
+Source: linux-4.4.154-83-rockchip-00023-gae7a309
+Version: 4.4.154-83-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 72467
+Suggests: linux-firmware-image-4.4.154-83-rockchip-00023-gae7a309
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-83-rockchip-00023-gae7a309
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-83-rockchip-00023-gae7a309/linux-image-4.4.154-83-rockchip-00023-gae7a309_4.4.154-83-rockchip_all.deb
+Size: 13890758
+SHA256: 89b6df181ab96270b135786401a36fb5fe10ef1587f841b29b4a5e0b68e701f6
+SHA1: 4e0fa6eaf1d96841e1cb1be7b345ff9817c01b00
+MD5sum: 8a87aaa5b7c8e821a9410c091d24aff4
+Description: Linux kernel, version 4.4.154-83-rockchip-00023-gae7a309
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-83-rockchip-00023-gae7a309.
+
 Package: linux-image-4.4.154-ge0ce80a-dirty
 Source: linux-4.4.154-ge0ce80a-dirty
 Version: 4.4.154-ge0ce80a-dirty-6
@@ -2353,8 +2410,8 @@ Description: Linux kernel debugging symbols for 4.4.154-ge0ce80a-dirty
  all the necessary debug symbols for the kernel and its modules.
 
 Package: linux-libc-dev
-Source: linux-4.4.154-82-rockchip-00022-gb99b90e
-Version: 4.4.154-82-rockchip
+Source: linux-4.4.154-83-rockchip-00023-gae7a309
+Version: 4.4.154-83-rockchip
 Architecture: all
 Maintainer: Anonymous <root@mrs-ella>
 Installed-Size: 4129
@@ -2362,11 +2419,11 @@ Provides: linux-kernel-headers
 Homepage: http://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-4.4.154-82-rockchip-00022-gb99b90e/linux-libc-dev_4.4.154-82-rockchip_all.deb
-Size: 816896
-SHA256: f5a93efd549936ddedf4af7a78fcb18c5742bfa8e216d645ccfbeeb32d6e33b0
-SHA1: 3f08bf99713ac288370f08aadf548eb292758275
-MD5sum: eb77719850793c83a248c2813fc09b23
+Filename: pool/main/l/linux-4.4.154-83-rockchip-00023-gae7a309/linux-libc-dev_4.4.154-83-rockchip_all.deb
+Size: 816782
+SHA256: bb063871efbea738544d1ce959aefe3b8cf8c6f3bc24e52556f5d8db99d67a62
+SHA1: 8e00df6423577c30e8591375ad937107e4f22f72
+MD5sum: 068f45943a4f47e56294e92920224a5a
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
