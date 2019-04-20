@@ -904,33 +904,33 @@ Description: Qt 5 multimedia HTML documentation
  libraries.
 
 Package: rock960ab-rk-u-boot-lastest
-Version: 2017.09-00005-gc5ccd14
+Version: 2017.09-00006-gb0bb5ac
 Architecture: all
 Component: main
-Depends: rock960ab-rk-ubootimg(= 2017.09-00005-gc5ccd14)
+Depends: rock960ab-rk-ubootimg(= 2017.09-00006-gb0bb5ac)
 Maintainer: Radxa <dev@radxa.com>
 Priority: optional
 Section: admin
-Filename: pool/main/r/rock960ab-rk-u-boot-lastest/rock960ab-rk-u-boot-lastest_2017.09-00005-gc5ccd14_all.deb
-Size: 776
-SHA256: af1d17333b1dfe1a75347761af8b49d05c0acee0c040e903e01d7edde79e0498
-SHA1: 94f768457eff855ef0756c8418be24af1bc1aa69
-MD5sum: 9f3782dc871785490e3732a8b7914706
+Filename: pool/main/r/rock960ab-rk-u-boot-lastest/rock960ab-rk-u-boot-lastest_2017.09-00006-gb0bb5ac_all.deb
+Size: 772
+SHA256: 06914f1ff0e539263417fbee97576905aa86a8ec0008a3509f68c70e4ae3a254
+SHA1: 35b42c2b9d5986fc298d9ded11dacdbcef3cb8ce
+MD5sum: c19a11c7e3aa1d0ea0e9b9384ff3739d
 Description: rock960ab u-boot lastest version package
  This package will always depend on rock960ab-rk-ubootimg.
 
 Package: rock960ab-rk-ubootimg
-Version: 2017.09-00005-gc5ccd14
+Version: 2017.09-00006-gb0bb5ac
 Architecture: all
 Maintainer: Vamrs <dev@vamrs.com>
 Depends: debsums, mtd-utils
 Priority: optional
 Section: admin
-Filename: pool/main/r/rock960ab-rk-ubootimg/rock960ab-rk-ubootimg_2017.09-00005-gc5ccd14_all.deb
-Size: 290380
-SHA256: ab39d58639e957be1c9a855539c04626ca09a17c6ee606d7e8b88e0b9023d80c
-SHA1: 0170455a3a06639957404ae5ad630ea0a1636ad2
-MD5sum: 4321e6e1d6ef9c5aa1234848fe409ee6
+Filename: pool/main/r/rock960ab-rk-ubootimg/rock960ab-rk-ubootimg_2017.09-00006-gb0bb5ac_all.deb
+Size: 808408
+SHA256: f8af91607efcfdc1c62faa5400e4609825dee52bcef40d34634afa905654a1d1
+SHA1: c028b1faccf46b4e9d3c2ca9e68e424557e6e019
+MD5sum: c21387a24dc7c11be1f91d378f29f539
 Description: rock960ab u-boot package
 Multi-Arch: foreign
 Replaces: rock960ab-rk-ubootimg
@@ -938,33 +938,33 @@ Conflicts: rock960ab-rk-ubootimg
 Provides: rock960ab-rk-ubootimg
 
 Package: rock960c-rk-u-boot-lastest
-Version: 2017.09-00005-gc5ccd14
+Version: 2017.09-00006-gb0bb5ac
 Architecture: all
 Component: main
-Depends: rock960c-rk-ubootimg(= 2017.09-00005-gc5ccd14)
+Depends: rock960c-rk-ubootimg(= 2017.09-00006-gb0bb5ac)
 Maintainer: Radxa <dev@radxa.com>
 Priority: optional
 Section: admin
-Filename: pool/main/r/rock960c-rk-u-boot-lastest/rock960c-rk-u-boot-lastest_2017.09-00005-gc5ccd14_all.deb
+Filename: pool/main/r/rock960c-rk-u-boot-lastest/rock960c-rk-u-boot-lastest_2017.09-00006-gb0bb5ac_all.deb
 Size: 772
-SHA256: de45d20b16207acb5059515331371377aaaf43159babc614e48982d229e19b83
-SHA1: 770d86e8736771c2f337d34702537911b60b1515
-MD5sum: 7d5ea3ea18358198a963c20d4f5555c7
+SHA256: 70d2ddf8ba4cfcb27017e34c8613b9f23ba84ad711d23c4285351ae6f31c5204
+SHA1: c5565b64ca65b18de9f130c61b55f46e2cc31dc6
+MD5sum: 8d375db4865b7f037ab843f4b16aedad
 Description: rock960c u-boot lastest version package
  This package will always depend on rock960c-rk-ubootimg.
 
 Package: rock960c-rk-ubootimg
-Version: 2017.09-00005-gc5ccd14
+Version: 2017.09-00006-gb0bb5ac
 Architecture: all
 Maintainer: Vamrs <dev@vamrs.com>
 Depends: debsums, mtd-utils
 Priority: optional
 Section: admin
-Filename: pool/main/r/rock960c-rk-ubootimg/rock960c-rk-ubootimg_2017.09-00005-gc5ccd14_all.deb
-Size: 290520
-SHA256: a140abd4b7c8384e49da20ce8ca94750d83094036efd0f68f0edc9b621ab92b7
-SHA1: 7b56724cb7dbda92be355f6ed68538b1010a2291
-MD5sum: 1d72611fa2c19d9f28e9e73ad5ede0cf
+Filename: pool/main/r/rock960c-rk-ubootimg/rock960c-rk-ubootimg_2017.09-00006-gb0bb5ac_all.deb
+Size: 808588
+SHA256: e9f15c9fcd772b83b140eaee8e2d0c657e5f0438ffde50518d17cd754bd45dfd
+SHA1: 03964fc0ce71997a692540917d058b93c35143fe
+MD5sum: 22ac30ea27777fb02dc9409a32c32e54
 Description: rock960c u-boot package
 Multi-Arch: foreign
 Replaces: rock960c-rk-ubootimg
