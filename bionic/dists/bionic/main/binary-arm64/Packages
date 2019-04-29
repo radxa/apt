@@ -132,17 +132,17 @@ Description: Debug symbols for gstreamer1.0-rockchip1-extra
 Build-Ids: 09ca1b5eebe8264ef534d76d2bbdb17fbcdcf57f 1f252465e19874631f62a18c520ae4efa5117e9c 4e9760ad4d94651aed6ab63fb4f549b60d9d75c0
 
 Package: libmraa-rockpi4
-Version: 0.2
+Version: 0.3
 Maintainer: Radxa <dev@radxa.com>
 Architecture: arm64
 Component: main
 Priority: optional
 Section: libs
-Filename: pool/main/libm/libmraa-rockpi4/libmraa-rockpi4_0.2_arm64.deb
-Size: 168128
-SHA256: 05cc33abe7177471e1df9767132ae126c058252460732d9eb27b593b506a4b77
-SHA1: aa25fe3e69e25042a7c96c0d0a2fb0e675dcc95b
-MD5sum: 8f2f46ab0f7d2e112e3e700d1da815ed
+Filename: pool/main/libm/libmraa-rockpi4/libmraa-rockpi4_0.3_arm64.deb
+Size: 167964
+SHA256: 47a612e7d32001fe582b4a2b49c8cf4c4bb963ae6e4b8462fbb3c732d7111a22
+SHA1: 18fa28a571a086b8c3c29dba3425af74406f13b5
+MD5sum: 0672a431680946519afd5e4d68c70119
 Description: libmraa rockpi4
 
 Package: linux-4.4-lastest
