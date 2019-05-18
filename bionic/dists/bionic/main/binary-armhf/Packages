@@ -843,33 +843,33 @@ Description: Linux support headers for userspace development
  are used by the installed headers for GNU glibc and other system libraries.
 
 Package: rock960ab-rk-u-boot-lastest
-Version: 2017.09-00006-gb0bb5ac
+Version: 2017.09-00008-g61d3d3f
 Architecture: all
 Component: main
-Depends: rock960ab-rk-ubootimg(= 2017.09-00006-gb0bb5ac)
+Depends: rock960ab-rk-ubootimg(= 2017.09-00008-g61d3d3f)
 Maintainer: Radxa <dev@radxa.com>
 Priority: optional
 Section: admin
-Filename: pool/main/r/rock960ab-rk-u-boot-lastest/rock960ab-rk-u-boot-lastest_2017.09-00006-gb0bb5ac_all.deb
+Filename: pool/main/r/rock960ab-rk-u-boot-lastest/rock960ab-rk-u-boot-lastest_2017.09-00008-g61d3d3f_all.deb
 Size: 772
-SHA256: 06914f1ff0e539263417fbee97576905aa86a8ec0008a3509f68c70e4ae3a254
-SHA1: 35b42c2b9d5986fc298d9ded11dacdbcef3cb8ce
-MD5sum: c19a11c7e3aa1d0ea0e9b9384ff3739d
+SHA256: 9a2317287e27af6f0bce88ce2d669cacaaddd886f154298f34eb752e418bdc61
+SHA1: 3e3ee45ac49648f7573686344500f5d1f903305e
+MD5sum: 65a95cc2a65d7b738f987a99993c8431
 Description: rock960ab u-boot lastest version package
  This package will always depend on rock960ab-rk-ubootimg.
 
 Package: rock960ab-rk-ubootimg
-Version: 2017.09-00006-gb0bb5ac
+Version: 2017.09-00008-g61d3d3f
 Architecture: all
 Maintainer: Vamrs <dev@vamrs.com>
 Depends: debsums, mtd-utils
 Priority: optional
 Section: admin
-Filename: pool/main/r/rock960ab-rk-ubootimg/rock960ab-rk-ubootimg_2017.09-00006-gb0bb5ac_all.deb
-Size: 808408
-SHA256: f8af91607efcfdc1c62faa5400e4609825dee52bcef40d34634afa905654a1d1
-SHA1: c028b1faccf46b4e9d3c2ca9e68e424557e6e019
-MD5sum: c21387a24dc7c11be1f91d378f29f539
+Filename: pool/main/r/rock960ab-rk-ubootimg/rock960ab-rk-ubootimg_2017.09-00008-g61d3d3f_all.deb
+Size: 817772
+SHA256: 5a9b616a6706fc7fb2c65c125a1731f25294beee2be67573e895784baac56c5e
+SHA1: f12f8024978e17966bcbe19167c5303b67e1b2fc
+MD5sum: 3dc6abd887b7c26457280b2baea647d5
 Description: rock960ab u-boot package
 Multi-Arch: foreign
 Replaces: rock960ab-rk-ubootimg
@@ -877,33 +877,33 @@ Conflicts: rock960ab-rk-ubootimg
 Provides: rock960ab-rk-ubootimg
 
 Package: rock960c-rk-u-boot-lastest
-Version: 2017.09-00006-gb0bb5ac
+Version: 2017.09-00008-g61d3d3f
 Architecture: all
 Component: main
-Depends: rock960c-rk-ubootimg(= 2017.09-00006-gb0bb5ac)
+Depends: rock960c-rk-ubootimg(= 2017.09-00008-g61d3d3f)
 Maintainer: Radxa <dev@radxa.com>
 Priority: optional
 Section: admin
-Filename: pool/main/r/rock960c-rk-u-boot-lastest/rock960c-rk-u-boot-lastest_2017.09-00006-gb0bb5ac_all.deb
+Filename: pool/main/r/rock960c-rk-u-boot-lastest/rock960c-rk-u-boot-lastest_2017.09-00008-g61d3d3f_all.deb
 Size: 772
-SHA256: 70d2ddf8ba4cfcb27017e34c8613b9f23ba84ad711d23c4285351ae6f31c5204
-SHA1: c5565b64ca65b18de9f130c61b55f46e2cc31dc6
-MD5sum: 8d375db4865b7f037ab843f4b16aedad
+SHA256: 52c4fab2d540aa89f26a30c5720e5e15ac92820917696dda65b30467110556c2
+SHA1: f1a5b076ddc810d18f081f775d0d6cf0511db808
+MD5sum: bf0305ff625d8f76c6e50bd7718a13fa
 Description: rock960c u-boot lastest version package
  This package will always depend on rock960c-rk-ubootimg.
 
 Package: rock960c-rk-ubootimg
-Version: 2017.09-00006-gb0bb5ac
+Version: 2017.09-00008-g61d3d3f
 Architecture: all
 Maintainer: Vamrs <dev@vamrs.com>
 Depends: debsums, mtd-utils
 Priority: optional
 Section: admin
-Filename: pool/main/r/rock960c-rk-ubootimg/rock960c-rk-ubootimg_2017.09-00006-gb0bb5ac_all.deb
-Size: 808588
-SHA256: e9f15c9fcd772b83b140eaee8e2d0c657e5f0438ffde50518d17cd754bd45dfd
-SHA1: 03964fc0ce71997a692540917d058b93c35143fe
-MD5sum: 22ac30ea27777fb02dc9409a32c32e54
+Filename: pool/main/r/rock960c-rk-ubootimg/rock960c-rk-ubootimg_2017.09-00008-g61d3d3f_all.deb
+Size: 817592
+SHA256: 09f6c5e7b2d7f424bc6792e69d9e0f32e54be6b8f6b0913bc88a9685a75910e3
+SHA1: 03123d47ce35fcd4b2076fa537b8cc230dc3d4e3
+MD5sum: bec7bfcf45811e05f06861e9d4c3fada
 Description: rock960c u-boot package
 Multi-Arch: foreign
 Replaces: rock960c-rk-ubootimg
@@ -990,34 +990,49 @@ SHA1: 3cc32d81d611ca33e954d5a3086c7386b3e4fc14
 MD5sum: f5ca8c46bfc14f91f8794ff99dd2fcfc
 Description: ROCK Pi 4 device tree overlays
 
-Package: rockpi4b-rk-u-boot-lastest
-Version: 2017.09-00006-gb0bb5ac
+Package: rockpi4-poe
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
 Architecture: all
 Component: main
-Depends: rockpi4b-rk-ubootimg(= 2017.09-00006-gb0bb5ac)
+Depends: libmraa-rockpi4, rockpi4-dtbo, rockchip-fstab
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockpi4-poe/rockpi4-poe_0.1_all.deb
+Size: 1968
+SHA256: 7378515ac67b2700e5d78be7b6f37e2075dfce33d59d42c7206719a93c248e2b
+SHA1: b16983ed910199933a57845870f923ba12a80fa1
+MD5sum: 3b9168dd389694349982ddb4210f8161
+Description: ROCK Pi 4 Power Over Ethernet HAT (PoE HAT)
+
+Package: rockpi4b-rk-u-boot-lastest
+Version: 2017.09-00008-g61d3d3f
+Architecture: all
+Component: main
+Depends: rockpi4b-rk-ubootimg(= 2017.09-00008-g61d3d3f)
 Maintainer: Radxa <dev@radxa.com>
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpi4b-rk-u-boot-lastest/rockpi4b-rk-u-boot-lastest_2017.09-00006-gb0bb5ac_all.deb
+Filename: pool/main/r/rockpi4b-rk-u-boot-lastest/rockpi4b-rk-u-boot-lastest_2017.09-00008-g61d3d3f_all.deb
 Size: 772
-SHA256: a7acbdefa0e0d74be04e658320d915a926e0208ab4b2688c15ca23f11e72344a
-SHA1: 067fb219d517b95b942e3e0ab00ea725530df880
-MD5sum: 9441b73bf21f179a48e9f186881c3b19
+SHA256: 80656106fd3b614192cfa31cd278e32dab601df3c6243a1ad13f54d01f642316
+SHA1: df571e07e8911e317bff318f5620d3a1f38c5e19
+MD5sum: a0ee3449a09a0aab5a9236f376733def
 Description: rockpi4b u-boot lastest version package
  This package will always depend on rockpi4b-rk-ubootimg.
 
 Package: rockpi4b-rk-ubootimg
-Version: 2017.09-00006-gb0bb5ac
+Version: 2017.09-00008-g61d3d3f
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
 Depends: debsums, mtd-utils
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpi4b-rk-ubootimg/rockpi4b-rk-ubootimg_2017.09-00006-gb0bb5ac_all.deb
-Size: 812232
-SHA256: 1d7e99a345cde443de8db245254bd62fbcf78cbf35a474832d6e306e66b4c324
-SHA1: 8bd6a2adedf07e1da4f7119901a120d00ad31d87
-MD5sum: f6d4a0eb706eeffc72396eabfa25d154
+Filename: pool/main/r/rockpi4b-rk-ubootimg/rockpi4b-rk-ubootimg_2017.09-00008-g61d3d3f_all.deb
+Size: 820980
+SHA256: 578225ce3501d355c5461a77277621e69feeb87dc3235ce2383a24c36a5612ab
+SHA1: 5dab6c48dae91d00be452b9c5a629f6c7df169c5
+MD5sum: 9c3b1b3859dd8a3f070716a0b8d6a33b
 Description: rockpi4b u-boot package
 Multi-Arch: foreign
 Replaces: rockpi4b-rk-ubootimg
