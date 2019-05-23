@@ -251,23 +251,6 @@ MD5sum: 1614c3ab616662e1654c5db2233f7cc5
 Description: Debug symbols for librockchip-vpu0
 Build-Ids: 52d7db6d52871437fec95ada7814ca5893207696
 
-Package: linux-4.4-lastest
-Version: 4.4.154-83
-Architecture: all
-Component: main
-Depends: linux-image-4.4.154-83-rockchip-00023-gae7a309, linux-firmware-image-4.4.154-83-rockchip-00023-gae7a309, linux-headers-4.4.154-83-rockchip-00023-gae7a309
-Maintainer: Radxa <dev@radxa.com>
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-4.4-lastest/linux-4.4-lastest_4.4.154-83_all.deb
-Size: 808
-SHA256: 1e1f875dd09b3f4e8660b55a03882322ec08c1019de2282343511a01691d2441
-SHA1: 884f0a19647ae3c713d3067775e872a83015a6ed
-MD5sum: 2d32a12a3edfad979c8397ea4c0343fb
-Description: Linux Kernel, firmware, headers
- This package will always depend on linux-image and
- linux-headers and linux-firmware-image.
-
 Package: linux-4.4-latest
 Version: 4.4.154-83
 Architecture: all
@@ -1089,22 +1072,6 @@ Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
 
-Package: rock960ab-rk-u-boot-lastest
-Version: 2017.09-00008-g61d3d3f
-Architecture: all
-Component: main
-Depends: rock960ab-rk-ubootimg(= 2017.09-00008-g61d3d3f)
-Maintainer: Radxa <dev@radxa.com>
-Priority: optional
-Section: admin
-Filename: pool/main/r/rock960ab-rk-u-boot-lastest/rock960ab-rk-u-boot-lastest_2017.09-00008-g61d3d3f_all.deb
-Size: 772
-SHA256: 9a2317287e27af6f0bce88ce2d669cacaaddd886f154298f34eb752e418bdc61
-SHA1: 3e3ee45ac49648f7573686344500f5d1f903305e
-MD5sum: 65a95cc2a65d7b738f987a99993c8431
-Description: rock960ab u-boot lastest version package
- This package will always depend on rock960ab-rk-ubootimg.
-
 Package: rock960ab-rk-u-boot-latest
 Version: 2017.09-00009-g7dd96d2
 Architecture: all
@@ -1138,22 +1105,6 @@ Multi-Arch: foreign
 Replaces: rock960ab-rk-ubootimg
 Conflicts: rock960ab-rk-ubootimg
 Provides: rock960ab-rk-ubootimg
-
-Package: rock960c-rk-u-boot-lastest
-Version: 2017.09-00008-g61d3d3f
-Architecture: all
-Component: main
-Depends: rock960c-rk-ubootimg(= 2017.09-00008-g61d3d3f)
-Maintainer: Radxa <dev@radxa.com>
-Priority: optional
-Section: admin
-Filename: pool/main/r/rock960c-rk-u-boot-lastest/rock960c-rk-u-boot-lastest_2017.09-00008-g61d3d3f_all.deb
-Size: 772
-SHA256: 52c4fab2d540aa89f26a30c5720e5e15ac92820917696dda65b30467110556c2
-SHA1: f1a5b076ddc810d18f081f775d0d6cf0511db808
-MD5sum: bf0305ff625d8f76c6e50bd7718a13fa
-Description: rock960c u-boot lastest version package
- This package will always depend on rock960c-rk-ubootimg.
 
 Package: rock960c-rk-u-boot-latest
 Version: 2017.09-00009-g7dd96d2
@@ -1283,22 +1234,6 @@ SHA256: 7378515ac67b2700e5d78be7b6f37e2075dfce33d59d42c7206719a93c248e2b
 SHA1: b16983ed910199933a57845870f923ba12a80fa1
 MD5sum: 3b9168dd389694349982ddb4210f8161
 Description: ROCK Pi 4 Power Over Ethernet HAT (PoE HAT)
-
-Package: rockpi4b-rk-u-boot-lastest
-Version: 2017.09-00008-g61d3d3f
-Architecture: all
-Component: main
-Depends: rockpi4b-rk-ubootimg(= 2017.09-00008-g61d3d3f)
-Maintainer: Radxa <dev@radxa.com>
-Priority: optional
-Section: admin
-Filename: pool/main/r/rockpi4b-rk-u-boot-lastest/rockpi4b-rk-u-boot-lastest_2017.09-00008-g61d3d3f_all.deb
-Size: 772
-SHA256: 80656106fd3b614192cfa31cd278e32dab601df3c6243a1ad13f54d01f642316
-SHA1: df571e07e8911e317bff318f5620d3a1f38c5e19
-MD5sum: a0ee3449a09a0aab5a9236f376733def
-Description: rockpi4b u-boot lastest version package
- This package will always depend on rockpi4b-rk-ubootimg.
 
 Package: rockpi4b-rk-u-boot-latest
 Version: 2017.09-00009-g7dd96d2
