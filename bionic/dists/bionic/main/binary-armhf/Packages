@@ -823,25 +823,6 @@ Description: Linux kernel, version 4.4.154-83-rockchip-00023-gae7a309
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-83-rockchip-00023-gae7a309.
 
-Package: linux-libc-dev
-Source: linux-4.4.154-83-rockchip-00023-gae7a309
-Version: 4.4.154-83-rockchip
-Architecture: all
-Maintainer: Anonymous <root@mrs-ella>
-Installed-Size: 4129
-Provides: linux-kernel-headers
-Homepage: http://www.kernel.org/
-Priority: optional
-Section: devel
-Filename: pool/main/l/linux-4.4.154-83-rockchip-00023-gae7a309/linux-libc-dev_4.4.154-83-rockchip_all.deb
-Size: 816782
-SHA256: bb063871efbea738544d1ce959aefe3b8cf8c6f3bc24e52556f5d8db99d67a62
-SHA1: 8e00df6423577c30e8591375ad937107e4f22f72
-MD5sum: 068f45943a4f47e56294e92920224a5a
-Description: Linux support headers for userspace development
- This package provides userspaces headers from the Linux kernel.  These headers
- are used by the installed headers for GNU glibc and other system libraries.
-
 Package: rock960ab-rk-u-boot-latest
 Version: 2017.09-00009-g7dd96d2
 Architecture: all
