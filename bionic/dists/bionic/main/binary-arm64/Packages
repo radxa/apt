@@ -45,6 +45,20 @@ SHA1: cacfff8227f8baf0e36f5265f65b26aa7a40a0c5
 MD5sum: 1c5b52c3b83e0b22039f4f332e89a92a
 Description: General chip ap6256 firmware.
 
+Package: ap6356-firmware
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/a/ap6356-firmware/ap6356-firmware_0.1_all.deb
+Size: 346260
+SHA256: f4721d37fb7e30e9a8760d42040127369fd371d59578c2c68cfc8311e21274a9
+SHA1: c82044e96485bb9b2e501e8cd7e55ab3566c1d02
+MD5sum: a878e1cb24872de6af1380cf1c8aa89f
+Description: General chip ap6356 firmware.
+
 Package: brcm-patchram-plus1-64
 Version: 0.1
 Maintainer: Radxa <dev@radxa.com>
@@ -1261,4 +1275,18 @@ Multi-Arch: foreign
 Replaces: rockpi4b-rk-ubootimg
 Conflicts: rockpi4b-rk-ubootimg
 Provides: rockpi4b-rk-ubootimg
+
+Package: rtl8723ds-firmware
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: arm64
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/r/rtl8723ds-firmware/rtl8723ds-firmware_0.1_arm64.deb
+Size: 341788
+SHA256: 4f1860a312b7bb326cc4c9a3c82516d5f5327f073d4c0a5a3fe685b02a994575
+SHA1: 1e8c6b9ebec803ba761569fb64e90daed1f6b830
+MD5sum: 9d129836fd56aaad2670c829f9c7f194
+Description: General chip rtl8723ds firmware.
 
