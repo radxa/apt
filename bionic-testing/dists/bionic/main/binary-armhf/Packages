@@ -1,3 +1,17 @@
+Package: login-prompt-rockpi4
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/l/login-prompt-rockpi4/login-prompt-rockpi4_0.1_all.deb
+Size: 972
+SHA256: 75e2ce3a24fce3c3dc323477de5f0038d4f7783f7492d3abebcd9ce2aef85de2
+SHA1: b8cac2373d893c6047ce0856113fc397ea14f821
+MD5sum: 29fb0ae453d506162ae5bb289f978b58
+Description: ROCK Pi 4 login prompt
+
 Package: rockchip-fstab
 Version: 0.1
 Maintainer: Radxa <dev@radxa.com>
