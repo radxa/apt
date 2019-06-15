@@ -27,3 +27,51 @@ MD5sum: 8c926ece411831408a5d699c658bb996
 Description: Rockchip default fstab
 Depends: util-linux, bash
 
+Package: rockpi4-dtbo
+Version: 1.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockpi4-dtbo/rockpi4-dtbo_1.1_all.deb
+Size: 3040
+SHA256: 9ade283904dbb066f8715a092bb28aab208d1ab47abddd0f91795fe6c05f52ce
+SHA1: 2998d0e32dcc7a5c06807ddb40af291c2f6b8f4c
+MD5sum: 18cc278bce34b56b6fe741df2e693470
+Description: ROCK Pi 4 device tree overlays
+
+Package: rockpi4b-rk-u-boot-latest
+Version: 2017.09-00011-g0568348-1
+Architecture: all
+Component: main
+Depends: rockpi4b-rk-ubootimg(= 2017.09-00011-g0568348-1)
+Maintainer: Radxa <dev@radxa.com>
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpi4b-rk-u-boot-latest/rockpi4b-rk-u-boot-latest_2017.09-00011-g0568348-1_all.deb
+Size: 776
+SHA256: bbb61b6b09e758ebb30e6ae1746a525c375e1204839681a2b67d57402fe3b340
+SHA1: 64d76c2bc3f17151560ac29fd6939942e195ab71
+MD5sum: 472f1a5ba9e572db295807089351f3eb
+Description: rockpi4b u-boot latest version package
+ This package will always depend on rockpi4b-rk-ubootimg.
+
+Package: rockpi4b-rk-ubootimg
+Version: 2017.09-00011-g0568348-1
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Depends: debsums, mtd-utils
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpi4b-rk-ubootimg/rockpi4b-rk-ubootimg_2017.09-00011-g0568348-1_all.deb
+Size: 821000
+SHA256: 06b5163182213a6a2632076500245be836b333d758ba405156cabf39cef592d4
+SHA1: 2bb239327f756de5dfc49d68864e8f6041e8ed06
+MD5sum: fc570318c1dac24dd3af343bcf886410
+Description: rockpi4b u-boot package
+Multi-Arch: foreign
+Replaces: rockpi4b-rk-ubootimg
+Conflicts: rockpi4b-rk-ubootimg
+Provides: rockpi4b-rk-ubootimg
+
