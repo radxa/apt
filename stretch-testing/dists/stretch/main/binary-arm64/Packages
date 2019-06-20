@@ -12,6 +12,80 @@ SHA1: f8a7b6b3111872a05bbf8102fd1346848f672699
 MD5sum: 6d65cf7eb5b66edf96b5951619d6f039
 Description: io tool
 
+Package: linux-4.4-latest
+Version: 4.4.154-86
+Architecture: all
+Component: main
+Depends: linux-image-4.4.154-86-rockchip-00028-gfcfcea3, linux-firmware-image-4.4.154-86-rockchip-00028-gfcfcea3, linux-headers-4.4.154-86-rockchip-00028-gfcfcea3
+Maintainer: Radxa <dev@radxa.com>
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-86_all.deb
+Size: 804
+SHA256: 1d2ffe481497e6926e1382fc21ae8371f9c796898040339a9ead4c6cc7b2a3f0
+SHA1: 4d1eba18b900667483dec6104e47fe835b266168
+MD5sum: 173a121056ad124cb01cee2a8935dc24
+Description: Linux Kernel, firmware, headers
+ This package will always depend on linux-image and
+ linux-headers and linux-firmware-image.
+
+Package: linux-firmware-image-4.4.154-86-rockchip-00028-gfcfcea3
+Source: linux-4.4.154-86-rockchip-00028-gfcfcea3
+Version: 4.4.154-86-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-86-rockchip-00028-gfcfcea3/linux-firmware-image-4.4.154-86-rockchip-00028-gfcfcea3_4.4.154-86-rockchip_all.deb
+Size: 187290
+SHA256: 3c9e44dee10d4c0abc7a9efff76064d0094fcbb1783c004ee29993fa4fa6f6f9
+SHA1: 0757227a0a208ba5882b56f92ac83be4d8f193d4
+MD5sum: 1fbc6393cb3e0296f894bda81ba0878c
+Description: Linux kernel firmware, version 4.4.154-86-rockchip-00028-gfcfcea3
+ This package contains firmware from the Linux kernel, version 4.4.154-86-rockchip-00028-gfcfcea3.
+
+Package: linux-headers-4.4.154-86-rockchip-00028-gfcfcea3
+Source: linux-4.4.154-86-rockchip-00028-gfcfcea3
+Version: 4.4.154-86-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 70689
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-86-rockchip-00028-gfcfcea3/linux-headers-4.4.154-86-rockchip-00028-gfcfcea3_4.4.154-86-rockchip_all.deb
+Size: 10140572
+SHA256: 9def6eaf72aaabbfba5cc8fe19757833211c52efd13b782461132a04c30c6e7c
+SHA1: 3363d8b77f728b3340bcc0ead21e8b2e2e73cd35
+MD5sum: 063dba0657c2ba301f9b25fe8a82e465
+Description: Linux kernel headers for 4.4.154-86-rockchip-00028-gfcfcea3 on all
+ This package provides kernel header files for 4.4.154-86-rockchip-00028-gfcfcea3 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-4.4.154-86-rockchip-00028-gfcfcea3
+Source: linux-4.4.154-86-rockchip-00028-gfcfcea3
+Version: 4.4.154-86-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 72465
+Suggests: linux-firmware-image-4.4.154-86-rockchip-00028-gfcfcea3
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-86-rockchip-00028-gfcfcea3
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-86-rockchip-00028-gfcfcea3/linux-image-4.4.154-86-rockchip-00028-gfcfcea3_4.4.154-86-rockchip_all.deb
+Size: 13878020
+SHA256: a575e41fadafc88627333f4ca5003c80bc568baf5136e37183dc5c634526bd25
+SHA1: ff5c5d27c971ac2a0c12fd1cf234654e1c13c836
+MD5sum: c25f7e5b2bbecdde7e34f2afbf653660
+Description: Linux kernel, version 4.4.154-86-rockchip-00028-gfcfcea3
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-86-rockchip-00028-gfcfcea3.
+
 Package: login-prompt-rockpi4
 Version: 0.1
 Maintainer: Radxa <dev@radxa.com>
