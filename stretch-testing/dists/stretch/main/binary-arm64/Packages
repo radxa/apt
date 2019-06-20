@@ -115,6 +115,21 @@ MD5sum: 8c926ece411831408a5d699c658bb996
 Description: Rockchip default fstab
 Depends: util-linux, bash
 
+Package: rockchip-overlay
+Version: 1.6
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Depends: linux-base
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_1.6_all.deb
+Size: 4660
+SHA256: 97796f876280155a55ec32975cf71cdbf54c63281a4108d78caae4cb815ec114
+SHA1: 49070cfaa4eac7ec62ea0d18b3f9b50613115745
+MD5sum: 15dcc8acc9fac984c999abd9e277d495
+Description: General rockchip overlay package.
+
 Package: rockpi4-dtbo
 Version: 1.1
 Maintainer: Radxa <dev@radxa.com>
