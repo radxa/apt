@@ -13,18 +13,18 @@ MD5sum: 6d65cf7eb5b66edf96b5951619d6f039
 Description: io tool
 
 Package: linux-4.4-latest
-Version: 4.4.154-86
+Version: 4.4.154-87
 Architecture: all
 Component: main
-Depends: linux-image-4.4.154-86-rockchip-00028-gfcfcea3, linux-firmware-image-4.4.154-86-rockchip-00028-gfcfcea3, linux-headers-4.4.154-86-rockchip-00028-gfcfcea3
+Depends: linux-image-4.4.154-87-rockchip-00029-g8216f17, linux-firmware-image-4.4.154-87-rockchip-00029-g8216f17, linux-headers-4.4.154-87-rockchip-00029-g8216f17
 Maintainer: Radxa <dev@radxa.com>
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-86_all.deb
-Size: 804
-SHA256: 1d2ffe481497e6926e1382fc21ae8371f9c796898040339a9ead4c6cc7b2a3f0
-SHA1: 4d1eba18b900667483dec6104e47fe835b266168
-MD5sum: 173a121056ad124cb01cee2a8935dc24
+Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-87_all.deb
+Size: 808
+SHA256: 5a9c441f1df69fa20c1317e93a1d41ab776ad456aa196833c648869a67a77f8d
+SHA1: 0d34966b550d8cb47a5c39bb0083f0e0cac3bdb2
+MD5sum: 9e4048dfa620412a6e24f9a027f808c4
 Description: Linux Kernel, firmware, headers
  This package will always depend on linux-image and
  linux-headers and linux-firmware-image.
@@ -46,6 +46,23 @@ MD5sum: 1fbc6393cb3e0296f894bda81ba0878c
 Description: Linux kernel firmware, version 4.4.154-86-rockchip-00028-gfcfcea3
  This package contains firmware from the Linux kernel, version 4.4.154-86-rockchip-00028-gfcfcea3.
 
+Package: linux-firmware-image-4.4.154-87-rockchip-00029-g8216f17
+Source: linux-4.4.154-87-rockchip-00029-g8216f17
+Version: 4.4.154-87-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-87-rockchip-00029-g8216f17/linux-firmware-image-4.4.154-87-rockchip-00029-g8216f17_4.4.154-87-rockchip_all.deb
+Size: 187030
+SHA256: 622648cc93bf50d91b613836532795bb36b76a819764a4282feb870ede632740
+SHA1: 26c5a76e9c3d0fdec19e3bddb0f0e43ba9354dff
+MD5sum: ca5426d2f4b13015f681d7f868db2eeb
+Description: Linux kernel firmware, version 4.4.154-87-rockchip-00029-g8216f17
+ This package contains firmware from the Linux kernel, version 4.4.154-87-rockchip-00029-g8216f17.
+
 Package: linux-headers-4.4.154-86-rockchip-00028-gfcfcea3
 Source: linux-4.4.154-86-rockchip-00028-gfcfcea3
 Version: 4.4.154-86-rockchip
@@ -63,6 +80,26 @@ SHA1: 3363d8b77f728b3340bcc0ead21e8b2e2e73cd35
 MD5sum: 063dba0657c2ba301f9b25fe8a82e465
 Description: Linux kernel headers for 4.4.154-86-rockchip-00028-gfcfcea3 on all
  This package provides kernel header files for 4.4.154-86-rockchip-00028-gfcfcea3 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-87-rockchip-00029-g8216f17
+Source: linux-4.4.154-87-rockchip-00029-g8216f17
+Version: 4.4.154-87-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 70689
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-87-rockchip-00029-g8216f17/linux-headers-4.4.154-87-rockchip-00029-g8216f17_4.4.154-87-rockchip_all.deb
+Size: 10139108
+SHA256: fa08581a772dda51c20e875df8f582c47190292ef865391082a92284d12b5cc8
+SHA1: 3b60ce35ecdcf5a75a68a847abd6527248407dfb
+MD5sum: a170bbd54f4c950b10111765f0724376
+Description: Linux kernel headers for 4.4.154-87-rockchip-00029-g8216f17 on all
+ This package provides kernel header files for 4.4.154-87-rockchip-00029-g8216f17 on all
  .
  This is useful for people who need to build external modules
 
@@ -85,6 +122,26 @@ MD5sum: c25f7e5b2bbecdde7e34f2afbf653660
 Description: Linux kernel, version 4.4.154-86-rockchip-00028-gfcfcea3
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-86-rockchip-00028-gfcfcea3.
+
+Package: linux-image-4.4.154-87-rockchip-00029-g8216f17
+Source: linux-4.4.154-87-rockchip-00029-g8216f17
+Version: 4.4.154-87-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 72465
+Suggests: linux-firmware-image-4.4.154-87-rockchip-00029-g8216f17
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-87-rockchip-00029-g8216f17
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-87-rockchip-00029-g8216f17/linux-image-4.4.154-87-rockchip-00029-g8216f17_4.4.154-87-rockchip_all.deb
+Size: 13871400
+SHA256: 285591026d12c59f092e9ccf7eef43be778627eec846ae35473ee1d5b8a8985e
+SHA1: f7dc0d5324e077e8a46b11e46451be0720444aef
+MD5sum: 6f8ad48e2ac7e4fdc4351c58c0a84fdd
+Description: Linux kernel, version 4.4.154-87-rockchip-00029-g8216f17
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-87-rockchip-00029-g8216f17.
 
 Package: login-prompt-rockpi4
 Version: 0.1
