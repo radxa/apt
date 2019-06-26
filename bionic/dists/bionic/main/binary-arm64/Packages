@@ -265,18 +265,19 @@ Description: Debug symbols for librockchip-vpu0
 Build-Ids: 67d6ba69a6025f37499628ce1b18a029b268cdcb
 
 Package: linux-4.4-latest
-Version: 4.4.154-83
+Version: 4.4.154-87
 Architecture: all
-Component: main
-Depends: linux-image-4.4.154-83-rockchip-00023-gae7a309, linux-firmware-image-4.4.154-83-rockchip-00023-gae7a309, linux-headers-4.4.154-83-rockchip-00023-gae7a309
 Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 2
+Depends: linux-image-4.4.154-87-rockchip-g1234567-g1234567, linux-firmware-image-4.4.154-87-rockchip-g1234567-g1234567, linux-headers-4.4.154-87-rockchip-g1234567-g1234567
+Multi-Arch: foreign
 Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-83_all.deb
-Size: 804
-SHA256: 81f00f58ed85b2a7681aa91000c57646de486ab6a8e24612ee549217d8b56306
-SHA1: 969c3bfb796c719135c6551008aeef92964391c0
-MD5sum: 63ce60bb69dfe9c291481238df6699ae
+Section: admin
+Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-87_all.deb
+Size: 736
+SHA256: d7839999d6bf47e16d92e7baa495f3fc9c6790f0ec5fad6a259e400133fd984b
+SHA1: 46d493dafbd498288d514ef2ef3acfdc86ba1a5a
+MD5sum: 9000c60899684693da526304f16a3ad1
 Description: Linux Kernel, firmware, headers
  This package will always depend on linux-image and
  linux-headers and linux-firmware-image.
@@ -467,6 +468,23 @@ SHA1: ce2a7b796b82783666d308ca8119951c84c1cf95
 MD5sum: 89799bda42f3bd87327d9d102c81fde5
 Description: Linux kernel firmware, version 4.4.154-83-rockchip-00023-gae7a309
  This package contains firmware from the Linux kernel, version 4.4.154-83-rockchip-00023-gae7a309.
+
+Package: linux-firmware-image-4.4.154-87-rockchip-00029-g8216f17
+Source: linux-4.4.154-87-rockchip-00029-g8216f17
+Version: 4.4.154-87-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-87-rockchip-00029-g8216f17/linux-firmware-image-4.4.154-87-rockchip-00029-g8216f17_4.4.154-87-rockchip_all.deb
+Size: 187030
+SHA256: 622648cc93bf50d91b613836532795bb36b76a819764a4282feb870ede632740
+SHA1: 26c5a76e9c3d0fdec19e3bddb0f0e43ba9354dff
+MD5sum: ca5426d2f4b13015f681d7f868db2eeb
+Description: Linux kernel firmware, version 4.4.154-87-rockchip-00029-g8216f17
+ This package contains firmware from the Linux kernel, version 4.4.154-87-rockchip-00029-g8216f17.
 
 Package: linux-headers-4.4.154-10-g209c242-dirty
 Source: linux-4.4.154-10-g209c242-dirty
@@ -705,6 +723,26 @@ SHA1: 11623b24c6dd13abab910c0cfbefcac2899b691b
 MD5sum: e2ab77a5d20bc251734d1b57980421fe
 Description: Linux kernel headers for 4.4.154-83-rockchip-00023-gae7a309 on all
  This package provides kernel header files for 4.4.154-83-rockchip-00023-gae7a309 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-87-rockchip-00029-g8216f17
+Source: linux-4.4.154-87-rockchip-00029-g8216f17
+Version: 4.4.154-87-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 70689
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-87-rockchip-00029-g8216f17/linux-headers-4.4.154-87-rockchip-00029-g8216f17_4.4.154-87-rockchip_all.deb
+Size: 10139108
+SHA256: fa08581a772dda51c20e875df8f582c47190292ef865391082a92284d12b5cc8
+SHA1: 3b60ce35ecdcf5a75a68a847abd6527248407dfb
+MD5sum: a170bbd54f4c950b10111765f0724376
+Description: Linux kernel headers for 4.4.154-87-rockchip-00029-g8216f17 on all
+ This package provides kernel header files for 4.4.154-87-rockchip-00029-g8216f17 on all
  .
  This is useful for people who need to build external modules
 
@@ -987,6 +1025,26 @@ Description: Linux kernel, version 4.4.154-83-rockchip-00023-gae7a309
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-83-rockchip-00023-gae7a309.
 
+Package: linux-image-4.4.154-87-rockchip-00029-g8216f17
+Source: linux-4.4.154-87-rockchip-00029-g8216f17
+Version: 4.4.154-87-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 72465
+Suggests: linux-firmware-image-4.4.154-87-rockchip-00029-g8216f17
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-87-rockchip-00029-g8216f17
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-87-rockchip-00029-g8216f17/linux-image-4.4.154-87-rockchip-00029-g8216f17_4.4.154-87-rockchip_all.deb
+Size: 13871400
+SHA256: 285591026d12c59f092e9ccf7eef43be778627eec846ae35473ee1d5b8a8985e
+SHA1: f7dc0d5324e077e8a46b11e46451be0720444aef
+MD5sum: 6f8ad48e2ac7e4fdc4351c58c0a84fdd
+Description: Linux kernel, version 4.4.154-87-rockchip-00029-g8216f17
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-87-rockchip-00029-g8216f17.
+
 Package: linux-image-4.4.154-ge0ce80a-dirty
 Source: linux-4.4.154-ge0ce80a-dirty
 Version: 4.4.154-ge0ce80a-dirty-6
@@ -1199,32 +1257,32 @@ Description: Debug symbols for rockchip-mpp-demos
 Build-Ids: 0aedddd13769fb86517769ea7d5f95a66a21e710 1fbe9dac13528faf55616ca00681122d2b85ce68 310ae17ff9739c13388c24c0e030b82703dacd3f 4039d643869c55090d44f3aa8702d73b46e1fbd7 5de0610e31599fe8ef5776f5863b09dc1f26477f 9f770d99eaf4debb5924934d6518c03659e28e68 a6ca855518c0644f29efeef3252e6e4644550637 ab3da476fcae89be98853456b8a092feab8275f1 cc56a34f6df53e125a2035e7bb936a03b9217166 db111a0f52d41380988ce609bffd550fddd50cd2 f68c6fb512a5a68d6073d59cabf6bbaad2839693
 
 Package: rockchip-overlay
-Version: 1.5
+Version: 1.6
 Maintainer: Radxa <dev@radxa.com>
 Architecture: all
 Component: main
 Depends: linux-base
 Priority: optional
 Section: utils
-Filename: pool/main/r/rockchip-overlay/rockchip-overlay_1.5_all.deb
-Size: 4636
-SHA256: 9e2f4d80f33809965952444d9c567741583b835ddbdf4bb15c830f205514377f
-SHA1: 629f18bb9419fc4cb3dfaccd4699eddaa7f9444c
-MD5sum: bf21c7ba7ed4fdd35b954547eaca2ec1
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_1.6_all.deb
+Size: 4660
+SHA256: 97796f876280155a55ec32975cf71cdbf54c63281a4108d78caae4cb815ec114
+SHA1: 49070cfaa4eac7ec62ea0d18b3f9b50613115745
+MD5sum: 15dcc8acc9fac984c999abd9e277d495
 Description: General rockchip overlay package.
 
 Package: rockpi4-dtbo
-Version: 1.0
+Version: 1.1
 Maintainer: Radxa <dev@radxa.com>
 Architecture: all
 Component: main
 Priority: optional
 Section: utils
-Filename: pool/main/r/rockpi4-dtbo/rockpi4-dtbo_1.0_all.deb
-Size: 2852
-SHA256: 0a34c3ad021d9b25b2c0bc38ca64115401b9043815968384c9d329f854865d0c
-SHA1: 3cc32d81d611ca33e954d5a3086c7386b3e4fc14
-MD5sum: f5ca8c46bfc14f91f8794ff99dd2fcfc
+Filename: pool/main/r/rockpi4-dtbo/rockpi4-dtbo_1.1_all.deb
+Size: 3040
+SHA256: 9aba47fde385ea38f44ed3dc817d6dc9ea1d2fcddc58ae631861d8c94bb4112e
+SHA1: c1893f8cd037aa396619323e943c46c3f6299ea0
+MD5sum: 526a93bba5ff72129536a74ae6c0a156
 Description: ROCK Pi 4 device tree overlays
 
 Package: rockpi4-poe
