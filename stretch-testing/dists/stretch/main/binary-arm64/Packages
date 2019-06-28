@@ -327,3 +327,17 @@ Replaces: rockpi4b-rk-ubootimg
 Conflicts: rockpi4b-rk-ubootimg
 Provides: rockpi4b-rk-ubootimg
 
+Package: rockpis-dtbo
+Version: 0.2
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockpis-dtbo/rockpis-dtbo_0.2_all.deb
+Size: 1276
+SHA256: 23b791df7b4c97458732efa476de4b382f162af55161455f38d18c61cf79c21c
+SHA1: 573c8e9d3c889fa47bfcc00a734558c4eecfa561
+MD5sum: 23de07802d648949332bdbaf13301587
+Description: ROCK Pi S device tree overlays
+
