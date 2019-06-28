@@ -15,6 +15,23 @@ Description: Linux Kernel, firmware, headers
  This package will always depend on linux-image and
  linux-headers and linux-firmware-image.
 
+Package: linux-4.4-rockpis-latest
+Version: 4.4.143-13
+Architecture: all
+Component: main
+Depends: linux-image-4.4.143-13-rockchip-gea65ae4, linux-headers-4.4.143-13-rockchip-gea65ae4
+Maintainer: Radxa <dev@radxa.com>
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4-rockpis-latest/linux-4.4-rockpis-latest_4.4.143-13_all.deb
+Size: 742
+SHA256: c7daa11ee1ca59b5622a195e1f098a045c199f78c149ce68322db81f13875910
+SHA1: 574e1335ae41ccb94773af05a72d51836002d31c
+MD5sum: 8959ddc426400687885ab5139133284b
+Description: Linux Kernel, firmware, headers
+ This package will always depend on linux-image and
+ linux-headers and linux-firmware-image.
+
 Package: linux-firmware-image-4.4.154-86-rockchip-00028-gfcfcea3
 Source: linux-4.4.154-86-rockchip-00028-gfcfcea3
 Version: 4.4.154-86-rockchip
