@@ -294,38 +294,40 @@ MD5sum: 18cc278bce34b56b6fe741df2e693470
 Description: ROCK Pi 4 device tree overlays
 
 Package: rockpi4b-rk-u-boot-latest
-Version: 2017.09-02674-g92c16aa
+Version: 2017.09-2674-g92c16aa-1
 Architecture: all
-Component: main
-Depends: rockpi4b-rk-ubootimg(= 2017.09-02674-g92c16aa)
 Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 3
+Depends: rockpi4b-rk-ubootimg (= 2017.09-2674-g92c16aa-1)
+Multi-Arch: foreign
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpi4b-rk-u-boot-latest/rockpi4b-rk-u-boot-latest_2017.09-02674-g92c16aa_all.deb
-Size: 772
-SHA256: aa94c4f7add7f8c953b6292b8e6b35f24ce8ddabaea3a84de1abab9898f96f13
-SHA1: 4add475f53574686fb2769dad2faf0f561f7218f
-MD5sum: ccee8e07df5f7bf80a4664fa3603a21b
+Filename: pool/main/r/rockpi4b-rk-u-boot-latest/rockpi4b-rk-u-boot-latest_2017.09-2674-g92c16aa-1_all.deb
+Size: 712
+SHA256: c0ab65e1e747e6a43f5a1f794d47daef22ff09d526a7e9efceef91e55d6525cc
+SHA1: aee120fdd91e7c93705b966c555e08c3cb1b0aca
+MD5sum: 5dcc3225a600096bd47f66f0e4deebac
 Description: rockpi4b u-boot latest version package
  This package will always depend on rockpi4b-rk-ubootimg.
 
 Package: rockpi4b-rk-ubootimg
-Version: 2017.09-02674-g92c16aa
+Version: 2017.09-2674-g92c16aa-1
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 7090
 Depends: debsums, mtd-utils
+Conflicts: rockpi4b-rk-ubootimg
+Replaces: rockpi4b-rk-ubootimg
+Provides: rockpi4b-rk-ubootimg
+Multi-Arch: foreign
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpi4b-rk-ubootimg/rockpi4b-rk-ubootimg_2017.09-02674-g92c16aa_all.deb
-Size: 866932
-SHA256: 38b27dd93e9e499cb135675c62aa03331a099976d4e651184feb1a42dac94738
-SHA1: 3e509fe4ff43b882bb7d640eae2be7192bfea6b3
-MD5sum: 81d4a95b1f72afe6655f79b30fe6b879
+Filename: pool/main/r/rockpi4b-rk-ubootimg/rockpi4b-rk-ubootimg_2017.09-2674-g92c16aa-1_all.deb
+Size: 867144
+SHA256: 0c14c8cd40238a9364bd8200b3be01fa91e722390fe95909d29fea314ffb272d
+SHA1: 478a1f231355dbf41db23cb0769241ecc07177ad
+MD5sum: acbee782b8b2962eca4230a94663d830
 Description: rockpi4b u-boot package
-Multi-Arch: foreign
-Replaces: rockpi4b-rk-ubootimg
-Conflicts: rockpi4b-rk-ubootimg
-Provides: rockpi4b-rk-ubootimg
 
 Package: rockpis-dtbo
 Version: 0.2
