@@ -196,17 +196,16 @@ Build-Ids: 52d7db6d52871437fec95ada7814ca5893207696
 Package: linux-4.4-latest
 Version: 4.4.154-87
 Architecture: all
+Component: main
+Depends: linux-image-4.4.154-87-rockchip-00029-g8216f17, linux-firmware-image-4.4.154-87-rockchip-00029-g8216f17, linux-headers-4.4.154-87-rockchip-00029-g8216f17
 Maintainer: Radxa <dev@radxa.com>
-Installed-Size: 2
-Depends: linux-image-4.4.154-87-rockchip-g1234567-g1234567, linux-firmware-image-4.4.154-87-rockchip-g1234567-g1234567, linux-headers-4.4.154-87-rockchip-g1234567-g1234567
-Multi-Arch: foreign
 Priority: optional
-Section: admin
+Section: kernel
 Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-87_all.deb
-Size: 736
-SHA256: d7839999d6bf47e16d92e7baa495f3fc9c6790f0ec5fad6a259e400133fd984b
-SHA1: 46d493dafbd498288d514ef2ef3acfdc86ba1a5a
-MD5sum: 9000c60899684693da526304f16a3ad1
+Size: 808
+SHA256: 5a9c441f1df69fa20c1317e93a1d41ab776ad456aa196833c648869a67a77f8d
+SHA1: 0d34966b550d8cb47a5c39bb0083f0e0cac3bdb2
+MD5sum: 9e4048dfa620412a6e24f9a027f808c4
 Description: Linux Kernel, firmware, headers
  This package will always depend on linux-image and
  linux-headers and linux-firmware-image.
