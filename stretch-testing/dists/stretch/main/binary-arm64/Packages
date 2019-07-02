@@ -1,3 +1,22 @@
+Package: 96boards-tools-common
+Source: 96boards-tools
+Version: 0.12
+Architecture: all
+Maintainer: Ricardo Salveti <ricardo.salveti@linaro.org>
+Installed-Size: 30
+Depends: gdisk, parted
+Homepage: https://github.com/96boards/96boards-tools
+Priority: optional
+Section: utils
+Filename: pool/main/9/96boards-tools/96boards-tools-common_0.12_all.deb
+Size: 5732
+SHA256: 9a2f5ff49898d361afd80e30ba0c944435d3dd8da006522325d005684d600866
+SHA1: c78ec0f06fdecad500606b822b8a355358a9acac
+MD5sum: c582c443006df60aa5dfc8fff5668aa7
+Description: common files used by 96boards
+ This package provides configuration and tools used to help
+ bringing a common user experience across different 96Boards.
+
 Package: io
 Version: 0.1
 Maintainer: Radxa <dev@radxa.com>
