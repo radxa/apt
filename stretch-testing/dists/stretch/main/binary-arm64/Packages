@@ -49,18 +49,18 @@ Description: Linux Kernel, firmware, headers
  linux-headers and linux-firmware-image.
 
 Package: linux-4.4-rockpis-latest
-Version: 4.4.143-13
+Version: 4.4.143-14
 Architecture: all
 Component: main
-Depends: linux-image-4.4.143-13-rockchip-gea65ae4, linux-headers-4.4.143-13-rockchip-gea65ae4
+Depends: linux-image-4.4.143-14-rockchip-g2c5a33f60f54, linux-headers-4.4.143-14-rockchip-g2c5a33f60f54
 Maintainer: Radxa <dev@radxa.com>
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-4.4-rockpis-latest/linux-4.4-rockpis-latest_4.4.143-13_all.deb
-Size: 742
-SHA256: c7daa11ee1ca59b5622a195e1f098a045c199f78c149ce68322db81f13875910
-SHA1: 574e1335ae41ccb94773af05a72d51836002d31c
-MD5sum: 8959ddc426400687885ab5139133284b
+Filename: pool/main/l/linux-4.4-rockpis-latest/linux-4.4-rockpis-latest_4.4.143-14_all.deb
+Size: 812
+SHA256: d5f67883594984158d7f85fc4e14af17f155c351313b7e56c202f77992618457
+SHA1: 7689aaf4cd7b740ed4426c976a2e0d5271f25c41
+MD5sum: 6cfc19503bc3b5e95ddc84df00abfb4d
 Description: Linux Kernel, firmware, headers
  This package will always depend on linux-image and
  linux-headers and linux-firmware-image.
@@ -133,6 +133,26 @@ SHA1: 6e82d7feee8e1a2afee1d7ef9899a05f725bc6e1
 MD5sum: 0fc3cacb8b27d01a78a0d95180fad25f
 Description: Linux kernel headers for 4.4.143-13-rockchip-gea65ae4 on arm64
  This package provides kernel header files for 4.4.143-13-rockchip-gea65ae4 on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.143-14-rockchip-g2c5a33f60f54
+Source: linux-4.4.143-14-rockchip-g2c5a33f60f54
+Version: 4.4.143-14-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@sandara>
+Installed-Size: 46472
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.143-14-rockchip-g2c5a33f60f54/linux-headers-4.4.143-14-rockchip-g2c5a33f60f54_4.4.143-14-rockchip_arm64.deb
+Size: 7090184
+SHA256: a519abf4d93100ba7e4b26899a0b51afb1a079f47de43a3bc5598142407c76e8
+SHA1: 360a4a390e0b476c38365c27f2d78b358de60f8d
+MD5sum: 2de2f6fcd88ffe2b90aec55cca4e6646
+Description: Linux kernel headers for 4.4.143-14-rockchip-g2c5a33f60f54 on arm64
+ This package provides kernel header files for 4.4.143-14-rockchip-g2c5a33f60f54 on arm64
  .
  This is useful for people who need to build external modules
 
@@ -215,6 +235,26 @@ MD5sum: 802b97432b80c3f682dddeb48af89235
 Description: Linux kernel, version 4.4.143-13-rockchip-gea65ae4
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.143-13-rockchip-gea65ae4.
+
+Package: linux-image-4.4.143-14-rockchip-g2c5a33f60f54
+Source: linux-4.4.143-14-rockchip-g2c5a33f60f54
+Version: 4.4.143-14-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@sandara>
+Installed-Size: 22419
+Suggests: linux-firmware-image-4.4.143-14-rockchip-g2c5a33f60f54
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.143-14-rockchip-g2c5a33f60f54
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.143-14-rockchip-g2c5a33f60f54/linux-image-4.4.143-14-rockchip-g2c5a33f60f54_4.4.143-14-rockchip_arm64.deb
+Size: 4840984
+SHA256: 3d52ba3e7ff50902f27949a49c6529101a85eaf5af05908a171e8bd57ab9d598
+SHA1: 6e4e75d1b25148200628bd40c0776573fe522e18
+MD5sum: 31d004e9afe122d591e08865b5d6a094
+Description: Linux kernel, version 4.4.143-14-rockchip-g2c5a33f60f54
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.143-14-rockchip-g2c5a33f60f54.
 
 Package: linux-image-4.4.154-86-rockchip-00028-gfcfcea3
 Source: linux-4.4.154-86-rockchip-00028-gfcfcea3
