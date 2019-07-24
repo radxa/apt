@@ -18,38 +18,42 @@ Description: common files used by 96boards
  bringing a common user experience across different 96Boards.
 
 Package: linux-4.4-latest
-Version: 4.4.154-88
+Version: 4.4.154-89-rockchip
+License: GPL-2+
+Vendor: Radxa
 Architecture: all
-Component: main
-Depends: linux-image-4.4.154-88-rockchip-00030-g90239a6, linux-firmware-image-4.4.154-88-rockchip-00030-g90239a6, linux-headers-4.4.154-88-rockchip-00030-g90239a6
 Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.154-89-rockchip-g5fc53464d9db, linux-firmware-image-4.4.154-89-rockchip-g5fc53464d9db, linux-headers-4.4.154-89-rockchip-g5fc53464d9db
+Homepage: https://github.com/radxa/kernel
 Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-88_all.deb
-Size: 808
-SHA256: a7dd0d88fb8b470e80b1b4943c40f4aa0a9f55380a4f8f39a5b5a151343931f0
-SHA1: 710c0071b77f44f4ca1ea41a971bd7ab38b83010
-MD5sum: 149e1bae66760386cb6bcc7ac855c191
-Description: Linux Kernel, firmware, headers
- This package will always depend on linux-image and
- linux-headers and linux-firmware-image.
+Section: admin
+Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-89-rockchip_all.deb
+Size: 1104
+SHA256: 3e34a78683ffa5dd9efa81605df8306677e7e06d8c6382a402e1fa375b0b5dcf
+SHA1: f222d5f8775fb97ddbe649d30234e79b0cc5f680
+MD5sum: 7e59467c917cc29d7518721ca88010ef
+Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
+Multi-Arch: foreign
 
 Package: linux-4.4-rockpis-latest
-Version: 4.4.143-14
+Version: 4.4.143-22-rockchip
+License: GPL-2+
+Vendor: Radxa
 Architecture: all
-Component: main
-Depends: linux-image-4.4.143-14-rockchip-g2c5a33f60f54, linux-headers-4.4.143-14-rockchip-g2c5a33f60f54
 Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.143-22-rockchip-g46e0a13a34f0, linux-headers-4.4.143-22-rockchip-g46e0a13a34f0
+Homepage: https://github.com/radxa/kernel
 Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-4.4-rockpis-latest/linux-4.4-rockpis-latest_4.4.143-14_all.deb
-Size: 812
-SHA256: d5f67883594984158d7f85fc4e14af17f155c351313b7e56c202f77992618457
-SHA1: 7689aaf4cd7b740ed4426c976a2e0d5271f25c41
-MD5sum: 6cfc19503bc3b5e95ddc84df00abfb4d
-Description: Linux Kernel, firmware, headers
- This package will always depend on linux-image and
- linux-headers and linux-firmware-image.
+Section: admin
+Filename: pool/main/l/linux-4.4-rockpis-latest/linux-4.4-rockpis-latest_4.4.143-22-rockchip_all.deb
+Size: 1120
+SHA256: 2a6f5159eb991c8cbcb42ebde428f7dd3381051406a89340e1a72310fd2f3681
+SHA1: 103b371a5d241a63a0b8adb000ec6353c1cadd46
+MD5sum: b36a4c49fb59a6a56adf6da2d091f661
+Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
+Multi-Arch: foreign
 
 Package: linux-firmware-image-4.4.154-86-rockchip-00028-gfcfcea3
 Source: linux-4.4.154-86-rockchip-00028-gfcfcea3
@@ -101,6 +105,23 @@ SHA1: 465418713f51272da18289f24d81995b8c4f2801
 MD5sum: 324e0f9883f48af096552b803b7ccf94
 Description: Linux kernel firmware, version 4.4.154-88-rockchip-00030-g90239a6
  This package contains firmware from the Linux kernel, version 4.4.154-88-rockchip-00030-g90239a6.
+
+Package: linux-firmware-image-4.4.154-89-rockchip-g5fc53464d9db
+Source: linux-4.4.154-89-rockchip-g5fc53464d9db
+Version: 4.4.154-89-rockchip
+Architecture: all
+Maintainer: Anonymous <root@4e470287cb37>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-89-rockchip-g5fc53464d9db/linux-firmware-image-4.4.154-89-rockchip-g5fc53464d9db_4.4.154-89-rockchip_all.deb
+Size: 186308
+SHA256: 3026493f5eb750eb22bbfce61e761d29bc467fce1100c9da70c38398d7cba0d9
+SHA1: 6a8d4ed9213c14d63e1320f3cfbeef4ebfbb0b6c
+MD5sum: 0eb8873cc8383fbfe81aa02eebccafa3
+Description: Linux kernel firmware, version 4.4.154-89-rockchip-g5fc53464d9db
+ This package contains firmware from the Linux kernel, version 4.4.154-89-rockchip-g5fc53464d9db.
 
 Package: linux-headers-4.4.154-86-rockchip-00028-gfcfcea3
 Source: linux-4.4.154-86-rockchip-00028-gfcfcea3
@@ -159,6 +180,26 @@ SHA1: 73bdae99b34e597c15c72dc9c9907412077b70a5
 MD5sum: 01841b5c8732175b9819c8280b95dde8
 Description: Linux kernel headers for 4.4.154-88-rockchip-00030-g90239a6 on all
  This package provides kernel header files for 4.4.154-88-rockchip-00030-g90239a6 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-89-rockchip-g5fc53464d9db
+Source: linux-4.4.154-89-rockchip-g5fc53464d9db
+Version: 4.4.154-89-rockchip
+Architecture: all
+Maintainer: Anonymous <root@4e470287cb37>
+Installed-Size: 70819
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-89-rockchip-g5fc53464d9db/linux-headers-4.4.154-89-rockchip-g5fc53464d9db_4.4.154-89-rockchip_all.deb
+Size: 10177272
+SHA256: 1c25b9d6573a79378eec2e880b292fe4a4f9a09fa56a5cb3728ad54a08fb1b29
+SHA1: fdb6d294d7bdc3edcd30f7421a95bef9bebf622c
+MD5sum: b4082c2ce351e474f4a963f3f593ef69
+Description: Linux kernel headers for 4.4.154-89-rockchip-g5fc53464d9db on all
+ This package provides kernel header files for 4.4.154-89-rockchip-g5fc53464d9db on all
  .
  This is useful for people who need to build external modules
 
@@ -222,6 +263,26 @@ Description: Linux kernel, version 4.4.154-88-rockchip-00030-g90239a6
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-88-rockchip-00030-g90239a6.
 
+Package: linux-image-4.4.154-89-rockchip-g5fc53464d9db
+Source: linux-4.4.154-89-rockchip-g5fc53464d9db
+Version: 4.4.154-89-rockchip
+Architecture: all
+Maintainer: Anonymous <root@4e470287cb37>
+Installed-Size: 72471
+Suggests: linux-firmware-image-4.4.154-89-rockchip-g5fc53464d9db
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-89-rockchip-g5fc53464d9db
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-89-rockchip-g5fc53464d9db/linux-image-4.4.154-89-rockchip-g5fc53464d9db_4.4.154-89-rockchip_all.deb
+Size: 13998064
+SHA256: 6a43474f2056c22996e9df9d674f6088d55ec091ab9e1fba4fe9204d99aef5ab
+SHA1: b2977a3f735110e9d42ce1d2957beb47183f9d63
+MD5sum: c31dc9615eccf7e7a22679ada7e670bb
+Description: Linux kernel, version 4.4.154-89-rockchip-g5fc53464d9db
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-89-rockchip-g5fc53464d9db.
+
 Package: login-prompt-rockpi4
 Version: 0.1
 Maintainer: Radxa <dev@radxa.com>
@@ -267,17 +328,20 @@ MD5sum: 15dcc8acc9fac984c999abd9e277d495
 Description: General rockchip overlay package.
 
 Package: rockpi4-dtbo
-Version: 1.2
-Maintainer: Radxa <dev@radxa.com>
+Version: 2
+License: GPL-2+
+Vendor: Radxa
 Architecture: all
-Component: main
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 19
+Homepage: https://github.com/radxa/kernel
 Priority: optional
-Section: utils
-Filename: pool/main/r/rockpi4-dtbo/rockpi4-dtbo_1.2_all.deb
-Size: 3536
-SHA256: 69a8aa5334ee38aa65ed70b2a4b42443877151894b4353e3a056b7a717675f1d
-SHA1: fa24f9bccfbe37e8182e5aa7643f6ddb52066a2c
-MD5sum: 18d4b16b62a913f6fdd8bd44bf7e246e
+Section: admin
+Filename: pool/main/r/rockpi4-dtbo/rockpi4-dtbo_2_all.deb
+Size: 6520
+SHA256: 8b132c4bca894e7cc2d4ab854395514d3895f4839ae522fa8bd81a1d55b2d40a
+SHA1: c3f1279714e2acbf53bf361109ed58d420c3462b
+MD5sum: 0fa369378bcd664f0371a2dbbe762cc3
 Description: ROCK Pi 4 device tree overlays
 
 Package: rockpi4b-rk-u-boot-latest
@@ -315,48 +379,57 @@ Conflicts: rockpi4b-rk-ubootimg
 Provides: rockpi4b-rk-ubootimg
 
 Package: rockpis-dtbo
-Version: 0.2
-Maintainer: Radxa <dev@radxa.com>
+Version: 3
+License: GPL-2+
+Vendor: Radxa
 Architecture: all
-Component: main
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 5
+Homepage: https://github.com/radxa/kernel
 Priority: optional
-Section: utils
-Filename: pool/main/r/rockpis-dtbo/rockpis-dtbo_0.2_all.deb
-Size: 1276
-SHA256: 23b791df7b4c97458732efa476de4b382f162af55161455f38d18c61cf79c21c
-SHA1: 573c8e9d3c889fa47bfcc00a734558c4eecfa561
-MD5sum: 23de07802d648949332bdbaf13301587
+Section: admin
+Filename: pool/main/r/rockpis-dtbo/rockpis-dtbo_3_all.deb
+Size: 2836
+SHA256: 7fa55e571d99c59cbcb11d396ee980dd2dfed630d65bb474a2ff9519870ee4b4
+SHA1: de3d3e985aebee6a3b83e87b60c077942eccb529
+MD5sum: 67fdb18d5e6dc228f3059906d97079f9
 Description: ROCK Pi S device tree overlays
 
 Package: rockpis-rk-u-boot-latest
-Version: 2017.09-2367-gbc4e3e685c
+Version: 2017.09-2368-ga5dffc8fcf
+License: GPL-2+
+Vendor: Radxa
 Architecture: all
-Component: main
-Depends: rockpis-rk-ubootimg(= 2017.09-2367-gbc4e3e685c)
 Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: rockpis-rk-ubootimg (= 2017.09-2368-ga5dffc8fcf)
+Homepage: https://github.com/radxa/u-boot
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpis-rk-u-boot-latest/rockpis-rk-u-boot-latest_2017.09-2367-gbc4e3e685c_all.deb
-Size: 784
-SHA256: f7dc49d98ad1d37a8e2d4043d597a9f82cb90772373cfd8916206297f7aa14e4
-SHA1: 6e7a5c1caae26a392b053866b59ba6fab2da0d25
-MD5sum: 53ea2e48c466753f9fab0d2e1d738992
-Description: rockpis u-boot latest version package
- This package will always depend on rockpis-rk-ubootimg.
+Filename: pool/main/r/rockpis-rk-u-boot-latest/rockpis-rk-u-boot-latest_2017.09-2368-ga5dffc8fcf_all.deb
+Size: 1084
+SHA256: 8f40a9923ee395a00bbe1f0e0fc8eef69498f4d4010adc4ad780293f3ea6aa1c
+SHA1: fb500d2a81e212ac8c24e63c272be82cdd9fd266
+MD5sum: 6cc7371f423ccace2969d4c25b0f44a2
+Description: ROCK Pi S u-boot latest version package: depends on rockpis-rk-ubootimg (= 2017.09-2368-ga5dffc8fcf)
 
 Package: rockpis-rk-ubootimg
-Version: 2017.09-2367-gbc4e3e685c
+Version: 2017.09-2368-ga5dffc8fcf
+License: GPL-2+
+Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 2175
 Depends: debsums, mtd-utils
+Homepage: https://github.com/radxa/u-boot
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpis-rk-ubootimg/rockpis-rk-ubootimg_2017.09-2367-gbc4e3e685c_all.deb
-Size: 293668
-SHA256: a9dbd9c116d360666fb625b5352008baeff706e8e3e71e94e827ebdd67928a02
-SHA1: bb4f354b9adf890ac1a69af65a002e809eab4233
-MD5sum: 092e78ab11f5c269aa3cbe2e47e800ca
-Description: rockpis u-boot package
+Filename: pool/main/r/rockpis-rk-ubootimg/rockpis-rk-ubootimg_2017.09-2368-ga5dffc8fcf_all.deb
+Size: 373474
+SHA256: 5192287133384403a478084c63cdb8c7184e100c9a6cc494ca56a1291581190a
+SHA1: d3970884a65318baca655bbd217a460e732e0a3a
+MD5sum: 2d7c6a8eb3de27ead1dcd02112936ed1
+Description: ROCK Pi S u-boot package
 Multi-Arch: foreign
 Replaces: rockpis-rk-ubootimg
 Conflicts: rockpis-rk-ubootimg
