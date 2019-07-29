@@ -345,33 +345,33 @@ MD5sum: 0fa369378bcd664f0371a2dbbe762cc3
 Description: ROCK Pi 4 device tree overlays
 
 Package: rockpi4b-rk-u-boot-latest
-Version: 2017.09-2676-g4490220395-1
+Version: 2017.09-2676-g4490220395-5
 Architecture: all
 Component: main
-Depends: rockpi4b-rk-ubootimg(= 2017.09-2676-g4490220395-1)
+Depends: rockpi4b-rk-ubootimg(= 2017.09-2676-g4490220395-5)
 Maintainer: Radxa <dev@radxa.com>
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpi4b-rk-u-boot-latest/rockpi4b-rk-u-boot-latest_2017.09-2676-g4490220395-1_all.deb
-Size: 780
-SHA256: 0ad45c5b9608a9e40fdeb0f780d946bffc5117b89282cc6439b53ccd99aa5274
-SHA1: b2b8d76cbecd3c6453a2ac91f16b7ef8ff070fba
-MD5sum: 11affc1d891c1d07699d35f7068e956e
+Filename: pool/main/r/rockpi4b-rk-u-boot-latest/rockpi4b-rk-u-boot-latest_2017.09-2676-g4490220395-5_all.deb
+Size: 776
+SHA256: d255a48b5f2a33ef7be12d1f118d427e2333de2b1199872d85fc5f54be4e0f0c
+SHA1: 1a59f0e882853650397ba0aab3442307a5330bac
+MD5sum: 1b29462452b92d9b12f7d25a262c57f6
 Description: rockpi4b u-boot latest version package
  This package will always depend on rockpi4b-rk-ubootimg.
 
 Package: rockpi4b-rk-ubootimg
-Version: 2017.09-2676-g4490220395-1
+Version: 2017.09-2676-g4490220395-5
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
 Depends: debsums, mtd-utils
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpi4b-rk-ubootimg/rockpi4b-rk-ubootimg_2017.09-2676-g4490220395-1_all.deb
-Size: 867396
-SHA256: 686caa282616ad3667dad35c7544fd9b98bc176aa0cad9dae414a1a7ced23950
-SHA1: e1251319a0412f1ed411d4a27e223a43cbcfcc06
-MD5sum: d59fee52830927b9cadf58d438c52e6c
+Filename: pool/main/r/rockpi4b-rk-ubootimg/rockpi4b-rk-ubootimg_2017.09-2676-g4490220395-5_all.deb
+Size: 867644
+SHA256: c9f107f1d34e68d97b8a896646b9c0dc462b56cd65953935e05cee3615038575
+SHA1: 25b70d54b400913ed0e03646117f99d93c1c6fb1
+MD5sum: 4e45bc55282a98d2a762d83430787970
 Description: rockpi4b u-boot package
 Multi-Arch: foreign
 Replaces: rockpi4b-rk-ubootimg
