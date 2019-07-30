@@ -385,20 +385,17 @@ MD5sum: 15dcc8acc9fac984c999abd9e277d495
 Description: General rockchip overlay package.
 
 Package: rockpi4-dtbo
-Version: 3
-License: GPL-2+
-Vendor: Radxa
-Architecture: all
+Version: 4
 Maintainer: Radxa <dev@radxa.com>
-Installed-Size: 20
-Homepage: https://github.com/radxa/kernel
+Architecture: all
+Component: main
 Priority: optional
-Section: admin
-Filename: pool/main/r/rockpi4-dtbo/rockpi4-dtbo_3_all.deb
-Size: 6870
-SHA256: e3413d6b6589df9fef0192b99a8c3559bb5c01125688bb327f6856dd9084b486
-SHA1: 1b9bdbf345832f248b193eb8dc0e61866d524440
-MD5sum: 2e126be39ff5f1cde26bbc02c38ef968
+Section: utils
+Filename: pool/main/r/rockpi4-dtbo/rockpi4-dtbo_4_all.deb
+Size: 4084
+SHA256: c106ac1de635b1662ccad1b4ebabf4b3aa38776bf3b9b8095c32706a99aefe5a
+SHA1: a994d17fe34c67b59b94b98804a3482af7421df3
+MD5sum: b1940f9cebdd228e4782915cbc35da4f
 Description: ROCK Pi 4 device tree overlays
 
 Package: rockpi4b-rk-u-boot-latest
