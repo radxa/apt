@@ -32,21 +32,21 @@ MD5sum: 6d65cf7eb5b66edf96b5951619d6f039
 Description: io tool
 
 Package: linux-4.4-latest
-Version: 4.4.154-89-rockchip
+Version: 4.4.154-90-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.4.154-89-rockchip-g5fc53464d9db, linux-firmware-image-4.4.154-89-rockchip-g5fc53464d9db, linux-headers-4.4.154-89-rockchip-g5fc53464d9db
+Depends: linux-image-4.4.154-90-rockchip-ga14f6502e045, linux-firmware-image-4.4.154-90-rockchip-ga14f6502e045, linux-headers-4.4.154-90-rockchip-ga14f6502e045
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-89-rockchip_all.deb
-Size: 1104
-SHA256: 3e34a78683ffa5dd9efa81605df8306677e7e06d8c6382a402e1fa375b0b5dcf
-SHA1: f222d5f8775fb97ddbe649d30234e79b0cc5f680
-MD5sum: 7e59467c917cc29d7518721ca88010ef
+Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-90-rockchip_all.deb
+Size: 1102
+SHA256: 417dff7101645ff38ca47a397764775d89000eab5ae740e2c7c71e921c48d0e4
+SHA1: ab6c2db163b6df71ac2dd9d0c644fe8be5c303b1
+MD5sum: 328f413573417b73a07661d3e77325c6
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 
@@ -136,6 +136,23 @@ SHA1: 6a8d4ed9213c14d63e1320f3cfbeef4ebfbb0b6c
 MD5sum: 0eb8873cc8383fbfe81aa02eebccafa3
 Description: Linux kernel firmware, version 4.4.154-89-rockchip-g5fc53464d9db
  This package contains firmware from the Linux kernel, version 4.4.154-89-rockchip-g5fc53464d9db.
+
+Package: linux-firmware-image-4.4.154-90-rockchip-ga14f6502e045
+Source: linux-4.4.154-90-rockchip-ga14f6502e045
+Version: 4.4.154-90-rockchip
+Architecture: all
+Maintainer: Anonymous <root@2705a206000b>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-90-rockchip-ga14f6502e045/linux-firmware-image-4.4.154-90-rockchip-ga14f6502e045_4.4.154-90-rockchip_all.deb
+Size: 186504
+SHA256: 112652d352b2069b0472acd06dc59f117664c35c1c2e7257dcec97ca5c42a3ac
+SHA1: 8c9de2cba22f8f102e573e798568d4cd47e1efbf
+MD5sum: e003a37bd6a726d26d7f68de05676545
+Description: Linux kernel firmware, version 4.4.154-90-rockchip-ga14f6502e045
+ This package contains firmware from the Linux kernel, version 4.4.154-90-rockchip-ga14f6502e045.
 
 Package: linux-headers-4.4.143-13-rockchip-gea65ae4
 Source: linux-4.4.143-13-rockchip-gea65ae4
@@ -274,6 +291,26 @@ SHA1: fdb6d294d7bdc3edcd30f7421a95bef9bebf622c
 MD5sum: b4082c2ce351e474f4a963f3f593ef69
 Description: Linux kernel headers for 4.4.154-89-rockchip-g5fc53464d9db on all
  This package provides kernel header files for 4.4.154-89-rockchip-g5fc53464d9db on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-90-rockchip-ga14f6502e045
+Source: linux-4.4.154-90-rockchip-ga14f6502e045
+Version: 4.4.154-90-rockchip
+Architecture: all
+Maintainer: Anonymous <root@2705a206000b>
+Installed-Size: 70819
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-90-rockchip-ga14f6502e045/linux-headers-4.4.154-90-rockchip-ga14f6502e045_4.4.154-90-rockchip_all.deb
+Size: 10177744
+SHA256: e8bd98fb110a9618d583678306a63f4b1da6d1b698c2e441f9de96122b4a87b8
+SHA1: 0bd39f866dd110b5c6eeed5afba59c3d0ba6adb8
+MD5sum: 8a57089a0df5e08609321e3a49dcea9a
+Description: Linux kernel headers for 4.4.154-90-rockchip-ga14f6502e045 on all
+ This package provides kernel header files for 4.4.154-90-rockchip-ga14f6502e045 on all
  .
  This is useful for people who need to build external modules
 
@@ -417,6 +454,26 @@ Description: Linux kernel, version 4.4.154-89-rockchip-g5fc53464d9db
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-89-rockchip-g5fc53464d9db.
 
+Package: linux-image-4.4.154-90-rockchip-ga14f6502e045
+Source: linux-4.4.154-90-rockchip-ga14f6502e045
+Version: 4.4.154-90-rockchip
+Architecture: all
+Maintainer: Anonymous <root@2705a206000b>
+Installed-Size: 72471
+Suggests: linux-firmware-image-4.4.154-90-rockchip-ga14f6502e045
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-90-rockchip-ga14f6502e045
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-90-rockchip-ga14f6502e045/linux-image-4.4.154-90-rockchip-ga14f6502e045_4.4.154-90-rockchip_all.deb
+Size: 13990968
+SHA256: c24fda79b6d886e98940c5ec3cf269c9e3b3b91c39544b84a24d3f214519b178
+SHA1: 55e229af62e046e03f229fac88c355119443873d
+MD5sum: e1709c0a7f7e2f9c242eeac1c5c50ae3
+Description: Linux kernel, version 4.4.154-90-rockchip-ga14f6502e045
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-90-rockchip-ga14f6502e045.
+
 Package: login-prompt-rockpi4
 Version: 0.1
 Maintainer: Radxa <dev@radxa.com>
@@ -497,20 +554,20 @@ MD5sum: 15dcc8acc9fac984c999abd9e277d495
 Description: General rockchip overlay package.
 
 Package: rockpi4-dtbo
-Version: 2
+Version: 3
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
-Installed-Size: 19
+Installed-Size: 20
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpi4-dtbo/rockpi4-dtbo_2_all.deb
-Size: 6520
-SHA256: 8b132c4bca894e7cc2d4ab854395514d3895f4839ae522fa8bd81a1d55b2d40a
-SHA1: c3f1279714e2acbf53bf361109ed58d420c3462b
-MD5sum: 0fa369378bcd664f0371a2dbbe762cc3
+Filename: pool/main/r/rockpi4-dtbo/rockpi4-dtbo_3_all.deb
+Size: 6870
+SHA256: e3413d6b6589df9fef0192b99a8c3559bb5c01125688bb327f6856dd9084b486
+SHA1: 1b9bdbf345832f248b193eb8dc0e61866d524440
+MD5sum: 2e126be39ff5f1cde26bbc02c38ef968
 Description: ROCK Pi 4 device tree overlays
 
 Package: rockpi4b-rk-u-boot-latest
