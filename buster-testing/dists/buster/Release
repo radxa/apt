@@ -1,0 +1,28 @@
+Origin: apt.radxa.com
+Label: apt.radxa.com
+Codename: buster
+Date: Wed, 31 Jul 2019 12:45:36 UTC
+Architectures: armhf arm64
+Components: main
+Description: Apt repository for Radxa products
+MD5Sum:
+ 7d8b139f2542be5d4a2a1318d36b5f7f 410 main/binary-armhf/Packages
+ da3a076665a800062062921cf7c6be5b 320 main/binary-armhf/Packages.gz
+ c565b989b8ee8e7795fc8705eff55600 126 main/binary-armhf/Release
+ 7d8b139f2542be5d4a2a1318d36b5f7f 410 main/binary-arm64/Packages
+ da3a076665a800062062921cf7c6be5b 320 main/binary-arm64/Packages.gz
+ 1948d7c313289de2d434bc8958eb4305 126 main/binary-arm64/Release
+SHA1:
+ 43d0bb2f00573a9b4f1f44c802fe163569a6e557 410 main/binary-armhf/Packages
+ acd0a9e0ef4cea0d12d87ff434f2d82c7be277a0 320 main/binary-armhf/Packages.gz
+ 23e42ffe5fe8220d4ce8cebe5afa9046010d91e9 126 main/binary-armhf/Release
+ 43d0bb2f00573a9b4f1f44c802fe163569a6e557 410 main/binary-arm64/Packages
+ acd0a9e0ef4cea0d12d87ff434f2d82c7be277a0 320 main/binary-arm64/Packages.gz
+ af41e6144b1def9a2be005d93fbb7932edd05a3c 126 main/binary-arm64/Release
+SHA256:
+ 7cd4789d57d0e0a8f370254a55d825c3c71791d430cf8a7e82972a88333a4e20 410 main/binary-armhf/Packages
+ 0a69720b94426a86d658a25d95c7be281e588e10769f5c38420e4b0c229ca44a 320 main/binary-armhf/Packages.gz
+ 82b7adf84d0ca01b19114872693eb76ee52c66422528a43f813b163a4938b9af 126 main/binary-armhf/Release
+ 7cd4789d57d0e0a8f370254a55d825c3c71791d430cf8a7e82972a88333a4e20 410 main/binary-arm64/Packages
+ 0a69720b94426a86d658a25d95c7be281e588e10769f5c38420e4b0c229ca44a 320 main/binary-arm64/Packages.gz
+ d75661930a67b30a72b8f44ddbb16f3960a82997c1150e8d92dac8b31b364e40 126 main/binary-arm64/Release

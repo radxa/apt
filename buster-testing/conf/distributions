@@ -1,0 +1,7 @@
+Origin: apt.radxa.com
+Label: apt.radxa.com
+Codename: buster
+Architectures: armhf arm64
+Components: main
+Description: Apt repository for Radxa products
+SignWith: yes
