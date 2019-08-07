@@ -46,6 +46,22 @@ SHA1: 3d78b0bdc53035f97b9cecce68458fa23b0f082f
 MD5sum: da775d597aa0f38d7e951c5fd794147d
 Description: ROCK Pi S device tree overlays
 
+Package: rockpis-rk-u-boot-latest
+Version: 2017.09-2368-ga5dffc8fcf-1
+Architecture: all
+Component: main
+Depends: rockpis-rk-ubootimg(= 2017.09-2368-ga5dffc8fcf-1)
+Maintainer: Radxa <dev@radxa.com>
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpis-rk-u-boot-latest/rockpis-rk-u-boot-latest_2017.09-2368-ga5dffc8fcf-1_all.deb
+Size: 772
+SHA256: 0c6877997bd2cf7a992d83304dbf01c30bcba35b16c67af19788eb083613aaaf
+SHA1: d3dbb8af85773bff24092f9525f169e8696ea2bf
+MD5sum: 9db53aab7860c15d58d132fa84c77288
+Description: rockpis u-boot latest version package
+ This package will always depend on rockpis-rk-ubootimg.
+
 Package: rockpis-rk-ubootimg
 Version: 2017.09-2368-ga5dffc8fcf-1
 Architecture: all
