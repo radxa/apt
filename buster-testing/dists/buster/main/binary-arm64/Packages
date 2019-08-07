@@ -1,14 +1,153 @@
+Package: 96boards-tools-common
+Source: 96boards-tools
+Version: 0.12
+Architecture: all
+Maintainer: Ricardo Salveti <ricardo.salveti@linaro.org>
+Installed-Size: 30
+Depends: gdisk, parted
+Homepage: https://github.com/96boards/96boards-tools
+Priority: optional
+Section: utils
+Filename: pool/main/9/96boards-tools/96boards-tools-common_0.12_all.deb
+Size: 5732
+SHA256: 9a2f5ff49898d361afd80e30ba0c944435d3dd8da006522325d005684d600866
+SHA1: c78ec0f06fdecad500606b822b8a355358a9acac
+MD5sum: c582c443006df60aa5dfc8fff5668aa7
+Description: common files used by 96boards
+ This package provides configuration and tools used to help
+ bringing a common user experience across different 96Boards.
+
+Package: io
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: arm64
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/i/io/io_0.1_arm64.deb
+Size: 1102040
+SHA256: 778fb025a782f61248444f9faa89167f411471b66b38e51e0b603b8d7baee094
+SHA1: f8a7b6b3111872a05bbf8102fd1346848f672699
+MD5sum: 6d65cf7eb5b66edf96b5951619d6f039
+Description: io tool
+
+Package: linux-4.4-rockpis-latest
+Version: 4.4.143-23-rockchip
+License: GPL-2+
+Vendor: Radxa
+Architecture: arm64
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.143-23-rockchip-g394d86b2b38b, linux-headers-4.4.143-23-rockchip-g394d86b2b38b
+Homepage: https://github.com/radxa/kernel
+Priority: optional
+Section: admin
+Filename: pool/main/l/linux-4.4-rockpis-latest/linux-4.4-rockpis-latest_4.4.143-23-rockchip_arm64.deb
+Size: 1114
+SHA256: e00367c7bf68c7ded3b4028db8fa12008e8da99f6a9ef3520b9360ad5d3a9af5
+SHA1: a1e1213f85109fd7a4e75880125f71c0fce3db0e
+MD5sum: 899d57ba99d3f808106d6fdab921c0b9
+Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
+Multi-Arch: foreign
+
+Package: linux-headers-4.4.143-23-rockchip-g394d86b2b38b
+Source: linux-4.4.143-23-rockchip-g394d86b2b38b
+Version: 4.4.143-23-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@f8d601a511aa>
+Installed-Size: 46539
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.143-23-rockchip-g394d86b2b38b/linux-headers-4.4.143-23-rockchip-g394d86b2b38b_4.4.143-23-rockchip_arm64.deb
+Size: 7094588
+SHA256: f0b91b9dc0658a0b5e8b963c087976a1868d01fe59ac4a45692ab939487eb1bb
+SHA1: ee8027ac4fb0b2f3a5e72afce83eaf14ad19c7c1
+MD5sum: a6c13168b87e8057c20685212908ad95
+Description: Linux kernel headers for 4.4.143-23-rockchip-g394d86b2b38b on arm64
+ This package provides kernel header files for 4.4.143-23-rockchip-g394d86b2b38b on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-4.4.143-23-rockchip-g394d86b2b38b
+Source: linux-4.4.143-23-rockchip-g394d86b2b38b
+Version: 4.4.143-23-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@f8d601a511aa>
+Installed-Size: 24484
+Suggests: linux-firmware-image-4.4.143-23-rockchip-g394d86b2b38b
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.143-23-rockchip-g394d86b2b38b
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.143-23-rockchip-g394d86b2b38b/linux-image-4.4.143-23-rockchip-g394d86b2b38b_4.4.143-23-rockchip_arm64.deb
+Size: 5168376
+SHA256: a96a80ee1a0481a5fe4a31f2c8ea1c350e379ff62aae0157f998621717c5707f
+SHA1: d189c9665b863c3900d57d378a3bc0b946b2cf99
+MD5sum: ed3d934cf9e65049d4d716f943590e6d
+Description: Linux kernel, version 4.4.143-23-rockchip-g394d86b2b38b
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.143-23-rockchip-g394d86b2b38b.
+
+Package: rockchip-overlay
+Version: 1.7
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Depends: linux-base
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_1.7_all.deb
+Size: 4692
+SHA256: 036d5bde51a76cedbee064e7119fd60de6977cade84a1dec0999c13b66f1f190
+SHA1: 38dd2f29078230ed2233b168f00b54e8dd8b01a7
+MD5sum: 4fd12db24ff936bcee9b11841cf3c8e5
+Description: General rockchip overlay package.
+
 Package: rockpis-dtbo
-Version: 4
+Version: 4.2
 Maintainer: Radxa <dev@radxa.com>
 Architecture: all
 Component: main
 Priority: optional
-Section: utils
-Filename: pool/main/r/rockpis-dtbo/rockpis-dtbo_4_all.deb
-Size: 2284
-SHA256: 669f0f1c98fbc0173eaf8d5c96c5a6a765c40439e3d90f6351fc5baee95819c1
-SHA1: 5ae5be6b92d021918e9d612e48f37ea9a0a50ff8
-MD5sum: 67fa870dbbaef3ff9c3f015d71b435e1
+Section: admin
+Filename: pool/main/r/rockpis-dtbo/rockpis-dtbo_4.2_all.deb
+Size: 3264
+SHA256: b7da346c39c3172488476c4f7319e4fb345b259da6ab7f392eb8303a2c5bce8c
+SHA1: 3d78b0bdc53035f97b9cecce68458fa23b0f082f
+MD5sum: da775d597aa0f38d7e951c5fd794147d
 Description: ROCK Pi S device tree overlays
+
+Package: rockpis-rk-ubootimg
+Version: 2017.09-2368-ga5dffc8fcf-1
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Depends: debsums, mtd-utils
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpis-rk-ubootimg/rockpis-rk-ubootimg_2017.09-2368-ga5dffc8fcf-1_all.deb
+Size: 291948
+SHA256: 3d20e392f2121b3dd0fd2f6912daba945c3d66e419faabfcbf35a544c26f9a65
+SHA1: a87f7572551c84eb6969150ee713b6fd523bd049
+MD5sum: 27af70f21ab461e5d9829c6c0800c293
+Description: ROCK Pi S u-boot package
+Multi-Arch: foreign
+Replaces: rockpis-rk-ubootimg
+Conflicts: rockpis-rk-ubootimg
+Provides: rockpis-rk-ubootimg
+
+Package: rtl8723ds-firmware
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: arm64
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/r/rtl8723ds-firmware/rtl8723ds-firmware_0.1_arm64.deb
+Size: 341788
+SHA256: 4f1860a312b7bb326cc4c9a3c82516d5f5327f073d4c0a5a3fe685b02a994575
+SHA1: 1e8c6b9ebec803ba761569fb64e90daed1f6b830
+MD5sum: 9d129836fd56aaad2670c829f9c7f194
+Description: General chip rtl8723ds firmware.
 
