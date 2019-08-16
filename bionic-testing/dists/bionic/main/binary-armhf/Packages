@@ -399,33 +399,39 @@ MD5sum: b1940f9cebdd228e4782915cbc35da4f
 Description: ROCK Pi 4 device tree overlays
 
 Package: rockpi4b-rk-u-boot-latest
-Version: 2017.09-2676-g4490220395-7
+Version: 2017.09-2677-g59412e4610
+License: GPL-2+
+Vendor: Radxa
 Architecture: all
-Component: main
-Depends: rockpi4b-rk-ubootimg(= 2017.09-2676-g4490220395-7)
 Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: rockpi4b-rk-ubootimg (= 2017.09-2677-g59412e4610)
+Homepage: https://github.com/radxa/u-boot
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpi4b-rk-u-boot-latest/rockpi4b-rk-u-boot-latest_2017.09-2676-g4490220395-7_all.deb
-Size: 776
-SHA256: 258efd1c95b51273dc8530a79bf1884dc968dc3a37524c2c2c9a818148684042
-SHA1: 60a05ad290b397f590c61394850c0807fbd9f266
-MD5sum: 0af3f5af1ebee8ecced02dc9669abce5
-Description: rockpi4b u-boot latest version package
- This package will always depend on rockpi4b-rk-ubootimg.
+Filename: pool/main/r/rockpi4b-rk-u-boot-latest/rockpi4b-rk-u-boot-latest_2017.09-2677-g59412e4610_all.deb
+Size: 1082
+SHA256: 8c470589ce9a0033daf4e2977edaaf41d49ea503d87506c39e55d5ea63a3a58b
+SHA1: 504a5cdbcbabf409e6e16940eb6b6147138b1f5e
+MD5sum: 3b666c555e54434954f21e1713682bdc
+Description: rockpi4b u-boot latest version package: depends on rockpi4b-rk-ubootimg (= 2017.09-2677-g59412e4610)
 
 Package: rockpi4b-rk-ubootimg
-Version: 2017.09-2676-g4490220395-7
+Version: 2017.09-2677-g59412e4610
+License: GPL-2+
+Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 7079
 Depends: debsums, mtd-utils
+Homepage: https://github.com/radxa/u-boot
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpi4b-rk-ubootimg/rockpi4b-rk-ubootimg_2017.09-2676-g4490220395-7_all.deb
-Size: 867656
-SHA256: bd24356bbc504a1b78a0decb19bce716af1f41d2fa8739ef039b78ec8306650c
-SHA1: 40e5293c0c1761b2868f23453060359bf1c91f9d
-MD5sum: f17af24c505f07fee68c388a916a2579
+Filename: pool/main/r/rockpi4b-rk-ubootimg/rockpi4b-rk-ubootimg_2017.09-2677-g59412e4610_all.deb
+Size: 1796842
+SHA256: 515293b93ffbc94ba12a766ce5df0049aa4ca5b3d6db619655ae1a29e45d2b37
+SHA1: a10e0e48c55f414a7d443b8e7edc7728a1f22429
+MD5sum: 1f7bc2f73e7898ce6949dcbeed512dd1
 Description: rockpi4b u-boot package
 Multi-Arch: foreign
 Replaces: rockpi4b-rk-ubootimg
