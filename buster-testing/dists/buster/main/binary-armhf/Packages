@@ -18,18 +18,18 @@ Description: common files used by 96boards
  bringing a common user experience across different 96Boards.
 
 Package: rockchip-overlay
-Version: 1.8
+Version: 1.9
 Maintainer: Radxa <dev@radxa.com>
 Architecture: all
 Component: main
 Depends: linux-base
 Priority: optional
 Section: utils
-Filename: pool/main/r/rockchip-overlay/rockchip-overlay_1.8_all.deb
-Size: 4700
-SHA256: 67ff8de2befbdf10ae7e361862fa3e2532f9ce2e02d963b1aab907736d91d14c
-SHA1: 9e9fc02b160b96094fe0c1174527d1b443f76f12
-MD5sum: 701d7f4f55b4a58ad24e0aede0c8af28
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_1.9_all.deb
+Size: 4708
+SHA256: 4d2f0bbeafdc2c692e41d103691720684028c322527d60d0fa231cad0203324e
+SHA1: f1bbd70987a2909123a21db23ba568b2c96dc90c
+MD5sum: 7a50748a492f619b8bf2a69b20a855d3
 Description: General rockchip overlay package.
 
 Package: rockpi4b-rk-u-boot-latest
