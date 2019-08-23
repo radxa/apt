@@ -32,21 +32,21 @@ MD5sum: 6d65cf7eb5b66edf96b5951619d6f039
 Description: io tool
 
 Package: linux-4.4-rockpis-latest
-Version: 4.4.143-24-rockchip
+Version: 4.4.143-25-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: arm64
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.4.143-24-rockchip-g23ef9f208b12, linux-headers-4.4.143-24-rockchip-g23ef9f208b12
+Depends: linux-image-4.4.143-25-rockchip-gcf69a4100e39, linux-headers-4.4.143-25-rockchip-gcf69a4100e39
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.4-rockpis-latest/linux-4.4-rockpis-latest_4.4.143-24-rockchip_arm64.deb
-Size: 1118
-SHA256: 606ece0714084c4e66a9e03d10da4c77797aa8c3e8dadb249922c989bfc396bd
-SHA1: 04df8d6f191952a0f2a8e38bf5759bb30418b713
-MD5sum: f90678d07f7677d761b1d62e048fceca
+Filename: pool/main/l/linux-4.4-rockpis-latest/linux-4.4-rockpis-latest_4.4.143-25-rockchip_arm64.deb
+Size: 1120
+SHA256: 7277f802c9b0c0719eed559dcc5b2eab691b11967ee12015c7e357e675037c45
+SHA1: b04ac3eb92e2ef6e06f781294f82f54442416b32
+MD5sum: d3e05d665d61dbe1185584b27d00a4b2
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 
@@ -90,6 +90,26 @@ Description: Linux kernel headers for 4.4.143-24-rockchip-g23ef9f208b12 on arm64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-4.4.143-25-rockchip-gcf69a4100e39
+Source: linux-4.4.143-25-rockchip-gcf69a4100e39
+Version: 4.4.143-25-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@9699ce94cd1b>
+Installed-Size: 46545
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.143-25-rockchip-gcf69a4100e39/linux-headers-4.4.143-25-rockchip-gcf69a4100e39_4.4.143-25-rockchip_arm64.deb
+Size: 7095996
+SHA256: c01a6565360e7bf1f6b12829678fa288ea3e05573a995ad0b4374f43060d4258
+SHA1: 50a1320f06ad27694dc3ef2aeddb48edae4bb97d
+MD5sum: 8343fd839ccad1c6ea9587e50763a39a
+Description: Linux kernel headers for 4.4.143-25-rockchip-gcf69a4100e39 on arm64
+ This package provides kernel header files for 4.4.143-25-rockchip-gcf69a4100e39 on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-4.4.143-23-rockchip-g394d86b2b38b
 Source: linux-4.4.143-23-rockchip-g394d86b2b38b
 Version: 4.4.143-23-rockchip
@@ -129,6 +149,26 @@ MD5sum: 822eb44560ecec9f61502af8c3ace74b
 Description: Linux kernel, version 4.4.143-24-rockchip-g23ef9f208b12
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.143-24-rockchip-g23ef9f208b12.
+
+Package: linux-image-4.4.143-25-rockchip-gcf69a4100e39
+Source: linux-4.4.143-25-rockchip-gcf69a4100e39
+Version: 4.4.143-25-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@9699ce94cd1b>
+Installed-Size: 24559
+Suggests: linux-firmware-image-4.4.143-25-rockchip-gcf69a4100e39
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.143-25-rockchip-gcf69a4100e39
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.143-25-rockchip-gcf69a4100e39/linux-image-4.4.143-25-rockchip-gcf69a4100e39_4.4.143-25-rockchip_arm64.deb
+Size: 5203188
+SHA256: 826c62c0ec0a530c3bc889c3df16e38a010ee63138cfc909d7e5a89a4f6ab321
+SHA1: 44fa55ed6055340c815088ef2c23b98b6f0a5ee1
+MD5sum: 0f0ea22c36aa54c5186c5fb601a542a9
+Description: Linux kernel, version 4.4.143-25-rockchip-gcf69a4100e39
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.143-25-rockchip-gcf69a4100e39.
 
 Package: rockchip-overlay
 Version: 1.9
