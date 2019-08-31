@@ -86,23 +86,6 @@ MD5sum: ddc6a54eb866f8412a1f0df178ea137a
 Description: Linux kernel firmware, version 4.4.154-91-rockchip-g70838c09a6b6
  This package contains firmware from the Linux kernel, version 4.4.154-91-rockchip-g70838c09a6b6.
 
-Package: linux-firmware-image-4.4.154-91-rockchip-ga14f6502e045
-Source: linux-4.4.154-91-rockchip-ga14f6502e045
-Version: 4.4.154-91-rockchip
-Architecture: all
-Maintainer: Anonymous <root@84f5965befc6>
-Installed-Size: 588
-Homepage: http://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-4.4.154-91-rockchip-ga14f6502e045/linux-firmware-image-4.4.154-91-rockchip-ga14f6502e045_4.4.154-91-rockchip_all.deb
-Size: 186032
-SHA256: 240776822cdccb5342bef1b448c26af0ad24b152b7807d110816fb0d0c0c50e9
-SHA1: c802c43381bac8f56b321a3077b4e0e2dd659ddb
-MD5sum: 4eaf922be5e5e3cf7c2b890d4f7f7472
-Description: Linux kernel firmware, version 4.4.154-91-rockchip-ga14f6502e045
- This package contains firmware from the Linux kernel, version 4.4.154-91-rockchip-ga14f6502e045.
-
 Package: linux-headers-4.4.143-23-rockchip-g394d86b2b38b
 Source: linux-4.4.143-23-rockchip-g394d86b2b38b
 Version: 4.4.143-23-rockchip
@@ -180,26 +163,6 @@ SHA1: d2e6fb9c3577e566cc3947ac890ed757bd0e0653
 MD5sum: 5a79436ddd5bc2740d06f813afaaf4f7
 Description: Linux kernel headers for 4.4.154-91-rockchip-g70838c09a6b6 on all
  This package provides kernel header files for 4.4.154-91-rockchip-g70838c09a6b6 on all
- .
- This is useful for people who need to build external modules
-
-Package: linux-headers-4.4.154-91-rockchip-ga14f6502e045
-Source: linux-4.4.154-91-rockchip-ga14f6502e045
-Version: 4.4.154-91-rockchip
-Architecture: all
-Maintainer: Anonymous <root@84f5965befc6>
-Installed-Size: 70819
-Provides: linux-headers, linux-headers-2.6
-Homepage: http://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-4.4.154-91-rockchip-ga14f6502e045/linux-headers-4.4.154-91-rockchip-ga14f6502e045_4.4.154-91-rockchip_all.deb
-Size: 10177668
-SHA256: bcbee9d2cdbe676351dd3c9522c1c9fad7552e9c8880b74beecb95c860bd71d0
-SHA1: 3791dbd00f0431680439a5628c32ec1ab132b64a
-MD5sum: 9cab2e6c93ef533e517cfc66a535f2a3
-Description: Linux kernel headers for 4.4.154-91-rockchip-ga14f6502e045 on all
- This package provides kernel header files for 4.4.154-91-rockchip-ga14f6502e045 on all
  .
  This is useful for people who need to build external modules
 
@@ -282,26 +245,6 @@ MD5sum: 6efbd18563a60b175105f6cb7f11744f
 Description: Linux kernel, version 4.4.154-91-rockchip-g70838c09a6b6
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-91-rockchip-g70838c09a6b6.
-
-Package: linux-image-4.4.154-91-rockchip-ga14f6502e045
-Source: linux-4.4.154-91-rockchip-ga14f6502e045
-Version: 4.4.154-91-rockchip
-Architecture: all
-Maintainer: Anonymous <root@84f5965befc6>
-Installed-Size: 72471
-Suggests: linux-firmware-image-4.4.154-91-rockchip-ga14f6502e045
-Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-91-rockchip-ga14f6502e045
-Homepage: http://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-4.4.154-91-rockchip-ga14f6502e045/linux-image-4.4.154-91-rockchip-ga14f6502e045_4.4.154-91-rockchip_all.deb
-Size: 13997200
-SHA256: 23f7f6e2ac7984480c837211dbb11eff8e1624e71f66fd0229af364e8d78b3ff
-SHA1: 282d82ed49864cfd18206fc8a50eb8f3ba64852e
-MD5sum: da315caab81d7339cab87238d903dfe6
-Description: Linux kernel, version 4.4.154-91-rockchip-ga14f6502e045
- This package contains the Linux kernel, modules and corresponding other
- files, version: 4.4.154-91-rockchip-ga14f6502e045.
 
 Package: rockchip-overlay
 Version: 1.9
