@@ -352,10 +352,10 @@ Depends: linux-base
 Priority: optional
 Section: utils
 Filename: pool/main/r/rockchip-overlay/rockchip-overlay_2.0_all.deb
-Size: 4792
-SHA256: a36bad248de2aeac6cf1b9b07bd3f21acaf27c1bed449e6570e4ec27d33bcc3f
-SHA1: 876ee0549f91ead7c5b54f2848d50c6303b55361
-MD5sum: a3d0b83a1c180b05c418a59beed4623e
+Size: 4796
+SHA256: 6a37ab83851d11667ab75a7b93c4e824298a4c2d74247fbf06aeb51b63297fb0
+SHA1: c90b6dc0f01e2edb6c5cba4659ef094d61e6a430
+MD5sum: e6dc6be58c2e577425abca47cb7aa0a8
 Description: General rockchip overlay package.
 
 Package: rockpi4b-rk-u-boot-latest
