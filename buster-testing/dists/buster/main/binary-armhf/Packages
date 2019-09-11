@@ -94,18 +94,18 @@ Description: Linux kernel, version 4.4.154-91-rockchip-g70838c09a6b6
  files, version: 4.4.154-91-rockchip-g70838c09a6b6.
 
 Package: rockchip-overlay
-Version: 1.9
+Version: 2.0
 Maintainer: Radxa <dev@radxa.com>
 Architecture: all
 Component: main
 Depends: linux-base
 Priority: optional
 Section: utils
-Filename: pool/main/r/rockchip-overlay/rockchip-overlay_1.9_all.deb
-Size: 4708
-SHA256: 4d2f0bbeafdc2c692e41d103691720684028c322527d60d0fa231cad0203324e
-SHA1: f1bbd70987a2909123a21db23ba568b2c96dc90c
-MD5sum: 7a50748a492f619b8bf2a69b20a855d3
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_2.0_all.deb
+Size: 4792
+SHA256: a36bad248de2aeac6cf1b9b07bd3f21acaf27c1bed449e6570e4ec27d33bcc3f
+SHA1: 876ee0549f91ead7c5b54f2848d50c6303b55361
+MD5sum: a3d0b83a1c180b05c418a59beed4623e
 Description: General rockchip overlay package.
 
 Package: rockpi4b-rk-u-boot-latest
