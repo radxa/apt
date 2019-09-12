@@ -1162,17 +1162,3 @@ Replaces: rockpi4b-rk-ubootimg
 Conflicts: rockpi4b-rk-ubootimg
 Provides: rockpi4b-rk-ubootimg
 
-Package: rtl8723ds-firmware
-Version: 0.1
-Maintainer: Radxa <dev@radxa.com>
-Architecture: arm64
-Component: main
-Priority: optional
-Section: utils
-Filename: pool/main/r/rtl8723ds-firmware/rtl8723ds-firmware_0.1_arm64.deb
-Size: 341788
-SHA256: 4f1860a312b7bb326cc4c9a3c82516d5f5327f073d4c0a5a3fe685b02a994575
-SHA1: 1e8c6b9ebec803ba761569fb64e90daed1f6b830
-MD5sum: 9d129836fd56aaad2670c829f9c7f194
-Description: General chip rtl8723ds firmware.
-
