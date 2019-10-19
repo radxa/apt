@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: apt.radxa.com
 Label: apt.radxa.com
 Codename: stretch
-Date: Fri, 18 Oct 2019 10:40:19 UTC
+Date: Sat, 19 Oct 2019 05:23:00 UTC
 Architectures: armhf arm64
 Components: main
 Description: Apt repository for Radxa products
@@ -12,34 +12,34 @@ MD5Sum:
  dfe6b73ac67599f4499c46582c2699e3 33164 main/binary-armhf/Packages
  ca1a2d39436d646f8f655457dd0c6169 6597 main/binary-armhf/Packages.gz
  c565b989b8ee8e7795fc8705eff55600 126 main/binary-armhf/Release
- c1f612c70b9ae7bc9f4833fe2c96d9fb 55412 main/binary-arm64/Packages
- 8a1575cbab433da6e03b051862ae49c4 10686 main/binary-arm64/Packages.gz
+ e83029ea39b3d1f816f61f2b16ea987e 58081 main/binary-arm64/Packages
+ e4d78357655a23d7cd5cd41744784883 11117 main/binary-arm64/Packages.gz
  1948d7c313289de2d434bc8958eb4305 126 main/binary-arm64/Release
 SHA1:
  564b208de3432e253b61529061bce3f820f8a416 33164 main/binary-armhf/Packages
  0b0cb08406491a98c91a5cfeb53bc0e36e1fcdc3 6597 main/binary-armhf/Packages.gz
  23e42ffe5fe8220d4ce8cebe5afa9046010d91e9 126 main/binary-armhf/Release
- dc058f6d60b1b6e0d55948a27b33cbbec68798bd 55412 main/binary-arm64/Packages
- 463b7ebc1b7c6eee8faa75eb3bff59fd3022a820 10686 main/binary-arm64/Packages.gz
+ dc731cd3117d2993ea76c594bf236e52139a43a3 58081 main/binary-arm64/Packages
+ ea2be57abe79cb263ded895aa489cc10c72a89f6 11117 main/binary-arm64/Packages.gz
  af41e6144b1def9a2be005d93fbb7932edd05a3c 126 main/binary-arm64/Release
 SHA256:
  e7d43e425553d1b4b8c6d292c00da7e827cbe1d5173ff6204e23572f3397e75e 33164 main/binary-armhf/Packages
  3cc2b9ca002a0e6f2832eb2451b4fc30b59aba938e2ba34af96fdb347f5aa645 6597 main/binary-armhf/Packages.gz
  82b7adf84d0ca01b19114872693eb76ee52c66422528a43f813b163a4938b9af 126 main/binary-armhf/Release
- d2cdc79954c8f8d600f27af436e720bd173ecd345d62514fc0619d165723d889 55412 main/binary-arm64/Packages
- ce3e67b49d3f96f22e44170f40b16962aa7b4cf2c0f370aa198e18a6a538864e 10686 main/binary-arm64/Packages.gz
+ 79a6e67348482a783b06eb620aa9a6465c9a551909a6a221854dda58d0b61fb4 58081 main/binary-arm64/Packages
+ 996ac1908c885e37d04692c573fe2f6b12ec447d4c95b911a11fe9cd3b757fb6 11117 main/binary-arm64/Packages.gz
  d75661930a67b30a72b8f44ddbb16f3960a82997c1150e8d92dac8b31b364e40 126 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEx5740UnPycBBippgV2EoiytSzJAFAl2plpMACgkQV2EoiytS
-zJDrlAwAkqCiceZW7/3woQ/XtKIG7eIOZ4+ChJuBZEF/QuuIsb7OS079ws2H19TH
-ITbutVD3khRwR5uWTHtEuJxVDUr2/BwWRTSS8WLSTpZlyD0d1VR3YX6Tc8P3hfC/
-SLr0glYpaKzb2ROTBx0gGmdncWEwf+gJf1FyjUatX7k7LSg12MK1keHt8pXmgnsl
-9tQCjLHrVkKDdxyJvmVZ26iQy87u0z50wXulPLn3N1FzUcqZwKjB9Mx4fa9QI3a2
-41z+CpbQfpz+OE0m01m6hqZmrXZxUzHzevm2vx7yVzB+ptvgLYOBOrN/pVdWAM7F
-+MnFLI0pw1E31hCH5yU/ONyru23+8j1ZZiazkRRHAq95pTpyPATLKID6DfOK+Gd5
-aTekruhS9wwOj9pRRdSf9K/y8Tx5PUrO8QLGlfHJJw5Mon269Qh4oYcuNnJD99Tx
-cQt5tEbBHeTy49BEjnmxMWej5ZhxW8craCZoq0iV9QT1InQwRsndSGdBBWg2k1IN
-5QkA+WWb
-=Miwp
+iQGzBAEBCgAdFiEEx5740UnPycBBippgV2EoiytSzJAFAl2qnbQACgkQV2EoiytS
+zJBBNwwAg4UF28qFMwTaQkdRSPYyS3YaXjlTRU8IH8zHvQSMgu/5dtxOLek/h18Q
+GG82QmN+oxUY8UV5Ak+aEqRIqBEBtaMg7R1rJ42o9ictgU7DgE6iJfI0TfYDMT3L
+TAV1N14y6KdMs5GecozNDiOROC9Iq7+G8zDnCQRRs7AshkkFu/uE+Z0Ldt812ekN
+r5WXY8VXHg2Qw7oYyaF1LMO8gHeT+SY5ZZQqhx0SSPsCgTG6TusckkJn602gr0gG
+oyb3NVDwCfN4tOKZnyPucJI6LNDduwOlTWA1A3bE8aNi+CqSkkeP+MQ3SbVUHTFE
+ZXSQd/Zx7NKVeLo9qi2i6QMvIdTRCqHgpp93eUQDv789oFc+XMFDFruZuSKkSHNh
+uMlweHlLUztRiZ/Yq/YNGboDGHS0poiUyjfKIt5H119b65QPHOBI7tlVFZ5DpF1l
+ROD7Jwd2JrbWM5m5PTuGD+aWGLMF4Af00fd11jvLLpXcRmjAXk1VY+K3OoCLDZEc
+r9t9gi+8
+=iAV6
 -----END PGP SIGNATURE-----

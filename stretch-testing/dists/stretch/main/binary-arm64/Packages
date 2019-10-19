@@ -51,23 +51,40 @@ Description: This package will always depend on linux-image and linux-headers an
 Multi-Arch: foreign
 
 Package: linux-4.4-rockpis-latest
-Version: 4.4.143-30-rockchip
+Version: 4.4.143-31-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: arm64
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.4.143-30-rockchip-g2e63548cd02d, linux-headers-4.4.143-30-rockchip-g2e63548cd02d
+Depends: linux-image-4.4.143-31-rockchip-gc05398f0785a, linux-firmware-image-4.4.143-31-rockchip-gc05398f0785a, linux-headers-4.4.143-31-rockchip-gc05398f0785a
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.4-rockpis-latest/linux-4.4-rockpis-latest_4.4.143-30-rockchip_arm64.deb
-Size: 1122
-SHA256: 1449cbfab832af47c929dfb9ddaac935427645e4343c6edcd44e4ea05a3467af
-SHA1: e7fe4158976f038ba39355cb2e7fa14426d64ea7
-MD5sum: 5d49a6bec01a898c17ba50471119aafe
+Filename: pool/main/l/linux-4.4-rockpis-latest/linux-4.4-rockpis-latest_4.4.143-31-rockchip_arm64.deb
+Size: 1124
+SHA256: 519b4bd1b1b8baad9f12a3d6b8e99bd68ba687b12a6c0bb10655d0f53878556b
+SHA1: 518e2071dfebf4f860dec70258912f623a33c9fc
+MD5sum: b68617a6841f1e24f05a3d65967b3459
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
+
+Package: linux-firmware-image-4.4.143-31-rockchip-gc05398f0785a
+Source: linux-4.4.143-31-rockchip-gc05398f0785a
+Version: 4.4.143-31-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@6e87657b5c33>
+Installed-Size: 20
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.143-31-rockchip-gc05398f0785a/linux-firmware-image-4.4.143-31-rockchip-gc05398f0785a_4.4.143-31-rockchip_arm64.deb
+Size: 4604
+SHA256: 41b10499d151bf4eefef8f27d169eeb77104b3ab58459c5f7b3175b38eb8c031
+SHA1: a26fdea9a1529262bc32d9109770176bf9f6ca80
+MD5sum: f5b35b86502d15428071871855f05f6d
+Description: Linux kernel firmware, version 4.4.143-31-rockchip-gc05398f0785a
+ This package contains firmware from the Linux kernel, version 4.4.143-31-rockchip-gc05398f0785a.
 
 Package: linux-firmware-image-4.4.154-86-rockchip-00028-gfcfcea3
 Source: linux-4.4.154-86-rockchip-00028-gfcfcea3
@@ -439,6 +456,26 @@ SHA1: 4ae3a532bb9ab25344ff3c9814c1b00302ba3493
 MD5sum: d837fab4ddcc3ecb2c9b9ed48e1bff73
 Description: Linux kernel headers for 4.4.143-30-rockchip-g2e63548cd02d on arm64
  This package provides kernel header files for 4.4.143-30-rockchip-g2e63548cd02d on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.143-31-rockchip-gc05398f0785a
+Source: linux-4.4.143-31-rockchip-gc05398f0785a
+Version: 4.4.143-31-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@6e87657b5c33>
+Installed-Size: 47126
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.143-31-rockchip-gc05398f0785a/linux-headers-4.4.143-31-rockchip-gc05398f0785a_4.4.143-31-rockchip_arm64.deb
+Size: 7142492
+SHA256: f7953f3241adc3192bf3df0fd1317e4c6012621b860cd8c32c6544953b131635
+SHA1: 72676977d546d5b1651768c8ababc7b812ada58c
+MD5sum: 922f34f9a3dbaf1bccf95ae1f0fec274
+Description: Linux kernel headers for 4.4.143-31-rockchip-gc05398f0785a on arm64
+ This package provides kernel header files for 4.4.143-31-rockchip-gc05398f0785a on arm64
  .
  This is useful for people who need to build external modules
 
@@ -841,6 +878,26 @@ MD5sum: 8396ce69c86440f025a2fcbd05b8733a
 Description: Linux kernel, version 4.4.143-30-rockchip-g2e63548cd02d
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.143-30-rockchip-g2e63548cd02d.
+
+Package: linux-image-4.4.143-31-rockchip-gc05398f0785a
+Source: linux-4.4.143-31-rockchip-gc05398f0785a
+Version: 4.4.143-31-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@6e87657b5c33>
+Installed-Size: 49372
+Suggests: linux-firmware-image-4.4.143-31-rockchip-gc05398f0785a
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.143-31-rockchip-gc05398f0785a
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.143-31-rockchip-gc05398f0785a/linux-image-4.4.143-31-rockchip-gc05398f0785a_4.4.143-31-rockchip_arm64.deb
+Size: 10014856
+SHA256: bb3274119475b6a7bab4042c0fdf5400e02bc2c5def140542338f8a83d301ce4
+SHA1: 81a33fc3dda37af9310352eb6fa3ddfdd9795fcf
+MD5sum: b7d3763a577f521f11e902430b6debdb
+Description: Linux kernel, version 4.4.143-31-rockchip-gc05398f0785a
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.143-31-rockchip-gc05398f0785a.
 
 Package: linux-image-4.4.154-86-rockchip-00028-gfcfcea3
 Source: linux-4.4.154-86-rockchip-00028-gfcfcea3
