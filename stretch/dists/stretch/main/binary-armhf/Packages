@@ -266,21 +266,23 @@ Description: Debug symbols for librockchip-vpu0
 Build-Ids: 52d7db6d52871437fec95ada7814ca5893207696
 
 Package: linux-4.4-latest
-Version: 4.4.154-87
+Version: 4.4.154-95-rockchip
+License: GPL-2+
+Vendor: Radxa
 Architecture: all
-Component: main
-Depends: linux-image-4.4.154-87-rockchip-00029-g8216f17, linux-firmware-image-4.4.154-87-rockchip-00029-g8216f17, linux-headers-4.4.154-87-rockchip-00029-g8216f17
 Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.154-95-rockchip-gd2ab1f26e1b3, linux-firmware-image-4.4.154-95-rockchip-gd2ab1f26e1b3, linux-headers-4.4.154-95-rockchip-gd2ab1f26e1b3
+Homepage: https://github.com/radxa/kernel
 Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-87_all.deb
-Size: 808
-SHA256: 5a9c441f1df69fa20c1317e93a1d41ab776ad456aa196833c648869a67a77f8d
-SHA1: 0d34966b550d8cb47a5c39bb0083f0e0cac3bdb2
-MD5sum: 9e4048dfa620412a6e24f9a027f808c4
-Description: Linux Kernel, firmware, headers
- This package will always depend on linux-image and
- linux-headers and linux-firmware-image.
+Section: admin
+Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-95-rockchip_all.deb
+Size: 1108
+SHA256: bb0e31440e1990d8fc951b1994c08afcdaae1c587fc448e168ae017db1a1b9fa
+SHA1: 64040147adb9cb834718e786fb860b11621d2f74
+MD5sum: a724780b003124d9b41811cdf93fe0b8
+Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
+Multi-Arch: foreign
 
 Package: linux-firmware-image-4.4.154-59-rockchip-g5e70f14
 Source: linux-4.4.154-59-rockchip-g5e70f14
@@ -485,6 +487,23 @@ SHA1: 26c5a76e9c3d0fdec19e3bddb0f0e43ba9354dff
 MD5sum: ca5426d2f4b13015f681d7f868db2eeb
 Description: Linux kernel firmware, version 4.4.154-87-rockchip-00029-g8216f17
  This package contains firmware from the Linux kernel, version 4.4.154-87-rockchip-00029-g8216f17.
+
+Package: linux-firmware-image-4.4.154-95-rockchip-gd2ab1f26e1b3
+Source: linux-4.4.154-95-rockchip-gd2ab1f26e1b3
+Version: 4.4.154-95-rockchip
+Architecture: all
+Maintainer: Anonymous <root@9b9f38ab9893>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-95-rockchip-gd2ab1f26e1b3/linux-firmware-image-4.4.154-95-rockchip-gd2ab1f26e1b3_4.4.154-95-rockchip_all.deb
+Size: 186400
+SHA256: 9474935043fe46be97495036e029805a04832d3692af8d3e8e51803476fed671
+SHA1: 0b2d1deb50b9123e4469aadafd90dce681f81e85
+MD5sum: c644e798c39dccc0349ce8c57f2ed5dd
+Description: Linux kernel firmware, version 4.4.154-95-rockchip-gd2ab1f26e1b3
+ This package contains firmware from the Linux kernel, version 4.4.154-95-rockchip-gd2ab1f26e1b3.
 
 Package: linux-headers-4.4.154-59-rockchip-g5e70f14
 Source: linux-4.4.154-59-rockchip-g5e70f14
@@ -723,6 +742,26 @@ SHA1: 3b60ce35ecdcf5a75a68a847abd6527248407dfb
 MD5sum: a170bbd54f4c950b10111765f0724376
 Description: Linux kernel headers for 4.4.154-87-rockchip-00029-g8216f17 on all
  This package provides kernel header files for 4.4.154-87-rockchip-00029-g8216f17 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-95-rockchip-gd2ab1f26e1b3
+Source: linux-4.4.154-95-rockchip-gd2ab1f26e1b3
+Version: 4.4.154-95-rockchip
+Architecture: all
+Maintainer: Anonymous <root@9b9f38ab9893>
+Installed-Size: 70820
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-95-rockchip-gd2ab1f26e1b3/linux-headers-4.4.154-95-rockchip-gd2ab1f26e1b3_4.4.154-95-rockchip_all.deb
+Size: 10176724
+SHA256: 041bf048c7b00fa12a9fde204b1f8d2c7b04cf364c795ee7c6f5d32af997116f
+SHA1: 9d8520d892bdbc0e68e0adf5d11bb52d79a233e0
+MD5sum: 5e37c47540debaeb16bac2eeca2173d8
+Description: Linux kernel headers for 4.4.154-95-rockchip-gd2ab1f26e1b3 on all
+ This package provides kernel header files for 4.4.154-95-rockchip-gd2ab1f26e1b3 on all
  .
  This is useful for people who need to build external modules
 
@@ -966,6 +1005,26 @@ Description: Linux kernel, version 4.4.154-87-rockchip-00029-g8216f17
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-87-rockchip-00029-g8216f17.
 
+Package: linux-image-4.4.154-95-rockchip-gd2ab1f26e1b3
+Source: linux-4.4.154-95-rockchip-gd2ab1f26e1b3
+Version: 4.4.154-95-rockchip
+Architecture: all
+Maintainer: Anonymous <root@9b9f38ab9893>
+Installed-Size: 72596
+Suggests: linux-firmware-image-4.4.154-95-rockchip-gd2ab1f26e1b3
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-95-rockchip-gd2ab1f26e1b3
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-95-rockchip-gd2ab1f26e1b3/linux-image-4.4.154-95-rockchip-gd2ab1f26e1b3_4.4.154-95-rockchip_all.deb
+Size: 14017008
+SHA256: 19d6edde32f9365621897bec9cb5a0e812c9371a3af16cd0c52d7201eb97210d
+SHA1: e3dc808b8952379981c3e2c0b1168238bf96f556
+MD5sum: aae6a5635ee2ab0c0acf3387dd20223f
+Description: Linux kernel, version 4.4.154-95-rockchip-gd2ab1f26e1b3
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-95-rockchip-gd2ab1f26e1b3.
+
 Package: rock960ab-rk-u-boot-latest
 Version: 2017.09-00011-g0568348
 Architecture: all
@@ -1086,65 +1145,151 @@ Description: Debug symbols for rockchip-mpp-demos
 Build-Ids: 154f31d450fef30f52227253b365b6a2af122d47 2df858616f40b3a0a74aac72c92c44797c7fbfd1 30337d28b57fe17bff9cdbea9528997d808d1452 475d28e63aabe41e9ab023f5fd0470ad09dc765e 6ab6db001b829c0f8216fa04c65c843680566fa0 702643c88d592d288ea916af95edd7aab3bd5782 731bc22cfb76d2a473d396edb4d9ff7451455a97 8ad7f1f74a34bf7977774f757f90c7e23d2f27cf b9b64839343ede570ec2448bc590b5a0eb8e506f e5e0815e45f2bc67f424889836f7c26906d4be80 f020efd98f18ed1356f47ccdafab1ad5cdcbd85c
 
 Package: rockchip-overlay
-Version: 1.6
+Version: 2.0
 Maintainer: Radxa <dev@radxa.com>
 Architecture: all
 Component: main
 Depends: linux-base
 Priority: optional
 Section: utils
-Filename: pool/main/r/rockchip-overlay/rockchip-overlay_1.6_all.deb
-Size: 4660
-SHA256: 97796f876280155a55ec32975cf71cdbf54c63281a4108d78caae4cb815ec114
-SHA1: 49070cfaa4eac7ec62ea0d18b3f9b50613115745
-MD5sum: 15dcc8acc9fac984c999abd9e277d495
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_2.0_all.deb
+Size: 4796
+SHA256: 6a37ab83851d11667ab75a7b93c4e824298a4c2d74247fbf06aeb51b63297fb0
+SHA1: c90b6dc0f01e2edb6c5cba4659ef094d61e6a430
+MD5sum: e6dc6be58c2e577425abca47cb7aa0a8
 Description: General rockchip overlay package.
 
 Package: rockpi4-dtbo
-Version: 1.1
+Version: 4.1
 Maintainer: Radxa <dev@radxa.com>
 Architecture: all
 Component: main
 Priority: optional
 Section: utils
-Filename: pool/main/r/rockpi4-dtbo/rockpi4-dtbo_1.1_all.deb
-Size: 3040
-SHA256: 9aba47fde385ea38f44ed3dc817d6dc9ea1d2fcddc58ae631861d8c94bb4112e
-SHA1: c1893f8cd037aa396619323e943c46c3f6299ea0
-MD5sum: 526a93bba5ff72129536a74ae6c0a156
+Filename: pool/main/r/rockpi4-dtbo/rockpi4-dtbo_4.1_all.deb
+Size: 4304
+SHA256: 0c101c181faaaec3d41418cd3315e36cb870d8b8819c1e2bca85ff5b67779b14
+SHA1: 5f455c55b815d16620b4b66df6fe95a17d3b97b6
+MD5sum: a8992a583249bdc2151782196aa09347
 Description: ROCK Pi 4 device tree overlays
 
-Package: rockpi4b-rk-u-boot-latest
-Version: 2017.09-00011-g0568348
+Package: rockpi4a-rk-u-boot-latest
+Version: 2017.09-2680-g674eaa57f0
+License: GPL-2+
+Vendor: Radxa
 Architecture: all
-Component: main
-Depends: rockpi4b-rk-ubootimg(= 2017.09-00011-g0568348)
 Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: rockpi4a-rk-ubootimg (= 2017.09-2680-g674eaa57f0)
+Homepage: https://github.com/radxa/u-boot
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpi4b-rk-u-boot-latest/rockpi4b-rk-u-boot-latest_2017.09-00011-g0568348_all.deb
-Size: 772
-SHA256: 5c3157354c790969fcfb8e9a982637b22b6639dcdc445330263166017a8fb59f
-SHA1: 9a0cd9666be387780ae3891cf9ad797873b4de30
-MD5sum: a124f8eca76500523607bd1e7a8db2ad
-Description: rockpi4b u-boot latest version package
- This package will always depend on rockpi4b-rk-ubootimg.
+Filename: pool/main/r/rockpi4a-rk-u-boot-latest/rockpi4a-rk-u-boot-latest_2017.09-2680-g674eaa57f0_all.deb
+Size: 1080
+SHA256: 608d33a52a31c7f79de34ebee94ac1e4e0b319d9d7ad3b18e49dd2953d3081ef
+SHA1: 1b26a937d8183210a82f1a1d5ead5166ecccb706
+MD5sum: 014e678c4eff55e62b25bc903c654448
+Description: rockpi4a u-boot latest version package: depends on rockpi4a-rk-ubootimg (= 2017.09-2680-g674eaa57f0)
+
+Package: rockpi4a-rk-ubootimg
+Version: 2017.09-2680-g674eaa57f0
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 7079
+Depends: debsums, mtd-utils
+Homepage: https://github.com/radxa/u-boot
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpi4a-rk-ubootimg/rockpi4a-rk-ubootimg_2017.09-2680-g674eaa57f0_all.deb
+Size: 1796930
+SHA256: 53a72393ac75563f0586ea4be309f93810efbae2c974f3a9f72694b671abe0d5
+SHA1: 5d7ffcfca1e00686ba391692a6aa91969569e50d
+MD5sum: 222a3a140dcf8c8cd652af80bb03f56d
+Description: rockpi4a u-boot package
+Multi-Arch: foreign
+Replaces: rockpi4a-rk-ubootimg
+Conflicts: rockpi4a-rk-ubootimg
+Provides: rockpi4a-rk-ubootimg
+
+Package: rockpi4b-rk-u-boot-latest
+Version: 2017.09-2680-g674eaa57f0
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: rockpi4b-rk-ubootimg (= 2017.09-2680-g674eaa57f0)
+Homepage: https://github.com/radxa/u-boot
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpi4b-rk-u-boot-latest/rockpi4b-rk-u-boot-latest_2017.09-2680-g674eaa57f0_all.deb
+Size: 1084
+SHA256: f91d5726a6edc4f776269e5889c25abd0fbd0371730b4c4c73565e9e56db08f3
+SHA1: 1c7e97b0fe08058077297681f5e1b2d2a22abca4
+MD5sum: 3da4bfc6522889a199028d750f5774fc
+Description: rockpi4b u-boot latest version package: depends on rockpi4b-rk-ubootimg (= 2017.09-2680-g674eaa57f0)
 
 Package: rockpi4b-rk-ubootimg
-Version: 2017.09-00011-g0568348
+Version: 2017.09-2680-g674eaa57f0
+License: GPL-2+
+Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 7079
 Depends: debsums, mtd-utils
+Homepage: https://github.com/radxa/u-boot
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpi4b-rk-ubootimg/rockpi4b-rk-ubootimg_2017.09-00011-g0568348_all.deb
-Size: 820632
-SHA256: 5fadf6f4ab1cb7b409e1801d9f10c6d5cb782fc64086d7f2dc07644f6b0b9b0a
-SHA1: 32e582d5ff29b908b9e97c62853281587aab735b
-MD5sum: 34be40d1e2ee44595b3338560b973f71
+Filename: pool/main/r/rockpi4b-rk-ubootimg/rockpi4b-rk-ubootimg_2017.09-2680-g674eaa57f0_all.deb
+Size: 1796934
+SHA256: 90d61f0a281b2fa363e247b8ae8ad5df35e0ce57b7aa558d6177766adb820fe7
+SHA1: a43050571c9d7c015898329b5b89aa195a69ba7c
+MD5sum: 253a3f435863359e1ce2b5bb06b77ed5
 Description: rockpi4b u-boot package
 Multi-Arch: foreign
 Replaces: rockpi4b-rk-ubootimg
 Conflicts: rockpi4b-rk-ubootimg
 Provides: rockpi4b-rk-ubootimg
+
+Package: rockpi4c-rk-u-boot-latest
+Version: 2017.09-2680-g674eaa57f0
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: rockpi4c-rk-ubootimg (= 2017.09-2680-g674eaa57f0)
+Homepage: https://github.com/radxa/u-boot
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpi4c-rk-u-boot-latest/rockpi4c-rk-u-boot-latest_2017.09-2680-g674eaa57f0_all.deb
+Size: 1080
+SHA256: a53086c1e91c70ab9499b977e737742d0911fda1006dd0b537c1c2c026b2bcdf
+SHA1: abc3b292170b990b19951278dfa0f626ef4a80e0
+MD5sum: 30afa8e6e95dd95b1c8b8113091b40ed
+Description: rockpi4c u-boot latest version package: depends on rockpi4c-rk-ubootimg (= 2017.09-2680-g674eaa57f0)
+
+Package: rockpi4c-rk-ubootimg
+Version: 2017.09-2680-g674eaa57f0
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 7079
+Depends: debsums, mtd-utils
+Homepage: https://github.com/radxa/u-boot
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpi4c-rk-ubootimg/rockpi4c-rk-ubootimg_2017.09-2680-g674eaa57f0_all.deb
+Size: 1796660
+SHA256: f6d609e138c229dd8c325b3e806851307e0b1f4f3019c741881a7b501c86b5c6
+SHA1: bace2d0cfa0bc79685c8a760a4b0ee5faa3e37ff
+MD5sum: be3b6d510ef0a7dc61ccf61e2dd7d620
+Description: rockpi4c u-boot package
+Multi-Arch: foreign
+Replaces: rockpi4c-rk-ubootimg
+Conflicts: rockpi4c-rk-ubootimg
+Provides: rockpi4c-rk-ubootimg
 
