@@ -1,28 +1,28 @@
 Origin: apt.radxa.com
 Label: apt.radxa.com
 Codename: stretch
-Date: Mon, 21 Oct 2019 06:44:46 UTC
+Date: Mon, 21 Oct 2019 06:52:15 UTC
 Architectures: armhf arm64
 Components: main
 Description: Apt repository for Radxa products
 MD5Sum:
- bf3377d4cdc190b59a03bca739d03f29 35765 main/binary-armhf/Packages
- 428b951142384d7b3746b97eced76e28 7009 main/binary-armhf/Packages.gz
+ babcc4fd086de50b06af793367e78fd6 35769 main/binary-armhf/Packages
+ 4cc7232d22a6e3ca340316445a4f5d85 7013 main/binary-armhf/Packages.gz
  c565b989b8ee8e7795fc8705eff55600 126 main/binary-armhf/Release
- 5f178500b7c940a24f5b96454077249d 60682 main/binary-arm64/Packages
- 244e17d6b626d900b66807217836dfe0 11533 main/binary-arm64/Packages.gz
+ 0c4f2c83ddbffaf3b0e4e52cf8ced901 60686 main/binary-arm64/Packages
+ c4db7e22ed77996285ca717243a4ca6b 11533 main/binary-arm64/Packages.gz
  1948d7c313289de2d434bc8958eb4305 126 main/binary-arm64/Release
 SHA1:
- aeff98972f76b1cef6e664f3f3db01a7f51505b5 35765 main/binary-armhf/Packages
- cc9014dc36b5fc44419da4b02574a003df3916f4 7009 main/binary-armhf/Packages.gz
+ 5661ec0092853355f8a605ab7985c183e490c6ca 35769 main/binary-armhf/Packages
+ bca10cb5d37be70b90a3059f239afdef0b4393be 7013 main/binary-armhf/Packages.gz
  23e42ffe5fe8220d4ce8cebe5afa9046010d91e9 126 main/binary-armhf/Release
- d566021582b512b5db8af0633cab2da07c0d338c 60682 main/binary-arm64/Packages
- ea782dcef696e49aaa58f7d74c67ea3455c7b34a 11533 main/binary-arm64/Packages.gz
+ 6a55a329f666fd8c25268ce18817bddf94715c68 60686 main/binary-arm64/Packages
+ cf8e8ec6d3352de432e1de4c522bf86ce92a0299 11533 main/binary-arm64/Packages.gz
  af41e6144b1def9a2be005d93fbb7932edd05a3c 126 main/binary-arm64/Release
 SHA256:
- 190cad696e1907b787c3a012fe8c0623cb500268a46576f32240322e43efe16c 35765 main/binary-armhf/Packages
- e61a994cbfd6c52392dfb68dcbee93b4e207b8eea68d3b3da67a182bdaebe102 7009 main/binary-armhf/Packages.gz
+ f7c4defd83e3f15b55292362a484b0bb095f41deb80e8a1c6ab1fb3a189c7e97 35769 main/binary-armhf/Packages
+ e9fd54ea3df2a0cf7e10dbf24e8f285f87cb13febe3b195d105344935120c719 7013 main/binary-armhf/Packages.gz
  82b7adf84d0ca01b19114872693eb76ee52c66422528a43f813b163a4938b9af 126 main/binary-armhf/Release
- f50ccd7076553e8f524139787bf8c0e11b6af5b82bf0c90127a4c247b1ebb4ce 60682 main/binary-arm64/Packages
- aea975eab38e2de4221184423857b85952c7e0b288bd2bf15acbc360d98e044b 11533 main/binary-arm64/Packages.gz
+ 3e83cc018c0220d807eff1ed6995bebb3fd396124b5ff35dffac98e72ec5bf61 60686 main/binary-arm64/Packages
+ 53d09c2a811ef8e24cf308d2547c0b0d13a3ca9e860f9049a0592764a2644e96 11533 main/binary-arm64/Packages.gz
  d75661930a67b30a72b8f44ddbb16f3960a82997c1150e8d92dac8b31b364e40 126 main/binary-arm64/Release
