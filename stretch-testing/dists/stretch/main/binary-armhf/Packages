@@ -18,21 +18,21 @@ Description: common files used by 96boards
  bringing a common user experience across different 96Boards.
 
 Package: linux-4.4-latest
-Version: 4.4.154-95-rockchip
+Version: 4.4.154-96-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.4.154-95-rockchip-gd2ab1f26e1b3, linux-firmware-image-4.4.154-95-rockchip-gd2ab1f26e1b3, linux-headers-4.4.154-95-rockchip-gd2ab1f26e1b3
+Depends: linux-image-4.4.154-96-rockchip-gb08aaba46e04, linux-firmware-image-4.4.154-96-rockchip-gb08aaba46e04, linux-headers-4.4.154-96-rockchip-gb08aaba46e04
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-95-rockchip_all.deb
+Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-96-rockchip_all.deb
 Size: 1108
-SHA256: bb0e31440e1990d8fc951b1994c08afcdaae1c587fc448e168ae017db1a1b9fa
-SHA1: 64040147adb9cb834718e786fb860b11621d2f74
-MD5sum: a724780b003124d9b41811cdf93fe0b8
+SHA256: 84358a52b5310f25008300c3c91396c9caa728a8cbca71ef649c41af83776d79
+SHA1: 50316d3b862b843891c61dab71d953894c9084ae
+MD5sum: 1bf112c2930dbb194a4761c320f7b14d
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 
@@ -224,6 +224,23 @@ SHA1: 0b2d1deb50b9123e4469aadafd90dce681f81e85
 MD5sum: c644e798c39dccc0349ce8c57f2ed5dd
 Description: Linux kernel firmware, version 4.4.154-95-rockchip-gd2ab1f26e1b3
  This package contains firmware from the Linux kernel, version 4.4.154-95-rockchip-gd2ab1f26e1b3.
+
+Package: linux-firmware-image-4.4.154-96-rockchip-gb08aaba46e04
+Source: linux-4.4.154-96-rockchip-gb08aaba46e04
+Version: 4.4.154-96-rockchip
+Architecture: all
+Maintainer: Anonymous <root@400689a5f9ef>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-96-rockchip-gb08aaba46e04/linux-firmware-image-4.4.154-96-rockchip-gb08aaba46e04_4.4.154-96-rockchip_all.deb
+Size: 186252
+SHA256: 61a5b497713c30891af867ad47db78e38f02655da2b953ebb5218ad5e57e79fd
+SHA1: c421bd49ca31e0d9c24a97dab73525f98f5aae77
+MD5sum: e22902ceaf2e937b10c0035f987aa0fb
+Description: Linux kernel firmware, version 4.4.154-96-rockchip-gb08aaba46e04
+ This package contains firmware from the Linux kernel, version 4.4.154-96-rockchip-gb08aaba46e04.
 
 Package: linux-headers-4.4.154-86-rockchip-00028-gfcfcea3
 Source: linux-4.4.154-86-rockchip-00028-gfcfcea3
@@ -422,6 +439,26 @@ SHA1: 9d8520d892bdbc0e68e0adf5d11bb52d79a233e0
 MD5sum: 5e37c47540debaeb16bac2eeca2173d8
 Description: Linux kernel headers for 4.4.154-95-rockchip-gd2ab1f26e1b3 on all
  This package provides kernel header files for 4.4.154-95-rockchip-gd2ab1f26e1b3 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-96-rockchip-gb08aaba46e04
+Source: linux-4.4.154-96-rockchip-gb08aaba46e04
+Version: 4.4.154-96-rockchip
+Architecture: all
+Maintainer: Anonymous <root@400689a5f9ef>
+Installed-Size: 70820
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-96-rockchip-gb08aaba46e04/linux-headers-4.4.154-96-rockchip-gb08aaba46e04_4.4.154-96-rockchip_all.deb
+Size: 10177504
+SHA256: d3ce4a57f1c02acb92cce8f446ca7303a2b8685efbf35b7909329615ec279dda
+SHA1: 6a885cb122481f1d0784a2f128e4c03c448c57f1
+MD5sum: 66bdd89c9c47a459da4a245c7d8382e2
+Description: Linux kernel headers for 4.4.154-96-rockchip-gb08aaba46e04 on all
+ This package provides kernel header files for 4.4.154-96-rockchip-gb08aaba46e04 on all
  .
  This is useful for people who need to build external modules
 
@@ -624,6 +661,26 @@ MD5sum: aae6a5635ee2ab0c0acf3387dd20223f
 Description: Linux kernel, version 4.4.154-95-rockchip-gd2ab1f26e1b3
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-95-rockchip-gd2ab1f26e1b3.
+
+Package: linux-image-4.4.154-96-rockchip-gb08aaba46e04
+Source: linux-4.4.154-96-rockchip-gb08aaba46e04
+Version: 4.4.154-96-rockchip
+Architecture: all
+Maintainer: Anonymous <root@400689a5f9ef>
+Installed-Size: 72596
+Suggests: linux-firmware-image-4.4.154-96-rockchip-gb08aaba46e04
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-96-rockchip-gb08aaba46e04
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-96-rockchip-gb08aaba46e04/linux-image-4.4.154-96-rockchip-gb08aaba46e04_4.4.154-96-rockchip_all.deb
+Size: 14016564
+SHA256: e9d1a7d520633568ba7fa22ed9bc81bee6bc809f4053014adf0aaf263f3d2cc7
+SHA1: 3b35918f5e446572173ddee8a7ef9e9164db9e31
+MD5sum: 29159e44affba63e02273c9a3459d46d
+Description: Linux kernel, version 4.4.154-96-rockchip-gb08aaba46e04
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-96-rockchip-gb08aaba46e04.
 
 Package: login-prompt-rockpi4
 Version: 0.1
