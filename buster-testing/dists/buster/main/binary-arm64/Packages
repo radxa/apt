@@ -902,6 +902,21 @@ Description: Linux kernel, version 4.4.154-96-rockchip-gb08aaba46e04
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-96-rockchip-gb08aaba46e04.
 
+Package: rockchip-fstab
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockchip-fstab/rockchip-fstab_0.1_all.deb
+Size: 1036
+SHA256: c4978b32a328a21b772faba40ceb6ec4e121601e07700ce1ea88885bdb8a2311
+SHA1: c0c157df1829b2451fe733fc880afc244247680c
+MD5sum: 8c926ece411831408a5d699c658bb996
+Description: Rockchip default fstab
+Depends: util-linux, bash
+
 Package: rockchip-overlay
 Version: 2.0
 Maintainer: Radxa <dev@radxa.com>
