@@ -1535,34 +1535,40 @@ MD5sum: 200012c777615a7d196bfe207a272ed0
 Description: ROCK Pi S device tree overlays
 
 Package: rockpis-rk-u-boot-latest
-Version: 2017.09-2368-ga5dffc8fcf-1
+Version: 2017.09-2370-g6d65a50f1e
+License: GPL-2+
+Vendor: Radxa
 Architecture: all
-Component: main
-Depends: rockpis-rk-ubootimg(= 2017.09-2368-ga5dffc8fcf-1)
 Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: rockpis-rk-ubootimg (= 2017.09-2370-g6d65a50f1e)
+Homepage: https://github.com/radxa/u-boot
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpis-rk-u-boot-latest/rockpis-rk-u-boot-latest_2017.09-2368-ga5dffc8fcf-1_all.deb
-Size: 772
-SHA256: 0c6877997bd2cf7a992d83304dbf01c30bcba35b16c67af19788eb083613aaaf
-SHA1: d3dbb8af85773bff24092f9525f169e8696ea2bf
-MD5sum: 9db53aab7860c15d58d132fa84c77288
-Description: rockpis u-boot latest version package
- This package will always depend on rockpis-rk-ubootimg.
+Filename: pool/main/r/rockpis-rk-u-boot-latest/rockpis-rk-u-boot-latest_2017.09-2370-g6d65a50f1e_all.deb
+Size: 1082
+SHA256: ed26f42cacea40b7d45a660b082e11dfff68d3533ec1bb0c339b8382f38941b2
+SHA1: 5e43fb54a53677ddbc4e13bc3bec97259642ae3f
+MD5sum: 8a49b193e527b8d267d29f0fbcc6fc0b
+Description: rockpis u-boot latest version package: depends on rockpis-rk-ubootimg (= 2017.09-2370-g6d65a50f1e)
 
 Package: rockpis-rk-ubootimg
-Version: 2017.09-2368-ga5dffc8fcf-1
+Version: 2017.09-2370-g6d65a50f1e
+License: GPL-2+
+Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 2430
 Depends: debsums, mtd-utils
+Homepage: https://github.com/radxa/u-boot
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpis-rk-ubootimg/rockpis-rk-ubootimg_2017.09-2368-ga5dffc8fcf-1_all.deb
-Size: 291948
-SHA256: 3d20e392f2121b3dd0fd2f6912daba945c3d66e419faabfcbf35a544c26f9a65
-SHA1: a87f7572551c84eb6969150ee713b6fd523bd049
-MD5sum: 27af70f21ab461e5d9829c6c0800c293
-Description: ROCK Pi S u-boot package
+Filename: pool/main/r/rockpis-rk-ubootimg/rockpis-rk-ubootimg_2017.09-2370-g6d65a50f1e_all.deb
+Size: 626990
+SHA256: 98c2d3332d06ced8158a06ee5eab32e28c5395d440543abd9e9ce8c74ae17739
+SHA1: 30ac521783d326472aeac2f144e9c47824648cbe
+MD5sum: 475fb23745a7d9df6c592c17e54bdab2
+Description: rockpis u-boot package
 Multi-Arch: foreign
 Replaces: rockpis-rk-ubootimg
 Conflicts: rockpis-rk-ubootimg
