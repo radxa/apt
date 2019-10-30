@@ -17,6 +17,20 @@ Description: common files used by 96boards
  This package provides configuration and tools used to help
  bringing a common user experience across different 96Boards.
 
+Package: brcm-patchram-plus1-32
+Version: 0.2
+Maintainer: Radxa <dev@radxa.com>
+Architecture: armhf
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/b/brcm-patchram-plus1-32/brcm-patchram-plus1-32_0.2_armhf.deb
+Size: 7288
+SHA256: a9a7b9ffb0d5efcee21dbeaccae8279cc3ce195370d20557be2917ab6c01f42d
+SHA1: 4d294a90e490ba5cb7a350424878a25826c02ae7
+MD5sum: 89736cb0a6a95bf68a0e82e2caf1999b
+Description: Broadcom bluetooth patching tool
+
 Package: linux-4.4-latest
 Version: 4.4.154-96-rockchip
 License: GPL-2+

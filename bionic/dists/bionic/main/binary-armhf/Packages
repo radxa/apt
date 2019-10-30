@@ -60,17 +60,17 @@ MD5sum: a878e1cb24872de6af1380cf1c8aa89f
 Description: General chip ap6356 firmware.
 
 Package: brcm-patchram-plus1-32
-Version: 0.1
+Version: 0.2
 Maintainer: Radxa <dev@radxa.com>
 Architecture: armhf
 Component: main
 Priority: optional
 Section: utils
-Filename: pool/main/b/brcm-patchram-plus1-32/brcm-patchram-plus1-32_0.1_armhf.deb
-Size: 7308
-SHA256: 417d35cd1f08e85c8a9f037532130ea45b5daf614024da8205bbccde2439d72b
-SHA1: 9af370cc1ac8b9fffe4864fc1dfebf20acc04555
-MD5sum: 45dfb51aaa51d35f27e34c80dafc8bc3
+Filename: pool/main/b/brcm-patchram-plus1-32/brcm-patchram-plus1-32_0.2_armhf.deb
+Size: 7288
+SHA256: a9a7b9ffb0d5efcee21dbeaccae8279cc3ce195370d20557be2917ab6c01f42d
+SHA1: 4d294a90e490ba5cb7a350424878a25826c02ae7
+MD5sum: 89736cb0a6a95bf68a0e82e2caf1999b
 Description: Broadcom bluetooth patching tool
 
 Package: libmraa-rockpi4

@@ -60,17 +60,17 @@ MD5sum: a878e1cb24872de6af1380cf1c8aa89f
 Description: General chip ap6356 firmware.
 
 Package: brcm-patchram-plus1-64
-Version: 0.1
+Version: 0.2
 Maintainer: Radxa <dev@radxa.com>
 Architecture: arm64
 Component: main
 Priority: optional
 Section: utils
-Filename: pool/main/b/brcm-patchram-plus1-64/brcm-patchram-plus1-64_0.1_arm64.deb
-Size: 5924
-SHA256: 1eb1afe52996cfc21a962a4e32e64c6bc385ba66594b03ed72bd29d21593fb08
-SHA1: bf371205d0f395e5f95633c4a66733ced9c4ee77
-MD5sum: abdefdc05ffdb66ac2f36db24d20643e
+Filename: pool/main/b/brcm-patchram-plus1-64/brcm-patchram-plus1-64_0.2_arm64.deb
+Size: 5904
+SHA256: 16e92f14f7cae6f14bd2057672e74fc98f7101e43b09ffc3cb03321b6f0e8203
+SHA1: 8ef7628c244e7e08053110e0c96b3efd4e214666
+MD5sum: 0d64e880200177834c05e8ece71b1403
 Description: Broadcom bluetooth patching tool
 
 Package: gstreamer1.0-rockchip1
