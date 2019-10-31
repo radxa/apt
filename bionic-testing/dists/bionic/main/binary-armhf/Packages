@@ -726,18 +726,18 @@ Description: Rockchip default fstab
 Depends: util-linux, bash
 
 Package: rockchip-overlay
-Version: 2.0
+Version: 2.2
 Maintainer: Radxa <dev@radxa.com>
 Architecture: all
 Component: main
 Depends: linux-base
 Priority: optional
 Section: utils
-Filename: pool/main/r/rockchip-overlay/rockchip-overlay_2.0_all.deb
-Size: 4796
-SHA256: 6a37ab83851d11667ab75a7b93c4e824298a4c2d74247fbf06aeb51b63297fb0
-SHA1: c90b6dc0f01e2edb6c5cba4659ef094d61e6a430
-MD5sum: e6dc6be58c2e577425abca47cb7aa0a8
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_2.2_all.deb
+Size: 4368
+SHA256: 850f294aeb548a8910898257bd848a383564ba67d3371c17838335c744650fba
+SHA1: 5c268aa86cf99392de4dd45efff97e3cc41d9461
+MD5sum: e4d1e061e127cb69765c97c7bd61844c
 Description: General rockchip overlay package.
 
 Package: rockpi4-dtbo

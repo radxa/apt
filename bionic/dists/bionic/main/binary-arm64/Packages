@@ -1106,6 +1106,20 @@ Replaces: rock960c-rk-ubootimg
 Conflicts: rock960c-rk-ubootimg
 Provides: rock960c-rk-ubootimg
 
+Package: rockchip-adb
+Version: 0.2
+Maintainer: Radxa <dev@radxa.com>
+Architecture: arm64
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockchip-adb/rockchip-adb_0.2_arm64.deb
+Size: 595344
+SHA256: 2eaa93f9cd58f616fd3c35789505e156c7970d4984402e2eede6ca7f3df7c8fb
+SHA1: 0b94d36e9f169307afaa284cf5bb3a719db4e6e2
+MD5sum: 03416a3a2a131ab1ff31524f0ddc4d34
+Description: rockchip-adb package.
+
 Package: rockchip-fstab
 Version: 0.1
 Maintainer: Radxa <dev@radxa.com>
@@ -1158,18 +1172,18 @@ Description: Debug symbols for rockchip-mpp-demos
 Build-Ids: 0aedddd13769fb86517769ea7d5f95a66a21e710 1fbe9dac13528faf55616ca00681122d2b85ce68 310ae17ff9739c13388c24c0e030b82703dacd3f 4039d643869c55090d44f3aa8702d73b46e1fbd7 5de0610e31599fe8ef5776f5863b09dc1f26477f 9f770d99eaf4debb5924934d6518c03659e28e68 a6ca855518c0644f29efeef3252e6e4644550637 ab3da476fcae89be98853456b8a092feab8275f1 cc56a34f6df53e125a2035e7bb936a03b9217166 db111a0f52d41380988ce609bffd550fddd50cd2 f68c6fb512a5a68d6073d59cabf6bbaad2839693
 
 Package: rockchip-overlay
-Version: 2.0
+Version: 2.2
 Maintainer: Radxa <dev@radxa.com>
 Architecture: all
 Component: main
 Depends: linux-base
 Priority: optional
 Section: utils
-Filename: pool/main/r/rockchip-overlay/rockchip-overlay_2.0_all.deb
-Size: 4796
-SHA256: 6a37ab83851d11667ab75a7b93c4e824298a4c2d74247fbf06aeb51b63297fb0
-SHA1: c90b6dc0f01e2edb6c5cba4659ef094d61e6a430
-MD5sum: e6dc6be58c2e577425abca47cb7aa0a8
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_2.2_all.deb
+Size: 4368
+SHA256: 850f294aeb548a8910898257bd848a383564ba67d3371c17838335c744650fba
+SHA1: 5c268aa86cf99392de4dd45efff97e3cc41d9461
+MD5sum: e4d1e061e127cb69765c97c7bd61844c
 Description: General rockchip overlay package.
 
 Package: rockpi4-dtbo
