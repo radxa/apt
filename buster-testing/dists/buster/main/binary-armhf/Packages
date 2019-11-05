@@ -32,21 +32,21 @@ MD5sum: 89736cb0a6a95bf68a0e82e2caf1999b
 Description: Broadcom bluetooth patching tool
 
 Package: linux-4.4-latest
-Version: 4.4.154-96-rockchip
+Version: 4.4.154-97-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.4.154-96-rockchip-gb08aaba46e04, linux-firmware-image-4.4.154-96-rockchip-gb08aaba46e04, linux-headers-4.4.154-96-rockchip-gb08aaba46e04
+Depends: linux-image-4.4.154-97-rockchip-g31f2311e724b, linux-firmware-image-4.4.154-97-rockchip-g31f2311e724b, linux-headers-4.4.154-97-rockchip-g31f2311e724b
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-96-rockchip_all.deb
-Size: 1108
-SHA256: 84358a52b5310f25008300c3c91396c9caa728a8cbca71ef649c41af83776d79
-SHA1: 50316d3b862b843891c61dab71d953894c9084ae
-MD5sum: 1bf112c2930dbb194a4761c320f7b14d
+Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-97-rockchip_all.deb
+Size: 1100
+SHA256: d27d985ac83f99860726c45038a05d953c146f607bd6f7a2c2de16cc9b5e5c80
+SHA1: 79de9f4d9a1cfdbc38887a1b2d1c3e17bbecdbb8
+MD5sum: 7c67f8a66b449b9912b1200cfd59b7bc
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 
@@ -151,6 +151,23 @@ SHA1: c421bd49ca31e0d9c24a97dab73525f98f5aae77
 MD5sum: e22902ceaf2e937b10c0035f987aa0fb
 Description: Linux kernel firmware, version 4.4.154-96-rockchip-gb08aaba46e04
  This package contains firmware from the Linux kernel, version 4.4.154-96-rockchip-gb08aaba46e04.
+
+Package: linux-firmware-image-4.4.154-97-rockchip-g31f2311e724b
+Source: linux-4.4.154-97-rockchip-g31f2311e724b
+Version: 4.4.154-97-rockchip
+Architecture: all
+Maintainer: Anonymous <root@d70c7037ff28>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-97-rockchip-g31f2311e724b/linux-firmware-image-4.4.154-97-rockchip-g31f2311e724b_4.4.154-97-rockchip_all.deb
+Size: 186584
+SHA256: 2a6825055aec412d6a56f8a5b9fb09e9306efeed886ae1a22f3a2b74a9c47b31
+SHA1: f648bb323c29e16c3c1ec26b77d2412a3533df05
+MD5sum: d5ff1c7040e55716e2c48d46611bd8b3
+Description: Linux kernel firmware, version 4.4.154-97-rockchip-g31f2311e724b
+ This package contains firmware from the Linux kernel, version 4.4.154-97-rockchip-g31f2311e724b.
 
 Package: linux-headers-4.4.154-91-rockchip-g70838c09a6b6
 Source: linux-4.4.154-91-rockchip-g70838c09a6b6
@@ -269,6 +286,26 @@ SHA1: 6a885cb122481f1d0784a2f128e4c03c448c57f1
 MD5sum: 66bdd89c9c47a459da4a245c7d8382e2
 Description: Linux kernel headers for 4.4.154-96-rockchip-gb08aaba46e04 on all
  This package provides kernel header files for 4.4.154-96-rockchip-gb08aaba46e04 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-97-rockchip-g31f2311e724b
+Source: linux-4.4.154-97-rockchip-g31f2311e724b
+Version: 4.4.154-97-rockchip
+Architecture: all
+Maintainer: Anonymous <root@d70c7037ff28>
+Installed-Size: 70820
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-97-rockchip-g31f2311e724b/linux-headers-4.4.154-97-rockchip-g31f2311e724b_4.4.154-97-rockchip_all.deb
+Size: 10176840
+SHA256: 32588286ba2451381d21bd521cd12f7d7abc3141ad3b1d09f68d07778a53d735
+SHA1: 93df85e2bc2f7d3583ddddda30089eefd89539da
+MD5sum: 008989e649fec10d5eafa617edbf8481
+Description: Linux kernel headers for 4.4.154-97-rockchip-g31f2311e724b on all
+ This package provides kernel header files for 4.4.154-97-rockchip-g31f2311e724b on all
  .
  This is useful for people who need to build external modules
 
@@ -391,6 +428,26 @@ MD5sum: 29159e44affba63e02273c9a3459d46d
 Description: Linux kernel, version 4.4.154-96-rockchip-gb08aaba46e04
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-96-rockchip-gb08aaba46e04.
+
+Package: linux-image-4.4.154-97-rockchip-g31f2311e724b
+Source: linux-4.4.154-97-rockchip-g31f2311e724b
+Version: 4.4.154-97-rockchip
+Architecture: all
+Maintainer: Anonymous <root@d70c7037ff28>
+Installed-Size: 72596
+Suggests: linux-firmware-image-4.4.154-97-rockchip-g31f2311e724b
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-97-rockchip-g31f2311e724b
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-97-rockchip-g31f2311e724b/linux-image-4.4.154-97-rockchip-g31f2311e724b_4.4.154-97-rockchip_all.deb
+Size: 14013816
+SHA256: df29c390162d5b4184c04deb56d6d913ad89b68e90948cfb2d7d4330fa5ce06a
+SHA1: 354a96cbe368d1cce04835666d4685cf86e69ce5
+MD5sum: bcfff188ac6f784b5a2151a11247b8d4
+Description: Linux kernel, version 4.4.154-97-rockchip-g31f2311e724b
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-97-rockchip-g31f2311e724b.
 
 Package: rockchip-fstab
 Version: 0.1
