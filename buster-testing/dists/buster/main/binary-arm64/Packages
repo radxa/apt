@@ -46,21 +46,21 @@ MD5sum: 6d65cf7eb5b66edf96b5951619d6f039
 Description: io tool
 
 Package: linux-4.4-latest
-Version: 4.4.154-97-rockchip
+Version: 4.4.154-98-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.4.154-97-rockchip-g31f2311e724b, linux-firmware-image-4.4.154-97-rockchip-g31f2311e724b, linux-headers-4.4.154-97-rockchip-g31f2311e724b
+Depends: linux-image-4.4.154-98-rockchip-gcbc3da2ca32c, linux-firmware-image-4.4.154-98-rockchip-gcbc3da2ca32c, linux-headers-4.4.154-98-rockchip-gcbc3da2ca32c
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-97-rockchip_all.deb
-Size: 1100
-SHA256: d27d985ac83f99860726c45038a05d953c146f607bd6f7a2c2de16cc9b5e5c80
-SHA1: 79de9f4d9a1cfdbc38887a1b2d1c3e17bbecdbb8
-MD5sum: 7c67f8a66b449b9912b1200cfd59b7bc
+Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-98-rockchip_all.deb
+Size: 1106
+SHA256: 4303f76df37dce3eb71d8a266c696e7a492abadbe8897217ee73b2081f4459e5
+SHA1: 2385d208876d90bb24d4284b834e216b4bb71f65
+MD5sum: e4067ac6cf9b87a1e7f4908ce7385e68
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 
@@ -286,6 +286,23 @@ SHA1: f648bb323c29e16c3c1ec26b77d2412a3533df05
 MD5sum: d5ff1c7040e55716e2c48d46611bd8b3
 Description: Linux kernel firmware, version 4.4.154-97-rockchip-g31f2311e724b
  This package contains firmware from the Linux kernel, version 4.4.154-97-rockchip-g31f2311e724b.
+
+Package: linux-firmware-image-4.4.154-98-rockchip-gcbc3da2ca32c
+Source: linux-4.4.154-98-rockchip-gcbc3da2ca32c
+Version: 4.4.154-98-rockchip
+Architecture: all
+Maintainer: Anonymous <root@b980c058f171>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-98-rockchip-gcbc3da2ca32c/linux-firmware-image-4.4.154-98-rockchip-gcbc3da2ca32c_4.4.154-98-rockchip_all.deb
+Size: 186328
+SHA256: 18df3ff016ec98a22bc3deaf76cc2b632a37e3a3e59faea53561837251867b1f
+SHA1: debdeccbe0e948fd5b2471ef1be6512ce7c9b187
+MD5sum: 2e0f238145148adc80744fa349361fe8
+Description: Linux kernel firmware, version 4.4.154-98-rockchip-gcbc3da2ca32c
+ This package contains firmware from the Linux kernel, version 4.4.154-98-rockchip-gcbc3da2ca32c.
 
 Package: linux-headers-4.4.143-23-rockchip-g394d86b2b38b
 Source: linux-4.4.143-23-rockchip-g394d86b2b38b
@@ -684,6 +701,26 @@ SHA1: 93df85e2bc2f7d3583ddddda30089eefd89539da
 MD5sum: 008989e649fec10d5eafa617edbf8481
 Description: Linux kernel headers for 4.4.154-97-rockchip-g31f2311e724b on all
  This package provides kernel header files for 4.4.154-97-rockchip-g31f2311e724b on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-98-rockchip-gcbc3da2ca32c
+Source: linux-4.4.154-98-rockchip-gcbc3da2ca32c
+Version: 4.4.154-98-rockchip
+Architecture: all
+Maintainer: Anonymous <root@b980c058f171>
+Installed-Size: 70862
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-98-rockchip-gcbc3da2ca32c/linux-headers-4.4.154-98-rockchip-gcbc3da2ca32c_4.4.154-98-rockchip_all.deb
+Size: 10184952
+SHA256: 2983cf02839112b4eb2029b96c9bbc03d966b37d1acd649452b09a68860dc7ea
+SHA1: 0dd07ade4be2bfe5ded410282eac941b367e7630
+MD5sum: 744d53a4afabb5f074b17de939c77cf5
+Description: Linux kernel headers for 4.4.154-98-rockchip-gcbc3da2ca32c on all
+ This package provides kernel header files for 4.4.154-98-rockchip-gcbc3da2ca32c on all
  .
  This is useful for people who need to build external modules
 
@@ -1086,6 +1123,26 @@ MD5sum: bcfff188ac6f784b5a2151a11247b8d4
 Description: Linux kernel, version 4.4.154-97-rockchip-g31f2311e724b
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-97-rockchip-g31f2311e724b.
+
+Package: linux-image-4.4.154-98-rockchip-gcbc3da2ca32c
+Source: linux-4.4.154-98-rockchip-gcbc3da2ca32c
+Version: 4.4.154-98-rockchip
+Architecture: all
+Maintainer: Anonymous <root@b980c058f171>
+Installed-Size: 72596
+Suggests: linux-firmware-image-4.4.154-98-rockchip-gcbc3da2ca32c
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-98-rockchip-gcbc3da2ca32c
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-98-rockchip-gcbc3da2ca32c/linux-image-4.4.154-98-rockchip-gcbc3da2ca32c_4.4.154-98-rockchip_all.deb
+Size: 14015912
+SHA256: fa7fff6f7907c0a3300b21bf34b34adc10c4dbb8eaf1b955a261eb9020ecbd7c
+SHA1: bfb5cc3da07bb2732b4a93e5d08900bd2dcb9e45
+MD5sum: 89672221e11736d07a0388009191fccb
+Description: Linux kernel, version 4.4.154-98-rockchip-gcbc3da2ca32c
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-98-rockchip-gcbc3da2ca32c.
 
 Package: rockchip-adb
 Version: 0.2
