@@ -1642,6 +1642,21 @@ SHA1: 5c268aa86cf99392de4dd45efff97e3cc41d9461
 MD5sum: e4d1e061e127cb69765c97c7bd61844c
 Description: General rockchip overlay package.
 
+Package: rockpi4-brcm-patch
+Version: 0.1
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Depends: psmisc
+Homepage: https://rockpi.org
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockpi4-brcm-patch/rockpi4-brcm-patch_0.1_all.deb
+Size: 1456
+SHA256: 6ebe0dce505110414883547971829488571a2bf68f9cfd859c7dd72637610afe
+SHA1: 0bc2ed62a2447a11d3668919cb82c34b24031f3c
+MD5sum: 2ffc1c7bfa5d249f84e8cd7372458618
+Description: Bluetooth Patch for ROCK Pi 4
+
 Package: rockpi4-dtbo
 Version: 4.1
 Maintainer: Radxa <dev@radxa.com>
