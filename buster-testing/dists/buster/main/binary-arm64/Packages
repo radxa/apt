@@ -55,10 +55,10 @@ Depends: libc6, libjson-c3, libgcc1, libstdc++6,
 Priority: optional
 Section: libs
 Filename: pool/main/libm/libmraa-rockpi4/libmraa-rockpi4_0.6_arm64.deb
-Size: 194152
-SHA256: 6255978c1643f91f9b0a6f33ede4369d4b49a8e22f64171de955ced85b7d5b40
-SHA1: da1a4cde621f8f1b552c0c7456b164ddbb0a6a12
-MD5sum: 049e0b0d23fb0bfac32ff08d3033a8b6
+Size: 193428
+SHA256: 5117b612b5a3921b97c8923f2b6b86e3e80bbe33a07d8951ddbd711dbde2b341
+SHA1: 47449948f7306b2bf005c7a6d4d8e7003123d88a
+MD5sum: 33be5533047de0d1a629add9fc15f5a9
 Description: libmraa rockpi4
 
 Package: linux-4.4-latest
