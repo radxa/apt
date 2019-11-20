@@ -31,6 +31,22 @@ SHA1: 4d294a90e490ba5cb7a350424878a25826c02ae7
 MD5sum: 89736cb0a6a95bf68a0e82e2caf1999b
 Description: Broadcom bluetooth patching tool
 
+Package: libmraa-rockpi4
+Version: 0.6
+Maintainer: Radxa <dev@radxa.com>
+Architecture: armhf
+Component: main
+Depends: libc6, libjson-c3, libgcc1, libstdc++6,
+    python, libpython2.7, python3.5, libpython3.5
+Priority: optional
+Section: libs
+Filename: pool/main/libm/libmraa-rockpi4/libmraa-rockpi4_0.6_armhf.deb
+Size: 194524
+SHA256: 9cfea06cfaf502a9bcb68b1054258b4600b7427d2d021d1a5f2a1a6d8b0ea834
+SHA1: f58ea0920c0f65d8dc211a7b771cc3c957874294
+MD5sum: 935df353de31bf11028855becf366908
+Description: libmraa rockpi4
+
 Package: linux-4.4-latest
 Version: 4.4.154-99-rockchip
 License: GPL-2+
