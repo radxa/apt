@@ -45,6 +45,22 @@ SHA1: f8a7b6b3111872a05bbf8102fd1346848f672699
 MD5sum: 6d65cf7eb5b66edf96b5951619d6f039
 Description: io tool
 
+Package: libmraa-rockpi4
+Version: 0.6
+Maintainer: Radxa <dev@radxa.com>
+Architecture: arm64
+Component: main
+Depends: libc6, libjson-c3, libgcc1, libstdc++6,
+    python, libpython2.7, python3.6, libpython3.6
+Priority: optional
+Section: libs
+Filename: pool/main/libm/libmraa-rockpi4/libmraa-rockpi4_0.6_arm64.deb
+Size: 194324
+SHA256: 82167d0e71276cf5d3ccfda9b674630b52da3659759f2e9ea16fbe1aeadab5bd
+SHA1: 5ca606dc6b5439d1c4ca38391164f424cde606e1
+MD5sum: 6c31cb18ffbfa5cf21b4a8a6979a38bc
+Description: libmraa rockpi4
+
 Package: linux-4.4-latest
 Version: 4.4.154-99-rockchip
 License: GPL-2+
