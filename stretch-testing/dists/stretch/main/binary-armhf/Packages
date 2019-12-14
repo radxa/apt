@@ -17,19 +17,40 @@ Description: common files used by 96boards
  This package provides configuration and tools used to help
  bringing a common user experience across different 96Boards.
 
-Package: brcm-patchram-plus1-32
+Package: brcm-patchram-plus1
 Version: 0.2
 Maintainer: Radxa <dev@radxa.com>
 Architecture: armhf
 Component: main
+Replaces: brcm-patchram-plus1-32
+Conflicts: brcm-patchram-plus1-32
+Provides: brcm-patchram-plus1-32
 Priority: optional
 Section: utils
-Filename: pool/main/b/brcm-patchram-plus1-32/brcm-patchram-plus1-32_0.2_armhf.deb
-Size: 7288
-SHA256: a9a7b9ffb0d5efcee21dbeaccae8279cc3ce195370d20557be2917ab6c01f42d
-SHA1: 4d294a90e490ba5cb7a350424878a25826c02ae7
-MD5sum: 89736cb0a6a95bf68a0e82e2caf1999b
+Filename: pool/main/b/brcm-patchram-plus1/brcm-patchram-plus1_0.2_armhf.deb
+Size: 7240
+SHA256: fe98a9cdb99ce459174ebb6fb437349188bc2c0096714316107d37265c3bba15
+SHA1: 4dfa7f8815ced44be91514ea5a68c331b43347cb
+MD5sum: 1ba72f44f1f6c506c193b3246e8f6bca
 Description: Broadcom bluetooth patching tool
+
+Package: broadcom-wifibt-firmware
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Depends: brcm-patchram-plus1
+Replaces: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware
+Confilcts: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware
+Provides: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware
+Priority: optional
+Section: utils
+Filename: pool/main/b/broadcom-wifibt-firmware/broadcom-wifibt-firmware_0.1_all.deb
+Size: 1223472
+SHA256: f8a147d7a9e053a20dfa56ea991d26886d32e75f0b81fef86f1fa4b356db43d1
+SHA1: 78687c3153dd787d7c0d1f4ece7e14ed8fd49b2d
+MD5sum: 3fb9f5f38bfd1e34553e2d717e4676b9
+Description: General Broadcom WiFi and Bluetooth chip firmware.
 
 Package: libmraa-rockpi4
 Version: 0.6

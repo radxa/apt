@@ -17,61 +17,40 @@ Description: common files used by 96boards
  This package provides configuration and tools used to help
  bringing a common user experience across different 96Boards.
 
-Package: ap6255-firmware
-Version: 0.1
-Maintainer: Radxa <dev@radxa.com>
-Architecture: all
-Component: main
-Priority: optional
-Section: utils
-Filename: pool/main/a/ap6255-firmware/ap6255-firmware_0.1_all.deb
-Size: 321632
-SHA256: 8a8517f6ab02c66ea9ae86028c4f9a68c82059d1460843f09d8bc5b3ef8c548a
-SHA1: 2604951a0877d04eee074eea83116092d982aa81
-MD5sum: c9824442a7eae8879283dc6c1adcfe2c
-Description: General chip ap6255 firmware.
-
-Package: ap6256-firmware
-Version: 0.4
-Maintainer: Radxa <dev@radxa.com>
-Architecture: all
-Component: main
-Priority: optional
-Section: utils
-Filename: pool/main/a/ap6256-firmware/ap6256-firmware_0.4_all.deb
-Size: 278744
-SHA256: edb6ed4ff32f4142411a6ad026b1c8d0bf1a6874146fd49e9807dd429799358c
-SHA1: cacfff8227f8baf0e36f5265f65b26aa7a40a0c5
-MD5sum: 1c5b52c3b83e0b22039f4f332e89a92a
-Description: General chip ap6256 firmware.
-
-Package: ap6356-firmware
-Version: 0.1
-Maintainer: Radxa <dev@radxa.com>
-Architecture: all
-Component: main
-Priority: optional
-Section: utils
-Filename: pool/main/a/ap6356-firmware/ap6356-firmware_0.1_all.deb
-Size: 346260
-SHA256: f4721d37fb7e30e9a8760d42040127369fd371d59578c2c68cfc8311e21274a9
-SHA1: c82044e96485bb9b2e501e8cd7e55ab3566c1d02
-MD5sum: a878e1cb24872de6af1380cf1c8aa89f
-Description: General chip ap6356 firmware.
-
-Package: brcm-patchram-plus1-32
+Package: brcm-patchram-plus1
 Version: 0.2
 Maintainer: Radxa <dev@radxa.com>
 Architecture: armhf
 Component: main
+Replaces: brcm-patchram-plus1-32
+Conflicts: brcm-patchram-plus1-32
+Provides: brcm-patchram-plus1-32
 Priority: optional
 Section: utils
-Filename: pool/main/b/brcm-patchram-plus1-32/brcm-patchram-plus1-32_0.2_armhf.deb
-Size: 7288
-SHA256: a9a7b9ffb0d5efcee21dbeaccae8279cc3ce195370d20557be2917ab6c01f42d
-SHA1: 4d294a90e490ba5cb7a350424878a25826c02ae7
-MD5sum: 89736cb0a6a95bf68a0e82e2caf1999b
+Filename: pool/main/b/brcm-patchram-plus1/brcm-patchram-plus1_0.2_armhf.deb
+Size: 7240
+SHA256: fe98a9cdb99ce459174ebb6fb437349188bc2c0096714316107d37265c3bba15
+SHA1: 4dfa7f8815ced44be91514ea5a68c331b43347cb
+MD5sum: 1ba72f44f1f6c506c193b3246e8f6bca
 Description: Broadcom bluetooth patching tool
+
+Package: broadcom-wifibt-firmware
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Depends: brcm-patchram-plus1
+Replaces: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware
+Confilcts: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware
+Provides: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware
+Priority: optional
+Section: utils
+Filename: pool/main/b/broadcom-wifibt-firmware/broadcom-wifibt-firmware_0.1_all.deb
+Size: 1223472
+SHA256: f8a147d7a9e053a20dfa56ea991d26886d32e75f0b81fef86f1fa4b356db43d1
+SHA1: 78687c3153dd787d7c0d1f4ece7e14ed8fd49b2d
+MD5sum: 3fb9f5f38bfd1e34553e2d717e4676b9
+Description: General Broadcom WiFi and Bluetooth chip firmware.
 
 Package: libmraa-rockpi4
 Version: 0.3
