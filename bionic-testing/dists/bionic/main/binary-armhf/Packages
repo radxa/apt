@@ -35,21 +35,21 @@ MD5sum: 1ba72f44f1f6c506c193b3246e8f6bca
 Description: Broadcom bluetooth patching tool
 
 Package: broadcom-wifibt-firmware
-Version: 0.1
+Version: 0.3
 Maintainer: Radxa <dev@radxa.com>
 Architecture: all
 Component: main
-Depends: brcm-patchram-plus1
+Depends: rfkill, brcm-patchram-plus1, binutils, psmisc, pulseaudio-module-bluetooth, pulseaudio, bluez
 Replaces: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware
 Confilcts: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware
 Provides: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware
 Priority: optional
 Section: utils
-Filename: pool/main/b/broadcom-wifibt-firmware/broadcom-wifibt-firmware_0.1_all.deb
-Size: 1223472
-SHA256: f8a147d7a9e053a20dfa56ea991d26886d32e75f0b81fef86f1fa4b356db43d1
-SHA1: 78687c3153dd787d7c0d1f4ece7e14ed8fd49b2d
-MD5sum: 3fb9f5f38bfd1e34553e2d717e4676b9
+Filename: pool/main/b/broadcom-wifibt-firmware/broadcom-wifibt-firmware_0.3_all.deb
+Size: 1223352
+SHA256: 53c0abe102e39fdf387a9b25131179d4eb4542e10b64bce27b78706064dd2b7d
+SHA1: a59825f242a29f27b74026c404b2132fef70695b
+MD5sum: 311858cdde031b040fb6845624e8fa31
 Description: General Broadcom WiFi and Bluetooth chip firmware.
 
 Package: linux-4.4-latest
