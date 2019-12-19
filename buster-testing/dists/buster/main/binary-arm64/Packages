@@ -1295,6 +1295,23 @@ Description: Linux kernel, version 4.4.154-99-rockchip-g5b699a48544d
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-99-rockchip-g5b699a48544d.
 
+Package: resize-assistant
+Version: 0.2
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Depends: gdisk, parted, init-system-helpers (>= 1.18~)
+Priority: optional
+Section: utils
+Filename: pool/main/r/resize-assistant/resize-assistant_0.2_all.deb
+Size: 1700
+SHA256: 497cf1e3dd1d0e412d947a2ff0ec46aff8a87057d235ace95e81caae989c1290
+SHA1: 93b61c08d1cfef69b46e4492cb26ffacf1875e0e
+MD5sum: 8882c755e14783fefac59c3a0127bc59
+Description: resize-assistant package.
+ This package provides tools used to help resizing root filesystem
+ to fit available disk space.
+
 Package: rockchip-adb
 Version: 0.2
 Maintainer: Radxa <dev@radxa.com>
@@ -1528,16 +1545,17 @@ Conflicts: rockpis-rk-ubootimg
 Provides: rockpis-rk-ubootimg
 
 Package: rtl8723ds-firmware
-Version: 0.2
+Version: 0.3
 Maintainer: Radxa <dev@radxa.com>
 Architecture: arm64
 Component: main
+Depends: rfkill, bluez
 Priority: optional
 Section: utils
-Filename: pool/main/r/rtl8723ds-firmware/rtl8723ds-firmware_0.2_arm64.deb
-Size: 49652
-SHA256: 1e8246a3326e6dade5a392e237e40ea92b8266d9f2d931978858935f4513c914
-SHA1: 401664f8ddb01d3a60e4d0b49c90354537419252
-MD5sum: 2a44654138e8aadfc8d7a24516152791
+Filename: pool/main/r/rtl8723ds-firmware/rtl8723ds-firmware_0.3_arm64.deb
+Size: 50112
+SHA256: 0fb4558ac3b5e227bcb0b93754b00cb9558df40d95f5e82227176ad28cad538d
+SHA1: a92b75ad51e72cff48e10b7d7fafc07d1f11d5a0
+MD5sum: caeaac2bcf9018f2408bd4a1645f9363
 Description: General chip rtl8723ds firmware.
 
