@@ -101,6 +101,25 @@ MD5sum: eb6878df71276a48530d24387fcf09d3
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 
+Package: linux-4.4-rockpin10-latest
+Version: 4.4.167-3-rockchip
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.167-3-rockchip-g703afb0b843e, linux-firmware-image-4.4.167-3-rockchip-g703afb0b843e, linux-headers-4.4.167-3-rockchip-g703afb0b843e
+Homepage: https://github.com/radxa/kernel
+Priority: optional
+Section: admin
+Filename: pool/main/l/linux-4.4-rockpin10-latest/linux-4.4-rockpin10-latest_4.4.167-3-rockchip_all.deb
+Size: 1130
+SHA256: e9c281e6b05d22e5955fcb40c39d9cb9751a713436aa919e610b9b556453865d
+SHA1: c231ea4581225cf5217cdd02d69f8b1692be8859
+MD5sum: 74ab5012780a1909029b897b61cc941c
+Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
+Multi-Arch: foreign
+
 Package: linux-4.4-rockpis-latest
 Version: 4.4.143-34-rockchip
 License: GPL-2+
@@ -374,6 +393,23 @@ SHA1: 8de9a594f6eb446afca29b4b73a7e93f35a276e1
 MD5sum: d6fba502f86c42035c6992b63282cf99
 Description: Linux kernel firmware, version 4.4.154-99-rockchip-g5b699a48544d
  This package contains firmware from the Linux kernel, version 4.4.154-99-rockchip-g5b699a48544d.
+
+Package: linux-firmware-image-4.4.167-3-rockchip-g703afb0b843e
+Source: linux-4.4.167-3-rockchip-g703afb0b843e
+Version: 4.4.167-3-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@28ce31bcbf79>
+Installed-Size: 523
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.167-3-rockchip-g703afb0b843e/linux-firmware-image-4.4.167-3-rockchip-g703afb0b843e_4.4.167-3-rockchip_arm64.deb
+Size: 174136
+SHA256: 10d5fb1730fc904a851cb44bb688efe8ccae37dfdd4d79e2da28765f293c0b38
+SHA1: d51a52bb4cce622b50253bec1e366a5eee196be7
+MD5sum: 05cee546ceec36fb67f9ba1dd860940a
+Description: Linux kernel firmware, version 4.4.167-3-rockchip-g703afb0b843e
+ This package contains firmware from the Linux kernel, version 4.4.167-3-rockchip-g703afb0b843e.
 
 Package: linux-headers-4.4.143-23-rockchip-g394d86b2b38b
 Source: linux-4.4.143-23-rockchip-g394d86b2b38b
@@ -832,6 +868,26 @@ SHA1: 554d31d29d4955c14023e81b58eb9efa078387ad
 MD5sum: 6bac6380c732fe37631312573001bb63
 Description: Linux kernel headers for 4.4.154-99-rockchip-g5b699a48544d on all
  This package provides kernel header files for 4.4.154-99-rockchip-g5b699a48544d on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.167-3-rockchip-g703afb0b843e
+Source: linux-4.4.167-3-rockchip-g703afb0b843e
+Version: 4.4.167-3-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@28ce31bcbf79>
+Installed-Size: 47155
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.167-3-rockchip-g703afb0b843e/linux-headers-4.4.167-3-rockchip-g703afb0b843e_4.4.167-3-rockchip_arm64.deb
+Size: 7137264
+SHA256: 7a33135cc00efd63e14b6a4f6fe555b4edfd041e9efd0d2e4b9ee6bee92d8918
+SHA1: d04a702c8cd9f7149b7f47d1e1dc3a1e6da75a44
+MD5sum: 453cf1b7fe534f38dee920da962461ad
+Description: Linux kernel headers for 4.4.167-3-rockchip-g703afb0b843e on arm64
+ This package provides kernel header files for 4.4.167-3-rockchip-g703afb0b843e on arm64
  .
  This is useful for people who need to build external modules
 
@@ -1294,6 +1350,26 @@ MD5sum: 1b4668baab01ac89358b5283f09f367f
 Description: Linux kernel, version 4.4.154-99-rockchip-g5b699a48544d
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-99-rockchip-g5b699a48544d.
+
+Package: linux-image-4.4.167-3-rockchip-g703afb0b843e
+Source: linux-4.4.167-3-rockchip-g703afb0b843e
+Version: 4.4.167-3-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@28ce31bcbf79>
+Installed-Size: 45710
+Suggests: linux-firmware-image-4.4.167-3-rockchip-g703afb0b843e
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.167-3-rockchip-g703afb0b843e
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.167-3-rockchip-g703afb0b843e/linux-image-4.4.167-3-rockchip-g703afb0b843e_4.4.167-3-rockchip_arm64.deb
+Size: 13573604
+SHA256: 1843ef9fe0a0bfc08d458ec4d1c5bb5380f9059ef40bdda1e4cf4fba12faf9cd
+SHA1: fd8f3a2f72acbb8cc260d8d13dfac06c92729995
+MD5sum: c781395d9e8905091e7fa2934b8fd2fd
+Description: Linux kernel, version 4.4.167-3-rockchip-g703afb0b843e
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.167-3-rockchip-g703afb0b843e.
 
 Package: resize-assistant
 Version: 0.2
