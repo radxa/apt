@@ -1447,25 +1447,25 @@ MD5sum: a8992a583249bdc2151782196aa09347
 Description: ROCK Pi 4 device tree overlays
 
 Package: rockpi4a-rk-u-boot-latest
-Version: 2017.09-2685-g26d3cbeb61
+Version: 2017.09-2686-g18c70dba63
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: rockpi4a-rk-ubootimg (= 2017.09-2685-g26d3cbeb61)
+Depends: rockpi4a-rk-ubootimg (= 2017.09-2686-g18c70dba63)
 Homepage: https://github.com/radxa/u-boot
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpi4a-rk-u-boot-latest/rockpi4a-rk-u-boot-latest_2017.09-2685-g26d3cbeb61_all.deb
-Size: 1084
-SHA256: 0b5fcd17e073e87e2017db06bca63135f8f12ca30b1cdb9a0982faed475018b7
-SHA1: bada83092c6c7cbfcc469678b7c4cc4e90db3ac3
-MD5sum: c71fcfd124d9424bd1df1bd813480a60
-Description: rockpi4a u-boot latest version package: depends on rockpi4a-rk-ubootimg (= 2017.09-2685-g26d3cbeb61)
+Filename: pool/main/r/rockpi4a-rk-u-boot-latest/rockpi4a-rk-u-boot-latest_2017.09-2686-g18c70dba63_all.deb
+Size: 1082
+SHA256: 1b3645b25b2e59f33f50a328176e49da49de45ddd075554baf75bc08c0e22e92
+SHA1: 688de7be0c1c5930b9e0bcfc54987d9964372688
+MD5sum: 1300c924bdb4a031f7f7eb31aefc0a6f
+Description: rockpi4a u-boot latest version package: depends on rockpi4a-rk-ubootimg (= 2017.09-2686-g18c70dba63)
 
 Package: rockpi4a-rk-ubootimg
-Version: 2017.09-2685-g26d3cbeb61
+Version: 2017.09-2686-g18c70dba63
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
@@ -1475,11 +1475,11 @@ Depends: debsums, mtd-utils
 Homepage: https://github.com/radxa/u-boot
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpi4a-rk-ubootimg/rockpi4a-rk-ubootimg_2017.09-2685-g26d3cbeb61_all.deb
-Size: 1796802
-SHA256: 604a57729f1eb2aa6a28d4a91bdc98385e82240227356dc32ecc929d09d92d63
-SHA1: 45bf7506ba517a7dc6005795f666eca3a115a7d4
-MD5sum: 00e37e26209318b1e54bfad3d5ec7606
+Filename: pool/main/r/rockpi4a-rk-ubootimg/rockpi4a-rk-ubootimg_2017.09-2686-g18c70dba63_all.deb
+Size: 1796824
+SHA256: dd2d97dc13c3ebcc9db3172fd8dd1917c47418da9988d1c911b5866b167e1d07
+SHA1: e9b8f8a4df40230876a0951f85d92c8509df46ca
+MD5sum: d465839a74afb4f3a6ceb71f23c8d3de
 Description: rockpi4a u-boot package
 Multi-Arch: foreign
 Replaces: rockpi4a-rk-ubootimg
@@ -1487,25 +1487,25 @@ Conflicts: rockpi4a-rk-ubootimg
 Provides: rockpi4a-rk-ubootimg
 
 Package: rockpi4b-rk-u-boot-latest
-Version: 2017.09-2685-g26d3cbeb61
+Version: 2017.09-2686-g18c70dba63
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: rockpi4b-rk-ubootimg (= 2017.09-2685-g26d3cbeb61)
+Depends: rockpi4b-rk-ubootimg (= 2017.09-2686-g18c70dba63)
 Homepage: https://github.com/radxa/u-boot
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpi4b-rk-u-boot-latest/rockpi4b-rk-u-boot-latest_2017.09-2685-g26d3cbeb61_all.deb
-Size: 1078
-SHA256: 8369e306869e2ee14f0ad0200c90e6b91f0e516cf27081cb0d7f29eec0fed96e
-SHA1: 67137f7407b0d4eb25677df7c7b40abc7a88373e
-MD5sum: 964b9fa25f5012f64f997deea8770bf6
-Description: rockpi4b u-boot latest version package: depends on rockpi4b-rk-ubootimg (= 2017.09-2685-g26d3cbeb61)
+Filename: pool/main/r/rockpi4b-rk-u-boot-latest/rockpi4b-rk-u-boot-latest_2017.09-2686-g18c70dba63_all.deb
+Size: 1082
+SHA256: 29e27c6a757ab121f92cc8b7e3cfe144ecfd125ca271811ad47a27da5a251bea
+SHA1: 516d33cdd4cf73e18c1b49896179c4a4fb96f0b4
+MD5sum: 6de4cba94b2f0bf774320af9a4c6d1f0
+Description: rockpi4b u-boot latest version package: depends on rockpi4b-rk-ubootimg (= 2017.09-2686-g18c70dba63)
 
 Package: rockpi4b-rk-ubootimg
-Version: 2017.09-2685-g26d3cbeb61
+Version: 2017.09-2686-g18c70dba63
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
@@ -1515,11 +1515,11 @@ Depends: debsums, mtd-utils
 Homepage: https://github.com/radxa/u-boot
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpi4b-rk-ubootimg/rockpi4b-rk-ubootimg_2017.09-2685-g26d3cbeb61_all.deb
-Size: 1796848
-SHA256: b6a959ca4f08f05d46f65d3e338fa33a775aceef92aeef8112cf61fad6ea9576
-SHA1: 31b189ae29e3b04250984d163e794aaff9f7387f
-MD5sum: 9dd1a8beaff92d1f12a972061eaf7d63
+Filename: pool/main/r/rockpi4b-rk-ubootimg/rockpi4b-rk-ubootimg_2017.09-2686-g18c70dba63_all.deb
+Size: 1796858
+SHA256: e1a368e041f4ce4af6cf8a882bf41dc28bd57d448c0bef36388bd05e777bb5b1
+SHA1: 012a73eab9e3f0837413dce4ac94486616e32383
+MD5sum: db93a550f0d7b8e18aa277ef70bc7cf9
 Description: rockpi4b u-boot package
 Multi-Arch: foreign
 Replaces: rockpi4b-rk-ubootimg
@@ -1527,25 +1527,25 @@ Conflicts: rockpi4b-rk-ubootimg
 Provides: rockpi4b-rk-ubootimg
 
 Package: rockpi4c-rk-u-boot-latest
-Version: 2017.09-2685-g26d3cbeb61
+Version: 2017.09-2686-g18c70dba63
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: rockpi4c-rk-ubootimg (= 2017.09-2685-g26d3cbeb61)
+Depends: rockpi4c-rk-ubootimg (= 2017.09-2686-g18c70dba63)
 Homepage: https://github.com/radxa/u-boot
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpi4c-rk-u-boot-latest/rockpi4c-rk-u-boot-latest_2017.09-2685-g26d3cbeb61_all.deb
+Filename: pool/main/r/rockpi4c-rk-u-boot-latest/rockpi4c-rk-u-boot-latest_2017.09-2686-g18c70dba63_all.deb
 Size: 1080
-SHA256: e531807312d621463a925bd77d392130f1830113f73a4b5de724aedcbd574bb4
-SHA1: b88caaee713fa310d0f1d300acebf83a7243d645
-MD5sum: 14b7a1aac4721e6a5c02c87fdcd4e615
-Description: rockpi4c u-boot latest version package: depends on rockpi4c-rk-ubootimg (= 2017.09-2685-g26d3cbeb61)
+SHA256: ba69b69e95bc9d54086efbb03ec6a9bdfbeb3e59671ff48809f84394976e24ad
+SHA1: 9762ce6c98619973ebb006f2abf9e42fb843ada5
+MD5sum: acf531e77c48ae5ad2e18761974f2163
+Description: rockpi4c u-boot latest version package: depends on rockpi4c-rk-ubootimg (= 2017.09-2686-g18c70dba63)
 
 Package: rockpi4c-rk-ubootimg
-Version: 2017.09-2685-g26d3cbeb61
+Version: 2017.09-2686-g18c70dba63
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
@@ -1555,11 +1555,11 @@ Depends: debsums, mtd-utils
 Homepage: https://github.com/radxa/u-boot
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpi4c-rk-ubootimg/rockpi4c-rk-ubootimg_2017.09-2685-g26d3cbeb61_all.deb
-Size: 1795832
-SHA256: 4dea3982c7905842dc1f72580f84feab6280d6e1768c38f0234361327c037bce
-SHA1: 3055887dbe6681d64d2e5fc7e86460fe0e6af016
-MD5sum: 6fd0e0d4b45ec5e01b36db71b814f6ec
+Filename: pool/main/r/rockpi4c-rk-ubootimg/rockpi4c-rk-ubootimg_2017.09-2686-g18c70dba63_all.deb
+Size: 1795894
+SHA256: 6ee5e288e8405c38e4332dda83fa03bada490696da19a351cccd877008fbc7db
+SHA1: ff654bb0b1bdf2daa41741c47d1b8f9fa4a5cf5c
+MD5sum: 310f0ea1529236ec025fd707c0d6dffc
 Description: rockpi4c u-boot package
 Multi-Arch: foreign
 Replaces: rockpi4c-rk-ubootimg
@@ -1567,25 +1567,25 @@ Conflicts: rockpi4c-rk-ubootimg
 Provides: rockpi4c-rk-ubootimg
 
 Package: rockpin10-rk-u-boot-latest
-Version: 2017.09-2685-g26d3cbeb61
+Version: 2017.09-2686-g18c70dba63
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: rockpin10-rk-ubootimg (= 2017.09-2685-g26d3cbeb61)
+Depends: rockpin10-rk-ubootimg (= 2017.09-2686-g18c70dba63)
 Homepage: https://github.com/radxa/u-boot
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpin10-rk-u-boot-latest/rockpin10-rk-u-boot-latest_2017.09-2685-g26d3cbeb61_all.deb
+Filename: pool/main/r/rockpin10-rk-u-boot-latest/rockpin10-rk-u-boot-latest_2017.09-2686-g18c70dba63_all.deb
 Size: 1086
-SHA256: b374a2680c35ad8432b52b9eb784e30f0db2d7f9969c8b54718122a63ed99730
-SHA1: bbc3f3c40c647dfe384706ecc454b93c91d9ffd2
-MD5sum: db0353644aac5116a49976ee47163361
-Description: rockpin10 u-boot latest version package: depends on rockpin10-rk-ubootimg (= 2017.09-2685-g26d3cbeb61)
+SHA256: 6e42c4fd471d671ebe2d6487aa316d0f025728f474c43c779720bf9d75e7e49b
+SHA1: bd50c727fa12797aa3fb4f43e6dd4da1e893cb96
+MD5sum: 780f0f9b7941c495bc42359cfc14cfe5
+Description: rockpin10 u-boot latest version package: depends on rockpin10-rk-ubootimg (= 2017.09-2686-g18c70dba63)
 
 Package: rockpin10-rk-ubootimg
-Version: 2017.09-2685-g26d3cbeb61
+Version: 2017.09-2686-g18c70dba63
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
@@ -1595,11 +1595,11 @@ Depends: debsums, mtd-utils
 Homepage: https://github.com/radxa/u-boot
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpin10-rk-ubootimg/rockpin10-rk-ubootimg_2017.09-2685-g26d3cbeb61_all.deb
-Size: 1824498
-SHA256: 78e4d6a16745bdbfd0bcdd6e24066ee345fcb7e43bb59e3c069a67125006a4ab
-SHA1: cee8c855ba97540f2db6c453c32ee781d0ea4a72
-MD5sum: f51d702d59ee6764cbd3e79de2b86a67
+Filename: pool/main/r/rockpin10-rk-ubootimg/rockpin10-rk-ubootimg_2017.09-2686-g18c70dba63_all.deb
+Size: 1826778
+SHA256: ee4d5f17cbfdcda3c7ed3d7c5919a4167a20215c1c275bf17eac48eae18e30ab
+SHA1: fef40be0722e51f89522168d47e1b9679658f38b
+MD5sum: 81a0ff864240f9699646af1ceb36cfd8
 Description: rockpin10 u-boot package
 Multi-Arch: foreign
 Replaces: rockpin10-rk-ubootimg
