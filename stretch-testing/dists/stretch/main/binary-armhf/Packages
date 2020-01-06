@@ -88,21 +88,21 @@ Description: This package will always depend on linux-image and linux-headers an
 Multi-Arch: foreign
 
 Package: linux-4.4-rockpin10-latest
-Version: 4.4.167-4-rockchip
+Version: 4.4.167-5-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.4.167-4-rockchip-gfa32ad037ca7, linux-firmware-image-4.4.167-4-rockchip-gfa32ad037ca7, linux-headers-4.4.167-4-rockchip-gfa32ad037ca7
+Depends: linux-image-4.4.167-5-rockchip-g1e62a6825bfc, linux-firmware-image-4.4.167-5-rockchip-g1e62a6825bfc, linux-headers-4.4.167-5-rockchip-g1e62a6825bfc
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.4-rockpin10-latest/linux-4.4-rockpin10-latest_4.4.167-4-rockchip_all.deb
-Size: 1128
-SHA256: f09bc55a1cda8b04175ff5170cadd2364e951e6e4b7d933d536a705a47044149
-SHA1: 70138ccd411c4f85c712378b60a418cc9ea271d3
-MD5sum: f213a6e0895b8805f0904e6d12da4388
+Filename: pool/main/l/linux-4.4-rockpin10-latest/linux-4.4-rockpin10-latest_4.4.167-5-rockchip_all.deb
+Size: 1130
+SHA256: de832615cf04d4a32aa2508ebc450595e6fd44377576d715215ab3e726c33723
+SHA1: 602ca398a34eef274a512ae05c119d29190a8342
+MD5sum: 3fe45f096f105de434f4a2fa4c1cb374
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 
