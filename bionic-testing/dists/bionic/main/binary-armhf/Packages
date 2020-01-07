@@ -1288,6 +1288,46 @@ Replaces: rockpi4c-rk-ubootimg
 Conflicts: rockpi4c-rk-ubootimg
 Provides: rockpi4c-rk-ubootimg
 
+Package: rockpie-rk-u-boot-latest
+Version: 2019.10-11661-g46695f4700
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: rockpie-rk-ubootimg (= 2019.10-11661-g46695f4700)
+Homepage: https://github.com/radxa/u-boot
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpie-rk-u-boot-latest/rockpie-rk-u-boot-latest_2019.10-11661-g46695f4700_all.deb
+Size: 1082
+SHA256: 7c77e4c916084e814dab6d840207dfc88a18a7ebdcfb952854b5138c64fc33b1
+SHA1: dfcaa28251c8bd7d184065beb1057d91d413c52f
+MD5sum: f16d94a5bd54ed35e41c564f00f1646a
+Description: rockpie u-boot latest version package: depends on rockpie-rk-ubootimg (= 2019.10-11661-g46695f4700)
+
+Package: rockpie-rk-ubootimg
+Version: 2019.10-11661-g46695f4700
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 2336
+Depends: debsums, mtd-utils
+Homepage: https://github.com/radxa/u-boot
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpie-rk-ubootimg/rockpie-rk-ubootimg_2019.10-11661-g46695f4700_all.deb
+Size: 591422
+SHA256: 3c59cc3429acb7dc3f1ea42084d884310d9d11addef1e68918c87859a589c2c2
+SHA1: 153da11e17485dccece32e24e0d266571a000ef2
+MD5sum: cde35e3f1c55de18090ecc4ecba4ecda
+Description: rockpie u-boot package
+Multi-Arch: foreign
+Replaces: rockpie-rk-ubootimg
+Conflicts: rockpie-rk-ubootimg
+Provides: rockpie-rk-ubootimg
+
 Package: rockpin10-rk-u-boot-latest
 Version: 2017.09-2686-g18c70dba63
 License: GPL-2+
