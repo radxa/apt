@@ -1442,17 +1442,17 @@ Conflicts: rockpin10-rk-ubootimg
 Provides: rockpin10-rk-ubootimg
 
 Package: rockpis-dtbo
-Version: 4.3
+Version: 4.4
 Maintainer: Radxa <dev@radxa.com>
 Architecture: all
 Component: main
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpis-dtbo/rockpis-dtbo_4.3_all.deb
-Size: 3444
-SHA256: 697f98dd027562fbc956baae02243d7b588c2bea4a90fce5d8c24b0c02f5ab04
-SHA1: e49405c7497058a05c5d6f1b84482eb704d3cec6
-MD5sum: 200012c777615a7d196bfe207a272ed0
+Filename: pool/main/r/rockpis-dtbo/rockpis-dtbo_4.4_all.deb
+Size: 3696
+SHA256: 2aa631908ad3d6ddb6df4d4ae1364a49110af5326a2172a07b6181f7d3a6db0e
+SHA1: 52a4af3aad0456edc8d8874babbf8bd525ea08f7
+MD5sum: faa827228140c491c4b4d909cc425bd9
 Description: ROCK Pi S device tree overlays
 
 Package: rockpis-rk-u-boot-latest
