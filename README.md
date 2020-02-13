@@ -1,49 +1,296 @@
 # apt.radxa.com
-Debian packages repository for radxa products. This repository hosts packages that are built and maintained by radxa team for the Rabian distribution. For more information, please check http://radxa.com/Rabian. Some of these packages can also be installed on other platforms.
+Debian packages repository for radxa products. This repository hosts packages that are built and maintained by radxa team for the Rabian, Debian and Ubuntu distributions. For more information, please check https://wiki.radxa.com/Template:Rockpi_apt and http://radxa.com/Rabian. Some of these packages can also be installed on other platforms.
 
-# Usage
-Edit your `/etc/apt/sources.list` and add the following:
+## Usage
 
-    deb http://apt.radxa.com/rabian-stable/ jessie main
+Currently Radxa APT supports Rabian Jessic, Debian Stretch, Debian Buster and Ubuntu Bionic, each distro has testing and stable repositories, choose one of belows:
+
+    export DISTRO=stretch-stable
+    export DISTRO=stretch-testing     # update more frequently but maybe unstable
+    export DISTRO=bionic-stable
+    export DISTRO=bionic-testing      # update more frequently but maybe unstable
+    export DISTRO=buster-stable
+    export DISTRO=buster-testing      # update more frequently but maybe unstable
+    export DISTRO=rabian-stable
+    export DISTRO=rabian-testing      # update more frequently but maybe unstable
+
+Add Radxa APT
+
+    echo "deb http://apt.radxa.com/$DISTRO/ ${DISTRO%-*} main" | sudo tee -a /etc/apt/sources.list.d/apt-radxa-com.list
 
 Get the pub key
 
-    wget -O -  apt.radxa.com/rabian-stable/public.key | sudo apt-key add -
+    wget -O - apt.radxa.com/$DISTRO/public.key | sudo apt-key add -
 
-then run
+Run
 
     sudo apt-get update && sudo apt-get upgrade
     sudo apt-get install *package-name*
 
-# Available packages
-
-* ambiance-flat-colors
-* blueman
-* bluetooth
-* bluez
-* chromium-browser
-* chromium-browser-l10n
-* chromium-chromedriver
-* chromium-chromedriver-dbg
-* chromium-codecs-ffmpeg
-* chromium-codecs-ffmpeg-dbg
-* chromium-codecs-ffmpeg-extra
-* chromium-codecs-ffmpeg-extra-dbg
-* fonts-ubuntu-font-family-console
-* libpepflashplayer
-* linux-image-3.0.36-rock
-* linux-image-3.0.36-rock-lite
-* linux-image-3.0.36-rock-pro
-* linux-image-3.10.0-rock2-square
-* linux-source-3.10.0-rock2-square
-* mali-opengl
-* mali-opengl-es-sdk
-* mali-t76x-r5p0-06rel0-linux-1+fbdev
-* radiance-flat-colors
-* rock-lite-overlay
-* rock-overlay
-* rock-pro-overlay
-* rock2-overlay
-* rock2-square-overlay
-* ttf-ubuntu-font-family
-* vibrancy-colors
+## Available packages
+  * bluetooth/wifi
+    * blueman
+    * bluetooth
+    * bluez
+    * brcm-patchram-plus1
+    * broadcom-wifibt-firmware
+    * hostapd-ap6335
+    * hostapd-rtl8188eu
+    * hostapd-rtl8723au
+  * others
+    * 96boards-tools-common
+    * ambiance-flat-colors
+    * fonts-ubuntu-font-family-console
+    * io
+    * libpepflashplayer
+    * libwiringx
+    * luvcview
+    * machybris
+    * mackodi
+    * mali-opengl-es-sdk
+    * mali-t76x-r5p0-06rel0-linux-1+fbdev
+    * opencv4.0
+    * radiance-flat-colors
+    * resize-assistant
+    * ttf-ubuntu-font-family
+    * vibrancy-colors
+  * rockchip series
+    * gstreamer1.0-rockchip1-dbgsym
+    * gstreamer1.0-rockchip1-extra-dbgsym
+    * gstreamer1.0-rockchip1-extra
+    * gstreamer1.0-rockchip1
+    * librockchip-mpp-dev
+    * librockchip-mpp-static
+    * librockchip-mpp1-dbgsym
+    * librockchip-mpp1
+    * librockchip-vpu0-dbgsym
+    * librockchip-vpu0
+    * rockchip-mali-midgard-dev
+    * rockchip-mali-midgard14
+    * rockchip-mpp-demos-dbgsym
+    * rockchip-mpp-demos
+    * rockchip-adb
+    * rockchip-fstab
+    * rockchip-overlay
+  * rockpi4
+    * libmraa-rockpi4
+    * linux-4.4-latest
+    * linux-firmware-image-4.4.154-100-rockchip-gf7c3df9923c2
+    * linux-firmware-image-4.4.154-102-rockchip-g416a45b474ad
+    * linux-firmware-image-4.4.154-103-rockchip-g54980cd68636
+    * linux-firmware-image-4.4.154-104-rockchip-g3037f71a0de7
+    * linux-firmware-image-4.4.154-59-rockchip-g5e70f14
+    * linux-firmware-image-4.4.154-72-rockchip-g6520deb
+    * linux-firmware-image-4.4.154-73-rockchip-00007-g155a65a
+    * linux-firmware-image-4.4.154-74-rockchip-00012-g0333c19
+    * linux-firmware-image-4.4.154-75-rockchip-00013-gcc4fef3
+    * linux-firmware-image-4.4.154-76-rockchip-00015-g6cd6212
+    * linux-firmware-image-4.4.154-77-rockchip-00016-ged3107a
+    * linux-firmware-image-4.4.154-78-rockchip-00017-g625c2b2
+    * linux-firmware-image-4.4.154-81-rockchip-00021-g43bca74
+    * linux-firmware-image-4.4.154-82-rockchip-00022-gb99b90e
+    * linux-firmware-image-4.4.154-83-rockchip-00023-gae7a309
+    * linux-firmware-image-4.4.154-86-rockchip-00028-gfcfcea3
+    * linux-firmware-image-4.4.154-87-rockchip-00029-g8216f17
+    * linux-firmware-image-4.4.154-88-rockchip-00030-g90239a6
+    * linux-firmware-image-4.4.154-89-rockchip-g5fc53464d9db
+    * linux-firmware-image-4.4.154-90-rockchip-ga14f6502e045
+    * linux-firmware-image-4.4.154-91-rockchip-g70838c09a6b6
+    * linux-firmware-image-4.4.154-92-rockchip-g58d4b8d2fd3b
+    * linux-firmware-image-4.4.154-93-rockchip-g970862cbd24a
+    * linux-firmware-image-4.4.154-94-rockchip-g8fe0b5c91684
+    * linux-firmware-image-4.4.154-95-rockchip-gd2ab1f26e1b3
+    * linux-firmware-image-4.4.154-96-rockchip-gb08aaba46e04
+    * linux-firmware-image-4.4.154-97-rockchip-g31f2311e724b
+    * linux-firmware-image-4.4.154-98-rockchip-gcbc3da2ca32c
+    * linux-firmware-image-4.4.154-99-rockchip-g5b699a48544d
+    * linux-headers-4.4.154-100-rockchip-gf7c3df9923c2
+    * linux-headers-4.4.154-102-rockchip-g416a45b474ad
+    * linux-headers-4.4.154-103-rockchip-g54980cd68636
+    * linux-headers-4.4.154-104-rockchip-g3037f71a0de7
+    * linux-headers-4.4.154-59-rockchip-g5e70f14
+    * linux-headers-4.4.154-72-rockchip-g6520deb
+    * linux-headers-4.4.154-73-rockchip-00007-g155a65a
+    * linux-headers-4.4.154-74-rockchip-00012-g0333c19
+    * linux-headers-4.4.154-75-rockchip-00013-gcc4fef3
+    * linux-headers-4.4.154-76-rockchip-00015-g6cd6212
+    * linux-headers-4.4.154-77-rockchip-00016-ged3107a
+    * linux-headers-4.4.154-78-rockchip-00017-g625c2b2
+    * linux-headers-4.4.154-81-rockchip-00021-g43bca74
+    * linux-headers-4.4.154-82-rockchip-00022-gb99b90e
+    * linux-headers-4.4.154-83-rockchip-00023-gae7a309
+    * linux-headers-4.4.154-86-rockchip-00028-gfcfcea3
+    * linux-headers-4.4.154-87-rockchip-00029-g8216f17
+    * linux-headers-4.4.154-88-rockchip-00030-g90239a6
+    * linux-headers-4.4.154-89-rockchip-g5fc53464d9db
+    * linux-headers-4.4.154-90-rockchip-ga14f6502e045
+    * linux-headers-4.4.154-91-rockchip-g70838c09a6b6
+    * linux-headers-4.4.154-92-rockchip-g58d4b8d2fd3b
+    * linux-headers-4.4.154-93-rockchip-g970862cbd24a
+    * linux-headers-4.4.154-94-rockchip-g8fe0b5c91684
+    * linux-headers-4.4.154-95-rockchip-gd2ab1f26e1b3
+    * linux-headers-4.4.154-96-rockchip-gb08aaba46e04
+    * linux-headers-4.4.154-97-rockchip-g31f2311e724b
+    * linux-headers-4.4.154-98-rockchip-gcbc3da2ca32c
+    * linux-headers-4.4.154-99-rockchip-g5b699a48544d
+    * linux-image-4.4.154-100-rockchip-gf7c3df9923c2
+    * linux-image-4.4.154-102-rockchip-g416a45b474ad
+    * linux-image-4.4.154-103-rockchip-g54980cd68636
+    * linux-image-4.4.154-104-rockchip-g3037f71a0de7
+    * linux-image-4.4.154-59-rockchip-g5e70f14
+    * linux-image-4.4.154-72-rockchip-g6520deb
+    * linux-image-4.4.154-73-rockchip-00007-g155a65a
+    * linux-image-4.4.154-74-rockchip-00012-g0333c19
+    * linux-image-4.4.154-75-rockchip-00013-gcc4fef3
+    * linux-image-4.4.154-76-rockchip-00015-g6cd6212
+    * linux-image-4.4.154-77-rockchip-00016-ged3107a
+    * linux-image-4.4.154-78-rockchip-00017-g625c2b2
+    * linux-image-4.4.154-81-rockchip-00021-g43bca74
+    * linux-image-4.4.154-82-rockchip-00022-gb99b90e
+    * linux-image-4.4.154-83-rockchip-00023-gae7a309
+    * linux-image-4.4.154-86-rockchip-00028-gfcfcea3
+    * linux-image-4.4.154-87-rockchip-00029-g8216f17
+    * linux-image-4.4.154-88-rockchip-00030-g90239a6
+    * linux-image-4.4.154-89-rockchip-g5fc53464d9db
+    * linux-image-4.4.154-90-rockchip-ga14f6502e045
+    * linux-image-4.4.154-91-rockchip-g70838c09a6b6
+    * linux-image-4.4.154-92-rockchip-g58d4b8d2fd3b
+    * linux-image-4.4.154-93-rockchip-g970862cbd24a
+    * linux-image-4.4.154-94-rockchip-g8fe0b5c91684
+    * linux-image-4.4.154-95-rockchip-gd2ab1f26e1b3
+    * linux-image-4.4.154-96-rockchip-gb08aaba46e04
+    * linux-image-4.4.154-97-rockchip-g31f2311e724b
+    * linux-image-4.4.154-98-rockchip-gcbc3da2ca32c
+    * linux-image-4.4.154-99-rockchip-g5b699a48544d
+    * linux-image-4.4.154-100-rockchip-gf7c3df9923c2
+    * linux-image-4.4.154-102-rockchip-g416a45b474ad
+    * linux-image-4.4.154-103-rockchip-g54980cd68636
+    * linux-image-4.4.154-104-rockchip-g3037f71a0de7
+    * linux-image-4.4.154-59-rockchip-g5e70f14
+    * linux-image-4.4.154-72-rockchip-g6520deb
+    * linux-image-4.4.154-73-rockchip-00007-g155a65a
+    * linux-image-4.4.154-74-rockchip-00012-g0333c19
+    * linux-image-4.4.154-75-rockchip-00013-gcc4fef3
+    * linux-image-4.4.154-76-rockchip-00015-g6cd6212
+    * linux-image-4.4.154-77-rockchip-00016-ged3107a
+    * linux-image-4.4.154-78-rockchip-00017-g625c2b2
+    * linux-image-4.4.154-81-rockchip-00021-g43bca74
+    * linux-image-4.4.154-82-rockchip-00022-gb99b90e
+    * linux-image-4.4.154-83-rockchip-00023-gae7a309
+    * linux-image-4.4.154-86-rockchip-00028-gfcfcea3
+    * linux-image-4.4.154-87-rockchip-00029-g8216f17
+    * linux-image-4.4.154-88-rockchip-00030-g90239a6
+    * linux-image-4.4.154-89-rockchip-g5fc53464d9db
+    * linux-image-4.4.154-90-rockchip-ga14f6502e045
+    * linux-image-4.4.154-91-rockchip-g70838c09a6b6
+    * linux-image-4.4.154-92-rockchip-g58d4b8d2fd3b
+    * linux-image-4.4.154-93-rockchip-g970862cbd24a
+    * linux-image-4.4.154-94-rockchip-g8fe0b5c91684
+    * linux-image-4.4.154-95-rockchip-gd2ab1f26e1b3
+    * linux-image-4.4.154-96-rockchip-gb08aaba46e04
+    * linux-image-4.4.154-97-rockchip-g31f2311e724b
+    * linux-image-4.4.154-98-rockchip-gcbc3da2ca32c
+    * linux-image-4.4.154-99-rockchip-g5b699a48544d
+    * login-prompt-rockpi4
+    * rockpi4a-rk-u-boot-latest
+    * rockpi4a-rk-ubootimg
+    * rockpi4b-rk-u-boot-latest
+    * rockpi4b-rk-ubootimg
+    * rockpi4c-rk-u-boot-latest
+    * rockpi4c-rk-ubootimg
+    * rockpi4-brcm-patch
+    * rockpi4-dtbo
+    * rockpi4-poe
+  * rockpie
+    * rockpie-rk-u-boot-latest
+    * rockpie-rk-ubootimg
+  * rockpis
+    * linux-4.4-rockpis-latest
+    * linux-firmware-image-4.4.143-31-rockchip-gc05398f0785a
+    * linux-firmware-image-4.4.143-32-rockchip-g339d7274cfd8
+    * linux-firmware-image-4.4.143-32-rockchip-gc803c75ce9fb
+    * linux-firmware-image-4.4.143-33-rockchip-gaf7cb25e2b95
+    * linux-firmware-image-4.4.143-34-rockchip-g3c9d2019dba7
+    * linux-firmware-image-4.4.143-35-rockchip-gb41426715f2b
+    * linux-firmware-image-4.4.143-36-rockchip-g55b1ec35291f
+    * linux-headers-4.4.143-13-rockchip-gea65ae4
+    * linux-headers-4.4.143-14-rockchip-g2c5a33f60f54
+    * linux-headers-4.4.143-22-rockchip-g46e0a13a34f0
+    * linux-headers-4.4.143-23-rockchip-g394d86b2b38b
+    * linux-headers-4.4.143-24-rockchip-g23ef9f208b12
+    * linux-headers-4.4.143-25-rockchip-gcf69a4100e39
+    * linux-headers-4.4.143-26-rockchip-g5dbd30f3e92b
+    * linux-headers-4.4.143-27-rockchip-g2d66709b32cd
+    * linux-headers-4.4.143-28-rockchip-g8dbafd783043
+    * linux-headers-4.4.143-29-rockchip-g280b8986651c
+    * linux-headers-4.4.143-30-rockchip-g2e63548cd02d
+    * linux-headers-4.4.143-31-rockchip-gc05398f0785a
+    * linux-headers-4.4.143-32-rockchip-g339d7274cfd8
+    * linux-headers-4.4.143-32-rockchip-gc803c75ce9fb
+    * linux-headers-4.4.143-33-rockchip-gaf7cb25e2b95
+    * linux-headers-4.4.143-34-rockchip-g3c9d2019dba7
+    * linux-headers-4.4.143-35-rockchip-gb41426715f2b
+    * linux-headers-4.4.143-36-rockchip-g55b1ec35291f
+    * linux-image-4.4.143-13-rockchip-gea65ae4
+    * linux-image-4.4.143-14-rockchip-g2c5a33f60f54
+    * linux-image-4.4.143-22-rockchip-g46e0a13a34f0
+    * linux-image-4.4.143-23-rockchip-g394d86b2b38b
+    * linux-image-4.4.143-24-rockchip-g23ef9f208b12
+    * linux-image-4.4.143-25-rockchip-gcf69a4100e39
+    * linux-image-4.4.143-26-rockchip-g5dbd30f3e92b
+    * linux-image-4.4.143-27-rockchip-g2d66709b32cd
+    * linux-image-4.4.143-28-rockchip-g8dbafd783043
+    * linux-image-4.4.143-29-rockchip-g280b8986651c
+    * linux-image-4.4.143-30-rockchip-g2e63548cd02d
+    * linux-image-4.4.143-31-rockchip-gc05398f0785a
+    * linux-image-4.4.143-32-rockchip-g339d7274cfd8
+    * linux-image-4.4.143-32-rockchip-gc803c75ce9fb
+    * linux-image-4.4.143-33-rockchip-gaf7cb25e2b95
+    * linux-image-4.4.143-34-rockchip-g3c9d2019dba7
+    * linux-image-4.4.143-35-rockchip-gb41426715f2b
+    * linux-image-4.4.143-36-rockchip-g55b1ec35291f
+    * rockpis-dtbo
+    * rockpis-rk-u-boot-latest
+    * rockpis-rk-ubootimg
+    * rtl8723ds-firmware
+  * rockpin10
+    * linux-4.4-rockpin10-latest
+    * linux-firmware-image-4.4.167-3-rockchip-g703afb0b843e
+    * linux-firmware-image-4.4.167-4-rockchip-gfa32ad037ca7
+    * linux-firmware-image-4.4.167-5-rockchip-g1e62a6825bfc
+    * linux-firmware-image-4.4.167-6-rockchip-g775342eddc05
+    * linux-headers-4.4.167-3-rockchip-g703afb0b843e
+    * linux-headers-4.4.167-4-rockchip-gfa32ad037ca7
+    * linux-headers-4.4.167-5-rockchip-g1e62a6825bfc
+    * linux-headers-4.4.167-6-rockchip-g775342eddc05
+    * linux-image-4.4.167-3-rockchip-g703afb0b843e
+    * linux-image-4.4.167-4-rockchip-gfa32ad037ca7
+    * linux-image-4.4.167-5-rockchip-g1e62a6825bfc
+    * linux-image-4.4.167-6-rockchip-g775342eddc05
+    * rockchip-npu
+    * rockpin10-rk-u-boot-latest
+    * rockpin10-rk-ubootimg
+  * rock
+    * linux-image-3.0.36-rock
+    * rock-overlay
+  * rock2
+    * rock2-overlay
+  * rock-pro
+    * linux-image-3.0.36-rock-pro
+    * rock-pro-overlay
+  * rock-lite
+    * linux-image-3.0.36-rock-lite
+    * rock-lite-overlay
+  * rock2-square
+    * linux-image-3.10.0-rock2-square
+    * linux-source-3.10.0-rock2-square
+    * rock2-square-overlay
+  * web
+    * chromium-browser-l10n
+    * chromium-browser
+    * chromium-chromedriver-dbg
+    * chromium-chromedriver
+    * chromium-codecs-ffmpeg-dbg
+    * chromium-codecs-ffmpeg-extra-dbg
+    * chromium-codecs-ffmpeg-extra
+    * chromium-codecs-ffmpeg
