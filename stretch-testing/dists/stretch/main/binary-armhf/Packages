@@ -1198,18 +1198,18 @@ Description: Rockchip default fstab
 Depends: util-linux, bash
 
 Package: rockchip-overlay
-Version: 2.2
+Version: 2.4
 Maintainer: Radxa <dev@radxa.com>
 Architecture: all
 Component: main
-Depends: linux-base
+Depends: linux-base, file, bc
 Priority: optional
 Section: utils
-Filename: pool/main/r/rockchip-overlay/rockchip-overlay_2.2_all.deb
-Size: 4368
-SHA256: 850f294aeb548a8910898257bd848a383564ba67d3371c17838335c744650fba
-SHA1: 5c268aa86cf99392de4dd45efff97e3cc41d9461
-MD5sum: e4d1e061e127cb69765c97c7bd61844c
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_2.4_all.deb
+Size: 4636
+SHA256: b6518f277fa6fdc3ad9038e7988f33e94d8a6e9da2b8acaa61fe30eba398d989
+SHA1: c6c6ee54ece6a8a14fadbbe91a46aa71930b9066
+MD5sum: 9641be3a26d5f31d6d4972e091f79e72
 Description: General rockchip overlay package.
 
 Package: rockpi4-brcm-patch
