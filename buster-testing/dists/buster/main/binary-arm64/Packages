@@ -118,21 +118,21 @@ Description: This package will always depend on linux-image and linux-headers an
 Multi-Arch: foreign
 
 Package: linux-4.4-rockpin10-latest
-Version: 4.4.167-6-rockchip
+Version: 4.4.167-7-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.4.167-6-rockchip-g775342eddc05, linux-firmware-image-4.4.167-6-rockchip-g775342eddc05, linux-headers-4.4.167-6-rockchip-g775342eddc05
+Depends: linux-image-4.4.167-7-rockchip-gaecabed5edce, linux-firmware-image-4.4.167-7-rockchip-gaecabed5edce, linux-headers-4.4.167-7-rockchip-gaecabed5edce
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.4-rockpin10-latest/linux-4.4-rockpin10-latest_4.4.167-6-rockchip_all.deb
-Size: 1128
-SHA256: 17389c3c47125db575056e97cc2ff2c0f5f000a2e9a54b27c7cf684c2f87a5ff
-SHA1: c83cd92acc3face2b75347a70fbad7eb349aaf71
-MD5sum: 3613149b8cb4a3eadf7a0a67e9b9762c
+Filename: pool/main/l/linux-4.4-rockpin10-latest/linux-4.4-rockpin10-latest_4.4.167-7-rockchip_all.deb
+Size: 1122
+SHA256: 0afa70de49da44f38db2fdf2bd58afd3f9fa2d59841582a3813dd5e869f792e8
+SHA1: 3c5812f14af8205ac6824544eba116179edbb6ec
+MD5sum: e456902e89b0776a170a511872a9e4ad
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 
@@ -579,6 +579,23 @@ SHA1: af1e58c5809bb358c1328162299e264b86dec216
 MD5sum: fa39bdbb152f457a5207ce94d6d3d1ef
 Description: Linux kernel firmware, version 4.4.167-6-rockchip-g775342eddc05
  This package contains firmware from the Linux kernel, version 4.4.167-6-rockchip-g775342eddc05.
+
+Package: linux-firmware-image-4.4.167-7-rockchip-gaecabed5edce
+Source: linux-4.4.167-7-rockchip-gaecabed5edce
+Version: 4.4.167-7-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@91c186bd8d80>
+Installed-Size: 523
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.167-7-rockchip-gaecabed5edce/linux-firmware-image-4.4.167-7-rockchip-gaecabed5edce_4.4.167-7-rockchip_arm64.deb
+Size: 173956
+SHA256: e240d193c4f03a8dc16a15ea2554bb65faef4d91b24e81330b096f28a3dcbe0c
+SHA1: 8eddd0c74ff484f3d3a63b70313de9018974d3c3
+MD5sum: ff4fd4debb0767e53e3af090f29b2c98
+Description: Linux kernel firmware, version 4.4.167-7-rockchip-gaecabed5edce
+ This package contains firmware from the Linux kernel, version 4.4.167-7-rockchip-gaecabed5edce.
 
 Package: linux-headers-4.4.143-23-rockchip-g394d86b2b38b
 Source: linux-4.4.143-23-rockchip-g394d86b2b38b
@@ -1237,6 +1254,26 @@ SHA1: 3a7a22afb00fb39e8b58cb87751fbbce35ab4809
 MD5sum: f55cc297732203952028bb2618571d3b
 Description: Linux kernel headers for 4.4.167-6-rockchip-g775342eddc05 on arm64
  This package provides kernel header files for 4.4.167-6-rockchip-g775342eddc05 on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.167-7-rockchip-gaecabed5edce
+Source: linux-4.4.167-7-rockchip-gaecabed5edce
+Version: 4.4.167-7-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@91c186bd8d80>
+Installed-Size: 47155
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.167-7-rockchip-gaecabed5edce/linux-headers-4.4.167-7-rockchip-gaecabed5edce_4.4.167-7-rockchip_arm64.deb
+Size: 7137780
+SHA256: 79039c14254a7ba1ac1f6df4349ae1c6a980f30d63bb0388f9dee65050bc5f9a
+SHA1: 04d9ebd09370aca435ab3793039d132e4205f427
+MD5sum: f0a0b287936efed1b2ab1b9e5f9d98d7
+Description: Linux kernel headers for 4.4.167-7-rockchip-gaecabed5edce on arm64
+ This package provides kernel header files for 4.4.167-7-rockchip-gaecabed5edce on arm64
  .
  This is useful for people who need to build external modules
 
@@ -1899,6 +1936,26 @@ MD5sum: c2ce094e99b5d13f7720bda909c6d8c9
 Description: Linux kernel, version 4.4.167-6-rockchip-g775342eddc05
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.167-6-rockchip-g775342eddc05.
+
+Package: linux-image-4.4.167-7-rockchip-gaecabed5edce
+Source: linux-4.4.167-7-rockchip-gaecabed5edce
+Version: 4.4.167-7-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@91c186bd8d80>
+Installed-Size: 45712
+Suggests: linux-firmware-image-4.4.167-7-rockchip-gaecabed5edce
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.167-7-rockchip-gaecabed5edce
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.167-7-rockchip-gaecabed5edce/linux-image-4.4.167-7-rockchip-gaecabed5edce_4.4.167-7-rockchip_arm64.deb
+Size: 13575068
+SHA256: cc8a463588ff74e633e228213cf74df40a75b337fa80504ad94eefa20ed34f37
+SHA1: 0e3472ecc4aa2977726f13ffc175eb195b9c3232
+MD5sum: c12224218eda283d02118d1e63dcdde5
+Description: Linux kernel, version 4.4.167-7-rockchip-gaecabed5edce
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.167-7-rockchip-gaecabed5edce.
 
 Package: resize-assistant
 Version: 0.2
