@@ -90,25 +90,6 @@ MD5sum: e456902e89b0776a170a511872a9e4ad
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 
-Package: linux-4.4-rockpis-latest
-Version: 4.4.143-22-rockchip
-License: GPL-2+
-Vendor: Radxa
-Architecture: all
-Maintainer: Radxa <dev@radxa.com>
-Installed-Size: 0
-Depends: linux-image-4.4.143-22-rockchip-g46e0a13a34f0, linux-headers-4.4.143-22-rockchip-g46e0a13a34f0
-Homepage: https://github.com/radxa/kernel
-Priority: optional
-Section: admin
-Filename: pool/main/l/linux-4.4-rockpis-latest/linux-4.4-rockpis-latest_4.4.143-22-rockchip_all.deb
-Size: 1120
-SHA256: 2a6f5159eb991c8cbcb42ebde428f7dd3381051406a89340e1a72310fd2f3681
-SHA1: 103b371a5d241a63a0b8adb000ec6353c1cadd46
-MD5sum: b36a4c49fb59a6a56adf6da2d091f661
-Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
-Multi-Arch: foreign
-
 Package: linux-firmware-image-4.4.154-100-rockchip-gf7c3df9923c2
 Source: linux-4.4.154-100-rockchip-gf7c3df9923c2
 Version: 4.4.154-100-rockchip

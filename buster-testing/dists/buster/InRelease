@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: apt.radxa.com
 Label: apt.radxa.com
 Codename: buster
-Date: Tue, 25 Feb 2020 07:17:24 UTC
+Date: Tue, 25 Feb 2020 07:32:10 UTC
 Architectures: armhf arm64
 Components: main
 Description: Apt repository for Radxa products
@@ -31,15 +31,15 @@ SHA256:
  d75661930a67b30a72b8f44ddbb16f3960a82997c1150e8d92dac8b31b364e40 126 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEx5740UnPycBBippgV2EoiytSzJAFAl5UygQACgkQV2EoiytS
-zJCV5wv+JfA2t7z0bsB/q0xumLVzc5yCLt3hLD4qPNKNEFGmMddyPlq+VdKLjtlM
-1pjsZywfuCz0BnDWRXlCDoE5mMfDqI6MaFRYt3e64c2oij6cBlm6j5x3Gp8BHpdP
-C+Xpg9t69ESNee5lywbIiaYCY7zU5irro93UNnoDLFnrZCyMEiS/2xrG9XUe5J8Q
-ukFAKqZcpOcSwmoYQqi4CfnSvI/O77LOrfl5fpUUVoFoZPl3+Be4JL9GrsMMhIqz
-zkTT7vbaxQpf+NY8eLLBYnEIKl9/NpHcEBiIFxvPQm1MAmREEjkm7+QgbefqdT4T
-un0cowVudvg/oiErIpaZreIGn9cmaA6tmu610Sdw2rjxiJ/MDXaJRMODTkCqmdxd
-QK7luaVXf4Pzj6DzSxpy7jb9RRba5FeF3MTjF9/4b9N59V0PX96R5uBSDkEz0tFb
-qY1k7jXQ9F/UUr9f6N8s0rtygzU1ggqkK9tEGhSxK1HK6ORKpQyOYY3bPhIebRCw
-s1hoTPYl
-=Z9pm
+iQGzBAEBCgAdFiEEx5740UnPycBBippgV2EoiytSzJAFAl5UzXoACgkQV2EoiytS
+zJAiMgwAhDaX658zdIzAka10IaFvxYD3ze5V8kc4W4rkgGcvBcQlUEosYx+/OJMB
+ohg1g6T1qR4dos2iBCj9g5QagyytoqG+IwkZbkqC1HXuR51lSRHpw2JG37rhD/tj
+Wrd+nwzywoUlUhlam1n0eqJT5Qs8XVVpAXRRdFwYUf1r+/dixs6Co2AO2F7Q+xYn
+UOrWRE3+wQB0T+vMWDNLf1kT6j/DS2GvoyfBJDytMxM63ReasxqYBEzVQCRoTg/c
+fbu+eYFVb+MPCgxsb16pgvirrSXgApvYvdm5ppsbenVkyiPiECA792eiYwwVSKmf
+cXna+X8d16mRbrwBoa5Hr8XpjpHhU+YUe9KgIkSCZGY3i4utlKj8sMx8q+R8Xnol
+JbWhW6KVRLpNSDVe2SVjPqCXtmOi+zUIzBTcjQESgJyXUN0f8u5KE31SOD1s57cu
+7zziTBKHayAEXcgDh4+yM6B85lln5YX/gXpQqn/OWWpAVo3KVXoLXLTP/Pwj+gZ5
+bOQ/OkAs
+=KbhR
 -----END PGP SIGNATURE-----
