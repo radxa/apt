@@ -831,6 +831,21 @@ Description: Linux kernel, version 4.4.154-99-rockchip-g5b699a48544d
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-99-rockchip-g5b699a48544d.
 
+Package: realtek-bt-firmware
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Depends: pulseaudio-module-bluetooth, pulseaudio, bluez
+Priority: optional
+Section: utils
+Filename: pool/main/r/realtek-bt-firmware/realtek-bt-firmware_0.1_all.deb
+Size: 46544
+SHA256: 4594bf0c014e6154b12101389c69c5024e59ff98f76c52a9ad582815c8d383d2
+SHA1: bce29729b9b082d099538a64c57b17876e58287e
+MD5sum: 3ef57086dfbac7c421fd438163b47e98
+Description: Load Realtek Bluetooth Driver and firmware.
+
 Package: resize-assistant
 Version: 0.2
 Maintainer: Radxa <dev@radxa.com>
