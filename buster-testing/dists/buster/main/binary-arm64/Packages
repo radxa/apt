@@ -2170,17 +2170,17 @@ Description: Rockchip default fstab
 Depends: util-linux, bash
 
 Package: rockchip-npu
-Version: 0.3
+Version: 0.4
 Maintainer: Radxa <dev@radxa.com>
 Architecture: arm64
 Component: main
 Priority: optional
 Section: utils
-Filename: pool/main/r/rockchip-npu/rockchip-npu_0.3_arm64.deb
-Size: 15531928
-SHA256: 365f8567c179792dc30879565439d6e3e1076eaa0e723345eebf0722a09ac1fd
-SHA1: a1ba066a5f5a408ee9a72bcce1c3f8f906f01cc8
-MD5sum: b2900e9863c30015f6dbd61b707662e2
+Filename: pool/main/r/rockchip-npu/rockchip-npu_0.4_arm64.deb
+Size: 15980992
+SHA256: fdd1d7c0ed8609cc233599a7a05ffbee6e99b54265023fe70494e7fbe5fb579f
+SHA1: 06633f327c2fa6d50a2e635b289e0fd77a835684
+MD5sum: ace06f6f1b651c4fdee53c20933c7b9e
 Description: rockchip-npu package.
 
 Package: rockchip-overlay
