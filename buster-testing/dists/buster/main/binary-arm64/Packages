@@ -1370,6 +1370,26 @@ Description: Linux kernel headers for 4.4.179-8-rockchip-g4d9c0ef8e3a9 on arm64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-4.4.179-9-rockchip-gd5e966dd6db7
+Source: linux-4.4.179-9-rockchip-gd5e966dd6db7
+Version: 4.4.179-9-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@ea3af170c1e7>
+Installed-Size: 46454
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.179-9-rockchip-gd5e966dd6db7/linux-headers-4.4.179-9-rockchip-gd5e966dd6db7_4.4.179-9-rockchip_arm64.deb
+Size: 7091908
+SHA256: 43bde944a5ccc159599abf1628ade60dd5da98e9fcf913eb46ccf1528238d9f5
+SHA1: 5c1aa8956578f7ec9fed184f09965aebee80ecb2
+MD5sum: 1bac76a22e246e04aa5b69150cec861a
+Description: Linux kernel headers for 4.4.179-9-rockchip-gd5e966dd6db7 on arm64
+ This package provides kernel header files for 4.4.179-9-rockchip-gd5e966dd6db7 on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-headers-4.4.194-6-rockchip-g1e138221f47e
 Source: linux-4.4.194-6-rockchip-g1e138221f47e
 Version: 4.4.194-6-rockchip
@@ -2129,6 +2149,26 @@ MD5sum: d1dcf015dd1ce402a6b009e493378e83
 Description: Linux kernel, version 4.4.179-8-rockchip-g4d9c0ef8e3a9
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.179-8-rockchip-g4d9c0ef8e3a9.
+
+Package: linux-image-4.4.179-9-rockchip-gd5e966dd6db7
+Source: linux-4.4.179-9-rockchip-gd5e966dd6db7
+Version: 4.4.179-9-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@ea3af170c1e7>
+Installed-Size: 27124
+Suggests: linux-firmware-image-4.4.179-9-rockchip-gd5e966dd6db7
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.179-9-rockchip-gd5e966dd6db7
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.179-9-rockchip-gd5e966dd6db7/linux-image-4.4.179-9-rockchip-gd5e966dd6db7_4.4.179-9-rockchip_arm64.deb
+Size: 8961824
+SHA256: 65836ebd778c95e5a9c1cc42ac846e8f67545337c2164f35705b31fa55f21559
+SHA1: 945ca228ab76a02580da755992e8529d325e8959
+MD5sum: a05bc51c6f611a86692dbafc9791d070
+Description: Linux kernel, version 4.4.179-9-rockchip-gd5e966dd6db7
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.179-9-rockchip-gd5e966dd6db7.
 
 Package: linux-image-4.4.194-6-rockchip-g1e138221f47e
 Source: linux-4.4.194-6-rockchip-g1e138221f47e
