@@ -118,21 +118,21 @@ Description: This package will always depend on linux-image and linux-headers an
 Multi-Arch: foreign
 
 Package: linux-4.4-rockpie-latest
-Version: 4.4.194-7-rockchip
+Version: 4.4.194-8-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: arm64
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.4.194-7-rockchip-g124624994859, linux-firmware-image-4.4.194-7-rockchip-g124624994859, linux-headers-4.4.194-7-rockchip-g124624994859
+Depends: linux-image-4.4.194-8-rockchip-g2a05ddc265cf, linux-firmware-image-4.4.194-8-rockchip-g2a05ddc265cf, linux-headers-4.4.194-8-rockchip-g2a05ddc265cf
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.4-rockpie-latest/linux-4.4-rockpie-latest_4.4.194-7-rockchip_arm64.deb
+Filename: pool/main/l/linux-4.4-rockpie-latest/linux-4.4-rockpie-latest_4.4.194-8-rockchip_arm64.deb
 Size: 1124
-SHA256: f24b65289a077dc66c47811bcfbbd53d2cec55e708f0a1737131cd358d71cd71
-SHA1: ae171fa788d74091ac32fe1944e78f6f9cb8c4ec
-MD5sum: ce2836711da3026a651bc4d2b4e06b74
+SHA256: e02b817ea86fb9a29505b1ff53873d3e175cc82cead412902b1932753b7deeac
+SHA1: dfcb5519ba10a5eab86ac0cc71992206688f1777
+MD5sum: 3b648a397087f02457c1bd04275db96c
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 
@@ -700,6 +700,23 @@ SHA1: bb306d5f954709a24c0e9766d30e85ee9198ebb9
 MD5sum: 5ddc6361fbbc94d62ea1351b9a6f260b
 Description: Linux kernel firmware, version 4.4.194-7-rockchip-g124624994859
  This package contains firmware from the Linux kernel, version 4.4.194-7-rockchip-g124624994859.
+
+Package: linux-firmware-image-4.4.194-8-rockchip-g2a05ddc265cf
+Source: linux-4.4.194-8-rockchip-g2a05ddc265cf
+Version: 4.4.194-8-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@e3ac8b8e1337>
+Installed-Size: 529
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.194-8-rockchip-g2a05ddc265cf/linux-firmware-image-4.4.194-8-rockchip-g2a05ddc265cf_4.4.194-8-rockchip_arm64.deb
+Size: 176132
+SHA256: a9861c5b320560be62e1b645b43c80d98b22b103a12475adb36c1e5f64226420
+SHA1: f49e6788dc1f26044029a8463949e4e8e6870a46
+MD5sum: ddfcc0d14f0770849c54f659c228e28b
+Description: Linux kernel firmware, version 4.4.194-8-rockchip-g2a05ddc265cf
+ This package contains firmware from the Linux kernel, version 4.4.194-8-rockchip-g2a05ddc265cf.
 
 Package: linux-headers-4.4.143-23-rockchip-g394d86b2b38b
 Source: linux-4.4.143-23-rockchip-g394d86b2b38b
@@ -1538,6 +1555,26 @@ SHA1: 797cf108579bd6e320ac4fb65a229fb3ebe3f9c3
 MD5sum: 989122db9dfd0118d3171ac2bef3027e
 Description: Linux kernel headers for 4.4.194-7-rockchip-g124624994859 on arm64
  This package provides kernel header files for 4.4.194-7-rockchip-g124624994859 on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.194-8-rockchip-g2a05ddc265cf
+Source: linux-4.4.194-8-rockchip-g2a05ddc265cf
+Version: 4.4.194-8-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@e3ac8b8e1337>
+Installed-Size: 47542
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.194-8-rockchip-g2a05ddc265cf/linux-headers-4.4.194-8-rockchip-g2a05ddc265cf_4.4.194-8-rockchip_arm64.deb
+Size: 7244092
+SHA256: 5708af0ef5d60ba5bc3b2ec39d85b47c7f400febc27568e251d12bf6567944d0
+SHA1: c0a87dc6d6702d788d3e23617cc74dc725eb4e08
+MD5sum: 61c04bcf8dde8d414c93aa850391059d
+Description: Linux kernel headers for 4.4.194-8-rockchip-g2a05ddc265cf on arm64
+ This package provides kernel header files for 4.4.194-8-rockchip-g2a05ddc265cf on arm64
  .
  This is useful for people who need to build external modules
 
@@ -2380,6 +2417,26 @@ MD5sum: a6366a55f53f9ae1a24503e0154020c4
 Description: Linux kernel, version 4.4.194-7-rockchip-g124624994859
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.194-7-rockchip-g124624994859.
+
+Package: linux-image-4.4.194-8-rockchip-g2a05ddc265cf
+Source: linux-4.4.194-8-rockchip-g2a05ddc265cf
+Version: 4.4.194-8-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@e3ac8b8e1337>
+Installed-Size: 72161
+Suggests: linux-firmware-image-4.4.194-8-rockchip-g2a05ddc265cf
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.194-8-rockchip-g2a05ddc265cf
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.194-8-rockchip-g2a05ddc265cf/linux-image-4.4.194-8-rockchip-g2a05ddc265cf_4.4.194-8-rockchip_arm64.deb
+Size: 15562812
+SHA256: ea600c064b422d415ea3006802163f185c50dacb47ce83765e48aaff72bad86a
+SHA1: 8f85e0e0d6c9ee14995249e72ea1b6faf63aa1b7
+MD5sum: 1e5af9f40acf4dae9b43e4fcc101decc
+Description: Linux kernel, version 4.4.194-8-rockchip-g2a05ddc265cf
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.194-8-rockchip-g2a05ddc265cf.
 
 Package: realtek-bt-firmware
 Version: 0.1
