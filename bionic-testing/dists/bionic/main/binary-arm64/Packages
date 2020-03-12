@@ -2719,17 +2719,17 @@ Conflicts: rockpis-rk-ubootimg
 Provides: rockpis-rk-ubootimg
 
 Package: rtl8723ds-firmware
-Version: 0.3
+Version: 0.4
 Maintainer: Radxa <dev@radxa.com>
 Architecture: arm64
 Component: main
 Depends: rfkill, bluez
 Priority: optional
 Section: utils
-Filename: pool/main/r/rtl8723ds-firmware/rtl8723ds-firmware_0.3_arm64.deb
-Size: 50112
-SHA256: 0fb4558ac3b5e227bcb0b93754b00cb9558df40d95f5e82227176ad28cad538d
-SHA1: a92b75ad51e72cff48e10b7d7fafc07d1f11d5a0
-MD5sum: caeaac2bcf9018f2408bd4a1645f9363
+Filename: pool/main/r/rtl8723ds-firmware/rtl8723ds-firmware_0.4_arm64.deb
+Size: 50264
+SHA256: d954ac01f51148a2e093cbf5e505a5afb75f8feac6105f0e31a1c979e7746306
+SHA1: bdb1a6665c7a6bd11e1e47172d5636f8b510e412
+MD5sum: fa355d8ceb90ded2dc4cb398c096093e
 Description: General chip rtl8723ds firmware.
 
