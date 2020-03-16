@@ -1,0 +1,86 @@
+Package: resize-assistant
+Version: 0.2
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Depends: gdisk, parted, init-system-helpers (>= 1.18~)
+Priority: optional
+Section: utils
+Filename: pool/main/r/resize-assistant/resize-assistant_0.2_all.deb
+Size: 1700
+SHA256: 497cf1e3dd1d0e412d947a2ff0ec46aff8a87057d235ace95e81caae989c1290
+SHA1: 93b61c08d1cfef69b46e4492cb26ffacf1875e0e
+MD5sum: 8882c755e14783fefac59c3a0127bc59
+Description: resize-assistant package.
+ This package provides tools used to help resizing root filesystem
+ to fit available disk space.
+
+Package: rockchip-overlay
+Version: 2.6
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Depends: linux-base, file, bc, sed, coreutils
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_2.6_all.deb
+Size: 4936
+SHA256: 7968346754a24cab9c3c063655746149ea357b13372198d502c938023374e806
+SHA1: d75cc8beef6c1e12d79785dd383f2c40c7cc417b
+MD5sum: 6b7ce2e1ae90affef2d21803ff5df234
+Description: General rockchip overlay package.
+
+Package: rockpis-dtbo
+Version: 4.4
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpis-dtbo/rockpis-dtbo_4.4_all.deb
+Size: 3696
+SHA256: 2aa631908ad3d6ddb6df4d4ae1364a49110af5326a2172a07b6181f7d3a6db0e
+SHA1: 52a4af3aad0456edc8d8874babbf8bd525ea08f7
+MD5sum: faa827228140c491c4b4d909cc425bd9
+Description: ROCK Pi S device tree overlays
+
+Package: rockpis-rk-u-boot-latest
+Version: 2017.09-02378-g6de46245e6
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: rockpis-rk-ubootimg (= 2017.09-02378-g6de46245e6)
+Homepage: https://github.com/radxa/u-boot
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpis-rk-u-boot-latest/rockpis-rk-u-boot-latest_2017.09-02378-g6de46245e6_all.deb
+Size: 1080
+SHA256: a5e91cf5537bef16b763ba912b4a2ea67f1b8153e7d47c6cf342fb484ca86a8a
+SHA1: 6e88e8cb657841a3a76da209d7f4a1dcac1a3cbb
+MD5sum: f0c59d23ffe29f81836bd33ad7d0e8fd
+Description: rockpis u-boot latest version package: depends on rockpis-rk-ubootimg (= 2017.09-02378-g6de46245e6)
+
+Package: rockpis-rk-ubootimg
+Version: 2017.09-02378-g6de46245e6
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 2430
+Depends: debsums, mtd-utils, linux-4.4-rockpis-latest (>= 4.4.143-39-rockchip)
+Homepage: https://github.com/radxa/u-boot
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpis-rk-ubootimg/rockpis-rk-ubootimg_2017.09-02378-g6de46245e6_all.deb
+Size: 627574
+SHA256: a260eea7c6835666a534c702df3b9fc727e0b055847870e969e7c9064ad5557a
+SHA1: 14c02a2d755fac3ea703e2aaf480b28f03f7cdb2
+MD5sum: 94067fcb966f65fa4aaf7cda04b42965
+Description: rockpis u-boot package
+Multi-Arch: foreign
+Replaces: rockpis-rk-ubootimg
+Conflicts: rockpis-rk-ubootimg
+Provides: rockpis-rk-ubootimg
+

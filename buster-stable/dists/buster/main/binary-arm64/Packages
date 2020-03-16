@@ -1,19 +1,19 @@
 Package: linux-4.4-rockpis-latest
-Version: 4.4.143-34-rockchip
+Version: 4.4.143-39-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: arm64
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.4.143-34-rockchip-g3c9d2019dba7, linux-firmware-image-4.4.143-34-rockchip-g3c9d2019dba7, linux-headers-4.4.143-34-rockchip-g3c9d2019dba7
+Depends: linux-image-4.4.143-39-rockchip-gdaf243b9655a, linux-firmware-image-4.4.143-39-rockchip-gdaf243b9655a, linux-headers-4.4.143-39-rockchip-gdaf243b9655a
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.4-rockpis-latest/linux-4.4-rockpis-latest_4.4.143-34-rockchip_arm64.deb
-Size: 1126
-SHA256: e2d4198a45b2173c8f0ace8faa76f93ba6948f1ddb35627d50613d0aa900e994
-SHA1: 54ba6ff12eb65220abeef43860f756f99740de60
-MD5sum: af9c3e8f0c71b94a45e8c4cd7b00cab7
+Filename: pool/main/l/linux-4.4-rockpis-latest/linux-4.4-rockpis-latest_4.4.143-39-rockchip_arm64.deb
+Size: 1122
+SHA256: f441123f0c7ba38a2a9d132858590f5b9eca560f0f40746668045c9cf49f8b73
+SHA1: 10eba66225c8a4dde38d6d7be4c020a4e7b533d4
+MD5sum: 1b55ca3d32cc6c43db7752a7d7ee15cb
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 
@@ -34,6 +34,23 @@ MD5sum: ba1b5ff5ec66a5d1cff609a683291321
 Description: Linux kernel firmware, version 4.4.143-34-rockchip-g3c9d2019dba7
  This package contains firmware from the Linux kernel, version 4.4.143-34-rockchip-g3c9d2019dba7.
 
+Package: linux-firmware-image-4.4.143-39-rockchip-gdaf243b9655a
+Source: linux-4.4.143-39-rockchip-gdaf243b9655a
+Version: 4.4.143-39-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@1349469ebb81>
+Installed-Size: 190
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.143-39-rockchip-gdaf243b9655a/linux-firmware-image-4.4.143-39-rockchip-gdaf243b9655a_4.4.143-39-rockchip_arm64.deb
+Size: 52524
+SHA256: df7c6314996fc4c36f99cde9b1581521f4d0a8b5d48e4c4f00d79626de9c0647
+SHA1: a1044d385416742f651a358fb52c607c0621db7a
+MD5sum: 6d5bab8fbbf12e0a762bfef9b8a5102c
+Description: Linux kernel firmware, version 4.4.143-39-rockchip-gdaf243b9655a
+ This package contains firmware from the Linux kernel, version 4.4.143-39-rockchip-gdaf243b9655a.
+
 Package: linux-headers-4.4.143-34-rockchip-g3c9d2019dba7
 Source: linux-4.4.143-34-rockchip-g3c9d2019dba7
 Version: 4.4.143-34-rockchip
@@ -51,6 +68,26 @@ SHA1: 942eb19b39667bf06bd04ce383d85f0c3f91fc2e
 MD5sum: ce568af294772f6d8c1b3a32c4f589c6
 Description: Linux kernel headers for 4.4.143-34-rockchip-g3c9d2019dba7 on arm64
  This package provides kernel header files for 4.4.143-34-rockchip-g3c9d2019dba7 on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.143-39-rockchip-gdaf243b9655a
+Source: linux-4.4.143-39-rockchip-gdaf243b9655a
+Version: 4.4.143-39-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@1349469ebb81>
+Installed-Size: 47165
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.143-39-rockchip-gdaf243b9655a/linux-headers-4.4.143-39-rockchip-gdaf243b9655a_4.4.143-39-rockchip_arm64.deb
+Size: 7148868
+SHA256: 482ecadc9efddced581b2f478611964bed2149f3e87e930a9b551d59c4abf953
+SHA1: c825bef5d61bb33bc15636caf55e178e80379e3b
+MD5sum: 8f51d3d962d022a492dfcc1716c7bf6d
+Description: Linux kernel headers for 4.4.143-39-rockchip-gdaf243b9655a on arm64
+ This package provides kernel header files for 4.4.143-39-rockchip-gdaf243b9655a on arm64
  .
  This is useful for people who need to build external modules
 
@@ -74,6 +111,57 @@ Description: Linux kernel, version 4.4.143-34-rockchip-g3c9d2019dba7
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.143-34-rockchip-g3c9d2019dba7.
 
+Package: linux-image-4.4.143-39-rockchip-gdaf243b9655a
+Source: linux-4.4.143-39-rockchip-gdaf243b9655a
+Version: 4.4.143-39-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@1349469ebb81>
+Installed-Size: 53929
+Suggests: linux-firmware-image-4.4.143-39-rockchip-gdaf243b9655a
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.143-39-rockchip-gdaf243b9655a
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.143-39-rockchip-gdaf243b9655a/linux-image-4.4.143-39-rockchip-gdaf243b9655a_4.4.143-39-rockchip_arm64.deb
+Size: 10175644
+SHA256: 21c599a4138e7650ae44eb55b8dada4a8eca1a5ca32256db74e8da395f5cdadf
+SHA1: 77da6232e0b6b9f083f33b94af93d276fb139f38
+MD5sum: ca66b01e56fd06ca6714d7cb79d2e0f3
+Description: Linux kernel, version 4.4.143-39-rockchip-gdaf243b9655a
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.143-39-rockchip-gdaf243b9655a.
+
+Package: resize-assistant
+Version: 0.2
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Depends: gdisk, parted, init-system-helpers (>= 1.18~)
+Priority: optional
+Section: utils
+Filename: pool/main/r/resize-assistant/resize-assistant_0.2_all.deb
+Size: 1700
+SHA256: 497cf1e3dd1d0e412d947a2ff0ec46aff8a87057d235ace95e81caae989c1290
+SHA1: 93b61c08d1cfef69b46e4492cb26ffacf1875e0e
+MD5sum: 8882c755e14783fefac59c3a0127bc59
+Description: resize-assistant package.
+ This package provides tools used to help resizing root filesystem
+ to fit available disk space.
+
+Package: rockchip-adb
+Version: 0.4
+Maintainer: Radxa <dev@radxa.com>
+Architecture: arm64
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockchip-adb/rockchip-adb_0.4_arm64.deb
+Size: 595656
+SHA256: 17d9c4aa8f34194358e0df71b7382aa344fbe1cbd2c93e750a7c41211d33ebfd
+SHA1: 0bbe3f25cf5bf3248390f8852534732139843db4
+MD5sum: 14deb6dd9b96734841808d6f8f9bc059
+Description: rockchip-adb package.
+
 Package: rockchip-npu
 Version: 0.3
 Maintainer: Radxa <dev@radxa.com>
@@ -87,4 +175,88 @@ SHA256: 365f8567c179792dc30879565439d6e3e1076eaa0e723345eebf0722a09ac1fd
 SHA1: a1ba066a5f5a408ee9a72bcce1c3f8f906f01cc8
 MD5sum: b2900e9863c30015f6dbd61b707662e2
 Description: rockchip-npu package.
+
+Package: rockchip-overlay
+Version: 2.6
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Depends: linux-base, file, bc, sed, coreutils
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_2.6_all.deb
+Size: 4936
+SHA256: 7968346754a24cab9c3c063655746149ea357b13372198d502c938023374e806
+SHA1: d75cc8beef6c1e12d79785dd383f2c40c7cc417b
+MD5sum: 6b7ce2e1ae90affef2d21803ff5df234
+Description: General rockchip overlay package.
+
+Package: rockpis-dtbo
+Version: 4.4
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpis-dtbo/rockpis-dtbo_4.4_all.deb
+Size: 3696
+SHA256: 2aa631908ad3d6ddb6df4d4ae1364a49110af5326a2172a07b6181f7d3a6db0e
+SHA1: 52a4af3aad0456edc8d8874babbf8bd525ea08f7
+MD5sum: faa827228140c491c4b4d909cc425bd9
+Description: ROCK Pi S device tree overlays
+
+Package: rockpis-rk-u-boot-latest
+Version: 2017.09-02378-g6de46245e6
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: rockpis-rk-ubootimg (= 2017.09-02378-g6de46245e6)
+Homepage: https://github.com/radxa/u-boot
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpis-rk-u-boot-latest/rockpis-rk-u-boot-latest_2017.09-02378-g6de46245e6_all.deb
+Size: 1080
+SHA256: a5e91cf5537bef16b763ba912b4a2ea67f1b8153e7d47c6cf342fb484ca86a8a
+SHA1: 6e88e8cb657841a3a76da209d7f4a1dcac1a3cbb
+MD5sum: f0c59d23ffe29f81836bd33ad7d0e8fd
+Description: rockpis u-boot latest version package: depends on rockpis-rk-ubootimg (= 2017.09-02378-g6de46245e6)
+
+Package: rockpis-rk-ubootimg
+Version: 2017.09-02378-g6de46245e6
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 2430
+Depends: debsums, mtd-utils, linux-4.4-rockpis-latest (>= 4.4.143-39-rockchip)
+Homepage: https://github.com/radxa/u-boot
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpis-rk-ubootimg/rockpis-rk-ubootimg_2017.09-02378-g6de46245e6_all.deb
+Size: 627574
+SHA256: a260eea7c6835666a534c702df3b9fc727e0b055847870e969e7c9064ad5557a
+SHA1: 14c02a2d755fac3ea703e2aaf480b28f03f7cdb2
+MD5sum: 94067fcb966f65fa4aaf7cda04b42965
+Description: rockpis u-boot package
+Multi-Arch: foreign
+Replaces: rockpis-rk-ubootimg
+Conflicts: rockpis-rk-ubootimg
+Provides: rockpis-rk-ubootimg
+
+Package: rtl8723ds-firmware
+Version: 0.4
+Maintainer: Radxa <dev@radxa.com>
+Architecture: arm64
+Component: main
+Depends: rfkill, bluez
+Priority: optional
+Section: utils
+Filename: pool/main/r/rtl8723ds-firmware/rtl8723ds-firmware_0.4_arm64.deb
+Size: 50264
+SHA256: d954ac01f51148a2e093cbf5e505a5afb75f8feac6105f0e31a1c979e7746306
+SHA1: bdb1a6665c7a6bd11e1e47172d5636f8b510e412
+MD5sum: fa355d8ceb90ded2dc4cb398c096093e
+Description: General chip rtl8723ds firmware.
 
