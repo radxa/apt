@@ -753,6 +753,23 @@ MD5sum: fc98ac701f8569c07f1ae77ae1247810
 Description: Linux kernel firmware, version 4.4.167-8-rockchip-g1175e66f8e9a
  This package contains firmware from the Linux kernel, version 4.4.167-8-rockchip-g1175e66f8e9a.
 
+Package: linux-firmware-image-4.4.179-10-rockchip-g3963fe056a3f
+Source: linux-4.4.179-10-rockchip-g3963fe056a3f
+Version: 4.4.179-10-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@6d6ae384c04a>
+Installed-Size: 529
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.179-10-rockchip-g3963fe056a3f/linux-firmware-image-4.4.179-10-rockchip-g3963fe056a3f_4.4.179-10-rockchip_arm64.deb
+Size: 175980
+SHA256: 783b809cc3ff3fb656ee15b5fe6f4aaf636775fe78450ce6ae9c145ae78fa372
+SHA1: 2711671bf95a1f267b5d6d061341d2d240f40997
+MD5sum: ccbaf16cf3b8788505b2184a8e474ad9
+Description: Linux kernel firmware, version 4.4.179-10-rockchip-g3963fe056a3f
+ This package contains firmware from the Linux kernel, version 4.4.179-10-rockchip-g3963fe056a3f.
+
 Package: linux-firmware-image-4.4.194-6-rockchip-g1e138221f47e
 Source: linux-4.4.194-6-rockchip-g1e138221f47e
 Version: 4.4.194-6-rockchip
@@ -1721,6 +1738,26 @@ SHA1: c56a59e00aeb12f5aba85fed51c38681d42a6b3c
 MD5sum: d933465f295947a1cb83c4f3eb1c4cb0
 Description: Linux kernel headers for 4.4.167-8-rockchip-g1175e66f8e9a on arm64
  This package provides kernel header files for 4.4.167-8-rockchip-g1175e66f8e9a on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.179-10-rockchip-g3963fe056a3f
+Source: linux-4.4.179-10-rockchip-g3963fe056a3f
+Version: 4.4.179-10-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@6d6ae384c04a>
+Installed-Size: 70318
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.179-10-rockchip-g3963fe056a3f/linux-headers-4.4.179-10-rockchip-g3963fe056a3f_4.4.179-10-rockchip_arm64.deb
+Size: 10198164
+SHA256: f04ee7a746037dd2595d0cce2fc3ce4542cf3269213e5749f124eac0bd8cf31b
+SHA1: d67dde781fa8bbec15366e3872c71df64dcf37a7
+MD5sum: 61b3d239b7b34fea38c236162c31d422
+Description: Linux kernel headers for 4.4.179-10-rockchip-g3963fe056a3f on arm64
+ This package provides kernel header files for 4.4.179-10-rockchip-g3963fe056a3f on arm64
  .
  This is useful for people who need to build external modules
 
@@ -2763,6 +2800,26 @@ MD5sum: 35cc5c262584381ec11263fad90950b6
 Description: Linux kernel, version 4.4.167-8-rockchip-g1175e66f8e9a
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.167-8-rockchip-g1175e66f8e9a.
+
+Package: linux-image-4.4.179-10-rockchip-g3963fe056a3f
+Source: linux-4.4.179-10-rockchip-g3963fe056a3f
+Version: 4.4.179-10-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@6d6ae384c04a>
+Installed-Size: 61303
+Suggests: linux-firmware-image-4.4.179-10-rockchip-g3963fe056a3f
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.179-10-rockchip-g3963fe056a3f
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.179-10-rockchip-g3963fe056a3f/linux-image-4.4.179-10-rockchip-g3963fe056a3f_4.4.179-10-rockchip_arm64.deb
+Size: 14211664
+SHA256: 976eede72a3f37dc5ebc686a09299d8f8d2e3426459f2a90e403db784fa2b50b
+SHA1: e29d9fbd98e9840ed22d34d13babd490b41ccbd8
+MD5sum: d09367c7177c2e7f35dedcfb86de34d2
+Description: Linux kernel, version 4.4.179-10-rockchip-g3963fe056a3f
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.179-10-rockchip-g3963fe056a3f.
 
 Package: linux-image-4.4.179-7-rockchip-g19be7a071810
 Source: linux-4.4.179-7-rockchip-g19be7a071810
