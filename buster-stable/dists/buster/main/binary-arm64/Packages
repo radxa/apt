@@ -1,3 +1,39 @@
+Package: gstreamer1.0-rockchip1-extra
+Source: gstreamer1.0-rockchip-extra
+Version: 20190621-1
+Architecture: arm64
+Maintainer: Jacob Chen <jacob2.chen@rock-chips.com>
+Installed-Size: 121
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.47), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base1.0-0 (>= 1.6.0), libgstreamer1.0-0 (>= 1.8.0), libx11-6
+Homepage: http://www.rock-chips.com/
+Priority: optional
+Section: libs
+Filename: pool/main/g/gstreamer1.0-rockchip-extra/gstreamer1.0-rockchip1-extra_20190621-1_arm64.deb
+Size: 29326
+SHA256: c69217323d595963f472b83e275dd09a698c9730ed874508bf66cec414137f3c
+SHA1: 8a6786e1afb879cdd25fbd607da8a682a9a764cf
+MD5sum: fcc98cf934fc5988a874d0f42b93ca93
+Description: The Extra Gstreamer plugins for Rockchip platform.
+
+Package: gstreamer1.0-rockchip1-extra-dbgsym
+Source: gstreamer1.0-rockchip-extra
+Version: 20190621-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jacob Chen <jacob2.chen@rock-chips.com>
+Installed-Size: 165
+Depends: gstreamer1.0-rockchip1-extra (= 20190621-1)
+Homepage: http://www.rock-chips.com/
+Priority: extra
+Section: debug
+Filename: pool/main/g/gstreamer1.0-rockchip-extra/gstreamer1.0-rockchip1-extra-dbgsym_20190621-1_arm64.deb
+Size: 129412
+SHA256: 7408194d19e99e160633f97a436921068bfa2f879bdd5ec7d12793b10d987950
+SHA1: f7b71b2119e3f89d20b1e0bf52eb1f0102a5ac11
+MD5sum: 4c53f2892a3267c0896b4747409aab4b
+Description: Debug symbols for gstreamer1.0-rockchip1-extra
+Build-Ids: 1f252465e19874631f62a18c520ae4efa5117e9c 4e9760ad4d94651aed6ab63fb4f549b60d9d75c0
+
 Package: linux-4.4-rockpis-latest
 Version: 4.4.143-39-rockchip
 License: GPL-2+
