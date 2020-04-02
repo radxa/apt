@@ -154,21 +154,21 @@ Description: This package will always depend on linux-image and linux-headers an
 Multi-Arch: foreign
 
 Package: linux-4.4-rockpie-latest
-Version: 4.4.194-8-rockchip
+Version: 4.4.194-9-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: arm64
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.4.194-8-rockchip-g2a05ddc265cf, linux-firmware-image-4.4.194-8-rockchip-g2a05ddc265cf, linux-headers-4.4.194-8-rockchip-g2a05ddc265cf
+Depends: linux-image-4.4.194-9-rockchip-ga011203701fe, linux-firmware-image-4.4.194-9-rockchip-ga011203701fe, linux-headers-4.4.194-9-rockchip-ga011203701fe
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.4-rockpie-latest/linux-4.4-rockpie-latest_4.4.194-8-rockchip_arm64.deb
-Size: 1124
-SHA256: e02b817ea86fb9a29505b1ff53873d3e175cc82cead412902b1932753b7deeac
-SHA1: dfcb5519ba10a5eab86ac0cc71992206688f1777
-MD5sum: 3b648a397087f02457c1bd04275db96c
+Filename: pool/main/l/linux-4.4-rockpie-latest/linux-4.4-rockpie-latest_4.4.194-9-rockchip_arm64.deb
+Size: 1120
+SHA256: b93abd526499482d1169511ed020aba2700ad4f5fa0fec8ee88b64b77d8581e1
+SHA1: e1635e95d2c203905a09d8e63a254a9fc120054f
+MD5sum: ddaa2b2ebcf60057d4f7456d2f056993
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 
@@ -923,6 +923,23 @@ SHA1: f49e6788dc1f26044029a8463949e4e8e6870a46
 MD5sum: ddfcc0d14f0770849c54f659c228e28b
 Description: Linux kernel firmware, version 4.4.194-8-rockchip-g2a05ddc265cf
  This package contains firmware from the Linux kernel, version 4.4.194-8-rockchip-g2a05ddc265cf.
+
+Package: linux-firmware-image-4.4.194-9-rockchip-ga011203701fe
+Source: linux-4.4.194-9-rockchip-ga011203701fe
+Version: 4.4.194-9-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@38057c82249c>
+Installed-Size: 529
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.194-9-rockchip-ga011203701fe/linux-firmware-image-4.4.194-9-rockchip-ga011203701fe_4.4.194-9-rockchip_arm64.deb
+Size: 175888
+SHA256: d03e2f9b625725d35a16232aabae5a6eb167cf161328343b2a46a55b93a32013
+SHA1: 1b48fda468966fa78aaefd6c97bcfe85ccab3a87
+MD5sum: 3f740855dbb39cdef13664ac3218874b
+Description: Linux kernel firmware, version 4.4.194-9-rockchip-ga011203701fe
+ This package contains firmware from the Linux kernel, version 4.4.194-9-rockchip-ga011203701fe.
 
 Package: linux-headers-4.4.143-13-rockchip-gea65ae4
 Source: linux-4.4.143-13-rockchip-gea65ae4
@@ -1901,6 +1918,26 @@ SHA1: c0a87dc6d6702d788d3e23617cc74dc725eb4e08
 MD5sum: 61c04bcf8dde8d414c93aa850391059d
 Description: Linux kernel headers for 4.4.194-8-rockchip-g2a05ddc265cf on arm64
  This package provides kernel header files for 4.4.194-8-rockchip-g2a05ddc265cf on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.194-9-rockchip-ga011203701fe
+Source: linux-4.4.194-9-rockchip-ga011203701fe
+Version: 4.4.194-9-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@38057c82249c>
+Installed-Size: 47547
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.194-9-rockchip-ga011203701fe/linux-headers-4.4.194-9-rockchip-ga011203701fe_4.4.194-9-rockchip_arm64.deb
+Size: 7245028
+SHA256: 1ddcc88ccce079d08837d97c894a5d534e6f9b0fd9a1154a4896cd78962469b0
+SHA1: 0fa58990acefb4e0a64dd32852eaede83522b7d6
+MD5sum: 9918f44a53374a58c91cd40c41d4261e
+Description: Linux kernel headers for 4.4.194-9-rockchip-ga011203701fe on arm64
+ This package provides kernel header files for 4.4.194-9-rockchip-ga011203701fe on arm64
  .
  This is useful for people who need to build external modules
 
@@ -2883,6 +2920,26 @@ MD5sum: 1e5af9f40acf4dae9b43e4fcc101decc
 Description: Linux kernel, version 4.4.194-8-rockchip-g2a05ddc265cf
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.194-8-rockchip-g2a05ddc265cf.
+
+Package: linux-image-4.4.194-9-rockchip-ga011203701fe
+Source: linux-4.4.194-9-rockchip-ga011203701fe
+Version: 4.4.194-9-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@38057c82249c>
+Installed-Size: 72193
+Suggests: linux-firmware-image-4.4.194-9-rockchip-ga011203701fe
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.194-9-rockchip-ga011203701fe
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.194-9-rockchip-ga011203701fe/linux-image-4.4.194-9-rockchip-ga011203701fe_4.4.194-9-rockchip_arm64.deb
+Size: 15596608
+SHA256: ba934177b9dbb25af0d82b9b2b3c151b515d3fd898e90478564cd64316858b3a
+SHA1: 15797d786d310ddd3c87cd59f383518185662103
+MD5sum: 300696706e28493480bc5bea62b5d1f3
+Description: Linux kernel, version 4.4.194-9-rockchip-ga011203701fe
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.194-9-rockchip-ga011203701fe.
 
 Package: login-prompt-rockpi4
 Version: 0.1
