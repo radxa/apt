@@ -3127,18 +3127,18 @@ MD5sum: 29fb0ae453d506162ae5bb289f978b58
 Description: ROCK Pi 4 login prompt
 
 Package: realtek-bt-firmware
-Version: 0.1
+Version: 0.2
 Maintainer: Radxa <dev@radxa.com>
 Architecture: all
 Component: main
-Depends: pulseaudio-module-bluetooth, pulseaudio, bluez
+Depends: kmod
 Priority: optional
 Section: utils
-Filename: pool/main/r/realtek-bt-firmware/realtek-bt-firmware_0.1_all.deb
-Size: 46544
-SHA256: 4594bf0c014e6154b12101389c69c5024e59ff98f76c52a9ad582815c8d383d2
-SHA1: bce29729b9b082d099538a64c57b17876e58287e
-MD5sum: 3ef57086dfbac7c421fd438163b47e98
+Filename: pool/main/r/realtek-bt-firmware/realtek-bt-firmware_0.2_all.deb
+Size: 46680
+SHA256: 9745517c0b30220f2cecf817d6172ab0dbaeb30b153f0e10fb76706734b8ce26
+SHA1: 742292ff38d3fbba02bb61c7e2008d17e842dc7c
+MD5sum: 4977e8bb3b3bc516ee1ed27323244133
 Description: Load Realtek Bluetooth Driver and firmware.
 
 Package: resize-assistant
