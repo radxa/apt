@@ -185,17 +185,17 @@ Description: resize-assistant package.
  to fit available disk space.
 
 Package: rockchip-adb
-Version: 0.4
+Version: 0.5
 Maintainer: Radxa <dev@radxa.com>
 Architecture: arm64
 Component: main
 Priority: optional
 Section: utils
-Filename: pool/main/r/rockchip-adb/rockchip-adb_0.4_arm64.deb
-Size: 595656
-SHA256: 17d9c4aa8f34194358e0df71b7382aa344fbe1cbd2c93e750a7c41211d33ebfd
-SHA1: 0bbe3f25cf5bf3248390f8852534732139843db4
-MD5sum: 14deb6dd9b96734841808d6f8f9bc059
+Filename: pool/main/r/rockchip-adb/rockchip-adb_0.5_arm64.deb
+Size: 595952
+SHA256: 9f582d4d2b16f01499dfd87e66e32847e8731f1bffea5ffbd3dfb9e24624f394
+SHA1: 73505ad67780c3818304354252ef6f2266c5bbb0
+MD5sum: 80ce84592eb31603773f5e1681e2842c
 Description: rockchip-adb package.
 
 Package: rockchip-npu
