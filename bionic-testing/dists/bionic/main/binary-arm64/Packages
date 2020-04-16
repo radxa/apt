@@ -135,21 +135,21 @@ MD5sum: 82f4febc6249195079bffe9599ed0b63
 Description: libmraa rockpis
 
 Package: linux-4.4-latest
-Version: 4.4.154-106-rockchip
+Version: 4.4.154-107-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.4.154-106-rockchip-ge9c44d56904f, linux-firmware-image-4.4.154-106-rockchip-ge9c44d56904f, linux-headers-4.4.154-106-rockchip-ge9c44d56904f
+Depends: linux-image-4.4.154-107-rockchip-g30bda5feca56, linux-firmware-image-4.4.154-107-rockchip-g30bda5feca56, linux-headers-4.4.154-107-rockchip-g30bda5feca56
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-106-rockchip_all.deb
-Size: 1108
-SHA256: 86005d581f5d2e382af969619b2cd06bd5b81fe0dc79b50db9965fd773b59020
-SHA1: 9ff6b882d7656ad2f1fabdbfb8fbd23c717ef5d8
-MD5sum: 126c135a451683165605a1d72875b1ee
+Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-107-rockchip_all.deb
+Size: 1110
+SHA256: 482952afb80971311289814e687c54ec0a9852bf06eafc6fc8a6cfd91637212f
+SHA1: 2f62cffd94bc3b441dcf3e4c73f91a83056e6039
+MD5sum: 845ffa394f05f44a8d7c142ecb818a48
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 
@@ -515,6 +515,23 @@ SHA1: d32934e37b3bd6685ed19cd92619ff777723b4e9
 MD5sum: f64d381081b87798d30a2ea52beddf49
 Description: Linux kernel firmware, version 4.4.154-106-rockchip-ge9c44d56904f
  This package contains firmware from the Linux kernel, version 4.4.154-106-rockchip-ge9c44d56904f.
+
+Package: linux-firmware-image-4.4.154-107-rockchip-g30bda5feca56
+Source: linux-4.4.154-107-rockchip-g30bda5feca56
+Version: 4.4.154-107-rockchip
+Architecture: all
+Maintainer: Anonymous <root@20a3c143d20e>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-107-rockchip-g30bda5feca56/linux-firmware-image-4.4.154-107-rockchip-g30bda5feca56_4.4.154-107-rockchip_all.deb
+Size: 186096
+SHA256: d7053ee63e5ed855060458d35a6afce229a33842590f37b7ffe043f888fce572
+SHA1: 6c3bfe3e1c63e9fc5067c5eb72203785fc01194f
+MD5sum: 6c2625ebdfa8a18d03077cf69c571f2b
+Description: Linux kernel firmware, version 4.4.154-107-rockchip-g30bda5feca56
+ This package contains firmware from the Linux kernel, version 4.4.154-107-rockchip-g30bda5feca56.
 
 Package: linux-firmware-image-4.4.154-86-rockchip-00028-gfcfcea3
 Source: linux-4.4.154-86-rockchip-00028-gfcfcea3
@@ -1497,6 +1514,26 @@ SHA1: c79d5c04e6d43b5b29fd86cff57a5bfb8e69ad32
 MD5sum: 3117ad373366a1cb2d86de6781afc0dd
 Description: Linux kernel headers for 4.4.154-106-rockchip-ge9c44d56904f on all
  This package provides kernel header files for 4.4.154-106-rockchip-ge9c44d56904f on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-107-rockchip-g30bda5feca56
+Source: linux-4.4.154-107-rockchip-g30bda5feca56
+Version: 4.4.154-107-rockchip
+Architecture: all
+Maintainer: Anonymous <root@20a3c143d20e>
+Installed-Size: 71015
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-107-rockchip-g30bda5feca56/linux-headers-4.4.154-107-rockchip-g30bda5feca56_4.4.154-107-rockchip_all.deb
+Size: 10193824
+SHA256: 7541fb190945e47edb33361dfd1cfbf81cdac6ac49dda3e63395699c05b7880c
+SHA1: 8f17cf11f05ac086ab4514d5fc53430d348431a0
+MD5sum: 54f59853a0864fb50c7a25d4b7cfae7d
+Description: Linux kernel headers for 4.4.154-107-rockchip-g30bda5feca56 on all
+ This package provides kernel header files for 4.4.154-107-rockchip-g30bda5feca56 on all
  .
  This is useful for people who need to build external modules
 
@@ -2639,6 +2676,26 @@ MD5sum: f5c5241c956a48fb18596f83dac93511
 Description: Linux kernel, version 4.4.154-106-rockchip-ge9c44d56904f
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-106-rockchip-ge9c44d56904f.
+
+Package: linux-image-4.4.154-107-rockchip-g30bda5feca56
+Source: linux-4.4.154-107-rockchip-g30bda5feca56
+Version: 4.4.154-107-rockchip
+Architecture: all
+Maintainer: Anonymous <root@20a3c143d20e>
+Installed-Size: 80456
+Suggests: linux-firmware-image-4.4.154-107-rockchip-g30bda5feca56
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-107-rockchip-g30bda5feca56
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-107-rockchip-g30bda5feca56/linux-image-4.4.154-107-rockchip-g30bda5feca56_4.4.154-107-rockchip_all.deb
+Size: 15163200
+SHA256: 74053c9a94522e84348c4ec384a693c0c0c3feca0646bae7c877559e4ad4299c
+SHA1: 096db9cfea96246f834101ea67ff2326bc6b668e
+MD5sum: af88f40775928d2680181e19a1e17605
+Description: Linux kernel, version 4.4.154-107-rockchip-g30bda5feca56
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-107-rockchip-g30bda5feca56.
 
 Package: linux-image-4.4.154-86-rockchip-00028-gfcfcea3
 Source: linux-4.4.154-86-rockchip-00028-gfcfcea3
