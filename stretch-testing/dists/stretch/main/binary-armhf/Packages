@@ -52,22 +52,6 @@ SHA1: 8869383afe09af1a9759f5ef1842f85a194ee172
 MD5sum: a21a724d267058889296e9361ba36780
 Description: General Broadcom WiFi and Bluetooth chip firmware.
 
-Package: libmraa-rockpi4
-Version: 0.6
-Maintainer: Radxa <dev@radxa.com>
-Architecture: armhf
-Component: main
-Depends: libc6, libjson-c3, libgcc1, libstdc++6,
-    python, libpython2.7, python3.5, libpython3.5
-Priority: optional
-Section: libs
-Filename: pool/main/libm/libmraa-rockpi4/libmraa-rockpi4_0.6_armhf.deb
-Size: 194524
-SHA256: 353c0a47c593844b297843fe2a094566667aa655bb8f6a5df86279718ed3cfeb
-SHA1: 53af4f78b9eb57ce7e4836a0a7584678ff0722b3
-MD5sum: 149e18091e29cd643f06ac5039f6be86
-Description: libmraa rockpi4
-
 Package: linux-4.4-latest
 Version: 4.4.154-107-rockchip
 License: GPL-2+

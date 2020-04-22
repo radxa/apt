@@ -124,20 +124,25 @@ MD5sum: 4c53f2892a3267c0896b4747409aab4b
 Description: Debug symbols for gstreamer1.0-rockchip1-extra
 Build-Ids: 1f252465e19874631f62a18c520ae4efa5117e9c 4e9760ad4d94651aed6ab63fb4f549b60d9d75c0
 
-Package: libmraa-rockpi4
+Package: libmraa
 Version: 0.5
 Maintainer: Radxa <dev@radxa.com>
 Architecture: arm64
 Component: main
-Depends: git, build-essential, swig3.0, python-dev, nodejs-dev, cmake, libjson-c-dev
+Multi-Arch: foreign
+Replaces: libmraa-rockpis, libmraa-rockpi4
+Conflicts: libmraa-rockpis, libmraa-rockpi4
+Provides: libmraa-rockpis, libmraa-rockpi4
+Depends: libc6, libjson-c3, libgcc1, libstdc++6,
+    python, libpython2.7, python3.7, libpython3.7
 Priority: optional
 Section: libs
-Filename: pool/main/libm/libmraa-rockpi4/libmraa-rockpi4_0.5_arm64.deb
-Size: 215720
-SHA256: 088dbaeeab5e6ffb030679772729e0b9f2328d8c7f4ffb94343418fb40ab0fd5
-SHA1: e0846155aed77aadce9bc33c0303f4c345cedb28
-MD5sum: 3a27aa38a201e295db444d8151782e00
-Description: libmraa rockpi4
+Filename: pool/main/libm/libmraa/libmraa_0.5_arm64.deb
+Size: 195772
+SHA256: 9b267b683261c5f4a3c267eff8d5cbd0f1e77ada7e514aa3d631d1a8a3306990
+SHA1: f17035c3ea0527327f4620cd42cb54801e7aae20
+MD5sum: 65f13b3222f7dc1d23b44de339fc18a1
+Description: libmraa
 
 Package: librockchip-mpp-dev
 Source: mpp

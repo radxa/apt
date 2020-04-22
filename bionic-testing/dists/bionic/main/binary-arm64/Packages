@@ -103,40 +103,24 @@ MD5sum: 6d65cf7eb5b66edf96b5951619d6f039
 Description: io tool
 
 Package: libmraa
-Version: 0.4
+Version: 0.5
 Maintainer: Radxa <dev@radxa.com>
 Architecture: arm64
 Component: main
 Multi-Arch: foreign
-Replaces: libmraa-rockpis
-Conflicts: libmraa-rockpis
-Provides: libmraa-rockpis
+Replaces: libmraa-rockpis, libmraa-rockpi4
+Conflicts: libmraa-rockpis, libmraa-rockpi4
+Provides: libmraa-rockpis, libmraa-rockpi4
 Depends: libc6, libjson-c3, libgcc1, libstdc++6,
     python, libpython2.7, python3.7, libpython3.7
 Priority: optional
 Section: libs
-Filename: pool/main/libm/libmraa/libmraa_0.4_arm64.deb
+Filename: pool/main/libm/libmraa/libmraa_0.5_arm64.deb
 Size: 171116
-SHA256: cd28a46533faf0d0c419a63aa6ddcf16ebb9d8e8b87e4199a6b435e6020db0bb
-SHA1: 5dbaf674b4eb1cbd43a3ab2bed160a7d82f7907d
-MD5sum: c14d43c7e05f4459236799250a359068
+SHA256: b65a7039a8bf93eecb9cb4b76ad09c09852b71d32937ad5a3d044829cae13127
+SHA1: b3f691196fd76237da26172ae038d898aa7c3275
+MD5sum: 5dcb6d2387f0f766b008e5fb5beb8c6d
 Description: libmraa
-
-Package: libmraa-rockpi4
-Version: 0.6
-Maintainer: Radxa <dev@radxa.com>
-Architecture: arm64
-Component: main
-Depends: libc6, libjson-c3, libgcc1, libstdc++6,
-    python, libpython2.7, python3.6, libpython3.6
-Priority: optional
-Section: libs
-Filename: pool/main/libm/libmraa-rockpi4/libmraa-rockpi4_0.6_arm64.deb
-Size: 194324
-SHA256: 82167d0e71276cf5d3ccfda9b674630b52da3659759f2e9ea16fbe1aeadab5bd
-SHA1: 5ca606dc6b5439d1c4ca38391164f424cde606e1
-MD5sum: 6c31cb18ffbfa5cf21b4a8a6979a38bc
-Description: libmraa rockpi4
 
 Package: linux-4.4-latest
 Version: 4.4.154-107-rockchip
