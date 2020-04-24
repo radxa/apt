@@ -103,7 +103,7 @@ MD5sum: 6d65cf7eb5b66edf96b5951619d6f039
 Description: io tool
 
 Package: libmraa
-Version: 0.5
+Version: 0.6
 Maintainer: Radxa <dev@radxa.com>
 Architecture: arm64
 Component: main
@@ -115,11 +115,11 @@ Depends: libc6, libjson-c3, libgcc1, libstdc++6,
     python, libpython2.7, python3.7, libpython3.7
 Priority: optional
 Section: libs
-Filename: pool/main/libm/libmraa/libmraa_0.5_arm64.deb
-Size: 171116
-SHA256: b65a7039a8bf93eecb9cb4b76ad09c09852b71d32937ad5a3d044829cae13127
-SHA1: b3f691196fd76237da26172ae038d898aa7c3275
-MD5sum: 5dcb6d2387f0f766b008e5fb5beb8c6d
+Filename: pool/main/libm/libmraa/libmraa_0.6_arm64.deb
+Size: 175384
+SHA256: 34e5f2e31ecd1fb44cffc5dd67b3c9664574d9808c414747bbf21baab84bebbf
+SHA1: 0634e3a466bc1850bbfca1bf2cb7cdacf30a4b7b
+MD5sum: 43c369daa4821f2c0910c3abc1160007
 Description: libmraa
 
 Package: linux-4.4-latest
