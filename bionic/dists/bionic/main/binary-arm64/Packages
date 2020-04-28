@@ -268,6 +268,25 @@ MD5sum: a724780b003124d9b41811cdf93fe0b8
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 
+Package: linux-4.4-rockpie-latest
+Version: 4.4.194-12-rockchip
+License: GPL-2+
+Vendor: Radxa
+Architecture: arm64
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.194-12-rockchip-g615ae7431150, linux-firmware-image-4.4.194-12-rockchip-g615ae7431150, linux-headers-4.4.194-12-rockchip-g615ae7431150
+Homepage: https://github.com/radxa/kernel
+Priority: optional
+Section: admin
+Filename: pool/main/l/linux-4.4-rockpie-latest/linux-4.4-rockpie-latest_4.4.194-12-rockchip_arm64.deb
+Size: 1124
+SHA256: 42ff2ce9633fa487c39d02b3d19d5b655b4feb236d82a1cec2fcb5b4022eb628
+SHA1: 39f99c5423df89ca79de2bb2d5da6dda221e0dc8
+MD5sum: ec0b1e879874c066370c14296b1af6cf
+Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
+Multi-Arch: foreign
+
 Package: linux-4.4-rockpis-latest
 Version: 4.4.143-39-rockchip
 License: GPL-2+
@@ -524,6 +543,23 @@ SHA1: 0b2d1deb50b9123e4469aadafd90dce681f81e85
 MD5sum: c644e798c39dccc0349ce8c57f2ed5dd
 Description: Linux kernel firmware, version 4.4.154-95-rockchip-gd2ab1f26e1b3
  This package contains firmware from the Linux kernel, version 4.4.154-95-rockchip-gd2ab1f26e1b3.
+
+Package: linux-firmware-image-4.4.194-12-rockchip-g615ae7431150
+Source: linux-4.4.194-12-rockchip-g615ae7431150
+Version: 4.4.194-12-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@b76b57a671a2>
+Installed-Size: 529
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.194-12-rockchip-g615ae7431150/linux-firmware-image-4.4.194-12-rockchip-g615ae7431150_4.4.194-12-rockchip_arm64.deb
+Size: 176204
+SHA256: 9ab8d29639b199037d821845b4d29343c08d69b0c717f250ebdb5866c499a7c5
+SHA1: 01af8cd8c0b0c83e52c297a3e28384167a1322ae
+MD5sum: 1bde716c908fe7f6bad5a755f8a92e30
+Description: Linux kernel firmware, version 4.4.194-12-rockchip-g615ae7431150
+ This package contains firmware from the Linux kernel, version 4.4.194-12-rockchip-g615ae7431150.
 
 Package: linux-headers-4.4.143-39-rockchip-gdaf243b9655a
 Source: linux-4.4.143-39-rockchip-gdaf243b9655a
@@ -802,6 +838,26 @@ SHA1: 9d8520d892bdbc0e68e0adf5d11bb52d79a233e0
 MD5sum: 5e37c47540debaeb16bac2eeca2173d8
 Description: Linux kernel headers for 4.4.154-95-rockchip-gd2ab1f26e1b3 on all
  This package provides kernel header files for 4.4.154-95-rockchip-gd2ab1f26e1b3 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.194-12-rockchip-g615ae7431150
+Source: linux-4.4.194-12-rockchip-g615ae7431150
+Version: 4.4.194-12-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@b76b57a671a2>
+Installed-Size: 47558
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.194-12-rockchip-g615ae7431150/linux-headers-4.4.194-12-rockchip-g615ae7431150_4.4.194-12-rockchip_arm64.deb
+Size: 7245824
+SHA256: 05fb20641b499547f50621c9897b9f5099052175cf741a7919d24df61059684b
+SHA1: ecd6d1387f0b453c7414db8e2b30540a94e3a55c
+MD5sum: 032f5d7503f8aa91df434a5f70c310ff
+Description: Linux kernel headers for 4.4.194-12-rockchip-g615ae7431150 on arm64
+ This package provides kernel header files for 4.4.194-12-rockchip-g615ae7431150 on arm64
  .
  This is useful for people who need to build external modules
 
@@ -1084,6 +1140,26 @@ MD5sum: aae6a5635ee2ab0c0acf3387dd20223f
 Description: Linux kernel, version 4.4.154-95-rockchip-gd2ab1f26e1b3
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-95-rockchip-gd2ab1f26e1b3.
+
+Package: linux-image-4.4.194-12-rockchip-g615ae7431150
+Source: linux-4.4.194-12-rockchip-g615ae7431150
+Version: 4.4.194-12-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@b76b57a671a2>
+Installed-Size: 72111
+Suggests: linux-firmware-image-4.4.194-12-rockchip-g615ae7431150
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.194-12-rockchip-g615ae7431150
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.194-12-rockchip-g615ae7431150/linux-image-4.4.194-12-rockchip-g615ae7431150_4.4.194-12-rockchip_arm64.deb
+Size: 15592084
+SHA256: 6c5c4f4669b6b2a78bfffb40c6ca8d4df4f1db6bb53373874a3b48b9d64e7503
+SHA1: 08e1d0710729bfa339fb2be082d97d3ba3db6e93
+MD5sum: b82da5de7f7507dbbf05cf0af8f25362
+Description: Linux kernel, version 4.4.194-12-rockchip-g615ae7431150
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.194-12-rockchip-g615ae7431150.
 
 Package: opencv4.0
 Version: 4.0.1-1
