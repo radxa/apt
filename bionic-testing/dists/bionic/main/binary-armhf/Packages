@@ -53,21 +53,21 @@ MD5sum: eff37b9c299ad9af36e8b8e5a289392f
 Description: General Broadcom WiFi and Bluetooth chip firmware.
 
 Package: linux-4.4-latest
-Version: 4.4.154-107-rockchip
+Version: 4.4.154-108-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.4.154-107-rockchip-g30bda5feca56, linux-firmware-image-4.4.154-107-rockchip-g30bda5feca56, linux-headers-4.4.154-107-rockchip-g30bda5feca56
+Depends: linux-image-4.4.154-108-rockchip-ge9277b7e857a, linux-firmware-image-4.4.154-108-rockchip-ge9277b7e857a, linux-headers-4.4.154-108-rockchip-ge9277b7e857a
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-107-rockchip_all.deb
-Size: 1110
-SHA256: 482952afb80971311289814e687c54ec0a9852bf06eafc6fc8a6cfd91637212f
-SHA1: 2f62cffd94bc3b441dcf3e4c73f91a83056e6039
-MD5sum: 845ffa394f05f44a8d7c142ecb818a48
+Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-108-rockchip_all.deb
+Size: 1106
+SHA256: 3f6a6fae6d6ba135dd9866418ef179e30d2e96d4ae8f7cac693d426c5d6cca4b
+SHA1: 29ee0be1dbd33d60174174d53ac69b21fb29d2b1
+MD5sum: 4abd0d4b6ad4558ca46ecf7d5d8d215a
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 
@@ -208,6 +208,23 @@ SHA1: 6c3bfe3e1c63e9fc5067c5eb72203785fc01194f
 MD5sum: 6c2625ebdfa8a18d03077cf69c571f2b
 Description: Linux kernel firmware, version 4.4.154-107-rockchip-g30bda5feca56
  This package contains firmware from the Linux kernel, version 4.4.154-107-rockchip-g30bda5feca56.
+
+Package: linux-firmware-image-4.4.154-108-rockchip-ge9277b7e857a
+Source: linux-4.4.154-108-rockchip-ge9277b7e857a
+Version: 4.4.154-108-rockchip
+Architecture: all
+Maintainer: Anonymous <root@fdb0103b93af>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-108-rockchip-ge9277b7e857a/linux-firmware-image-4.4.154-108-rockchip-ge9277b7e857a_4.4.154-108-rockchip_all.deb
+Size: 186580
+SHA256: 31a838840df90d581bfdf74265bec28ed1b171721b03695dda261e6eebdfb0c3
+SHA1: 3276260f39b4b0792a62808efd87b60e01f68424
+MD5sum: f858dcdd97e191462500445a58c70d60
+Description: Linux kernel firmware, version 4.4.154-108-rockchip-ge9277b7e857a
+ This package contains firmware from the Linux kernel, version 4.4.154-108-rockchip-ge9277b7e857a.
 
 Package: linux-firmware-image-4.4.154-86-rockchip-00028-gfcfcea3
 Source: linux-4.4.154-86-rockchip-00028-gfcfcea3
@@ -584,6 +601,26 @@ SHA1: 8f17cf11f05ac086ab4514d5fc53430d348431a0
 MD5sum: 54f59853a0864fb50c7a25d4b7cfae7d
 Description: Linux kernel headers for 4.4.154-107-rockchip-g30bda5feca56 on all
  This package provides kernel header files for 4.4.154-107-rockchip-g30bda5feca56 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-108-rockchip-ge9277b7e857a
+Source: linux-4.4.154-108-rockchip-ge9277b7e857a
+Version: 4.4.154-108-rockchip
+Architecture: all
+Maintainer: Anonymous <root@fdb0103b93af>
+Installed-Size: 71015
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-108-rockchip-ge9277b7e857a/linux-headers-4.4.154-108-rockchip-ge9277b7e857a_4.4.154-108-rockchip_all.deb
+Size: 10193696
+SHA256: b63d4281715d558ac0ac9cbc3bd46843e67ec4c2fcbf507752621414300af92a
+SHA1: d3019283ad5f8f0af9b879df593e7c35136f919a
+MD5sum: 59cdf3ddf2bd5bf594f67402880df121
+Description: Linux kernel headers for 4.4.154-108-rockchip-ge9277b7e857a on all
+ This package provides kernel header files for 4.4.154-108-rockchip-ge9277b7e857a on all
  .
  This is useful for people who need to build external modules
 
@@ -1006,6 +1043,26 @@ MD5sum: af88f40775928d2680181e19a1e17605
 Description: Linux kernel, version 4.4.154-107-rockchip-g30bda5feca56
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-107-rockchip-g30bda5feca56.
+
+Package: linux-image-4.4.154-108-rockchip-ge9277b7e857a
+Source: linux-4.4.154-108-rockchip-ge9277b7e857a
+Version: 4.4.154-108-rockchip
+Architecture: all
+Maintainer: Anonymous <root@fdb0103b93af>
+Installed-Size: 80456
+Suggests: linux-firmware-image-4.4.154-108-rockchip-ge9277b7e857a
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-108-rockchip-ge9277b7e857a
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-108-rockchip-ge9277b7e857a/linux-image-4.4.154-108-rockchip-ge9277b7e857a_4.4.154-108-rockchip_all.deb
+Size: 15163320
+SHA256: 39f2014ad92a55c36b44ff2c3ad71de4f97bf81c21ef9b2747187077e9a076de
+SHA1: a877aff3a33446d2b9186cbee389356586d95ed2
+MD5sum: 780c530c3fd8fec0a5cce423c122e2e0
+Description: Linux kernel, version 4.4.154-108-rockchip-ge9277b7e857a
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-108-rockchip-ge9277b7e857a.
 
 Package: linux-image-4.4.154-86-rockchip-00028-gfcfcea3
 Source: linux-4.4.154-86-rockchip-00028-gfcfcea3
