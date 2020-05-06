@@ -1,7 +1,7 @@
 Origin: apt.radxa.com
 Label: apt.radxa.com
 Codename: stretch
-Date: Fri, 24 Apr 2020 06:49:16 UTC
+Date: Wed, 06 May 2020 05:02:59 UTC
 Architectures: armhf arm64
 Components: main
 Description: Apt repository for Radxa products
@@ -9,20 +9,20 @@ MD5Sum:
  74e65eae89cba2a0dcbce46315f33dd8 53159 main/binary-armhf/Packages
  01c84ef3db3dd1b04addea166c7ed672 11286 main/binary-armhf/Packages.gz
  c565b989b8ee8e7795fc8705eff55600 126 main/binary-armhf/Release
- 25a2dd58173c6137c61c05cef4e5c2ed 54518 main/binary-arm64/Packages
- ad3d9d13362917c5a35e21b5fea4fcd0 11692 main/binary-arm64/Packages.gz
+ a38579ade649760fce9606fa19c7cab1 54467 main/binary-arm64/Packages
+ 5cab8286e1ce019c6db676e284a68e94 11690 main/binary-arm64/Packages.gz
  1948d7c313289de2d434bc8958eb4305 126 main/binary-arm64/Release
 SHA1:
  13d42b72283546ea2e630362c87708dbc744d544 53159 main/binary-armhf/Packages
  7565432d43ae29ec07a7c05224872049822865e1 11286 main/binary-armhf/Packages.gz
  23e42ffe5fe8220d4ce8cebe5afa9046010d91e9 126 main/binary-armhf/Release
- 508bf48964477ef4cf912052f38fae4fd3398f19 54518 main/binary-arm64/Packages
- 61525a9f4165b7d3b34778a108e3f398ab9334fd 11692 main/binary-arm64/Packages.gz
+ 60cc71d26a1ec99bacab3a55ddc8e2e793b25a67 54467 main/binary-arm64/Packages
+ 0c5a2e9117da5f60910b695b97931b75ca13eb67 11690 main/binary-arm64/Packages.gz
  af41e6144b1def9a2be005d93fbb7932edd05a3c 126 main/binary-arm64/Release
 SHA256:
  38dbf0fa2b97169cb3888ce96be4c8b83c3cb3149b09197027143e5cdeae9cb5 53159 main/binary-armhf/Packages
  bfd9260690f566298fc76c234470c946ddfd53a36d3138766e495d3b9f72ba79 11286 main/binary-armhf/Packages.gz
  82b7adf84d0ca01b19114872693eb76ee52c66422528a43f813b163a4938b9af 126 main/binary-armhf/Release
- aba11da732b682f473fdec3263657025808979beb88b7fa0435067a7ea374965 54518 main/binary-arm64/Packages
- 5ac96e9bb763db9035d7dfe122c35cf9f0727afcc0dc58d5e59da07d77767738 11692 main/binary-arm64/Packages.gz
+ 7d14d6b541ae64c84deca375d5ddc69e540e0fba8da47acc801fef2d2c82ed64 54467 main/binary-arm64/Packages
+ c7d5cc69d992ded4d559e97a7b9ff844dda66995f33c410188eeab73a2cc198c 11690 main/binary-arm64/Packages.gz
  d75661930a67b30a72b8f44ddbb16f3960a82997c1150e8d92dac8b31b364e40 126 main/binary-arm64/Release
