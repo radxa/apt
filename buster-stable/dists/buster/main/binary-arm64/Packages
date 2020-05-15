@@ -35,7 +35,7 @@ Description: Debug symbols for gstreamer1.0-rockchip1-extra
 Build-Ids: 1f252465e19874631f62a18c520ae4efa5117e9c 4e9760ad4d94651aed6ab63fb4f549b60d9d75c0
 
 Package: libmraa
-Version: 0.7
+Version: 0.8
 Maintainer: Radxa <dev@radxa.com>
 Architecture: arm64
 Component: main
@@ -44,14 +44,14 @@ Replaces: libmraa-rockpis, libmraa-rockpi4
 Conflicts: libmraa-rockpis, libmraa-rockpi4
 Provides: libmraa-rockpis, libmraa-rockpi4
 Depends: libc6, libjson-c3, libgcc1, libstdc++6,
-    python, libpython2.7, python3.7, libpython3.7
+    python2.7, libpython2.7, python3.7, libpython3.7
 Priority: optional
 Section: libs
-Filename: pool/main/libm/libmraa/libmraa_0.7_arm64.deb
-Size: 202080
-SHA256: fcbc80e927ebdfcebf040159159bcdcd0ffac32dedc76508c6876574af98c2bb
-SHA1: 54fd4ecbfd1b2d9d2cc97fbb9e4cf95c4a2541ce
-MD5sum: 2fe5c659e803076dd9276d9554883184
+Filename: pool/main/libm/libmraa/libmraa_0.8_arm64.deb
+Size: 248756
+SHA256: f673455abc19e300096770641ca8c6fdecfc7330dc0ad66b3ff5d45826620aa4
+SHA1: d1acd717363d43f4980514a9f17d5bea73ffcc01
+MD5sum: 4c173022edd7e1e1af3cdcf180892be4
 Description: libmraa
 
 Package: linux-4.4-rockpie-latest
