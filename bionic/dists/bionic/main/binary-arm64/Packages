@@ -1382,6 +1382,20 @@ MD5sum: b331ccc811b79de9f2f6597f78c9961f
 Description: Debug symbols for rockchip-mpp-demos
 Build-Ids: 0aedddd13769fb86517769ea7d5f95a66a21e710 1fbe9dac13528faf55616ca00681122d2b85ce68 310ae17ff9739c13388c24c0e030b82703dacd3f 4039d643869c55090d44f3aa8702d73b46e1fbd7 5de0610e31599fe8ef5776f5863b09dc1f26477f 9f770d99eaf4debb5924934d6518c03659e28e68 a6ca855518c0644f29efeef3252e6e4644550637 ab3da476fcae89be98853456b8a092feab8275f1 cc56a34f6df53e125a2035e7bb936a03b9217166 db111a0f52d41380988ce609bffd550fddd50cd2 f68c6fb512a5a68d6073d59cabf6bbaad2839693
 
+Package: rockchip-npu
+Version: 0.5
+Maintainer: Radxa <dev@radxa.com>
+Architecture: arm64
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockchip-npu/rockchip-npu_0.5_arm64.deb
+Size: 14999860
+SHA256: 20e7fdcdba52ee040add0ccde7d8a8f9bc33ba42067cbe8e0e27976a9fd63f96
+SHA1: 2ca9ccf78c8aa531a77c9dfecab7557a3ab7eea2
+MD5sum: 052f1704dc27741040c537ebe4eeb972
+Description: rockchip-npu package.
+
 Package: rockchip-overlay
 Version: 2.6
 Maintainer: Radxa <dev@radxa.com>
