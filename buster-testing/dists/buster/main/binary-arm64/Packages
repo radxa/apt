@@ -161,21 +161,21 @@ Description: This package will always depend on linux-image and linux-headers an
 Multi-Arch: foreign
 
 Package: linux-4.4-rockpin10-latest
-Version: 4.4.167-13-rockchip
+Version: 4.4.167-14-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: arm64
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.4.167-13-rockchip-g77459ceba0fa, linux-firmware-image-4.4.167-13-rockchip-g77459ceba0fa, linux-headers-4.4.167-13-rockchip-g77459ceba0fa
+Depends: linux-image-4.4.167-14-rockchip-g53bdb2fa44e8, linux-firmware-image-4.4.167-14-rockchip-g53bdb2fa44e8, linux-headers-4.4.167-14-rockchip-g53bdb2fa44e8
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.4-rockpin10-latest/linux-4.4-rockpin10-latest_4.4.167-13-rockchip_arm64.deb
+Filename: pool/main/l/linux-4.4-rockpin10-latest/linux-4.4-rockpin10-latest_4.4.167-14-rockchip_arm64.deb
 Size: 1126
-SHA256: f8af3eb17e9472507977b81a9120eaa1a66b490c8400921e00d0166621aba755
-SHA1: b6de479aeb7f97e2859f727db962cfcb27da5568
-MD5sum: fc487d293ea4a16974191aa42ed6934c
+SHA256: 3d390a0afe247bfe8a9b79a1c6e148ac09eef9877b781c497e456980338751ff
+SHA1: 68c178c495805a9049b7a3a06f41e2f832fda65f
+MD5sum: 7fe157d48ee46102f10ef9faca3ed63f
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 
@@ -911,6 +911,23 @@ SHA1: e79ff6e1ac734addc1c7bec3db9868fae6086900
 MD5sum: 9414d3f1c642187172ce48f2d36505ae
 Description: Linux kernel firmware, version 4.4.167-13-rockchip-g77459ceba0fa
  This package contains firmware from the Linux kernel, version 4.4.167-13-rockchip-g77459ceba0fa.
+
+Package: linux-firmware-image-4.4.167-14-rockchip-g53bdb2fa44e8
+Source: linux-4.4.167-14-rockchip-g53bdb2fa44e8
+Version: 4.4.167-14-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@0b523876c1d3>
+Installed-Size: 523
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.167-14-rockchip-g53bdb2fa44e8/linux-firmware-image-4.4.167-14-rockchip-g53bdb2fa44e8_4.4.167-14-rockchip_arm64.deb
+Size: 174268
+SHA256: 20056919cffe78dc87d400a0e6141e950d555ba759030597becb5129612ed620
+SHA1: 709e774e9d7d426c0362662cc38c4de3796e14ee
+MD5sum: a7a98438f6cb48ad6b16b343fef095c1
+Description: Linux kernel firmware, version 4.4.167-14-rockchip-g53bdb2fa44e8
+ This package contains firmware from the Linux kernel, version 4.4.167-14-rockchip-g53bdb2fa44e8.
 
 Package: linux-firmware-image-4.4.167-3-rockchip-g703afb0b843e
 Source: linux-4.4.167-3-rockchip-g703afb0b843e
@@ -2198,6 +2215,26 @@ SHA1: 6a1bbb72033a51a53f27f3f689b8545e1ec4e0e3
 MD5sum: 997f0e80cad1d615285785089955a407
 Description: Linux kernel headers for 4.4.167-13-rockchip-g77459ceba0fa on arm64
  This package provides kernel header files for 4.4.167-13-rockchip-g77459ceba0fa on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.167-14-rockchip-g53bdb2fa44e8
+Source: linux-4.4.167-14-rockchip-g53bdb2fa44e8
+Version: 4.4.167-14-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@0b523876c1d3>
+Installed-Size: 70161
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.167-14-rockchip-g53bdb2fa44e8/linux-headers-4.4.167-14-rockchip-g53bdb2fa44e8_4.4.167-14-rockchip_arm64.deb
+Size: 10114128
+SHA256: dd055b517309c1de665c9850330076241822623a5891df442430554d14ca67b9
+SHA1: ca16c68af6cd464349a62c7486685864d8594c8d
+MD5sum: df6f22360bf9a39d2d6a9f94f89e7014
+Description: Linux kernel headers for 4.4.167-14-rockchip-g53bdb2fa44e8 on arm64
+ This package provides kernel header files for 4.4.167-14-rockchip-g53bdb2fa44e8 on arm64
  .
  This is useful for people who need to build external modules
 
@@ -3600,6 +3637,26 @@ MD5sum: 0c61f8a81a2f097974b01bd31d7ee0a7
 Description: Linux kernel, version 4.4.167-13-rockchip-g77459ceba0fa
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.167-13-rockchip-g77459ceba0fa.
+
+Package: linux-image-4.4.167-14-rockchip-g53bdb2fa44e8
+Source: linux-4.4.167-14-rockchip-g53bdb2fa44e8
+Version: 4.4.167-14-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@0b523876c1d3>
+Installed-Size: 54823
+Suggests: linux-firmware-image-4.4.167-14-rockchip-g53bdb2fa44e8
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.167-14-rockchip-g53bdb2fa44e8
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.167-14-rockchip-g53bdb2fa44e8/linux-image-4.4.167-14-rockchip-g53bdb2fa44e8_4.4.167-14-rockchip_arm64.deb
+Size: 14771548
+SHA256: 4572a9157370c7cad0205d2fb2d3294acc21d5e0a47552b091192a5b02e6b152
+SHA1: 2c2e526ee46675c90da98bde1cdd1905f7ca495a
+MD5sum: 51a9f2cb0657d394dc2363d8cc937f92
+Description: Linux kernel, version 4.4.167-14-rockchip-g53bdb2fa44e8
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.167-14-rockchip-g53bdb2fa44e8.
 
 Package: linux-image-4.4.167-3-rockchip-g703afb0b843e
 Source: linux-4.4.167-3-rockchip-g703afb0b843e
