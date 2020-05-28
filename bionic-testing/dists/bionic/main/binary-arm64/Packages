@@ -3962,19 +3962,22 @@ MD5sum: c930d63051baa17c5fc880b6427598f8
 Description: 3A libraries match Rockchip rkisp1 driver version 0.1.3.
  The gstreamer plugin rkv4l2src bases on v4l2src, loading 3A when streaming.
 
-Package: rockchip-adb
-Version: 0.5
+Package: rockchip-adbd
+Version: 0.6
 Maintainer: Radxa <dev@radxa.com>
 Architecture: arm64
 Component: main
+Replaces: rockchip-adb
+Conflicts: rockchip-adb
+Provides: rockchip-adbd
 Priority: optional
 Section: utils
-Filename: pool/main/r/rockchip-adb/rockchip-adb_0.5_arm64.deb
-Size: 595952
-SHA256: 9f582d4d2b16f01499dfd87e66e32847e8731f1bffea5ffbd3dfb9e24624f394
-SHA1: 73505ad67780c3818304354252ef6f2266c5bbb0
-MD5sum: 80ce84592eb31603773f5e1681e2842c
-Description: rockchip-adb package.
+Filename: pool/main/r/rockchip-adbd/rockchip-adbd_0.6_arm64.deb
+Size: 596056
+SHA256: 65ae43617749e3f916902de907ca8f836d6935c6708b3e1df59fbcc2062c12b5
+SHA1: 1ba50711c7e7da49698b1d3f4c4cd9ca15bcea3b
+MD5sum: 72c47a8268af985eded32a87d7a1fcc2
+Description: rockchip-adbd package.
 
 Package: rockchip-fstab
 Version: 0.1
