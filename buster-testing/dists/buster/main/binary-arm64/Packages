@@ -180,21 +180,21 @@ Description: This package will always depend on linux-image and linux-headers an
 Multi-Arch: foreign
 
 Package: linux-4.4-rockpis-latest
-Version: 4.4.143-49-rockchip
+Version: 4.4.143-50-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: arm64
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.4.143-49-rockchip-g9512142776c9, linux-firmware-image-4.4.143-49-rockchip-g9512142776c9, linux-headers-4.4.143-49-rockchip-g9512142776c9
+Depends: linux-image-4.4.143-50-rockchip-g9dce04f656d0, linux-firmware-image-4.4.143-50-rockchip-g9dce04f656d0, linux-headers-4.4.143-50-rockchip-g9dce04f656d0
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.4-rockpis-latest/linux-4.4-rockpis-latest_4.4.143-49-rockchip_arm64.deb
+Filename: pool/main/l/linux-4.4-rockpis-latest/linux-4.4-rockpis-latest_4.4.143-50-rockchip_arm64.deb
 Size: 1126
-SHA256: a648c0b2ce961fba997b1527a4c5a255c166b057db8091b4161ec3d26e4bba77
-SHA1: e2b2481f9d03241dd0c5896e97814fb3a5ed0230
-MD5sum: 7f8065c3a18edeb1d3ca49db21548e01
+SHA256: cc4788c79b3eecc6a62afe024ef18f5fee76cfa95c0bd267ad3218b9b172c294
+SHA1: 1ed1f4da5282539a713c9abdb59c07d89117c4c4
+MD5sum: dee4ebea39800d94da0a5b01a87ebb78
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 
@@ -537,6 +537,23 @@ SHA1: e5a43aefe3e85aa7d0501ea5611e3ec6b63ce154
 MD5sum: a0c696938a267c37fbcec64e9ef88ecb
 Description: Linux kernel firmware, version 4.4.143-49-rockchip-g9512142776c9
  This package contains firmware from the Linux kernel, version 4.4.143-49-rockchip-g9512142776c9.
+
+Package: linux-firmware-image-4.4.143-50-rockchip-g9dce04f656d0
+Source: linux-4.4.143-50-rockchip-g9dce04f656d0
+Version: 4.4.143-50-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@f3bcbd78f642>
+Installed-Size: 193
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.143-50-rockchip-g9dce04f656d0/linux-firmware-image-4.4.143-50-rockchip-g9dce04f656d0_4.4.143-50-rockchip_arm64.deb
+Size: 53280
+SHA256: cdf3febf4c246267f467d43ca4a471b4ebd27dacf2c60470a6eab48e3efc10e5
+SHA1: f6f2c33ee095f89eb385313916ba63849b28f1a1
+MD5sum: 8bff81545be4cdcd3377ae7f8e73e0d9
+Description: Linux kernel firmware, version 4.4.143-50-rockchip-g9dce04f656d0
+ This package contains firmware from the Linux kernel, version 4.4.143-50-rockchip-g9dce04f656d0.
 
 Package: linux-firmware-image-4.4.154-100-rockchip-gf7c3df9923c2
 Source: linux-4.4.154-100-rockchip-gf7c3df9923c2
@@ -1775,6 +1792,26 @@ SHA1: 468291e40ff64e65fe57658acc453f1f1abcc44d
 MD5sum: f4dd054a6b6771c22806dc85afaaf7a7
 Description: Linux kernel headers for 4.4.143-49-rockchip-g9512142776c9 on arm64
  This package provides kernel header files for 4.4.143-49-rockchip-g9512142776c9 on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.143-50-rockchip-g9dce04f656d0
+Source: linux-4.4.143-50-rockchip-g9dce04f656d0
+Version: 4.4.143-50-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@f3bcbd78f642>
+Installed-Size: 47261
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.143-50-rockchip-g9dce04f656d0/linux-headers-4.4.143-50-rockchip-g9dce04f656d0_4.4.143-50-rockchip_arm64.deb
+Size: 7158404
+SHA256: 643f358dcc873ec667edfa38383579ac68164657f4bce73970f422421cecf411
+SHA1: 15e87462c2474cb1a4943d86148b258a35b8a8b3
+MD5sum: e7488f3e2fbaf99c7c6836d91f580966
+Description: Linux kernel headers for 4.4.143-50-rockchip-g9dce04f656d0 on arm64
+ This package provides kernel header files for 4.4.143-50-rockchip-g9dce04f656d0 on arm64
  .
  This is useful for people who need to build external modules
 
@@ -3197,6 +3234,26 @@ MD5sum: 99da8e98c67370956c2355df439b8c25
 Description: Linux kernel, version 4.4.143-49-rockchip-g9512142776c9
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.143-49-rockchip-g9512142776c9.
+
+Package: linux-image-4.4.143-50-rockchip-g9dce04f656d0
+Source: linux-4.4.143-50-rockchip-g9dce04f656d0
+Version: 4.4.143-50-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@f3bcbd78f642>
+Installed-Size: 56894
+Suggests: linux-firmware-image-4.4.143-50-rockchip-g9dce04f656d0
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.143-50-rockchip-g9dce04f656d0
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.143-50-rockchip-g9dce04f656d0/linux-image-4.4.143-50-rockchip-g9dce04f656d0_4.4.143-50-rockchip_arm64.deb
+Size: 10647132
+SHA256: 97eb30daba43ce047e5e8d4f0b4d831aa28527416696336259a44f3e3c1d389a
+SHA1: 1ba9d3044af214018f213ca71c5f15095cadac4c
+MD5sum: 68fb5d6e28e79771343374be0cdc9ea5
+Description: Linux kernel, version 4.4.143-50-rockchip-g9dce04f656d0
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.143-50-rockchip-g9dce04f656d0.
 
 Package: linux-image-4.4.154-100-rockchip-gf7c3df9923c2
 Source: linux-4.4.154-100-rockchip-gf7c3df9923c2
