@@ -123,7 +123,7 @@ MD5sum: 4c173022edd7e1e1af3cdcf180892be4
 Description: libmraa
 
 Package: libmraa-rockpie
-Version: 0.1
+Version: 0.2
 Maintainer: Radxa <dev@radxa.com>
 Architecture: arm64
 Component: main
@@ -132,11 +132,11 @@ Depends: libc6, libjson-c3, libgcc1, libstdc++6,
     python2.7, libpython2.7, python3.7, libpython3.7
 Priority: optional
 Section: libs
-Filename: pool/main/libm/libmraa-rockpie/libmraa-rockpie_0.1_arm64.deb
-Size: 185524
-SHA256: 3be676d5cd95d0b4d6b443b7e238cba567d428946d3a971a2606d4a6ea83648e
-SHA1: 1186ca93a7777d4f1c4dd21b17e159fe3f79abc7
-MD5sum: 9d095c645d367265e15282fcbfe24573
+Filename: pool/main/libm/libmraa-rockpie/libmraa-rockpie_0.2_arm64.deb
+Size: 184904
+SHA256: 9921ab353a4b79c8e65b130e73bfc92bf03d182933c28f1ac18705bf553a6251
+SHA1: 416d050d970a46c12bfcf9949314f846faefe3b4
+MD5sum: c2c28c38250ceb28a4b3cba731275bf5
 Description: Provide mraa interface package for C/C++ and python
 
 Package: linux-4.4-latest
