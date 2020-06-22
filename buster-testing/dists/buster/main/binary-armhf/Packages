@@ -53,21 +53,21 @@ MD5sum: eff37b9c299ad9af36e8b8e5a289392f
 Description: General Broadcom WiFi and Bluetooth chip firmware.
 
 Package: linux-4.4-latest
-Version: 4.4.154-109-rockchip
+Version: 4.4.154-110-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.4.154-109-rockchip-gb04eccb4588e, linux-firmware-image-4.4.154-109-rockchip-gb04eccb4588e, linux-headers-4.4.154-109-rockchip-gb04eccb4588e
+Depends: linux-image-4.4.154-110-rockchip-gcef30e88a9f5, linux-firmware-image-4.4.154-110-rockchip-gcef30e88a9f5, linux-headers-4.4.154-110-rockchip-gcef30e88a9f5
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-109-rockchip_all.deb
-Size: 1108
-SHA256: f70784e4d61b4efb80c98059a4e33e80fe7ad609ef4d3f422c4c38639a25b41f
-SHA1: 329669d6005c9bc6b9b5e1f8892f579f33549f95
-MD5sum: a8d0e0d82c88c7ea621bfbef8f2e23ad
+Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-110-rockchip_all.deb
+Size: 1106
+SHA256: fa21e115a3acd68bfed03230fc2652a0b92b52297a012a71a36f4ab51ba05e93
+SHA1: 2de0292b2d968f0de5d874536f55b6ae5c16fc6e
+MD5sum: 38ba55f9224d6fda58dfe429da47c0d2
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 
@@ -242,6 +242,23 @@ SHA1: 98ae2ce1a9dceb7b0234940420455ae6e1a25fa0
 MD5sum: c2008311c5d66b5fc4d4f6de086b13e8
 Description: Linux kernel firmware, version 4.4.154-109-rockchip-gb04eccb4588e
  This package contains firmware from the Linux kernel, version 4.4.154-109-rockchip-gb04eccb4588e.
+
+Package: linux-firmware-image-4.4.154-110-rockchip-gcef30e88a9f5
+Source: linux-4.4.154-110-rockchip-gcef30e88a9f5
+Version: 4.4.154-110-rockchip
+Architecture: all
+Maintainer: Anonymous <root@d8e4dda7dbbf>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-110-rockchip-gcef30e88a9f5/linux-firmware-image-4.4.154-110-rockchip-gcef30e88a9f5_4.4.154-110-rockchip_all.deb
+Size: 186504
+SHA256: a553eee01d8bbbe1aba6ed7d32a25727ff4787215ad9f9e868e38b3a325d8bf5
+SHA1: 9daa33371a40635f2fcf8098eadafc7ce1dc5232
+MD5sum: 657d27116b090bf646679954f62b2823
+Description: Linux kernel firmware, version 4.4.154-110-rockchip-gcef30e88a9f5
+ This package contains firmware from the Linux kernel, version 4.4.154-110-rockchip-gcef30e88a9f5.
 
 Package: linux-firmware-image-4.4.154-91-rockchip-g70838c09a6b6
 Source: linux-4.4.154-91-rockchip-g70838c09a6b6
@@ -573,6 +590,26 @@ SHA1: cd15094d2dc6aa23657a1f90f5c3ced2d87f5865
 MD5sum: 8bcc642c188b209b11fe09908de75be2
 Description: Linux kernel headers for 4.4.154-109-rockchip-gb04eccb4588e on all
  This package provides kernel header files for 4.4.154-109-rockchip-gb04eccb4588e on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-110-rockchip-gcef30e88a9f5
+Source: linux-4.4.154-110-rockchip-gcef30e88a9f5
+Version: 4.4.154-110-rockchip
+Architecture: all
+Maintainer: Anonymous <root@d8e4dda7dbbf>
+Installed-Size: 71015
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-110-rockchip-gcef30e88a9f5/linux-headers-4.4.154-110-rockchip-gcef30e88a9f5_4.4.154-110-rockchip_all.deb
+Size: 10192088
+SHA256: 5318d3b493ddad7fd3ba000c4154c3d7cd9c79f4903c80d02e73a6c64e2d9773
+SHA1: af96af4e76d9f6c09315f254e86c5e2a8ba3f610
+MD5sum: 17d9158b2c994f283ec0ea1e60a2ab63
+Description: Linux kernel headers for 4.4.154-110-rockchip-gcef30e88a9f5 on all
+ This package provides kernel header files for 4.4.154-110-rockchip-gcef30e88a9f5 on all
  .
  This is useful for people who need to build external modules
 
@@ -935,6 +972,26 @@ MD5sum: 4755f62f45b9fd895e6533a693b0bee3
 Description: Linux kernel, version 4.4.154-109-rockchip-gb04eccb4588e
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-109-rockchip-gb04eccb4588e.
+
+Package: linux-image-4.4.154-110-rockchip-gcef30e88a9f5
+Source: linux-4.4.154-110-rockchip-gcef30e88a9f5
+Version: 4.4.154-110-rockchip
+Architecture: all
+Maintainer: Anonymous <root@d8e4dda7dbbf>
+Installed-Size: 79636
+Suggests: linux-firmware-image-4.4.154-110-rockchip-gcef30e88a9f5
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-110-rockchip-gcef30e88a9f5
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-110-rockchip-gcef30e88a9f5/linux-image-4.4.154-110-rockchip-gcef30e88a9f5_4.4.154-110-rockchip_all.deb
+Size: 15122524
+SHA256: c1ad7837cf83e26c89ab630739fd8fc981dc5631ce4aea016aff7500bab1fd4f
+SHA1: 73fe049b69191ec45afa534b7b3b925432128d7e
+MD5sum: e650473c481b33aa4cb4bfbbf1a4b779
+Description: Linux kernel, version 4.4.154-110-rockchip-gcef30e88a9f5
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-110-rockchip-gcef30e88a9f5.
 
 Package: linux-image-4.4.154-91-rockchip-g70838c09a6b6
 Source: linux-4.4.154-91-rockchip-g70838c09a6b6
