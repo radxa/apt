@@ -1,3 +1,79 @@
+Package: linux-4.4-latest
+Version: 4.4.154-110-rockchip
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.154-110-rockchip-gcef30e88a9f5, linux-firmware-image-4.4.154-110-rockchip-gcef30e88a9f5, linux-headers-4.4.154-110-rockchip-gcef30e88a9f5
+Homepage: https://github.com/radxa/kernel
+Priority: optional
+Section: admin
+Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-110-rockchip_all.deb
+Size: 1106
+SHA256: fa21e115a3acd68bfed03230fc2652a0b92b52297a012a71a36f4ab51ba05e93
+SHA1: 2de0292b2d968f0de5d874536f55b6ae5c16fc6e
+MD5sum: 38ba55f9224d6fda58dfe429da47c0d2
+Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
+Multi-Arch: foreign
+
+Package: linux-firmware-image-4.4.154-110-rockchip-gcef30e88a9f5
+Source: linux-4.4.154-110-rockchip-gcef30e88a9f5
+Version: 4.4.154-110-rockchip
+Architecture: all
+Maintainer: Anonymous <root@d8e4dda7dbbf>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-110-rockchip-gcef30e88a9f5/linux-firmware-image-4.4.154-110-rockchip-gcef30e88a9f5_4.4.154-110-rockchip_all.deb
+Size: 186504
+SHA256: a553eee01d8bbbe1aba6ed7d32a25727ff4787215ad9f9e868e38b3a325d8bf5
+SHA1: 9daa33371a40635f2fcf8098eadafc7ce1dc5232
+MD5sum: 657d27116b090bf646679954f62b2823
+Description: Linux kernel firmware, version 4.4.154-110-rockchip-gcef30e88a9f5
+ This package contains firmware from the Linux kernel, version 4.4.154-110-rockchip-gcef30e88a9f5.
+
+Package: linux-headers-4.4.154-110-rockchip-gcef30e88a9f5
+Source: linux-4.4.154-110-rockchip-gcef30e88a9f5
+Version: 4.4.154-110-rockchip
+Architecture: all
+Maintainer: Anonymous <root@d8e4dda7dbbf>
+Installed-Size: 71015
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-110-rockchip-gcef30e88a9f5/linux-headers-4.4.154-110-rockchip-gcef30e88a9f5_4.4.154-110-rockchip_all.deb
+Size: 10192088
+SHA256: 5318d3b493ddad7fd3ba000c4154c3d7cd9c79f4903c80d02e73a6c64e2d9773
+SHA1: af96af4e76d9f6c09315f254e86c5e2a8ba3f610
+MD5sum: 17d9158b2c994f283ec0ea1e60a2ab63
+Description: Linux kernel headers for 4.4.154-110-rockchip-gcef30e88a9f5 on all
+ This package provides kernel header files for 4.4.154-110-rockchip-gcef30e88a9f5 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-4.4.154-110-rockchip-gcef30e88a9f5
+Source: linux-4.4.154-110-rockchip-gcef30e88a9f5
+Version: 4.4.154-110-rockchip
+Architecture: all
+Maintainer: Anonymous <root@d8e4dda7dbbf>
+Installed-Size: 79636
+Suggests: linux-firmware-image-4.4.154-110-rockchip-gcef30e88a9f5
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-110-rockchip-gcef30e88a9f5
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-110-rockchip-gcef30e88a9f5/linux-image-4.4.154-110-rockchip-gcef30e88a9f5_4.4.154-110-rockchip_all.deb
+Size: 15122524
+SHA256: c1ad7837cf83e26c89ab630739fd8fc981dc5631ce4aea016aff7500bab1fd4f
+SHA1: 73fe049b69191ec45afa534b7b3b925432128d7e
+MD5sum: e650473c481b33aa4cb4bfbbf1a4b779
+Description: Linux kernel, version 4.4.154-110-rockchip-gcef30e88a9f5
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-110-rockchip-gcef30e88a9f5.
+
 Package: resize-assistant
 Version: 0.2
 Maintainer: Radxa <dev@radxa.com>
