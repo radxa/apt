@@ -1,7 +1,7 @@
 Origin: apt.radxa.com
 Label: apt.radxa.com
 Codename: bionic
-Date: Wed, 08 Jul 2020 15:09:37 UTC
+Date: Fri, 10 Jul 2020 01:17:39 UTC
 Architectures: armhf arm64
 Components: main
 Description: Apt repository for Radxa products
@@ -9,20 +9,20 @@ MD5Sum:
  7ec8c2f06baa9d96150f54f4813c048d 81199 main/binary-armhf/Packages
  02886bf92487b3b2cded96bad292f243 14802 main/binary-armhf/Packages.gz
  c565b989b8ee8e7795fc8705eff55600 126 main/binary-armhf/Release
- f1c4aa657ea1c1344f599680a2349699 211126 main/binary-arm64/Packages
- 8d14d0474d4992ee88f9ceea0260cffc 40284 main/binary-arm64/Packages.gz
+ 48bd402dd59359056a6fbdecf1beadec 213741 main/binary-arm64/Packages
+ 9c668f82b8c48a1bd0ef8092b0a3580b 40724 main/binary-arm64/Packages.gz
  1948d7c313289de2d434bc8958eb4305 126 main/binary-arm64/Release
 SHA1:
  fb16fdc4a29341468aee06c80d8ce3ad2bdade75 81199 main/binary-armhf/Packages
  17eabf0f83cf6f3aa94b0457766631a982ef58aa 14802 main/binary-armhf/Packages.gz
  23e42ffe5fe8220d4ce8cebe5afa9046010d91e9 126 main/binary-armhf/Release
- c4afdc65907fe81835c026733147cee4d074ead6 211126 main/binary-arm64/Packages
- af547d1409b6a3db79f34581c36b0ab41182db2c 40284 main/binary-arm64/Packages.gz
+ 036e6986df27a8681006b2708b41778e32adfb70 213741 main/binary-arm64/Packages
+ 9519bd6174487468688583cfaac61dc3036a0558 40724 main/binary-arm64/Packages.gz
  af41e6144b1def9a2be005d93fbb7932edd05a3c 126 main/binary-arm64/Release
 SHA256:
  e353778238ea3e916c205bf451c399c02a70450b506b02bfad5e0ecaaaa9b97d 81199 main/binary-armhf/Packages
  456eee797bb4d45e599b0396cdd58bcd0f0d01e1024a8e5c5a54a31ac3bf02c3 14802 main/binary-armhf/Packages.gz
  82b7adf84d0ca01b19114872693eb76ee52c66422528a43f813b163a4938b9af 126 main/binary-armhf/Release
- da40057f1ae9bf8c36f81bbe5ba8541f411bd118c3f5894e128a056288845560 211126 main/binary-arm64/Packages
- e590ea318320bcd0acd17f8dc4dd61a423ef78f6c638767470952f09fb3fde75 40284 main/binary-arm64/Packages.gz
+ 9086b9e183d2a8c14734903e274d5121a657754b1437cb930a117a318b62fd5c 213741 main/binary-arm64/Packages
+ b0a4bc86ce52a709a3cf63e16b0de4ebacaced16204efa0fd1c7388e996471f2 40724 main/binary-arm64/Packages.gz
  d75661930a67b30a72b8f44ddbb16f3960a82997c1150e8d92dac8b31b364e40 126 main/binary-arm64/Release
