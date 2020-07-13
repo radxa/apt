@@ -52,6 +52,42 @@ SHA1: 1e64055dc23401fa134b5c5498f526a1d50e250f
 MD5sum: eff37b9c299ad9af36e8b8e5a289392f
 Description: General Broadcom WiFi and Bluetooth chip firmware.
 
+Package: gstreamer1.0-rockchip1
+Source: gstreamer1.0-rockchip
+Version: 20190415
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 77
+Depends: libc6 (>= 2.17), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base1.0-0 (>= 1.2.0), libgstreamer1.0-0 (>= 1.4.0), librockchip-mpp1
+Homepage: http://www.rock-chips.com/
+Priority: optional
+Section: libs
+Filename: pool/main/g/gstreamer1.0-rockchip/gstreamer1.0-rockchip1_20190415_arm64.deb
+Size: 23326
+SHA256: 4afa04c89d23bbf9a847057d3d8c474a62875bf6565c1c51a99da4aee02fbffe
+SHA1: 00d5451185f6c0824f88543f88c6141c1c2a8a9d
+MD5sum: 2d15f4f17a16e6eb7794cd23a8d79b8a
+Description: The Gstreamer plugins for Rockchip RK3xxx platform.
+
+Package: gstreamer1.0-rockchip1-dbgsym
+Source: gstreamer1.0-rockchip
+Version: 20190415
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 146
+Depends: gstreamer1.0-rockchip1 (= 20190415)
+Homepage: http://www.rock-chips.com/
+Priority: extra
+Section: debug
+Filename: pool/main/g/gstreamer1.0-rockchip/gstreamer1.0-rockchip1-dbgsym_20190415_arm64.deb
+Size: 117524
+SHA256: db54b274be17ca234afb0484b8c639ba4fe5d9417fa15ddfbb8f336f3749c08e
+SHA1: e858f3db713b1671450fdb862d055d792f9c85c9
+MD5sum: 00cf10a8704df99d521b0862700425c7
+Description: Debug symbols for gstreamer1.0-rockchip1
+Build-Ids: 295ad1fd775b3dc913af24b5b9af372f7be9407e
+
 Package: gstreamer1.0-rockchip1-extra
 Source: gstreamer1.0-rockchip-extra
 Version: 20190621-1
