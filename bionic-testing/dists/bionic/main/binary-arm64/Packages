@@ -158,6 +158,111 @@ SHA1: 988691af35e796dc29a7ef6ec05176ac4eb2c656
 MD5sum: f829460962a4ee9f572378041417b8a8
 Description: libmraa
 
+Package: librockchip-mpp-dev
+Source: mpp
+Version: 20190626-1
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 144
+Depends: librockchip-mpp1 (= 20190626-1)
+Homepage: http://www.rock-chips.com
+Priority: optional
+Section: libdevel
+Filename: pool/main/m/mpp/librockchip-mpp-dev_20190626-1_arm64.deb
+Size: 31240
+SHA256: 5288400b5ecc30f7bcba2002272873892cb795fc85c40faae561b9506b8f3f86
+SHA1: 405fc0f8fa75a55d43c1a3a8c2c565ae4090934f
+MD5sum: 7bb7cf66e14729b0f6b80b4ae7130890
+Description: Media Process Platform
+
+Package: librockchip-mpp-static
+Source: mpp
+Version: 20190626-1
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 193
+Homepage: http://www.rock-chips.com
+Priority: optional
+Section: libs
+Filename: pool/main/m/mpp/librockchip-mpp-static_20190626-1_arm64.deb
+Size: 38866
+SHA256: ea7d3cf4d3e112cb68f5201ae15be7f0aec4eae209544966700f8f147554cc42
+SHA1: b876dfc8b006709c1b6262e71a9cc547075304ee
+MD5sum: 25707a525477534532f62f4aba495d1b
+Description: Media Process Platform
+
+Package: librockchip-mpp1
+Source: mpp
+Version: 20190626-1
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 1004
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
+Homepage: http://www.rock-chips.com
+Priority: optional
+Section: libs
+Filename: pool/main/m/mpp/librockchip-mpp1_20190626-1_arm64.deb
+Size: 351688
+SHA256: af8570cae2e86afad777d075dbff7968fd21f24ade3fb67bd96157e7357da2ca
+SHA1: b170de67ee9effaf593defcb59f25c3567b69840
+MD5sum: cc8a11e9b5c139652e70ceffc8a47489
+Description: Media Process Platform
+
+Package: librockchip-mpp1-dbgsym
+Source: mpp
+Version: 20190626-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 1441
+Depends: librockchip-mpp1 (= 20190626-1)
+Homepage: http://www.rock-chips.com
+Priority: extra
+Section: debug
+Filename: pool/main/m/mpp/librockchip-mpp1-dbgsym_20190626-1_arm64.deb
+Size: 1305236
+SHA256: 6b430ea8f1139eb677f7638f036e8e466e3948ee63038b2a458977a678a3f9a9
+SHA1: 590dbbcf99238060d4a93657202f40e59405aa2a
+MD5sum: b84eac25c574abcc73a1e935f677171b
+Description: Debug symbols for librockchip-mpp1
+Build-Ids: 355a14b00fdde4192221ba31cfef9ba2e38a4fd7
+
+Package: librockchip-vpu0
+Source: mpp
+Version: 20190626-1
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 71
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), librockchip-mpp1, libstdc++6 (>= 5)
+Homepage: http://www.rock-chips.com
+Priority: optional
+Section: libs
+Filename: pool/main/m/mpp/librockchip-vpu0_20190626-1_arm64.deb
+Size: 23024
+SHA256: 7eb3fab752e8c7bcd4cefb8d9fab11637d70b4e8adc17674f9fb31e882c94ff8
+SHA1: 44c162eece701088e26443116a33bf02db9ab00e
+MD5sum: 49dd977949aac4bbe55e5bc1f00d5e8b
+Description: Media Process Platform
+
+Package: librockchip-vpu0-dbgsym
+Source: mpp
+Version: 20190626-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 88
+Depends: librockchip-vpu0 (= 20190626-1)
+Homepage: http://www.rock-chips.com
+Priority: extra
+Section: debug
+Filename: pool/main/m/mpp/librockchip-vpu0-dbgsym_20190626-1_arm64.deb
+Size: 65536
+SHA256: effcaad57fd3e1086737264c583a1c502af099d6ebd37b5fb7ac7089e3fdfde6
+SHA1: 695912568fdf274e24dcfa5e444a51bb18aa05dd
+MD5sum: ce45e476a1e90a92fc2cab99b7bf1506
+Description: Debug symbols for librockchip-vpu0
+Build-Ids: 071356d7e864badacee3c2e34f60013489fbec60
+
 Package: linux-4.4-latest
 Version: 4.4.154-111-rockchip
 License: GPL-2+
@@ -4520,6 +4625,42 @@ SHA256: 9a60dbf45d645c823a64cefe1ee503468c25e36746381ada30f60deee3975858
 SHA1: c7a7ea9e3cfc19833c8356a48a313f4731d5aea0
 MD5sum: 18eea149c7d2081f6e140dfd76178866
 Description: The ARM Mali library for Rockchip serial.
+
+Package: rockchip-mpp-demos
+Source: mpp
+Version: 20190626-1
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 332
+Depends: librockchip-mpp1 (= 20190626-1), librockchip-vpu0 (= 20190626-1)
+Homepage: http://www.rock-chips.com
+Priority: optional
+Section: libs
+Filename: pool/main/m/mpp/rockchip-mpp-demos_20190626-1_arm64.deb
+Size: 54260
+SHA256: d8a041f0c6dd09f7d7561efab753622f0ee17841fac66fe28b5b03c0e3dfdb61
+SHA1: 8d9f55631746085333be372c666e670bbafa7f26
+MD5sum: e99964fe93200a68ab1ce2d9ede33d39
+Description: Media Process Platform
+
+Package: rockchip-mpp-demos-dbgsym
+Source: mpp
+Version: 20190626-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 401
+Depends: rockchip-mpp-demos (= 20190626-1)
+Homepage: http://www.rock-chips.com
+Priority: extra
+Section: debug
+Filename: pool/main/m/mpp/rockchip-mpp-demos-dbgsym_20190626-1_arm64.deb
+Size: 283998
+SHA256: 645cbe01740013b1de84aabb9abcfa31f8d20fa35631e481b885729b17c88b12
+SHA1: 8f44b247cc49246ec5ab3bf9c983e92827331b24
+MD5sum: 0c69bf943a770172de053800e62c2e61
+Description: Debug symbols for rockchip-mpp-demos
+Build-Ids: 26523a01203e1b3485099c5d841965ee4e290460 26aa45b1b16ffcd3808d9bfa84dc93b348a0293c 6e21909aeaf7a4f7974f33bebea1e013131e3bd0 8957158faab3203325b18e2ae81c8007a0c55f50 8cc4cd98a48f55a57413229fc02b9a4c718c4ac3 936de2d67cb03afc1ad0c84bb179a83c9effca13 9ba4b8a9377b1a08f78e37d5dbf3218363b8267f a743600e9bc52313c2f3c278bde150ab449f4f28 bec0b2db11cfe6787c80435d17e3b982652a5750 fa9a80a651484b498b58dfd37ecdd175434c55da
 
 Package: rockchip-npu
 Version: 0.5
