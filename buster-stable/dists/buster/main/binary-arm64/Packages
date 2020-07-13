@@ -1,3 +1,79 @@
+Package: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 2208
+Depends: libavcodec57 (>= 7:3.4.1) | libavcodec-extra57 (>= 7:3.4.1), libavdevice57 (>= 7:3.4.1), libavfilter6 (>= 7:3.4.1) | libavfilter-extra6 (>= 7:3.4.1), libavformat57 (>= 7:3.4.1), libavresample3 (>= 7:3.4.1), libavutil55 (>= 7:3.4.1), libc6 (>= 2.17), libpostproc54 (>= 7:3.4.1), libsdl2-2.0-0 (>= 2.0.4), libswresample2 (>= 7:3.4.1), libswscale4 (>= 7:3.4.1)
+Suggests: ffmpeg-doc
+Breaks: libav-tools (<< 6:12~~), qt-faststart (<< 7:2.7.1-3~)
+Replaces: libav-tools (<< 6:12~~), qt-faststart (<< 7:2.7.1-3~)
+Multi-Arch: foreign
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: video
+Filename: pool/main/f/ffmpeg/ffmpeg_3.4.1-1_arm64.deb
+Size: 1597476
+SHA256: 027f93ad1aeb2b361759107aaee03517ee1c69f593dfc2f26b55c4e808b8c5c9
+SHA1: 082b26ada55bfa22ba8af3969822fd93f93fdf9c
+MD5sum: 3586d82c9b77028a59507668687b6c4f
+Description: Tools for transcoding, streaming and playing of multimedia files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This package contains:
+  * ffmpeg: a command line tool to convert multimedia files between formats
+  * ffserver: a multimedia streaming server for live broadcasts
+  * ffplay: a simple media player based on SDL and the FFmpeg libraries
+  * ffprobe: a simple multimedia stream analyzer
+  * qt-faststart: a utility to rearrange Quicktime files
+
+Package: ffmpeg-dbgsym
+Source: ffmpeg
+Version: 7:3.4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 875
+Depends: ffmpeg (= 7:3.4.1-1)
+Homepage: https://ffmpeg.org/
+Priority: extra
+Section: debug
+Filename: pool/main/f/ffmpeg/ffmpeg-dbgsym_3.4.1-1_arm64.deb
+Size: 762716
+SHA256: ac35293542432fec08095de62ffa59f860c2fedba722ca3e191ba1181b87272f
+SHA1: b15720295497ac15bb111df978879b50e084ce5f
+MD5sum: 3ba58e3c67b95a5e7e805f932aa20857
+Description: Debug symbols for ffmpeg
+Build-Ids: 1290945185d92509187f9ef26f2812ea6c73bcc8 2f26577dd3224b9c40c49ad177ff02f4ec3867f3 9fae840677efd646e4bdaba0d10c746bf04b3b58 c7be76dafc3662a49e25728f23cffe2fa4d73e6d fd604d220593695a6cbf645bf5f5a4ac70f0382f
+
+Package: ffmpeg-doc
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 29412
+Depends: libjs-jquery, libjs-bootstrap
+Multi-Arch: foreign
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: doc
+Filename: pool/main/f/ffmpeg/ffmpeg-doc_3.4.1-1_all.deb
+Size: 2051576
+SHA256: bbbf799801dbcd42f7409b3bd0dd8997fd9fc0933e5b24fb0ad8d4658064e27b
+SHA1: d398c800b21b8294dc48f956e14d33c3a6e6f672
+MD5sum: 290ed38ecfb8512993de4d74067dac9c
+Description: Documentation of the FFmpeg multimedia framework
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This package contains the HTML documentation for the FFmpeg multimedia
+ framework including the API documentation created by doxygen and the manpages
+ for the libraries.
+
 Package: gstreamer1.0-rockchip1
 Source: gstreamer1.0-rockchip
 Version: 20190415
@@ -70,6 +146,677 @@ MD5sum: 4c53f2892a3267c0896b4747409aab4b
 Description: Debug symbols for gstreamer1.0-rockchip1-extra
 Build-Ids: 1f252465e19874631f62a18c520ae4efa5117e9c 4e9760ad4d94651aed6ab63fb4f549b60d9d75c0
 
+Package: libav-tools
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 98
+Depends: ffmpeg
+Breaks: libav-tools-links (<< 7:2.7.2-2~)
+Replaces: libav-tools-links (<< 7:2.7.2-2~)
+Multi-Arch: foreign
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/f/ffmpeg/libav-tools_3.4.1-1_all.deb
+Size: 53994
+SHA256: 3da7b4e491baa21a743d8bc349a2299c77cc740b9bb575b05bd149a20833af29
+SHA1: 572f3479ed7b61c64376d21a54ea7d58f4ebbd45
+MD5sum: e8ee3b0d94f21c3d7dac3cd5603170d3
+Description: Compatibility links for libav-tools (transitional package)
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This is a transitional package that provides the following links:
+  * avconv  -> ffmpeg
+  * avplay  -> ffplay
+  * avprobe -> ffprobe
+ This package can be removed, when nothing uses the av* program names anymore.
+
+Package: libavcodec-dev
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 15373
+Depends: libavcodec57 (= 7:3.4.1-1) | libavcodec-extra57 (= 7:3.4.1-1), libavutil-dev (= 7:3.4.1-1), libswresample-dev (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg/libavcodec-dev_3.4.1-1_arm64.deb
+Size: 4516854
+SHA256: 0fd60324a3de96babcee24de5a6e7caa9339572551acadaf407c8c1c425b4597
+SHA1: 08af1db0a7b17be49094fe33be6ac919a83175ab
+MD5sum: b303f34f81d0ea3058c5740dde010138
+Description: FFmpeg library with de/encoders for audio/video codecs - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic encoding/decoding framework and
+ contains multiple decoders and encoders for audio, video and subtitle streams,
+ and several bitstream filters.
+ .
+ The shared architecture provides various services ranging from bit stream I/O
+ to DSP optimizations, and makes it suitable for implementing robust and fast
+ codecs as well as for experimentation.
+ .
+ This package contains the development files.
+
+Package: libavcodec-extra
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 89
+Depends: libavcodec-extra57
+Multi-Arch: foreign
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: metapackages
+Filename: pool/main/f/ffmpeg/libavcodec-extra_3.4.1-1_all.deb
+Size: 53816
+SHA256: 70578cf250a5f38aa00446cedc92fe0f58e4391fdd1e46572dad2dff9b741c08
+SHA1: fbadb392ea8d9be9c78fb0f5879009c1412a75c1
+MD5sum: e2fa8baa5730b1e0c415f1d0ca222739
+Description: FFmpeg library with extra codecs (metapackage)
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This metapackage depends on the latest version of the libavcodec variant
+ that offers additional codec support. Application packages can depend
+ on it if they require or suggest this variant in a robust manner.
+
+Package: libavcodec-extra57
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 10490
+Depends: libavutil55 (>= 7:3.4.1), libc6 (>= 2.17), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.12.0), libgsm1 (>= 1.0.13), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0, libopencore-amrnb0, libopencore-amrwb0, libopenjp2-7 (>= 2.0.0), libopus0 (>= 1.1), librsvg2-2 (>= 2.14.4), libshine3 (>= 3.1.0), libsnappy1v5, libspeex1 (>= 1.2~beta3-1), libswresample2 (>= 7:3.4.1), libtheora0 (>= 1.0), libtwolame0 (>= 0.3.10), libva1 (>= 1.7.3), libvo-amrwbenc0, libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx4 (>= 1.6.0), libwavpack1 (>= 4.40.0), libwebp6 (>= 0.5.1), libwebpmux2 (>= 0.5.1), libx264-148, libx265-95 (>= 2.1), libxvidcore4 (>= 1.2.2), libzvbi0 (>= 0.2.35), zlib1g (>= 1:1.2.0)
+Conflicts: libavcodec57
+Provides: libavcodec-extra
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg/libavcodec-extra57_3.4.1-1_arm64.deb
+Size: 4035684
+SHA256: 02de804f6328f99d6eb79e150f7d3f644eb4c055d8278ea4c0fe23db72c78859
+SHA1: db5505f85fb28f2f0c340643a46c79fe66ba997d
+MD5sum: 89a37bbe7cc0823cd4be89d295709dd6
+Description: FFmpeg library with additional de/encoders for audio/video codecs
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic encoding/decoding framework and
+ contains multiple decoders and encoders for audio, video and subtitle streams,
+ and several bitstream filters.
+ .
+ The shared architecture provides various services ranging from bit stream I/O
+ to DSP optimizations, and makes it suitable for implementing robust and fast
+ codecs as well as for experimentation.
+ .
+ This package replaces the libavcodec57 package and contains the
+ following additional codecs:
+ .
+  * OpenCORE Adaptive Multi-Rate (AMR) Narrow-Band (Encoder/Decoder)
+  * OpenCORE Adaptive Multi-Rate (AMR) Wide-Band (Decoder)
+  * Android VisualOn Adaptive Multi-Rate (AMR) Wide-Band (Encoder)
+ .
+ Because this package links against libraries that are licensed under
+ Apache License 2.0, the resulting binaries are distributed under the
+ GPL version 3 or later.
+
+Package: libavcodec-extra57-dbgsym
+Source: ffmpeg
+Version: 7:3.4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 16030
+Depends: libavcodec-extra57 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: extra
+Section: debug
+Filename: pool/main/f/ffmpeg/libavcodec-extra57-dbgsym_3.4.1-1_arm64.deb
+Size: 14579068
+SHA256: 9fd9746cb0b60d1f8b0378c7e612511144f438777614facbb47293b12798b3aa
+SHA1: c450a5f1480ed7d640b04ef98f4ebedceb19b25c
+MD5sum: c57171a063aeb946be8ced9e61c913ac
+Description: Debug symbols for libavcodec-extra57
+Build-Ids: 05a73abe5ff761697f2ee201d3eba133ab368a5f
+
+Package: libavcodec57
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 10461
+Depends: libavutil55 (>= 7:3.4.1), libc6 (>= 2.17), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.12.0), libgsm1 (>= 1.0.13), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0, libopenjp2-7 (>= 2.0.0), libopus0 (>= 1.1), librsvg2-2 (>= 2.14.4), libshine3 (>= 3.1.0), libsnappy1v5, libspeex1 (>= 1.2~beta3-1), libswresample2 (>= 7:3.4.1), libtheora0 (>= 1.0), libtwolame0 (>= 0.3.10), libva1 (>= 1.7.3), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx4 (>= 1.6.0), libwavpack1 (>= 4.40.0), libwebp6 (>= 0.5.1), libwebpmux2 (>= 0.5.1), libx264-148, libx265-95 (>= 2.1), libxvidcore4 (>= 1.2.2), libzvbi0 (>= 0.2.35), zlib1g (>= 1:1.2.0)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg/libavcodec57_3.4.1-1_arm64.deb
+Size: 4031746
+SHA256: a98eb7a463300fd5391971504af496620cd4069fd346391c09e412f91ce0ff5a
+SHA1: eecb66b7cbcffea9fa1ac10feafa7703ecdea236
+MD5sum: 0348120640f6bd4e19c193e747029bcb
+Description: FFmpeg library with de/encoders for audio/video codecs - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic encoding/decoding framework and
+ contains multiple decoders and encoders for audio, video and subtitle streams,
+ and several bitstream filters.
+ .
+ The shared architecture provides various services ranging from bit stream I/O
+ to DSP optimizations, and makes it suitable for implementing robust and fast
+ codecs as well as for experimentation.
+ .
+ This package contains the runtime files.
+
+Package: libavcodec57-dbgsym
+Source: ffmpeg
+Version: 7:3.4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 16004
+Depends: libavcodec57 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: extra
+Section: debug
+Filename: pool/main/f/ffmpeg/libavcodec57-dbgsym_3.4.1-1_arm64.deb
+Size: 14558312
+SHA256: 8aa43ce7cac0effdd83592403a01dd63bebac7de44e26e45d909ffaf6b14fab2
+SHA1: 445ccbb5c8abbb45e1699467ce8c5cabc0191cc1
+MD5sum: 64f8d481836284c8da6751499f8cb7f2
+Description: Debug symbols for libavcodec57
+Build-Ids: c391b68919a0155fb97c36338721c4c86f18adea
+
+Package: libavdevice-dev
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 440
+Depends: libavcodec-dev (= 7:3.4.1-1), libavdevice57 (= 7:3.4.1-1), libavfilter-dev (= 7:3.4.1-1), libavformat-dev (= 7:3.4.1-1), libavresample-dev (= 7:3.4.1-1), libavutil-dev (= 7:3.4.1-1), libpostproc-dev (= 7:3.4.1-1), libswscale-dev (= 7:3.4.1-1), libswresample-dev (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg/libavdevice-dev_3.4.1-1_arm64.deb
+Size: 122392
+SHA256: 1277b0cce706d16b0ecca03cc147351a16cf5286b6e157d41a7a75fdd18aa182
+SHA1: 12b163901f0a46543b7457849618d7a2ad313d87
+MD5sum: aaf443dc023fff0c06e19d3a6c19c803
+Description: FFmpeg library for handling input and output devices - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic framework for grabbing from and rendering to
+ many common multimedia input/output devices, and supports several input and
+ output devices, including Video4Linux2, VfW, DShow, and ALSA.
+ .
+ This package contains the development files.
+
+Package: libavdevice57
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 273
+Depends: libasound2 (>= 1.0.16), libavc1394-0 (>= 0.5.3), libavcodec57 (>= 7:3.4.1) | libavcodec-extra57 (>= 7:3.4.1), libavfilter6 (>= 7:3.4.1) | libavfilter-extra6 (>= 7:3.4.1), libavformat57 (>= 7:3.4.1), libavutil55 (>= 7:3.4.1), libc6 (>= 2.17), libcaca0 (>= 0.99.beta17-1), libcdio-cdda1 (>= 0.83), libcdio-paranoia1 (>= 0.83), libdc1394-22, libdrm2 (>= 2.4.47), libgl1-mesa-glx | libgl1, libiec61883-0 (>= 1.2.0), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libopenal1 (>= 1.14), libpulse0 (>= 0.99.1), libraw1394-11, libsdl2-2.0-0 (>= 2.0.4), libsndio6.1 (>= 1.1.0), libx11-6, libxcb-shape0, libxcb-shm0, libxcb-xfixes0, libxcb1, libxext6, libxv1
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg/libavdevice57_3.4.1-1_arm64.deb
+Size: 106108
+SHA256: 67af5a6b193348ccb0c0e65a4d1b99e6af1327f588cb53e643ad68cb6d5becc0
+SHA1: 6331f475f9a63c023e972b7e2ba1a4e20819525b
+MD5sum: 2e24159edc60ac3edc38f00f060263b5
+Description: FFmpeg library for handling input and output devices - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic framework for grabbing from and rendering to
+ many common multimedia input/output devices, and supports several input and
+ output devices, including Video4Linux2, VfW, DShow, and ALSA.
+ .
+ This package contains the runtime files.
+
+Package: libavdevice57-dbgsym
+Source: ffmpeg
+Version: 7:3.4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 560
+Depends: libavdevice57 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: extra
+Section: debug
+Filename: pool/main/f/ffmpeg/libavdevice57-dbgsym_3.4.1-1_arm64.deb
+Size: 460222
+SHA256: d90f707a5e6491573295d266c3b95577059b52fbfa51ebca9e883439ed40e50c
+SHA1: 8bc37f8abec34014df5dbd916074587cd43b94ed
+MD5sum: 1b5ec892ab7887018bf77a61774a7186
+Description: Debug symbols for libavdevice57
+Build-Ids: 68f9b2eab16e7581e2cb48849045d161b1a80ae6
+
+Package: libavfilter-dev
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 4117
+Depends: libavcodec-dev (= 7:3.4.1-1), libavfilter6 (= 7:3.4.1-1) | libavfilter-extra6 (= 7:3.4.1-1), libavformat-dev (= 7:3.4.1-1), libavresample-dev (= 7:3.4.1-1), libavutil-dev (= 7:3.4.1-1), libpostproc-dev (= 7:3.4.1-1), libswresample-dev (= 7:3.4.1-1), libswscale-dev (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg/libavfilter-dev_3.4.1-1_arm64.deb
+Size: 907262
+SHA256: fbaf9717a4eed44141fbec770cc9736f85e89133f6780d25c51138e4c1d4ee38
+SHA1: 13413a7d0cd97d997120f2391de24584fd86d6c0
+MD5sum: ec5c6dd284e81fbefbedb39cded4f583
+Description: FFmpeg library containing media filters - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic audio/video filtering framework containing
+ several filters, sources and sinks.
+ .
+ This package contains the development files.
+
+Package: libavfilter-extra
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 89
+Depends: libavfilter-extra6
+Multi-Arch: foreign
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: metapackages
+Filename: pool/main/f/ffmpeg/libavfilter-extra_3.4.1-1_all.deb
+Size: 53804
+SHA256: 20a34c5dc59b3824be507c2625c290973b13059600b65d2815b41870e25b7fa0
+SHA1: 9cdf00a5ce9311fa0ed03c718e04ecf04b8e89f7
+MD5sum: a0c9840371b499bee71e4bc460a82cea
+Description: FFmpeg library with extra filters (metapackage)
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This metapackage depends on the latest version of the libavfilter variant
+ that offers additional filter support. Application packages can depend
+ on it if they require or suggest this variant in a robust manner.
+
+Package: libavfilter-extra6
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 2394
+Depends: libass5 (>= 0.13.0), libavcodec57 (>= 7:3.4.1) | libavcodec-extra57 (>= 7:3.4.1), libavformat57 (>= 7:3.4.1), libavresample3 (>= 7:3.4.1), libavutil55 (>= 7:3.4.1), libbs2b0, libc6 (>= 2.17), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libopencv-core2.4v5, libopencv-imgproc2.4v5, libpostproc54 (>= 7:3.4.1), librubberband2, libswresample2 (>= 7:3.4.1), libswscale4 (>= 7:3.4.1), libtesseract3, libva1 (>= 1.7.3), libzmq5 (>= 3.2.3+dfsg)
+Conflicts: libavfilter6
+Provides: libavfilter-extra
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg/libavfilter-extra6_3.4.1-1_arm64.deb
+Size: 759112
+SHA256: 24d7ff0199f6eea8d3f71577b2283bad2eda0e3ea31de9db6b26d22c9fe6c7cd
+SHA1: e6da139ff554bdbd26d9bcb045802bb8bb1d4aee
+MD5sum: c5b36246dd5a9c7b7e4d8dd46cce6de5
+Description: FFmpeg library with extra media filters - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic audio/video filtering framework containing
+ several filters, sources and sinks.
+ .
+ This package replaces the libavfilter6 package and contains the
+ following additional filters:
+ .
+  * Optical Character Recognition (uses Tesseract)
+  * SOFAlizer (Spatially Oriented Format for Acoustics, uses netcdf)
+ .
+ Because this package links against libraries that are licensed under
+ Apache License 2.0, the resulting binaries are distributed under the
+ GPL version 3 or later.
+
+Package: libavfilter-extra6-dbgsym
+Source: ffmpeg
+Version: 7:3.4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 3030
+Depends: libavfilter-extra6 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: extra
+Section: debug
+Filename: pool/main/f/ffmpeg/libavfilter-extra6-dbgsym_3.4.1-1_arm64.deb
+Size: 2675958
+SHA256: cd3f281a66706ef88f26cf6c16f45646672cc9599472967528b53571fd5361a0
+SHA1: 9cb87a4aa98a2d0cff97603a9458d2aca9b5b281
+MD5sum: 6db4d05e29e4cf86cef74b10b43898bf
+Description: Debug symbols for libavfilter-extra6
+Build-Ids: dbb40a4eadc6b8fdbc0384d8c2bfba30e84e8448
+
+Package: libavfilter6
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 2398
+Depends: libass5 (>= 0.13.0), libavcodec57 (>= 7:3.4.1) | libavcodec-extra57 (>= 7:3.4.1), libavformat57 (>= 7:3.4.1), libavresample3 (>= 7:3.4.1), libavutil55 (>= 7:3.4.1), libbs2b0, libc6 (>= 2.17), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libopencv-core2.4v5, libopencv-imgproc2.4v5, libpostproc54 (>= 7:3.4.1), librubberband2, libswresample2 (>= 7:3.4.1), libswscale4 (>= 7:3.4.1), libva1 (>= 1.7.3), libzmq5 (>= 3.2.3+dfsg)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg/libavfilter6_3.4.1-1_arm64.deb
+Size: 758308
+SHA256: 45b7ba1f08101088f631f4edbce3dd9860deeecec2c5787712caef3e09f8af0e
+SHA1: ecf85f3cee0fb10b9693125df267f3cd36c78090
+MD5sum: e2f7bf61173ec265b44ca92d6b7f61f8
+Description: FFmpeg library containing media filters - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic audio/video filtering framework containing
+ several filters, sources and sinks.
+ .
+ This package contains the runtime files.
+
+Package: libavfilter6-dbgsym
+Source: ffmpeg
+Version: 7:3.4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 3024
+Depends: libavfilter6 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: extra
+Section: debug
+Filename: pool/main/f/ffmpeg/libavfilter6-dbgsym_3.4.1-1_arm64.deb
+Size: 2672792
+SHA256: d3b2ef701f229cbdb481d871e8047b9ada5d4a806198a9db387b62b1e06ac852
+SHA1: 4817617eec4ea96334083b56a85a1a8b21654d49
+MD5sum: f9cb63ac493d013d2f335280658b1568
+Description: Debug symbols for libavfilter6
+Build-Ids: 1759faf885f1d381fa8a646f331a22bb1f023c40
+
+Package: libavformat-dev
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 4840
+Depends: libavcodec-dev (= 7:3.4.1-1), libavformat57 (= 7:3.4.1-1), libavutil-dev (= 7:3.4.1-1), libswresample-dev (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg/libavformat-dev_3.4.1-1_arm64.deb
+Size: 1064382
+SHA256: 68b4afe0f0190aff9445c789390d18ea6a7fe2bdb1a38e9cd6bde8d72940a763
+SHA1: ff1f95e290cc82ca169b833fe97a50a1886a6f4a
+MD5sum: dc206918450091a53e9680c846f15772
+Description: FFmpeg library with (de)muxers for multimedia containers - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic framework for multiplexing and demultiplexing
+ (muxing and demuxing) audio, video and subtitle streams. It encompasses
+ multiple muxers and demuxers for multimedia container formats. It also
+ supports several input and output protocols to access a media resource.
+ .
+ This package contains the development files.
+
+Package: libavformat57
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 2256
+Depends: libavcodec57 (>= 7:3.4.1) | libavcodec-extra57 (>= 7:3.4.1), libavutil55 (>= 7:3.4.1), libbluray1 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.17), libchromaprint1 (>= 1.3.2), libgme0 (>= 0.5.5), libgnutls30 (>= 3.5.6), libopenmpt0 (>= 0.2.7025~beta20.1), libssh-gcrypt-4 (>= 0.4.2), libxml2 (>= 2.7.4), zlib1g (>= 1:1.2.0.2)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg/libavformat57_3.4.1-1_arm64.deb
+Size: 849640
+SHA256: a19988d1d76dd11bdf1d6ba0a3600c2081b8d7e66662d7492fe6888208ca1e6d
+SHA1: c67bb7bfb76a2c645ac9a60206f40117af6b8631
+MD5sum: f050a4ba22a565848f799e47dab4890f
+Description: FFmpeg library with (de)muxers for multimedia containers - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic framework for multiplexing and demultiplexing
+ (muxing and demuxing) audio, video and subtitle streams. It encompasses
+ multiple muxers and demuxers for multimedia container formats. It also
+ supports several input and output protocols to access a media resource.
+ .
+ This package contains the runtime files.
+
+Package: libavformat57-dbgsym
+Source: ffmpeg
+Version: 7:3.4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 6609
+Depends: libavformat57 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: extra
+Section: debug
+Filename: pool/main/f/ffmpeg/libavformat57-dbgsym_3.4.1-1_arm64.deb
+Size: 5679834
+SHA256: ded7aacb392925f8018d442c3844a01af027b453a625252dba898273d278781b
+SHA1: a9042a12c14574891d61ed53b082c5b4309baf3c
+MD5sum: 9b10df03d2f4981d98cffc67cb4f5080
+Description: Debug symbols for libavformat57
+Build-Ids: 1e22f036d586655a390a3caecdcb23b31f6a6497
+
+Package: libavresample-dev
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 247
+Depends: libavutil-dev (= 7:3.4.1-1), libavresample3 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg/libavresample-dev_3.4.1-1_arm64.deb
+Size: 88282
+SHA256: f5662bfad21fd370ee4aee2262b1f4f172770dadb36adfe52e10a0ac306d1717
+SHA1: ddceab99aad40da036add4f5179249cd40a8fa20
+MD5sum: fd3feb7d7d60040161afe36227d96c51
+Description: FFmpeg compatibility library for resampling - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library is provided for compatibility reasons only.
+ The FFmpeg project advises to use libswresample instead.
+ .
+ This package contains the development files.
+
+Package: libavresample3
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 171
+Depends: libavutil55 (>= 7:3.4.1), libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg/libavresample3_3.4.1-1_arm64.deb
+Size: 79082
+SHA256: 5532192d9684fc9cc20ecb057f509af1ae38891a157c862dc86c65225b9b844c
+SHA1: 25bed53a067c67aebb8482cca7def950802dda3f
+MD5sum: 2ff2bb3122df0522f6464b877a923ca0
+Description: FFmpeg compatibility library for resampling - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library is provided for compatibility reasons only.
+ The FFmpeg project advises to use libswresample instead.
+ .
+ This package contains the runtime files.
+
+Package: libavresample3-dbgsym
+Source: ffmpeg
+Version: 7:3.4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 106
+Depends: libavresample3 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: extra
+Section: debug
+Filename: pool/main/f/ffmpeg/libavresample3-dbgsym_3.4.1-1_arm64.deb
+Size: 80170
+SHA256: 9b86f206e1ec81eb44ed0121ff50424bc1d42c74031644bac5f843e259fea08c
+SHA1: 3193e78f98945c4f2813c048b2b5b8f6959bff99
+MD5sum: 5787db2f300c6167a26c89854ef655b5
+Description: Debug symbols for libavresample3
+Build-Ids: 6a85f8f417400d328bc7b4ee4074b255caece742
+
+Package: libavutil-dev
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 1286
+Depends: libavutil55 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg/libavutil-dev_3.4.1-1_arm64.deb
+Size: 317974
+SHA256: 99e58c82291568f004b2503e112b64a6ca9e61bf7c3a1028b87982d53167463d
+SHA1: 057cd0d58cad5d0a5bc0b13f6ac47885bd7bd755
+MD5sum: 9900131034d7a5c7dcd18f889a6eb245
+Description: FFmpeg library with functions for simplifying programming - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library is a utility library to aid portable multimedia programming.
+ It contains safe portable string functions, random number generators, data
+ structures, additional mathematics functions, cryptography and multimedia
+ related functionality (like enumerations for pixel and sample formats).
+ It is not a library for code needed by both libavcodec and libavformat.
+ The goal for this library is to be modular, small, efficient and useful.
+ .
+ This package contains the development files.
+
+Package: libavutil55
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 515
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.3.1), libva-drm1 (>= 1.1.0), libva-x11-1 (>= 1.0.3), libva1 (>= 1.2.0), libvdpau1 (>= 0.2), libx11-6
+Breaks: libavcodec-extra57 (<< 7:3.4), libavcodec57 (<< 7:3.4), libavfilter-extra6 (<< 7:3.4), libavfilter6 (<< 7:3.4)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg/libavutil55_3.4.1-1_arm64.deb
+Size: 208662
+SHA256: 97e3a4199375414fd04a5114f6c499819c1d8ff0a12e4f2a0e5d4a73945e3c89
+SHA1: d13d7d637f1e50142a82facb97ee447b5153c7fd
+MD5sum: ab1f53d2c29fec36c992fc266f6e8918
+Description: FFmpeg library with functions for simplifying programming - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library is a utility library to aid portable multimedia programming.
+ It contains safe portable string functions, random number generators, data
+ structures, additional mathematics functions, cryptography and multimedia
+ related functionality (like enumerations for pixel and sample formats).
+ It is not a library for code needed by both libavcodec and libavformat.
+ The goal for this library is to be modular, small, efficient and useful.
+ .
+ This package contains the runtime files.
+
+Package: libavutil55-dbgsym
+Source: ffmpeg
+Version: 7:3.4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 397
+Depends: libavutil55 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: extra
+Section: debug
+Filename: pool/main/f/ffmpeg/libavutil55-dbgsym_3.4.1-1_arm64.deb
+Size: 348834
+SHA256: 899346c8bdce467071c049dd09dd66769bed48454ba5af70f24ec41936846367
+SHA1: a2085f82c319c040ee5549eb4aa452423c6bd96a
+MD5sum: c2c43185e140c47fd01a14d382b211a8
+Description: Debug symbols for libavutil55
+Build-Ids: 3d57cd2bfa5513d58a88006b3bae27802349dd39
+
 Package: libmraa
 Version: 0.8
 Maintainer: Radxa <dev@radxa.com>
@@ -89,6 +836,78 @@ SHA256: f673455abc19e300096770641ca8c6fdecfc7330dc0ad66b3ff5d45826620aa4
 SHA1: d1acd717363d43f4980514a9f17d5bea73ffcc01
 MD5sum: 4c173022edd7e1e1af3cdcf180892be4
 Description: libmraa
+
+Package: libpostproc-dev
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 149
+Depends: libavutil-dev (= 7:3.4.1-1), libpostproc54 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg/libpostproc-dev_3.4.1-1_arm64.deb
+Size: 73924
+SHA256: ec3f9310601e84fb0dbbebeef0e53dc9c60082a7397f1b0a8263868e2d5aca23
+SHA1: e688bb0ea1971c4620823e3ccc6d86227ec389a9
+MD5sum: 1c4764f450c312a731e97571d8a53bae
+Description: FFmpeg library for post processing - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides video post processing.
+ .
+ This package contains the development files.
+
+Package: libpostproc54
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 143
+Depends: libavutil55 (>= 7:3.4.1), libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg/libpostproc54_3.4.1-1_arm64.deb
+Size: 73268
+SHA256: ffeb5235daa8c73c16edd68d5c003689c735945c8234cb0423ab2a92101a6f95
+SHA1: d51bf4de849c5c7a33c683a97b38211234d19517
+MD5sum: befac95be3fe3d658414b1f4bc50b0e4
+Description: FFmpeg library for post processing - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides video post processing.
+ .
+ This package contains the runtime files.
+
+Package: libpostproc54-dbgsym
+Source: ffmpeg
+Version: 7:3.4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 54
+Depends: libpostproc54 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: extra
+Section: debug
+Filename: pool/main/f/ffmpeg/libpostproc54-dbgsym_3.4.1-1_arm64.deb
+Size: 39388
+SHA256: f7aed563499be7615defe7df8bf6d33cc5de58a7c1132c2dc377cc1eb38106b1
+SHA1: 204da43cc7a1d5a5fd540287850555393b43d620
+MD5sum: 8c336c3bf129eed5b4c1e932afcd42ff
+Description: Debug symbols for libpostproc54
+Build-Ids: 23199da940f96f88eb25b4dd4f902e9afed1dfbf
 
 Package: librockchip-mpp-dev
 Source: mpp
@@ -194,6 +1013,206 @@ SHA1: 695912568fdf274e24dcfa5e444a51bb18aa05dd
 MD5sum: ce45e476a1e90a92fc2cab99b7bf1506
 Description: Debug symbols for librockchip-vpu0
 Build-Ids: 071356d7e864badacee3c2e34f60013489fbec60
+
+Package: libswresample-dev
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 260
+Depends: libavutil-dev (= 7:3.4.1-1), libswresample2 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg/libswresample-dev_3.4.1-1_arm64.deb
+Size: 95174
+SHA256: a097ac4cf780d51d486a1c31c6e2c30635bd9c06d2cc086b72e56181e39ac5ce
+SHA1: 0dc8fc995b146cca1a0c02ee7e6bdbdfa52ad9d2
+MD5sum: 4095b8c0e9b3ac36d44b768dd6e61275
+Description: FFmpeg library for audio resampling, rematrixing etc. - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides performs highly optimized audio resampling, rematrixing
+ and sample format conversion operations.
+ Specifically, this library performs the following conversions:
+  * Resampling is the process of changing the audio rate, for example from a
+    high sample rate of 44100Hz to 8000Hz. Audio conversion from high to low
+    sample rate is a lossy process. Several resampling options and algorithms
+    are available.
+  * Rematrixing is the process of changing the channel layout, for example from
+    stereo to mono. When the input channels cannot be mapped to the output
+    streams, the process is lossy, since it involves different gain factors
+    and mixing. Various other audio conversions (e.g. stretching and padding)
+    are enabled through dedicated options.
+  * Format conversion is the process of converting the type of samples, for
+    example from 16-bit signed samples to unsigned 8-bit or float samples.
+    It also handles packing conversion, when passing from packed layout (all
+    samples belonging to distinct channels interleaved in the same buffer), to
+    planar layout (all samples belonging to the same channel stored in a
+    dedicated buffer or "plane").
+ .
+ This package contains the development files.
+
+Package: libswresample2
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 183
+Depends: libavutil55 (>= 7:3.4.1), libc6 (>= 2.17), libsoxr0 (>= 0.1.0)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg/libswresample2_3.4.1-1_arm64.deb
+Size: 84702
+SHA256: 2fa30231dc9cb2d5966f5b85b0dc92b229c2ea7bf2fc8e9bc5bf389111fbf3a5
+SHA1: deae15e4e64db790b3eadee7401f36dc3fc23aa2
+MD5sum: 70d14b704ef5f079cd9768e439c1e6f6
+Description: FFmpeg library for audio resampling, rematrixing etc. - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides performs highly optimized audio resampling, rematrixing
+ and sample format conversion operations.
+ Specifically, this library performs the following conversions:
+  * Resampling is the process of changing the audio rate, for example from a
+    high sample rate of 44100Hz to 8000Hz. Audio conversion from high to low
+    sample rate is a lossy process. Several resampling options and algorithms
+    are available.
+  * Rematrixing is the process of changing the channel layout, for example from
+    stereo to mono. When the input channels cannot be mapped to the output
+    streams, the process is lossy, since it involves different gain factors
+    and mixing. Various other audio conversions (e.g. stretching and padding)
+    are enabled through dedicated options.
+  * Format conversion is the process of converting the type of samples, for
+    example from 16-bit signed samples to unsigned 8-bit or float samples.
+    It also handles packing conversion, when passing from packed layout (all
+    samples belonging to distinct channels interleaved in the same buffer), to
+    planar layout (all samples belonging to the same channel stored in a
+    dedicated buffer or "plane").
+ .
+ This package contains the runtime files.
+
+Package: libswresample2-dbgsym
+Source: ffmpeg
+Version: 7:3.4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 113
+Depends: libswresample2 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: extra
+Section: debug
+Filename: pool/main/f/ffmpeg/libswresample2-dbgsym_3.4.1-1_arm64.deb
+Size: 87452
+SHA256: ea0ec6a6336bd451054b76618218bb630612d6031b89d09d9d2f509d95f68fb1
+SHA1: 1bc36363aade853402f5d29b8e4f51abad78820e
+MD5sum: 2e1a1351fc64d3f7e0da675d23ffdf20
+Description: Debug symbols for libswresample2
+Build-Ids: 29939d6c20eb8e470ab5adae2fa1cae00d30aabd
+
+Package: libswscale-dev
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 689
+Depends: libavutil-dev (= 7:3.4.1-1), libswscale4 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg/libswscale-dev_3.4.1-1_arm64.deb
+Size: 170902
+SHA256: 2c51968ba270c7b0e12bca17c05ca2bc4c9fc25069d312cf5a2ac08fc8df6159
+SHA1: 89ced730ee0ec2044be65445a5a93c01ffa8b500
+MD5sum: 52f21bc89c62eca36ec8e7fda7aa100e
+Description: FFmpeg library for image scaling and various conversions - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library performs highly optimized image scaling and colorspace and pixel
+ format conversion operations.
+ Specifically, this library performs the following conversions:
+  * Rescaling is the process of changing the video size. Several rescaling
+    options and algorithms are available. This is usually a lossy process.
+  * Pixel format conversion is the process of converting the image format and
+    colorspace of the image, for example from planar YUV420P to RGB24 packed.
+    It also handles packing conversion, that is converts from packed layout
+    (all pixels belonging to distinct planes interleaved in the same buffer),
+    to planar layout (all samples belonging to the same plane stored in a
+    dedicated buffer or "plane"). This is usually a lossy process in case the
+    source and destination colorspaces differ.
+ .
+ This package contains the development files.
+
+Package: libswscale4
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 463
+Depends: libavutil55 (>= 7:3.4.1), libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg/libswscale4_3.4.1-1_arm64.deb
+Size: 153218
+SHA256: 4ffc92c62fe9eae1c81b582950b65a79b36911e5994d41dbac9c18d591ae3237
+SHA1: 60e68d602d6f72a7923f27a18fc6849415259842
+MD5sum: d152871d1228b928fe530183fdc62a7f
+Description: FFmpeg library for image scaling and various conversions - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library performs highly optimized image scaling and colorspace and pixel
+ format conversion operations.
+ Specifically, this library performs the following conversions:
+  * Rescaling is the process of changing the video size. Several rescaling
+    options and algorithms are available. This is usually a lossy process.
+  * Pixel format conversion is the process of converting the image format and
+    colorspace of the image, for example from planar YUV420P to RGB24 packed.
+    It also handles packing conversion, that is converts from packed layout
+    (all pixels belonging to distinct planes interleaved in the same buffer),
+    to planar layout (all samples belonging to the same plane stored in a
+    dedicated buffer or "plane"). This is usually a lossy process in case the
+    source and destination colorspaces differ.
+ .
+ This package contains the runtime files.
+
+Package: libswscale4-dbgsym
+Source: ffmpeg
+Version: 7:3.4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 551
+Depends: libswscale4 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: extra
+Section: debug
+Filename: pool/main/f/ffmpeg/libswscale4-dbgsym_3.4.1-1_arm64.deb
+Size: 505494
+SHA256: dbf7811b1baa3372ca2434e795628032604fa3d312f7c62f3c90d28a0c99be42
+SHA1: 22f46ae6467e5ded9d88bd6fa0a0e370947dc207
+MD5sum: 4f4cce2e23a5ba2197442215a9f13879
+Description: Debug symbols for libswscale4
+Build-Ids: 5b081569d6ce572f2b1791c63260cb6140aaf8e1
 
 Package: linux-4.4-latest
 Version: 4.4.154-110-rockchip

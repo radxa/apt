@@ -52,6 +52,32 @@ SHA1: aeeeae6e60136068abe945dc3e4d446e1da95e59
 MD5sum: e6b43d8d6a6399cd8845eba721dd3890
 Description: General Broadcom WiFi and Bluetooth chip firmware.
 
+Package: ffmpeg-doc
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 29412
+Depends: libjs-jquery, libjs-bootstrap
+Multi-Arch: foreign
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: doc
+Filename: pool/main/f/ffmpeg/ffmpeg-doc_3.4.1-1_all.deb
+Size: 2051576
+SHA256: bbbf799801dbcd42f7409b3bd0dd8997fd9fc0933e5b24fb0ad8d4658064e27b
+SHA1: d398c800b21b8294dc48f956e14d33c3a6e6f672
+MD5sum: 290ed38ecfb8512993de4d74067dac9c
+Description: Documentation of the FFmpeg multimedia framework
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This package contains the HTML documentation for the FFmpeg multimedia
+ framework including the API documentation created by doxygen and the manpages
+ for the libraries.
+
 Package: gstreamer1.0-rockchip1
 Source: gstreamer1.0-rockchip
 Version: 20171218-1
@@ -123,6 +149,88 @@ SHA1: 92a307958041f689bc143019887b980c8a2ee163
 MD5sum: b267ba15a658b081494a8e81506c564d
 Description: Debug symbols for gstreamer1.0-rockchip1-extra
 Build-Ids: 4c1ef79d6639a8d6d34114b31ced2ce8b75edd96 70110a0b2c9a9e2210c7b75f73b1e35158f26c7f 96981c3105689e943fe628fef46b43aefa377cac fe085bc6d127626cdb229ae61cec79dbdc0552a6
+
+Package: libav-tools
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 98
+Depends: ffmpeg
+Breaks: libav-tools-links (<< 7:2.7.2-2~)
+Replaces: libav-tools-links (<< 7:2.7.2-2~)
+Multi-Arch: foreign
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/f/ffmpeg/libav-tools_3.4.1-1_all.deb
+Size: 53994
+SHA256: 3da7b4e491baa21a743d8bc349a2299c77cc740b9bb575b05bd149a20833af29
+SHA1: 572f3479ed7b61c64376d21a54ea7d58f4ebbd45
+MD5sum: e8ee3b0d94f21c3d7dac3cd5603170d3
+Description: Compatibility links for libav-tools (transitional package)
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This is a transitional package that provides the following links:
+  * avconv  -> ffmpeg
+  * avplay  -> ffplay
+  * avprobe -> ffprobe
+ This package can be removed, when nothing uses the av* program names anymore.
+
+Package: libavcodec-extra
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 89
+Depends: libavcodec-extra57
+Multi-Arch: foreign
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: metapackages
+Filename: pool/main/f/ffmpeg/libavcodec-extra_3.4.1-1_all.deb
+Size: 53816
+SHA256: 70578cf250a5f38aa00446cedc92fe0f58e4391fdd1e46572dad2dff9b741c08
+SHA1: fbadb392ea8d9be9c78fb0f5879009c1412a75c1
+MD5sum: e2fa8baa5730b1e0c415f1d0ca222739
+Description: FFmpeg library with extra codecs (metapackage)
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This metapackage depends on the latest version of the libavcodec variant
+ that offers additional codec support. Application packages can depend
+ on it if they require or suggest this variant in a robust manner.
+
+Package: libavfilter-extra
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 89
+Depends: libavfilter-extra6
+Multi-Arch: foreign
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: metapackages
+Filename: pool/main/f/ffmpeg/libavfilter-extra_3.4.1-1_all.deb
+Size: 53804
+SHA256: 20a34c5dc59b3824be507c2625c290973b13059600b65d2815b41870e25b7fa0
+SHA1: 9cdf00a5ce9311fa0ed03c718e04ecf04b8e89f7
+MD5sum: a0c9840371b499bee71e4bc460a82cea
+Description: FFmpeg library with extra filters (metapackage)
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This metapackage depends on the latest version of the libavfilter variant
+ that offers additional filter support. Application packages can depend
+ on it if they require or suggest this variant in a robust manner.
 
 Package: librockchip-mpp-dev
 Source: mpp
