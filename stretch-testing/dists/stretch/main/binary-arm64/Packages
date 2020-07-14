@@ -885,6 +885,79 @@ MD5sum: c2c43185e140c47fd01a14d382b211a8
 Description: Debug symbols for libavutil55
 Build-Ids: 3d57cd2bfa5513d58a88006b3bae27802349dd39
 
+Package: libdrm-dev
+Source: libdrm
+Version: 2.4.68-2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 837
+Depends: libdrm2 (= 2.4.68-2), libdrm-rockchip1 (= 2.4.68-2)
+Multi-Arch: same
+Homepage: http://cgit.freedesktop.org/mesa/drm/
+Priority: optional
+Section: libdevel
+Filename: pool/main/libd/libdrm/libdrm-dev_2.4.68-2_arm64.deb
+Size: 180464
+SHA256: 61e9024fea67bfc812babaa240e907f2f96fe9b9a91db1e7422cdab89bfb3b26
+SHA1: 1c15e90a691224eb0e303c27676791d7d9b69862
+MD5sum: 13ef082de70164cc69d901ab5356361c
+Description: Userspace interface to kernel DRM services -- development files
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+ .
+ This package provides the development environment for libdrm.
+
+Package: libdrm-rockchip1
+Source: libdrm
+Version: 2.4.68-2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 52
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.3)
+Multi-Arch: same
+Homepage: http://cgit.freedesktop.org/mesa/drm/
+Priority: optional
+Section: libs
+Filename: pool/main/libd/libdrm/libdrm-rockchip1_2.4.68-2_arm64.deb
+Size: 16766
+SHA256: 5ac10e52e395d4c93579c1706835eb0e8179cd13be0be8061a7ea7704a2a597e
+SHA1: 23971af667a9b4e194c959ef7ebd04fc3ccc604e
+MD5sum: e870867423111513eacd6bc59fca4c0d
+Description: Userspace interface to msm/kgsl kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+
+Package: libdrm2
+Source: libdrm
+Version: 2.4.68-2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 101
+Depends: libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: http://cgit.freedesktop.org/mesa/drm/
+Priority: optional
+Section: libs
+Filename: pool/main/libd/libdrm/libdrm2_2.4.68-2_arm64.deb
+Size: 31734
+SHA256: 4473872086a720c3a10d9d584ed7ef3b86e394f42354d8e6f9dcac067ee6d8fd
+SHA1: c0a34cc0ef4b051129f8183b57e058e839aac46c
+MD5sum: c45c1369770ddab8deca36f8b233c8ce
+Description: Userspace interface to kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+ .
+ This package provides the runtime environment for libdrm.
+
 Package: libmraa
 Version: 0.7
 Maintainer: Radxa <dev@radxa.com>
