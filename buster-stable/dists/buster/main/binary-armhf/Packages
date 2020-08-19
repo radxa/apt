@@ -24,6 +24,29 @@ Description: Documentation of the FFmpeg multimedia framework
  framework including the API documentation created by doxygen and the manpages
  for the libraries.
 
+Package: htop
+Version: 2.2.2-2
+Architecture: armhf
+Maintainer: Daniel Lange <DLange@debian.org>
+Installed-Size: 151
+Depends: libc6 (>= 2.28), libncursesw6 (>= 6), libtinfo6 (>= 6)
+Suggests: lsof, strace
+Homepage: https://hisham.hm/htop/
+Priority: optional
+Section: utils
+Filename: pool/main/h/htop/htop_2.2.2-2_armhf.deb
+Size: 76664
+SHA256: 9d483a53ec00345ea43086bb34f5acb34469e4229aaa4ddcd6d89ef206c0c9ea
+SHA1: 3c9cc127443bd6bc63136043fa4e5a448bd87f7d
+MD5sum: ba598f2b633230c81822feee82f63dd4
+Description: interactive processes viewer
+ Htop is an ncursed-based process viewer similar to top, but it
+ allows one to scroll the list vertically and horizontally to see
+ all processes and their full command lines.
+ .
+ Tasks related to processes (killing, renicing) can be done without
+ entering their PIDs.
+
 Package: libav-tools
 Source: ffmpeg
 Version: 7:3.4.1-1

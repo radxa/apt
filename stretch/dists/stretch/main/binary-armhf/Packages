@@ -150,6 +150,29 @@ MD5sum: b267ba15a658b081494a8e81506c564d
 Description: Debug symbols for gstreamer1.0-rockchip1-extra
 Build-Ids: 4c1ef79d6639a8d6d34114b31ced2ce8b75edd96 70110a0b2c9a9e2210c7b75f73b1e35158f26c7f 96981c3105689e943fe628fef46b43aefa377cac fe085bc6d127626cdb229ae61cec79dbdc0552a6
 
+Package: htop
+Version: 2.2.2-2
+Architecture: armhf
+Maintainer: Daniel Lange <DLange@debian.org>
+Installed-Size: 151
+Depends: libc6 (>= 2.28), libncursesw6 (>= 6), libtinfo6 (>= 6)
+Suggests: lsof, strace
+Homepage: https://hisham.hm/htop/
+Priority: optional
+Section: utils
+Filename: pool/main/h/htop/htop_2.2.2-2_armhf.deb
+Size: 76664
+SHA256: 9d483a53ec00345ea43086bb34f5acb34469e4229aaa4ddcd6d89ef206c0c9ea
+SHA1: 3c9cc127443bd6bc63136043fa4e5a448bd87f7d
+MD5sum: ba598f2b633230c81822feee82f63dd4
+Description: interactive processes viewer
+ Htop is an ncursed-based process viewer similar to top, but it
+ allows one to scroll the list vertically and horizontally to see
+ all processes and their full command lines.
+ .
+ Tasks related to processes (killing, renicing) can be done without
+ entering their PIDs.
+
 Package: libav-tools
 Source: ffmpeg
 Version: 7:3.4.1-1
