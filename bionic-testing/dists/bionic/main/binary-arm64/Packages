@@ -200,29 +200,6 @@ MD5sum: 4c53f2892a3267c0896b4747409aab4b
 Description: Debug symbols for gstreamer1.0-rockchip1-extra
 Build-Ids: 1f252465e19874631f62a18c520ae4efa5117e9c 4e9760ad4d94651aed6ab63fb4f549b60d9d75c0
 
-Package: htop
-Version: 2.2.2-4
-Architecture: arm64
-Maintainer: Daniel Lange <DLange@debian.org>
-Installed-Size: 247
-Depends: libc6 (>= 2.17), libncursesw6 (>= 6), libtinfo6 (>= 6)
-Suggests: lsof, strace
-Homepage: https://hisham.hm/htop/
-Priority: optional
-Section: utils
-Filename: pool/main/h/htop/htop_2.2.2-4_arm64.deb
-Size: 88896
-SHA256: a1a60a367a26d9cd4cc3352ef1915cb0179d9d1865a1725d2e3f9e1bdb5238f9
-SHA1: d8692b164bf4778c7f0633667d07e013c5b3a189
-MD5sum: a71ac7d2a217b5efbc6df0f839fe3c1b
-Description: interactive processes viewer
- Htop is an ncursed-based process viewer similar to top, but it
- allows one to scroll the list vertically and horizontally to see
- all processes and their full command lines.
- .
- Tasks related to processes (killing, renicing) can be done without
- entering their PIDs.
-
 Package: io
 Version: 0.1
 Maintainer: Radxa <dev@radxa.com>
