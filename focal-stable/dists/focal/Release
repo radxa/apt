@@ -1,0 +1,28 @@
+Origin: apt.radxa.com
+Label: apt.radxa.com
+Codename: focal
+Date: Sat, 05 Sep 2020 06:02:53 UTC
+Architectures: armhf arm64
+Components: main
+Description: Apt repository for Radxa products
+MD5Sum:
+ 26c4b4a49361432fdf459fcbde5212a6 805 main/binary-armhf/Packages
+ 851ba5fe143ca8905153b723ac5d2da6 546 main/binary-armhf/Packages.gz
+ c565b989b8ee8e7795fc8705eff55600 126 main/binary-armhf/Release
+ 58f1655741734f3ef62ae6b89d2ea533 805 main/binary-arm64/Packages
+ 0582b7d58dea45b203750ac6b710f91c 549 main/binary-arm64/Packages.gz
+ 1948d7c313289de2d434bc8958eb4305 126 main/binary-arm64/Release
+SHA1:
+ 285ba94736cd14939ab5b45299f5d1992f5d72b3 805 main/binary-armhf/Packages
+ e017e25791a19654d39f4072da2e1b008e98e1c6 546 main/binary-armhf/Packages.gz
+ 23e42ffe5fe8220d4ce8cebe5afa9046010d91e9 126 main/binary-armhf/Release
+ 914fcaa683180b59799ab4871f735c73890c378d 805 main/binary-arm64/Packages
+ 7b1aecc500ac3e1d8941df9d716a0dafde1d83ee 549 main/binary-arm64/Packages.gz
+ af41e6144b1def9a2be005d93fbb7932edd05a3c 126 main/binary-arm64/Release
+SHA256:
+ 6de977ca21ad3e05b2f2f640166f731adb9d1e37be208c941232df13f3a8532a 805 main/binary-armhf/Packages
+ 0017b5b599c80ee3258a31907143d87534421944c01bcc598374072ab7ef2a91 546 main/binary-armhf/Packages.gz
+ 82b7adf84d0ca01b19114872693eb76ee52c66422528a43f813b163a4938b9af 126 main/binary-armhf/Release
+ 6767bf8ad5e93b7d78b92b41f4d7176d0b9415c8a3a4f96741bb32e0fc95fec1 805 main/binary-arm64/Packages
+ 84cca9e337a4ef9057084f57251a9c07e28ead569f87af528fe68708940cc483 549 main/binary-arm64/Packages.gz
+ d75661930a67b30a72b8f44ddbb16f3960a82997c1150e8d92dac8b31b364e40 126 main/binary-arm64/Release
