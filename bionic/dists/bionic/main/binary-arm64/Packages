@@ -1404,25 +1404,6 @@ Replaces: linux-4.4-rockpis-latest
 Conflicts: linux-4.4-rockpis-latest
 Provides: linux-4.4-rockpis-latest
 
-Package: linux-4.4-rockpie-latest
-Version: 4.4.194-12-rockchip
-License: GPL-2+
-Vendor: Radxa
-Architecture: arm64
-Maintainer: Radxa <dev@radxa.com>
-Installed-Size: 0
-Depends: linux-image-4.4.194-12-rockchip-g615ae7431150, linux-firmware-image-4.4.194-12-rockchip-g615ae7431150, linux-headers-4.4.194-12-rockchip-g615ae7431150
-Homepage: https://github.com/radxa/kernel
-Priority: optional
-Section: admin
-Filename: pool/main/l/linux-4.4-rockpie-latest/linux-4.4-rockpie-latest_4.4.194-12-rockchip_arm64.deb
-Size: 1124
-SHA256: 42ff2ce9633fa487c39d02b3d19d5b655b4feb236d82a1cec2fcb5b4022eb628
-SHA1: 39f99c5423df89ca79de2bb2d5da6dda221e0dc8
-MD5sum: ec0b1e879874c066370c14296b1af6cf
-Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
-Multi-Arch: foreign
-
 Package: linux-4.4-rockpin10-latest
 Version: 4.4.167-14-rockchip
 License: GPL-2+
@@ -1439,25 +1420,6 @@ Size: 1126
 SHA256: 3d390a0afe247bfe8a9b79a1c6e148ac09eef9877b781c497e456980338751ff
 SHA1: 68c178c495805a9049b7a3a06f41e2f832fda65f
 MD5sum: 7fe157d48ee46102f10ef9faca3ed63f
-Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
-Multi-Arch: foreign
-
-Package: linux-4.4-rockpis-latest
-Version: 4.4.143-51-rockchip
-License: GPL-2+
-Vendor: Radxa
-Architecture: arm64
-Maintainer: Radxa <dev@radxa.com>
-Installed-Size: 0
-Depends: linux-image-4.4.143-51-rockchip-gb2a02deb3cbd, linux-firmware-image-4.4.143-51-rockchip-gb2a02deb3cbd, linux-headers-4.4.143-51-rockchip-gb2a02deb3cbd
-Homepage: https://github.com/radxa/kernel
-Priority: optional
-Section: admin
-Filename: pool/main/l/linux-4.4-rockpis-latest/linux-4.4-rockpis-latest_4.4.143-51-rockchip_arm64.deb
-Size: 1124
-SHA256: be9a48a146bcb90d96c4d8487a732632eb6a0f67c578887bcc1f16dc4cdce110
-SHA1: 4fe437515eac0ce00cbcd234bd48c30823527aa1
-MD5sum: f381e200f38531ea076c07ef8ec49507
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 
