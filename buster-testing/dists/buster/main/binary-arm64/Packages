@@ -1393,21 +1393,21 @@ Description: This package will always depend on linux-image and linux-headers an
 Multi-Arch: foreign
 
 Package: linux-4.4-rock-pi-e-latest
-Version: 4.4.194-14-rockchip
+Version: 4.4.194-15-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: arm64
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.4.194-14-rockchip-ge49def7efed1, linux-firmware-image-4.4.194-14-rockchip-ge49def7efed1, linux-headers-4.4.194-14-rockchip-ge49def7efed1
+Depends: linux-image-4.4.194-15-rockchip-g5179a4cd0ffd, linux-firmware-image-4.4.194-15-rockchip-g5179a4cd0ffd, linux-headers-4.4.194-15-rockchip-g5179a4cd0ffd
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.4-rock-pi-e-latest/linux-4.4-rock-pi-e-latest_4.4.194-14-rockchip_arm64.deb
-Size: 1154
-SHA256: 6e4921e4d35e97fda25c77e0041f4dfb084868cff8d91bb1631ef17db787ef05
-SHA1: fc685cf2709e57b3671744bb0fea2aa0b8c5eff1
-MD5sum: ce2b1a7486de82930e175fdda45458f1
+Filename: pool/main/l/linux-4.4-rock-pi-e-latest/linux-4.4-rock-pi-e-latest_4.4.194-15-rockchip_arm64.deb
+Size: 1158
+SHA256: a9aab85ab6bc63b59a6ce77f59caa3bebc6b611dfb6a7c882fcdde362964ddd2
+SHA1: 8f2fc2f77cefe9baef26159f401f86717464921d
+MD5sum: 3dc3adb3c6418d2b78d3619732d8bef6
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 Replaces: linux-4.4-rockpie-latest
@@ -2627,6 +2627,23 @@ SHA1: d7d6388dbffc0e45f4e8c2f7d8f2199582c7a111
 MD5sum: 8530d179aa6980a796cce5dddcad90f8
 Description: Linux kernel firmware, version 4.4.194-14-rockchip-ge49def7efed1
  This package contains firmware from the Linux kernel, version 4.4.194-14-rockchip-ge49def7efed1.
+
+Package: linux-firmware-image-4.4.194-15-rockchip-g5179a4cd0ffd
+Source: linux-4.4.194-15-rockchip-g5179a4cd0ffd
+Version: 4.4.194-15-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@6fef2c86ec70>
+Installed-Size: 529
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.194-15-rockchip-g5179a4cd0ffd/linux-firmware-image-4.4.194-15-rockchip-g5179a4cd0ffd_4.4.194-15-rockchip_arm64.deb
+Size: 175880
+SHA256: 1a5ec1bcdc340bf76d2e7c76a99656a911124dc41997733b9b136551b0715233
+SHA1: e791d2f1d66dcfea6e5ae370eb738171c7baadd8
+MD5sum: 0605d54052a79f9ab529134b98385c65
+Description: Linux kernel firmware, version 4.4.194-15-rockchip-g5179a4cd0ffd
+ This package contains firmware from the Linux kernel, version 4.4.194-15-rockchip-g5179a4cd0ffd.
 
 Package: linux-firmware-image-4.4.194-6-rockchip-g1e138221f47e
 Source: linux-4.4.194-6-rockchip-g1e138221f47e
@@ -4293,6 +4310,26 @@ SHA1: 92e38d5e214e49a42d448c0ec2064e269e80caae
 MD5sum: 3e6bd6c9b04ca1bc8d7ed64bd2bb0ebd
 Description: Linux kernel headers for 4.4.194-14-rockchip-ge49def7efed1 on arm64
  This package provides kernel header files for 4.4.194-14-rockchip-ge49def7efed1 on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.194-15-rockchip-g5179a4cd0ffd
+Source: linux-4.4.194-15-rockchip-g5179a4cd0ffd
+Version: 4.4.194-15-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@6fef2c86ec70>
+Installed-Size: 70572
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.194-15-rockchip-g5179a4cd0ffd/linux-headers-4.4.194-15-rockchip-g5179a4cd0ffd_4.4.194-15-rockchip_arm64.deb
+Size: 10225696
+SHA256: e73257cdc7a6dcd4ce686d2f2e1c3623883251f7e4caee561966da9445b358b2
+SHA1: 6ea3d087114fca16a52756d5adfd2b779482fae7
+MD5sum: 957c0b1bcc934f426e7b5eac245297fa
+Description: Linux kernel headers for 4.4.194-15-rockchip-g5179a4cd0ffd on arm64
+ This package provides kernel header files for 4.4.194-15-rockchip-g5179a4cd0ffd on arm64
  .
  This is useful for people who need to build external modules
 
@@ -5975,6 +6012,26 @@ MD5sum: 7ca98e651efbcf70243671b73965833e
 Description: Linux kernel, version 4.4.194-14-rockchip-ge49def7efed1
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.194-14-rockchip-ge49def7efed1.
+
+Package: linux-image-4.4.194-15-rockchip-g5179a4cd0ffd
+Source: linux-4.4.194-15-rockchip-g5179a4cd0ffd
+Version: 4.4.194-15-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@6fef2c86ec70>
+Installed-Size: 72113
+Suggests: linux-firmware-image-4.4.194-15-rockchip-g5179a4cd0ffd
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.194-15-rockchip-g5179a4cd0ffd
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.194-15-rockchip-g5179a4cd0ffd/linux-image-4.4.194-15-rockchip-g5179a4cd0ffd_4.4.194-15-rockchip_arm64.deb
+Size: 15589000
+SHA256: 4ca21e8829f12c12eeec2659dd06b0722301d24f2fb63c51dab2b9d9cdb26eb0
+SHA1: 61b979572bbf53a3ee4e78f888ef0369af173903
+MD5sum: 2394eb9f2f16ba4266271750b899e432
+Description: Linux kernel, version 4.4.194-15-rockchip-g5179a4cd0ffd
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.194-15-rockchip-g5179a4cd0ffd.
 
 Package: linux-image-4.4.194-6-rockchip-g1e138221f47e
 Source: linux-4.4.194-6-rockchip-g1e138221f47e
