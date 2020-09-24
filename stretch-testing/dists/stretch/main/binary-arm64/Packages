@@ -6872,25 +6872,25 @@ Conflicts: rockpi4c-rk-ubootimg
 Provides: rockpi4c-rk-ubootimg
 
 Package: rockpie-rk-u-boot-latest
-Version: 2019.10-11665-g3c1a266055
+Version: 2019.10-11667-g3c4cbe2dc4
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: rockpie-rk-ubootimg (= 2019.10-11665-g3c1a266055)
+Depends: rockpie-rk-ubootimg (= 2019.10-11667-g3c4cbe2dc4)
 Homepage: https://github.com/radxa/u-boot
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpie-rk-u-boot-latest/rockpie-rk-u-boot-latest_2019.10-11665-g3c1a266055_all.deb
-Size: 1080
-SHA256: 5a21004ed516afdbf2eae01d990ab31a4622c59c47508f7c36835ab3539f43c1
-SHA1: 2337fd47fe6f227518d824af4b9d48e7a6285fe3
-MD5sum: 648be42d0b2bfc935b8fde7e42f9835b
-Description: rockpie u-boot latest version package: depends on rockpie-rk-ubootimg (= 2019.10-11665-g3c1a266055)
+Filename: pool/main/r/rockpie-rk-u-boot-latest/rockpie-rk-u-boot-latest_2019.10-11667-g3c4cbe2dc4_all.deb
+Size: 1078
+SHA256: dd51e0057422d87d9276d408a8463ee92ecaac2484d164b0fd1cb41ad8e77265
+SHA1: 261bce9fda3e394c196c2c28c39fb0680e4a7eb7
+MD5sum: 6b5d5253462af907233b505e8c4a66e3
+Description: rockpie u-boot latest version package: depends on rockpie-rk-ubootimg (= 2019.10-11667-g3c4cbe2dc4)
 
 Package: rockpie-rk-ubootimg
-Version: 2019.10-11665-g3c1a266055
+Version: 2019.10-11667-g3c4cbe2dc4
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
@@ -6900,11 +6900,11 @@ Depends: debsums, mtd-utils
 Homepage: https://github.com/radxa/u-boot
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpie-rk-ubootimg/rockpie-rk-ubootimg_2019.10-11665-g3c1a266055_all.deb
-Size: 592410
-SHA256: 55cc0dcd1207ee428367734918e58eb162f89aa2dca5c5d6649b14e8d8a57e9c
-SHA1: 2b7bf0889a4db51650fc40e02c5cda69c613d72f
-MD5sum: 4393a84edf2a2634584af090806d5929
+Filename: pool/main/r/rockpie-rk-ubootimg/rockpie-rk-ubootimg_2019.10-11667-g3c4cbe2dc4_all.deb
+Size: 592416
+SHA256: 2e44f06b5ce7b5cf0bf98f3aa60a7a00c587b7fb9762f21fb322c24de4e1ff24
+SHA1: bbeab6054a48033b6ab089ec404875af0de61723
+MD5sum: 20e0f83a84a8e8e25ce35bf46d546651
 Description: rockpie u-boot package
 Multi-Arch: foreign
 Replaces: rockpie-rk-ubootimg
