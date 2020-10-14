@@ -959,7 +959,7 @@ Description: Userspace interface to kernel DRM services -- runtime
  This package provides the runtime environment for libdrm.
 
 Package: libmraa
-Version: 1.0
+Version: 1.1
 Maintainer: Radxa <dev@radxa.com>
 Architecture: arm64
 Component: main
@@ -971,11 +971,11 @@ Depends: libc6, libjson-c3, libgcc1, libstdc++6,
     python2.7, libpython2.7, python3.7, libpython3.7
 Priority: optional
 Section: libs
-Filename: pool/main/libm/libmraa/libmraa_1.0_arm64.deb
-Size: 238900
-SHA256: b43b708fe256f65acad2d83c82d0126bc9375a45e7ca8b9ff9036a5f01095629
-SHA1: 3fc10734fb67284ac7e05b40e6a8608c5274b5ae
-MD5sum: ab00e75f062b6b21acf89a3075d82384
+Filename: pool/main/libm/libmraa/libmraa_1.1_arm64.deb
+Size: 193884
+SHA256: 05ea02d319318c0992ebd6b3395e5e0fb295d06363fac41d468938b672815b31
+SHA1: ad876da92d9815d85084021daa2161951e014db1
+MD5sum: ba88696e86986aa6f8e6714aa276d051
 Description: libmraa
 
 Package: libmraa-rockpie
