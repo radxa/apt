@@ -1,3 +1,21 @@
+Package: broadcom-wifibt-firmware
+Version: 0.7
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Depends: rfkill, brcm-patchram-plus1, binutils, psmisc, pulseaudio-module-bluetooth, pulseaudio, bluez
+Replaces: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware
+Confilcts: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware
+Provides: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware
+Priority: optional
+Section: utils
+Filename: pool/main/b/broadcom-wifibt-firmware/broadcom-wifibt-firmware_0.7_all.deb
+Size: 1307128
+SHA256: 6b87441c8a8a1b4fd9a4bd2cc9ae666a048346e2127de51d19ad6c0a142d8c9d
+SHA1: 7d510806dbf4d1f364b5442912f1e90bd282e5d3
+MD5sum: 186dcf0f0c4cb34667255e382979ea57
+Description: General Broadcom WiFi and Bluetooth chip firmware.
+
 Package: htop
 Version: 2.2.2-4
 Architecture: arm64
