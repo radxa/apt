@@ -58,6 +58,23 @@ Description: interactive processes viewer
  Tasks related to processes (killing, renicing) can be done without
  entering their PIDs.
 
+Package: resize-assistant
+Version: 0.2
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Depends: gdisk, parted, init-system-helpers (>= 1.18~)
+Priority: optional
+Section: utils
+Filename: pool/main/r/resize-assistant/resize-assistant_0.2_all.deb
+Size: 1700
+SHA256: 497cf1e3dd1d0e412d947a2ff0ec46aff8a87057d235ace95e81caae989c1290
+SHA1: 93b61c08d1cfef69b46e4492cb26ffacf1875e0e
+MD5sum: 8882c755e14783fefac59c3a0127bc59
+Description: resize-assistant package.
+ This package provides tools used to help resizing root filesystem
+ to fit available disk space.
+
 Package: rockchip-overlay
 Version: 2.8
 Maintainer: Radxa <dev@radxa.com>
