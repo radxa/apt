@@ -39,6 +39,28 @@ Description: interactive processes viewer
  Tasks related to processes (killing, renicing) can be done without
  entering their PIDs.
 
+Package: linux-4.4-rock-pi-e-latest
+Version: 4.4.194-17-rockchip
+License: GPL-2+
+Vendor: Radxa
+Architecture: arm64
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.194-17-rockchip-g07288d4ebac7, linux-firmware-image-4.4.194-17-rockchip-g07288d4ebac7, linux-headers-4.4.194-17-rockchip-g07288d4ebac7
+Homepage: https://github.com/radxa/kernel
+Priority: optional
+Section: admin
+Filename: pool/main/l/linux-4.4-rock-pi-e-latest/linux-4.4-rock-pi-e-latest_4.4.194-17-rockchip_arm64.deb
+Size: 1152
+SHA256: 6cbac14c742b2e3ceaecacf6a09786fe0cfa6a68ee569a5e835c8606c8432bad
+SHA1: 2782eb7e65a556f40fcabf5ccb72404757abb69b
+MD5sum: bf5ce1f9911402ec743b4275221e6083
+Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
+Multi-Arch: foreign
+Replaces: linux-4.4-rockpie-latest
+Conflicts: linux-4.4-rockpie-latest
+Provides: linux-4.4-rockpie-latest
+
 Package: linux-4.4-rock-pi-s-latest
 Version: 4.4.143-61-rockchip
 License: GPL-2+
@@ -78,6 +100,23 @@ MD5sum: 503e1d422766713d928d80439795773d
 Description: Linux kernel firmware, version 4.4.143-61-rockchip-g1f77a85486f7
  This package contains firmware from the Linux kernel, version 4.4.143-61-rockchip-g1f77a85486f7.
 
+Package: linux-firmware-image-4.4.194-17-rockchip-g07288d4ebac7
+Source: linux-4.4.194-17-rockchip-g07288d4ebac7
+Version: 4.4.194-17-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@38cf20261790>
+Installed-Size: 529
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.194-17-rockchip-g07288d4ebac7/linux-firmware-image-4.4.194-17-rockchip-g07288d4ebac7_4.4.194-17-rockchip_arm64.deb
+Size: 176204
+SHA256: c2f6e72788a7d0314182ddb08a32917b542666fa9a29096542a0dc287d444e9d
+SHA1: 5195860ab94eb6d02ed5bde86854e5f8039a313f
+MD5sum: 62e78e810b4b9e3f0beacf33e56d9042
+Description: Linux kernel firmware, version 4.4.194-17-rockchip-g07288d4ebac7
+ This package contains firmware from the Linux kernel, version 4.4.194-17-rockchip-g07288d4ebac7.
+
 Package: linux-headers-4.4.143-61-rockchip-g1f77a85486f7
 Source: linux-4.4.143-61-rockchip-g1f77a85486f7
 Version: 4.4.143-61-rockchip
@@ -95,6 +134,26 @@ SHA1: e3fa8b89534bc962221d948088ace47148149c79
 MD5sum: eeb9f952d11e446293ecc82f5f22d715
 Description: Linux kernel headers for 4.4.143-61-rockchip-g1f77a85486f7 on arm64
  This package provides kernel header files for 4.4.143-61-rockchip-g1f77a85486f7 on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.194-17-rockchip-g07288d4ebac7
+Source: linux-4.4.194-17-rockchip-g07288d4ebac7
+Version: 4.4.194-17-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@38cf20261790>
+Installed-Size: 70571
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.194-17-rockchip-g07288d4ebac7/linux-headers-4.4.194-17-rockchip-g07288d4ebac7_4.4.194-17-rockchip_arm64.deb
+Size: 10225060
+SHA256: e71636da70189c98e76445bb53a2e6dde97a546861b161e8f248e9c027610ba9
+SHA1: ac6cabb204b91ed7af5f8e2129f104deb47eae7d
+MD5sum: b0465c748784510d22578f444dd2b6c6
+Description: Linux kernel headers for 4.4.194-17-rockchip-g07288d4ebac7 on arm64
+ This package provides kernel header files for 4.4.194-17-rockchip-g07288d4ebac7 on arm64
  .
  This is useful for people who need to build external modules
 
@@ -117,6 +176,26 @@ MD5sum: b0d69a7f3dc56a184404fca3aa66a626
 Description: Linux kernel, version 4.4.143-61-rockchip-g1f77a85486f7
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.143-61-rockchip-g1f77a85486f7.
+
+Package: linux-image-4.4.194-17-rockchip-g07288d4ebac7
+Source: linux-4.4.194-17-rockchip-g07288d4ebac7
+Version: 4.4.194-17-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@38cf20261790>
+Installed-Size: 72396
+Suggests: linux-firmware-image-4.4.194-17-rockchip-g07288d4ebac7
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.194-17-rockchip-g07288d4ebac7
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.194-17-rockchip-g07288d4ebac7/linux-image-4.4.194-17-rockchip-g07288d4ebac7_4.4.194-17-rockchip_arm64.deb
+Size: 15609316
+SHA256: 64ffae5d83264c7daf6e2ccf9600868a245e4e3b1c901b983006d3c6e2cadb7b
+SHA1: 1e891feccba109e2bd057b5ade8f4ab01aef63be
+MD5sum: a64f77c30bd5ba1ce34aa3b82a853bab
+Description: Linux kernel, version 4.4.194-17-rockchip-g07288d4ebac7
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.194-17-rockchip-g07288d4ebac7.
 
 Package: rockchip-overlay
 Version: 2.8
