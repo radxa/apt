@@ -1,0 +1,353 @@
+Package: 96boards-tools-common
+Source: 96boards-tools
+Version: 0.12
+Architecture: all
+Maintainer: Ricardo Salveti <ricardo.salveti@linaro.org>
+Installed-Size: 30
+Depends: gdisk, parted
+Homepage: https://github.com/96boards/96boards-tools
+Priority: optional
+Section: utils
+Filename: pool/main/9/96boards-tools/96boards-tools-common_0.12_all.deb
+Size: 5732
+SHA256: 9a2f5ff49898d361afd80e30ba0c944435d3dd8da006522325d005684d600866
+SHA1: c78ec0f06fdecad500606b822b8a355358a9acac
+MD5sum: c582c443006df60aa5dfc8fff5668aa7
+Description: common files used by 96boards
+ This package provides configuration and tools used to help
+ bringing a common user experience across different 96Boards.
+
+Package: brcm-patchram-plus1
+Version: 0.2
+Maintainer: Radxa <dev@radxa.com>
+Architecture: arm64
+Component: main
+Replaces: brcm-patchram-plus1-64
+Conflicts: brcm-patchram-plus1-64
+Provides: brcm-patchram-plus1-64
+Priority: optional
+Section: utils
+Filename: pool/main/b/brcm-patchram-plus1/brcm-patchram-plus1_0.2_arm64.deb
+Size: 5856
+SHA256: ce90cd644e2b1c2bd56d50ee76db064ab9ce30cc349cd892ce0fe9017f7d1ae4
+SHA1: f509d74027b79943e0a34acf09e13c17586e956e
+MD5sum: 3e17b0bd8ed3b5ddc48b5c96b1c5f7b6
+Description: Broadcom bluetooth patching tool
+
+Package: broadcom-wifibt-firmware
+Version: 0.7
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Depends: rfkill, brcm-patchram-plus1, binutils, psmisc, pulseaudio-module-bluetooth, pulseaudio, bluez
+Replaces: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware
+Confilcts: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware
+Provides: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware
+Priority: optional
+Section: utils
+Filename: pool/main/b/broadcom-wifibt-firmware/broadcom-wifibt-firmware_0.7_all.deb
+Size: 1307128
+SHA256: 6b87441c8a8a1b4fd9a4bd2cc9ae666a048346e2127de51d19ad6c0a142d8c9d
+SHA1: 7d510806dbf4d1f364b5442912f1e90bd282e5d3
+MD5sum: 186dcf0f0c4cb34667255e382979ea57
+Description: General Broadcom WiFi and Bluetooth chip firmware.
+
+Package: gstreamer1.0-rockchip1
+Source: gstreamer1.0-rockchip
+Version: 20190415
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 77
+Depends: libc6 (>= 2.17), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base1.0-0 (>= 1.2.0), libgstreamer1.0-0 (>= 1.4.0), librockchip-mpp1
+Homepage: http://www.rock-chips.com/
+Priority: optional
+Section: libs
+Filename: pool/main/g/gstreamer1.0-rockchip/gstreamer1.0-rockchip1_20190415_arm64.deb
+Size: 23326
+SHA256: 4afa04c89d23bbf9a847057d3d8c474a62875bf6565c1c51a99da4aee02fbffe
+SHA1: 00d5451185f6c0824f88543f88c6141c1c2a8a9d
+MD5sum: 2d15f4f17a16e6eb7794cd23a8d79b8a
+Description: The Gstreamer plugins for Rockchip RK3xxx platform.
+
+Package: gstreamer1.0-rockchip1-dbgsym
+Source: gstreamer1.0-rockchip
+Version: 20190415
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 146
+Depends: gstreamer1.0-rockchip1 (= 20190415)
+Homepage: http://www.rock-chips.com/
+Priority: extra
+Section: debug
+Filename: pool/main/g/gstreamer1.0-rockchip/gstreamer1.0-rockchip1-dbgsym_20190415_arm64.deb
+Size: 117524
+SHA256: db54b274be17ca234afb0484b8c639ba4fe5d9417fa15ddfbb8f336f3749c08e
+SHA1: e858f3db713b1671450fdb862d055d792f9c85c9
+MD5sum: 00cf10a8704df99d521b0862700425c7
+Description: Debug symbols for gstreamer1.0-rockchip1
+Build-Ids: 295ad1fd775b3dc913af24b5b9af372f7be9407e
+
+Package: gstreamer1.0-rockchip1-extra
+Source: gstreamer1.0-rockchip-extra
+Version: 20190621-1
+Architecture: arm64
+Maintainer: Jacob Chen <jacob2.chen@rock-chips.com>
+Installed-Size: 121
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.47), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base1.0-0 (>= 1.6.0), libgstreamer1.0-0 (>= 1.8.0), libx11-6
+Homepage: http://www.rock-chips.com/
+Priority: optional
+Section: libs
+Filename: pool/main/g/gstreamer1.0-rockchip-extra/gstreamer1.0-rockchip1-extra_20190621-1_arm64.deb
+Size: 29326
+SHA256: c69217323d595963f472b83e275dd09a698c9730ed874508bf66cec414137f3c
+SHA1: 8a6786e1afb879cdd25fbd607da8a682a9a764cf
+MD5sum: fcc98cf934fc5988a874d0f42b93ca93
+Description: The Extra Gstreamer plugins for Rockchip platform.
+
+Package: gstreamer1.0-rockchip1-extra-dbgsym
+Source: gstreamer1.0-rockchip-extra
+Version: 20190621-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jacob Chen <jacob2.chen@rock-chips.com>
+Installed-Size: 165
+Depends: gstreamer1.0-rockchip1-extra (= 20190621-1)
+Homepage: http://www.rock-chips.com/
+Priority: extra
+Section: debug
+Filename: pool/main/g/gstreamer1.0-rockchip-extra/gstreamer1.0-rockchip1-extra-dbgsym_20190621-1_arm64.deb
+Size: 129412
+SHA256: 7408194d19e99e160633f97a436921068bfa2f879bdd5ec7d12793b10d987950
+SHA1: f7b71b2119e3f89d20b1e0bf52eb1f0102a5ac11
+MD5sum: 4c53f2892a3267c0896b4747409aab4b
+Description: Debug symbols for gstreamer1.0-rockchip1-extra
+Build-Ids: 1f252465e19874631f62a18c520ae4efa5117e9c 4e9760ad4d94651aed6ab63fb4f549b60d9d75c0
+
+Package: htop
+Version: 2.2.2-4
+Architecture: arm64
+Maintainer: Daniel Lange <DLange@debian.org>
+Installed-Size: 247
+Depends: libc6 (>= 2.17), libncursesw6 (>= 6), libtinfo6 (>= 6)
+Suggests: lsof, strace
+Homepage: https://hisham.hm/htop/
+Priority: optional
+Section: utils
+Filename: pool/main/h/htop/htop_2.2.2-4_arm64.deb
+Size: 88896
+SHA256: a1a60a367a26d9cd4cc3352ef1915cb0179d9d1865a1725d2e3f9e1bdb5238f9
+SHA1: d8692b164bf4778c7f0633667d07e013c5b3a189
+MD5sum: a71ac7d2a217b5efbc6df0f839fe3c1b
+Description: interactive processes viewer
+ Htop is an ncursed-based process viewer similar to top, but it
+ allows one to scroll the list vertically and horizontally to see
+ all processes and their full command lines.
+ .
+ Tasks related to processes (killing, renicing) can be done without
+ entering their PIDs.
+
+Package: io
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: arm64
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/i/io/io_0.1_arm64.deb
+Size: 1102040
+SHA256: 778fb025a782f61248444f9faa89167f411471b66b38e51e0b603b8d7baee094
+SHA1: f8a7b6b3111872a05bbf8102fd1346848f672699
+MD5sum: 6d65cf7eb5b66edf96b5951619d6f039
+Description: io tool
+
+Package: linux-4.4-rock-pi-e-latest
+Version: 4.4.194-17-rockchip
+License: GPL-2+
+Vendor: Radxa
+Architecture: arm64
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.194-17-rockchip-g07288d4ebac7, linux-firmware-image-4.4.194-17-rockchip-g07288d4ebac7, linux-headers-4.4.194-17-rockchip-g07288d4ebac7
+Homepage: https://github.com/radxa/kernel
+Priority: optional
+Section: admin
+Filename: pool/main/l/linux-4.4-rock-pi-e-latest/linux-4.4-rock-pi-e-latest_4.4.194-17-rockchip_arm64.deb
+Size: 1152
+SHA256: 6cbac14c742b2e3ceaecacf6a09786fe0cfa6a68ee569a5e835c8606c8432bad
+SHA1: 2782eb7e65a556f40fcabf5ccb72404757abb69b
+MD5sum: bf5ce1f9911402ec743b4275221e6083
+Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
+Multi-Arch: foreign
+Replaces: linux-4.4-rockpie-latest
+Conflicts: linux-4.4-rockpie-latest
+Provides: linux-4.4-rockpie-latest
+
+Package: linux-4.4-rock-pi-s-latest
+Version: 4.4.143-61-rockchip
+License: GPL-2+
+Vendor: Radxa
+Architecture: arm64
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.143-61-rockchip-g1f77a85486f7, linux-firmware-image-4.4.143-61-rockchip-g1f77a85486f7, linux-headers-4.4.143-61-rockchip-g1f77a85486f7
+Homepage: https://github.com/radxa/kernel
+Priority: optional
+Section: admin
+Filename: pool/main/l/linux-4.4-rock-pi-s-latest/linux-4.4-rock-pi-s-latest_4.4.143-61-rockchip_arm64.deb
+Size: 1160
+SHA256: b37ae0d6bbc37d956006d0e6ee3c3d2b8daa74ab6006c3c3a3aa7472f860a263
+SHA1: 3b0ae577015ab7dffe0a13bb2fe1a769acf9d36b
+MD5sum: 98ea325e2dc9e38beaf555ede8f92c69
+Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
+Multi-Arch: foreign
+Replaces: linux-4.4-rockpis-latest
+Conflicts: linux-4.4-rockpis-latest
+Provides: linux-4.4-rockpis-latest
+
+Package: linux-firmware-image-4.4.143-61-rockchip-g1f77a85486f7
+Source: linux-4.4.143-61-rockchip-g1f77a85486f7
+Version: 4.4.143-61-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@e83bb8825433>
+Installed-Size: 193
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.143-61-rockchip-g1f77a85486f7/linux-firmware-image-4.4.143-61-rockchip-g1f77a85486f7_4.4.143-61-rockchip_arm64.deb
+Size: 53256
+SHA256: 8b7f676550f1e7f496463b935fb831f413d4c6aea92469e795c239a0da6dc33c
+SHA1: c2b0f97eb12f7b1351ff5ce69661a5917c5ee95a
+MD5sum: 503e1d422766713d928d80439795773d
+Description: Linux kernel firmware, version 4.4.143-61-rockchip-g1f77a85486f7
+ This package contains firmware from the Linux kernel, version 4.4.143-61-rockchip-g1f77a85486f7.
+
+Package: linux-firmware-image-4.4.194-17-rockchip-g07288d4ebac7
+Source: linux-4.4.194-17-rockchip-g07288d4ebac7
+Version: 4.4.194-17-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@38cf20261790>
+Installed-Size: 529
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.194-17-rockchip-g07288d4ebac7/linux-firmware-image-4.4.194-17-rockchip-g07288d4ebac7_4.4.194-17-rockchip_arm64.deb
+Size: 176204
+SHA256: c2f6e72788a7d0314182ddb08a32917b542666fa9a29096542a0dc287d444e9d
+SHA1: 5195860ab94eb6d02ed5bde86854e5f8039a313f
+MD5sum: 62e78e810b4b9e3f0beacf33e56d9042
+Description: Linux kernel firmware, version 4.4.194-17-rockchip-g07288d4ebac7
+ This package contains firmware from the Linux kernel, version 4.4.194-17-rockchip-g07288d4ebac7.
+
+Package: linux-headers-4.4.143-61-rockchip-g1f77a85486f7
+Source: linux-4.4.143-61-rockchip-g1f77a85486f7
+Version: 4.4.143-61-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@e83bb8825433>
+Installed-Size: 70239
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.143-61-rockchip-g1f77a85486f7/linux-headers-4.4.143-61-rockchip-g1f77a85486f7_4.4.143-61-rockchip_arm64.deb
+Size: 10128776
+SHA256: 0bd1b7f607ae8cd6f75c39486bb14aa14abda4af194af9eebc6562f734bce081
+SHA1: e3fa8b89534bc962221d948088ace47148149c79
+MD5sum: eeb9f952d11e446293ecc82f5f22d715
+Description: Linux kernel headers for 4.4.143-61-rockchip-g1f77a85486f7 on arm64
+ This package provides kernel header files for 4.4.143-61-rockchip-g1f77a85486f7 on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.194-17-rockchip-g07288d4ebac7
+Source: linux-4.4.194-17-rockchip-g07288d4ebac7
+Version: 4.4.194-17-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@38cf20261790>
+Installed-Size: 70571
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.194-17-rockchip-g07288d4ebac7/linux-headers-4.4.194-17-rockchip-g07288d4ebac7_4.4.194-17-rockchip_arm64.deb
+Size: 10225060
+SHA256: e71636da70189c98e76445bb53a2e6dde97a546861b161e8f248e9c027610ba9
+SHA1: ac6cabb204b91ed7af5f8e2129f104deb47eae7d
+MD5sum: b0465c748784510d22578f444dd2b6c6
+Description: Linux kernel headers for 4.4.194-17-rockchip-g07288d4ebac7 on arm64
+ This package provides kernel header files for 4.4.194-17-rockchip-g07288d4ebac7 on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-4.4.143-61-rockchip-g1f77a85486f7
+Source: linux-4.4.143-61-rockchip-g1f77a85486f7
+Version: 4.4.143-61-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@e83bb8825433>
+Installed-Size: 57258
+Suggests: linux-firmware-image-4.4.143-61-rockchip-g1f77a85486f7
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.143-61-rockchip-g1f77a85486f7
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.143-61-rockchip-g1f77a85486f7/linux-image-4.4.143-61-rockchip-g1f77a85486f7_4.4.143-61-rockchip_arm64.deb
+Size: 10710876
+SHA256: b54558a517fe503961b4580a01f1388f869d431c2e2ce7818c50c8605b3c94c0
+SHA1: e9e4a2b432d086a637ce4e2e53bd8f947f5ef79a
+MD5sum: b0d69a7f3dc56a184404fca3aa66a626
+Description: Linux kernel, version 4.4.143-61-rockchip-g1f77a85486f7
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.143-61-rockchip-g1f77a85486f7.
+
+Package: linux-image-4.4.194-17-rockchip-g07288d4ebac7
+Source: linux-4.4.194-17-rockchip-g07288d4ebac7
+Version: 4.4.194-17-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@38cf20261790>
+Installed-Size: 72396
+Suggests: linux-firmware-image-4.4.194-17-rockchip-g07288d4ebac7
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.194-17-rockchip-g07288d4ebac7
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.194-17-rockchip-g07288d4ebac7/linux-image-4.4.194-17-rockchip-g07288d4ebac7_4.4.194-17-rockchip_arm64.deb
+Size: 15609316
+SHA256: 64ffae5d83264c7daf6e2ccf9600868a245e4e3b1c901b983006d3c6e2cadb7b
+SHA1: 1e891feccba109e2bd057b5ade8f4ab01aef63be
+MD5sum: a64f77c30bd5ba1ce34aa3b82a853bab
+Description: Linux kernel, version 4.4.194-17-rockchip-g07288d4ebac7
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.194-17-rockchip-g07288d4ebac7.
+
+Package: resize-assistant
+Version: 0.2
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Depends: gdisk, parted, init-system-helpers (>= 1.18~)
+Priority: optional
+Section: utils
+Filename: pool/main/r/resize-assistant/resize-assistant_0.2_all.deb
+Size: 1700
+SHA256: 497cf1e3dd1d0e412d947a2ff0ec46aff8a87057d235ace95e81caae989c1290
+SHA1: 93b61c08d1cfef69b46e4492cb26ffacf1875e0e
+MD5sum: 8882c755e14783fefac59c3a0127bc59
+Description: resize-assistant package.
+ This package provides tools used to help resizing root filesystem
+ to fit available disk space.
+
+Package: rockchip-overlay
+Version: 2.8
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Depends: linux-base, file, bc, sed, coreutils
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_2.8_all.deb
+Size: 5012
+SHA256: 7da9d6f605d0593159aa5e5a08dc110360cb442f61c0ab86a0bcd6ffd3f54f4e
+SHA1: 5acca183cc944509ad94ab68c6d0b14fdb51a7e9
+MD5sum: 7608c3d44de530eb5d5ecf4dc9d79c06
+Description: General rockchip overlay package.
+
