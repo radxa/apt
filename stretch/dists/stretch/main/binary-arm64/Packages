@@ -1,0 +1,2391 @@
+Package: 96boards-tools-common
+Source: 96boards-tools
+Version: 0.12
+Architecture: all
+Maintainer: Ricardo Salveti <ricardo.salveti@linaro.org>
+Installed-Size: 30
+Depends: gdisk, parted
+Homepage: https://github.com/96boards/96boards-tools
+Priority: optional
+Section: utils
+Filename: pool/main/9/96boards-tools/96boards-tools-common_0.12_all.deb
+Size: 5732
+SHA256: 9a2f5ff49898d361afd80e30ba0c944435d3dd8da006522325d005684d600866
+SHA1: c78ec0f06fdecad500606b822b8a355358a9acac
+MD5sum: c582c443006df60aa5dfc8fff5668aa7
+Description: common files used by 96boards
+ This package provides configuration and tools used to help
+ bringing a common user experience across different 96Boards.
+
+Package: brcm-patchram-plus1
+Version: 0.2
+Maintainer: Radxa <dev@radxa.com>
+Architecture: arm64
+Component: main
+Replaces: brcm-patchram-plus1-64
+Conflicts: brcm-patchram-plus1-64
+Provides: brcm-patchram-plus1-64
+Priority: optional
+Section: utils
+Filename: pool/main/b/brcm-patchram-plus1/brcm-patchram-plus1_0.2_arm64.deb
+Size: 5856
+SHA256: ce90cd644e2b1c2bd56d50ee76db064ab9ce30cc349cd892ce0fe9017f7d1ae4
+SHA1: f509d74027b79943e0a34acf09e13c17586e956e
+MD5sum: 3e17b0bd8ed3b5ddc48b5c96b1c5f7b6
+Description: Broadcom bluetooth patching tool
+
+Package: broadcom-wifibt-firmware
+Version: 0.5
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Depends: rfkill, brcm-patchram-plus1, binutils, psmisc, pulseaudio-module-bluetooth, pulseaudio, bluez
+Replaces: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware
+Confilcts: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware
+Provides: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware
+Priority: optional
+Section: utils
+Filename: pool/main/b/broadcom-wifibt-firmware/broadcom-wifibt-firmware_0.5_all.deb
+Size: 1223712
+SHA256: be4bc80876352fe48050da70320d39d92b4cc4808db8f9f02d2e2160f6dcd373
+SHA1: aeeeae6e60136068abe945dc3e4d446e1da95e59
+MD5sum: e6b43d8d6a6399cd8845eba721dd3890
+Description: General Broadcom WiFi and Bluetooth chip firmware.
+
+Package: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 2208
+Depends: libavcodec57 (>= 7:3.4.1) | libavcodec-extra57 (>= 7:3.4.1), libavdevice57 (>= 7:3.4.1), libavfilter6 (>= 7:3.4.1) | libavfilter-extra6 (>= 7:3.4.1), libavformat57 (>= 7:3.4.1), libavresample3 (>= 7:3.4.1), libavutil55 (>= 7:3.4.1), libc6 (>= 2.17), libpostproc54 (>= 7:3.4.1), libsdl2-2.0-0 (>= 2.0.4), libswresample2 (>= 7:3.4.1), libswscale4 (>= 7:3.4.1)
+Suggests: ffmpeg-doc
+Breaks: libav-tools (<< 6:12~~), qt-faststart (<< 7:2.7.1-3~)
+Replaces: libav-tools (<< 6:12~~), qt-faststart (<< 7:2.7.1-3~)
+Multi-Arch: foreign
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: video
+Filename: pool/main/f/ffmpeg/ffmpeg_3.4.1-1_arm64.deb
+Size: 1597476
+SHA256: 027f93ad1aeb2b361759107aaee03517ee1c69f593dfc2f26b55c4e808b8c5c9
+SHA1: 082b26ada55bfa22ba8af3969822fd93f93fdf9c
+MD5sum: 3586d82c9b77028a59507668687b6c4f
+Description: Tools for transcoding, streaming and playing of multimedia files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This package contains:
+  * ffmpeg: a command line tool to convert multimedia files between formats
+  * ffserver: a multimedia streaming server for live broadcasts
+  * ffplay: a simple media player based on SDL and the FFmpeg libraries
+  * ffprobe: a simple multimedia stream analyzer
+  * qt-faststart: a utility to rearrange Quicktime files
+
+Package: ffmpeg-dbgsym
+Source: ffmpeg
+Version: 7:3.4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 875
+Depends: ffmpeg (= 7:3.4.1-1)
+Homepage: https://ffmpeg.org/
+Priority: extra
+Section: debug
+Filename: pool/main/f/ffmpeg/ffmpeg-dbgsym_3.4.1-1_arm64.deb
+Size: 762716
+SHA256: ac35293542432fec08095de62ffa59f860c2fedba722ca3e191ba1181b87272f
+SHA1: b15720295497ac15bb111df978879b50e084ce5f
+MD5sum: 3ba58e3c67b95a5e7e805f932aa20857
+Description: Debug symbols for ffmpeg
+Build-Ids: 1290945185d92509187f9ef26f2812ea6c73bcc8 2f26577dd3224b9c40c49ad177ff02f4ec3867f3 9fae840677efd646e4bdaba0d10c746bf04b3b58 c7be76dafc3662a49e25728f23cffe2fa4d73e6d fd604d220593695a6cbf645bf5f5a4ac70f0382f
+
+Package: ffmpeg-doc
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 29412
+Depends: libjs-jquery, libjs-bootstrap
+Multi-Arch: foreign
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: doc
+Filename: pool/main/f/ffmpeg/ffmpeg-doc_3.4.1-1_all.deb
+Size: 2051576
+SHA256: bbbf799801dbcd42f7409b3bd0dd8997fd9fc0933e5b24fb0ad8d4658064e27b
+SHA1: d398c800b21b8294dc48f956e14d33c3a6e6f672
+MD5sum: 290ed38ecfb8512993de4d74067dac9c
+Description: Documentation of the FFmpeg multimedia framework
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This package contains the HTML documentation for the FFmpeg multimedia
+ framework including the API documentation created by doxygen and the manpages
+ for the libraries.
+
+Package: gstreamer1.0-rockchip1
+Source: gstreamer1.0-rockchip
+Version: 20190415
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 77
+Depends: libc6 (>= 2.17), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base1.0-0 (>= 1.2.0), libgstreamer1.0-0 (>= 1.4.0), librockchip-mpp1
+Homepage: http://www.rock-chips.com/
+Priority: optional
+Section: libs
+Filename: pool/main/g/gstreamer1.0-rockchip/gstreamer1.0-rockchip1_20190415_arm64.deb
+Size: 23326
+SHA256: 4afa04c89d23bbf9a847057d3d8c474a62875bf6565c1c51a99da4aee02fbffe
+SHA1: 00d5451185f6c0824f88543f88c6141c1c2a8a9d
+MD5sum: 2d15f4f17a16e6eb7794cd23a8d79b8a
+Description: The Gstreamer plugins for Rockchip RK3xxx platform.
+
+Package: gstreamer1.0-rockchip1-dbgsym
+Source: gstreamer1.0-rockchip
+Version: 20190415
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 146
+Depends: gstreamer1.0-rockchip1 (= 20190415)
+Homepage: http://www.rock-chips.com/
+Priority: extra
+Section: debug
+Filename: pool/main/g/gstreamer1.0-rockchip/gstreamer1.0-rockchip1-dbgsym_20190415_arm64.deb
+Size: 117524
+SHA256: db54b274be17ca234afb0484b8c639ba4fe5d9417fa15ddfbb8f336f3749c08e
+SHA1: e858f3db713b1671450fdb862d055d792f9c85c9
+MD5sum: 00cf10a8704df99d521b0862700425c7
+Description: Debug symbols for gstreamer1.0-rockchip1
+Build-Ids: 295ad1fd775b3dc913af24b5b9af372f7be9407e
+
+Package: gstreamer1.0-rockchip1-extra
+Source: gstreamer1.0-rockchip-extra
+Version: 20190621-1
+Architecture: arm64
+Maintainer: Jacob Chen <jacob2.chen@rock-chips.com>
+Installed-Size: 121
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.47), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base1.0-0 (>= 1.6.0), libgstreamer1.0-0 (>= 1.8.0), libx11-6
+Homepage: http://www.rock-chips.com/
+Priority: optional
+Section: libs
+Filename: pool/main/g/gstreamer1.0-rockchip-extra/gstreamer1.0-rockchip1-extra_20190621-1_arm64.deb
+Size: 29326
+SHA256: c69217323d595963f472b83e275dd09a698c9730ed874508bf66cec414137f3c
+SHA1: 8a6786e1afb879cdd25fbd607da8a682a9a764cf
+MD5sum: fcc98cf934fc5988a874d0f42b93ca93
+Description: The Extra Gstreamer plugins for Rockchip platform.
+
+Package: gstreamer1.0-rockchip1-extra-dbgsym
+Source: gstreamer1.0-rockchip-extra
+Version: 20190621-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jacob Chen <jacob2.chen@rock-chips.com>
+Installed-Size: 165
+Depends: gstreamer1.0-rockchip1-extra (= 20190621-1)
+Homepage: http://www.rock-chips.com/
+Priority: extra
+Section: debug
+Filename: pool/main/g/gstreamer1.0-rockchip-extra/gstreamer1.0-rockchip1-extra-dbgsym_20190621-1_arm64.deb
+Size: 129412
+SHA256: 7408194d19e99e160633f97a436921068bfa2f879bdd5ec7d12793b10d987950
+SHA1: f7b71b2119e3f89d20b1e0bf52eb1f0102a5ac11
+MD5sum: 4c53f2892a3267c0896b4747409aab4b
+Description: Debug symbols for gstreamer1.0-rockchip1-extra
+Build-Ids: 1f252465e19874631f62a18c520ae4efa5117e9c 4e9760ad4d94651aed6ab63fb4f549b60d9d75c0
+
+Package: libav-tools
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 98
+Depends: ffmpeg
+Breaks: libav-tools-links (<< 7:2.7.2-2~)
+Replaces: libav-tools-links (<< 7:2.7.2-2~)
+Multi-Arch: foreign
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/f/ffmpeg/libav-tools_3.4.1-1_all.deb
+Size: 53994
+SHA256: 3da7b4e491baa21a743d8bc349a2299c77cc740b9bb575b05bd149a20833af29
+SHA1: 572f3479ed7b61c64376d21a54ea7d58f4ebbd45
+MD5sum: e8ee3b0d94f21c3d7dac3cd5603170d3
+Description: Compatibility links for libav-tools (transitional package)
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This is a transitional package that provides the following links:
+  * avconv  -> ffmpeg
+  * avplay  -> ffplay
+  * avprobe -> ffprobe
+ This package can be removed, when nothing uses the av* program names anymore.
+
+Package: libavcodec-dev
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 15373
+Depends: libavcodec57 (= 7:3.4.1-1) | libavcodec-extra57 (= 7:3.4.1-1), libavutil-dev (= 7:3.4.1-1), libswresample-dev (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg/libavcodec-dev_3.4.1-1_arm64.deb
+Size: 4516854
+SHA256: 0fd60324a3de96babcee24de5a6e7caa9339572551acadaf407c8c1c425b4597
+SHA1: 08af1db0a7b17be49094fe33be6ac919a83175ab
+MD5sum: b303f34f81d0ea3058c5740dde010138
+Description: FFmpeg library with de/encoders for audio/video codecs - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic encoding/decoding framework and
+ contains multiple decoders and encoders for audio, video and subtitle streams,
+ and several bitstream filters.
+ .
+ The shared architecture provides various services ranging from bit stream I/O
+ to DSP optimizations, and makes it suitable for implementing robust and fast
+ codecs as well as for experimentation.
+ .
+ This package contains the development files.
+
+Package: libavcodec-extra
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 89
+Depends: libavcodec-extra57
+Multi-Arch: foreign
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: metapackages
+Filename: pool/main/f/ffmpeg/libavcodec-extra_3.4.1-1_all.deb
+Size: 53816
+SHA256: 70578cf250a5f38aa00446cedc92fe0f58e4391fdd1e46572dad2dff9b741c08
+SHA1: fbadb392ea8d9be9c78fb0f5879009c1412a75c1
+MD5sum: e2fa8baa5730b1e0c415f1d0ca222739
+Description: FFmpeg library with extra codecs (metapackage)
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This metapackage depends on the latest version of the libavcodec variant
+ that offers additional codec support. Application packages can depend
+ on it if they require or suggest this variant in a robust manner.
+
+Package: libavcodec-extra57
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 10490
+Depends: libavutil55 (>= 7:3.4.1), libc6 (>= 2.17), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.12.0), libgsm1 (>= 1.0.13), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0, libopencore-amrnb0, libopencore-amrwb0, libopenjp2-7 (>= 2.0.0), libopus0 (>= 1.1), librsvg2-2 (>= 2.14.4), libshine3 (>= 3.1.0), libsnappy1v5, libspeex1 (>= 1.2~beta3-1), libswresample2 (>= 7:3.4.1), libtheora0 (>= 1.0), libtwolame0 (>= 0.3.10), libva1 (>= 1.7.3), libvo-amrwbenc0, libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx4 (>= 1.6.0), libwavpack1 (>= 4.40.0), libwebp6 (>= 0.5.1), libwebpmux2 (>= 0.5.1), libx264-148, libx265-95 (>= 2.1), libxvidcore4 (>= 1.2.2), libzvbi0 (>= 0.2.35), zlib1g (>= 1:1.2.0)
+Conflicts: libavcodec57
+Provides: libavcodec-extra
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg/libavcodec-extra57_3.4.1-1_arm64.deb
+Size: 4035684
+SHA256: 02de804f6328f99d6eb79e150f7d3f644eb4c055d8278ea4c0fe23db72c78859
+SHA1: db5505f85fb28f2f0c340643a46c79fe66ba997d
+MD5sum: 89a37bbe7cc0823cd4be89d295709dd6
+Description: FFmpeg library with additional de/encoders for audio/video codecs
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic encoding/decoding framework and
+ contains multiple decoders and encoders for audio, video and subtitle streams,
+ and several bitstream filters.
+ .
+ The shared architecture provides various services ranging from bit stream I/O
+ to DSP optimizations, and makes it suitable for implementing robust and fast
+ codecs as well as for experimentation.
+ .
+ This package replaces the libavcodec57 package and contains the
+ following additional codecs:
+ .
+  * OpenCORE Adaptive Multi-Rate (AMR) Narrow-Band (Encoder/Decoder)
+  * OpenCORE Adaptive Multi-Rate (AMR) Wide-Band (Decoder)
+  * Android VisualOn Adaptive Multi-Rate (AMR) Wide-Band (Encoder)
+ .
+ Because this package links against libraries that are licensed under
+ Apache License 2.0, the resulting binaries are distributed under the
+ GPL version 3 or later.
+
+Package: libavcodec-extra57-dbgsym
+Source: ffmpeg
+Version: 7:3.4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 16030
+Depends: libavcodec-extra57 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: extra
+Section: debug
+Filename: pool/main/f/ffmpeg/libavcodec-extra57-dbgsym_3.4.1-1_arm64.deb
+Size: 14579068
+SHA256: 9fd9746cb0b60d1f8b0378c7e612511144f438777614facbb47293b12798b3aa
+SHA1: c450a5f1480ed7d640b04ef98f4ebedceb19b25c
+MD5sum: c57171a063aeb946be8ced9e61c913ac
+Description: Debug symbols for libavcodec-extra57
+Build-Ids: 05a73abe5ff761697f2ee201d3eba133ab368a5f
+
+Package: libavcodec57
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 10461
+Depends: libavutil55 (>= 7:3.4.1), libc6 (>= 2.17), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.12.0), libgsm1 (>= 1.0.13), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0, libopenjp2-7 (>= 2.0.0), libopus0 (>= 1.1), librsvg2-2 (>= 2.14.4), libshine3 (>= 3.1.0), libsnappy1v5, libspeex1 (>= 1.2~beta3-1), libswresample2 (>= 7:3.4.1), libtheora0 (>= 1.0), libtwolame0 (>= 0.3.10), libva1 (>= 1.7.3), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx4 (>= 1.6.0), libwavpack1 (>= 4.40.0), libwebp6 (>= 0.5.1), libwebpmux2 (>= 0.5.1), libx264-148, libx265-95 (>= 2.1), libxvidcore4 (>= 1.2.2), libzvbi0 (>= 0.2.35), zlib1g (>= 1:1.2.0)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg/libavcodec57_3.4.1-1_arm64.deb
+Size: 4031746
+SHA256: a98eb7a463300fd5391971504af496620cd4069fd346391c09e412f91ce0ff5a
+SHA1: eecb66b7cbcffea9fa1ac10feafa7703ecdea236
+MD5sum: 0348120640f6bd4e19c193e747029bcb
+Description: FFmpeg library with de/encoders for audio/video codecs - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic encoding/decoding framework and
+ contains multiple decoders and encoders for audio, video and subtitle streams,
+ and several bitstream filters.
+ .
+ The shared architecture provides various services ranging from bit stream I/O
+ to DSP optimizations, and makes it suitable for implementing robust and fast
+ codecs as well as for experimentation.
+ .
+ This package contains the runtime files.
+
+Package: libavcodec57-dbgsym
+Source: ffmpeg
+Version: 7:3.4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 16004
+Depends: libavcodec57 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: extra
+Section: debug
+Filename: pool/main/f/ffmpeg/libavcodec57-dbgsym_3.4.1-1_arm64.deb
+Size: 14558312
+SHA256: 8aa43ce7cac0effdd83592403a01dd63bebac7de44e26e45d909ffaf6b14fab2
+SHA1: 445ccbb5c8abbb45e1699467ce8c5cabc0191cc1
+MD5sum: 64f8d481836284c8da6751499f8cb7f2
+Description: Debug symbols for libavcodec57
+Build-Ids: c391b68919a0155fb97c36338721c4c86f18adea
+
+Package: libavdevice-dev
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 440
+Depends: libavcodec-dev (= 7:3.4.1-1), libavdevice57 (= 7:3.4.1-1), libavfilter-dev (= 7:3.4.1-1), libavformat-dev (= 7:3.4.1-1), libavresample-dev (= 7:3.4.1-1), libavutil-dev (= 7:3.4.1-1), libpostproc-dev (= 7:3.4.1-1), libswscale-dev (= 7:3.4.1-1), libswresample-dev (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg/libavdevice-dev_3.4.1-1_arm64.deb
+Size: 122392
+SHA256: 1277b0cce706d16b0ecca03cc147351a16cf5286b6e157d41a7a75fdd18aa182
+SHA1: 12b163901f0a46543b7457849618d7a2ad313d87
+MD5sum: aaf443dc023fff0c06e19d3a6c19c803
+Description: FFmpeg library for handling input and output devices - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic framework for grabbing from and rendering to
+ many common multimedia input/output devices, and supports several input and
+ output devices, including Video4Linux2, VfW, DShow, and ALSA.
+ .
+ This package contains the development files.
+
+Package: libavdevice57
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 273
+Depends: libasound2 (>= 1.0.16), libavc1394-0 (>= 0.5.3), libavcodec57 (>= 7:3.4.1) | libavcodec-extra57 (>= 7:3.4.1), libavfilter6 (>= 7:3.4.1) | libavfilter-extra6 (>= 7:3.4.1), libavformat57 (>= 7:3.4.1), libavutil55 (>= 7:3.4.1), libc6 (>= 2.17), libcaca0 (>= 0.99.beta17-1), libcdio-cdda1 (>= 0.83), libcdio-paranoia1 (>= 0.83), libdc1394-22, libdrm2 (>= 2.4.47), libgl1-mesa-glx | libgl1, libiec61883-0 (>= 1.2.0), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libopenal1 (>= 1.14), libpulse0 (>= 0.99.1), libraw1394-11, libsdl2-2.0-0 (>= 2.0.4), libsndio6.1 (>= 1.1.0), libx11-6, libxcb-shape0, libxcb-shm0, libxcb-xfixes0, libxcb1, libxext6, libxv1
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg/libavdevice57_3.4.1-1_arm64.deb
+Size: 106108
+SHA256: 67af5a6b193348ccb0c0e65a4d1b99e6af1327f588cb53e643ad68cb6d5becc0
+SHA1: 6331f475f9a63c023e972b7e2ba1a4e20819525b
+MD5sum: 2e24159edc60ac3edc38f00f060263b5
+Description: FFmpeg library for handling input and output devices - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic framework for grabbing from and rendering to
+ many common multimedia input/output devices, and supports several input and
+ output devices, including Video4Linux2, VfW, DShow, and ALSA.
+ .
+ This package contains the runtime files.
+
+Package: libavdevice57-dbgsym
+Source: ffmpeg
+Version: 7:3.4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 560
+Depends: libavdevice57 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: extra
+Section: debug
+Filename: pool/main/f/ffmpeg/libavdevice57-dbgsym_3.4.1-1_arm64.deb
+Size: 460222
+SHA256: d90f707a5e6491573295d266c3b95577059b52fbfa51ebca9e883439ed40e50c
+SHA1: 8bc37f8abec34014df5dbd916074587cd43b94ed
+MD5sum: 1b5ec892ab7887018bf77a61774a7186
+Description: Debug symbols for libavdevice57
+Build-Ids: 68f9b2eab16e7581e2cb48849045d161b1a80ae6
+
+Package: libavfilter-dev
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 4117
+Depends: libavcodec-dev (= 7:3.4.1-1), libavfilter6 (= 7:3.4.1-1) | libavfilter-extra6 (= 7:3.4.1-1), libavformat-dev (= 7:3.4.1-1), libavresample-dev (= 7:3.4.1-1), libavutil-dev (= 7:3.4.1-1), libpostproc-dev (= 7:3.4.1-1), libswresample-dev (= 7:3.4.1-1), libswscale-dev (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg/libavfilter-dev_3.4.1-1_arm64.deb
+Size: 907262
+SHA256: fbaf9717a4eed44141fbec770cc9736f85e89133f6780d25c51138e4c1d4ee38
+SHA1: 13413a7d0cd97d997120f2391de24584fd86d6c0
+MD5sum: ec5c6dd284e81fbefbedb39cded4f583
+Description: FFmpeg library containing media filters - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic audio/video filtering framework containing
+ several filters, sources and sinks.
+ .
+ This package contains the development files.
+
+Package: libavfilter-extra
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 89
+Depends: libavfilter-extra6
+Multi-Arch: foreign
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: metapackages
+Filename: pool/main/f/ffmpeg/libavfilter-extra_3.4.1-1_all.deb
+Size: 53804
+SHA256: 20a34c5dc59b3824be507c2625c290973b13059600b65d2815b41870e25b7fa0
+SHA1: 9cdf00a5ce9311fa0ed03c718e04ecf04b8e89f7
+MD5sum: a0c9840371b499bee71e4bc460a82cea
+Description: FFmpeg library with extra filters (metapackage)
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This metapackage depends on the latest version of the libavfilter variant
+ that offers additional filter support. Application packages can depend
+ on it if they require or suggest this variant in a robust manner.
+
+Package: libavfilter-extra6
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 2394
+Depends: libass5 (>= 0.13.0), libavcodec57 (>= 7:3.4.1) | libavcodec-extra57 (>= 7:3.4.1), libavformat57 (>= 7:3.4.1), libavresample3 (>= 7:3.4.1), libavutil55 (>= 7:3.4.1), libbs2b0, libc6 (>= 2.17), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libopencv-core2.4v5, libopencv-imgproc2.4v5, libpostproc54 (>= 7:3.4.1), librubberband2, libswresample2 (>= 7:3.4.1), libswscale4 (>= 7:3.4.1), libtesseract3, libva1 (>= 1.7.3), libzmq5 (>= 3.2.3+dfsg)
+Conflicts: libavfilter6
+Provides: libavfilter-extra
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg/libavfilter-extra6_3.4.1-1_arm64.deb
+Size: 759112
+SHA256: 24d7ff0199f6eea8d3f71577b2283bad2eda0e3ea31de9db6b26d22c9fe6c7cd
+SHA1: e6da139ff554bdbd26d9bcb045802bb8bb1d4aee
+MD5sum: c5b36246dd5a9c7b7e4d8dd46cce6de5
+Description: FFmpeg library with extra media filters - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic audio/video filtering framework containing
+ several filters, sources and sinks.
+ .
+ This package replaces the libavfilter6 package and contains the
+ following additional filters:
+ .
+  * Optical Character Recognition (uses Tesseract)
+  * SOFAlizer (Spatially Oriented Format for Acoustics, uses netcdf)
+ .
+ Because this package links against libraries that are licensed under
+ Apache License 2.0, the resulting binaries are distributed under the
+ GPL version 3 or later.
+
+Package: libavfilter-extra6-dbgsym
+Source: ffmpeg
+Version: 7:3.4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 3030
+Depends: libavfilter-extra6 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: extra
+Section: debug
+Filename: pool/main/f/ffmpeg/libavfilter-extra6-dbgsym_3.4.1-1_arm64.deb
+Size: 2675958
+SHA256: cd3f281a66706ef88f26cf6c16f45646672cc9599472967528b53571fd5361a0
+SHA1: 9cb87a4aa98a2d0cff97603a9458d2aca9b5b281
+MD5sum: 6db4d05e29e4cf86cef74b10b43898bf
+Description: Debug symbols for libavfilter-extra6
+Build-Ids: dbb40a4eadc6b8fdbc0384d8c2bfba30e84e8448
+
+Package: libavfilter6
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 2398
+Depends: libass5 (>= 0.13.0), libavcodec57 (>= 7:3.4.1) | libavcodec-extra57 (>= 7:3.4.1), libavformat57 (>= 7:3.4.1), libavresample3 (>= 7:3.4.1), libavutil55 (>= 7:3.4.1), libbs2b0, libc6 (>= 2.17), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libopencv-core2.4v5, libopencv-imgproc2.4v5, libpostproc54 (>= 7:3.4.1), librubberband2, libswresample2 (>= 7:3.4.1), libswscale4 (>= 7:3.4.1), libva1 (>= 1.7.3), libzmq5 (>= 3.2.3+dfsg)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg/libavfilter6_3.4.1-1_arm64.deb
+Size: 758308
+SHA256: 45b7ba1f08101088f631f4edbce3dd9860deeecec2c5787712caef3e09f8af0e
+SHA1: ecf85f3cee0fb10b9693125df267f3cd36c78090
+MD5sum: e2f7bf61173ec265b44ca92d6b7f61f8
+Description: FFmpeg library containing media filters - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic audio/video filtering framework containing
+ several filters, sources and sinks.
+ .
+ This package contains the runtime files.
+
+Package: libavfilter6-dbgsym
+Source: ffmpeg
+Version: 7:3.4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 3024
+Depends: libavfilter6 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: extra
+Section: debug
+Filename: pool/main/f/ffmpeg/libavfilter6-dbgsym_3.4.1-1_arm64.deb
+Size: 2672792
+SHA256: d3b2ef701f229cbdb481d871e8047b9ada5d4a806198a9db387b62b1e06ac852
+SHA1: 4817617eec4ea96334083b56a85a1a8b21654d49
+MD5sum: f9cb63ac493d013d2f335280658b1568
+Description: Debug symbols for libavfilter6
+Build-Ids: 1759faf885f1d381fa8a646f331a22bb1f023c40
+
+Package: libavformat-dev
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 4840
+Depends: libavcodec-dev (= 7:3.4.1-1), libavformat57 (= 7:3.4.1-1), libavutil-dev (= 7:3.4.1-1), libswresample-dev (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg/libavformat-dev_3.4.1-1_arm64.deb
+Size: 1064382
+SHA256: 68b4afe0f0190aff9445c789390d18ea6a7fe2bdb1a38e9cd6bde8d72940a763
+SHA1: ff1f95e290cc82ca169b833fe97a50a1886a6f4a
+MD5sum: dc206918450091a53e9680c846f15772
+Description: FFmpeg library with (de)muxers for multimedia containers - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic framework for multiplexing and demultiplexing
+ (muxing and demuxing) audio, video and subtitle streams. It encompasses
+ multiple muxers and demuxers for multimedia container formats. It also
+ supports several input and output protocols to access a media resource.
+ .
+ This package contains the development files.
+
+Package: libavformat57
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 2256
+Depends: libavcodec57 (>= 7:3.4.1) | libavcodec-extra57 (>= 7:3.4.1), libavutil55 (>= 7:3.4.1), libbluray1 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.17), libchromaprint1 (>= 1.3.2), libgme0 (>= 0.5.5), libgnutls30 (>= 3.5.6), libopenmpt0 (>= 0.2.7025~beta20.1), libssh-gcrypt-4 (>= 0.4.2), libxml2 (>= 2.7.4), zlib1g (>= 1:1.2.0.2)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg/libavformat57_3.4.1-1_arm64.deb
+Size: 849640
+SHA256: a19988d1d76dd11bdf1d6ba0a3600c2081b8d7e66662d7492fe6888208ca1e6d
+SHA1: c67bb7bfb76a2c645ac9a60206f40117af6b8631
+MD5sum: f050a4ba22a565848f799e47dab4890f
+Description: FFmpeg library with (de)muxers for multimedia containers - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides a generic framework for multiplexing and demultiplexing
+ (muxing and demuxing) audio, video and subtitle streams. It encompasses
+ multiple muxers and demuxers for multimedia container formats. It also
+ supports several input and output protocols to access a media resource.
+ .
+ This package contains the runtime files.
+
+Package: libavformat57-dbgsym
+Source: ffmpeg
+Version: 7:3.4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 6609
+Depends: libavformat57 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: extra
+Section: debug
+Filename: pool/main/f/ffmpeg/libavformat57-dbgsym_3.4.1-1_arm64.deb
+Size: 5679834
+SHA256: ded7aacb392925f8018d442c3844a01af027b453a625252dba898273d278781b
+SHA1: a9042a12c14574891d61ed53b082c5b4309baf3c
+MD5sum: 9b10df03d2f4981d98cffc67cb4f5080
+Description: Debug symbols for libavformat57
+Build-Ids: 1e22f036d586655a390a3caecdcb23b31f6a6497
+
+Package: libavresample-dev
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 247
+Depends: libavutil-dev (= 7:3.4.1-1), libavresample3 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg/libavresample-dev_3.4.1-1_arm64.deb
+Size: 88282
+SHA256: f5662bfad21fd370ee4aee2262b1f4f172770dadb36adfe52e10a0ac306d1717
+SHA1: ddceab99aad40da036add4f5179249cd40a8fa20
+MD5sum: fd3feb7d7d60040161afe36227d96c51
+Description: FFmpeg compatibility library for resampling - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library is provided for compatibility reasons only.
+ The FFmpeg project advises to use libswresample instead.
+ .
+ This package contains the development files.
+
+Package: libavresample3
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 171
+Depends: libavutil55 (>= 7:3.4.1), libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg/libavresample3_3.4.1-1_arm64.deb
+Size: 79082
+SHA256: 5532192d9684fc9cc20ecb057f509af1ae38891a157c862dc86c65225b9b844c
+SHA1: 25bed53a067c67aebb8482cca7def950802dda3f
+MD5sum: 2ff2bb3122df0522f6464b877a923ca0
+Description: FFmpeg compatibility library for resampling - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library is provided for compatibility reasons only.
+ The FFmpeg project advises to use libswresample instead.
+ .
+ This package contains the runtime files.
+
+Package: libavresample3-dbgsym
+Source: ffmpeg
+Version: 7:3.4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 106
+Depends: libavresample3 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: extra
+Section: debug
+Filename: pool/main/f/ffmpeg/libavresample3-dbgsym_3.4.1-1_arm64.deb
+Size: 80170
+SHA256: 9b86f206e1ec81eb44ed0121ff50424bc1d42c74031644bac5f843e259fea08c
+SHA1: 3193e78f98945c4f2813c048b2b5b8f6959bff99
+MD5sum: 5787db2f300c6167a26c89854ef655b5
+Description: Debug symbols for libavresample3
+Build-Ids: 6a85f8f417400d328bc7b4ee4074b255caece742
+
+Package: libavutil-dev
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 1286
+Depends: libavutil55 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg/libavutil-dev_3.4.1-1_arm64.deb
+Size: 317974
+SHA256: 99e58c82291568f004b2503e112b64a6ca9e61bf7c3a1028b87982d53167463d
+SHA1: 057cd0d58cad5d0a5bc0b13f6ac47885bd7bd755
+MD5sum: 9900131034d7a5c7dcd18f889a6eb245
+Description: FFmpeg library with functions for simplifying programming - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library is a utility library to aid portable multimedia programming.
+ It contains safe portable string functions, random number generators, data
+ structures, additional mathematics functions, cryptography and multimedia
+ related functionality (like enumerations for pixel and sample formats).
+ It is not a library for code needed by both libavcodec and libavformat.
+ The goal for this library is to be modular, small, efficient and useful.
+ .
+ This package contains the development files.
+
+Package: libavutil55
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 515
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.3.1), libva-drm1 (>= 1.1.0), libva-x11-1 (>= 1.0.3), libva1 (>= 1.2.0), libvdpau1 (>= 0.2), libx11-6
+Breaks: libavcodec-extra57 (<< 7:3.4), libavcodec57 (<< 7:3.4), libavfilter-extra6 (<< 7:3.4), libavfilter6 (<< 7:3.4)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg/libavutil55_3.4.1-1_arm64.deb
+Size: 208662
+SHA256: 97e3a4199375414fd04a5114f6c499819c1d8ff0a12e4f2a0e5d4a73945e3c89
+SHA1: d13d7d637f1e50142a82facb97ee447b5153c7fd
+MD5sum: ab1f53d2c29fec36c992fc266f6e8918
+Description: FFmpeg library with functions for simplifying programming - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library is a utility library to aid portable multimedia programming.
+ It contains safe portable string functions, random number generators, data
+ structures, additional mathematics functions, cryptography and multimedia
+ related functionality (like enumerations for pixel and sample formats).
+ It is not a library for code needed by both libavcodec and libavformat.
+ The goal for this library is to be modular, small, efficient and useful.
+ .
+ This package contains the runtime files.
+
+Package: libavutil55-dbgsym
+Source: ffmpeg
+Version: 7:3.4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 397
+Depends: libavutil55 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: extra
+Section: debug
+Filename: pool/main/f/ffmpeg/libavutil55-dbgsym_3.4.1-1_arm64.deb
+Size: 348834
+SHA256: 899346c8bdce467071c049dd09dd66769bed48454ba5af70f24ec41936846367
+SHA1: a2085f82c319c040ee5549eb4aa452423c6bd96a
+MD5sum: c2c43185e140c47fd01a14d382b211a8
+Description: Debug symbols for libavutil55
+Build-Ids: 3d57cd2bfa5513d58a88006b3bae27802349dd39
+
+Package: libdrm-dev
+Source: libdrm
+Version: 2.4.68-2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 837
+Depends: libdrm2 (= 2.4.68-2), libdrm-rockchip1 (= 2.4.68-2)
+Multi-Arch: same
+Homepage: http://cgit.freedesktop.org/mesa/drm/
+Priority: optional
+Section: libdevel
+Filename: pool/main/libd/libdrm/libdrm-dev_2.4.68-2_arm64.deb
+Size: 180464
+SHA256: 61e9024fea67bfc812babaa240e907f2f96fe9b9a91db1e7422cdab89bfb3b26
+SHA1: 1c15e90a691224eb0e303c27676791d7d9b69862
+MD5sum: 13ef082de70164cc69d901ab5356361c
+Description: Userspace interface to kernel DRM services -- development files
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+ .
+ This package provides the development environment for libdrm.
+
+Package: libdrm-rockchip1
+Source: libdrm
+Version: 2.4.68-2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 52
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.3)
+Multi-Arch: same
+Homepage: http://cgit.freedesktop.org/mesa/drm/
+Priority: optional
+Section: libs
+Filename: pool/main/libd/libdrm/libdrm-rockchip1_2.4.68-2_arm64.deb
+Size: 16766
+SHA256: 5ac10e52e395d4c93579c1706835eb0e8179cd13be0be8061a7ea7704a2a597e
+SHA1: 23971af667a9b4e194c959ef7ebd04fc3ccc604e
+MD5sum: e870867423111513eacd6bc59fca4c0d
+Description: Userspace interface to msm/kgsl kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+
+Package: libdrm2
+Source: libdrm
+Version: 2.4.68-2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 101
+Depends: libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: http://cgit.freedesktop.org/mesa/drm/
+Priority: optional
+Section: libs
+Filename: pool/main/libd/libdrm/libdrm2_2.4.68-2_arm64.deb
+Size: 31734
+SHA256: 4473872086a720c3a10d9d584ed7ef3b86e394f42354d8e6f9dcac067ee6d8fd
+SHA1: c0a34cc0ef4b051129f8183b57e058e839aac46c
+MD5sum: c45c1369770ddab8deca36f8b233c8ce
+Description: Userspace interface to kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+ .
+ This package provides the runtime environment for libdrm.
+
+Package: libmraa
+Version: 0.8
+Maintainer: Radxa <dev@radxa.com>
+Architecture: arm64
+Component: main
+Multi-Arch: foreign
+Replaces: libmraa-rockpi4
+Conflicts: libmraa-rockpi4
+Provides: libmraa-rockpi4
+Depends: libc6, libjson-c3, libgcc1, libstdc++6,
+    python, libpython2.7, python3.5, libpython3.5
+Priority: optional
+Section: libs
+Filename: pool/main/libm/libmraa/libmraa_0.8_arm64.deb
+Size: 188784
+SHA256: 4afe7fc3180c800d010ba78e2f14cd2e29019d0a05f30c6965fe616d8d29f6b2
+SHA1: ddab97147a9d8b6496ffe32bb1c7f5285096e3dc
+MD5sum: 40c93bdd12f480af0ad89fd3e8e6cf8d
+Description: libmraa
+
+Package: libpostproc-dev
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 149
+Depends: libavutil-dev (= 7:3.4.1-1), libpostproc54 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg/libpostproc-dev_3.4.1-1_arm64.deb
+Size: 73924
+SHA256: ec3f9310601e84fb0dbbebeef0e53dc9c60082a7397f1b0a8263868e2d5aca23
+SHA1: e688bb0ea1971c4620823e3ccc6d86227ec389a9
+MD5sum: 1c4764f450c312a731e97571d8a53bae
+Description: FFmpeg library for post processing - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides video post processing.
+ .
+ This package contains the development files.
+
+Package: libpostproc54
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 143
+Depends: libavutil55 (>= 7:3.4.1), libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg/libpostproc54_3.4.1-1_arm64.deb
+Size: 73268
+SHA256: ffeb5235daa8c73c16edd68d5c003689c735945c8234cb0423ab2a92101a6f95
+SHA1: d51bf4de849c5c7a33c683a97b38211234d19517
+MD5sum: befac95be3fe3d658414b1f4bc50b0e4
+Description: FFmpeg library for post processing - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides video post processing.
+ .
+ This package contains the runtime files.
+
+Package: libpostproc54-dbgsym
+Source: ffmpeg
+Version: 7:3.4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 54
+Depends: libpostproc54 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: extra
+Section: debug
+Filename: pool/main/f/ffmpeg/libpostproc54-dbgsym_3.4.1-1_arm64.deb
+Size: 39388
+SHA256: f7aed563499be7615defe7df8bf6d33cc5de58a7c1132c2dc377cc1eb38106b1
+SHA1: 204da43cc7a1d5a5fd540287850555393b43d620
+MD5sum: 8c336c3bf129eed5b4c1e932afcd42ff
+Description: Debug symbols for libpostproc54
+Build-Ids: 23199da940f96f88eb25b4dd4f902e9afed1dfbf
+
+Package: librockchip-mpp-dev
+Source: mpp
+Version: 20190626-1
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 144
+Depends: librockchip-mpp1 (= 20190626-1)
+Homepage: http://www.rock-chips.com
+Priority: optional
+Section: libdevel
+Filename: pool/main/m/mpp/librockchip-mpp-dev_20190626-1_arm64.deb
+Size: 31240
+SHA256: 5288400b5ecc30f7bcba2002272873892cb795fc85c40faae561b9506b8f3f86
+SHA1: 405fc0f8fa75a55d43c1a3a8c2c565ae4090934f
+MD5sum: 7bb7cf66e14729b0f6b80b4ae7130890
+Description: Media Process Platform
+
+Package: librockchip-mpp-static
+Source: mpp
+Version: 20190626-1
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 193
+Homepage: http://www.rock-chips.com
+Priority: optional
+Section: libs
+Filename: pool/main/m/mpp/librockchip-mpp-static_20190626-1_arm64.deb
+Size: 38866
+SHA256: ea7d3cf4d3e112cb68f5201ae15be7f0aec4eae209544966700f8f147554cc42
+SHA1: b876dfc8b006709c1b6262e71a9cc547075304ee
+MD5sum: 25707a525477534532f62f4aba495d1b
+Description: Media Process Platform
+
+Package: librockchip-mpp1
+Source: mpp
+Version: 20190626-1
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 1004
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
+Homepage: http://www.rock-chips.com
+Priority: optional
+Section: libs
+Filename: pool/main/m/mpp/librockchip-mpp1_20190626-1_arm64.deb
+Size: 351688
+SHA256: af8570cae2e86afad777d075dbff7968fd21f24ade3fb67bd96157e7357da2ca
+SHA1: b170de67ee9effaf593defcb59f25c3567b69840
+MD5sum: cc8a11e9b5c139652e70ceffc8a47489
+Description: Media Process Platform
+
+Package: librockchip-mpp1-dbgsym
+Source: mpp
+Version: 20190626-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 1441
+Depends: librockchip-mpp1 (= 20190626-1)
+Homepage: http://www.rock-chips.com
+Priority: extra
+Section: debug
+Filename: pool/main/m/mpp/librockchip-mpp1-dbgsym_20190626-1_arm64.deb
+Size: 1305236
+SHA256: 6b430ea8f1139eb677f7638f036e8e466e3948ee63038b2a458977a678a3f9a9
+SHA1: 590dbbcf99238060d4a93657202f40e59405aa2a
+MD5sum: b84eac25c574abcc73a1e935f677171b
+Description: Debug symbols for librockchip-mpp1
+Build-Ids: 355a14b00fdde4192221ba31cfef9ba2e38a4fd7
+
+Package: librockchip-vpu0
+Source: mpp
+Version: 20190626-1
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 71
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), librockchip-mpp1, libstdc++6 (>= 5)
+Homepage: http://www.rock-chips.com
+Priority: optional
+Section: libs
+Filename: pool/main/m/mpp/librockchip-vpu0_20190626-1_arm64.deb
+Size: 23024
+SHA256: 7eb3fab752e8c7bcd4cefb8d9fab11637d70b4e8adc17674f9fb31e882c94ff8
+SHA1: 44c162eece701088e26443116a33bf02db9ab00e
+MD5sum: 49dd977949aac4bbe55e5bc1f00d5e8b
+Description: Media Process Platform
+
+Package: librockchip-vpu0-dbgsym
+Source: mpp
+Version: 20190626-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 88
+Depends: librockchip-vpu0 (= 20190626-1)
+Homepage: http://www.rock-chips.com
+Priority: extra
+Section: debug
+Filename: pool/main/m/mpp/librockchip-vpu0-dbgsym_20190626-1_arm64.deb
+Size: 65536
+SHA256: effcaad57fd3e1086737264c583a1c502af099d6ebd37b5fb7ac7089e3fdfde6
+SHA1: 695912568fdf274e24dcfa5e444a51bb18aa05dd
+MD5sum: ce45e476a1e90a92fc2cab99b7bf1506
+Description: Debug symbols for librockchip-vpu0
+Build-Ids: 071356d7e864badacee3c2e34f60013489fbec60
+
+Package: libswresample-dev
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 260
+Depends: libavutil-dev (= 7:3.4.1-1), libswresample2 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg/libswresample-dev_3.4.1-1_arm64.deb
+Size: 95174
+SHA256: a097ac4cf780d51d486a1c31c6e2c30635bd9c06d2cc086b72e56181e39ac5ce
+SHA1: 0dc8fc995b146cca1a0c02ee7e6bdbdfa52ad9d2
+MD5sum: 4095b8c0e9b3ac36d44b768dd6e61275
+Description: FFmpeg library for audio resampling, rematrixing etc. - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides performs highly optimized audio resampling, rematrixing
+ and sample format conversion operations.
+ Specifically, this library performs the following conversions:
+  * Resampling is the process of changing the audio rate, for example from a
+    high sample rate of 44100Hz to 8000Hz. Audio conversion from high to low
+    sample rate is a lossy process. Several resampling options and algorithms
+    are available.
+  * Rematrixing is the process of changing the channel layout, for example from
+    stereo to mono. When the input channels cannot be mapped to the output
+    streams, the process is lossy, since it involves different gain factors
+    and mixing. Various other audio conversions (e.g. stretching and padding)
+    are enabled through dedicated options.
+  * Format conversion is the process of converting the type of samples, for
+    example from 16-bit signed samples to unsigned 8-bit or float samples.
+    It also handles packing conversion, when passing from packed layout (all
+    samples belonging to distinct channels interleaved in the same buffer), to
+    planar layout (all samples belonging to the same channel stored in a
+    dedicated buffer or "plane").
+ .
+ This package contains the development files.
+
+Package: libswresample2
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 183
+Depends: libavutil55 (>= 7:3.4.1), libc6 (>= 2.17), libsoxr0 (>= 0.1.0)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg/libswresample2_3.4.1-1_arm64.deb
+Size: 84702
+SHA256: 2fa30231dc9cb2d5966f5b85b0dc92b229c2ea7bf2fc8e9bc5bf389111fbf3a5
+SHA1: deae15e4e64db790b3eadee7401f36dc3fc23aa2
+MD5sum: 70d14b704ef5f079cd9768e439c1e6f6
+Description: FFmpeg library for audio resampling, rematrixing etc. - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library provides performs highly optimized audio resampling, rematrixing
+ and sample format conversion operations.
+ Specifically, this library performs the following conversions:
+  * Resampling is the process of changing the audio rate, for example from a
+    high sample rate of 44100Hz to 8000Hz. Audio conversion from high to low
+    sample rate is a lossy process. Several resampling options and algorithms
+    are available.
+  * Rematrixing is the process of changing the channel layout, for example from
+    stereo to mono. When the input channels cannot be mapped to the output
+    streams, the process is lossy, since it involves different gain factors
+    and mixing. Various other audio conversions (e.g. stretching and padding)
+    are enabled through dedicated options.
+  * Format conversion is the process of converting the type of samples, for
+    example from 16-bit signed samples to unsigned 8-bit or float samples.
+    It also handles packing conversion, when passing from packed layout (all
+    samples belonging to distinct channels interleaved in the same buffer), to
+    planar layout (all samples belonging to the same channel stored in a
+    dedicated buffer or "plane").
+ .
+ This package contains the runtime files.
+
+Package: libswresample2-dbgsym
+Source: ffmpeg
+Version: 7:3.4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 113
+Depends: libswresample2 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: extra
+Section: debug
+Filename: pool/main/f/ffmpeg/libswresample2-dbgsym_3.4.1-1_arm64.deb
+Size: 87452
+SHA256: ea0ec6a6336bd451054b76618218bb630612d6031b89d09d9d2f509d95f68fb1
+SHA1: 1bc36363aade853402f5d29b8e4f51abad78820e
+MD5sum: 2e1a1351fc64d3f7e0da675d23ffdf20
+Description: Debug symbols for libswresample2
+Build-Ids: 29939d6c20eb8e470ab5adae2fa1cae00d30aabd
+
+Package: libswscale-dev
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 689
+Depends: libavutil-dev (= 7:3.4.1-1), libswscale4 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg/libswscale-dev_3.4.1-1_arm64.deb
+Size: 170902
+SHA256: 2c51968ba270c7b0e12bca17c05ca2bc4c9fc25069d312cf5a2ac08fc8df6159
+SHA1: 89ced730ee0ec2044be65445a5a93c01ffa8b500
+MD5sum: 52f21bc89c62eca36ec8e7fda7aa100e
+Description: FFmpeg library for image scaling and various conversions - development files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library performs highly optimized image scaling and colorspace and pixel
+ format conversion operations.
+ Specifically, this library performs the following conversions:
+  * Rescaling is the process of changing the video size. Several rescaling
+    options and algorithms are available. This is usually a lossy process.
+  * Pixel format conversion is the process of converting the image format and
+    colorspace of the image, for example from planar YUV420P to RGB24 packed.
+    It also handles packing conversion, that is converts from packed layout
+    (all pixels belonging to distinct planes interleaved in the same buffer),
+    to planar layout (all samples belonging to the same plane stored in a
+    dedicated buffer or "plane"). This is usually a lossy process in case the
+    source and destination colorspaces differ.
+ .
+ This package contains the development files.
+
+Package: libswscale4
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 463
+Depends: libavutil55 (>= 7:3.4.1), libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg/libswscale4_3.4.1-1_arm64.deb
+Size: 153218
+SHA256: 4ffc92c62fe9eae1c81b582950b65a79b36911e5994d41dbac9c18d591ae3237
+SHA1: 60e68d602d6f72a7923f27a18fc6849415259842
+MD5sum: d152871d1228b928fe530183fdc62a7f
+Description: FFmpeg library for image scaling and various conversions - runtime files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This library performs highly optimized image scaling and colorspace and pixel
+ format conversion operations.
+ Specifically, this library performs the following conversions:
+  * Rescaling is the process of changing the video size. Several rescaling
+    options and algorithms are available. This is usually a lossy process.
+  * Pixel format conversion is the process of converting the image format and
+    colorspace of the image, for example from planar YUV420P to RGB24 packed.
+    It also handles packing conversion, that is converts from packed layout
+    (all pixels belonging to distinct planes interleaved in the same buffer),
+    to planar layout (all samples belonging to the same plane stored in a
+    dedicated buffer or "plane"). This is usually a lossy process in case the
+    source and destination colorspaces differ.
+ .
+ This package contains the runtime files.
+
+Package: libswscale4-dbgsym
+Source: ffmpeg
+Version: 7:3.4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 551
+Depends: libswscale4 (= 7:3.4.1-1)
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
+Priority: extra
+Section: debug
+Filename: pool/main/f/ffmpeg/libswscale4-dbgsym_3.4.1-1_arm64.deb
+Size: 505494
+SHA256: dbf7811b1baa3372ca2434e795628032604fa3d312f7c62f3c90d28a0c99be42
+SHA1: 22f46ae6467e5ded9d88bd6fa0a0e370947dc207
+MD5sum: 4f4cce2e23a5ba2197442215a9f13879
+Description: Debug symbols for libswscale4
+Build-Ids: 5b081569d6ce572f2b1791c63260cb6140aaf8e1
+
+Package: linux-4.4-latest
+Version: 4.4.154-110-rockchip
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.154-110-rockchip-gcef30e88a9f5, linux-firmware-image-4.4.154-110-rockchip-gcef30e88a9f5, linux-headers-4.4.154-110-rockchip-gcef30e88a9f5
+Homepage: https://github.com/radxa/kernel
+Priority: optional
+Section: admin
+Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-110-rockchip_all.deb
+Size: 1106
+SHA256: fa21e115a3acd68bfed03230fc2652a0b92b52297a012a71a36f4ab51ba05e93
+SHA1: 2de0292b2d968f0de5d874536f55b6ae5c16fc6e
+MD5sum: 38ba55f9224d6fda58dfe429da47c0d2
+Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
+Multi-Arch: foreign
+
+Package: linux-firmware-image-4.4.154-110-rockchip-gcef30e88a9f5
+Source: linux-4.4.154-110-rockchip-gcef30e88a9f5
+Version: 4.4.154-110-rockchip
+Architecture: all
+Maintainer: Anonymous <root@d8e4dda7dbbf>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-110-rockchip-gcef30e88a9f5/linux-firmware-image-4.4.154-110-rockchip-gcef30e88a9f5_4.4.154-110-rockchip_all.deb
+Size: 186504
+SHA256: a553eee01d8bbbe1aba6ed7d32a25727ff4787215ad9f9e868e38b3a325d8bf5
+SHA1: 9daa33371a40635f2fcf8098eadafc7ce1dc5232
+MD5sum: 657d27116b090bf646679954f62b2823
+Description: Linux kernel firmware, version 4.4.154-110-rockchip-gcef30e88a9f5
+ This package contains firmware from the Linux kernel, version 4.4.154-110-rockchip-gcef30e88a9f5.
+
+Package: linux-firmware-image-4.4.154-59-rockchip-g5e70f14
+Source: linux-4.4.154-59-rockchip-g5e70f14
+Version: 4.4.154-59-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-59-rockchip-g5e70f14/linux-firmware-image-4.4.154-59-rockchip-g5e70f14_4.4.154-59-rockchip_all.deb
+Size: 185968
+SHA256: 536921090bcbb650c98e6152a7342982fd4968d15544e85d90dbcfad7248280a
+SHA1: 8886911b8ecd229846bb74baed17fdcb01d99a6d
+MD5sum: 7ad949b8ba76556a9ccd0e0686a14671
+Description: Linux kernel firmware, version 4.4.154-59-rockchip-g5e70f14
+ This package contains firmware from the Linux kernel, version 4.4.154-59-rockchip-g5e70f14.
+
+Package: linux-firmware-image-4.4.154-72-rockchip-g6520deb
+Source: linux-4.4.154-72-rockchip-g6520deb
+Version: 4.4.154-72-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-72-rockchip-g6520deb/linux-firmware-image-4.4.154-72-rockchip-g6520deb_4.4.154-72-rockchip_all.deb
+Size: 186928
+SHA256: 5ea435caf17e9653d0edda905afbc0cc892a1877dc1c48abab711596f1aad8bf
+SHA1: f0ddcb93f0975418fcd1b92bf6be8eb74c176b7a
+MD5sum: 5b164a620a14d0681434c0352dc1408f
+Description: Linux kernel firmware, version 4.4.154-72-rockchip-g6520deb
+ This package contains firmware from the Linux kernel, version 4.4.154-72-rockchip-g6520deb.
+
+Package: linux-firmware-image-4.4.154-73-rockchip-00007-g155a65a
+Source: linux-4.4.154-73-rockchip-00007-g155a65a
+Version: 4.4.154-73-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-73-rockchip-00007-g155a65a/linux-firmware-image-4.4.154-73-rockchip-00007-g155a65a_4.4.154-73-rockchip_all.deb
+Size: 186918
+SHA256: 5d7123b739e5111038fa561fece7ecd593bbc84e1bad9499e0f17f8d8d4db8fa
+SHA1: 83fc19187678486eed16487033a66d09a562821b
+MD5sum: bd6456a493bbb6f6716f83646d918de3
+Description: Linux kernel firmware, version 4.4.154-73-rockchip-00007-g155a65a
+ This package contains firmware from the Linux kernel, version 4.4.154-73-rockchip-00007-g155a65a.
+
+Package: linux-firmware-image-4.4.154-74-rockchip-00012-g0333c19
+Source: linux-4.4.154-74-rockchip-00012-g0333c19
+Version: 4.4.154-74-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-74-rockchip-00012-g0333c19/linux-firmware-image-4.4.154-74-rockchip-00012-g0333c19_4.4.154-74-rockchip_all.deb
+Size: 187276
+SHA256: a17f0524a6272b6d31020f7aee831f1f54dfa74344caa401e1a67759da288180
+SHA1: b988302c3e155d37cec166fc1f424850f0b24dec
+MD5sum: 42d0af059221482700221735c2692124
+Description: Linux kernel firmware, version 4.4.154-74-rockchip-00012-g0333c19
+ This package contains firmware from the Linux kernel, version 4.4.154-74-rockchip-00012-g0333c19.
+
+Package: linux-firmware-image-4.4.154-75-rockchip-00013-gcc4fef3
+Source: linux-4.4.154-75-rockchip-00013-gcc4fef3
+Version: 4.4.154-75-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-75-rockchip-00013-gcc4fef3/linux-firmware-image-4.4.154-75-rockchip-00013-gcc4fef3_4.4.154-75-rockchip_all.deb
+Size: 187088
+SHA256: 1334948c986fd611c5c1ba46e03c0ad022daf947a9d48564fb2185bd92b8912c
+SHA1: 04358c604c1155d956c50ff77294f8b533ab1ab5
+MD5sum: c7825104e1b6582701ef9b9d0d2dadc4
+Description: Linux kernel firmware, version 4.4.154-75-rockchip-00013-gcc4fef3
+ This package contains firmware from the Linux kernel, version 4.4.154-75-rockchip-00013-gcc4fef3.
+
+Package: linux-firmware-image-4.4.154-76-rockchip-00015-g6cd6212
+Source: linux-4.4.154-76-rockchip-00015-g6cd6212
+Version: 4.4.154-76-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-76-rockchip-00015-g6cd6212/linux-firmware-image-4.4.154-76-rockchip-00015-g6cd6212_4.4.154-76-rockchip_all.deb
+Size: 187168
+SHA256: 16ad7a8028dc0506c208a6501b57c1d5c315be206eea82a1102b6e3c342a61f0
+SHA1: 701237565e4a8456a15ca9dfeba7e28fe3159228
+MD5sum: 263214a413b46591067a76bb39901197
+Description: Linux kernel firmware, version 4.4.154-76-rockchip-00015-g6cd6212
+ This package contains firmware from the Linux kernel, version 4.4.154-76-rockchip-00015-g6cd6212.
+
+Package: linux-firmware-image-4.4.154-77-rockchip-00016-ged3107a
+Source: linux-4.4.154-77-rockchip-00016-ged3107a
+Version: 4.4.154-77-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-77-rockchip-00016-ged3107a/linux-firmware-image-4.4.154-77-rockchip-00016-ged3107a_4.4.154-77-rockchip_all.deb
+Size: 187186
+SHA256: 9b30f89e261fbe65c03aaa68b03961e153129cdd956ff4897943c26555d3a338
+SHA1: 272f55d453441f08343744c8b1bfd8672d5db0c6
+MD5sum: d2ef4fc70bda1f88857a847345c5d25c
+Description: Linux kernel firmware, version 4.4.154-77-rockchip-00016-ged3107a
+ This package contains firmware from the Linux kernel, version 4.4.154-77-rockchip-00016-ged3107a.
+
+Package: linux-firmware-image-4.4.154-78-rockchip-00017-g625c2b2
+Source: linux-4.4.154-78-rockchip-00017-g625c2b2
+Version: 4.4.154-78-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-78-rockchip-00017-g625c2b2/linux-firmware-image-4.4.154-78-rockchip-00017-g625c2b2_4.4.154-78-rockchip_all.deb
+Size: 186694
+SHA256: 33591d24b84f76333a50b20122c3a886692072371403a4ec94d462fee99ce5d4
+SHA1: 1307545b4dd512e26c88c178db26aa06fd065173
+MD5sum: 87c13cb60690959b5cdd352292899c08
+Description: Linux kernel firmware, version 4.4.154-78-rockchip-00017-g625c2b2
+ This package contains firmware from the Linux kernel, version 4.4.154-78-rockchip-00017-g625c2b2.
+
+Package: linux-firmware-image-4.4.154-81-rockchip-00021-g43bca74
+Source: linux-4.4.154-81-rockchip-00021-g43bca74
+Version: 4.4.154-81-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-81-rockchip-00021-g43bca74/linux-firmware-image-4.4.154-81-rockchip-00021-g43bca74_4.4.154-81-rockchip_all.deb
+Size: 186816
+SHA256: 8c1a554ce6ec0d9ea6258412ffb53dd435460dfa69e4f146465614f0f219efea
+SHA1: aac0456bc2b558b38d30cf85c132254a631dafa5
+MD5sum: ef40e463e2febc86516a5319e892d2a4
+Description: Linux kernel firmware, version 4.4.154-81-rockchip-00021-g43bca74
+ This package contains firmware from the Linux kernel, version 4.4.154-81-rockchip-00021-g43bca74.
+
+Package: linux-firmware-image-4.4.154-82-rockchip-00022-gb99b90e
+Source: linux-4.4.154-82-rockchip-00022-gb99b90e
+Version: 4.4.154-82-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-82-rockchip-00022-gb99b90e/linux-firmware-image-4.4.154-82-rockchip-00022-gb99b90e_4.4.154-82-rockchip_all.deb
+Size: 187010
+SHA256: 07c12c6074baf4080514d2aacee17bc5ae26e7ef6f3d8183effbfa877c98a2d6
+SHA1: dac86ecca6095bf982b8105c7e3ba7468ee0f617
+MD5sum: dd8de3d3907e963a80a793e0ec84b7e8
+Description: Linux kernel firmware, version 4.4.154-82-rockchip-00022-gb99b90e
+ This package contains firmware from the Linux kernel, version 4.4.154-82-rockchip-00022-gb99b90e.
+
+Package: linux-firmware-image-4.4.154-83-rockchip-00023-gae7a309
+Source: linux-4.4.154-83-rockchip-00023-gae7a309
+Version: 4.4.154-83-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-83-rockchip-00023-gae7a309/linux-firmware-image-4.4.154-83-rockchip-00023-gae7a309_4.4.154-83-rockchip_all.deb
+Size: 186766
+SHA256: b6370788e3071c42efa8ee8e56e45901bc8653bb44cb86743ae47c93abdfd615
+SHA1: ce2a7b796b82783666d308ca8119951c84c1cf95
+MD5sum: 89799bda42f3bd87327d9d102c81fde5
+Description: Linux kernel firmware, version 4.4.154-83-rockchip-00023-gae7a309
+ This package contains firmware from the Linux kernel, version 4.4.154-83-rockchip-00023-gae7a309.
+
+Package: linux-firmware-image-4.4.154-87-rockchip-00029-g8216f17
+Source: linux-4.4.154-87-rockchip-00029-g8216f17
+Version: 4.4.154-87-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-87-rockchip-00029-g8216f17/linux-firmware-image-4.4.154-87-rockchip-00029-g8216f17_4.4.154-87-rockchip_all.deb
+Size: 187030
+SHA256: 622648cc93bf50d91b613836532795bb36b76a819764a4282feb870ede632740
+SHA1: 26c5a76e9c3d0fdec19e3bddb0f0e43ba9354dff
+MD5sum: ca5426d2f4b13015f681d7f868db2eeb
+Description: Linux kernel firmware, version 4.4.154-87-rockchip-00029-g8216f17
+ This package contains firmware from the Linux kernel, version 4.4.154-87-rockchip-00029-g8216f17.
+
+Package: linux-firmware-image-4.4.154-95-rockchip-gd2ab1f26e1b3
+Source: linux-4.4.154-95-rockchip-gd2ab1f26e1b3
+Version: 4.4.154-95-rockchip
+Architecture: all
+Maintainer: Anonymous <root@9b9f38ab9893>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-95-rockchip-gd2ab1f26e1b3/linux-firmware-image-4.4.154-95-rockchip-gd2ab1f26e1b3_4.4.154-95-rockchip_all.deb
+Size: 186400
+SHA256: 9474935043fe46be97495036e029805a04832d3692af8d3e8e51803476fed671
+SHA1: 0b2d1deb50b9123e4469aadafd90dce681f81e85
+MD5sum: c644e798c39dccc0349ce8c57f2ed5dd
+Description: Linux kernel firmware, version 4.4.154-95-rockchip-gd2ab1f26e1b3
+ This package contains firmware from the Linux kernel, version 4.4.154-95-rockchip-gd2ab1f26e1b3.
+
+Package: linux-headers-4.4.154-110-rockchip-gcef30e88a9f5
+Source: linux-4.4.154-110-rockchip-gcef30e88a9f5
+Version: 4.4.154-110-rockchip
+Architecture: all
+Maintainer: Anonymous <root@d8e4dda7dbbf>
+Installed-Size: 71015
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-110-rockchip-gcef30e88a9f5/linux-headers-4.4.154-110-rockchip-gcef30e88a9f5_4.4.154-110-rockchip_all.deb
+Size: 10192088
+SHA256: 5318d3b493ddad7fd3ba000c4154c3d7cd9c79f4903c80d02e73a6c64e2d9773
+SHA1: af96af4e76d9f6c09315f254e86c5e2a8ba3f610
+MD5sum: 17d9158b2c994f283ec0ea1e60a2ab63
+Description: Linux kernel headers for 4.4.154-110-rockchip-gcef30e88a9f5 on all
+ This package provides kernel header files for 4.4.154-110-rockchip-gcef30e88a9f5 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-59-rockchip-g5e70f14
+Source: linux-4.4.154-59-rockchip-g5e70f14
+Version: 4.4.154-59-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 70505
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-59-rockchip-g5e70f14/linux-headers-4.4.154-59-rockchip-g5e70f14_4.4.154-59-rockchip_all.deb
+Size: 10119840
+SHA256: 42cc8e57688292815d68512b6a221bd833fb2310355348d184fadbf117577a33
+SHA1: 7cea6e8c03e1bd413c4e74a196f6cf3bc426c38c
+MD5sum: 76f3de71408f3716cfa153b6057b944e
+Description: Linux kernel headers for 4.4.154-59-rockchip-g5e70f14 on all
+ This package provides kernel header files for 4.4.154-59-rockchip-g5e70f14 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-72-rockchip-g6520deb
+Source: linux-4.4.154-72-rockchip-g6520deb
+Version: 4.4.154-72-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 70512
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-72-rockchip-g6520deb/linux-headers-4.4.154-72-rockchip-g6520deb_4.4.154-72-rockchip_all.deb
+Size: 10118074
+SHA256: 3fa3a4a94f9feaedb7826d2f56edf7bb77ecc00bad65b4e85141e625d0436a9f
+SHA1: 7398bd42b6e4ac4224e18ddc003cad9b56c73eb1
+MD5sum: 687ede473e50642ee4443035d6658aab
+Description: Linux kernel headers for 4.4.154-72-rockchip-g6520deb on all
+ This package provides kernel header files for 4.4.154-72-rockchip-g6520deb on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-73-rockchip-00007-g155a65a
+Source: linux-4.4.154-73-rockchip-00007-g155a65a
+Version: 4.4.154-73-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 70617
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-73-rockchip-00007-g155a65a/linux-headers-4.4.154-73-rockchip-00007-g155a65a_4.4.154-73-rockchip_all.deb
+Size: 10133664
+SHA256: ab1255b51ae60a2c8f4cbc64d3af0d893e90237a2c5ef960fb666ae961e2e5b6
+SHA1: 0ca6999959a91037199a37504e01b9f3038f3e1c
+MD5sum: 06d2ed6a8853bbfe09ef1e585f13512d
+Description: Linux kernel headers for 4.4.154-73-rockchip-00007-g155a65a on all
+ This package provides kernel header files for 4.4.154-73-rockchip-00007-g155a65a on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-74-rockchip-00012-g0333c19
+Source: linux-4.4.154-74-rockchip-00012-g0333c19
+Version: 4.4.154-74-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 70617
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-74-rockchip-00012-g0333c19/linux-headers-4.4.154-74-rockchip-00012-g0333c19_4.4.154-74-rockchip_all.deb
+Size: 10133472
+SHA256: 5c7850e23b70e80bc154bf6f98b1d33ff390a9bb2cf090c80ac7bec0255bbe6e
+SHA1: 80bc9f088943925b9249550dfc83f81c490edf95
+MD5sum: e3f9ab4bed724817b6c1dfdb1ed4a5f2
+Description: Linux kernel headers for 4.4.154-74-rockchip-00012-g0333c19 on all
+ This package provides kernel header files for 4.4.154-74-rockchip-00012-g0333c19 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-75-rockchip-00013-gcc4fef3
+Source: linux-4.4.154-75-rockchip-00013-gcc4fef3
+Version: 4.4.154-75-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 70617
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-75-rockchip-00013-gcc4fef3/linux-headers-4.4.154-75-rockchip-00013-gcc4fef3_4.4.154-75-rockchip_all.deb
+Size: 10133524
+SHA256: 1982790c7e05d1428c0e199f02e087d716d4d4a1d8edc95c03e401a7e69e954a
+SHA1: fcaa800ae1c478e187268ab9bda2e35df400d5a2
+MD5sum: f9328d3023c72a3b5a440ac11a85e9b5
+Description: Linux kernel headers for 4.4.154-75-rockchip-00013-gcc4fef3 on all
+ This package provides kernel header files for 4.4.154-75-rockchip-00013-gcc4fef3 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-76-rockchip-00015-g6cd6212
+Source: linux-4.4.154-76-rockchip-00015-g6cd6212
+Version: 4.4.154-76-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 70619
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-76-rockchip-00015-g6cd6212/linux-headers-4.4.154-76-rockchip-00015-g6cd6212_4.4.154-76-rockchip_all.deb
+Size: 10133760
+SHA256: f98ce89945d396950efc47c53f082ca05f06df8fb12d189b3b4551186ed142b2
+SHA1: 8e9acecfed1aa1e8e32d64c2e5cda778839e1a4f
+MD5sum: 6b6ee5f7def44857c9aef5c9e72c0646
+Description: Linux kernel headers for 4.4.154-76-rockchip-00015-g6cd6212 on all
+ This package provides kernel header files for 4.4.154-76-rockchip-00015-g6cd6212 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-77-rockchip-00016-ged3107a
+Source: linux-4.4.154-77-rockchip-00016-ged3107a
+Version: 4.4.154-77-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 70625
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-77-rockchip-00016-ged3107a/linux-headers-4.4.154-77-rockchip-00016-ged3107a_4.4.154-77-rockchip_all.deb
+Size: 10134108
+SHA256: 450ddc6656f52781403819ea5bced1aa758a6b75177292bd84af2db144c25d94
+SHA1: 1f644114c68b583fdee6fbb935d99ebe304d3a70
+MD5sum: 19269222228c843af8bb0934a3f0f175
+Description: Linux kernel headers for 4.4.154-77-rockchip-00016-ged3107a on all
+ This package provides kernel header files for 4.4.154-77-rockchip-00016-ged3107a on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-78-rockchip-00017-g625c2b2
+Source: linux-4.4.154-78-rockchip-00017-g625c2b2
+Version: 4.4.154-78-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 70630
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-78-rockchip-00017-g625c2b2/linux-headers-4.4.154-78-rockchip-00017-g625c2b2_4.4.154-78-rockchip_all.deb
+Size: 10134692
+SHA256: 0a83c12b323af4fa0902e9e70a04699b0ff1d903d4672c3d7d829e341cf3df61
+SHA1: 14a189b194038e893d12bd9402ca1b9106cc4bfd
+MD5sum: 30d59bad74d982301548dc098c0ca51f
+Description: Linux kernel headers for 4.4.154-78-rockchip-00017-g625c2b2 on all
+ This package provides kernel header files for 4.4.154-78-rockchip-00017-g625c2b2 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-81-rockchip-00021-g43bca74
+Source: linux-4.4.154-81-rockchip-00021-g43bca74
+Version: 4.4.154-81-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 70677
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-81-rockchip-00021-g43bca74/linux-headers-4.4.154-81-rockchip-00021-g43bca74_4.4.154-81-rockchip_all.deb
+Size: 10137620
+SHA256: 1f235bb341aef11ab7d7e9718996bfe37afbdf3cb05b5ceb10aabef37c5243f5
+SHA1: 1fb8706d9b1220532e2e26a20c53040b06600e1e
+MD5sum: 16517c2826e5eb5593c2fd846dd3ea96
+Description: Linux kernel headers for 4.4.154-81-rockchip-00021-g43bca74 on all
+ This package provides kernel header files for 4.4.154-81-rockchip-00021-g43bca74 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-82-rockchip-00022-gb99b90e
+Source: linux-4.4.154-82-rockchip-00022-gb99b90e
+Version: 4.4.154-82-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 70677
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-82-rockchip-00022-gb99b90e/linux-headers-4.4.154-82-rockchip-00022-gb99b90e_4.4.154-82-rockchip_all.deb
+Size: 10137682
+SHA256: 17d68ad60650debf1d74775bcbad8d37e4ff8bead74823239e0c47593eaa2c0a
+SHA1: ed6c051dafcecd4078c70e5b419549f48d9e1ee6
+MD5sum: b027b92295f53a42dc078c6de727b4a8
+Description: Linux kernel headers for 4.4.154-82-rockchip-00022-gb99b90e on all
+ This package provides kernel header files for 4.4.154-82-rockchip-00022-gb99b90e on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-83-rockchip-00023-gae7a309
+Source: linux-4.4.154-83-rockchip-00023-gae7a309
+Version: 4.4.154-83-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 70689
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-83-rockchip-00023-gae7a309/linux-headers-4.4.154-83-rockchip-00023-gae7a309_4.4.154-83-rockchip_all.deb
+Size: 10140002
+SHA256: 5839bfb9fe7c9876ebeac73bcd3656e90404d708d88b175fbecdba61672e8fc9
+SHA1: 11623b24c6dd13abab910c0cfbefcac2899b691b
+MD5sum: e2ab77a5d20bc251734d1b57980421fe
+Description: Linux kernel headers for 4.4.154-83-rockchip-00023-gae7a309 on all
+ This package provides kernel header files for 4.4.154-83-rockchip-00023-gae7a309 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-87-rockchip-00029-g8216f17
+Source: linux-4.4.154-87-rockchip-00029-g8216f17
+Version: 4.4.154-87-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 70689
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-87-rockchip-00029-g8216f17/linux-headers-4.4.154-87-rockchip-00029-g8216f17_4.4.154-87-rockchip_all.deb
+Size: 10139108
+SHA256: fa08581a772dda51c20e875df8f582c47190292ef865391082a92284d12b5cc8
+SHA1: 3b60ce35ecdcf5a75a68a847abd6527248407dfb
+MD5sum: a170bbd54f4c950b10111765f0724376
+Description: Linux kernel headers for 4.4.154-87-rockchip-00029-g8216f17 on all
+ This package provides kernel header files for 4.4.154-87-rockchip-00029-g8216f17 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-95-rockchip-gd2ab1f26e1b3
+Source: linux-4.4.154-95-rockchip-gd2ab1f26e1b3
+Version: 4.4.154-95-rockchip
+Architecture: all
+Maintainer: Anonymous <root@9b9f38ab9893>
+Installed-Size: 70820
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-95-rockchip-gd2ab1f26e1b3/linux-headers-4.4.154-95-rockchip-gd2ab1f26e1b3_4.4.154-95-rockchip_all.deb
+Size: 10176724
+SHA256: 041bf048c7b00fa12a9fde204b1f8d2c7b04cf364c795ee7c6f5d32af997116f
+SHA1: 9d8520d892bdbc0e68e0adf5d11bb52d79a233e0
+MD5sum: 5e37c47540debaeb16bac2eeca2173d8
+Description: Linux kernel headers for 4.4.154-95-rockchip-gd2ab1f26e1b3 on all
+ This package provides kernel header files for 4.4.154-95-rockchip-gd2ab1f26e1b3 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-4.4.154-110-rockchip-gcef30e88a9f5
+Source: linux-4.4.154-110-rockchip-gcef30e88a9f5
+Version: 4.4.154-110-rockchip
+Architecture: all
+Maintainer: Anonymous <root@d8e4dda7dbbf>
+Installed-Size: 79636
+Suggests: linux-firmware-image-4.4.154-110-rockchip-gcef30e88a9f5
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-110-rockchip-gcef30e88a9f5
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-110-rockchip-gcef30e88a9f5/linux-image-4.4.154-110-rockchip-gcef30e88a9f5_4.4.154-110-rockchip_all.deb
+Size: 15122524
+SHA256: c1ad7837cf83e26c89ab630739fd8fc981dc5631ce4aea016aff7500bab1fd4f
+SHA1: 73fe049b69191ec45afa534b7b3b925432128d7e
+MD5sum: e650473c481b33aa4cb4bfbbf1a4b779
+Description: Linux kernel, version 4.4.154-110-rockchip-gcef30e88a9f5
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-110-rockchip-gcef30e88a9f5.
+
+Package: linux-image-4.4.154-59-rockchip-g5e70f14
+Source: linux-4.4.154-59-rockchip-g5e70f14
+Version: 4.4.154-59-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 68977
+Suggests: linux-firmware-image-4.4.154-59-rockchip-g5e70f14
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-59-rockchip-g5e70f14
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-59-rockchip-g5e70f14/linux-image-4.4.154-59-rockchip-g5e70f14_4.4.154-59-rockchip_all.deb
+Size: 13313628
+SHA256: 6f1c09a3eef314f2c06577aeb27c4bedcc26f6c1106f1649a4fb8d89f25cc221
+SHA1: 86bf7854a68f1a585ec3f36a6b3a3cd9fe607502
+MD5sum: d149c714b0c8416721337dfaad91d2b7
+Description: Linux kernel, version 4.4.154-59-rockchip-g5e70f14
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-59-rockchip-g5e70f14.
+
+Package: linux-image-4.4.154-72-rockchip-g6520deb
+Source: linux-4.4.154-72-rockchip-g6520deb
+Version: 4.4.154-72-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 69050
+Suggests: linux-firmware-image-4.4.154-72-rockchip-g6520deb
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-72-rockchip-g6520deb
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-72-rockchip-g6520deb/linux-image-4.4.154-72-rockchip-g6520deb_4.4.154-72-rockchip_all.deb
+Size: 13342270
+SHA256: 0704959a91a63082892dfe7b437618c5b509bdbc9668f8e332d8fce7cb82fc3b
+SHA1: 46add1f06ae7debc84256f60ae23453fd5089353
+MD5sum: 94d9624a100b3e52ba300cd5a5c6758d
+Description: Linux kernel, version 4.4.154-72-rockchip-g6520deb
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-72-rockchip-g6520deb.
+
+Package: linux-image-4.4.154-73-rockchip-00007-g155a65a
+Source: linux-4.4.154-73-rockchip-00007-g155a65a
+Version: 4.4.154-73-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 69069
+Suggests: linux-firmware-image-4.4.154-73-rockchip-00007-g155a65a
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-73-rockchip-00007-g155a65a
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-73-rockchip-00007-g155a65a/linux-image-4.4.154-73-rockchip-00007-g155a65a_4.4.154-73-rockchip_all.deb
+Size: 13344386
+SHA256: 1d0fb252aa38871d6b38952299a064a9ad2078cb223fa873409fe819bb5d2e53
+SHA1: f18381fe893db6af487be6b8917b641d9ef84ff1
+MD5sum: 30a4c0a005571f9363cb7e9e0ed4f6a1
+Description: Linux kernel, version 4.4.154-73-rockchip-00007-g155a65a
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-73-rockchip-00007-g155a65a.
+
+Package: linux-image-4.4.154-74-rockchip-00012-g0333c19
+Source: linux-4.4.154-74-rockchip-00012-g0333c19
+Version: 4.4.154-74-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 69069
+Suggests: linux-firmware-image-4.4.154-74-rockchip-00012-g0333c19
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-74-rockchip-00012-g0333c19
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-74-rockchip-00012-g0333c19/linux-image-4.4.154-74-rockchip-00012-g0333c19_4.4.154-74-rockchip_all.deb
+Size: 13368128
+SHA256: 1589f042e337f127b06715eef69c32e0987b5e622e04611a440b0180dc0a71d5
+SHA1: 4e9d11b4ec70b5921172180cc0458a788abf4470
+MD5sum: 93d1fce2ca3d9c9a2a94a014e3a75fd2
+Description: Linux kernel, version 4.4.154-74-rockchip-00012-g0333c19
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-74-rockchip-00012-g0333c19.
+
+Package: linux-image-4.4.154-75-rockchip-00013-gcc4fef3
+Source: linux-4.4.154-75-rockchip-00013-gcc4fef3
+Version: 4.4.154-75-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 69069
+Suggests: linux-firmware-image-4.4.154-75-rockchip-00013-gcc4fef3
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-75-rockchip-00013-gcc4fef3
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-75-rockchip-00013-gcc4fef3/linux-image-4.4.154-75-rockchip-00013-gcc4fef3_4.4.154-75-rockchip_all.deb
+Size: 13369752
+SHA256: d975febc19ac73647489bcd81b1817f2c42f6fc939fb4ffe9a70e217e52dacc0
+SHA1: a29da64fc35715a22857daf9c21f8955e4b2d7d9
+MD5sum: d522ddc631a0d32685bd8733fcd3d42d
+Description: Linux kernel, version 4.4.154-75-rockchip-00013-gcc4fef3
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-75-rockchip-00013-gcc4fef3.
+
+Package: linux-image-4.4.154-76-rockchip-00015-g6cd6212
+Source: linux-4.4.154-76-rockchip-00015-g6cd6212
+Version: 4.4.154-76-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 69746
+Suggests: linux-firmware-image-4.4.154-76-rockchip-00015-g6cd6212
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-76-rockchip-00015-g6cd6212
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-76-rockchip-00015-g6cd6212/linux-image-4.4.154-76-rockchip-00015-g6cd6212_4.4.154-76-rockchip_all.deb
+Size: 13492934
+SHA256: 54bd7750aadf82bd822679ad6a758ff71e25080918ba95a05b747f05027bb507
+SHA1: 729a11474821a9f98c908c2f50f924887420d482
+MD5sum: df8653fffcbe70ff764b16d7a7d8aa42
+Description: Linux kernel, version 4.4.154-76-rockchip-00015-g6cd6212
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-76-rockchip-00015-g6cd6212.
+
+Package: linux-image-4.4.154-77-rockchip-00016-ged3107a
+Source: linux-4.4.154-77-rockchip-00016-ged3107a
+Version: 4.4.154-77-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 69774
+Suggests: linux-firmware-image-4.4.154-77-rockchip-00016-ged3107a
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-77-rockchip-00016-ged3107a
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-77-rockchip-00016-ged3107a/linux-image-4.4.154-77-rockchip-00016-ged3107a_4.4.154-77-rockchip_all.deb
+Size: 13508426
+SHA256: fe1c8f853af2faf6d9c96253df35fbc1d42f524e7071adfb132bec103c9fd196
+SHA1: 30e9880c0cbf35e7f76eb92e0ad401a63e3b9e97
+MD5sum: e8c20cd798178bbc3bb19a6efc658eb5
+Description: Linux kernel, version 4.4.154-77-rockchip-00016-ged3107a
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-77-rockchip-00016-ged3107a.
+
+Package: linux-image-4.4.154-78-rockchip-00017-g625c2b2
+Source: linux-4.4.154-78-rockchip-00017-g625c2b2
+Version: 4.4.154-78-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 69910
+Suggests: linux-firmware-image-4.4.154-78-rockchip-00017-g625c2b2
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-78-rockchip-00017-g625c2b2
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-78-rockchip-00017-g625c2b2/linux-image-4.4.154-78-rockchip-00017-g625c2b2_4.4.154-78-rockchip_all.deb
+Size: 13533662
+SHA256: c3abd3e6e56656f7ebb4a937db32676da8760c67d384c30a63e050b5aa6ceaaa
+SHA1: d94c5365ab45638bb3ba3ad2201bc09e7f27eaa4
+MD5sum: ca19278beea6098f5a6d8f697ed0c5d9
+Description: Linux kernel, version 4.4.154-78-rockchip-00017-g625c2b2
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-78-rockchip-00017-g625c2b2.
+
+Package: linux-image-4.4.154-81-rockchip-00021-g43bca74
+Source: linux-4.4.154-81-rockchip-00021-g43bca74
+Version: 4.4.154-81-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 72015
+Suggests: linux-firmware-image-4.4.154-81-rockchip-00021-g43bca74
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-81-rockchip-00021-g43bca74
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-81-rockchip-00021-g43bca74/linux-image-4.4.154-81-rockchip-00021-g43bca74_4.4.154-81-rockchip_all.deb
+Size: 13838830
+SHA256: d6287ec181ed43763101050526605518d441b9f545ad3e4ef7e9ddde4a1cbf8e
+SHA1: 08282c46098177f013275e020c7797ba1a9395b9
+MD5sum: 2a813c75d8579f78e2dedf42c6b4b644
+Description: Linux kernel, version 4.4.154-81-rockchip-00021-g43bca74
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-81-rockchip-00021-g43bca74.
+
+Package: linux-image-4.4.154-82-rockchip-00022-gb99b90e
+Source: linux-4.4.154-82-rockchip-00022-gb99b90e
+Version: 4.4.154-82-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 72015
+Suggests: linux-firmware-image-4.4.154-82-rockchip-00022-gb99b90e
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-82-rockchip-00022-gb99b90e
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-82-rockchip-00022-gb99b90e/linux-image-4.4.154-82-rockchip-00022-gb99b90e_4.4.154-82-rockchip_all.deb
+Size: 13819788
+SHA256: b93df36f140358a8cb5f6d91d88c5e199b604133a3ad8bd4b03e141fc0627c74
+SHA1: 5e3fb7ad5cd73e1918f4987f769cb1e4c2bf3756
+MD5sum: a15de0f5d593de126965a2acb4e647c9
+Description: Linux kernel, version 4.4.154-82-rockchip-00022-gb99b90e
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-82-rockchip-00022-gb99b90e.
+
+Package: linux-image-4.4.154-83-rockchip-00023-gae7a309
+Source: linux-4.4.154-83-rockchip-00023-gae7a309
+Version: 4.4.154-83-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 72467
+Suggests: linux-firmware-image-4.4.154-83-rockchip-00023-gae7a309
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-83-rockchip-00023-gae7a309
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-83-rockchip-00023-gae7a309/linux-image-4.4.154-83-rockchip-00023-gae7a309_4.4.154-83-rockchip_all.deb
+Size: 13890758
+SHA256: 89b6df181ab96270b135786401a36fb5fe10ef1587f841b29b4a5e0b68e701f6
+SHA1: 4e0fa6eaf1d96841e1cb1be7b345ff9817c01b00
+MD5sum: 8a87aaa5b7c8e821a9410c091d24aff4
+Description: Linux kernel, version 4.4.154-83-rockchip-00023-gae7a309
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-83-rockchip-00023-gae7a309.
+
+Package: linux-image-4.4.154-87-rockchip-00029-g8216f17
+Source: linux-4.4.154-87-rockchip-00029-g8216f17
+Version: 4.4.154-87-rockchip
+Architecture: all
+Maintainer: Anonymous <root@mrs-ella>
+Installed-Size: 72465
+Suggests: linux-firmware-image-4.4.154-87-rockchip-00029-g8216f17
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-87-rockchip-00029-g8216f17
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-87-rockchip-00029-g8216f17/linux-image-4.4.154-87-rockchip-00029-g8216f17_4.4.154-87-rockchip_all.deb
+Size: 13871400
+SHA256: 285591026d12c59f092e9ccf7eef43be778627eec846ae35473ee1d5b8a8985e
+SHA1: f7dc0d5324e077e8a46b11e46451be0720444aef
+MD5sum: 6f8ad48e2ac7e4fdc4351c58c0a84fdd
+Description: Linux kernel, version 4.4.154-87-rockchip-00029-g8216f17
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-87-rockchip-00029-g8216f17.
+
+Package: linux-image-4.4.154-95-rockchip-gd2ab1f26e1b3
+Source: linux-4.4.154-95-rockchip-gd2ab1f26e1b3
+Version: 4.4.154-95-rockchip
+Architecture: all
+Maintainer: Anonymous <root@9b9f38ab9893>
+Installed-Size: 72596
+Suggests: linux-firmware-image-4.4.154-95-rockchip-gd2ab1f26e1b3
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-95-rockchip-gd2ab1f26e1b3
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-95-rockchip-gd2ab1f26e1b3/linux-image-4.4.154-95-rockchip-gd2ab1f26e1b3_4.4.154-95-rockchip_all.deb
+Size: 14017008
+SHA256: 19d6edde32f9365621897bec9cb5a0e812c9371a3af16cd0c52d7201eb97210d
+SHA1: e3dc808b8952379981c3e2c0b1168238bf96f556
+MD5sum: aae6a5635ee2ab0c0acf3387dd20223f
+Description: Linux kernel, version 4.4.154-95-rockchip-gd2ab1f26e1b3
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-95-rockchip-gd2ab1f26e1b3.
+
+Package: opencv4.0
+Version: 4.0.1-1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: arm64
+Component: main
+Priority: optional
+Section: libs
+Filename: pool/main/o/opencv4.0/opencv4.0_4.0.1-1_arm64.deb
+Size: 13955280
+SHA256: 2294447669ce4490c9f501396f1199d962d3b774d61dd9f061ba64033f6a23ad
+SHA1: 11eec2df120bb83ccc343b194ed19195740b50d7
+MD5sum: 8ce9de5dc45b91c28e08919a9385ade0
+Description: The OpenCV library.
+
+Package: resize-assistant
+Version: 0.2
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Depends: gdisk, parted, init-system-helpers (>= 1.18~)
+Priority: optional
+Section: utils
+Filename: pool/main/r/resize-assistant/resize-assistant_0.2_all.deb
+Size: 1700
+SHA256: 497cf1e3dd1d0e412d947a2ff0ec46aff8a87057d235ace95e81caae989c1290
+SHA1: 93b61c08d1cfef69b46e4492cb26ffacf1875e0e
+MD5sum: 8882c755e14783fefac59c3a0127bc59
+Description: resize-assistant package.
+ This package provides tools used to help resizing root filesystem
+ to fit available disk space.
+
+Package: rockchip-fstab
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockchip-fstab/rockchip-fstab_0.1_all.deb
+Size: 1036
+SHA256: 094915569317798044291d0824d777ab15b76ff5f23a6cf9f2d7ebc436ab1483
+SHA1: e67fb4789ced8ae0e8f93fde5523921d472274ad
+MD5sum: 33a9fd6da925a5955af5a59cfbfa4426
+Description: Rockchip default fstab
+Depends: util-linux, bash
+
+Package: rockchip-mpp-demos
+Source: mpp
+Version: 20190626-1
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 332
+Depends: librockchip-mpp1 (= 20190626-1), librockchip-vpu0 (= 20190626-1)
+Homepage: http://www.rock-chips.com
+Priority: optional
+Section: libs
+Filename: pool/main/m/mpp/rockchip-mpp-demos_20190626-1_arm64.deb
+Size: 54260
+SHA256: d8a041f0c6dd09f7d7561efab753622f0ee17841fac66fe28b5b03c0e3dfdb61
+SHA1: 8d9f55631746085333be372c666e670bbafa7f26
+MD5sum: e99964fe93200a68ab1ce2d9ede33d39
+Description: Media Process Platform
+
+Package: rockchip-mpp-demos-dbgsym
+Source: mpp
+Version: 20190626-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 401
+Depends: rockchip-mpp-demos (= 20190626-1)
+Homepage: http://www.rock-chips.com
+Priority: extra
+Section: debug
+Filename: pool/main/m/mpp/rockchip-mpp-demos-dbgsym_20190626-1_arm64.deb
+Size: 283998
+SHA256: 645cbe01740013b1de84aabb9abcfa31f8d20fa35631e481b885729b17c88b12
+SHA1: 8f44b247cc49246ec5ab3bf9c983e92827331b24
+MD5sum: 0c69bf943a770172de053800e62c2e61
+Description: Debug symbols for rockchip-mpp-demos
+Build-Ids: 26523a01203e1b3485099c5d841965ee4e290460 26aa45b1b16ffcd3808d9bfa84dc93b348a0293c 6e21909aeaf7a4f7974f33bebea1e013131e3bd0 8957158faab3203325b18e2ae81c8007a0c55f50 8cc4cd98a48f55a57413229fc02b9a4c718c4ac3 936de2d67cb03afc1ad0c84bb179a83c9effca13 9ba4b8a9377b1a08f78e37d5dbf3218363b8267f a743600e9bc52313c2f3c278bde150ab449f4f28 bec0b2db11cfe6787c80435d17e3b982652a5750 fa9a80a651484b498b58dfd37ecdd175434c55da
+
+Package: rockchip-overlay
+Version: 2.2
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Depends: linux-base
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_2.2_all.deb
+Size: 4368
+SHA256: 850f294aeb548a8910898257bd848a383564ba67d3371c17838335c744650fba
+SHA1: 5c268aa86cf99392de4dd45efff97e3cc41d9461
+MD5sum: e4d1e061e127cb69765c97c7bd61844c
+Description: General rockchip overlay package.
+
+Package: rockpi4-dtbo
+Version: 4.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockpi4-dtbo/rockpi4-dtbo_4.1_all.deb
+Size: 4304
+SHA256: 0c101c181faaaec3d41418cd3315e36cb870d8b8819c1e2bca85ff5b67779b14
+SHA1: 5f455c55b815d16620b4b66df6fe95a17d3b97b6
+MD5sum: a8992a583249bdc2151782196aa09347
+Description: ROCK Pi 4 device tree overlays
+
+Package: rockpi4a-rk-u-boot-latest
+Version: 2017.09-2680-g674eaa57f0
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: rockpi4a-rk-ubootimg (= 2017.09-2680-g674eaa57f0)
+Homepage: https://github.com/radxa/u-boot
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpi4a-rk-u-boot-latest/rockpi4a-rk-u-boot-latest_2017.09-2680-g674eaa57f0_all.deb
+Size: 1080
+SHA256: 608d33a52a31c7f79de34ebee94ac1e4e0b319d9d7ad3b18e49dd2953d3081ef
+SHA1: 1b26a937d8183210a82f1a1d5ead5166ecccb706
+MD5sum: 014e678c4eff55e62b25bc903c654448
+Description: rockpi4a u-boot latest version package: depends on rockpi4a-rk-ubootimg (= 2017.09-2680-g674eaa57f0)
+
+Package: rockpi4a-rk-ubootimg
+Version: 2017.09-2680-g674eaa57f0
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 7079
+Depends: debsums, mtd-utils
+Homepage: https://github.com/radxa/u-boot
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpi4a-rk-ubootimg/rockpi4a-rk-ubootimg_2017.09-2680-g674eaa57f0_all.deb
+Size: 1796930
+SHA256: 53a72393ac75563f0586ea4be309f93810efbae2c974f3a9f72694b671abe0d5
+SHA1: 5d7ffcfca1e00686ba391692a6aa91969569e50d
+MD5sum: 222a3a140dcf8c8cd652af80bb03f56d
+Description: rockpi4a u-boot package
+Multi-Arch: foreign
+Replaces: rockpi4a-rk-ubootimg
+Conflicts: rockpi4a-rk-ubootimg
+Provides: rockpi4a-rk-ubootimg
+
+Package: rockpi4b-rk-u-boot-latest
+Version: 2017.09-2680-g674eaa57f0
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: rockpi4b-rk-ubootimg (= 2017.09-2680-g674eaa57f0)
+Homepage: https://github.com/radxa/u-boot
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpi4b-rk-u-boot-latest/rockpi4b-rk-u-boot-latest_2017.09-2680-g674eaa57f0_all.deb
+Size: 1084
+SHA256: f91d5726a6edc4f776269e5889c25abd0fbd0371730b4c4c73565e9e56db08f3
+SHA1: 1c7e97b0fe08058077297681f5e1b2d2a22abca4
+MD5sum: 3da4bfc6522889a199028d750f5774fc
+Description: rockpi4b u-boot latest version package: depends on rockpi4b-rk-ubootimg (= 2017.09-2680-g674eaa57f0)
+
+Package: rockpi4b-rk-ubootimg
+Version: 2017.09-2680-g674eaa57f0
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 7079
+Depends: debsums, mtd-utils
+Homepage: https://github.com/radxa/u-boot
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpi4b-rk-ubootimg/rockpi4b-rk-ubootimg_2017.09-2680-g674eaa57f0_all.deb
+Size: 1796934
+SHA256: 90d61f0a281b2fa363e247b8ae8ad5df35e0ce57b7aa558d6177766adb820fe7
+SHA1: a43050571c9d7c015898329b5b89aa195a69ba7c
+MD5sum: 253a3f435863359e1ce2b5bb06b77ed5
+Description: rockpi4b u-boot package
+Multi-Arch: foreign
+Replaces: rockpi4b-rk-ubootimg
+Conflicts: rockpi4b-rk-ubootimg
+Provides: rockpi4b-rk-ubootimg
+
+Package: rockpi4c-rk-u-boot-latest
+Version: 2017.09-2680-g674eaa57f0
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: rockpi4c-rk-ubootimg (= 2017.09-2680-g674eaa57f0)
+Homepage: https://github.com/radxa/u-boot
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpi4c-rk-u-boot-latest/rockpi4c-rk-u-boot-latest_2017.09-2680-g674eaa57f0_all.deb
+Size: 1080
+SHA256: a53086c1e91c70ab9499b977e737742d0911fda1006dd0b537c1c2c026b2bcdf
+SHA1: abc3b292170b990b19951278dfa0f626ef4a80e0
+MD5sum: 30afa8e6e95dd95b1c8b8113091b40ed
+Description: rockpi4c u-boot latest version package: depends on rockpi4c-rk-ubootimg (= 2017.09-2680-g674eaa57f0)
+
+Package: rockpi4c-rk-ubootimg
+Version: 2017.09-2680-g674eaa57f0
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 7079
+Depends: debsums, mtd-utils
+Homepage: https://github.com/radxa/u-boot
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpi4c-rk-ubootimg/rockpi4c-rk-ubootimg_2017.09-2680-g674eaa57f0_all.deb
+Size: 1796660
+SHA256: f6d609e138c229dd8c325b3e806851307e0b1f4f3019c741881a7b501c86b5c6
+SHA1: bace2d0cfa0bc79685c8a760a4b0ee5faa3e37ff
+MD5sum: be3b6d510ef0a7dc61ccf61e2dd7d620
+Description: rockpi4c u-boot package
+Multi-Arch: foreign
+Replaces: rockpi4c-rk-ubootimg
+Conflicts: rockpi4c-rk-ubootimg
+Provides: rockpi4c-rk-ubootimg
+
