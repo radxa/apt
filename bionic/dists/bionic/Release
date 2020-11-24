@@ -1,0 +1,28 @@
+Origin: apt.radxa.com
+Label: apt.radxa.com
+Codename: bionic
+Date: Tue, 24 Nov 2020 06:40:49 UTC
+Architectures: armhf arm64
+Components: main
+Description: Apt repository for Radxa products
+MD5Sum:
+ 365c60005017af2a5a3f44533589aba2 60759 main/binary-armhf/Packages
+ 4e86e0c59f856ab6619337af12b91df1 12902 main/binary-armhf/Packages.gz
+ c565b989b8ee8e7795fc8705eff55600 126 main/binary-armhf/Release
+ ef130ff215212ef6e3cbb6aafdfecde8 133933 main/binary-arm64/Packages
+ b2f4f57568482c34ce75d1b61dbb618d 26668 main/binary-arm64/Packages.gz
+ 1948d7c313289de2d434bc8958eb4305 126 main/binary-arm64/Release
+SHA1:
+ cb00575eed75f330d90f001ca5e263e414ac9d27 60759 main/binary-armhf/Packages
+ 1fd7a3f4b3dccd6abff90f0838d18a5b24f96fe3 12902 main/binary-armhf/Packages.gz
+ 23e42ffe5fe8220d4ce8cebe5afa9046010d91e9 126 main/binary-armhf/Release
+ fc6756bcd0457e106d4eedd724bf20f51a3ec71e 133933 main/binary-arm64/Packages
+ b7b4c01b556f072c8f9f0f1544a69f59738eebce 26668 main/binary-arm64/Packages.gz
+ af41e6144b1def9a2be005d93fbb7932edd05a3c 126 main/binary-arm64/Release
+SHA256:
+ f605caa7182a5d6d497bdeb24d8d896c40166165fcb3a6d4f5b59425c3253ffe 60759 main/binary-armhf/Packages
+ 6ff3cde43f4fa85603cbd0ffededce3e32245b5fe68719631c7e9374b8bafb4a 12902 main/binary-armhf/Packages.gz
+ 82b7adf84d0ca01b19114872693eb76ee52c66422528a43f813b163a4938b9af 126 main/binary-armhf/Release
+ 69edd5ea25a25dd40e22e2d369bf616c6446867d7ebe7f568e96505ef538139d 133933 main/binary-arm64/Packages
+ ef5c4ebd9521e499a34f8a468892f02a72ace6763e644334072c167be7d95293 26668 main/binary-arm64/Packages.gz
+ d75661930a67b30a72b8f44ddbb16f3960a82997c1150e8d92dac8b31b364e40 126 main/binary-arm64/Release
