@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: apt.radxa.com
+Label: apt.radxa.com
+Codename: stretch
+Date: Tue, 24 Nov 2020 09:05:24 UTC
+Architectures: armhf arm64
+Components: main
+Description: Apt repository for Radxa products
+MD5Sum:
+ 4df6c5e1426dcabe938b65608465a2a0 80115 main/binary-armhf/Packages
+ 1ad9a4676e6f5d72627dc829b11396e9 14908 main/binary-armhf/Packages.gz
+ c565b989b8ee8e7795fc8705eff55600 126 main/binary-armhf/Release
+ 4f187e1f47cb192605054ff377541b7e 148830 main/binary-arm64/Packages
+ e519fd85f265dc368e518ce9fc8e4aab 28912 main/binary-arm64/Packages.gz
+ 1948d7c313289de2d434bc8958eb4305 126 main/binary-arm64/Release
+SHA1:
+ 4ece24902dd3546a08395931c63dbda34985d4eb 80115 main/binary-armhf/Packages
+ 98e5f96a3f2a076d647845a1b235540799d7e172 14908 main/binary-armhf/Packages.gz
+ 23e42ffe5fe8220d4ce8cebe5afa9046010d91e9 126 main/binary-armhf/Release
+ d220ba4608e22ae4ed71070c80a659cd2f0f11d2 148830 main/binary-arm64/Packages
+ 2ba60d44edd1f8288c04437d02f97c694256306b 28912 main/binary-arm64/Packages.gz
+ af41e6144b1def9a2be005d93fbb7932edd05a3c 126 main/binary-arm64/Release
+SHA256:
+ 777176900195d1542092ca2eb616e25f3e9739296538086fb0072cb583224fa1 80115 main/binary-armhf/Packages
+ 8c5a5a893a94221c8bbc6d7d18cc238183b50e4a2c59998a8bb11ff773cc3e68 14908 main/binary-armhf/Packages.gz
+ 82b7adf84d0ca01b19114872693eb76ee52c66422528a43f813b163a4938b9af 126 main/binary-armhf/Release
+ 4c5ede61551a8351d1dde11d7424d3cdc222bdc3f27a8271e9052977858ac2a4 148830 main/binary-arm64/Packages
+ 536fcf86b5efb729f79d75d2f19fb233e0515b019ebcbcdb87dce45620d0ac7d 28912 main/binary-arm64/Packages.gz
+ d75661930a67b30a72b8f44ddbb16f3960a82997c1150e8d92dac8b31b364e40 126 main/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEERmsef2gJZlIThI/KuZxL7+xH6W4FAl+8zNQACgkQuZxL7+xH
+6W7F1wwAjdCAAHquR5rXCTbpnT2EMSpM4slPyFqNFc0U7R6DRXAhl2y4gTtXqtyV
+mmnPGQUqvWWu4eGs3t0uzNSol3KE1HvWn3FX43qqffJ/w2h11/m7FhdtC3sxriA2
+wf9vzWQTsjNdtMcG7twf9XQVK4ns4aWi7jhvkzLj0utJHcrHUJ3R8MiF6Wx0WKEd
+EFjHXdJ7OtZLOxFiQI96jaeXDZ9sIKk0n76HVno2F+6P8R+M2cR/a0ORHsNrpqj9
+jXaIqkQomIebyV3KnTHGJpjuhGqWiMg8745mQRcAf8zWsscAOpFcm2Kv7elEzg3R
+y+G0cgiG1t9MWbXoJomZI7P3hPlpd+MFzU5UPTAyM7Z2oepVISGCKN/G+aYbWWz/
+6By5sWzQB8Ee2bhwWcfDTuPLRMroDdpNi8Zp+K2TEC2lmE2OTZaycYj/Sbu7ohpk
+w23EugKQAX4p8aQTQCRSMRNHhJ22COcFz2U9/mNpjBGa7MzixL+f8NVS/hav6Axq
+VpvWF84g
+=qFbP
+-----END PGP SIGNATURE-----
