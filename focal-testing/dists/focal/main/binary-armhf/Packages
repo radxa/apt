@@ -90,3 +90,43 @@ SHA1: 5acca183cc944509ad94ab68c6d0b14fdb51a7e9
 MD5sum: 7608c3d44de530eb5d5ecf4dc9d79c06
 Description: General rockchip overlay package.
 
+Package: rockpis-rk-u-boot-latest
+Version: 2017.09-02383-g233a23e3ed
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: rockpis-rk-ubootimg (= 2017.09-02383-g233a23e3ed)
+Homepage: https://github.com/radxa/u-boot
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpis-rk-u-boot-latest/rockpis-rk-u-boot-latest_2017.09-02383-g233a23e3ed_all.deb
+Size: 1080
+SHA256: 99af3ad7ad4be7510f930bf54de2fb3e5495b1118b26a194d44e948948a4df68
+SHA1: 54afddf6eb2690cdb75e16664913650846c1340f
+MD5sum: 532b5fcbe0f3ef365cdd937f8c624e47
+Description: rockpis u-boot latest version package: depends on rockpis-rk-ubootimg (= 2017.09-02383-g233a23e3ed)
+
+Package: rockpis-rk-ubootimg
+Version: 2017.09-02383-g233a23e3ed
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 2430
+Depends: debsums, mtd-utils
+Homepage: https://github.com/radxa/u-boot
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpis-rk-ubootimg/rockpis-rk-ubootimg_2017.09-02383-g233a23e3ed_all.deb
+Size: 659980
+SHA256: 81ff9647fd52ae8522acae3e225bddbcd48932f021c615a0cb76f3e87b744d1a
+SHA1: d091d655273ef9b64c48b6f3712b5cb0476ca6ff
+MD5sum: 19f1f21f5b7118aadb3d99dc912e44cc
+Description: rockpis u-boot package
+Multi-Arch: foreign
+Replaces: rockpis-rk-ubootimg
+Conflicts: rockpis-rk-ubootimg
+Provides: rockpis-rk-ubootimg
+

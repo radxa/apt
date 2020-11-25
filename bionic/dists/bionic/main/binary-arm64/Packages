@@ -3077,39 +3077,39 @@ MD5sum: faa827228140c491c4b4d909cc425bd9
 Description: ROCK Pi S device tree overlays
 
 Package: rockpis-rk-u-boot-latest
-Version: 2017.09-02378-g6de46245e6
+Version: 2017.09-02383-g233a23e3ed
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: rockpis-rk-ubootimg (= 2017.09-02378-g6de46245e6)
+Depends: rockpis-rk-ubootimg (= 2017.09-02383-g233a23e3ed)
 Homepage: https://github.com/radxa/u-boot
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpis-rk-u-boot-latest/rockpis-rk-u-boot-latest_2017.09-02378-g6de46245e6_all.deb
+Filename: pool/main/r/rockpis-rk-u-boot-latest/rockpis-rk-u-boot-latest_2017.09-02383-g233a23e3ed_all.deb
 Size: 1080
-SHA256: a5e91cf5537bef16b763ba912b4a2ea67f1b8153e7d47c6cf342fb484ca86a8a
-SHA1: 6e88e8cb657841a3a76da209d7f4a1dcac1a3cbb
-MD5sum: f0c59d23ffe29f81836bd33ad7d0e8fd
-Description: rockpis u-boot latest version package: depends on rockpis-rk-ubootimg (= 2017.09-02378-g6de46245e6)
+SHA256: 99af3ad7ad4be7510f930bf54de2fb3e5495b1118b26a194d44e948948a4df68
+SHA1: 54afddf6eb2690cdb75e16664913650846c1340f
+MD5sum: 532b5fcbe0f3ef365cdd937f8c624e47
+Description: rockpis u-boot latest version package: depends on rockpis-rk-ubootimg (= 2017.09-02383-g233a23e3ed)
 
 Package: rockpis-rk-ubootimg
-Version: 2017.09-02378-g6de46245e6
+Version: 2017.09-02383-g233a23e3ed
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 2430
-Depends: debsums, mtd-utils, linux-4.4-rockpis-latest (>= 4.4.143-39-rockchip)
+Depends: debsums, mtd-utils
 Homepage: https://github.com/radxa/u-boot
 Priority: optional
 Section: admin
-Filename: pool/main/r/rockpis-rk-ubootimg/rockpis-rk-ubootimg_2017.09-02378-g6de46245e6_all.deb
-Size: 627574
-SHA256: a260eea7c6835666a534c702df3b9fc727e0b055847870e969e7c9064ad5557a
-SHA1: 14c02a2d755fac3ea703e2aaf480b28f03f7cdb2
-MD5sum: 94067fcb966f65fa4aaf7cda04b42965
+Filename: pool/main/r/rockpis-rk-ubootimg/rockpis-rk-ubootimg_2017.09-02383-g233a23e3ed_all.deb
+Size: 659980
+SHA256: 81ff9647fd52ae8522acae3e225bddbcd48932f021c615a0cb76f3e87b744d1a
+SHA1: d091d655273ef9b64c48b6f3712b5cb0476ca6ff
+MD5sum: 19f1f21f5b7118aadb3d99dc912e44cc
 Description: rockpis u-boot package
 Multi-Arch: foreign
 Replaces: rockpis-rk-ubootimg
