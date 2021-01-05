@@ -978,24 +978,6 @@ SHA1: 08d17c4e21e1337d5a9c560b6f9e29480a002512
 MD5sum: 50262d8c58836a322bfd4219571153b0
 Description: libmraa
 
-Package: libmraa-rockpie
-Version: 0.1
-Maintainer: Radxa <dev@radxa.com>
-Architecture: arm64
-Component: main
-Multi-Arch: foreign
-Depends: libc6, libjson-c3, libgcc1, libstdc++6,
-    python2.7, libpython2.7, python3.6, libpython3.6,
-    openjdk-11-jdk
-Priority: optional
-Section: libs
-Filename: pool/main/libm/libmraa-rockpie/libmraa-rockpie_0.1_arm64.deb
-Size: 252192
-SHA256: ab8d690d348840a6b98536b2cecceafc421d3506dee557580d4c402103c8a57d
-SHA1: 25f48426ea83acf08eeae607f1bb6710028e0b65
-MD5sum: ce3523c9f42964e51d458eaa24fc2755
-Description: Provide mraa interface package for C/C++, python and Java.
-
 Package: libpostproc-dev
 Source: ffmpeg
 Version: 7:3.4.1-1
