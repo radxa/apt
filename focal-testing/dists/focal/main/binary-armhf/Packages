@@ -58,6 +58,85 @@ Description: interactive processes viewer
  Tasks related to processes (killing, renicing) can be done without
  entering their PIDs.
 
+Package: linux-4.4-rock-pi-4-latest
+Version: 4.4.154-112-rockchip
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.154-112-rockchip-gfdb18c8bab17, linux-firmware-image-4.4.154-112-rockchip-gfdb18c8bab17, linux-headers-4.4.154-112-rockchip-gfdb18c8bab17
+Homepage: https://github.com/radxa/kernel
+Priority: optional
+Section: admin
+Filename: pool/main/l/linux-4.4-rock-pi-4-latest/linux-4.4-rock-pi-4-latest_4.4.154-112-rockchip_all.deb
+Size: 1156
+SHA256: 45a7026b9c830c716e39962c7881070731e45ff48aa8f8bd4f1e92c23d559146
+SHA1: 4e5c7bf73e7166386e50529c4f1b65edc6d93c4b
+MD5sum: 54c4eb31eafe50577b17321a3cc76849
+Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
+Multi-Arch: foreign
+Replaces: linux-4.4-latest
+Conflicts: linux-4.4-latest
+Provides: linux-4.4-latest
+
+Package: linux-firmware-image-4.4.154-112-rockchip-gfdb18c8bab17
+Source: linux-4.4.154-112-rockchip-gfdb18c8bab17
+Version: 4.4.154-112-rockchip
+Architecture: all
+Maintainer: Anonymous <root@5d2d5db63a95>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-112-rockchip-gfdb18c8bab17/linux-firmware-image-4.4.154-112-rockchip-gfdb18c8bab17_4.4.154-112-rockchip_all.deb
+Size: 186348
+SHA256: e4ed21cef873bd1131fc6c5f2f01bc4136404b9a4cc757be95943339bae95251
+SHA1: b8748963cd8ad75b89e451b0b8e6631e0a76442b
+MD5sum: 75ee54ec52906742963fc14d233c7320
+Description: Linux kernel firmware, version 4.4.154-112-rockchip-gfdb18c8bab17
+ This package contains firmware from the Linux kernel, version 4.4.154-112-rockchip-gfdb18c8bab17.
+
+Package: linux-headers-4.4.154-112-rockchip-gfdb18c8bab17
+Source: linux-4.4.154-112-rockchip-gfdb18c8bab17
+Version: 4.4.154-112-rockchip
+Architecture: all
+Maintainer: Anonymous <root@5d2d5db63a95>
+Installed-Size: 71015
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-112-rockchip-gfdb18c8bab17/linux-headers-4.4.154-112-rockchip-gfdb18c8bab17_4.4.154-112-rockchip_all.deb
+Size: 10193356
+SHA256: d014a2b0390f66dd889d4a7a759d4c0bbf80ccf23b94d5f15ea8877b4af04e35
+SHA1: b246cb2076a81feb50ca553c805a3a71e6aff0cb
+MD5sum: a7b424b028714fc050168bbaab23305d
+Description: Linux kernel headers for 4.4.154-112-rockchip-gfdb18c8bab17 on all
+ This package provides kernel header files for 4.4.154-112-rockchip-gfdb18c8bab17 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-4.4.154-112-rockchip-gfdb18c8bab17
+Source: linux-4.4.154-112-rockchip-gfdb18c8bab17
+Version: 4.4.154-112-rockchip
+Architecture: all
+Maintainer: Anonymous <root@5d2d5db63a95>
+Installed-Size: 79726
+Suggests: linux-firmware-image-4.4.154-112-rockchip-gfdb18c8bab17
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-112-rockchip-gfdb18c8bab17
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-112-rockchip-gfdb18c8bab17/linux-image-4.4.154-112-rockchip-gfdb18c8bab17_4.4.154-112-rockchip_all.deb
+Size: 15110220
+SHA256: 939978651321d3804c61679aea82a12e340ff11d8e239f8821166bd36f637223
+SHA1: 0a61fdd7b51c4a405ef4f3d9b7830fe531bd08b6
+MD5sum: 74c358d4f46ac46777d1ffa94a65379c
+Description: Linux kernel, version 4.4.154-112-rockchip-gfdb18c8bab17
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-112-rockchip-gfdb18c8bab17.
+
 Package: resize-assistant
 Version: 0.2
 Maintainer: Radxa <dev@radxa.com>
