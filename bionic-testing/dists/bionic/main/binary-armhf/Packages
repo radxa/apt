@@ -1813,7 +1813,7 @@ Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 7133
-Depends: debsums, mtd-utils, linux-4.4-latest (>= 4.4.154-105-rockchip)
+Depends: debsums, mtd-utils
 Homepage: https://github.com/radxa/u-boot
 Priority: optional
 Section: admin
@@ -1853,7 +1853,7 @@ Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 7133
-Depends: debsums, mtd-utils, linux-4.4-latest (>= 4.4.154-105-rockchip)
+Depends: debsums, mtd-utils
 Homepage: https://github.com/radxa/u-boot
 Priority: optional
 Section: admin
@@ -1893,7 +1893,7 @@ Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 7133
-Depends: debsums, mtd-utils, linux-4.4-latest (>= 4.4.154-105-rockchip)
+Depends: debsums, mtd-utils
 Homepage: https://github.com/radxa/u-boot
 Priority: optional
 Section: admin
