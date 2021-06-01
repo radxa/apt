@@ -733,10 +733,10 @@ Homepage: https://github.com/radxa/u-boot
 Priority: optional
 Section: admin
 Filename: pool/main/r/rockpi4c-rk-ubootimg/rockpi4c-rk-ubootimg_2017.09-2699-gf18abd08ab_all.deb
-Size: 1857978
-SHA256: 7eb93e13d3b99b295547b2aeb84ca1997eb1dd9cd4a6ec0c3949c47b71131e49
-SHA1: d95a2fc1c9027368cfb2e220ec710af869ad1cd8
-MD5sum: 28f8e5b5b016e8682242e3f32c102e89
+Size: 859716
+SHA256: 0313a03fe3ee448afe55d5da16ee2afe30ab8dd06ec13008cc10f53ab94c7bcb
+SHA1: 889124b3466f2710713e04b0c4cabce2cdd3a557
+MD5sum: 595aecd0c83082c0d6bcef085df20faa
 Description: rockpi4c u-boot package
 Multi-Arch: foreign
 Replaces: rockpi4c-rk-ubootimg
