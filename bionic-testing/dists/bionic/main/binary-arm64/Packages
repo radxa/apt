@@ -1355,25 +1355,6 @@ MD5sum: 4f4cce2e23a5ba2197442215a9f13879
 Description: Debug symbols for libswscale4
 Build-Ids: 5b081569d6ce572f2b1791c63260cb6140aaf8e1
 
-Package: linux-4.4-latest
-Version: 4.4.154-111-rockchip
-License: GPL-2+
-Vendor: Radxa
-Architecture: all
-Maintainer: Radxa <dev@radxa.com>
-Installed-Size: 0
-Depends: linux-image-4.4.154-111-rockchip-g39b306a41b2d, linux-firmware-image-4.4.154-111-rockchip-g39b306a41b2d, linux-headers-4.4.154-111-rockchip-g39b306a41b2d
-Homepage: https://github.com/radxa/kernel
-Priority: optional
-Section: admin
-Filename: pool/main/l/linux-4.4-latest/linux-4.4-latest_4.4.154-111-rockchip_all.deb
-Size: 1110
-SHA256: ede9d177a316463174a9b41c9acf4ab0c42820b2ada35e678fc74167f04ac8a4
-SHA1: 8b4e1862aa5598daf2b2b9ac8d597663a664177a
-MD5sum: fe8709acadbf4461629024b79cddf1b0
-Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
-Multi-Arch: foreign
-
 Package: linux-4.4-rock-pi-4-latest
 Version: 4.4.154-112-rockchip
 License: GPL-2+
