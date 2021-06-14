@@ -206,21 +206,21 @@ Conflicts: linux-4.4-rockpie-latest
 Provides: linux-4.4-rockpie-latest
 
 Package: linux-4.4-rock-pi-n10-latest
-Version: 4.4.167-20-rockchip
+Version: 4.4.167-21-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: arm64
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.4.167-20-rockchip-g5f826bc48b1e, linux-firmware-image-4.4.167-20-rockchip-g5f826bc48b1e, linux-headers-4.4.167-20-rockchip-g5f826bc48b1e
+Depends: linux-image-4.4.167-21-rockchip-g206ee2c36a39, linux-firmware-image-4.4.167-21-rockchip-g206ee2c36a39, linux-headers-4.4.167-21-rockchip-g206ee2c36a39
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.4-rock-pi-n10-latest/linux-4.4-rock-pi-n10-latest_4.4.167-20-rockchip_arm64.deb
-Size: 1162
-SHA256: caeac3a092421016689d0e63b70d0b9a82a49b668e08316c99f6145502cffa61
-SHA1: fd0a1585f10850af6c358e4823e252df6c1186ba
-MD5sum: a8e96c24d73e65dc2232960237ca94c2
+Filename: pool/main/l/linux-4.4-rock-pi-n10-latest/linux-4.4-rock-pi-n10-latest_4.4.167-21-rockchip_arm64.deb
+Size: 1158
+SHA256: 83832f811602c16ca5a79693606d4ded3cb9d8f449d3f6f99d0d58a3450ea00a
+SHA1: 5d63510bd203e652d2492ae50116ff1b4d973980
+MD5sum: 8b0ddd20181a075cb0f793c311a083e9
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 Replaces: linux-4.4-rock-pi-n10-latest
@@ -350,6 +350,23 @@ SHA1: 14e31b26ff16bd3a93fc6338709e9d723050e6f1
 MD5sum: f042a2021f91b9e4ab956ce98fa37a54
 Description: Linux kernel firmware, version 4.4.167-20-rockchip-g5f826bc48b1e
  This package contains firmware from the Linux kernel, version 4.4.167-20-rockchip-g5f826bc48b1e.
+
+Package: linux-firmware-image-4.4.167-21-rockchip-g206ee2c36a39
+Source: linux-4.4.167-21-rockchip-g206ee2c36a39
+Version: 4.4.167-21-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@ade64e6abc4e>
+Installed-Size: 566
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.167-21-rockchip-g206ee2c36a39/linux-firmware-image-4.4.167-21-rockchip-g206ee2c36a39_4.4.167-21-rockchip_arm64.deb
+Size: 177764
+SHA256: ebddffd43f211438febb8237186e124a9411774bad3f0ac7fdf4d9783313c11d
+SHA1: ce7f2e334dc58c7a33487d8b94b4bf2465e07028
+MD5sum: 18679fa220457aeaf608884e1ac6562b
+Description: Linux kernel firmware, version 4.4.167-21-rockchip-g206ee2c36a39
+ This package contains firmware from the Linux kernel, version 4.4.167-21-rockchip-g206ee2c36a39.
 
 Package: linux-firmware-image-4.4.194-17-rockchip-g07288d4ebac7
 Source: linux-4.4.194-17-rockchip-g07288d4ebac7
@@ -485,6 +502,26 @@ SHA1: 99d3e17dec31fda6fb041b535a7daf7bc811ee0e
 MD5sum: 92d20f306394e4aed45d19ffae00da4a
 Description: Linux kernel headers for 4.4.167-20-rockchip-g5f826bc48b1e on arm64
  This package provides kernel header files for 4.4.167-20-rockchip-g5f826bc48b1e on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.167-21-rockchip-g206ee2c36a39
+Source: linux-4.4.167-21-rockchip-g206ee2c36a39
+Version: 4.4.167-21-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@ade64e6abc4e>
+Installed-Size: 70169
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.167-21-rockchip-g206ee2c36a39/linux-headers-4.4.167-21-rockchip-g206ee2c36a39_4.4.167-21-rockchip_arm64.deb
+Size: 10117328
+SHA256: 7e84d83acff22c1637cfe8d5f2844d2f0d94145a2786e0f029100c7944a31b50
+SHA1: 40d50cc58dd4109675b72127bd6eef36091f71d2
+MD5sum: 492f66f1258d660fcf394fe85491ce05
+Description: Linux kernel headers for 4.4.167-21-rockchip-g206ee2c36a39 on arm64
+ This package provides kernel header files for 4.4.167-21-rockchip-g206ee2c36a39 on arm64
  .
  This is useful for people who need to build external modules
 
@@ -627,6 +664,26 @@ MD5sum: 80a4914f768623a8c31873670211d748
 Description: Linux kernel, version 4.4.167-20-rockchip-g5f826bc48b1e
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.167-20-rockchip-g5f826bc48b1e.
+
+Package: linux-image-4.4.167-21-rockchip-g206ee2c36a39
+Source: linux-4.4.167-21-rockchip-g206ee2c36a39
+Version: 4.4.167-21-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@ade64e6abc4e>
+Installed-Size: 56337
+Suggests: linux-firmware-image-4.4.167-21-rockchip-g206ee2c36a39
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.167-21-rockchip-g206ee2c36a39
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.167-21-rockchip-g206ee2c36a39/linux-image-4.4.167-21-rockchip-g206ee2c36a39_4.4.167-21-rockchip_arm64.deb
+Size: 14933096
+SHA256: 087e563e9cdbac793b8f6d4354ab4282f8c6f885b9428aa2170e86e7f0e3a7b4
+SHA1: 4d81b5f4aed93587005eef76db3b9d02129e60a9
+MD5sum: c562e1afc8571b1a1c02bee0d9bca483
+Description: Linux kernel, version 4.4.167-21-rockchip-g206ee2c36a39
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.167-21-rockchip-g206ee2c36a39.
 
 Package: linux-image-4.4.194-17-rockchip-g07288d4ebac7
 Source: linux-4.4.194-17-rockchip-g07288d4ebac7
