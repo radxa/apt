@@ -100,6 +100,21 @@ Description: Linux kernel, version 4.4.154-112-rockchip-gfdb18c8bab17
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-112-rockchip-gfdb18c8bab17.
 
+Package: rockchip-overlay
+Version: 2.9
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Depends: linux-base, file, bc, sed, coreutils
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_2.9_all.deb
+Size: 36704
+SHA256: 1c354ec79767b331ad57ea09ffa1ee97219f46f6384bbacc07ab5f7c8de7e591
+SHA1: 76cdf44cac8ecee2b61b91b215f290423971fc8e
+MD5sum: f9728973a2f88a56f75dbfd43d6c13ed
+Description: General rockchip overlay package.
+
 Package: rockpi4a-rk-u-boot-latest
 Version: 2017.09-2700-g70b4cfe057
 License: GPL-2+
