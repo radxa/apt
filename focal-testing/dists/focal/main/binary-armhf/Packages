@@ -18,7 +18,7 @@ Description: common files used by 96boards
  bringing a common user experience across different 96Boards.
 
 Package: broadcom-wifibt-firmware
-Version: 1.0
+Version: 1.1
 Maintainer: Radxa <dev@radxa.com>
 Architecture: all
 Component: main
@@ -28,11 +28,11 @@ Confilcts: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, a
 Provides: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware, ap6275s-firmware
 Priority: optional
 Section: utils
-Filename: pool/main/b/broadcom-wifibt-firmware/broadcom-wifibt-firmware_1.0_all.deb
-Size: 2607884
-SHA256: d415d8ed4379a3f582ed5f7258e3dfa9aafecd0a511680ac72a1b407542bc552
-SHA1: 0eec16898411d3a7f5974265083c0eb35edecd18
-MD5sum: 7a3829308bc8c54d13e40a98397a054b
+Filename: pool/main/b/broadcom-wifibt-firmware/broadcom-wifibt-firmware_1.1_all.deb
+Size: 2607916
+SHA256: 8531c99dc23c464a3ec4e9af5f901339a94d74e0118cb682c8473766e49f12fe
+SHA1: cce803d5f0324339ce1bb4a678faad077f9296cc
+MD5sum: f510619dfa28b667128ddb2959c85e62
 Description: General Broadcom WiFi and Bluetooth chip firmware.
 
 Package: htop
