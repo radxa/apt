@@ -1356,21 +1356,21 @@ Description: Debug symbols for libswscale4
 Build-Ids: 5b081569d6ce572f2b1791c63260cb6140aaf8e1
 
 Package: linux-4.4-rock-pi-4-latest
-Version: 4.4.154-113-rockchip
+Version: 4.4.154-114-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.4.154-113-rockchip-gdb9dfc2cdd25, linux-firmware-image-4.4.154-113-rockchip-gdb9dfc2cdd25, linux-headers-4.4.154-113-rockchip-gdb9dfc2cdd25
+Depends: linux-image-4.4.154-114-rockchip-gd730cbf3199e, linux-firmware-image-4.4.154-114-rockchip-gd730cbf3199e, linux-headers-4.4.154-114-rockchip-gd730cbf3199e
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.4-rock-pi-4-latest/linux-4.4-rock-pi-4-latest_4.4.154-113-rockchip_all.deb
-Size: 1156
-SHA256: 28ab37a4a0925188cb8cf0debdf1897b01202f9669ca1df9fdf90fbee7b2bd83
-SHA1: f42d068427a8ba68ba678c390d840f2934fd4951
-MD5sum: e77008d4579ac91cc664b87d6dbef096
+Filename: pool/main/l/linux-4.4-rock-pi-4-latest/linux-4.4-rock-pi-4-latest_4.4.154-114-rockchip_all.deb
+Size: 1158
+SHA256: 32a315ad2143583e23ca59f31d1aeee94a5d5603ebbbc2d3fbbf17fd8484a48d
+SHA1: 4639570721506a084d6b2af5bdc368acc877cb0b
+MD5sum: e0323ba1a8a3d759f488a07e399f62e4
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 Replaces: linux-4.4-latest
@@ -1680,6 +1680,23 @@ SHA1: cff98d4523839ca1cfa89d0f2a80c94dbf5a2d7e
 MD5sum: 7456fed0d2a6a2b5f14b08c9cd00f217
 Description: Linux kernel firmware, version 4.4.154-113-rockchip-gdb9dfc2cdd25
  This package contains firmware from the Linux kernel, version 4.4.154-113-rockchip-gdb9dfc2cdd25.
+
+Package: linux-firmware-image-4.4.154-114-rockchip-gd730cbf3199e
+Source: linux-4.4.154-114-rockchip-gd730cbf3199e
+Version: 4.4.154-114-rockchip
+Architecture: all
+Maintainer: Anonymous <root@2ac4f1eff2a0>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-114-rockchip-gd730cbf3199e/linux-firmware-image-4.4.154-114-rockchip-gd730cbf3199e_4.4.154-114-rockchip_all.deb
+Size: 186684
+SHA256: 6218306c6b771e84ba55d8a12092ea95d2cd5fc74e8f34210d1e2f93aa5fc447
+SHA1: b0e67c49c53d71a1d383480a2d91fd95583b4378
+MD5sum: 639124de61817bc91bce2f798d370ed8
+Description: Linux kernel firmware, version 4.4.154-114-rockchip-gd730cbf3199e
+ This package contains firmware from the Linux kernel, version 4.4.154-114-rockchip-gd730cbf3199e.
 
 Package: linux-firmware-image-4.4.154-86-rockchip-00028-gfcfcea3
 Source: linux-4.4.154-86-rockchip-00028-gfcfcea3
@@ -2366,6 +2383,26 @@ SHA1: 6e41c932910817057c7504facf108066301c0865
 MD5sum: 504509210ae5b7fc7e79011bb64788f6
 Description: Linux kernel headers for 4.4.154-113-rockchip-gdb9dfc2cdd25 on all
  This package provides kernel header files for 4.4.154-113-rockchip-gdb9dfc2cdd25 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.154-114-rockchip-gd730cbf3199e
+Source: linux-4.4.154-114-rockchip-gd730cbf3199e
+Version: 4.4.154-114-rockchip
+Architecture: all
+Maintainer: Anonymous <root@2ac4f1eff2a0>
+Installed-Size: 71015
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-114-rockchip-gd730cbf3199e/linux-headers-4.4.154-114-rockchip-gd730cbf3199e_4.4.154-114-rockchip_all.deb
+Size: 10192544
+SHA256: 911c3a8b992e014121bb8ad3b3651db6eb0d916032681a29d085b6a2a2861452
+SHA1: 8e72622f33836b9b6f040c88b3f7791766917b2f
+MD5sum: 299a22329b659a087bde63ba16b6f0e8
+Description: Linux kernel headers for 4.4.154-114-rockchip-gd730cbf3199e on all
+ This package provides kernel header files for 4.4.154-114-rockchip-gd730cbf3199e on all
  .
  This is useful for people who need to build external modules
 
@@ -3188,6 +3225,26 @@ MD5sum: 7a62dacc231310065e3f4d0c595218ec
 Description: Linux kernel, version 4.4.154-113-rockchip-gdb9dfc2cdd25
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-113-rockchip-gdb9dfc2cdd25.
+
+Package: linux-image-4.4.154-114-rockchip-gd730cbf3199e
+Source: linux-4.4.154-114-rockchip-gd730cbf3199e
+Version: 4.4.154-114-rockchip
+Architecture: all
+Maintainer: Anonymous <root@2ac4f1eff2a0>
+Installed-Size: 79636
+Suggests: linux-firmware-image-4.4.154-114-rockchip-gd730cbf3199e
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-114-rockchip-gd730cbf3199e
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-114-rockchip-gd730cbf3199e/linux-image-4.4.154-114-rockchip-gd730cbf3199e_4.4.154-114-rockchip_all.deb
+Size: 15126368
+SHA256: 80e28e0d5ad59bcdd5775c85145952ca34c43917abf49b3ce9e6a9d6b4c8089b
+SHA1: 9a4abcdff925fe89da4861a549f0acfe645e8739
+MD5sum: 9fb77a17f68329506433ad582cc9abb7
+Description: Linux kernel, version 4.4.154-114-rockchip-gd730cbf3199e
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-114-rockchip-gd730cbf3199e.
 
 Package: linux-image-4.4.154-86-rockchip-00028-gfcfcea3
 Source: linux-4.4.154-86-rockchip-00028-gfcfcea3
