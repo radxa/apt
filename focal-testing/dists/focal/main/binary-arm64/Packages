@@ -161,6 +161,26 @@ SHA1: f8a7b6b3111872a05bbf8102fd1346848f672699
 MD5sum: 6d65cf7eb5b66edf96b5951619d6f039
 Description: io tool
 
+Package: libmraa
+Version: 1.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: arm64
+Component: main
+Multi-Arch: foreign
+Replaces: libmraa-rockpis, libmraa-rockpi4, libmraa-rockpie
+Conflicts: libmraa-rockpis, libmraa-rockpi4, libmraa-rockpie
+Provides: libmraa-rockpis, libmraa-rockpi4, libmraa-rockpie
+Depends: libc6, libjson-c3, libgcc1, libstdc++6,
+    python, libpython2.7, python3.8, libpython3.8
+Priority: optional
+Section: libs
+Filename: pool/main/libm/libmraa/libmraa_1.1_arm64.deb
+Size: 206028
+SHA256: 55340927ecbba3accd8c2f129314bf885ba47f029b2f296b1f2ac1adf52d5005
+SHA1: ba5850313611e30d2b31c6c6d0fbeca0abd553a9
+MD5sum: 0dd95d7832c3e177a79259a2c73d105b
+Description: libmraa
+
 Package: linux-4.19-rock-3-latest
 Version: 4.19.193-2-rockchip
 License: GPL-2+
