@@ -1082,3 +1082,17 @@ Replaces: rockpis-rk-ubootimg
 Conflicts: rockpis-rk-ubootimg
 Provides: rockpis-rk-ubootimg
 
+Package: rtl8723be-firmware
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/r/rtl8723be-firmware/rtl8723be-firmware_0.1_all.deb
+Size: 114772
+SHA256: dcb9868ca1a0bf6a41ed2bc8592142b4febb5cd673d960513cf90d270c8eaddb
+SHA1: f3fc68dfe1eb087e909245da3bd2531a0e054768
+MD5sum: a8626e9b792fe2f67dfd594613d5293e
+Description: General chip rtl8723be firmware.
+
