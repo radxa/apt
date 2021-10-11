@@ -979,6 +979,25 @@ Description: Linux kernel headers for 4.4.194-19-rockchip-g287ff75afc47 on arm64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-5.10.69-3-amlogic-gacf75c74f9
+Source: linux-5.10.69-3-amlogic-gacf75c74f9
+Version: 5.10.69-3-amlogic-gacf75c74f9
+Architecture: arm64
+Maintainer: stephen <stephen@mrs-ella>
+Installed-Size: 47524
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.69-3-amlogic-gacf75c74f9/linux-headers-5.10.69-3-amlogic-gacf75c74f9_5.10.69-3-amlogic-gacf75c74f9_arm64.deb
+Size: 7571878
+SHA256: 713ae2486ca05f261628739f2c6c1b7c08ed5ee3d1e5f82da0faeac2927fc575
+SHA1: f2f434cebff46286a0126d775f7c2169887386f1
+MD5sum: 5b788acc280cb7be0e24530b6251ea59
+Description: Linux kernel headers for 5.10.69-3-amlogic-gacf75c74f9 on arm64
+ This package provides kernel header files for 5.10.69-3-amlogic-gacf75c74f9 on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-4.19.193-1-rockchip-g6bcb15a5b2d0
 Source: linux-4.19.193-1-rockchip-g6bcb15a5b2d0
 Version: 4.19.193-1-rockchip
@@ -1404,6 +1423,24 @@ MD5sum: 46a2009b00701f874d8dc2b3806655b6
 Description: Linux kernel, version 4.4.194-19-rockchip-g287ff75afc47
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.194-19-rockchip-g287ff75afc47.
+
+Package: linux-image-5.10.69-3-amlogic-gacf75c74f9
+Source: linux-5.10.69-3-amlogic-gacf75c74f9
+Version: 5.10.69-3-amlogic-gacf75c74f9
+Architecture: arm64
+Maintainer: stephen <stephen@mrs-ella>
+Installed-Size: 165756
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.69-3-amlogic-gacf75c74f9/linux-image-5.10.69-3-amlogic-gacf75c74f9_5.10.69-3-amlogic-gacf75c74f9_arm64.deb
+Size: 40800248
+SHA256: 1f5481d5059d9c0ca83fb8fd4d8a21e48125dc06c7b9eed54380cd69407321f2
+SHA1: 2b9364c33557504d1f05aec65dd77e1c5ebf67a4
+MD5sum: acf9b8dff11d80ce8fbe39fb4867c543
+Description: Linux kernel, version 5.10.69-3-amlogic-gacf75c74f9
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.69-3-amlogic-gacf75c74f9.
 
 Package: resize-assistant
 Version: 0.2
