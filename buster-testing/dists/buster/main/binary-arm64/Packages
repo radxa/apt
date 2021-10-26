@@ -3556,6 +3556,25 @@ Description: Linux kernel headers for 5.10.69-3-amlogic-gacf75c74f9 on arm64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-5.10.69-4-amlogic-g37ae4051315a
+Source: linux-5.10.69-4-amlogic-g37ae4051315a
+Version: 5.10.69-4-amlogic-g37ae4051315a
+Architecture: arm64
+Maintainer: stephen <stephen@mrs-ella>
+Installed-Size: 47518
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.69-4-amlogic-g37ae4051315a/linux-headers-5.10.69-4-amlogic-g37ae4051315a_5.10.69-4-amlogic-g37ae4051315a_arm64.deb
+Size: 7573268
+SHA256: 8f2d78bb0eaece76dc5919fbd4635abcee379000b7212ca5b7d349e3cd8b5876
+SHA1: 9223a0554a27e2d80c54c1a628339bda07e60d4f
+MD5sum: dbfe199554a82d4f9ab0117fe7264708
+Description: Linux kernel headers for 5.10.69-4-amlogic-g37ae4051315a on arm64
+ This package provides kernel header files for 5.10.69-4-amlogic-g37ae4051315a on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-4.19.193-1-rockchip-g6bcb15a5b2d0
 Source: linux-4.19.193-1-rockchip-g6bcb15a5b2d0
 Version: 4.19.193-1-rockchip
@@ -4839,6 +4858,24 @@ MD5sum: acf9b8dff11d80ce8fbe39fb4867c543
 Description: Linux kernel, version 5.10.69-3-amlogic-gacf75c74f9
  This package contains the Linux kernel, modules and corresponding other
  files, version: 5.10.69-3-amlogic-gacf75c74f9.
+
+Package: linux-image-5.10.69-4-amlogic-g37ae4051315a
+Source: linux-5.10.69-4-amlogic-g37ae4051315a
+Version: 5.10.69-4-amlogic-g37ae4051315a
+Architecture: arm64
+Maintainer: stephen <stephen@mrs-ella>
+Installed-Size: 161431
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.69-4-amlogic-g37ae4051315a/linux-image-5.10.69-4-amlogic-g37ae4051315a_5.10.69-4-amlogic-g37ae4051315a_arm64.deb
+Size: 40402570
+SHA256: f5249db51c77bce714684d8757dcbd68e7b9a2708187a6b691f9da68dea74107
+SHA1: 3afd135eb730fc8e65689527bc42788092252d3d
+MD5sum: 5271037bcf55a6edeffa06fb03e87183
+Description: Linux kernel, version 5.10.69-4-amlogic-g37ae4051315a
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.69-4-amlogic-g37ae4051315a.
 
 Package: realtek-bt-firmware
 Version: 0.2
