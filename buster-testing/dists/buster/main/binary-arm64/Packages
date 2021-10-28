@@ -973,7 +973,7 @@ Description: Userspace interface to kernel DRM services -- runtime
  This package provides the runtime environment for libdrm.
 
 Package: libmraa
-Version: 1.3
+Version: 1.4
 Maintainer: Radxa <dev@radxa.com>
 Architecture: arm64
 Component: main
@@ -981,16 +981,16 @@ Multi-Arch: foreign
 Replaces: libmraa-rockpis, libmraa-rockpi4
 Conflicts: libmraa-rockpis, libmraa-rockpi4
 Provides: libmraa-rockpis, libmraa-rockpi4
-Depends: libc6, libjson-c3, libgcc1, libstdc++6,
+Depends: libc6, libjson-c3, libjson-c-dev, libgtest-dev, libgcc1, libstdc++6,
     python2.7, libpython2.7, python3.7, libpython3.7
 Priority: optional
 Section: libs
-Filename: pool/main/libm/libmraa/libmraa_1.3_arm64.deb
-Size: 199108
-SHA256: 54b7b9e3a55230d4be89d9c69ef29f8b3ce9376c0a89ad17e4aaa8364c49b6d8
-SHA1: c6d80658fb28b0af75efdd44484bf9212e01d301
-MD5sum: 4defca11b66165067d56253e96ff37ec
-Description: libmraa
+Filename: pool/main/libm/libmraa/libmraa_1.4_arm64.deb
+Size: 199956
+SHA256: f68aa12fc1df87075a092fc3b2068ef699530fca4b857d4cf4a0bcd86dabee3e
+SHA1: b02760938df21a6a0fa78d5b4b91a24d84632124
+MD5sum: 61e09040bc614dd4974ea86848e67901
+Description: Provide mraa interface package for C/C++, python and Java.
 
 Package: libpostproc-dev
 Source: ffmpeg
