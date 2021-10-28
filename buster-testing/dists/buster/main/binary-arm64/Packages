@@ -17,6 +17,20 @@ Description: common files used by 96boards
  This package provides configuration and tools used to help
  bringing a common user experience across different 96Boards.
 
+Package: amlogic-adbd
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: arm64
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/a/amlogic-adbd/amlogic-adbd_0.1_arm64.deb
+Size: 595472
+SHA256: 40143877092159b1b12395e43861c1453f68da579d50c5d45e10a1e81256f517
+SHA1: 8bc522495bc3d36d38cefed25b9ab97317b4cd39
+MD5sum: 455edacac29d49621ad9c4d982fcf050
+Description: amlogic-adbd package.
+
 Package: brcm-patchram-plus1
 Version: 0.2
 Maintainer: Radxa <dev@radxa.com>
