@@ -586,6 +586,25 @@ Description: Linux kernel headers for 5.10.69-5-amlogic-gfeede6ac474e on arm64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-5.10.69-6-amlogic-g775a46783ad8
+Source: linux-5.10.69-6-amlogic-g775a46783ad8
+Version: 5.10.69-6-amlogic-g775a46783ad8
+Architecture: arm64
+Maintainer: stephen <stephen@mrs-ella>
+Installed-Size: 47518
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.69-6-amlogic-g775a46783ad8/linux-headers-5.10.69-6-amlogic-g775a46783ad8_5.10.69-6-amlogic-g775a46783ad8_arm64.deb
+Size: 7573646
+SHA256: 580a2d9f5a274b427a2cd54fae04c1b38abd25a13ce97d135fffc17d06b56e32
+SHA1: 00e8da1c7c8a38f04a1be77fbfe5efd42111e8c8
+MD5sum: b2cf584d9bb8539e9740d88934d06ce4
+Description: Linux kernel headers for 5.10.69-6-amlogic-g775a46783ad8 on arm64
+ This package provides kernel header files for 5.10.69-6-amlogic-g775a46783ad8 on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-4.4.143-61-rockchip-g1f77a85486f7
 Source: linux-4.4.143-61-rockchip-g1f77a85486f7
 Version: 4.4.143-61-rockchip
@@ -799,6 +818,24 @@ MD5sum: 006028ec7ca52513fd6a34a32ce59c90
 Description: Linux kernel, version 5.10.69-5-amlogic-gfeede6ac474e
  This package contains the Linux kernel, modules and corresponding other
  files, version: 5.10.69-5-amlogic-gfeede6ac474e.
+
+Package: linux-image-5.10.69-6-amlogic-g775a46783ad8
+Source: linux-5.10.69-6-amlogic-g775a46783ad8
+Version: 5.10.69-6-amlogic-g775a46783ad8
+Architecture: arm64
+Maintainer: stephen <stephen@mrs-ella>
+Installed-Size: 161434
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.69-6-amlogic-g775a46783ad8/linux-image-5.10.69-6-amlogic-g775a46783ad8_5.10.69-6-amlogic-g775a46783ad8_arm64.deb
+Size: 40408540
+SHA256: 9a572a2c3f1045ca549ad48b0d01153b537af2b15dae1c62061727549707e313
+SHA1: 42dcf7372de68217528053bcb304cde72c3e8df7
+MD5sum: 40dc1d907673cc73539a299e676b7016
+Description: Linux kernel, version 5.10.69-6-amlogic-g775a46783ad8
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.69-6-amlogic-g775a46783ad8.
 
 Package: realtek-bt-firmware
 Version: 0.2
