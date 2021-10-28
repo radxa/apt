@@ -1017,6 +1017,25 @@ Description: Linux kernel headers for 5.10.69-4-amlogic-g37ae4051315a on arm64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-5.10.69-5-amlogic-gfeede6ac474e
+Source: linux-5.10.69-5-amlogic-gfeede6ac474e
+Version: 5.10.69-5-amlogic-gfeede6ac474e
+Architecture: arm64
+Maintainer: stephen <stephen@mrs-ella>
+Installed-Size: 47518
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.69-5-amlogic-gfeede6ac474e/linux-headers-5.10.69-5-amlogic-gfeede6ac474e_5.10.69-5-amlogic-gfeede6ac474e_arm64.deb
+Size: 7573868
+SHA256: 8c3b0af79280080b01e37dc42ad1b95a3c6040fde643e891fd177294d21bdab4
+SHA1: 277f9451619331474f9d70d18cf48ca86906e066
+MD5sum: e4c008297fea4584e1dec82891dad198
+Description: Linux kernel headers for 5.10.69-5-amlogic-gfeede6ac474e on arm64
+ This package provides kernel header files for 5.10.69-5-amlogic-gfeede6ac474e on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-4.19.193-1-rockchip-g6bcb15a5b2d0
 Source: linux-4.19.193-1-rockchip-g6bcb15a5b2d0
 Version: 4.19.193-1-rockchip
@@ -1478,6 +1497,24 @@ MD5sum: 5271037bcf55a6edeffa06fb03e87183
 Description: Linux kernel, version 5.10.69-4-amlogic-g37ae4051315a
  This package contains the Linux kernel, modules and corresponding other
  files, version: 5.10.69-4-amlogic-g37ae4051315a.
+
+Package: linux-image-5.10.69-5-amlogic-gfeede6ac474e
+Source: linux-5.10.69-5-amlogic-gfeede6ac474e
+Version: 5.10.69-5-amlogic-gfeede6ac474e
+Architecture: arm64
+Maintainer: stephen <stephen@mrs-ella>
+Installed-Size: 161434
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.69-5-amlogic-gfeede6ac474e/linux-image-5.10.69-5-amlogic-gfeede6ac474e_5.10.69-5-amlogic-gfeede6ac474e_arm64.deb
+Size: 40407850
+SHA256: be9f3302737291294af7d1db6ca8d73419a75543c18beb247a47af88ca4cd1fe
+SHA1: fea9bdd1389965214709a691ff1b80221e70e852
+MD5sum: 006028ec7ca52513fd6a34a32ce59c90
+Description: Linux kernel, version 5.10.69-5-amlogic-gfeede6ac474e
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.69-5-amlogic-gfeede6ac474e.
 
 Package: resize-assistant
 Version: 0.2
