@@ -78,6 +78,20 @@ Description: Documentation of the FFmpeg multimedia framework
  framework including the API documentation created by doxygen and the manpages
  for the libraries.
 
+Package: intel-wifibt-firmware
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/i/intel-wifibt-firmware/intel-wifibt-firmware_0.1_all.deb
+Size: 316604
+SHA256: e909e1d0286847aa0de506178f7bf2d55f84835062e143ecf9018986645bfc95
+SHA1: 3dba3e91f259e972e4fdc9a8bd7ec3944edd9ec0
+MD5sum: e069679b0d84a8ed0bc41dc6f15a1183
+Description: General Intel WiFi and Bluetooth chip firmware.
+
 Package: libav-tools
 Source: ffmpeg
 Version: 7:3.4.1-1

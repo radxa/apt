@@ -18,17 +18,17 @@ Description: common files used by 96boards
  bringing a common user experience across different 96Boards.
 
 Package: amlogic-adbd
-Version: 0.1
+Version: 0.2
 Maintainer: Radxa <dev@radxa.com>
 Architecture: arm64
 Component: main
 Priority: optional
 Section: utils
-Filename: pool/main/a/amlogic-adbd/amlogic-adbd_0.1_arm64.deb
-Size: 595472
-SHA256: 40143877092159b1b12395e43861c1453f68da579d50c5d45e10a1e81256f517
-SHA1: 8bc522495bc3d36d38cefed25b9ab97317b4cd39
-MD5sum: 455edacac29d49621ad9c4d982fcf050
+Filename: pool/main/a/amlogic-adbd/amlogic-adbd_0.2_arm64.deb
+Size: 595720
+SHA256: d070de4b0a657b69436dbe178b1aac61c5cddd4fc1aeceb414fb6aa0beac847a
+SHA1: fb151f142a65e69bf3eef4623243b6b9fb355fae
+MD5sum: 8137ec033d4737f139656d3e7b91ff0f
 Description: amlogic-adbd package.
 
 Package: brcm-patchram-plus1
@@ -160,6 +160,20 @@ Description: interactive processes viewer
  .
  Tasks related to processes (killing, renicing) can be done without
  entering their PIDs.
+
+Package: intel-wifibt-firmware
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/i/intel-wifibt-firmware/intel-wifibt-firmware_0.1_all.deb
+Size: 316604
+SHA256: e909e1d0286847aa0de506178f7bf2d55f84835062e143ecf9018986645bfc95
+SHA1: 3dba3e91f259e972e4fdc9a8bd7ec3944edd9ec0
+MD5sum: e069679b0d84a8ed0bc41dc6f15a1183
+Description: General Intel WiFi and Bluetooth chip firmware.
 
 Package: io
 Version: 0.1
