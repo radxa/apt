@@ -1,7 +1,7 @@
 Origin: apt.radxa.com
 Label: apt.radxa.com
 Codename: buster
-Date: Fri, 12 Nov 2021 13:09:58 UTC
+Date: Fri, 19 Nov 2021 09:20:44 UTC
 Architectures: armhf arm64
 Components: main
 Description: Apt repository for Radxa products
@@ -9,20 +9,20 @@ MD5Sum:
  4ea068fc40864af8c42aa3e85a3aede1 48201 main/binary-armhf/Packages
  cc7c363be9c072497d5ed6969f0a16f0 9934 main/binary-armhf/Packages.gz
  c565b989b8ee8e7795fc8705eff55600 126 main/binary-armhf/Release
- cefbf0f3c7ffc945f533f3c335bbe9d3 244457 main/binary-arm64/Packages
- 6edd08fa1c910f7cd02d292f876809da 47792 main/binary-arm64/Packages.gz
+ 45ce8b84f0fbdce5e1ddc2e1e0640412 246099 main/binary-arm64/Packages
+ a5422254c2e0e9d841ec63624e11d0ae 48082 main/binary-arm64/Packages.gz
  1948d7c313289de2d434bc8958eb4305 126 main/binary-arm64/Release
 SHA1:
  3ec4b4c7edb047eaedd95e31a2a80b8e1774b9b9 48201 main/binary-armhf/Packages
  1d3c1229d93697ec5685ee44aaa8575b660cc844 9934 main/binary-armhf/Packages.gz
  23e42ffe5fe8220d4ce8cebe5afa9046010d91e9 126 main/binary-armhf/Release
- d999bd092f87970a2232f2d8cdafd4a8e63b1990 244457 main/binary-arm64/Packages
- 70b5d823193cd1857175ae0e900fb9ca4c6e6abb 47792 main/binary-arm64/Packages.gz
+ 30c421a1e5d0162ccfe6fd63cdc4bac8c5f051b1 246099 main/binary-arm64/Packages
+ 51c229dbb6e54755a2d59687cb041b548782584c 48082 main/binary-arm64/Packages.gz
  af41e6144b1def9a2be005d93fbb7932edd05a3c 126 main/binary-arm64/Release
 SHA256:
  22569c45e9ada592148ab518b11929ba05b431fae15d22e768111d1d01b681b9 48201 main/binary-armhf/Packages
  29bda4a94265ad0082829b1bae109cf747b84748a7e8b18684247a035ec67f46 9934 main/binary-armhf/Packages.gz
  82b7adf84d0ca01b19114872693eb76ee52c66422528a43f813b163a4938b9af 126 main/binary-armhf/Release
- fc286cda4247266024b9aad3debaf7a00752f69111b691e13758d01edca8ce41 244457 main/binary-arm64/Packages
- b4228a0ae42a23b436bb057985c4b6eba51cc3d7c9c7772371dc667bad9b4145 47792 main/binary-arm64/Packages.gz
+ 1cd5795d24525ad3a1d2f4fd2582b3c60c096ae24ef52391574a4f10871db66b 246099 main/binary-arm64/Packages
+ 80f36120a67faad88765036bcfb5b63ec96a135eeda28ad41f74672724a95001 48082 main/binary-arm64/Packages.gz
  d75661930a67b30a72b8f44ddbb16f3960a82997c1150e8d92dac8b31b364e40 126 main/binary-arm64/Release
