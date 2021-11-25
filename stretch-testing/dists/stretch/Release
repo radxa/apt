@@ -1,7 +1,7 @@
 Origin: apt.radxa.com
 Label: apt.radxa.com
 Codename: stretch
-Date: Fri, 24 Sep 2021 15:00:34 UTC
+Date: Thu, 25 Nov 2021 12:53:16 UTC
 Architectures: armhf arm64
 Components: main
 Description: Apt repository for Radxa products
@@ -9,20 +9,20 @@ MD5Sum:
  e298c5f01838e341cd00d6b7b55508ed 46437 main/binary-armhf/Packages
  cb145920492d967a48f5f80b34a62d65 9620 main/binary-armhf/Packages.gz
  c565b989b8ee8e7795fc8705eff55600 126 main/binary-armhf/Release
- 0392b848b68e6e4294c69964e20578c9 148799 main/binary-arm64/Packages
- 96968371404389151cafc91ba707441d 29163 main/binary-arm64/Packages.gz
+ 6d4769b0fb8abc68300d2484289aa7b5 151416 main/binary-arm64/Packages
+ 3d1dd2d709477cfe79787e5360e77085 29569 main/binary-arm64/Packages.gz
  1948d7c313289de2d434bc8958eb4305 126 main/binary-arm64/Release
 SHA1:
  52aa48b7f117958dd72efb6bfbf9eed5104d1ab4 46437 main/binary-armhf/Packages
  ffccc4cb65179b2bf2b97397056040a4a2903cfa 9620 main/binary-armhf/Packages.gz
  23e42ffe5fe8220d4ce8cebe5afa9046010d91e9 126 main/binary-armhf/Release
- 6376db2138bd41108e81054a5f47a7e8511b23bf 148799 main/binary-arm64/Packages
- b785f535a219af97d9050ed819bc2f3ca39b4ffb 29163 main/binary-arm64/Packages.gz
+ 566871366a5529286fac085f0e4ff0a916fa111c 151416 main/binary-arm64/Packages
+ 534de2581e427f404e17c778c1addf0c20b30ff9 29569 main/binary-arm64/Packages.gz
  af41e6144b1def9a2be005d93fbb7932edd05a3c 126 main/binary-arm64/Release
 SHA256:
  3c640f04b3ed28fe1282d5b74e2766397e00b278345a814788d0084d5ea7e167 46437 main/binary-armhf/Packages
  94f12155a29d352e83b66f62a9a6a4e3fa14a76bf524e2e7b3c2201ec6118bc3 9620 main/binary-armhf/Packages.gz
  82b7adf84d0ca01b19114872693eb76ee52c66422528a43f813b163a4938b9af 126 main/binary-armhf/Release
- aad9b05dc83f4a8adc0c51da501b96929919bad2a3f6a13084a4c912c9fa9fb8 148799 main/binary-arm64/Packages
- d937904c6e9a6d8f801d3d6c379255368fee8e00e06a9542b661254d49c5ae92 29163 main/binary-arm64/Packages.gz
+ df2a74c02d219bd328fb79e73dbe3f3b76862fdb05578c1947d3ea09c7858bad 151416 main/binary-arm64/Packages
+ 2be45ae5fcca1d74c482c712d47cb46daf5aa85ad841513f2b0d9e44748bfea1 29569 main/binary-arm64/Packages.gz
  d75661930a67b30a72b8f44ddbb16f3960a82997c1150e8d92dac8b31b364e40 126 main/binary-arm64/Release
