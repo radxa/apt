@@ -174,6 +174,26 @@ Description: FFmpeg library with extra filters (metapackage)
  that offers additional filter support. Application packages can depend
  on it if they require or suggest this variant in a robust manner.
 
+Package: libmraa
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: armhf
+Component: main
+Multi-Arch: foreign
+Replaces: libmraa-rockpis, libmraa-rockpi4
+Conflicts: libmraa-rockpis, libmraa-rockpi4
+Provides: libmraa-rockpis, libmraa-rockpi4
+Depends: libc6, libjson-c3, libjson-c-dev, libgtest-dev, libgcc1, libstdc++6,
+    python2.7, libpython2.7, python3.7, libpython3.7
+Priority: optional
+Section: libs
+Filename: pool/main/libm/libmraa/libmraa_0.1_armhf.deb
+Size: 202500
+SHA256: 9bdcbedb9dd3c2c240ba0754df2baf46a50ce0e81d93bb35e8905afd788af0d1
+SHA1: f238b4510a36cf835cc1c1ff0d4239933a1163e8
+MD5sum: aa1acb4b17fdcc0fde251f2d430b663c
+Description: Provide mraa interface package for C/C++, python and Java.
+
 Package: linux-4.4-rock-pi-4-latest
 Version: 4.4.154-115-rockchip
 License: GPL-2+
