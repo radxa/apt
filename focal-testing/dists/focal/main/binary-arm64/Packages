@@ -190,7 +190,7 @@ MD5sum: 6d65cf7eb5b66edf96b5951619d6f039
 Description: io tool
 
 Package: libmraa
-Version: 1.4
+Version: 1.5
 Maintainer: Radxa <dev@radxa.com>
 Architecture: arm64
 Component: main
@@ -202,11 +202,11 @@ Depends: libc6, libjson-c4, libjson-c-dev, libgtest-dev, libgcc1, libstdc++6, py
     python2.7, libpython2.7, python3.8, libpython3.8
 Priority: optional
 Section: libs
-Filename: pool/main/libm/libmraa/libmraa_1.4_arm64.deb
-Size: 206844
-SHA256: f79e2ce3cb0ed24218567ce4f63dafde414d99a71ac59f208d342e50b57c91d4
-SHA1: ee7fb1a15ce9663ae329d51ac6c3f7625fdf7bdb
-MD5sum: 810b96abb41be87859a6275806972b86
+Filename: pool/main/libm/libmraa/libmraa_1.5_arm64.deb
+Size: 208996
+SHA256: a6a4976c027ca5da4e036b76c30c48a48ca187f580ec87bb86bf75d0199eb0dd
+SHA1: af5b8fa91ddb3cb7740d42d226d9fca9985217a9
+MD5sum: 8705b0b0ff36aa0f5397152119154294
 Description: Provide mraa interface package for C/C++, python and Java.
 
 Package: linux-4.19-rock-3-latest
