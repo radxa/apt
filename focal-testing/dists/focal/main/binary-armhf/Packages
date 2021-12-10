@@ -322,6 +322,20 @@ Description: Linux kernel, version 4.4.154-115-rockchip-g00fccd37c63c
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.154-115-rockchip-g00fccd37c63c.
 
+Package: qualcomm-wifibt-firmware
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/q/qualcomm-wifibt-firmware/qualcomm-wifibt-firmware_0.1_all.deb
+Size: 206032
+SHA256: e85a8dfc9dbabd2f3e9171d7f6b5d8879431d63c0ae8bda7d9fa716c814e2204
+SHA1: e9bb0a462d2e5b7530ee533f4f0aed1be938a179
+MD5sum: 5e3136a28d6dfbdf75ff57cf53d96386
+Description: General Qualcomm WiFi and Bluetooth chip firmware.
+
 Package: resize-assistant
 Version: 0.2
 Maintainer: Radxa <dev@radxa.com>
