@@ -1384,21 +1384,21 @@ Description: Debug symbols for libswscale4
 Build-Ids: 5b081569d6ce572f2b1791c63260cb6140aaf8e1
 
 Package: linux-4.19-rock-3-latest
-Version: 4.19.193-25-rockchip
+Version: 4.19.193-26-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: arm64
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.19.193-25-rockchip-g56fae2db273e, linux-headers-4.19.193-25-rockchip-g56fae2db273e
+Depends: linux-image-4.19.193-26-rockchip-gfc6004006609, linux-headers-4.19.193-26-rockchip-gfc6004006609
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.19-rock-3-latest/linux-4.19-rock-3-latest_4.19.193-25-rockchip_arm64.deb
-Size: 1148
-SHA256: fe53a8059f744e3cedbe57bb4f5bd084852f587e3a965aadd8f0cb9cfe24bf98
-SHA1: afdd33ea35c3253ada947917b9910c92d6bf7f53
-MD5sum: 0a6320d519f7fa2c27718581f619ba9f
+Filename: pool/main/l/linux-4.19-rock-3-latest/linux-4.19-rock-3-latest_4.19.193-26-rockchip_arm64.deb
+Size: 1150
+SHA256: c995769d870fa809f95a627b673d2d965823b2f71640d6d65bf6225e86ee72aa
+SHA1: 610434321ad04b84e09a3411033990e9c155e79f
+MD5sum: 9c8d1f3583edebe225f7d27bf26dd84d
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 Replaces: linux-4.19-rock-3-latest
@@ -2499,6 +2499,25 @@ SHA1: d7c379e4fdf7b242ff20a5066228e8c7096bfd2d
 MD5sum: 363f222a44b66d2740a03707c7ad85ca
 Description: Linux kernel headers for 4.19.193-25-rockchip-g56fae2db273e on arm64
  This package provides kernel header files for 4.19.193-25-rockchip-g56fae2db273e on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.19.193-26-rockchip-gfc6004006609
+Source: linux-4.19.193-26-rockchip-gfc6004006609
+Version: 4.19.193-26-rockchip
+Architecture: arm64
+Maintainer: stephen <stephen@lara>
+Installed-Size: 74556
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.19.193-26-rockchip-gfc6004006609/linux-headers-4.19.193-26-rockchip-gfc6004006609_4.19.193-26-rockchip_arm64.deb
+Size: 11250312
+SHA256: 299e0f4b411a7598493dd7e3f0cd7d3253464416b50add7b3dfb1e29765dedeb
+SHA1: b9ff38b4bf87b52e262faf2cd91e20b91ed1d996
+MD5sum: 8362528aa21d0e61efdcec120abd04ad
+Description: Linux kernel headers for 4.19.193-26-rockchip-gfc6004006609 on arm64
+ This package provides kernel header files for 4.19.193-26-rockchip-gfc6004006609 on arm64
  .
  This is useful for people who need to build external modules
 
@@ -4013,6 +4032,24 @@ MD5sum: 263498af864fcb427fa6a8a63b112e93
 Description: Linux kernel, version 4.19.193-25-rockchip-g56fae2db273e
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.19.193-25-rockchip-g56fae2db273e.
+
+Package: linux-image-4.19.193-26-rockchip-gfc6004006609
+Source: linux-4.19.193-26-rockchip-gfc6004006609
+Version: 4.19.193-26-rockchip
+Architecture: arm64
+Maintainer: stephen <stephen@lara>
+Installed-Size: 81990
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.19.193-26-rockchip-gfc6004006609/linux-image-4.19.193-26-rockchip-gfc6004006609_4.19.193-26-rockchip_arm64.deb
+Size: 18486140
+SHA256: 7a5e70e66a2558fa5e08360018f154b29c5df48906770e336d240e1ee7fddef1
+SHA1: 134a0b48023e8275fef05bfeeae89da8ddda4019
+MD5sum: eb825382a593ffff75147c96b8430eb6
+Description: Linux kernel, version 4.19.193-26-rockchip-gfc6004006609
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.19.193-26-rockchip-gfc6004006609.
 
 Package: linux-image-4.19.193-3-rockchip-gab6f43d0ffed
 Source: linux-4.19.193-3-rockchip-gab6f43d0ffed
