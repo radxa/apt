@@ -254,21 +254,21 @@ Conflicts: linux-4.4-latest
 Provides: linux-4.4-latest
 
 Package: linux-4.4-rock-pi-e-latest
-Version: 4.4.194-20-rockchip
+Version: 4.4.194-21-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: arm64
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.4.194-20-rockchip-g12a182552739, linux-firmware-image-4.4.194-20-rockchip-g12a182552739, linux-headers-4.4.194-20-rockchip-g12a182552739
+Depends: linux-image-4.4.194-21-rockchip-g12a182552739, linux-firmware-image-4.4.194-21-rockchip-g12a182552739, linux-headers-4.4.194-21-rockchip-g12a182552739
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.4-rock-pi-e-latest/linux-4.4-rock-pi-e-latest_4.4.194-20-rockchip_arm64.deb
-Size: 1156
-SHA256: 6c62ce0bee191dac2d8b3668696b1820516a89cceb56f9adee3641f3ee8e7be5
-SHA1: 48cf3d8ff24c29a7d9945b079aea0d813c809097
-MD5sum: 8daf506e9fd7cd93db686498bf91cba2
+Filename: pool/main/l/linux-4.4-rock-pi-e-latest/linux-4.4-rock-pi-e-latest_4.4.194-21-rockchip_arm64.deb
+Size: 1162
+SHA256: fad32f35e365f4e95c30a9d0baa653cce9ceb6bdbe0ef41baae6a0ecb3246b24
+SHA1: 621a40ef6b10baa79fc23fbc653b1903e6385df3
+MD5sum: 9254c1163bcc40f607e384cc0d968e77
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 Replaces: linux-4.4-rockpie-latest
@@ -663,6 +663,23 @@ SHA1: d644b863bb369acea2df7e500bbea4fdbd0771c7
 MD5sum: d5c3bf1fa4d96bb4569fe9198464b8ec
 Description: Linux kernel firmware, version 4.4.194-20-rockchip-g12a182552739
  This package contains firmware from the Linux kernel, version 4.4.194-20-rockchip-g12a182552739.
+
+Package: linux-firmware-image-4.4.194-21-rockchip-g12a182552739
+Source: linux-4.4.194-21-rockchip-g12a182552739
+Version: 4.4.194-21-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@lara>
+Installed-Size: 529
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.194-21-rockchip-g12a182552739/linux-firmware-image-4.4.194-21-rockchip-g12a182552739_4.4.194-21-rockchip_arm64.deb
+Size: 176444
+SHA256: a9676aec7c46f3b4b199a8863f0f1cb75886ffbfcc2966860c2d6d01033befab
+SHA1: 75773f059454876f47ab8542ddb36a3001f8aa1c
+MD5sum: d117e699cc26d74ce10762db5ae687b2
+Description: Linux kernel firmware, version 4.4.194-21-rockchip-g12a182552739
+ This package contains firmware from the Linux kernel, version 4.4.194-21-rockchip-g12a182552739.
 
 Package: linux-headers-4.19.193-1-rockchip-g6bcb15a5b2d0
 Source: linux-4.19.193-1-rockchip-g6bcb15a5b2d0
@@ -1307,6 +1324,26 @@ SHA1: aa5c8b696e17d1a4c7c139eb9b42373bc67153f8
 MD5sum: 76d94aa4c4cd1b15bf0776c84863986e
 Description: Linux kernel headers for 4.4.194-20-rockchip-g12a182552739 on arm64
  This package provides kernel header files for 4.4.194-20-rockchip-g12a182552739 on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.194-21-rockchip-g12a182552739
+Source: linux-4.4.194-21-rockchip-g12a182552739
+Version: 4.4.194-21-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@lara>
+Installed-Size: 70512
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.194-21-rockchip-g12a182552739/linux-headers-4.4.194-21-rockchip-g12a182552739_4.4.194-21-rockchip_arm64.deb
+Size: 10198148
+SHA256: 5f6369eb5ebaf5fe1fbca373696b1f6c29a9ed46741c1c32362ed0a2542ab8c9
+SHA1: e85664e5900a1459c14896f4294a96b8c6646c6d
+MD5sum: f28186ac64904552c64361b7aee489ba
+Description: Linux kernel headers for 4.4.194-21-rockchip-g12a182552739 on arm64
+ This package provides kernel header files for 4.4.194-21-rockchip-g12a182552739 on arm64
  .
  This is useful for people who need to build external modules
 
@@ -2074,6 +2111,26 @@ MD5sum: 3844b2aaa5a8fa6fc971f1b4abd066ba
 Description: Linux kernel, version 4.4.194-20-rockchip-g12a182552739
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.194-20-rockchip-g12a182552739.
+
+Package: linux-image-4.4.194-21-rockchip-g12a182552739
+Source: linux-4.4.194-21-rockchip-g12a182552739
+Version: 4.4.194-21-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@lara>
+Installed-Size: 72981
+Suggests: linux-firmware-image-4.4.194-21-rockchip-g12a182552739
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.194-21-rockchip-g12a182552739
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.194-21-rockchip-g12a182552739/linux-image-4.4.194-21-rockchip-g12a182552739_4.4.194-21-rockchip_arm64.deb
+Size: 15682164
+SHA256: 7b508730285020e8e29b47f451eb7f67c18ca16669c2f0701398730fdcd56110
+SHA1: 869034ae1fcc1b1e8208f27ed11af6c3702732f4
+MD5sum: 008b419f9185b25ec80c82043b22d973
+Description: Linux kernel, version 4.4.194-21-rockchip-g12a182552739
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.194-21-rockchip-g12a182552739.
 
 Package: linux-image-5.10.69-3-amlogic-gacf75c74f9
 Source: linux-5.10.69-3-amlogic-gacf75c74f9
