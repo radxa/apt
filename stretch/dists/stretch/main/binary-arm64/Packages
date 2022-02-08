@@ -35,7 +35,7 @@ MD5sum: 3e17b0bd8ed3b5ddc48b5c96b1c5f7b6
 Description: Broadcom bluetooth patching tool
 
 Package: broadcom-wifibt-firmware
-Version: 1.1
+Version: 1.4
 Maintainer: Radxa <dev@radxa.com>
 Architecture: all
 Component: main
@@ -45,11 +45,11 @@ Confilcts: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, a
 Provides: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware, ap6275s-firmware
 Priority: optional
 Section: utils
-Filename: pool/main/b/broadcom-wifibt-firmware/broadcom-wifibt-firmware_1.1_all.deb
-Size: 2607916
-SHA256: 8531c99dc23c464a3ec4e9af5f901339a94d74e0118cb682c8473766e49f12fe
-SHA1: cce803d5f0324339ce1bb4a678faad077f9296cc
-MD5sum: f510619dfa28b667128ddb2959c85e62
+Filename: pool/main/b/broadcom-wifibt-firmware/broadcom-wifibt-firmware_1.4_all.deb
+Size: 1966472
+SHA256: da6053201f9b9a6608d531502fe0f7e1f44b3f5f643346edc8b4006e6ea3aec0
+SHA1: 1926136d7306aa34133f18db4c6c1c1a3e962bdd
+MD5sum: e78742cf305c218cdc4406e9c3be8500
 Description: General Broadcom WiFi and Bluetooth chip firmware.
 
 Package: ffmpeg
@@ -2696,6 +2696,20 @@ MD5sum: 46a2009b00701f874d8dc2b3806655b6
 Description: Linux kernel, version 4.4.194-19-rockchip-g287ff75afc47
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.194-19-rockchip-g287ff75afc47.
+
+Package: login-prompt-rockpi4
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/l/login-prompt-rockpi4/login-prompt-rockpi4_0.1_all.deb
+Size: 972
+SHA256: 75e2ce3a24fce3c3dc323477de5f0038d4f7783f7492d3abebcd9ce2aef85de2
+SHA1: b8cac2373d893c6047ce0856113fc397ea14f821
+MD5sum: 29fb0ae453d506162ae5bb289f978b58
+Description: ROCK Pi 4 login prompt
 
 Package: opencv4.0
 Version: 4.0.1-1
