@@ -1,0 +1,59 @@
+Package: linux-4.19-rock-3-latest
+Version: 4.19.193-32-rockchip
+License: GPL-2+
+Vendor: Radxa
+Architecture: arm64
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.19.193-32-rockchip-g002dd37173cf, linux-headers-4.19.193-32-rockchip-g002dd37173cf
+Homepage: https://github.com/radxa/kernel
+Priority: optional
+Section: admin
+Filename: pool/main/l/linux-4.19-rock-3-latest/linux-4.19-rock-3-latest_4.19.193-32-rockchip_arm64.deb
+Size: 1150
+SHA256: ce868a9984a37f7763b5bd63f68718bcfea07fec93afdb66b736c8470cbc282b
+SHA1: 7953bf9711beefabb3ab5760652b654781c41cd3
+MD5sum: f074e4e4b1c1f1a7aa3a50df8d79a46e
+Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
+Multi-Arch: foreign
+Replaces: linux-4.19-rock-3-latest
+Conflicts: linux-4.19-rock-3-latest
+Provides: linux-4.19-rock-3-latest
+
+Package: linux-headers-4.19.193-32-rockchip-g002dd37173cf
+Source: linux-4.19.193-32-rockchip-g002dd37173cf
+Version: 4.19.193-32-rockchip
+Architecture: arm64
+Maintainer: stephen <stephen@lara>
+Installed-Size: 74479
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.19.193-32-rockchip-g002dd37173cf/linux-headers-4.19.193-32-rockchip-g002dd37173cf_4.19.193-32-rockchip_arm64.deb
+Size: 11230948
+SHA256: 65b2578a8dca8e2cfe9b8397b9d4dd84dde367bfabf74590b6b841048ea22b2f
+SHA1: 58838e3ced8ae8a457a4d5985bfa26b7bc2f36ed
+MD5sum: 44291fb617cfaf8032075566f318681a
+Description: Linux kernel headers for 4.19.193-32-rockchip-g002dd37173cf on arm64
+ This package provides kernel header files for 4.19.193-32-rockchip-g002dd37173cf on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-4.19.193-32-rockchip-g002dd37173cf
+Source: linux-4.19.193-32-rockchip-g002dd37173cf
+Version: 4.19.193-32-rockchip
+Architecture: arm64
+Maintainer: stephen <stephen@lara>
+Installed-Size: 79149
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.19.193-32-rockchip-g002dd37173cf/linux-image-4.19.193-32-rockchip-g002dd37173cf_4.19.193-32-rockchip_arm64.deb
+Size: 18118172
+SHA256: bca16872a074cc2c816b1dfdb2a37563ae9fdc8c3a36f46816963c84245552a2
+SHA1: f216f87839c3c24acb327e3f3867b6a23623221a
+MD5sum: 961b40fc59e49e497201f6b6961af453
+Description: Linux kernel, version 4.19.193-32-rockchip-g002dd37173cf
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.19.193-32-rockchip-g002dd37173cf.
+
