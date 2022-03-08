@@ -1,19 +1,19 @@
 Package: linux-4.19-rock-3-latest
-Version: 4.19.193-33-rockchip
+Version: 4.19.193-34-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: arm64
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.19.193-33-rockchip-g5add69115a1c, linux-headers-4.19.193-33-rockchip-g5add69115a1c
+Depends: linux-image-4.19.193-34-rockchip-g6fa18bdea5aa, linux-headers-4.19.193-34-rockchip-g6fa18bdea5aa
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.19-rock-3-latest/linux-4.19-rock-3-latest_4.19.193-33-rockchip_arm64.deb
-Size: 1150
-SHA256: 0822276c5fac9f676c672d9b587e30946a8faf954f3c8b6cf83a5d8626c92979
-SHA1: 28d2e6289f024fd48b858fd0f4db1e7b1259aa02
-MD5sum: 86541145a24464151c0877c92e3a40ce
+Filename: pool/main/l/linux-4.19-rock-3-latest/linux-4.19-rock-3-latest_4.19.193-34-rockchip_arm64.deb
+Size: 1146
+SHA256: aa7e476eed7eea0301f60f678386edbb3679c64eadecc69b445b801adea66804
+SHA1: 645312678d7c5d028911ce841c49de3214492c0a
+MD5sum: 23ad3ff957b50ed37ccaaefa55969be2
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 Replaces: linux-4.19-rock-3-latest
@@ -58,6 +58,25 @@ Description: Linux kernel headers for 4.19.193-33-rockchip-g5add69115a1c on arm6
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-4.19.193-34-rockchip-g6fa18bdea5aa
+Source: linux-4.19.193-34-rockchip-g6fa18bdea5aa
+Version: 4.19.193-34-rockchip
+Architecture: arm64
+Maintainer: stephen <stephen@lara>
+Installed-Size: 74480
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.19.193-34-rockchip-g6fa18bdea5aa/linux-headers-4.19.193-34-rockchip-g6fa18bdea5aa_4.19.193-34-rockchip_arm64.deb
+Size: 11231312
+SHA256: 79d9a4ce2ebe3ffa4ebccf228fb74a988eeee3280c0ccd32e9d01b1176e07c83
+SHA1: 424dc32c57bb0279a140db5c8e5aab99fa7520be
+MD5sum: 2f0e5b7c8cbb9db53dd7b74675932a01
+Description: Linux kernel headers for 4.19.193-34-rockchip-g6fa18bdea5aa on arm64
+ This package provides kernel header files for 4.19.193-34-rockchip-g6fa18bdea5aa on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-4.19.193-32-rockchip-g002dd37173cf
 Source: linux-4.19.193-32-rockchip-g002dd37173cf
 Version: 4.19.193-32-rockchip
@@ -93,4 +112,22 @@ MD5sum: 9ce293ee734f7cf861cba0a04d1d4559
 Description: Linux kernel, version 4.19.193-33-rockchip-g5add69115a1c
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.19.193-33-rockchip-g5add69115a1c.
+
+Package: linux-image-4.19.193-34-rockchip-g6fa18bdea5aa
+Source: linux-4.19.193-34-rockchip-g6fa18bdea5aa
+Version: 4.19.193-34-rockchip
+Architecture: arm64
+Maintainer: stephen <stephen@lara>
+Installed-Size: 79159
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.19.193-34-rockchip-g6fa18bdea5aa/linux-image-4.19.193-34-rockchip-g6fa18bdea5aa_4.19.193-34-rockchip_arm64.deb
+Size: 18144652
+SHA256: a3ca20977f74c3bc5f06f8b526bc40a92528fef2fb1827f8c168dac1ce0d7f5f
+SHA1: a914e093bc6776cd671b820d6e197f6c24dafe10
+MD5sum: 4ae50f7ac4335838d7214d4a1430cd10
+Description: Linux kernel, version 4.19.193-34-rockchip-g6fa18bdea5aa
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.19.193-34-rockchip-g6fa18bdea5aa.
 
