@@ -20,6 +20,28 @@ Replaces: linux-4.19-rock-3-latest
 Conflicts: linux-4.19-rock-3-latest
 Provides: linux-4.19-rock-3-latest
 
+Package: linux-5.10-radxa-zero-latest
+Version: 5.10.69-11-amlogic
+License: GPL-2+
+Vendor: Radxa
+Architecture: arm64
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.69-11-amlogic-g57a25a2f2f47, linux-headers-5.10.69-11-amlogic-g57a25a2f2f47
+Homepage: https://github.com/radxa/kernel
+Priority: optional
+Section: admin
+Filename: pool/main/l/linux-5.10-radxa-zero-latest/linux-5.10-radxa-zero-latest_5.10.69-11-amlogic_arm64.deb
+Size: 1158
+SHA256: bc3caee372ae36a3057e747be8542de140a9f68b880e751230c0b0861d5015b1
+SHA1: 112cb6894577df61a04a3217b1028c37a3cbb08d
+MD5sum: 35f467e85e7a09ace84f575b5db7b882
+Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
+Multi-Arch: foreign
+Replaces: linux-5.10-radxa-zero-latest
+Conflicts: linux-5.10-radxa-zero-latest
+Provides: linux-5.10-radxa-zero-latest
+
 Package: linux-headers-4.19.193-32-rockchip-g002dd37173cf
 Source: linux-4.19.193-32-rockchip-g002dd37173cf
 Version: 4.19.193-32-rockchip
@@ -115,6 +137,25 @@ Description: Linux kernel headers for 4.19.193-36-rockchip-gd05f98887579 on arm6
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-5.10.69-11-amlogic-g57a25a2f2f47
+Source: linux-5.10.69-11-amlogic-g57a25a2f2f47
+Version: 5.10.69-11-amlogic
+Architecture: arm64
+Maintainer: stephen <stephen@lara>
+Installed-Size: 47614
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.69-11-amlogic-g57a25a2f2f47/linux-headers-5.10.69-11-amlogic-g57a25a2f2f47_5.10.69-11-amlogic_arm64.deb
+Size: 7541236
+SHA256: ebed5a0badea635c72de8bc0a34fe50d8ed80543dd06009cda770eff04cd8455
+SHA1: c46303d09d6cd48d81b8b8fe011f57a1a7dac71e
+MD5sum: b71961ebee103b43fd38cfb20e306b01
+Description: Linux kernel headers for 5.10.69-11-amlogic-g57a25a2f2f47 on arm64
+ This package provides kernel header files for 5.10.69-11-amlogic-g57a25a2f2f47 on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-4.19.193-32-rockchip-g002dd37173cf
 Source: linux-4.19.193-32-rockchip-g002dd37173cf
 Version: 4.19.193-32-rockchip
@@ -204,4 +245,22 @@ MD5sum: 33cb2f87b0c31f07712f5f1e7f662488
 Description: Linux kernel, version 4.19.193-36-rockchip-gd05f98887579
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.19.193-36-rockchip-gd05f98887579.
+
+Package: linux-image-5.10.69-11-amlogic-g57a25a2f2f47
+Source: linux-5.10.69-11-amlogic-g57a25a2f2f47
+Version: 5.10.69-11-amlogic
+Architecture: arm64
+Maintainer: stephen <stephen@lara>
+Installed-Size: 163947
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.69-11-amlogic-g57a25a2f2f47/linux-image-5.10.69-11-amlogic-g57a25a2f2f47_5.10.69-11-amlogic_arm64.deb
+Size: 41352956
+SHA256: a327912c0ff5c163885f0d254baf85f2f1384ef2981d54543cae5a4b701021a9
+SHA1: d2bc840d2bec58f6272e04b3531f3f4fb25cebaf
+MD5sum: 242eb7fcaf55171c16e493ffa6f4399c
+Description: Linux kernel, version 5.10.69-11-amlogic-g57a25a2f2f47
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.69-11-amlogic-g57a25a2f2f47.
 
