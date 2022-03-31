@@ -20,6 +20,28 @@ Replaces: linux-4.19-rock-3-latest
 Conflicts: linux-4.19-rock-3-latest
 Provides: linux-4.19-rock-3-latest
 
+Package: linux-4.4-rock-pi-s-latest
+Version: 4.4.143-68-rockchip
+License: GPL-2+
+Vendor: Radxa
+Architecture: arm64
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.143-68-rockchip-g222447a97264, linux-firmware-image-4.4.143-68-rockchip-g222447a97264, linux-headers-4.4.143-68-rockchip-g222447a97264
+Homepage: https://github.com/radxa/kernel
+Priority: optional
+Section: admin
+Filename: pool/main/l/linux-4.4-rock-pi-s-latest/linux-4.4-rock-pi-s-latest_4.4.143-68-rockchip_arm64.deb
+Size: 1156
+SHA256: 829dac3500c196c257f0ede5e9ec1b5587b1620fd5a03aba300bbacae71d7ccc
+SHA1: 92f7846b58621e0bba7088ce4ef7199e20b1ba49
+MD5sum: 211c7b61bacebc75b58afdd8dd9528bd
+Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
+Multi-Arch: foreign
+Replaces: linux-4.4-rockpis-latest
+Conflicts: linux-4.4-rockpis-latest
+Provides: linux-4.4-rockpis-latest
+
 Package: linux-5.10-radxa-zero-latest
 Version: 5.10.69-11-amlogic
 License: GPL-2+
@@ -41,6 +63,23 @@ Multi-Arch: foreign
 Replaces: linux-5.10-radxa-zero-latest
 Conflicts: linux-5.10-radxa-zero-latest
 Provides: linux-5.10-radxa-zero-latest
+
+Package: linux-firmware-image-4.4.143-68-rockchip-g222447a97264
+Source: linux-4.4.143-68-rockchip-g222447a97264
+Version: 4.4.143-68-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@lara>
+Installed-Size: 193
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.143-68-rockchip-g222447a97264/linux-firmware-image-4.4.143-68-rockchip-g222447a97264_4.4.143-68-rockchip_arm64.deb
+Size: 53276
+SHA256: 9e2d828453d00d16b977ac3b07cd0625010fd8acc2b0fea5fa8975bddcf7a388
+SHA1: ceb679b8161145e4e878165e3c20d1eca7335b08
+MD5sum: 4df5942610d3fc523cb40193d2d5a552
+Description: Linux kernel firmware, version 4.4.143-68-rockchip-g222447a97264
+ This package contains firmware from the Linux kernel, version 4.4.143-68-rockchip-g222447a97264.
 
 Package: linux-headers-4.19.193-32-rockchip-g002dd37173cf
 Source: linux-4.19.193-32-rockchip-g002dd37173cf
@@ -172,6 +211,26 @@ SHA1: 5c8878b6a858124d6ad7be9a89a40f98b1bfd3da
 MD5sum: 2889f29cfae19a4462c4dc0811451510
 Description: Linux kernel headers for 4.19.193-38-rockchip-g16fc8a26b5f5 on arm64
  This package provides kernel header files for 4.19.193-38-rockchip-g16fc8a26b5f5 on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.143-68-rockchip-g222447a97264
+Source: linux-4.4.143-68-rockchip-g222447a97264
+Version: 4.4.143-68-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@lara>
+Installed-Size: 70181
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.143-68-rockchip-g222447a97264/linux-headers-4.4.143-68-rockchip-g222447a97264_4.4.143-68-rockchip_arm64.deb
+Size: 10107324
+SHA256: a89c93d5e6452de94660ca565c37b40e3510f37b93d6ebe6a96ce49860936536
+SHA1: 8af23618b96f4aa3551883c56d0a8779db2adb76
+MD5sum: 0954ec3535017b1f691ed9d8882ca3cf
+Description: Linux kernel headers for 4.4.143-68-rockchip-g222447a97264 on arm64
+ This package provides kernel header files for 4.4.143-68-rockchip-g222447a97264 on arm64
  .
  This is useful for people who need to build external modules
 
@@ -319,6 +378,26 @@ MD5sum: 1adab8b8abce33d080dd85c9eda0f423
 Description: Linux kernel, version 4.19.193-38-rockchip-g16fc8a26b5f5
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.19.193-38-rockchip-g16fc8a26b5f5.
+
+Package: linux-image-4.4.143-68-rockchip-g222447a97264
+Source: linux-4.4.143-68-rockchip-g222447a97264
+Version: 4.4.143-68-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@lara>
+Installed-Size: 57404
+Suggests: linux-firmware-image-4.4.143-68-rockchip-g222447a97264
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.143-68-rockchip-g222447a97264
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.143-68-rockchip-g222447a97264/linux-image-4.4.143-68-rockchip-g222447a97264_4.4.143-68-rockchip_arm64.deb
+Size: 10731768
+SHA256: f665a73251f7a02dbc906b8968b7efc5e91ef93ede859b18a0667451f0bbd8f8
+SHA1: 013843e6128518ab608cc4fe923934d1d6620d1a
+MD5sum: 0ac0e493cec8565e1399e5e338977289
+Description: Linux kernel, version 4.4.143-68-rockchip-g222447a97264
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.143-68-rockchip-g222447a97264.
 
 Package: linux-image-5.10.69-11-amlogic-g57a25a2f2f47
 Source: linux-5.10.69-11-amlogic-g57a25a2f2f47
