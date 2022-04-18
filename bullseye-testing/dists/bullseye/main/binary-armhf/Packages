@@ -1,3 +1,24 @@
+Package: broadcom-wifibt-firmware
+Version: 1.5
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 10889
+Depends: rfkill, brcm-patchram-plus1
+Conflicts: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware, ap6275s-firmware
+Replaces: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware, ap6275s-firmware
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/b/broadcom-wifibt-firmware/broadcom-wifibt-firmware_1.5_all.deb
+Size: 7122610
+SHA256: 8299193d98dad83ca32b4d36bccd440afd7892c9373094ac35569b4d77954051
+SHA1: f27ccaa9e33b411748a2773856bcb546f6fae4ef
+MD5sum: a6a7dbcaf383da8cbb8b1bf17aeee0a1
+Description: General Broadcom WiFi and Bluetooth chip firmware
+Multi-Arch: foreign
+
 Package: rockchip-overlay
 Version: 3.0
 Maintainer: Radxa <dev@radxa.com>
