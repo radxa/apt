@@ -585,3 +585,21 @@ MD5sum: ca3ceccc30f6ef9a266790ece5991a87
 Description: NetworkManager patch
 Multi-Arch: foreign
 
+Package: qualcomm-wifibt-firmware
+Version: 0.1-1
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 252
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/q/qualcomm-wifibt-firmware/qualcomm-wifibt-firmware_0.1-1_all.deb
+Size: 217812
+SHA256: deea96844ddc22ded1f03dbe7f7eebadd31da57714adf476632a1c8429ebe937
+SHA1: b5eec028f700bcd0efb9fbda0b993beded7236d3
+MD5sum: e5ad5166feae9a1923ff262c1314dada
+Description: General Qualcomm WiFi and Bluetooth chip firmware
+Multi-Arch: foreign
+
