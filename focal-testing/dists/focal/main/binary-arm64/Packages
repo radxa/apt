@@ -623,3 +623,22 @@ MD5sum: 9d5a117995d53ed86b08a30351dfc572
 Description: Realtek Bluetooth firmware
 Multi-Arch: foreign
 
+Package: resize-assistant
+Version: 0.2
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 1
+Depends: gdisk, parted, init-system-helpers (>= 1.18~)
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/r/resize-assistant/resize-assistant_0.2_all.deb
+Size: 2060
+SHA256: 19cdf0ece48ff62c2debd2b2306680bd81e51d949f9c6bfe661cd06b415cc905
+SHA1: 9a55447eaffc089be565a30519b9961d187d91c9
+MD5sum: cad271b3f8a1d9b7b405118399bae3b0
+Description: Resize root filesystem to fit available disk space
+Multi-Arch: foreign
+
