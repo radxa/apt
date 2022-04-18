@@ -55,6 +55,24 @@ MD5sum: 76dc69c1289a2cc6dcd0ed46847551ff
 Description: General Intel WiFi and Bluetooth chip firmware
 Multi-Arch: foreign
 
+Package: io
+Version: 0.1-1
+License: GPL-2+
+Vendor: Radxa
+Architecture: arm64
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 4883
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/i/io/io_0.1-1_arm64.deb
+Size: 1839262
+SHA256: c1ee655224c87a340c12decd386f98aef416c8eb13ec0415354e06cc3b81c24f
+SHA1: 3401f10a8975e44171d7bd75629ce60f57fc53f7
+MD5sum: 6b615abf1f6a9cca801efffff7263a91
+Description: Raw memory i/o utility
+Multi-Arch: foreign
+
 Package: linux-4.19-rock-3-latest
 Version: 4.19.193-41-rockchip
 License: GPL-2+
