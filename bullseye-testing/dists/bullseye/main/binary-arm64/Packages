@@ -200,3 +200,21 @@ MD5sum: 8464f1b3a5f440ca70e315b7115a0c3e
 Description: ROCK Pi 4 device tree overlays
 Multi-Arch: foreign
 
+Package: upgrade-tool
+Version: 0.1-1
+License: GPL-2+
+Vendor: Radxa
+Architecture: arm64
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 3017
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/u/upgrade-tool/upgrade-tool_0.1-1_arm64.deb
+Size: 1006182
+SHA256: ca214e37a7a6aefd9b573947b27cd59bae5a910eccea3e6a57a54deb7b5c16f1
+SHA1: 3bb37c28ac9e4dccecfbec5c761b3138e8eff4c8
+MD5sum: 933e5e440473009a0650a20de2461051
+Description: A firmware upgrade tool for Linux
+Multi-Arch: foreign
+
