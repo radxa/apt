@@ -112,3 +112,21 @@ MD5sum: cad271b3f8a1d9b7b405118399bae3b0
 Description: Resize root filesystem to fit available disk space
 Multi-Arch: foreign
 
+Package: rockpi4-dtbo
+Version: 4.3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 19
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockpi4-dtbo/rockpi4-dtbo_4.3_all.deb
+Size: 6426
+SHA256: b349592f6c2bdaddd1429e7fe7ce4de218cc97619961e3d98ca956bb3b0504cf
+SHA1: 769d55d17acd86cdb1f5b933861c704818f66bf2
+MD5sum: a8906c2340b06fb4519fe50f4dc00b43
+Description: ROCK Pi 4 device tree overlays
+Multi-Arch: foreign
+
