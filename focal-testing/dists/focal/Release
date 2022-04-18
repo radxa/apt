@@ -6,22 +6,22 @@ Architectures: armhf arm64
 Components: main
 Description: Apt repository for Radxa products
 MD5Sum:
- 0e9e29fb5d3c0a7f9008ac46e1e0b22c 4191 main/binary-armhf/Packages
- 0d7d1601f23cb04de344fef815c1aa75 1388 main/binary-armhf/Packages.gz
+ f6827100dc606ecdd71d9242923ca137 4727 main/binary-armhf/Packages
+ 20fb1ded4352900512377d9eda62dedb 1537 main/binary-armhf/Packages.gz
  c565b989b8ee8e7795fc8705eff55600 126 main/binary-armhf/Release
  89d438cc896ba9d5d0eefa094bedf0aa 29615 main/binary-arm64/Packages
  258f86a074a126336b1d340d8c54238c 6286 main/binary-arm64/Packages.gz
  1948d7c313289de2d434bc8958eb4305 126 main/binary-arm64/Release
 SHA1:
- 289ed72d810f02141276aebf0226c2f021ab5e5a 4191 main/binary-armhf/Packages
- 7effa7ca57e7a8d5bd4e88148482760a7f6b5925 1388 main/binary-armhf/Packages.gz
+ 2862e46643c3ca62818696fbf086417363eb813c 4727 main/binary-armhf/Packages
+ 5515d7011c575dff6988054f4b6386f5a4450ace 1537 main/binary-armhf/Packages.gz
  23e42ffe5fe8220d4ce8cebe5afa9046010d91e9 126 main/binary-armhf/Release
  6ffd2ac5ed7ddd5d550df2f6c80add5cdc22026f 29615 main/binary-arm64/Packages
  dc4bbd55ca30fd320bfa4be7dabc74dfc4fd3e7f 6286 main/binary-arm64/Packages.gz
  af41e6144b1def9a2be005d93fbb7932edd05a3c 126 main/binary-arm64/Release
 SHA256:
- b9718567490e285c005f371b7e880f64b7e8e8b7cee8e98d00ee6d36e956e8e7 4191 main/binary-armhf/Packages
- a493bf8ce9b7090afc3ae668747428c8ff4cd1cfffe4ee2597aff2a29745042d 1388 main/binary-armhf/Packages.gz
+ 1302fb8f5350c2c07966bc8c892dc795b670b46445ea47a0eae86227b6f1224d 4727 main/binary-armhf/Packages
+ a1fd4301539dc710f50c51d815e93997201ae0836291e0caded60bd705562472 1537 main/binary-armhf/Packages.gz
  82b7adf84d0ca01b19114872693eb76ee52c66422528a43f813b163a4938b9af 126 main/binary-armhf/Release
  29c447317c21884c116bb21ee44cf0ebb9682c1cf1e2712b7ad501938040fff2 29615 main/binary-arm64/Packages
  d6b5e3449f3fcfa7dfd184f98d09b281257bcc67018189a97e470e2cd8b2d30f 6286 main/binary-arm64/Packages.gz
