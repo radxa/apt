@@ -19,6 +19,24 @@ MD5sum: a6a7dbcaf383da8cbb8b1bf17aeee0a1
 Description: General Broadcom WiFi and Bluetooth chip firmware
 Multi-Arch: foreign
 
+Package: intel-wifibt-firmware
+Version: 0.1-1
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 1096
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/i/intel-wifibt-firmware/intel-wifibt-firmware_0.1-1_all.deb
+Size: 513820
+SHA256: d78983afa9ec5955e0ac3fb680e3f7bf177753966139765944a41104bd1b78f5
+SHA1: 9006059dc7dc96f53dd34ed04cdaa7d6d625b758
+MD5sum: ba74f7357ce8a061b063cf19f6ea6186
+Description: General Intel WiFi and Bluetooth chip firmware
+Multi-Arch: foreign
+
 Package: rockchip-overlay
 Version: 3.0
 Maintainer: Radxa <dev@radxa.com>
