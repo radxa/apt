@@ -1,3 +1,21 @@
+Package: brcm-patchram-plus1
+Version: 0.2
+License: GPL-2+
+Vendor: Radxa
+Architecture: arm64
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 18
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/b/brcm-patchram-plus1/brcm-patchram-plus1_0.2_arm64.deb
+Size: 7342
+SHA256: 8149bf11aa3d6ac867657de5ffeba1855bc592bf7dc9fc4afb5fbadd9218a82a
+SHA1: b1e46320056323bcabaaef2461a5765d0410fb58
+MD5sum: a08f3a6e04740d27b2070c66d74a13b7
+Description: Broadcom bluetooth patching tool
+Multi-Arch: foreign
+
 Package: broadcom-wifibt-firmware
 Version: 1.5
 License: GPL-2+
