@@ -37,3 +37,21 @@ MD5sum: 76dc69c1289a2cc6dcd0ed46847551ff
 Description: General Intel WiFi and Bluetooth chip firmware
 Multi-Arch: foreign
 
+Package: networkmanager-patch
+Version: 0.1
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/n/networkmanager-patch/networkmanager-patch_0.1_all.deb
+Size: 1246
+SHA256: 5e3c3f2caa18fe1b773972d1a94a6f82474ed9cd72a26161e9648de285b06b60
+SHA1: 594780fafa4f50d59ad430de6c80dddb6aa3f75b
+MD5sum: ca3ceccc30f6ef9a266790ece5991a87
+Description: NetworkManager patch
+Multi-Arch: foreign
+
