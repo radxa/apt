@@ -73,6 +73,26 @@ MD5sum: 65921120a21ca80eec42277206a71562
 Description: General Qualcomm WiFi and Bluetooth chip firmware
 Multi-Arch: foreign
 
+Package: realtek-wifibt-firmware
+Version: 0.4
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 577
+Conflicts: rtl8723be-firmware
+Replaces: rtl8723be-firmware
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/r/realtek-wifibt-firmware/realtek-wifibt-firmware_0.4_all.deb
+Size: 200600
+SHA256: 8d65a3831e7b54494219e97b4db6d227f4a5b7059a947135ae7d4e82014fc4ae
+SHA1: 959ff0e3fe5236e07cc3c71c538b71c31ca60c87
+MD5sum: 6695f25180b95c47a4ec88494e3889c5
+Description: Realtek Bluetooth firmware
+Multi-Arch: foreign
+
 Package: rockchip-overlay
 Version: 3.0
 Maintainer: Radxa <dev@radxa.com>
