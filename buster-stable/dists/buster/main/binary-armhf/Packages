@@ -216,57 +216,6 @@ Replaces: linux-4.4-latest
 Conflicts: linux-4.4-latest
 Provides: linux-4.4-latest
 
-Package: linux-firmware-image-4.4.154-110-rockchip-gcef30e88a9f5
-Source: linux-4.4.154-110-rockchip-gcef30e88a9f5
-Version: 4.4.154-110-rockchip
-Architecture: all
-Maintainer: Anonymous <root@d8e4dda7dbbf>
-Installed-Size: 588
-Homepage: http://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-4.4.154-110-rockchip-gcef30e88a9f5/linux-firmware-image-4.4.154-110-rockchip-gcef30e88a9f5_4.4.154-110-rockchip_all.deb
-Size: 186504
-SHA256: a553eee01d8bbbe1aba6ed7d32a25727ff4787215ad9f9e868e38b3a325d8bf5
-SHA1: 9daa33371a40635f2fcf8098eadafc7ce1dc5232
-MD5sum: 657d27116b090bf646679954f62b2823
-Description: Linux kernel firmware, version 4.4.154-110-rockchip-gcef30e88a9f5
- This package contains firmware from the Linux kernel, version 4.4.154-110-rockchip-gcef30e88a9f5.
-
-Package: linux-firmware-image-4.4.154-112-rockchip-gfdb18c8bab17
-Source: linux-4.4.154-112-rockchip-gfdb18c8bab17
-Version: 4.4.154-112-rockchip
-Architecture: all
-Maintainer: Anonymous <root@5d2d5db63a95>
-Installed-Size: 588
-Homepage: http://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-4.4.154-112-rockchip-gfdb18c8bab17/linux-firmware-image-4.4.154-112-rockchip-gfdb18c8bab17_4.4.154-112-rockchip_all.deb
-Size: 186348
-SHA256: e4ed21cef873bd1131fc6c5f2f01bc4136404b9a4cc757be95943339bae95251
-SHA1: b8748963cd8ad75b89e451b0b8e6631e0a76442b
-MD5sum: 75ee54ec52906742963fc14d233c7320
-Description: Linux kernel firmware, version 4.4.154-112-rockchip-gfdb18c8bab17
- This package contains firmware from the Linux kernel, version 4.4.154-112-rockchip-gfdb18c8bab17.
-
-Package: linux-firmware-image-4.4.154-113-rockchip-gdb9dfc2cdd25
-Source: linux-4.4.154-113-rockchip-gdb9dfc2cdd25
-Version: 4.4.154-113-rockchip
-Architecture: all
-Maintainer: Anonymous <root@ffe6d6b57a26>
-Installed-Size: 588
-Homepage: http://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-4.4.154-113-rockchip-gdb9dfc2cdd25/linux-firmware-image-4.4.154-113-rockchip-gdb9dfc2cdd25_4.4.154-113-rockchip_all.deb
-Size: 187020
-SHA256: d7df2787b6a472de34b950eb14ce12d12b9d29b15df472c0d824eba6c43d97f2
-SHA1: cff98d4523839ca1cfa89d0f2a80c94dbf5a2d7e
-MD5sum: 7456fed0d2a6a2b5f14b08c9cd00f217
-Description: Linux kernel firmware, version 4.4.154-113-rockchip-gdb9dfc2cdd25
- This package contains firmware from the Linux kernel, version 4.4.154-113-rockchip-gdb9dfc2cdd25.
-
 Package: linux-firmware-image-4.4.154-116-rockchip-g86a614bc15b3
 Source: linux-4.4.154-116-rockchip-g86a614bc15b3
 Version: 4.4.154-116-rockchip
@@ -283,66 +232,6 @@ SHA1: 7a841754517c7ccf1c8dd6250176d55a5be63346
 MD5sum: 15a7c2315f04555c491ad28eb3d11bbd
 Description: Linux kernel firmware, version 4.4.154-116-rockchip-g86a614bc15b3
  This package contains firmware from the Linux kernel, version 4.4.154-116-rockchip-g86a614bc15b3.
-
-Package: linux-headers-4.4.154-110-rockchip-gcef30e88a9f5
-Source: linux-4.4.154-110-rockchip-gcef30e88a9f5
-Version: 4.4.154-110-rockchip
-Architecture: all
-Maintainer: Anonymous <root@d8e4dda7dbbf>
-Installed-Size: 71015
-Provides: linux-headers, linux-headers-2.6
-Homepage: http://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-4.4.154-110-rockchip-gcef30e88a9f5/linux-headers-4.4.154-110-rockchip-gcef30e88a9f5_4.4.154-110-rockchip_all.deb
-Size: 10192088
-SHA256: 5318d3b493ddad7fd3ba000c4154c3d7cd9c79f4903c80d02e73a6c64e2d9773
-SHA1: af96af4e76d9f6c09315f254e86c5e2a8ba3f610
-MD5sum: 17d9158b2c994f283ec0ea1e60a2ab63
-Description: Linux kernel headers for 4.4.154-110-rockchip-gcef30e88a9f5 on all
- This package provides kernel header files for 4.4.154-110-rockchip-gcef30e88a9f5 on all
- .
- This is useful for people who need to build external modules
-
-Package: linux-headers-4.4.154-112-rockchip-gfdb18c8bab17
-Source: linux-4.4.154-112-rockchip-gfdb18c8bab17
-Version: 4.4.154-112-rockchip
-Architecture: all
-Maintainer: Anonymous <root@5d2d5db63a95>
-Installed-Size: 71015
-Provides: linux-headers, linux-headers-2.6
-Homepage: http://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-4.4.154-112-rockchip-gfdb18c8bab17/linux-headers-4.4.154-112-rockchip-gfdb18c8bab17_4.4.154-112-rockchip_all.deb
-Size: 10193356
-SHA256: d014a2b0390f66dd889d4a7a759d4c0bbf80ccf23b94d5f15ea8877b4af04e35
-SHA1: b246cb2076a81feb50ca553c805a3a71e6aff0cb
-MD5sum: a7b424b028714fc050168bbaab23305d
-Description: Linux kernel headers for 4.4.154-112-rockchip-gfdb18c8bab17 on all
- This package provides kernel header files for 4.4.154-112-rockchip-gfdb18c8bab17 on all
- .
- This is useful for people who need to build external modules
-
-Package: linux-headers-4.4.154-113-rockchip-gdb9dfc2cdd25
-Source: linux-4.4.154-113-rockchip-gdb9dfc2cdd25
-Version: 4.4.154-113-rockchip
-Architecture: all
-Maintainer: Anonymous <root@ffe6d6b57a26>
-Installed-Size: 71015
-Provides: linux-headers, linux-headers-2.6
-Homepage: http://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-4.4.154-113-rockchip-gdb9dfc2cdd25/linux-headers-4.4.154-113-rockchip-gdb9dfc2cdd25_4.4.154-113-rockchip_all.deb
-Size: 10192812
-SHA256: 50f2ae9215a0d1deeccac63e57688a0dabcf528f4daea6e6b29c74648b9eb64c
-SHA1: 6e41c932910817057c7504facf108066301c0865
-MD5sum: 504509210ae5b7fc7e79011bb64788f6
-Description: Linux kernel headers for 4.4.154-113-rockchip-gdb9dfc2cdd25 on all
- This package provides kernel header files for 4.4.154-113-rockchip-gdb9dfc2cdd25 on all
- .
- This is useful for people who need to build external modules
 
 Package: linux-headers-4.4.154-116-rockchip-g86a614bc15b3
 Source: linux-4.4.154-116-rockchip-g86a614bc15b3
@@ -363,66 +252,6 @@ Description: Linux kernel headers for 4.4.154-116-rockchip-g86a614bc15b3 on all
  This package provides kernel header files for 4.4.154-116-rockchip-g86a614bc15b3 on all
  .
  This is useful for people who need to build external modules
-
-Package: linux-image-4.4.154-110-rockchip-gcef30e88a9f5
-Source: linux-4.4.154-110-rockchip-gcef30e88a9f5
-Version: 4.4.154-110-rockchip
-Architecture: all
-Maintainer: Anonymous <root@d8e4dda7dbbf>
-Installed-Size: 79636
-Suggests: linux-firmware-image-4.4.154-110-rockchip-gcef30e88a9f5
-Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-110-rockchip-gcef30e88a9f5
-Homepage: http://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-4.4.154-110-rockchip-gcef30e88a9f5/linux-image-4.4.154-110-rockchip-gcef30e88a9f5_4.4.154-110-rockchip_all.deb
-Size: 15122524
-SHA256: c1ad7837cf83e26c89ab630739fd8fc981dc5631ce4aea016aff7500bab1fd4f
-SHA1: 73fe049b69191ec45afa534b7b3b925432128d7e
-MD5sum: e650473c481b33aa4cb4bfbbf1a4b779
-Description: Linux kernel, version 4.4.154-110-rockchip-gcef30e88a9f5
- This package contains the Linux kernel, modules and corresponding other
- files, version: 4.4.154-110-rockchip-gcef30e88a9f5.
-
-Package: linux-image-4.4.154-112-rockchip-gfdb18c8bab17
-Source: linux-4.4.154-112-rockchip-gfdb18c8bab17
-Version: 4.4.154-112-rockchip
-Architecture: all
-Maintainer: Anonymous <root@5d2d5db63a95>
-Installed-Size: 79726
-Suggests: linux-firmware-image-4.4.154-112-rockchip-gfdb18c8bab17
-Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-112-rockchip-gfdb18c8bab17
-Homepage: http://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-4.4.154-112-rockchip-gfdb18c8bab17/linux-image-4.4.154-112-rockchip-gfdb18c8bab17_4.4.154-112-rockchip_all.deb
-Size: 15110220
-SHA256: 939978651321d3804c61679aea82a12e340ff11d8e239f8821166bd36f637223
-SHA1: 0a61fdd7b51c4a405ef4f3d9b7830fe531bd08b6
-MD5sum: 74c358d4f46ac46777d1ffa94a65379c
-Description: Linux kernel, version 4.4.154-112-rockchip-gfdb18c8bab17
- This package contains the Linux kernel, modules and corresponding other
- files, version: 4.4.154-112-rockchip-gfdb18c8bab17.
-
-Package: linux-image-4.4.154-113-rockchip-gdb9dfc2cdd25
-Source: linux-4.4.154-113-rockchip-gdb9dfc2cdd25
-Version: 4.4.154-113-rockchip
-Architecture: all
-Maintainer: Anonymous <root@ffe6d6b57a26>
-Installed-Size: 79636
-Suggests: linux-firmware-image-4.4.154-113-rockchip-gdb9dfc2cdd25
-Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-113-rockchip-gdb9dfc2cdd25
-Homepage: http://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-4.4.154-113-rockchip-gdb9dfc2cdd25/linux-image-4.4.154-113-rockchip-gdb9dfc2cdd25_4.4.154-113-rockchip_all.deb
-Size: 15125572
-SHA256: 00a639a4a715093503195c673912cfdd6d511362bf91b59f4871231d36e45423
-SHA1: b9c954278c0b473fbf8757525cb69313a265c078
-MD5sum: 7a62dacc231310065e3f4d0c595218ec
-Description: Linux kernel, version 4.4.154-113-rockchip-gdb9dfc2cdd25
- This package contains the Linux kernel, modules and corresponding other
- files, version: 4.4.154-113-rockchip-gdb9dfc2cdd25.
 
 Package: linux-image-4.4.154-116-rockchip-g86a614bc15b3
 Source: linux-4.4.154-116-rockchip-g86a614bc15b3
