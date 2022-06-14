@@ -1,3 +1,25 @@
+Package: linux-4.19-rock-3-latest
+Version: 4.19.193-44-rockchip
+License: GPL-2+
+Vendor: Radxa
+Architecture: arm64
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.19.193-44-rockchip-g5a07852a55cf, linux-headers-4.19.193-44-rockchip-g5a07852a55cf
+Homepage: https://github.com/radxa/kernel
+Priority: optional
+Section: admin
+Filename: pool/main/l/linux-4.19-rock-3-latest/linux-4.19-rock-3-latest_4.19.193-44-rockchip_arm64.deb
+Size: 1146
+SHA256: 4dd66ae902a6c2ae9fd714c016c840f5a23c68f3d756ba04b9ee41ef5b57d0d7
+SHA1: e241d22859a4bd739b18131d1b9b335908a5aa08
+MD5sum: f545cce3fc64de11ecc3af8e95b6b00b
+Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
+Multi-Arch: foreign
+Replaces: linux-4.19-rock-3-latest
+Conflicts: linux-4.19-rock-3-latest
+Provides: linux-4.19-rock-3-latest
+
 Package: linux-4.4-rock-pi-s-latest
 Version: 4.4.143-69-rockchip
 License: GPL-2+
@@ -37,6 +59,25 @@ MD5sum: 013a6fcbe207257e627dc8ecd03c935a
 Description: Linux kernel firmware, version 4.4.143-69-rockchip-g8ccef796d27d
  This package contains firmware from the Linux kernel, version 4.4.143-69-rockchip-g8ccef796d27d.
 
+Package: linux-headers-4.19.193-44-rockchip-g5a07852a55cf
+Source: linux-4.19.193-44-rockchip-g5a07852a55cf
+Version: 4.19.193-44-rockchip
+Architecture: arm64
+Maintainer: stephen <stephen@lara.vamrs.com>
+Installed-Size: 74486
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.19.193-44-rockchip-g5a07852a55cf/linux-headers-4.19.193-44-rockchip-g5a07852a55cf_4.19.193-44-rockchip_arm64.deb
+Size: 11232048
+SHA256: 16bb549fce5a2efc7a335c39a3bb7e56297c2114393b26e87495883c00a82799
+SHA1: d5a4b7defb947436758c9c9f309e7704b0d4ec34
+MD5sum: 77e67193a40307aa50d8ad520caf3367
+Description: Linux kernel headers for 4.19.193-44-rockchip-g5a07852a55cf on arm64
+ This package provides kernel header files for 4.19.193-44-rockchip-g5a07852a55cf on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-headers-4.4.143-69-rockchip-g8ccef796d27d
 Source: linux-4.4.143-69-rockchip-g8ccef796d27d
 Version: 4.4.143-69-rockchip
@@ -56,6 +97,24 @@ Description: Linux kernel headers for 4.4.143-69-rockchip-g8ccef796d27d on arm64
  This package provides kernel header files for 4.4.143-69-rockchip-g8ccef796d27d on arm64
  .
  This is useful for people who need to build external modules
+
+Package: linux-image-4.19.193-44-rockchip-g5a07852a55cf
+Source: linux-4.19.193-44-rockchip-g5a07852a55cf
+Version: 4.19.193-44-rockchip
+Architecture: arm64
+Maintainer: stephen <stephen@lara.vamrs.com>
+Installed-Size: 79323
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.19.193-44-rockchip-g5a07852a55cf/linux-image-4.19.193-44-rockchip-g5a07852a55cf_4.19.193-44-rockchip_arm64.deb
+Size: 18212336
+SHA256: 6965b56eafb9507063cc80113d785da0d22b55d013bb0e8b8ce3ec3d0b27b94c
+SHA1: c4bf36b1c23d3137a907182758ea54f9c77e7a36
+MD5sum: ee8e03d7ae2a8e87025e70302fbfefe9
+Description: Linux kernel, version 4.19.193-44-rockchip-g5a07852a55cf
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.19.193-44-rockchip-g5a07852a55cf.
 
 Package: linux-image-4.4.143-69-rockchip-g8ccef796d27d
 Source: linux-4.4.143-69-rockchip-g8ccef796d27d
