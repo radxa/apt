@@ -402,7 +402,7 @@ Description: 3A libraries match Rockchip rkisp1 driver version 0.1.3. The gstrea
 Multi-Arch: foreign
 
 Package: rockpi4-dtbo
-Version: 4.4
+Version: 4.5
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
@@ -411,11 +411,11 @@ Installed-Size: 21
 Homepage: http://example.com/no-uri-given
 Priority: optional
 Section: utils
-Filename: pool/main/r/rockpi4-dtbo/rockpi4-dtbo_4.4_all.deb
-Size: 6838
-SHA256: 375f8b2aec83e8cc607644246b94ccb18473901253ae0d31a9a372de73d944ff
-SHA1: 028e0866fb04bb8952ee9ba2ea9d16a4c4de47fa
-MD5sum: af33bc4a3b4be4e49c2562d16e2e701b
+Filename: pool/main/r/rockpi4-dtbo/rockpi4-dtbo_4.5_all.deb
+Size: 6880
+SHA256: 546d272972222b51f6237f7a6c65083ab2d14f0d2923bf5bce75284591d975c2
+SHA1: bf787d14720ee74c2f8a1c14211ad321a1b8985e
+MD5sum: c8c87f27d87a3487d36fda631e8973c6
 Description: ROCK Pi 4 device tree overlays
 Multi-Arch: foreign
 
