@@ -210,21 +210,21 @@ MD5sum: e5a300c503f9ad649c82fda61a49f86d
 Description: Provide mraa interface package for C/C++, python and Java.
 
 Package: linux-4.19-rock-3-latest
-Version: 4.19.193-43-rockchip
+Version: 4.19.193-46-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: arm64
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.19.193-43-rockchip-g934feac9bf6c, linux-headers-4.19.193-43-rockchip-g934feac9bf6c
+Depends: linux-image-4.19.193-46-rockchip-g01066b7ec60e, linux-headers-4.19.193-46-rockchip-g01066b7ec60e
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.19-rock-3-latest/linux-4.19-rock-3-latest_4.19.193-43-rockchip_arm64.deb
-Size: 1148
-SHA256: d9f4d61898631162d0618073c16b5bc30b0a796706ea75af98e456b0e90e4d00
-SHA1: 844dd32c099d7458325f0806f93ed5fcb77bf1d8
-MD5sum: e5a4315020d3cd5e837e95ecfad891c6
+Filename: pool/main/l/linux-4.19-rock-3-latest/linux-4.19-rock-3-latest_4.19.193-46-rockchip_arm64.deb
+Size: 1150
+SHA256: 527a985f7c6938d34e5197ff03f5d285559f41ccd0e220dd82e901998639fff3
+SHA1: caefb884b2c552ed23cee386181f75fb976fb872
+MD5sum: 0e919137a70163fc1901c858e326ff4d
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 Replaces: linux-4.19-rock-3-latest
@@ -298,21 +298,21 @@ Conflicts: linux-4.4-rock-pi-n10-latest
 Provides: linux-4.4-rock-pi-n10-latest
 
 Package: linux-4.4-rock-pi-s-latest
-Version: 4.4.143-68-rockchip
+Version: 4.4.143-69-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: arm64
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.4.143-68-rockchip-g222447a97264, linux-firmware-image-4.4.143-68-rockchip-g222447a97264, linux-headers-4.4.143-68-rockchip-g222447a97264
+Depends: linux-image-4.4.143-69-rockchip-g8ccef796d27d, linux-firmware-image-4.4.143-69-rockchip-g8ccef796d27d, linux-headers-4.4.143-69-rockchip-g8ccef796d27d
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.4-rock-pi-s-latest/linux-4.4-rock-pi-s-latest_4.4.143-68-rockchip_arm64.deb
-Size: 1156
-SHA256: 829dac3500c196c257f0ede5e9ec1b5587b1620fd5a03aba300bbacae71d7ccc
-SHA1: 92f7846b58621e0bba7088ce4ef7199e20b1ba49
-MD5sum: 211c7b61bacebc75b58afdd8dd9528bd
+Filename: pool/main/l/linux-4.4-rock-pi-s-latest/linux-4.4-rock-pi-s-latest_4.4.143-69-rockchip_arm64.deb
+Size: 1162
+SHA256: 2b817e70f9c3cbf9b0c0eeab4b89f6266e501d50f47eaab0214584da99bf2ef4
+SHA1: b4b2b97d290dbf8a4f20a2d2afac07a24a16adb1
+MD5sum: 57e18d4154f9d8887999057f51b4a73b
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 Replaces: linux-4.4-rockpis-latest
@@ -320,21 +320,21 @@ Conflicts: linux-4.4-rockpis-latest
 Provides: linux-4.4-rockpis-latest
 
 Package: linux-5.10-radxa-zero-latest
-Version: 5.10.69-11-amlogic
+Version: 5.10.69-12-amlogic
 License: GPL-2+
 Vendor: Radxa
 Architecture: arm64
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-5.10.69-11-amlogic-g57a25a2f2f47, linux-headers-5.10.69-11-amlogic-g57a25a2f2f47
+Depends: linux-image-5.10.69-12-amlogic-g98700611d064, linux-headers-5.10.69-12-amlogic-g98700611d064
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-5.10-radxa-zero-latest/linux-5.10-radxa-zero-latest_5.10.69-11-amlogic_arm64.deb
-Size: 1158
-SHA256: bc3caee372ae36a3057e747be8542de140a9f68b880e751230c0b0861d5015b1
-SHA1: 112cb6894577df61a04a3217b1028c37a3cbb08d
-MD5sum: 35f467e85e7a09ace84f575b5db7b882
+Filename: pool/main/l/linux-5.10-radxa-zero-latest/linux-5.10-radxa-zero-latest_5.10.69-12-amlogic_arm64.deb
+Size: 1164
+SHA256: 3842d53217bfc085186ee15fff12d41852b73a112292e5885e605d4889bea503
+SHA1: 3cdfdba1eb8475ad6d4363454d3e9107183cd900
+MD5sum: 668a1da03e7b025839b8d8802bb9d864
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 Replaces: linux-5.10-radxa-zero-latest
@@ -408,6 +408,23 @@ SHA1: ceb679b8161145e4e878165e3c20d1eca7335b08
 MD5sum: 4df5942610d3fc523cb40193d2d5a552
 Description: Linux kernel firmware, version 4.4.143-68-rockchip-g222447a97264
  This package contains firmware from the Linux kernel, version 4.4.143-68-rockchip-g222447a97264.
+
+Package: linux-firmware-image-4.4.143-69-rockchip-g8ccef796d27d
+Source: linux-4.4.143-69-rockchip-g8ccef796d27d
+Version: 4.4.143-69-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@lara.vamrs.com>
+Installed-Size: 193
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.143-69-rockchip-g8ccef796d27d/linux-firmware-image-4.4.143-69-rockchip-g8ccef796d27d_4.4.143-69-rockchip_arm64.deb
+Size: 53280
+SHA256: f1c26576ec615bb9718bf00476a0d496d9f803a1397e72f83f5717dcbe6d1632
+SHA1: 4019cd0c5bcd1d8502e4e3620a6b032b660337d8
+MD5sum: 013a6fcbe207257e627dc8ecd03c935a
+Description: Linux kernel firmware, version 4.4.143-69-rockchip-g8ccef796d27d
+ This package contains firmware from the Linux kernel, version 4.4.143-69-rockchip-g8ccef796d27d.
 
 Package: linux-firmware-image-4.4.154-112-rockchip-gfdb18c8bab17
 Source: linux-4.4.154-112-rockchip-gfdb18c8bab17
@@ -600,6 +617,25 @@ Description: Linux kernel headers for 4.19.193-43-rockchip-g934feac9bf6c on arm6
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-4.19.193-46-rockchip-g01066b7ec60e
+Source: linux-4.19.193-46-rockchip-g01066b7ec60e
+Version: 4.19.193-46-rockchip
+Architecture: arm64
+Maintainer: stephen <stephen@lara.vamrs.com>
+Installed-Size: 74486
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.19.193-46-rockchip-g01066b7ec60e/linux-headers-4.19.193-46-rockchip-g01066b7ec60e_4.19.193-46-rockchip_arm64.deb
+Size: 11232556
+SHA256: 7af36aee34a9319c83995cb707e93e47ccb6cdc5bb0d4ccc7d8ae04bd81e1a08
+SHA1: a159ecb125471a8baf6e31015b4bfd707cd2e734
+MD5sum: 0bdf59ac7bf570a7db2bfdb13df261bd
+Description: Linux kernel headers for 4.19.193-46-rockchip-g01066b7ec60e on arm64
+ This package provides kernel header files for 4.19.193-46-rockchip-g01066b7ec60e on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-headers-4.4.143-61-rockchip-g1f77a85486f7
 Source: linux-4.4.143-61-rockchip-g1f77a85486f7
 Version: 4.4.143-61-rockchip
@@ -677,6 +713,26 @@ SHA1: 8af23618b96f4aa3551883c56d0a8779db2adb76
 MD5sum: 0954ec3535017b1f691ed9d8882ca3cf
 Description: Linux kernel headers for 4.4.143-68-rockchip-g222447a97264 on arm64
  This package provides kernel header files for 4.4.143-68-rockchip-g222447a97264 on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.143-69-rockchip-g8ccef796d27d
+Source: linux-4.4.143-69-rockchip-g8ccef796d27d
+Version: 4.4.143-69-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@lara.vamrs.com>
+Installed-Size: 70182
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.143-69-rockchip-g8ccef796d27d/linux-headers-4.4.143-69-rockchip-g8ccef796d27d_4.4.143-69-rockchip_arm64.deb
+Size: 10105884
+SHA256: dbdd76fd7c0b6b6aba9a6b79a1fb68485f6f2373a4cb942585c85baa2c0d442a
+SHA1: 8d97a9ed403672c4ece248c9a67800437175fc3c
+MD5sum: bd4de6a645fc221f9b46630a41664441
+Description: Linux kernel headers for 4.4.143-69-rockchip-g8ccef796d27d on arm64
+ This package provides kernel header files for 4.4.143-69-rockchip-g8ccef796d27d on arm64
  .
  This is useful for people who need to build external modules
 
@@ -898,6 +954,25 @@ Description: Linux kernel headers for 5.10.69-11-amlogic-g57a25a2f2f47 on arm64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-5.10.69-12-amlogic-g98700611d064
+Source: linux-5.10.69-12-amlogic-g98700611d064
+Version: 5.10.69-12-amlogic
+Architecture: arm64
+Maintainer: stephen <stephen@lara.vamrs.com>
+Installed-Size: 47614
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.69-12-amlogic-g98700611d064/linux-headers-5.10.69-12-amlogic-g98700611d064_5.10.69-12-amlogic_arm64.deb
+Size: 7541452
+SHA256: c87363e9a460d3cb31bd7158b3b2b7ee38a67f66acf9cf99dd2683168b607861
+SHA1: 1fbf9b18583da04d65e337e8abf1b399d6018f4e
+MD5sum: 83c857a259f90c01c06b08e10c1e6bf5
+Description: Linux kernel headers for 5.10.69-12-amlogic-g98700611d064 on arm64
+ This package provides kernel header files for 5.10.69-12-amlogic-g98700611d064 on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-headers-5.10.69-3-amlogic-gacf75c74f9
 Source: linux-5.10.69-3-amlogic-gacf75c74f9
 Version: 5.10.69-3-amlogic-gacf75c74f9
@@ -1010,6 +1085,24 @@ Description: Linux kernel, version 4.19.193-43-rockchip-g934feac9bf6c
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.19.193-43-rockchip-g934feac9bf6c.
 
+Package: linux-image-4.19.193-46-rockchip-g01066b7ec60e
+Source: linux-4.19.193-46-rockchip-g01066b7ec60e
+Version: 4.19.193-46-rockchip
+Architecture: arm64
+Maintainer: stephen <stephen@lara.vamrs.com>
+Installed-Size: 79327
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.19.193-46-rockchip-g01066b7ec60e/linux-image-4.19.193-46-rockchip-g01066b7ec60e_4.19.193-46-rockchip_arm64.deb
+Size: 18195072
+SHA256: fbbe9a028f4cbadf8de07d774b0b0422833e671f2d8b5ec055ede27a70f89826
+SHA1: 10a708f4456f5c61e4f12ad59d260b0763d72ada
+MD5sum: 11f78cdbddf74b326dfdbb92fd27d254
+Description: Linux kernel, version 4.19.193-46-rockchip-g01066b7ec60e
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.19.193-46-rockchip-g01066b7ec60e.
+
 Package: linux-image-4.4.143-61-rockchip-g1f77a85486f7
 Source: linux-4.4.143-61-rockchip-g1f77a85486f7
 Version: 4.4.143-61-rockchip
@@ -1089,6 +1182,26 @@ MD5sum: 0ac0e493cec8565e1399e5e338977289
 Description: Linux kernel, version 4.4.143-68-rockchip-g222447a97264
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.143-68-rockchip-g222447a97264.
+
+Package: linux-image-4.4.143-69-rockchip-g8ccef796d27d
+Source: linux-4.4.143-69-rockchip-g8ccef796d27d
+Version: 4.4.143-69-rockchip
+Architecture: arm64
+Maintainer: Anonymous <root@lara.vamrs.com>
+Installed-Size: 57405
+Suggests: linux-firmware-image-4.4.143-69-rockchip-g8ccef796d27d
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.143-69-rockchip-g8ccef796d27d
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.143-69-rockchip-g8ccef796d27d/linux-image-4.4.143-69-rockchip-g8ccef796d27d_4.4.143-69-rockchip_arm64.deb
+Size: 10718416
+SHA256: 4ca108067682855cd16a673a310afaf9da00113541b49a704b89749e4ef43b93
+SHA1: 91e65206395dc939120ce2250b02e2a0c80953a5
+MD5sum: db807491c17efa6899f4334878770d56
+Description: Linux kernel, version 4.4.143-69-rockchip-g8ccef796d27d
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.143-69-rockchip-g8ccef796d27d.
 
 Package: linux-image-4.4.154-112-rockchip-gfdb18c8bab17
 Source: linux-4.4.154-112-rockchip-gfdb18c8bab17
@@ -1305,6 +1418,24 @@ MD5sum: 242eb7fcaf55171c16e493ffa6f4399c
 Description: Linux kernel, version 5.10.69-11-amlogic-g57a25a2f2f47
  This package contains the Linux kernel, modules and corresponding other
  files, version: 5.10.69-11-amlogic-g57a25a2f2f47.
+
+Package: linux-image-5.10.69-12-amlogic-g98700611d064
+Source: linux-5.10.69-12-amlogic-g98700611d064
+Version: 5.10.69-12-amlogic
+Architecture: arm64
+Maintainer: stephen <stephen@lara.vamrs.com>
+Installed-Size: 163947
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.69-12-amlogic-g98700611d064/linux-image-5.10.69-12-amlogic-g98700611d064_5.10.69-12-amlogic_arm64.deb
+Size: 41353864
+SHA256: 09baa0c90c611c264ac9189833f822f6ba30461177d16bfe60c3f2ffaeced8ea
+SHA1: 571df687b326059ec2e7d1b46521bcc64b6fdeec
+MD5sum: 8674b652f8c81e5611f28170a1fde0c8
+Description: Linux kernel, version 5.10.69-12-amlogic-g98700611d064
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.69-12-amlogic-g98700611d064.
 
 Package: linux-image-5.10.69-3-amlogic-gacf75c74f9
 Source: linux-5.10.69-3-amlogic-gacf75c74f9
