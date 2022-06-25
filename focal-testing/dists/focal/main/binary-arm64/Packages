@@ -73,6 +73,65 @@ MD5sum: 6b615abf1f6a9cca801efffff7263a91
 Description: Raw memory i/o utility
 Multi-Arch: foreign
 
+Package: linux-4.19-rock-3-latest
+Version: 4.19.193-47-rockchip
+License: GPL-2+
+Vendor: Radxa
+Architecture: arm64
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.19.193-47-rockchip-g0f91d24e217c, linux-headers-4.19.193-47-rockchip-g0f91d24e217c
+Homepage: https://github.com/radxa/kernel
+Priority: optional
+Section: admin
+Filename: pool/main/l/linux-4.19-rock-3-latest/linux-4.19-rock-3-latest_4.19.193-47-rockchip_arm64.deb
+Size: 1152
+SHA256: 664346e1641d0d6a4a54551c73ac2457ad935d35b9cc03ad5dbe34ad24a6e064
+SHA1: c7efb0c7287bcc5036717933a18b7bffa2b6ad56
+MD5sum: 6f006edc97f96ec3c8afb44ff391cd11
+Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
+Multi-Arch: foreign
+Replaces: linux-4.19-rock-3-latest
+Conflicts: linux-4.19-rock-3-latest
+Provides: linux-4.19-rock-3-latest
+
+Package: linux-headers-4.19.193-47-rockchip-g0f91d24e217c
+Source: linux-4.19.193-47-rockchip-g0f91d24e217c
+Version: 4.19.193-47-rockchip
+Architecture: arm64
+Maintainer: stephen <stephen@lara.vamrs.com>
+Installed-Size: 74491
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.19.193-47-rockchip-g0f91d24e217c/linux-headers-4.19.193-47-rockchip-g0f91d24e217c_4.19.193-47-rockchip_arm64.deb
+Size: 11232872
+SHA256: 2b234a1bed4ad7ff265500614ecb80cdfd22c980d5cfc557f75cdb142a552784
+SHA1: 07f345d848a186a87bdfea82557a6951f6b5a9aa
+MD5sum: 9fb651bcaed40e6c1fa8c8d428fc39dc
+Description: Linux kernel headers for 4.19.193-47-rockchip-g0f91d24e217c on arm64
+ This package provides kernel header files for 4.19.193-47-rockchip-g0f91d24e217c on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-4.19.193-47-rockchip-g0f91d24e217c
+Source: linux-4.19.193-47-rockchip-g0f91d24e217c
+Version: 4.19.193-47-rockchip
+Architecture: arm64
+Maintainer: stephen <stephen@lara.vamrs.com>
+Installed-Size: 79735
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.19.193-47-rockchip-g0f91d24e217c/linux-image-4.19.193-47-rockchip-g0f91d24e217c_4.19.193-47-rockchip_arm64.deb
+Size: 18272480
+SHA256: 86b3860c98fcb1796648cc2f0953309180020e824d3bf78a59262c9048c1784e
+SHA1: 896f7c25f322644f10d6f48458927ef6c15ebcec
+MD5sum: eafb5dda6ce4840e8aca71fdde57bba8
+Description: Linux kernel, version 4.19.193-47-rockchip-g0f91d24e217c
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.19.193-47-rockchip-g0f91d24e217c.
+
 Package: networkmanager-patch
 Version: 0.1
 License: GPL-2+
