@@ -17,23 +17,23 @@ Description: Broadcom bluetooth patching tool
 Multi-Arch: foreign
 
 Package: broadcom-wifibt-firmware
-Version: 1.7
+Version: 1.9
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
-Installed-Size: 11659
+Installed-Size: 12308
 Depends: rfkill, brcm-patchram-plus1
 Conflicts: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware, ap6275s-firmware
 Replaces: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware, ap6275s-firmware
 Homepage: http://example.com/no-uri-given
 Priority: optional
 Section: utils
-Filename: pool/main/b/broadcom-wifibt-firmware/broadcom-wifibt-firmware_1.7_all.deb
-Size: 7646884
-SHA256: a84e743695d93e54a6ff06558e57108006b8b3d6d2600cc023e3be25086156a3
-SHA1: 857accca5ec8cf0b948dde7589ccab77c6df8f6f
-MD5sum: a8af5dadbdbe4a239307553873e1b918
+Filename: pool/main/b/broadcom-wifibt-firmware/broadcom-wifibt-firmware_1.9_all.deb
+Size: 8092968
+SHA256: 3dc524ff36e214470961dd8b37e875c26e27dc4746067ac4e8c33b4c6ce613f8
+SHA1: 876650f78c93440220ada7e197b20a94e8dbf8a1
+MD5sum: ff69c664315f5160616c4a346d0ba77e
 Description: General Broadcom WiFi and Bluetooth chip firmware
 Multi-Arch: foreign
 
