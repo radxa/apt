@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: apt.radxa.com
 Label: apt.radxa.com
 Codename: focal
-Date: Thu, 28 Jul 2022 02:07:21 UTC
+Date: Thu, 28 Jul 2022 02:59:42 UTC
 Architectures: armhf arm64
 Components: main
 Description: Apt repository for Radxa products
@@ -12,34 +12,34 @@ MD5Sum:
  fb88aa505ecf081406df2d61a1932c60 4727 main/binary-armhf/Packages
  d64a8e34f2ae8a1c0975895d0c4c6218 1536 main/binary-armhf/Packages.gz
  c565b989b8ee8e7795fc8705eff55600 126 main/binary-armhf/Release
- 6579b0e8f2f4d642677480b0bd8bbeab 15567 main/binary-arm64/Packages
- 6bc5a27fc7af7d2872c8ec3fa2349819 3860 main/binary-arm64/Packages.gz
+ b9c5e8898fa08c752e3344ca29566754 17221 main/binary-arm64/Packages
+ 5009d4f6a0321c6cb40a78419a996bbd 4129 main/binary-arm64/Packages.gz
  1948d7c313289de2d434bc8958eb4305 126 main/binary-arm64/Release
 SHA1:
  136124dd6795fcd6a7eab5849ac02dc0ddbb7a65 4727 main/binary-armhf/Packages
  b0d2fcbb5031ad02dce45ad6c2de12363f11ccfc 1536 main/binary-armhf/Packages.gz
  23e42ffe5fe8220d4ce8cebe5afa9046010d91e9 126 main/binary-armhf/Release
- 8483054bb29ff9ae2142693001caca9dbf9932d3 15567 main/binary-arm64/Packages
- 2bd150a778da342616f8b79e45ce0967d56b3fae 3860 main/binary-arm64/Packages.gz
+ 658471914f4b83c8ab4c514589a4308756d831b4 17221 main/binary-arm64/Packages
+ 2a2a471cb7251a2a72c4d762ff7a7b8660200602 4129 main/binary-arm64/Packages.gz
  af41e6144b1def9a2be005d93fbb7932edd05a3c 126 main/binary-arm64/Release
 SHA256:
  12427a6239075ee0aaeddfc7928599d1ffef2a9bc15ad3063171e9c96c628926 4727 main/binary-armhf/Packages
  5f2ea1b17aa9243220af80685bc0905dcd3a72780449e1776401100b3ab4f467 1536 main/binary-armhf/Packages.gz
  82b7adf84d0ca01b19114872693eb76ee52c66422528a43f813b163a4938b9af 126 main/binary-armhf/Release
- b5e591819d19f64b2a25c683fbbc5a26c12559a92a748f2a889afa0f6f7226f7 15567 main/binary-arm64/Packages
- 087c081c061175bd0d4a120492966c649cc54e9a4637acd32a6db8cfe4d9b89b 3860 main/binary-arm64/Packages.gz
+ 6f2c6e0916bce7f11451570c541b22ff856b025f6f71281ac45319c04526b5b3 17221 main/binary-arm64/Packages
+ 31cb615daea0e67a340553262b15508254f8a68ea6bfaf5cd9788d00fc501cc8 4129 main/binary-arm64/Packages.gz
  d75661930a67b30a72b8f44ddbb16f3960a82997c1150e8d92dac8b31b364e40 126 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEERmsef2gJZlIThI/KuZxL7+xH6W4FAmLh71kACgkQuZxL7+xH
-6W6yuAv/V+Kw/dmCsOacpEReLPWzHtiRbWBPAu4qG2oAx7NEGrUskfEKmbiVuFwq
-CfKQZZnwTKJOYi3UyzGFZ9OJcO9apSjTcVvqGeZjSfTT299AYw4W+R6KyCxvjq37
-ZuSsmIJNbqxgPWOU2caiAjaMlhZoitKje8bsDPn3PdPbnGEeoL1tQYoGovnKYl1/
-1AkFO4T1untSgXmz5A3+C/VOAqOvO+kDdJNojcLmznZy2ZqmcSciQPoE4EPvnNE5
-QeSgkKLWEvU/NKuNJ9LqklC6/l661AfrNV5I0aqofSmvCjCHn4opKT1es/gDO5Xh
-paAVvCU7qFP66Jd9cmZcvivP7d/G1yDyJ51S4Q8TG9eyz+YYU31PHbpFeqmwDPRC
-J15guROim8Jx/FbgKonpKRKpkJvKm8pOHmnp7LrJCJR9sS0XtbtJtwubbjuyss+K
-r9mCEscFTCb1zWYv0O9tqAkWXrIO4fGcH5SjAD+eSYfO3vWqr+Tilu2cbxAS+FJE
-oJeR+y7O
-=6l+5
+iQGzBAEBCgAdFiEERmsef2gJZlIThI/KuZxL7+xH6W4FAmLh+54ACgkQuZxL7+xH
+6W57KQv8D91EaJO0/+jIQ+Sr3DdwJMaTQqMkR5JU04Bc+Bpwdt97n9boFlzpc/CD
+cNbSMebsEOIUyWBS4elUnnlFSio+OOI5sw2e7ucJ5RyErw+qZmqxuUU7VVfSbX7R
+41dhbM1NDbn5XmQliQ7eQmaAQe0rylhwcZKyQWeSk81aPz6XTGL/r3vQ6NdRpv80
+uFLjZB6HT2cnIO+tii7J2E2qiORyuT96BYLePZKfL7rHsqWW3iQy+YQLx8zw3Ccn
+E7qH1xXZPzuzdmZbAKQPfsqrNzTueAAN9v5dl1qOVMZt1yqKEym0auLrgv2whDbC
+m0rn8+J6vlDzWmlhe+VMLHAKB3d7tsfROZZ2tlnMI6rD58JYgvDohClShWnoSo3q
+ZwXocbTiPHOyfj6LXjTyu7Fq1Nxdey2kchsGwUZhnecJD1z+A7FziG0GIdEUB7BZ
+11smT8e/73M9kgD9mynFITCtCANxNrhIUpU/xi8Yf7ymAaMVEfsc8NGlfrIW3QPc
+AxLtDShy
+=jpLA
 -----END PGP SIGNATURE-----
