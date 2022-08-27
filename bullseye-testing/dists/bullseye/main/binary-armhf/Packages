@@ -37,6 +37,31 @@ MD5sum: 2d5bf425c3291cbb536aaf613b47a3ff
 Description: General Broadcom WiFi and Bluetooth chip firmware
 Multi-Arch: foreign
 
+Package: glmark2-data
+Source: glmark2
+Version: 2021.02+ds-1
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 9311
+Recommends: glmark2-drm (>= 2021.02+ds-1) | glmark2-wayland (>= 2021.02+ds-1) | glmark2-x11 (>= 2021.02+ds-1) | glmark2-es2-wayland (>= 2021.02+ds-1) | glmark2-es2-drm (>= 2021.02+ds-1) | glmark2-es2-x11 (>= 2021.02+ds-1)
+Homepage: https://github.com/glmark2/glmark2
+Priority: optional
+Section: utils
+Filename: pool/main/g/glmark2/glmark2-data_2021.02+ds-1_all.deb
+Size: 6589888
+SHA256: 534aa105f06f41f20155c7b7fef4942e03e103ba9f17acb3004ebcd9830ab979
+SHA1: decb0d2e370b041fb8951156cf594cd2de2a69b8
+MD5sum: 607cb6140842ca053082f44bdf47443f
+Description: OpenGL (ES) 2.0 benchmark suite -- data files
+ glmark2 is a benchmark for OpenGL (ES) 2.0. It uses only the subset of
+ the OpenGL 2.0 API that is compatible with OpenGL ES 2.0.
+ glmark2 offers a suite of scenes that can be used to measure many
+ aspects of OpenGL (ES) 2.0 performance.
+ The way in which each scene is rendered is configurable through a set
+ of options.
+ .
+ This package provides data files.
+
 Package: intel-wifibt-firmware
 Version: 0.1-1
 License: GPL-2+

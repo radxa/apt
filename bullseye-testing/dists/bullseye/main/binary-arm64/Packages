@@ -92,6 +92,74 @@ MD5sum: e1384f9812e57590554d06f55d96f518
 Description: debug symbols for chromium-x11
 Build-Ids: 710135ed502dd95b65a90ab117fa56ffea858557 9dbebcafac91c243f65e4c2861bccc561ec9b6dc
 
+Package: glmark2-data
+Source: glmark2
+Version: 2021.02+ds-1
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 9311
+Recommends: glmark2-drm (>= 2021.02+ds-1) | glmark2-wayland (>= 2021.02+ds-1) | glmark2-x11 (>= 2021.02+ds-1) | glmark2-es2-wayland (>= 2021.02+ds-1) | glmark2-es2-drm (>= 2021.02+ds-1) | glmark2-es2-x11 (>= 2021.02+ds-1)
+Homepage: https://github.com/glmark2/glmark2
+Priority: optional
+Section: utils
+Filename: pool/main/g/glmark2/glmark2-data_2021.02+ds-1_all.deb
+Size: 6589888
+SHA256: 534aa105f06f41f20155c7b7fef4942e03e103ba9f17acb3004ebcd9830ab979
+SHA1: decb0d2e370b041fb8951156cf594cd2de2a69b8
+MD5sum: 607cb6140842ca053082f44bdf47443f
+Description: OpenGL (ES) 2.0 benchmark suite -- data files
+ glmark2 is a benchmark for OpenGL (ES) 2.0. It uses only the subset of
+ the OpenGL 2.0 API that is compatible with OpenGL ES 2.0.
+ glmark2 offers a suite of scenes that can be used to measure many
+ aspects of OpenGL (ES) 2.0 performance.
+ The way in which each scene is rendered is configurable through a set
+ of options.
+ .
+ This package provides data files.
+
+Package: glmark2-es2-x11
+Source: glmark2
+Version: 2021.02+ds-1
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 833
+Depends: glmark2-data (= 2021.02+ds-1), libx11-6, libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2)
+Homepage: https://github.com/glmark2/glmark2
+Priority: optional
+Section: utils
+Filename: pool/main/g/glmark2/glmark2-es2-x11_2021.02+ds-1_arm64.deb
+Size: 256872
+SHA256: 4c4476a9ff19385fb940f5db5989bf385fbfd09fbf68a09f04f0553f5859abad
+SHA1: b1baa25273dfe21f68f765c45e270a4fa16215e4
+MD5sum: 23ba781513cf86ad7b827555cc05eae0
+Description: OpenGL 2.0 benchmark suite
+ glmark2 is a benchmark for OpenGL 2.0. It uses only the subset of
+ the OpenGL 2.0 API that is compatible with OpenGL ES 2.0.
+ glmark2 offers a suite of scenes that can be used to measure many
+ aspects of OpenGL (ES) 2.0 performance.
+ The way in which each scene is rendered is configurable through a set
+ of options.
+ .
+ This package is intended only for the X11 platform. GLESv2 version.
+
+Package: glmark2-es2-x11-dbgsym
+Source: glmark2
+Version: 2021.02+ds-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 4879
+Depends: glmark2-es2-x11 (= 2021.02+ds-1)
+Priority: optional
+Section: debug
+Filename: pool/main/g/glmark2/glmark2-es2-x11-dbgsym_2021.02+ds-1_arm64.deb
+Size: 4725820
+SHA256: 34ca23a1827c24907f1cce6749a2758665d6491a60fcc83dad2b2e2f4ef26a58
+SHA1: 77fcda33dabbdea4cf4dc7f5e398e63059e0b067
+MD5sum: 7fa01529bf91b4ab6b9382e487c93a1c
+Description: debug symbols for glmark2-es2-x11
+Build-Ids: c96915500c8be193b9f292b18133d6eaf779d94f
+
 Package: intel-wifibt-firmware
 Version: 0.1-1
 License: GPL-2+
