@@ -109,6 +109,44 @@ MD5sum: d60ee811a16fb356088db0f173d7fe54
 Description: Raw memory i/o utility
 Multi-Arch: foreign
 
+Package: libmali-valhall-g610-g6p0-x11
+Source: libmali
+Version: 1.9-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 43084
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.3.1), libgbm1 (>= 7.11~1), libgcc1 (>= 1:4.2), libstdc++6 (>= 4.9), libx11-6, libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb1
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Homepage: https://github.com/rockchip-linux/libmali
+Priority: optional
+Section: libs
+Filename: pool/main/libm/libmali/libmali-valhall-g610-g6p0-x11_1.9-1_arm64.deb
+Size: 11682272
+SHA256: 4e0231896ae64a2b4ad5a4e975e73892f9def2ae1f252e18bc3f8d6945abca1d
+SHA1: f4b153286faf7999709611dbac0c5b972fcf4bc6
+MD5sum: 7cd4a04b7fcf754dba63a07488d46367
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-valhall-g610-g6p0-x11-dbgsym
+Source: libmali
+Version: 1.9-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 51
+Depends: libmali-valhall-g610-g6p0-x11 (= 1.9-1)
+Priority: optional
+Section: debug
+Filename: pool/main/libm/libmali/libmali-valhall-g610-g6p0-x11-dbgsym_1.9-1_arm64.deb
+Size: 7996
+SHA256: 31c7e5075e53cc8054f46e69a4813e913b12254304121d6b25533977c49f16a9
+SHA1: 8baa2d1ed95c41c69174d8c5d6dd338b1cd5edf8
+MD5sum: 9763fa925a38ed93fb55b7ebc84ca133
+Description: debug symbols for libmali-valhall-g610-g6p0-x11
+Build-Ids: 2a8a58b041c02d5a4644e3b19647363726517f4f 551c595f6b196475e694ccc674ae7aceee7f5be3 560631620417c8f5e3b3544f4153c04d8c482b00 b1e8f80f31d6ce3f5c7f8d7c0a3470da143a0638 ce4b4f5027b9d2d770650dfbf0f5dc83ec8812f0 f73ef8d3a3bdeeb80897e4b33024f138fe48da32
+
 Package: librockchip-mpp-dev
 Source: mpp
 Version: 1.5.0-1
