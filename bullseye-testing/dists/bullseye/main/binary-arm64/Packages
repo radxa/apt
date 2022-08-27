@@ -147,6 +147,57 @@ MD5sum: 9763fa925a38ed93fb55b7ebc84ca133
 Description: debug symbols for libmali-valhall-g610-g6p0-x11
 Build-Ids: 2a8a58b041c02d5a4644e3b19647363726517f4f 551c595f6b196475e694ccc674ae7aceee7f5be3 560631620417c8f5e3b3544f4153c04d8c482b00 b1e8f80f31d6ce3f5c7f8d7c0a3470da143a0638 ce4b4f5027b9d2d770650dfbf0f5dc83ec8812f0 f73ef8d3a3bdeeb80897e4b33024f138fe48da32
 
+Package: librga-dev
+Source: librga
+Version: 2.2.0-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 110
+Homepage: https://github.com/rockchip-linux/linux-rga
+Priority: optional
+Section: libdevel
+Filename: pool/main/libr/librga/librga-dev_2.2.0-1_arm64.deb
+Size: 19856
+SHA256: 9f27dc7bc9b67f39761e363748eb0d89fb0d725b63e27a066ed641c37d6b561c
+SHA1: 343f8c1bc33a2e9d1ad8e7f61580254663ec3031
+MD5sum: 8bf7f2928a51fe1c360e6c9ea542c9f8
+Description: Userspace interface to Rockchip RGA 2D accelerator
+
+Package: librga2
+Source: librga
+Version: 2.2.0-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 130
+Depends: libc6 (>= 2.29), libdrm2 (>= 2.4.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Homepage: https://github.com/rockchip-linux/linux-rga
+Priority: optional
+Section: libs
+Filename: pool/main/libr/librga/librga2_2.2.0-1_arm64.deb
+Size: 43480
+SHA256: 67dc3192570c9c78b5bef37f059530d5b039095b7596a491d4ebd0814b5a33de
+SHA1: 4230810650522935557ce63d46d723a266345f92
+MD5sum: fc8c8f6985da6db99f97f67ee365b24f
+Description: Userspace interface to Rockchip RGA 2D accelerator
+
+Package: librga2-dbgsym
+Source: librga
+Version: 2.2.0-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 201
+Depends: librga2 (= 2.2.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/libr/librga/librga2-dbgsym_2.2.0-1_arm64.deb
+Size: 177308
+SHA256: 8de3610e64800a4e0b1b2ab6ed2aa9799e213f1021c59bdb5916fd3ece2aec9a
+SHA1: 8829e46492e581e09d795d046ede1dbb23092d37
+MD5sum: 29527e02d1c190a79870c6307068d253
+Description: debug symbols for librga2
+Build-Ids: 1b61663bc71836c01375792bff779752db23ce04
+
 Package: librockchip-mpp-dev
 Source: mpp
 Version: 1.5.0-1
