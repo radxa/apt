@@ -109,6 +109,93 @@ MD5sum: d60ee811a16fb356088db0f173d7fe54
 Description: Raw memory i/o utility
 Multi-Arch: foreign
 
+Package: librockchip-mpp-dev
+Source: mpp
+Version: 1.5.0-1
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 199
+Depends: librockchip-mpp1 (= 1.5.0-1)
+Homepage: http://www.rock-chips.com
+Priority: optional
+Section: libdevel
+Filename: pool/main/m/mpp/librockchip-mpp-dev_1.5.0-1_arm64.deb
+Size: 40416
+SHA256: ffc1510ba9bb4f313497eaebd88ef39b46f123bf8a31d2cb7ca47b96bf11fac4
+SHA1: e802e9ec927cde06c10c270d6db9acae4b0ab8eb
+MD5sum: 1af694245df443c9c43bb151440643dd
+Description: Media Process Platform
+
+Package: librockchip-mpp1
+Source: mpp
+Version: 1.5.0-1
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 1671
+Depends: libc6 (>= 2.29), libstdc++6 (>= 5)
+Homepage: http://www.rock-chips.com
+Priority: optional
+Section: libs
+Filename: pool/main/m/mpp/librockchip-mpp1_1.5.0-1_arm64.deb
+Size: 602980
+SHA256: 47de6502bf24d2216b8a8ef157c600ee4d041e43d602c959f7a9ec4b55eed8e6
+SHA1: f8c1d65d9f77f198a03bbd14cb744464a0b52fdc
+MD5sum: bdbf6c7ead59af5fb35d9b7f8cb6ecd0
+Description: Media Process Platform
+
+Package: librockchip-mpp1-dbgsym
+Source: mpp
+Version: 1.5.0-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 2578
+Depends: librockchip-mpp1 (= 1.5.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/m/mpp/librockchip-mpp1-dbgsym_1.5.0-1_arm64.deb
+Size: 2420772
+SHA256: 61e3068ae964132807c54055e34f833a4071118a749a10eb1a75a1d284fc4a4a
+SHA1: 5de5594932bfaeaa46da225711b96fee66ccbef1
+MD5sum: ee8fe905414f8ebed1403ab99bc89036
+Description: debug symbols for librockchip-mpp1
+Build-Ids: 5502716ee23c3a6fc84528299e01f8ad0e22e63d
+
+Package: librockchip-vpu0
+Source: mpp
+Version: 1.5.0-1
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 81
+Depends: libc6 (>= 2.17), librockchip-mpp1, libstdc++6 (>= 5)
+Homepage: http://www.rock-chips.com
+Priority: optional
+Section: libs
+Filename: pool/main/m/mpp/librockchip-vpu0_1.5.0-1_arm64.deb
+Size: 27156
+SHA256: e81e066d6cdca4629c40f38b9c8e86de11f710f3245888caff0bb258b789e6ff
+SHA1: ebaab3d5d6f523e7034b728e416eadf45b4c0ea6
+MD5sum: db495dc6a2241aa3538951f2393b601b
+Description: Media Process Platform
+
+Package: librockchip-vpu0-dbgsym
+Source: mpp
+Version: 1.5.0-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 101
+Depends: librockchip-vpu0 (= 1.5.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/m/mpp/librockchip-vpu0-dbgsym_1.5.0-1_arm64.deb
+Size: 79980
+SHA256: 1be224cdfc7c6b2a6527f03167e9c0505f3035687e77c0a459f22f6f557a3694
+SHA1: 5ebf7196c97d8c11dc9afab1667c5e7186bc8ac6
+MD5sum: 8a33c28ceafbeb9bd1964f62169ef08a
+Description: debug symbols for librockchip-vpu0
+Build-Ids: 004f480b0b64e08fce7f64347dfc64e2854ad6f2
+
 Package: linux-4.19-rock-3-latest
 Version: 4.19.193-53-rockchip
 License: GPL-2+
@@ -298,6 +385,41 @@ SHA1: aa4a5ba60997bc462bf35c2db48c87de50db4c11
 MD5sum: ada588ae1a7eebfcdcb7cf7a8a01a6b9
 Description: 3A libraries match Rockchip rkisp1 driver version 0.1.3. The gstreamer plugin rkv4l2src bases on v4l2src, loading 3A when streaming.
 Multi-Arch: foreign
+
+Package: rockchip-mpp-demos
+Source: mpp
+Version: 1.5.0-1
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 549
+Depends: librockchip-mpp1 (= 1.5.0-1), librockchip-vpu0 (= 1.5.0-1)
+Homepage: http://www.rock-chips.com
+Priority: optional
+Section: libs
+Filename: pool/main/m/mpp/rockchip-mpp-demos_1.5.0-1_arm64.deb
+Size: 93092
+SHA256: 1008fd1c91e1fe6a3f4a511bacda679ab42852c3894ca65085ca3ae90346596d
+SHA1: 6c57ac02cbafaafab707fb0eaf370d4dd98bcdf1
+MD5sum: e19d37916cbe2d8c70ef7014990cbbb9
+Description: Media Process Platform Demos
+
+Package: rockchip-mpp-demos-dbgsym
+Source: mpp
+Version: 1.5.0-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 668
+Depends: rockchip-mpp-demos (= 1.5.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/m/mpp/rockchip-mpp-demos-dbgsym_1.5.0-1_arm64.deb
+Size: 544836
+SHA256: 8340c4006ebb8d67bc989bc1d67d9f7bca6444c9e1c1d7e39fdbe38c4f63fc9a
+SHA1: 414d0e215c3ffd555f4e4b80677a7ef32935d642
+MD5sum: 908a456bd7eeed32c1e14c79cac91dbe
+Description: debug symbols for rockchip-mpp-demos
+Build-Ids: 1d92066ebb803d1a285f610d2bd04cb7d610c2fb 45ae9079bfae27d7fce12ff0b4da353f9278df8e 4d535934e94b3962067cfdf483c179b51d223afe 51e44881fc77add77519576eda887a1730090906 ad337239c6db4fed4b0aa66ee8800d7d24aff5f7 bfceaf0b08750a189992287fc1e2dc204a7c0e7c cccf25c963e631a5eeb48919e8e0c5beacf7d21b ef506eb87d7462fafd134295db3ba5c0e1d4be1c
 
 Package: rockchip-overlay
 Version: 3.0
