@@ -116,6 +116,25 @@ MD5sum: 65921120a21ca80eec42277206a71562
 Description: General Qualcomm WiFi and Bluetooth chip firmware
 Multi-Arch: foreign
 
+Package: radxa-add-overlay
+Version: 0.1
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 5
+Depends: python3
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/r/radxa-add-overlay/radxa-add-overlay_0.1_all.deb
+Size: 3084
+SHA256: efd9666130ee321e70340a89866a710b1f7370b799bc69df1bdd53c9cfeff9e5
+SHA1: cb3dcfde89dff5cc6f3db9133119ed1967459e0b
+MD5sum: b455c996007dfdb74d1ed7a621276ad5
+Description: Overlay add helper 
+Multi-Arch: foreign
+
 Package: realtek-wifibt-firmware
 Version: 0.4
 License: GPL-2+
