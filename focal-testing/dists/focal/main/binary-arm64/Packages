@@ -96,21 +96,21 @@ Conflicts: linux-4.19-rock-3-latest
 Provides: linux-4.19-rock-3-latest
 
 Package: linux-5.10-rock-5-latest
-Version: 5.10.66-20-rockchip
+Version: 5.10.66-21-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: arm64
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-5.10.66-20-rockchip-g0cdf37b755fe, linux-headers-5.10.66-20-rockchip-g0cdf37b755fe
+Depends: linux-image-5.10.66-21-rockchip-gbbe5dbfb385d, linux-headers-5.10.66-21-rockchip-gbbe5dbfb385d
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-5.10-rock-5-latest/linux-5.10-rock-5-latest_5.10.66-20-rockchip_arm64.deb
+Filename: pool/main/l/linux-5.10-rock-5-latest/linux-5.10-rock-5-latest_5.10.66-21-rockchip_arm64.deb
 Size: 1144
-SHA256: ab2c28249501d9972873f599a8a724aa65a567dcb4db10c51a79a1afdf87ff3b
-SHA1: 7e926f395c0c7a06bb20c4f74b5aa4688792534a
-MD5sum: 96a22a31b0c9771f2083ecb1c7d98be4
+SHA256: f58ed898c098527f9875affb07d005fc90452682af7359db0135a44e312313e1
+SHA1: ba308e19a8b0ae10802f63729bbd3bae12d39563
+MD5sum: 2275bfd16d9e994540d1cd27a0ba8323
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 Replaces: linux-5.10-rock-5-latest
@@ -288,6 +288,25 @@ Description: Linux kernel headers for 5.10.66-20-rockchip-g0cdf37b755fe on arm64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-5.10.66-21-rockchip-gbbe5dbfb385d
+Source: linux-5.10.66-21-rockchip-gbbe5dbfb385d
+Version: 5.10.66-21-rockchip
+Architecture: arm64
+Maintainer: stephen <stephen@lara.vamrs.com>
+Installed-Size: 47114
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.66-21-rockchip-gbbe5dbfb385d/linux-headers-5.10.66-21-rockchip-gbbe5dbfb385d_5.10.66-21-rockchip_arm64.deb
+Size: 7713040
+SHA256: 34bd2342541c1fb859fc22a7c8e018372f6a8f8dfa705be34760cdf465e060bf
+SHA1: d8781317cc9ed277f7e37b9f693898c467c1c79e
+MD5sum: a73b4ce4c8a98bc742a9c05ceb69774b
+Description: Linux kernel headers for 5.10.66-21-rockchip-gbbe5dbfb385d on arm64
+ This package provides kernel header files for 5.10.66-21-rockchip-gbbe5dbfb385d on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-4.19.193-47-rockchip-g0f91d24e217c
 Source: linux-4.19.193-47-rockchip-g0f91d24e217c
 Version: 4.19.193-47-rockchip
@@ -449,6 +468,24 @@ MD5sum: adc16f700a5ec7e120784dedc86a2765
 Description: Linux kernel, version 5.10.66-20-rockchip-g0cdf37b755fe
  This package contains the Linux kernel, modules and corresponding other
  files, version: 5.10.66-20-rockchip-g0cdf37b755fe.
+
+Package: linux-image-5.10.66-21-rockchip-gbbe5dbfb385d
+Source: linux-5.10.66-21-rockchip-gbbe5dbfb385d
+Version: 5.10.66-21-rockchip
+Architecture: arm64
+Maintainer: stephen <stephen@lara.vamrs.com>
+Installed-Size: 92084
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.66-21-rockchip-gbbe5dbfb385d/linux-image-5.10.66-21-rockchip-gbbe5dbfb385d_5.10.66-21-rockchip_arm64.deb
+Size: 20245248
+SHA256: f9e7eb7f6efa435c5886fbd8bc118a95a481693b41dab8803980aef10fa3bbbc
+SHA1: c36eb44760625cebacd55870a1eff0c993970e6d
+MD5sum: 6cab65f3165db4e46c21d9cbb48f2fde
+Description: Linux kernel, version 5.10.66-21-rockchip-gbbe5dbfb385d
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.66-21-rockchip-gbbe5dbfb385d.
 
 Package: networkmanager-patch
 Version: 0.1
