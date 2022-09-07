@@ -1,3 +1,23 @@
+Package: libmraa
+Version: 1.7
+Maintainer: Radxa <dev@radxa.com>
+Architecture: arm64
+Component: main
+Multi-Arch: foreign
+Replaces: libmraa-rockpis, libmraa-rockpi4, libmraa-rockpie
+Conflicts: libmraa-rockpis, libmraa-rockpi4, libmraa-rockpie
+Provides: libmraa-rockpis, libmraa-rockpi4, libmraa-rockpie
+Depends: libc6, libjson-c5, libjson-c-dev, libgtest-dev, libgcc1, libstdc++6,
+    python, python2.7, libpython2.7, python3.9, libpython3.9
+Priority: optional
+Section: libs
+Filename: pool/main/libm/libmraa/libmraa_1.7_arm64.deb
+Size: 202564
+SHA256: 96d5c751c8d691f4435ce2f7c59371cd39f284d1e38e7541d903c8808a456a1b
+SHA1: 0f992962cb62f490f98e023c7b75afb5fdd138bb
+MD5sum: c3c0607fde2708497201b2a4596510fa
+Description: Provide mraa interface package for C/C++, python and Java.
+
 Package: linux-4.19-rock-3-latest
 Version: 4.19.193-55-rockchip
 License: GPL-2+
