@@ -80,6 +80,28 @@ MD5sum: ba74f7357ce8a061b063cf19f6ea6186
 Description: General Intel WiFi and Bluetooth chip firmware
 Multi-Arch: foreign
 
+Package: libdvbv5-doc
+Source: v4l-utils
+Version: 1.20.0-2
+Architecture: all
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 6851
+Suggests: devhelp
+Multi-Arch: foreign
+Homepage: https://linuxtv.org/downloads/v4l-utils/
+Priority: optional
+Section: doc
+Filename: pool/main/v/v4l-utils/libdvbv5-doc_1.20.0-2_all.deb
+Size: 1508436
+SHA256: dad198f023ca5dfb767a826331abd85ed83d72a8995c3fd6098ff9259b626a2a
+SHA1: a42ed4945dc645c8c50b6824309bc49db7a10cd7
+MD5sum: 20e620ac6bbc5c040ca196cbf179eaff
+Description: Doxygen generated documentation for libdvbv5
+ This library provides functions to work with DVB devices that
+ implement the DVB v5 API.
+ .
+ This package provides doxygen generated documentation for the library.
+
 Package: networkmanager-patch
 Version: 0.1
 License: GPL-2+

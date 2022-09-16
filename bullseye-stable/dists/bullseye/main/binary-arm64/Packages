@@ -92,6 +92,58 @@ MD5sum: e1384f9812e57590554d06f55d96f518
 Description: debug symbols for chromium-x11
 Build-Ids: 710135ed502dd95b65a90ab117fa56ffea858557 9dbebcafac91c243f65e4c2861bccc561ec9b6dc
 
+Package: dvb-tools
+Source: v4l-utils
+Version: 1.20.0-2
+Architecture: arm64
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 224
+Depends: libdvbv5-0 (= 1.20.0-2), libc6 (>= 2.17)
+Homepage: https://linuxtv.org/downloads/v4l-utils/
+Priority: optional
+Section: utils
+Filename: pool/main/v/v4l-utils/dvb-tools_1.20.0-2_arm64.deb
+Size: 111900
+SHA256: dc31553de07f6439ad4ac693c64580b4eccdfdb4c508e93c078dd7f9c3435f66
+SHA1: 1b23c8a1e509c8a16ab9da95832b3adedf192e2f
+MD5sum: 09d70cd380a57032de28dd115abb0b65
+Description: Collection of command line DVB utilities
+ This is a series of tools written to help testing and working with DVB,
+ using its latest V5 API. The tools can also work with the DVBv3 API.
+ .
+ The current tools are:
+ .
+ dvb-fe-tool: a simple test application, that reads from the frontend.
+ it also allows one to change the default delivery system.
+ In the future, it may be used to change any property via command line.
+ .
+ dvb-format-convert: converts from zap and scan initial-tuning-data-file
+ into the new format defined to work with DVBv5.
+ .
+ dvbv5-scan: a DVBv5 scan tool.
+ .
+ dvbv5-zap: a DVBv5 zap tool. It allows one to tune into a DVB channel,
+ and to watch to a DVB service (e. g. receiving the video and audio
+ streams, via another application using the dvr device).
+
+Package: dvb-tools-dbgsym
+Source: v4l-utils
+Version: 1.20.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 142
+Depends: dvb-tools (= 1.20.0-2)
+Priority: optional
+Section: debug
+Filename: pool/main/v/v4l-utils/dvb-tools-dbgsym_1.20.0-2_arm64.deb
+Size: 83500
+SHA256: 9a34ca7c61c22fcb0faed128303f6d656c74e6b1b43f07a1b060a33ee35f1b9e
+SHA1: 0ea497e6d2cff34858de63c61c4789ab46f4f491
+MD5sum: 1187c59a47209a8dd06d1fcf81c5b05d
+Description: debug symbols for dvb-tools
+Build-Ids: 1776b8306ee09ba105a33dfc84707bac4b5744ed 6a9d17bd7af6c8add62b959fec007fe2eb09e736 7f315abeed44f9c038e22cc474ba7ac895bbd385 9d987bffcc10d49f8cf6cc736ad885c8a3f23af3 f2b1bc02f47ccea49bdc67bee19e10f23841ebd2
+
 Package: gir1.2-gst-plugins-bad-1.0
 Source: gst-plugins-bad1.0
 Version: 1.18.5-1
@@ -755,6 +807,132 @@ MD5sum: d60ee811a16fb356088db0f173d7fe54
 Description: Raw memory i/o utility
 Multi-Arch: foreign
 
+Package: ir-keytable
+Source: v4l-utils
+Version: 1.20.0-2
+Architecture: arm64
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 472
+Depends: libc6 (>= 2.17), libelf1 (>= 0.131)
+Recommends: udev
+Homepage: https://linuxtv.org/downloads/v4l-utils/
+Priority: optional
+Section: utils
+Filename: pool/main/v/v4l-utils/ir-keytable_1.20.0-2_arm64.deb
+Size: 143504
+SHA256: 744ed63ce849417a5d8d7c6d0bec25851d2ae499f72e0b3de443498b67574ffb
+SHA1: 04adc045e8b96b3b4b58dc6d442d86f3d700c08c
+MD5sum: 1af1a3d99e25d2a73229f5f01d2503ef
+Description: Alter keymaps of Remote Controller devices
+ This package allows one to change the keymap of controller receivers.
+ Those receivers are found as infrared receivers on DVB sticks or on
+ framegrabber cards. Via ir-keytable the mapping from a scancode to
+ the generated event can be customized and made persistent.
+
+Package: ir-keytable-dbgsym
+Source: v4l-utils
+Version: 1.20.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 129
+Depends: ir-keytable (= 1.20.0-2)
+Priority: optional
+Section: debug
+Filename: pool/main/v/v4l-utils/ir-keytable-dbgsym_1.20.0-2_arm64.deb
+Size: 110288
+SHA256: 9ead78d5e7a1c92e08726d30477886c5a9540771ba5645d903d47c3a5b7682e4
+SHA1: 4b83d51ee1bce1fb27b7858fc8f950923eec2889
+MD5sum: 0883e8f7e53e9669471d8c2c7b3f1519
+Description: debug symbols for ir-keytable
+Build-Ids: 8fe3d0251892ffd58bd482bedde7b2d166b447a3
+
+Package: libdvbv5-0
+Source: v4l-utils
+Version: 1.20.0-2
+Architecture: arm64
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 492
+Depends: libc6 (>= 2.29), libudev1 (>= 183)
+Multi-Arch: same
+Homepage: https://linuxtv.org/downloads/v4l-utils/
+Priority: optional
+Section: libs
+Filename: pool/main/v/v4l-utils/libdvbv5-0_1.20.0-2_arm64.deb
+Size: 167816
+SHA256: e3cdaf1dc79db33f1800818ab047e4692fa6970c36dde656a075712e53db4ef6
+SHA1: e78dea813206138001158dd1f6495b2b9b887d94
+MD5sum: 15cfd1e3da1dfc9a42a86c9d3e9c949c
+Description: Libraries to control, scan and zap on Digital TV channels
+ This library provides functions to work with DVB devices that
+ implement the DVB v5 API.
+ .
+ This package contains the shared libraries.
+
+Package: libdvbv5-0-dbgsym
+Source: v4l-utils
+Version: 1.20.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 258
+Depends: libdvbv5-0 (= 1.20.0-2)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/v/v4l-utils/libdvbv5-0-dbgsym_1.20.0-2_arm64.deb
+Size: 227716
+SHA256: 0f7833cf5519b41f5055aa850c2debf37be431ecdd336dd290b4bf301570d4d5
+SHA1: 97e3ec510d89c346cddafd97cabd78e4a1eedf26
+MD5sum: b8f54fad4ef890f253b241000ebf2b10
+Description: debug symbols for libdvbv5-0
+Build-Ids: d2f43edfcdc16ac6c24fbea94ec8fff364fd5323
+
+Package: libdvbv5-dev
+Source: v4l-utils
+Version: 1.20.0-2
+Architecture: arm64
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 1027
+Depends: libdvbv5-0 (= 1.20.0-2)
+Suggests: pkg-config (>= 0.18), libdvbv5-doc
+Multi-Arch: same
+Homepage: https://linuxtv.org/downloads/v4l-utils/
+Priority: optional
+Section: libdevel
+Filename: pool/main/v/v4l-utils/libdvbv5-dev_1.20.0-2_arm64.deb
+Size: 218804
+SHA256: 867a0c5330e80634246a2e199e31989696ba50ca94146c802488bea7d7ba9f1b
+SHA1: d53fef5f2e526a85099e18c091c73253d069ef42
+MD5sum: 9b5d8c5afe7dfe80c8f9bb8d32fc0df8
+Description: Development files for libdvbv5
+ This library provides functions to work with DVB devices that
+ implement the DVB v5 API.
+ .
+ This package contains the development files.
+
+Package: libdvbv5-doc
+Source: v4l-utils
+Version: 1.20.0-2
+Architecture: all
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 6851
+Suggests: devhelp
+Multi-Arch: foreign
+Homepage: https://linuxtv.org/downloads/v4l-utils/
+Priority: optional
+Section: doc
+Filename: pool/main/v/v4l-utils/libdvbv5-doc_1.20.0-2_all.deb
+Size: 1508436
+SHA256: dad198f023ca5dfb767a826331abd85ed83d72a8995c3fd6098ff9259b626a2a
+SHA1: a42ed4945dc645c8c50b6824309bc49db7a10cd7
+MD5sum: 20e620ac6bbc5c040ca196cbf179eaff
+Description: Doxygen generated documentation for libdvbv5
+ This library provides functions to work with DVB devices that
+ implement the DVB v5 API.
+ .
+ This package provides doxygen generated documentation for the library.
+
 Package: libgstreamer-gl1.0-0
 Source: gst-plugins-base1.0
 Version: 1.18.5-1
@@ -1387,6 +1565,215 @@ MD5sum: 8a33c28ceafbeb9bd1964f62169ef08a
 Description: debug symbols for librockchip-vpu0
 Build-Ids: 004f480b0b64e08fce7f64347dfc64e2854ad6f2
 
+Package: libv4l-0
+Source: v4l-utils
+Version: 1.20.0-2
+Architecture: arm64
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 219
+Depends: libv4lconvert0 (= 1.20.0-2), libc6 (>= 2.27)
+Multi-Arch: same
+Homepage: https://linuxtv.org/downloads/v4l-utils/
+Priority: optional
+Section: libs
+Filename: pool/main/v/v4l-utils/libv4l-0_1.20.0-2_arm64.deb
+Size: 104116
+SHA256: db38dd6c9e662c02b03bc76af60ec2a99f11e45a6a4dc8954c4b44ef1e5740e9
+SHA1: a4458e7b87e8800e0da41b9e00a14c6f7d20d2cc
+MD5sum: 2951aa144022c892a88031cd99c8038c
+Description: Collection of video4linux support libraries
+ libv4l is a collection of libraries which adds a thin abstraction layer on
+ top of video4linux2 devices. The purpose of this (thin) layer is to make it
+ easy for application writers to support a wide variety of devices without
+ having to write separate code for different devices in the same class. libv4l
+ consists of 3 different libraries: libv4lconvert, libv4l1 and libv4l2.
+ .
+ libv4l1 offers the (deprecated) v4l1 API on top of v4l2 devices, independent
+ of the drivers for those devices supporting v4l1 compatibility (which many
+ v4l2 drivers do not).
+ .
+ libv4l2 offers the v4l2 API on top of v4l2 devices, while adding for the
+ application transparent libv4lconvert conversion where necessary.
+ .
+ This package contains the shared libraries.
+
+Package: libv4l-0-dbgsym
+Source: v4l-utils
+Version: 1.20.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 122
+Depends: libv4l-0 (= 1.20.0-2)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/v/v4l-utils/libv4l-0-dbgsym_1.20.0-2_arm64.deb
+Size: 76588
+SHA256: fba285194f79f3e216bacca77e6f61200dd4b2710b3881b1ffc9c6cd5b7658b9
+SHA1: caf1e8d20725c1dae1dc110bdd6ab10a65bff4c8
+MD5sum: 583e06b777ffce86be79355e132a287b
+Description: debug symbols for libv4l-0
+Build-Ids: 3cdf01d6a77d899fcea08f5364d81e87f18b5bde 45235fc92400446abf858da28109d65b7abc30f1 5c12c4ad93d1f9cea0d1030355b3b9e94810da49 71d2f7c8ce81320249ab103d97b4013277a3b826 e0060484e7440afa0f7ab7dcfc0a99b43e1d446d
+
+Package: libv4l-dev
+Source: v4l-utils
+Version: 1.20.0-2
+Architecture: arm64
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 427
+Depends: libv4l-0 (= 1.20.0-2), libv4lconvert0 (= 1.20.0-2), libv4l2rds0 (= 1.20.0-2)
+Suggests: pkg-config (>= 0.18)
+Multi-Arch: same
+Homepage: https://linuxtv.org/downloads/v4l-utils/
+Priority: optional
+Section: libdevel
+Filename: pool/main/v/v4l-utils/libv4l-dev_1.20.0-2_arm64.deb
+Size: 103656
+SHA256: 9f219cb5d8ffcdcd57ebb6ad23cbf74b7e86d736300e4e2ef8f90ed521619313
+SHA1: dd4dd8d2e7823dbd05a0ad543011fcf601d39539
+MD5sum: 2a612821cb7e7ba61a8e3716394309f0
+Description: Collection of video4linux support libraries (development files)
+ libv4l is a collection of libraries which adds a thin abstraction layer on
+ top of video4linux2 devices. The purpose of this (thin) layer is to make it
+ easy for application writers to support a wide variety of devices without
+ having to write separate code for different devices in the same class. libv4l
+ consists of 3 different libraries: libv4lconvert, libv4l1 and libv4l2.
+ .
+ libv4lconvert offers functions to convert from any (known) pixelformat
+ to BGR24, RGB24, YUV420 and YVU420.
+ .
+ libv4l1 offers the (deprecated) v4l1 API on top of v4l2 devices, independent
+ of the drivers for those devices supporting v4l1 compatibility (which many
+ v4l2 drivers do not).
+ .
+ libv4l2 offers the v4l2 API on top of v4l2 devices, while adding for the
+ application transparent libv4lconvert conversion where necessary.
+ .
+ This package contains the development files.
+
+Package: libv4l-rkmpp
+Version: 1.4.0-1
+Architecture: arm64
+Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
+Installed-Size: 138
+Depends: libc6 (>= 2.17), librga2, librockchip-mpp1
+Homepage: https://github.com/JeffyCN/libv4l-rkmpp
+Priority: optional
+Section: libs
+Filename: pool/main/libv/libv4l-rkmpp/libv4l-rkmpp_1.4.0-1_arm64.deb
+Size: 38252
+SHA256: 6eb2a01cff8a12670868921c2ecae213939951a7d8c02ba73f38275611c8dc98
+SHA1: b26ce8ef0b5035d27d4a3e44b253d0d9de4b58c3
+MD5sum: 91e11820567308b7103842219d81d635
+Description: A rockchip-mpp V4L2 wrapper plugin for chromium V4L2 VDA
+ A V4L2 plugin that wraps rockchip-mpp for the chromium's V4L2 VDA.
+ .
+ The original idea comes from v4l-gst.
+
+Package: libv4l-rkmpp-dbgsym
+Source: libv4l-rkmpp
+Version: 1.4.0-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
+Installed-Size: 130
+Depends: libv4l-rkmpp (= 1.4.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/libv/libv4l-rkmpp/libv4l-rkmpp-dbgsym_1.4.0-1_arm64.deb
+Size: 112028
+SHA256: 292b456e9153f6a7681d2703e4c419232e7d6828a1557b8278f0829b7e70f6c5
+SHA1: 3fad921cad415ad3f91ae37602c2a5b43aa1b949
+MD5sum: 0d4deebf71cfe1bc3524a6ea43086912
+Description: debug symbols for libv4l-rkmpp
+Build-Ids: 63cb700d1949a0578bf582db28b4927a8a884df6
+
+Package: libv4l2rds0
+Source: v4l-utils
+Version: 1.20.0-2
+Architecture: arm64
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 115
+Depends: libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: https://linuxtv.org/downloads/v4l-utils/
+Priority: optional
+Section: libs
+Filename: pool/main/v/v4l-utils/libv4l2rds0_1.20.0-2_arm64.deb
+Size: 77192
+SHA256: 5a7483d7ba4d345df9e1fed8df082aa6c508c7d1ae5e014a123bc5ad6f9e19b7
+SHA1: 66ee5b4e312af4e3a9ff8f3202c9ecfbc85e693a
+MD5sum: 492e05ed68b5c3025d52b5640208f98f
+Description: Video4Linux Radio Data System (RDS) decoding library
+ This library decodes a RDS stream obtained from a Video4Linux (V4L)
+ version 2 device. It supports both: the US based RBDS and European RDS
+ protocol.
+ .
+ This package contains the shared library.
+
+Package: libv4l2rds0-dbgsym
+Source: v4l-utils
+Version: 1.20.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 36
+Depends: libv4l2rds0 (= 1.20.0-2)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/v/v4l-utils/libv4l2rds0-dbgsym_1.20.0-2_arm64.deb
+Size: 22180
+SHA256: b260fb941cc72223e04e6d508cdad1846e3f973560d47ee6cb5af324eaeeeadf
+SHA1: 40c4d0a6c97bc9d7efd7c1ad685cd5cc9402fbc0
+MD5sum: 40e630eb67813124c446a262cb8a0df5
+Description: debug symbols for libv4l2rds0
+Build-Ids: 4359337b03dc1b6a55051d8f3f3fe4ba8a80e640
+
+Package: libv4lconvert0
+Source: v4l-utils
+Version: 1.20.0-2
+Architecture: arm64
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 275
+Depends: libc6 (>= 2.27), libjpeg62-turbo (>= 1.3.1)
+Breaks: libv4l-0 (<< 0.8.5-4)
+Replaces: libv4l-0 (<< 0.8.5-4)
+Multi-Arch: same
+Homepage: https://linuxtv.org/downloads/v4l-utils/
+Priority: optional
+Section: libs
+Filename: pool/main/v/v4l-utils/libv4lconvert0_1.20.0-2_arm64.deb
+Size: 134632
+SHA256: 183a89358a7fb86667abbfbe14314d07a885b0dd8b7cdeb1fa907bff45def93b
+SHA1: 6a70aa70a24d2dc7249009eecd0b38cfecaca4b8
+MD5sum: cbb646af51c603a012608091e6c20198
+Description: Video4linux frame format conversion library
+ libv4lconvert offers functions to convert from any (known) pixelformat
+ to BGR24, RGB24, YUV420 and YVU420.
+ .
+ This package contains the shared library.
+
+Package: libv4lconvert0-dbgsym
+Source: v4l-utils
+Version: 1.20.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 246
+Depends: libv4lconvert0 (= 1.20.0-2)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/v/v4l-utils/libv4lconvert0-dbgsym_1.20.0-2_arm64.deb
+Size: 205976
+SHA256: 5d59faca2cb4e6038061fa05d12caf952bb2627d09962ecc8d33296c53d0d256
+SHA1: d8b33127de87693caf5f54913e68eb9283fb7233
+MD5sum: 141592963d5ad22cdd3097f6032c7cd6
+Description: debug symbols for libv4lconvert0
+Build-Ids: 27fd0a8794e1ce0f06fb5bb0b5bc0939ef902a12 5592d9730bc20cdcb4ad547b46b9bd4ed124d00a 5681b7ffd314ed91f6797a683a71b22356b3a27c
+
 Package: linux-4.19-rock-3-latest
 Version: 4.19.193-54-rockchip
 License: GPL-2+
@@ -1577,6 +1964,43 @@ SHA1: efd18c3b30a787b4e5fb8f678bda4776644ac9b8
 MD5sum: 65921120a21ca80eec42277206a71562
 Description: General Qualcomm WiFi and Bluetooth chip firmware
 Multi-Arch: foreign
+
+Package: qv4l2
+Source: v4l-utils
+Version: 1.20.0-2
+Architecture: arm64
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 600
+Depends: libv4l-0 (= 1.20.0-2), libasound2 (>= 1.0.16), libc6 (>= 2.17), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5opengl5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), libv4lconvert0 (>= 0.9.0~test5)
+Homepage: https://linuxtv.org/downloads/v4l-utils/
+Priority: optional
+Section: utils
+Filename: pool/main/v/v4l-utils/qv4l2_1.20.0-2_arm64.deb
+Size: 177852
+SHA256: e71882bad428c2c911db39cdf143fb75cb761ca56a08a1f4a4dfc037500d44ec
+SHA1: ed3fec548be2d0ac7a6741a17260730e155363b3
+MD5sum: 2d8cf471ef49a3a5b120ec6ec17deecb
+Description: Test bench application for video4linux devices
+ Qt v4l2 control panel application. You can change all through the v4l2
+ interface exposed device controls.
+
+Package: qv4l2-dbgsym
+Source: v4l-utils
+Version: 1.20.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 1747
+Depends: qv4l2 (= 1.20.0-2)
+Priority: optional
+Section: debug
+Filename: pool/main/v/v4l-utils/qv4l2-dbgsym_1.20.0-2_arm64.deb
+Size: 1708920
+SHA256: 1beb11588a0d211b05bb3deb1139e4bbe98fedfbbaff14da7f196f595f100332
+SHA1: 718efbd9b0af3fd761e8a4c3cc01295c19d64c54
+MD5sum: 95077d474a58667b7d0b60590e33d1c6
+Description: debug symbols for qv4l2
+Build-Ids: 34370676e7180efa8eba989c18d246af89a81aa2
 
 Package: radxa-add-overlay
 Version: 0.1
@@ -1800,6 +2224,50 @@ SHA1: 3bb37c28ac9e4dccecfbec5c761b3138e8eff4c8
 MD5sum: 933e5e440473009a0650a20de2461051
 Description: A firmware upgrade tool for Linux
 Multi-Arch: foreign
+
+Package: v4l-utils
+Version: 1.20.0-2
+Architecture: arm64
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 2180
+Depends: libv4l-0 (= 1.20.0-2), libv4l2rds0 (= 1.20.0-2), libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libudev1 (>= 183)
+Breaks: ivtv-utils (<< 1.4.1-2), media-ctl
+Replaces: ivtv-utils (<< 1.4.1-2), media-ctl
+Homepage: https://linuxtv.org/downloads/v4l-utils/
+Priority: optional
+Section: utils
+Filename: pool/main/v/v4l-utils/v4l-utils_1.20.0-2_arm64.deb
+Size: 563872
+SHA256: 73980e4535abcd7a5f3994f7dfdff44469b9129a5f3448565c2d8df705a56c02
+SHA1: e45b9a3c7d846f4dc3586c39c7ddaa3e8bf0da1a
+MD5sum: 3836bfce3f1c2ee6330e065bce94122f
+Description: Collection of command line video4linux utilities
+ v4l-utils contains the following video4linux command line utilities:
+ .
+  decode_tm6000: decodes tm6000 proprietary format streams
+  rds-ctl: tool to receive and decode Radio Data System (RDS) streams
+  v4l2-compliance: tool to test v4l2 API compliance of drivers
+  v4l2-ctl, cx18-ctl, ivtv-ctl: tools to control v4l2 controls from the cmdline
+  v4l2-dbg: tool to directly get and set registers of v4l2 devices
+  v4l2-sysfs-path: sysfs helper tool
+
+Package: v4l-utils-dbgsym
+Source: v4l-utils
+Version: 1.20.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 3918
+Depends: v4l-utils (= 1.20.0-2)
+Priority: optional
+Section: debug
+Filename: pool/main/v/v4l-utils/v4l-utils-dbgsym_1.20.0-2_arm64.deb
+Size: 3717504
+SHA256: f293175b1f273b0bb09e4cf17d9d05a7ae0dd563a20666383f064e95e59b71ad
+SHA1: a6a1ae85d4d19af587279e13f28dead906aa4ed0
+MD5sum: 925df0cdcee082a02b995963f99b80c4
+Description: debug symbols for v4l-utils
+Build-Ids: 4f77cafec98ebf74f00ce1b89d7a8daa1396cbed 64edb638e752f8c079c4189a59f8c88ba376d237 6502f7d72554ab068f5ade9ee235a0adad9c5dd0 9c5dc5508dba4f8396319b50f9261264a3543e35 9c5feebe3f18d746f7c9ab52b56a00decb3cc62b a93ef24d6ffe5f6a9c7140d62533ee1c2308938e b61c8771c29d2d0b232d791b68ee648fb436b1be b77ab1590a25e43840d6dd7e6ace06274794c133 b8965ccaad2f6069fe57aa8859aca13f189ed7a0 be137ad3965b9e88bd24f19135cc1e9f554a58f0 c0eaea8517d83d8d1ec36f41121cbff3f86cd01c d0a7188d44a760b1dce997f99d94946d3c980e31 f052748093e79ace292cf4bba9965926f3e7ffaf
 
 Package: xserver-xorg-core
 Source: xorg-server
