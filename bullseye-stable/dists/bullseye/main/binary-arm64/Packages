@@ -1,3 +1,25 @@
+Package: amlogic-overlay
+Version: 0.2-1
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 1655
+Depends: linux-base, file, bc, sed, coreutils
+Homepage: https://github.com/radxa/debos-radxa
+Priority: optional
+Section: utils
+Filename: pool/main/a/amlogic-overlay/amlogic-overlay_0.2-1_all.deb
+Size: 1116376
+SHA256: 3e553d66cc24467aec59e9650153790ade021e874ea2c3cde0441a7f3c598812
+SHA1: 565272df241737eb8281fcf7c907ab29728d21e5
+MD5sum: d09146a88307e2a519c673bf1275fd55
+Description: General rockchip overlay package.
+Multi-Arch: foreign
+Replaces: amlogic-overlay
+Conflicts: amlogic-overlay
+Provides: amlogic-overlay
+
 Package: brcm-patchram-plus1
 Version: 0.2
 License: GPL-2+
