@@ -2196,22 +2196,22 @@ Description: Radxa Installer
 Multi-Arch: foreign
 
 Package: realtek-wifibt-firmware
-Version: 0.4
+Version: 0.5
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
-Installed-Size: 577
+Installed-Size: 627
 Conflicts: rtl8723be-firmware
 Replaces: rtl8723be-firmware
 Homepage: http://example.com/no-uri-given
 Priority: optional
 Section: utils
-Filename: pool/main/r/realtek-wifibt-firmware/realtek-wifibt-firmware_0.4_all.deb
-Size: 200600
-SHA256: 8d65a3831e7b54494219e97b4db6d227f4a5b7059a947135ae7d4e82014fc4ae
-SHA1: 959ff0e3fe5236e07cc3c71c538b71c31ca60c87
-MD5sum: 6695f25180b95c47a4ec88494e3889c5
+Filename: pool/main/r/realtek-wifibt-firmware/realtek-wifibt-firmware_0.5_all.deb
+Size: 232286
+SHA256: 2bb87572476a847c0ca1a1cc1f941fcd88f34c1c39a674536746ee4a4fabbd71
+SHA1: c9490bfc33001de882d975c0e9e55157c496c1cf
+MD5sum: 8f97cf66f91dcd4a0d2c7478c904672c
 Description: Realtek Bluetooth firmware
 Multi-Arch: foreign
 

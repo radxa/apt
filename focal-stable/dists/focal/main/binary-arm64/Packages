@@ -1201,22 +1201,22 @@ MD5sum: 4977e8bb3b3bc516ee1ed27323244133
 Description: Load Realtek Bluetooth Driver and firmware.
 
 Package: realtek-wifibt-firmware
-Version: 0.4
+Version: 0.5
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
-Installed-Size: 577
+Installed-Size: 627
 Conflicts: rtl8723be-firmware
 Replaces: rtl8723be-firmware
 Homepage: http://example.com/no-uri-given
 Priority: optional
 Section: utils
-Filename: pool/main/r/realtek-wifibt-firmware/realtek-wifibt-firmware_0.4_all.deb
-Size: 200612
-SHA256: b7fe449ca474a7812b342775dc6ac04a4c839d5d99a711a6dcc93b55831119ef
-SHA1: 94c222ccbfff465f329355209b3a467d7cef8593
-MD5sum: 9d5a117995d53ed86b08a30351dfc572
+Filename: pool/main/r/realtek-wifibt-firmware/realtek-wifibt-firmware_0.5_all.deb
+Size: 232286
+SHA256: 2bb87572476a847c0ca1a1cc1f941fcd88f34c1c39a674536746ee4a4fabbd71
+SHA1: c9490bfc33001de882d975c0e9e55157c496c1cf
+MD5sum: 8f97cf66f91dcd4a0d2c7478c904672c
 Description: Realtek Bluetooth firmware
 Multi-Arch: foreign
 
