@@ -101,20 +101,20 @@ Description: interactive processes viewer
  entering their PIDs.
 
 Package: intel-wifibt-firmware
-Version: 0.1-1
+Version: 0.2-1
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
-Installed-Size: 1096
+Installed-Size: 3497
 Homepage: http://example.com/no-uri-given
 Priority: optional
 Section: utils
-Filename: pool/main/i/intel-wifibt-firmware/intel-wifibt-firmware_0.1-1_all.deb
-Size: 513818
-SHA256: c9d48b4a03318d12c7554647bbb3fdd88186ed4c174e180dac8818415d7fb4b2
-SHA1: 8e941b502ecdca13eb5b7fb264cca6055844de4a
-MD5sum: 76dc69c1289a2cc6dcd0ed46847551ff
+Filename: pool/main/i/intel-wifibt-firmware/intel-wifibt-firmware_0.2-1_all.deb
+Size: 1499028
+SHA256: 71ff7b95b9429ff8cee783621ed7e46b41f7e3429bbc846602266498447bd38f
+SHA1: e033fe45e2e9e93c46b67814ea2b3e770b8ef322
+MD5sum: 58d569bf3a67473f3f5139708ca3715e
 Description: General Intel WiFi and Bluetooth chip firmware
 Multi-Arch: foreign
 
