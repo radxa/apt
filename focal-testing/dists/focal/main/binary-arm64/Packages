@@ -1,19 +1,19 @@
 Package: linux-5.10-rock-5-latest
-Version: 5.10.66-23-rockchip
+Version: 5.10.66-24-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: arm64
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-5.10.66-23-rockchip-g8f044dffd16f, linux-headers-5.10.66-23-rockchip-g8f044dffd16f
+Depends: linux-image-5.10.66-24-rockchip-gcb09ad15af75, linux-headers-5.10.66-24-rockchip-gcb09ad15af75
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-5.10-rock-5-latest/linux-5.10-rock-5-latest_5.10.66-23-rockchip_arm64.deb
-Size: 1150
-SHA256: 72b7ee35ecab9c7452b9d005f6ddaa35f0ef389fe801b82275d47ed2e447f3df
-SHA1: ecc911e847ea109458696ab3c14e3ee43b447562
-MD5sum: a5371420334e71c6f12e677ca5de5ff3
+Filename: pool/main/l/linux-5.10-rock-5-latest/linux-5.10-rock-5-latest_5.10.66-24-rockchip_arm64.deb
+Size: 1148
+SHA256: c7b00eb9d2f48c749daa6ac1142c5a4a5f40e6cd1b896946bd6460cfafbac3f5
+SHA1: 6ef070dd01ffce0d7d509db10862ec70274f194f
+MD5sum: bb7bdfcdeab6a9b564b556f4644c96d4
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 Replaces: linux-5.10-rock-5-latest
@@ -39,6 +39,25 @@ Description: Linux kernel headers for 5.10.66-23-rockchip-g8f044dffd16f on arm64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-5.10.66-24-rockchip-gcb09ad15af75
+Source: linux-5.10.66-24-rockchip-gcb09ad15af75
+Version: 5.10.66-24-rockchip
+Architecture: arm64
+Maintainer: stephen <stephen@lara.vamrs.com>
+Installed-Size: 47178
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.66-24-rockchip-gcb09ad15af75/linux-headers-5.10.66-24-rockchip-gcb09ad15af75_5.10.66-24-rockchip_arm64.deb
+Size: 7721608
+SHA256: 13affce16b12686460cd75cb26de66f8d7d71585922d5b2740b0f31baf072b6c
+SHA1: 9b364003a1d38413d970804d7eb7130aa775b59e
+MD5sum: 09ae722a997de0f9483f97af95b456a9
+Description: Linux kernel headers for 5.10.66-24-rockchip-gcb09ad15af75 on arm64
+ This package provides kernel header files for 5.10.66-24-rockchip-gcb09ad15af75 on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-5.10.66-23-rockchip-g8f044dffd16f
 Source: linux-5.10.66-23-rockchip-g8f044dffd16f
 Version: 5.10.66-23-rockchip
@@ -56,4 +75,22 @@ MD5sum: 7bd79cb5111c4d2f45d9078837454d5b
 Description: Linux kernel, version 5.10.66-23-rockchip-g8f044dffd16f
  This package contains the Linux kernel, modules and corresponding other
  files, version: 5.10.66-23-rockchip-g8f044dffd16f.
+
+Package: linux-image-5.10.66-24-rockchip-gcb09ad15af75
+Source: linux-5.10.66-24-rockchip-gcb09ad15af75
+Version: 5.10.66-24-rockchip
+Architecture: arm64
+Maintainer: stephen <stephen@lara.vamrs.com>
+Installed-Size: 93757
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.66-24-rockchip-gcb09ad15af75/linux-image-5.10.66-24-rockchip-gcb09ad15af75_5.10.66-24-rockchip_arm64.deb
+Size: 20666288
+SHA256: f3d764f244091bc29e61841be8225413684224a2b74bcc3832a25e66b9f25420
+SHA1: 883eb7c8ad15df804dff927938bc03beaccccaac
+MD5sum: 1ba14e6deaca3a115f0be472695a3b67
+Description: Linux kernel, version 5.10.66-24-rockchip-gcb09ad15af75
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.66-24-rockchip-gcb09ad15af75.
 
