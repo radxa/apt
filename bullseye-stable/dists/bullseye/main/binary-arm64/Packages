@@ -1430,7 +1430,7 @@ Description: debug symbols for libmali-valhall-g610-g6p0-x11
 Build-Ids: 2a8a58b041c02d5a4644e3b19647363726517f4f 551c595f6b196475e694ccc674ae7aceee7f5be3 560631620417c8f5e3b3544f4153c04d8c482b00 b1e8f80f31d6ce3f5c7f8d7c0a3470da143a0638 ce4b4f5027b9d2d770650dfbf0f5dc83ec8812f0 f73ef8d3a3bdeeb80897e4b33024f138fe48da32
 
 Package: libmraa
-Version: 1.7
+Version: 1.8
 Maintainer: Radxa <dev@radxa.com>
 Architecture: arm64
 Component: main
@@ -1442,11 +1442,11 @@ Depends: libc6, libjson-c5, libjson-c-dev, libgtest-dev, libgcc1, libstdc++6,
     python, python2.7, libpython2.7, python3.9, libpython3.9
 Priority: optional
 Section: libs
-Filename: pool/main/libm/libmraa/libmraa_1.7_arm64.deb
-Size: 202564
-SHA256: 96d5c751c8d691f4435ce2f7c59371cd39f284d1e38e7541d903c8808a456a1b
-SHA1: 0f992962cb62f490f98e023c7b75afb5fdd138bb
-MD5sum: c3c0607fde2708497201b2a4596510fa
+Filename: pool/main/libm/libmraa/libmraa_1.8_arm64.deb
+Size: 202616
+SHA256: 3fa786858c68d50e9f74a7e0d5ab705a46ac9e09438278c5deb62c4019fed44b
+SHA1: a6b5fcd7e2612da9536d861322d9e8c4e2e36897
+MD5sum: 582c625b3a362b57ce95cb7334bcf8c2
 Description: Provide mraa interface package for C/C++, python and Java.
 
 Package: librga-dev

@@ -990,23 +990,23 @@ Description: Userspace interface to kernel DRM services -- runtime
  This package provides the runtime environment for libdrm.
 
 Package: libmraa
-Version: 1.6
+Version: 1.8
 Maintainer: Radxa <dev@radxa.com>
 Architecture: arm64
 Component: main
 Multi-Arch: foreign
-Replaces: libmraa-rockpis, libmraa-rockpi4
-Conflicts: libmraa-rockpis, libmraa-rockpi4
-Provides: libmraa-rockpis, libmraa-rockpi4
-Depends: libc6, libjson-c3, libjson-c-dev, libgtest-dev, libgcc1, libstdc++6,
+Replaces: libmraa-rockpis, libmraa-rockpi4, libmraa-rockpie
+Conflicts: libmraa-rockpis, libmraa-rockpi4, libmraa-rockpie
+Provides: libmraa-rockpis, libmraa-rockpi4, libmraa-rockpie
+Depends: libc6, libjson-c3, libjson-c-dev, libgtest-dev, libgcc1, libstdc++6, python,
     python2.7, libpython2.7, python3.7, libpython3.7
 Priority: optional
 Section: libs
-Filename: pool/main/libm/libmraa/libmraa_1.6_arm64.deb
-Size: 200692
-SHA256: a05ed5e41eb05ef04d58ded6014f468e625e4702f35bcf2a8b08319ab36a58a4
-SHA1: 0d331af81506b9e2163bbb0e7463a9a7afb762de
-MD5sum: 5b4d3db9f4f32a8898a541b3bd6a88ae
+Filename: pool/main/libm/libmraa/libmraa_1.8_arm64.deb
+Size: 200000
+SHA256: 2d114f51345743323a5a78c2f929169ebc53ce1383bfb45b794b457ad3ee94d5
+SHA1: 6f9c6fd9673f6c7c07f87e95b99da2b7262e3ef8
+MD5sum: e05dcbfd7270d131b4c191aaa9e16752
 Description: Provide mraa interface package for C/C++, python and Java.
 
 Package: libpostproc-dev
