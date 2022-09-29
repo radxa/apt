@@ -869,6 +869,56 @@ MD5sum: 0883e8f7e53e9669471d8c2c7b3f1519
 Description: debug symbols for ir-keytable
 Build-Ids: 8fe3d0251892ffd58bd482bedde7b2d166b447a3
 
+Package: libdrm-cursor
+Version: 1.3.0-1
+Architecture: arm64
+Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
+Installed-Size: 70
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.71), libegl1, libgbm1 (>= 17.3.0~rc1), libgles2
+Homepage: https://github.com/JeffyCN/libdrm-cursor
+Priority: optional
+Section: libs
+Filename: pool/main/libd/libdrm-cursor/libdrm-cursor_1.3.0-1_arm64.deb
+Size: 18120
+SHA256: a44af3acd79012cabc7b6c5f3220ffdcaf5911dea5ca3c00f5722216e7f6ed31
+SHA1: 05d3eb3a3dabb4bd563a65b6f1b7f4d0e5c60819
+MD5sum: 075e735f834b838b77711509a5801a34
+Description: A hook of drm cursor APIs to fake cursor plane.
+
+Package: libdrm-cursor-dbgsym
+Source: libdrm-cursor
+Version: 1.3.0-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
+Installed-Size: 66
+Depends: libdrm-cursor (= 1.3.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/libd/libdrm-cursor/libdrm-cursor-dbgsym_1.3.0-1_arm64.deb
+Size: 48280
+SHA256: 827602144df8ea2a04958fe8de7920744b49f120a980844d02dd9d27ec8d46e0
+SHA1: a0d832151cce6192715214dd04643470ba77d68f
+MD5sum: f4c1d3aa70993f050f15cbe072f70d24
+Description: debug symbols for libdrm-cursor
+Build-Ids: b317bc22be9af8f74bfd760436cc6293bff19e77
+
+Package: libdrm-cursor-dev
+Source: libdrm-cursor
+Version: 1.3.0-1
+Architecture: arm64
+Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
+Installed-Size: 14
+Homepage: https://github.com/JeffyCN/libdrm-cursor
+Priority: optional
+Section: libdevel
+Filename: pool/main/libd/libdrm-cursor/libdrm-cursor-dev_1.3.0-1_arm64.deb
+Size: 2876
+SHA256: a397ef8c3fe961d8047d6795637df9b3367a9d3d06edbb232066e4a7cd073114
+SHA1: 74ba74de2a40cb6806aed8305d344beda54e93c7
+MD5sum: 3f2f6c8ec08328282a2f4ebf592e1444
+Description: A hook of drm cursor APIs to fake cursor plane.
+
 Package: libdvbv5-0
 Source: v4l-utils
 Version: 1.20.0-2
@@ -1200,6 +1250,43 @@ Description: GStreamer core development files
  .
  This package contains development files for the core library and
  elements.
+
+Package: libkms1
+Source: libdrm
+Version: 2.4.104-1
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 69
+Depends: libdrm2 (>= 2.4.104-1), libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Priority: optional
+Section: libs
+Filename: pool/main/libd/libdrm/libkms1_2.4.104-1_arm64.deb
+Size: 20216
+SHA256: a71fd87292c1b1bcce9a3996ed1183d4bc1a3a8b8a7a9f9fcf6ade329b377338
+SHA1: 7e5a56caaf4ac599767de1614cbaedb3a3403750
+MD5sum: 2c78f3d577a7d324dadba9bf35dd0e05
+Description: Userspace interface to kernel DRM KMS services
+
+Package: libkms1-dbgsym
+Source: libdrm
+Version: 2.4.104-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 50
+Depends: libkms1 (= 2.4.104-1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libd/libdrm/libkms1-dbgsym_2.4.104-1_arm64.deb
+Size: 23708
+SHA256: 70d83e18d7dcba51bafed0cb7b00d85973fce442d89403b947f2265b4cfcaae7
+SHA1: 7b652cf091bacbeeb030e1f87e48387939c011cd
+MD5sum: cafeb1805e6e5c23d8eec2688ee4207a
+Description: debug symbols for libkms1
+Build-Ids: 63cd370c120fe862ed8114ed77a88b264702e2d1 9bda9c3f658e887fd19659652ace4bf7f4bef855
 
 Package: libmali-bifrost-g31-g2p0-x11
 Source: libmali
