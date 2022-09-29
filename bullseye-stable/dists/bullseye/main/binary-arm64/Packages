@@ -2226,6 +2226,49 @@ MD5sum: f00a7865189c50fe73ce0decb89d455e
 Description: NetworkManager patch
 Multi-Arch: foreign
 
+Package: openbox
+Version: 3.6.1-9+deb11u1
+Architecture: arm64
+Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
+Installed-Size: 1266
+Depends: libc6 (>= 2.17), libglib2.0-0 (>= 2.35.9), libice6 (>= 1:1.0.0), libobrender32v5 (>= 3.6.0), libobt2v5 (>= 3.6.0), libsm6, libstartup-notification0 (>= 0.7), libx11-6, libxau6 (>= 1:1.0.9), libxcursor1 (>> 1.1.2), libxext6, libxi6 (>= 2:1.2.99.4), libxinerama1, libxrandr2, python3
+Recommends: obconf | obconf-qt, obsession, scrot
+Suggests: fonts-dejavu, libxml2-dev, tint2, openbox-gnome-session (= 3.6.1-9+deb11u1), openbox-kde-session (= 3.6.1-9+deb11u1)
+Breaks: openbox-theme-breeze (<< 1.0)
+Provides: x-session-manager, x-window-manager
+Homepage: http://www.openbox.org
+Priority: optional
+Section: x11
+Filename: pool/main/o/openbox/openbox_3.6.1-9+deb11u1_arm64.deb
+Size: 302752
+SHA256: bebe8a38b53a1ee00141c05b102ff1cc28e092d200265adcd8fbda7cdcb7e538
+SHA1: d253e403b20cede1591aaa62e2a65cafd9f0ea4e
+MD5sum: 63df1f5992515360cd2eda94029ff76a
+Description: standards-compliant, fast, light-weight and extensible window manager
+ Openbox works with your applications, and makes your desktop easier to manage.
+ This is because the approach to its development was the opposite of what seems
+ to be the general case for window managers. Openbox was written first to
+ comply with standards and to work properly. Only when that was in place did
+ the team turn to the visual interface.
+ .
+ Openbox is fully functional as a stand-alone working environment, or can be
+ used as a drop-in replacement for the default window manager in the GNOME or
+ KDE desktop environments.
+ .
+ Openbox 3 is a completely new breed of window manager. It is not based upon
+ any existing code base, although the visual appearance has been based upon
+ that of Blackbox. Openbox 2 was based on the Blackbox 0.65.0 codebase.
+ .
+ Some of the things to look for in Openbox are:
+ .
+  * ICCCM and EWMH compliance!
+  * Very fast
+  * Chainable key bindings
+  * Customizable mouse actions
+  * Window resistance
+  * Multi-head Xinerama support!
+  * Pipe menus
+
 Package: qualcomm-wifibt-firmware
 Version: 0.1-1
 License: GPL-2+
