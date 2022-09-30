@@ -1223,17 +1223,17 @@ Description: Radxa Installer
 Multi-Arch: foreign
 
 Package: radxa-test
-Version: 0.1-1
+Version: 0.2-1
 Maintainer: Radxa <dev@radxa.com>
 Architecture: arm64
 Component: main
 Priority: optional
 Section: utils
-Filename: pool/main/r/radxa-test/radxa-test_0.1-1_arm64.deb
-Size: 420174
-SHA256: debd8696ee9d90fd61ac4ed8f5341a6e907a6a046fa5474c431f643e7512b04e
-SHA1: 965f7d50997010920ae53322ecbbd2d48c50c360
-MD5sum: b435a60b3c088632a66ac0ff2b0351c8
+Filename: pool/main/r/radxa-test/radxa-test_0.2-1_arm64.deb
+Size: 421832
+SHA256: f28b426732ec3abc6efa793a2ca6b17258a7c2b1d5ba2e239f588d0c77146df0
+SHA1: 4c24def8d0196acf863e0df9007e0484ceb3c03e
+MD5sum: f8af22a3c7770029085c5f740f35b7dc
 Description: General Test tools and demo.
 
 Package: realtek-bt-firmware
