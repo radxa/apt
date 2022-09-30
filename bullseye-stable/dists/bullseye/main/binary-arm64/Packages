@@ -2362,6 +2362,20 @@ MD5sum: 11bff3dedce35942126e1770aa165298
 Description: Radxa Installer
 Multi-Arch: foreign
 
+Package: radxa-test
+Version: 0.1-1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: arm64
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/r/radxa-test/radxa-test_0.1-1_arm64.deb
+Size: 420174
+SHA256: debd8696ee9d90fd61ac4ed8f5341a6e907a6a046fa5474c431f643e7512b04e
+SHA1: 965f7d50997010920ae53322ecbbd2d48c50c360
+MD5sum: b435a60b3c088632a66ac0ff2b0351c8
+Description: General Test tools and demo.
+
 Package: realtek-wifibt-firmware
 Version: 0.5
 License: GPL-2+
