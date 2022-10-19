@@ -2363,18 +2363,18 @@ Description: Radxa Installer
 Multi-Arch: foreign
 
 Package: radxa-test
-Version: 0.2-1
+Version: 0.3-1
 Maintainer: Radxa <dev@radxa.com>
 Architecture: arm64
 Component: main
 Priority: optional
 Section: utils
-Filename: pool/main/r/radxa-test/radxa-test_0.2-1_arm64.deb
-Size: 421832
-SHA256: f28b426732ec3abc6efa793a2ca6b17258a7c2b1d5ba2e239f588d0c77146df0
-SHA1: 4c24def8d0196acf863e0df9007e0484ceb3c03e
-MD5sum: f8af22a3c7770029085c5f740f35b7dc
-Description: General Test tools and demo.
+Filename: pool/main/r/radxa-test/radxa-test_0.3-1_arm64.deb
+Size: 421576
+SHA256: 378612e3e9c2b0f743e0a8588d3c7e95fc7a7bc4e507c4428adbf75efc987707
+SHA1: db64753102d0f366367700db51161775a483691d
+MD5sum: 538e0abafbff24ef3563b0cd51d44bab
+Description: Radxa board test tools and demo
 
 Package: realtek-wifibt-firmware
 Version: 0.5
