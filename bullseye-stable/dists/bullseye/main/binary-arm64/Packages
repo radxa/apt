@@ -1884,21 +1884,21 @@ Description: debug symbols for libv4lconvert0
 Build-Ids: 27fd0a8794e1ce0f06fb5bb0b5bc0939ef902a12 5592d9730bc20cdcb4ad547b46b9bd4ed124d00a 5681b7ffd314ed91f6797a683a71b22356b3a27c
 
 Package: linux-4.19-rock-3-latest
-Version: 4.19.193-56-rockchip
+Version: 4.19.193-58-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: arm64
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-4.19.193-56-rockchip-gf62b47f70096, linux-headers-4.19.193-56-rockchip-gf62b47f70096
+Depends: linux-image-4.19.193-58-rockchip-gbac1feba87f0, linux-headers-4.19.193-58-rockchip-gbac1feba87f0
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-4.19-rock-3-latest/linux-4.19-rock-3-latest_4.19.193-56-rockchip_arm64.deb
+Filename: pool/main/l/linux-4.19-rock-3-latest/linux-4.19-rock-3-latest_4.19.193-58-rockchip_arm64.deb
 Size: 1148
-SHA256: f712684733e54a06c374b2dc4e4d9b91d11a00360f9b05fa48c0b886ae21fa39
-SHA1: 1faf1409d5b38c29c2b3e3e9d4254ec3b8b9bbc3
-MD5sum: c026b693dd8335c42bd9a7913d8fb499
+SHA256: 67f13767eda0b18625ac6085989598bb53eaaea92dffa7f39d49d9f0b8f2b3fa
+SHA1: c8332e4633ae6522b3b6de79aae822924528d91b
+MD5sum: 0b53d45919b02807c7f4b1b2d67bc001
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 Replaces: linux-4.19-rock-3-latest
@@ -1928,21 +1928,21 @@ Conflicts: linux-5.10-radxa-zero-latest
 Provides: linux-5.10-radxa-zero-latest
 
 Package: linux-5.10-rock-5-latest
-Version: 5.10.66-24-rockchip
+Version: 5.10.66-26-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: arm64
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-5.10.66-24-rockchip-gcb09ad15af75, linux-headers-5.10.66-24-rockchip-gcb09ad15af75
+Depends: linux-image-5.10.66-26-rockchip-gcf277d5eb46e, linux-headers-5.10.66-26-rockchip-gcf277d5eb46e
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-5.10-rock-5-latest/linux-5.10-rock-5-latest_5.10.66-24-rockchip_arm64.deb
-Size: 1148
-SHA256: c7b00eb9d2f48c749daa6ac1142c5a4a5f40e6cd1b896946bd6460cfafbac3f5
-SHA1: 6ef070dd01ffce0d7d509db10862ec70274f194f
-MD5sum: bb7bdfcdeab6a9b564b556f4644c96d4
+Filename: pool/main/l/linux-5.10-rock-5-latest/linux-5.10-rock-5-latest_5.10.66-26-rockchip_arm64.deb
+Size: 1146
+SHA256: 33388e704a2d2656378f2bcfaf5d8ef367d60eabbf9f8b243a7dc9b8be72c90c
+SHA1: 90d4156401b9019d3caf938a6d2f9efedc1e8edb
+MD5sum: 9e08c752d29c175c8e5ada32f8778193
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 Replaces: linux-5.10-rock-5-latest
@@ -1984,6 +1984,25 @@ SHA1: a432a5352587c96cbd086146bbde5161c9ad8fa2
 MD5sum: 0ceb9023c041fbda40a5cff82f37b065
 Description: Linux kernel headers for 4.19.193-56-rockchip-gf62b47f70096 on arm64
  This package provides kernel header files for 4.19.193-56-rockchip-gf62b47f70096 on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.19.193-58-rockchip-gbac1feba87f0
+Source: linux-4.19.193-58-rockchip-gbac1feba87f0
+Version: 4.19.193-58-rockchip
+Architecture: arm64
+Maintainer: stephen <stephen@lara.vamrs.com>
+Installed-Size: 74525
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.19.193-58-rockchip-gbac1feba87f0/linux-headers-4.19.193-58-rockchip-gbac1feba87f0_4.19.193-58-rockchip_arm64.deb
+Size: 11234692
+SHA256: 38104fb4f88f718832b5fd9b6146d7dab31048d16cf409ec75825b88212792c8
+SHA1: b236f436adf0c355ea09337b430b9f5f5ff6d4d4
+MD5sum: ae14ef5f3f93fbc8b9832dca7ff54120
+Description: Linux kernel headers for 4.19.193-58-rockchip-gbac1feba87f0 on arm64
+ This package provides kernel header files for 4.19.193-58-rockchip-gbac1feba87f0 on arm64
  .
  This is useful for people who need to build external modules
 
@@ -2063,6 +2082,25 @@ Description: Linux kernel headers for 5.10.66-24-rockchip-gcb09ad15af75 on arm64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-5.10.66-26-rockchip-gcf277d5eb46e
+Source: linux-5.10.66-26-rockchip-gcf277d5eb46e
+Version: 5.10.66-26-rockchip
+Architecture: arm64
+Maintainer: stephen <stephen@lara.vamrs.com>
+Installed-Size: 47182
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.66-26-rockchip-gcf277d5eb46e/linux-headers-5.10.66-26-rockchip-gcf277d5eb46e_5.10.66-26-rockchip_arm64.deb
+Size: 7721712
+SHA256: a18ff64e39e3d2ce1454dcac0692f8ca9aecaba1d5d9787f8ce0c65097283943
+SHA1: 3f7efed0b27837bbc3cf1b486cbb381c153522f4
+MD5sum: e660a6f127f5cf67fa026c034ed56d27
+Description: Linux kernel headers for 5.10.66-26-rockchip-gcf277d5eb46e on arm64
+ This package provides kernel header files for 5.10.66-26-rockchip-gcf277d5eb46e on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-headers-5.10.69-13-amlogic-g104342c59952
 Source: linux-5.10.69-13-amlogic-g104342c59952
 Version: 5.10.69-13-amlogic
@@ -2117,6 +2155,24 @@ MD5sum: 5cfb175ada0ddb4da27c94ae55ef7e60
 Description: Linux kernel, version 4.19.193-56-rockchip-gf62b47f70096
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.19.193-56-rockchip-gf62b47f70096.
+
+Package: linux-image-4.19.193-58-rockchip-gbac1feba87f0
+Source: linux-4.19.193-58-rockchip-gbac1feba87f0
+Version: 4.19.193-58-rockchip
+Architecture: arm64
+Maintainer: stephen <stephen@lara.vamrs.com>
+Installed-Size: 86795
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.19.193-58-rockchip-gbac1feba87f0/linux-image-4.19.193-58-rockchip-gbac1feba87f0_4.19.193-58-rockchip_arm64.deb
+Size: 19375872
+SHA256: 5be9708fe0ee905ec6dbca4e7a52bd376f468e1d40df72e5cb84e375f90e7518
+SHA1: c8e322706777e2d0effba6ad5d2c51d7bded8b1b
+MD5sum: b408488d4055ff8ef730c41fcb5469d9
+Description: Linux kernel, version 4.19.193-58-rockchip-gbac1feba87f0
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.19.193-58-rockchip-gbac1feba87f0.
 
 Package: linux-image-5.10.66-20-rockchip-g0cdf37b755fe
 Source: linux-5.10.66-20-rockchip-g0cdf37b755fe
@@ -2189,6 +2245,24 @@ MD5sum: 1ba14e6deaca3a115f0be472695a3b67
 Description: Linux kernel, version 5.10.66-24-rockchip-gcb09ad15af75
  This package contains the Linux kernel, modules and corresponding other
  files, version: 5.10.66-24-rockchip-gcb09ad15af75.
+
+Package: linux-image-5.10.66-26-rockchip-gcf277d5eb46e
+Source: linux-5.10.66-26-rockchip-gcf277d5eb46e
+Version: 5.10.66-26-rockchip
+Architecture: arm64
+Maintainer: stephen <stephen@lara.vamrs.com>
+Installed-Size: 93784
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.66-26-rockchip-gcf277d5eb46e/linux-image-5.10.66-26-rockchip-gcf277d5eb46e_5.10.66-26-rockchip_arm64.deb
+Size: 20680836
+SHA256: f5ece5cb2375267e77f7e8bd7164da6e96fdc3ca10a817d19f15c5e926fc8032
+SHA1: 9dc2159f63120e2a936c998fd463c1b0608bffe8
+MD5sum: 45a2f5f1cb5d1eb6d50bb4359af081b8
+Description: Linux kernel, version 5.10.66-26-rockchip-gcf277d5eb46e
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.66-26-rockchip-gcf277d5eb46e.
 
 Package: linux-image-5.10.69-13-amlogic-g104342c59952
 Source: linux-5.10.69-13-amlogic-g104342c59952
