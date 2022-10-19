@@ -2426,13 +2426,13 @@ Multi-Arch: foreign
 Depends: systemd
 Priority: extra
 Section: libs
-Filename: pool/main/r/rkisp-engine/rkisp-engine_2.2.0-2_arm64.deb
-Size: 5407784
-SHA256: 635131e47172b2b73c4005571b2df948a3d381fab95a7068bd3febe080b9e68d
-SHA1: c120d5905d0660d0b5ca7896be15777296beb3e9
-MD5sum: 7efdbb6551d77ef9d379151559ccd5ac
+Filename: pool/main/r/rkisp-engine/rkisp-engine_2.2.0-3_arm64.deb
+Size: 1285736
+SHA256: f3b374f7562821682fe7fcdbcc2283db2fc3da654c0fc8f24533732287397197
+SHA1: b7e847e0d7a58866ec694c8d5ff1702951d513f0
+MD5sum: cc8dd5e229a25ba6c86a5ad515f9b0dd
 Description: 3A libraries match Rockchip rkisp1 driver version 0.1.5.
-Version: 2.2.0-2
+Version: 2.2.0-3
 
 Package: rockchip-mpp-demos
 Source: mpp
