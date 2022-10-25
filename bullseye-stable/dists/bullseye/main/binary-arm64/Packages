@@ -2508,6 +2508,23 @@ MD5sum: cc8dd5e229a25ba6c86a5ad515f9b0dd
 Description: 3A libraries match Rockchip rkisp1 driver version 0.1.5.
 Version: 2.2.0-3
 
+Package: rockchip-adbd
+Version: 0.6
+Maintainer: Radxa <dev@radxa.com>
+Architecture: arm64
+Component: main
+Replaces: rockchip-adb
+Conflicts: rockchip-adb
+Provides: rockchip-adbd
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockchip-adbd/rockchip-adbd_0.6_arm64.deb
+Size: 596056
+SHA256: 65ae43617749e3f916902de907ca8f836d6935c6708b3e1df59fbcc2062c12b5
+SHA1: 1ba50711c7e7da49698b1d3f4c4cd9ca15bcea3b
+MD5sum: 72c47a8268af985eded32a87d7a1fcc2
+Description: rockchip-adbd package.
+
 Package: rockchip-mpp-demos
 Source: mpp
 Version: 1.5.0-1
