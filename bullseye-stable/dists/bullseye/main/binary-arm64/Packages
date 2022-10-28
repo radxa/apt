@@ -2654,21 +2654,21 @@ Description: debug symbols for rockchip-mpp-demos
 Build-Ids: 1d92066ebb803d1a285f610d2bd04cb7d610c2fb 45ae9079bfae27d7fce12ff0b4da353f9278df8e 4d535934e94b3962067cfdf483c179b51d223afe 51e44881fc77add77519576eda887a1730090906 ad337239c6db4fed4b0aa66ee8800d7d24aff5f7 bfceaf0b08750a189992287fc1e2dc204a7c0e7c cccf25c963e631a5eeb48919e8e0c5beacf7d21b ef506eb87d7462fafd134295db3ba5c0e1d4be1c
 
 Package: rockchip-overlay
-Version: 4.0
+Version: 4.1
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
-Installed-Size: 9
+Installed-Size: 10
 Depends: linux-base, file, bc, sed, coreutils
 Homepage: http://example.com/no-uri-given
 Priority: optional
 Section: utils
-Filename: pool/main/r/rockchip-overlay/rockchip-overlay_4.0_all.deb
-Size: 6702
-SHA256: 457d9fb147ae9387019ed9c5a2df713b5f162b25065d9057cda87f99f6fcd9e6
-SHA1: d99c58659cad97a826b07567fec20670901522fc
-MD5sum: 5470f6208191ebd3aaa134f4c991f766
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_4.1_all.deb
+Size: 7164
+SHA256: a0438d6d11cb139f178fda966469718e42a4ab9dabb52a99dea35392f0fa7ed1
+SHA1: bcac04a441b3f63ca4b13af7addc08c3c14c0c34
+MD5sum: d5172e413c09e5e6ef2637384dd19c34
 Description: General rockchip overlay package
 Multi-Arch: foreign
 

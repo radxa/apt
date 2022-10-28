@@ -238,21 +238,21 @@ Description: Resize root filesystem to fit available disk space
 Multi-Arch: foreign
 
 Package: rockchip-overlay
-Version: 4.0
+Version: 4.1
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
-Installed-Size: 9
+Installed-Size: 10
 Depends: linux-base, file, bc, sed, coreutils
 Homepage: http://example.com/no-uri-given
 Priority: optional
 Section: utils
-Filename: pool/main/r/rockchip-overlay/rockchip-overlay_4.0_all.deb
-Size: 6702
-SHA256: 457d9fb147ae9387019ed9c5a2df713b5f162b25065d9057cda87f99f6fcd9e6
-SHA1: d99c58659cad97a826b07567fec20670901522fc
-MD5sum: 5470f6208191ebd3aaa134f4c991f766
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_4.1_all.deb
+Size: 7164
+SHA256: a0438d6d11cb139f178fda966469718e42a4ab9dabb52a99dea35392f0fa7ed1
+SHA1: bcac04a441b3f63ca4b13af7addc08c3c14c0c34
+MD5sum: d5172e413c09e5e6ef2637384dd19c34
 Description: General rockchip overlay package
 Multi-Arch: foreign
 

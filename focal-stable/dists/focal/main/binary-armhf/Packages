@@ -301,21 +301,21 @@ Description: resize-assistant package.
  to fit available disk space.
 
 Package: rockchip-overlay
-Version: 3.9
+Version: 4.1
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
-Installed-Size: 7
+Installed-Size: 10
 Depends: linux-base, file, bc, sed, coreutils
 Homepage: http://example.com/no-uri-given
 Priority: optional
 Section: utils
-Filename: pool/main/r/rockchip-overlay/rockchip-overlay_3.9_all.deb
-Size: 5670
-SHA256: 199139d2458bd88c8eaa625a5c56e4fa71bb778435312cb1814d7257b9819d6a
-SHA1: 4c71674907073107e4862938d9944804e9953a9f
-MD5sum: 03c33e2f0dd3cef3a5061677e3811823
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_4.1_all.deb
+Size: 7164
+SHA256: a0438d6d11cb139f178fda966469718e42a4ab9dabb52a99dea35392f0fa7ed1
+SHA1: bcac04a441b3f63ca4b13af7addc08c3c14c0c34
+MD5sum: d5172e413c09e5e6ef2637384dd19c34
 Description: General rockchip overlay package
 Multi-Arch: foreign
 
