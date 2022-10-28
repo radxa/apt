@@ -2100,63 +2100,6 @@ Description: Linux kernel headers for 5.10.66-21-rockchip-gbbe5dbfb385d on arm64
  .
  This is useful for people who need to build external modules
 
-Package: linux-headers-5.10.66-22-rockchip-g882edb720d40
-Source: linux-5.10.66-22-rockchip-g882edb720d40
-Version: 5.10.66-22-rockchip
-Architecture: arm64
-Maintainer: stephen <stephen@lara.vamrs.com>
-Installed-Size: 47148
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-5.10.66-22-rockchip-g882edb720d40/linux-headers-5.10.66-22-rockchip-g882edb720d40_5.10.66-22-rockchip_arm64.deb
-Size: 7717224
-SHA256: 7cf8bc8aae5838f20ea7a97f09085c6620fba7a9fa7720c79c7b941ff29e79ab
-SHA1: 282d22e3141a63677de60999edc2e80133faeb7b
-MD5sum: e18a4c3f64bdc299f932a65ebf0c76c3
-Description: Linux kernel headers for 5.10.66-22-rockchip-g882edb720d40 on arm64
- This package provides kernel header files for 5.10.66-22-rockchip-g882edb720d40 on arm64
- .
- This is useful for people who need to build external modules
-
-Package: linux-headers-5.10.66-24-rockchip-gcb09ad15af75
-Source: linux-5.10.66-24-rockchip-gcb09ad15af75
-Version: 5.10.66-24-rockchip
-Architecture: arm64
-Maintainer: stephen <stephen@lara.vamrs.com>
-Installed-Size: 47178
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-5.10.66-24-rockchip-gcb09ad15af75/linux-headers-5.10.66-24-rockchip-gcb09ad15af75_5.10.66-24-rockchip_arm64.deb
-Size: 7721608
-SHA256: 13affce16b12686460cd75cb26de66f8d7d71585922d5b2740b0f31baf072b6c
-SHA1: 9b364003a1d38413d970804d7eb7130aa775b59e
-MD5sum: 09ae722a997de0f9483f97af95b456a9
-Description: Linux kernel headers for 5.10.66-24-rockchip-gcb09ad15af75 on arm64
- This package provides kernel header files for 5.10.66-24-rockchip-gcb09ad15af75 on arm64
- .
- This is useful for people who need to build external modules
-
-Package: linux-headers-5.10.66-26-rockchip-gcf277d5eb46e
-Source: linux-5.10.66-26-rockchip-gcf277d5eb46e
-Version: 5.10.66-26-rockchip
-Architecture: arm64
-Maintainer: stephen <stephen@lara.vamrs.com>
-Installed-Size: 47182
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-5.10.66-26-rockchip-gcf277d5eb46e/linux-headers-5.10.66-26-rockchip-gcf277d5eb46e_5.10.66-26-rockchip_arm64.deb
-Size: 7721712
-SHA256: a18ff64e39e3d2ce1454dcac0692f8ca9aecaba1d5d9787f8ce0c65097283943
-SHA1: 3f7efed0b27837bbc3cf1b486cbb381c153522f4
-MD5sum: e660a6f127f5cf67fa026c034ed56d27
-Description: Linux kernel headers for 5.10.66-26-rockchip-gcf277d5eb46e on arm64
- This package provides kernel header files for 5.10.66-26-rockchip-gcf277d5eb46e on arm64
- .
- This is useful for people who need to build external modules
-
 Package: linux-headers-5.10.66-27-rockchip-gea60d388902d
 Source: linux-5.10.66-27-rockchip-gea60d388902d
 Version: 5.10.66-27-rockchip
@@ -2284,60 +2227,6 @@ MD5sum: 6cab65f3165db4e46c21d9cbb48f2fde
 Description: Linux kernel, version 5.10.66-21-rockchip-gbbe5dbfb385d
  This package contains the Linux kernel, modules and corresponding other
  files, version: 5.10.66-21-rockchip-gbbe5dbfb385d.
-
-Package: linux-image-5.10.66-22-rockchip-g882edb720d40
-Source: linux-5.10.66-22-rockchip-g882edb720d40
-Version: 5.10.66-22-rockchip
-Architecture: arm64
-Maintainer: stephen <stephen@lara.vamrs.com>
-Installed-Size: 92496
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-5.10.66-22-rockchip-g882edb720d40/linux-image-5.10.66-22-rockchip-g882edb720d40_5.10.66-22-rockchip_arm64.deb
-Size: 20442972
-SHA256: fb911518c02e1a63878d05e1fb9a189a1eb8def4b5cd4f365729869cd9a64d10
-SHA1: 0f7f099ddffd4fba7db9bceab0598ba60c11b090
-MD5sum: 0d882fe7bf815bae8ca2f2d350d3e5a8
-Description: Linux kernel, version 5.10.66-22-rockchip-g882edb720d40
- This package contains the Linux kernel, modules and corresponding other
- files, version: 5.10.66-22-rockchip-g882edb720d40.
-
-Package: linux-image-5.10.66-24-rockchip-gcb09ad15af75
-Source: linux-5.10.66-24-rockchip-gcb09ad15af75
-Version: 5.10.66-24-rockchip
-Architecture: arm64
-Maintainer: stephen <stephen@lara.vamrs.com>
-Installed-Size: 93757
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-5.10.66-24-rockchip-gcb09ad15af75/linux-image-5.10.66-24-rockchip-gcb09ad15af75_5.10.66-24-rockchip_arm64.deb
-Size: 20666288
-SHA256: f3d764f244091bc29e61841be8225413684224a2b74bcc3832a25e66b9f25420
-SHA1: 883eb7c8ad15df804dff927938bc03beaccccaac
-MD5sum: 1ba14e6deaca3a115f0be472695a3b67
-Description: Linux kernel, version 5.10.66-24-rockchip-gcb09ad15af75
- This package contains the Linux kernel, modules and corresponding other
- files, version: 5.10.66-24-rockchip-gcb09ad15af75.
-
-Package: linux-image-5.10.66-26-rockchip-gcf277d5eb46e
-Source: linux-5.10.66-26-rockchip-gcf277d5eb46e
-Version: 5.10.66-26-rockchip
-Architecture: arm64
-Maintainer: stephen <stephen@lara.vamrs.com>
-Installed-Size: 93784
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-5.10.66-26-rockchip-gcf277d5eb46e/linux-image-5.10.66-26-rockchip-gcf277d5eb46e_5.10.66-26-rockchip_arm64.deb
-Size: 20680836
-SHA256: f5ece5cb2375267e77f7e8bd7164da6e96fdc3ca10a817d19f15c5e926fc8032
-SHA1: 9dc2159f63120e2a936c998fd463c1b0608bffe8
-MD5sum: 45a2f5f1cb5d1eb6d50bb4359af081b8
-Description: Linux kernel, version 5.10.66-26-rockchip-gcf277d5eb46e
- This package contains the Linux kernel, modules and corresponding other
- files, version: 5.10.66-26-rockchip-gcf277d5eb46e.
 
 Package: linux-image-5.10.66-27-rockchip-gea60d388902d
 Source: linux-5.10.66-27-rockchip-gea60d388902d
