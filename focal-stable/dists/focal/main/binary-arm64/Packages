@@ -580,21 +580,21 @@ Conflicts: linux-5.10-radxa-zero-latest
 Provides: linux-5.10-radxa-zero-latest
 
 Package: linux-5.10-rock-5-latest
-Version: 5.10.66-27-rockchip
+Version: 5.10.66-28-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: arm64
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-5.10.66-27-rockchip-gea60d388902d, linux-headers-5.10.66-27-rockchip-gea60d388902d
+Depends: linux-image-5.10.66-28-rockchip-gc428536281d6, linux-headers-5.10.66-28-rockchip-gc428536281d6
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-5.10-rock-5-latest/linux-5.10-rock-5-latest_5.10.66-27-rockchip_arm64.deb
-Size: 1146
-SHA256: dd80e4a43df35c73f44f6532dd7d688464610d3c52e5ddbcfce388b478fd31bc
-SHA1: 5f0367c27742049dd116efc773869c4fb7dc2b63
-MD5sum: 424af188d15e375f1edb78efd12b6189
+Filename: pool/main/l/linux-5.10-rock-5-latest/linux-5.10-rock-5-latest_5.10.66-28-rockchip_arm64.deb
+Size: 1144
+SHA256: c1d3bb46a3cae7a2d4234858a502b8256976c8779e1535923d0850d48c1b746b
+SHA1: ff3200b325df8e8883364e1a27243bef6993aaff
+MD5sum: 6205c76a4b4e639d8e3d064ea44f069c
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 Replaces: linux-5.10-rock-5-latest
@@ -806,6 +806,25 @@ Description: Linux kernel headers for 5.10.66-27-rockchip-gea60d388902d on arm64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-5.10.66-28-rockchip-gc428536281d6
+Source: linux-5.10.66-28-rockchip-gc428536281d6
+Version: 5.10.66-28-rockchip
+Architecture: arm64
+Maintainer: stephen <stephen@lara.vamrs.com>
+Installed-Size: 47254
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.66-28-rockchip-gc428536281d6/linux-headers-5.10.66-28-rockchip-gc428536281d6_5.10.66-28-rockchip_arm64.deb
+Size: 7728172
+SHA256: 4e834795ced2986725c84c9b1e0d6990c6d572cbbca0a0c3682eb5dd6ac78d93
+SHA1: 245ebf9bb2732eb10a5e3822fd0dcce2b41ad776
+MD5sum: a2690a28a23bcfe39ff96b4702c88713
+Description: Linux kernel headers for 5.10.66-28-rockchip-gc428536281d6 on arm64
+ This package provides kernel header files for 5.10.66-28-rockchip-gc428536281d6 on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-headers-5.10.69-13-amlogic-g104342c59952
 Source: linux-5.10.69-13-amlogic-g104342c59952
 Version: 5.10.69-13-amlogic
@@ -976,6 +995,24 @@ MD5sum: 2a98c40c3ebb98fc4d6b7ccd73f4ce54
 Description: Linux kernel, version 5.10.66-27-rockchip-gea60d388902d
  This package contains the Linux kernel, modules and corresponding other
  files, version: 5.10.66-27-rockchip-gea60d388902d.
+
+Package: linux-image-5.10.66-28-rockchip-gc428536281d6
+Source: linux-5.10.66-28-rockchip-gc428536281d6
+Version: 5.10.66-28-rockchip
+Architecture: arm64
+Maintainer: stephen <stephen@lara.vamrs.com>
+Installed-Size: 96294
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.66-28-rockchip-gc428536281d6/linux-image-5.10.66-28-rockchip-gc428536281d6_5.10.66-28-rockchip_arm64.deb
+Size: 21240580
+SHA256: fd7e329f8fb1c2bc2f47f575a97fa41cc063777068d41a1206d76a4bd40deea4
+SHA1: 0f00537426a375693f30d0be1e25d07338ccc5bd
+MD5sum: 1c051e931f0b8a7f628ed74de174db88
+Description: Linux kernel, version 5.10.66-28-rockchip-gc428536281d6
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.66-28-rockchip-gc428536281d6.
 
 Package: linux-image-5.10.69-13-amlogic-g104342c59952
 Source: linux-5.10.69-13-amlogic-g104342c59952
