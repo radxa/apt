@@ -1,0 +1,386 @@
+Package: 96boards-tools-common
+Source: 96boards-tools
+Version: 0.12
+Architecture: all
+Maintainer: Ricardo Salveti <ricardo.salveti@linaro.org>
+Installed-Size: 30
+Depends: gdisk, parted
+Homepage: https://github.com/96boards/96boards-tools
+Priority: optional
+Section: utils
+Filename: pool/main/9/96boards-tools/96boards-tools-common_0.12_all.deb
+Size: 5732
+SHA256: 9a2f5ff49898d361afd80e30ba0c944435d3dd8da006522325d005684d600866
+SHA1: c78ec0f06fdecad500606b822b8a355358a9acac
+MD5sum: c582c443006df60aa5dfc8fff5668aa7
+Description: common files used by 96boards
+ This package provides configuration and tools used to help
+ bringing a common user experience across different 96Boards.
+
+Package: amlogic-overlay
+Version: 0.2-1
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 1655
+Depends: linux-base, file, bc, sed, coreutils
+Homepage: https://github.com/radxa/debos-radxa
+Priority: optional
+Section: utils
+Filename: pool/main/a/amlogic-overlay/amlogic-overlay_0.2-1_all.deb
+Size: 1116376
+SHA256: 3e553d66cc24467aec59e9650153790ade021e874ea2c3cde0441a7f3c598812
+SHA1: 565272df241737eb8281fcf7c907ab29728d21e5
+MD5sum: d09146a88307e2a519c673bf1275fd55
+Description: General rockchip overlay package.
+Multi-Arch: foreign
+Replaces: amlogic-overlay
+Conflicts: amlogic-overlay
+Provides: amlogic-overlay
+
+Package: brcm-patchram-plus1
+Version: 0.2
+Maintainer: Radxa <dev@radxa.com>
+Architecture: armhf
+Component: main
+Replaces: brcm-patchram-plus1-32
+Conflicts: brcm-patchram-plus1-32
+Provides: brcm-patchram-plus1-32
+Priority: optional
+Section: utils
+Filename: pool/main/b/brcm-patchram-plus1/brcm-patchram-plus1_0.2_armhf.deb
+Size: 7240
+SHA256: fe98a9cdb99ce459174ebb6fb437349188bc2c0096714316107d37265c3bba15
+SHA1: 4dfa7f8815ced44be91514ea5a68c331b43347cb
+MD5sum: 1ba72f44f1f6c506c193b3246e8f6bca
+Description: Broadcom bluetooth patching tool
+
+Package: broadcom-wifibt-firmware
+Version: 2.6
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 12300
+Depends: rfkill, brcm-patchram-plus1
+Conflicts: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware, ap6275s-firmware
+Replaces: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware, ap6275s-firmware
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/b/broadcom-wifibt-firmware/broadcom-wifibt-firmware_2.6_all.deb
+Size: 8084760
+SHA256: 360861b2ba5476ce26cede9d253eff9327a8e66092b4b2d2eb051e4a3ba17cab
+SHA1: 282d22c3bd3afd6c00ebb4e26fb7b4c5ac7cb67c
+MD5sum: fdb531e35771ab8358dc0bd6e0ed574d
+Description: General Broadcom WiFi and Bluetooth chip firmware
+Multi-Arch: foreign
+
+Package: intel-wifibt-firmware
+Version: 0.2-1
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 3497
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/i/intel-wifibt-firmware/intel-wifibt-firmware_0.2-1_all.deb
+Size: 1499028
+SHA256: 71ff7b95b9429ff8cee783621ed7e46b41f7e3429bbc846602266498447bd38f
+SHA1: e033fe45e2e9e93c46b67814ea2b3e770b8ef322
+MD5sum: 58d569bf3a67473f3f5139708ca3715e
+Description: General Intel WiFi and Bluetooth chip firmware
+Multi-Arch: foreign
+
+Package: linux-4.4-rock-pi-4-latest
+Version: 4.4.154-116-rockchip
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.154-116-rockchip-g86a614bc15b3, linux-firmware-image-4.4.154-116-rockchip-g86a614bc15b3, linux-headers-4.4.154-116-rockchip-g86a614bc15b3
+Homepage: https://github.com/radxa/kernel
+Priority: optional
+Section: admin
+Filename: pool/main/l/linux-4.4-rock-pi-4-latest/linux-4.4-rock-pi-4-latest_4.4.154-116-rockchip_all.deb
+Size: 1160
+SHA256: 44f0f1b81154725253560c56f913896bb2df9fb034f7be70ae71959db5555399
+SHA1: 9910f45ec4b81ef1472716fa8b040bf97bf16873
+MD5sum: b3ce1772b82e04fd15befbc70e5dc14f
+Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
+Multi-Arch: foreign
+Replaces: linux-4.4-latest
+Conflicts: linux-4.4-latest
+Provides: linux-4.4-latest
+
+Package: linux-firmware-image-4.4.154-116-rockchip-g86a614bc15b3
+Source: linux-4.4.154-116-rockchip-g86a614bc15b3
+Version: 4.4.154-116-rockchip
+Architecture: all
+Maintainer: Anonymous <root@lara>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-116-rockchip-g86a614bc15b3/linux-firmware-image-4.4.154-116-rockchip-g86a614bc15b3_4.4.154-116-rockchip_all.deb
+Size: 186420
+SHA256: 8479c0322be5ed158e80f5d7db8a42a6c275d7aec24a09f80ef695c2bac1fdfe
+SHA1: 7a841754517c7ccf1c8dd6250176d55a5be63346
+MD5sum: 15a7c2315f04555c491ad28eb3d11bbd
+Description: Linux kernel firmware, version 4.4.154-116-rockchip-g86a614bc15b3
+ This package contains firmware from the Linux kernel, version 4.4.154-116-rockchip-g86a614bc15b3.
+
+Package: linux-headers-4.4.154-116-rockchip-g86a614bc15b3
+Source: linux-4.4.154-116-rockchip-g86a614bc15b3
+Version: 4.4.154-116-rockchip
+Architecture: all
+Maintainer: Anonymous <root@lara>
+Installed-Size: 70973
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-116-rockchip-g86a614bc15b3/linux-headers-4.4.154-116-rockchip-g86a614bc15b3_4.4.154-116-rockchip_all.deb
+Size: 10168664
+SHA256: ed6e62d200b2dda2d9e933234a3c02e76807888169cf8532ca44b8f4cb786aaa
+SHA1: 75a44263c2338405c1a95a2b4a98ee2669c7607c
+MD5sum: 970b1140ebd5a86c8200b12890d6a0a0
+Description: Linux kernel headers for 4.4.154-116-rockchip-g86a614bc15b3 on all
+ This package provides kernel header files for 4.4.154-116-rockchip-g86a614bc15b3 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-4.4.154-116-rockchip-g86a614bc15b3
+Source: linux-4.4.154-116-rockchip-g86a614bc15b3
+Version: 4.4.154-116-rockchip
+Architecture: all
+Maintainer: Anonymous <root@lara>
+Installed-Size: 79491
+Suggests: linux-firmware-image-4.4.154-116-rockchip-g86a614bc15b3
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-116-rockchip-g86a614bc15b3
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-116-rockchip-g86a614bc15b3/linux-image-4.4.154-116-rockchip-g86a614bc15b3_4.4.154-116-rockchip_all.deb
+Size: 15132620
+SHA256: 6599f278678bce9fd96d703e84684e78ceb0714545deef9f7b74f5700836f230
+SHA1: b8e5b2ae00c8cb9291ac9ae08bfc05d48c2b9e8c
+MD5sum: 332fc3e8de79959df74e063b20cc1364
+Description: Linux kernel, version 4.4.154-116-rockchip-g86a614bc15b3
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-116-rockchip-g86a614bc15b3.
+
+Package: networkmanager-patch
+Version: 0.1
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/n/networkmanager-patch/networkmanager-patch_0.1_all.deb
+Size: 1246
+SHA256: 5e3c3f2caa18fe1b773972d1a94a6f82474ed9cd72a26161e9648de285b06b60
+SHA1: 594780fafa4f50d59ad430de6c80dddb6aa3f75b
+MD5sum: ca3ceccc30f6ef9a266790ece5991a87
+Description: NetworkManager patch
+Multi-Arch: foreign
+
+Package: qualcomm-wifibt-firmware
+Version: 0.1-1
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 252
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/q/qualcomm-wifibt-firmware/qualcomm-wifibt-firmware_0.1-1_all.deb
+Size: 217812
+SHA256: deea96844ddc22ded1f03dbe7f7eebadd31da57714adf476632a1c8429ebe937
+SHA1: b5eec028f700bcd0efb9fbda0b993beded7236d3
+MD5sum: e5ad5166feae9a1923ff262c1314dada
+Description: General Qualcomm WiFi and Bluetooth chip firmware
+Multi-Arch: foreign
+
+Package: radxa-add-overlay
+Version: 0.1
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 5
+Depends: python3
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/r/radxa-add-overlay/radxa-add-overlay_0.1_all.deb
+Size: 3084
+SHA256: efd9666130ee321e70340a89866a710b1f7370b799bc69df1bdd53c9cfeff9e5
+SHA1: cb3dcfde89dff5cc6f3db9133119ed1967459e0b
+MD5sum: b455c996007dfdb74d1ed7a621276ad5
+Description: Overlay add helper 
+Multi-Arch: foreign
+
+Package: radxa-installer
+Version: 0.1
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 13
+Depends: python3, python3-tk, python3-pexpect, mtd-utils
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/r/radxa-installer/radxa-installer_0.1_all.deb
+Size: 5242
+SHA256: 83e355102fa8ca3922ce09aff79e1659346b76e4547b9a070b6dbe41ff722cf8
+SHA1: 650d8c40f37acccc6d0141f9a74572720c979790
+MD5sum: 11bff3dedce35942126e1770aa165298
+Description: Radxa Installer
+Multi-Arch: foreign
+
+Package: realtek-bt-firmware
+Version: 0.2
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Depends: kmod
+Priority: optional
+Section: utils
+Filename: pool/main/r/realtek-bt-firmware/realtek-bt-firmware_0.2_all.deb
+Size: 46680
+SHA256: 9745517c0b30220f2cecf817d6172ab0dbaeb30b153f0e10fb76706734b8ce26
+SHA1: 742292ff38d3fbba02bb61c7e2008d17e842dc7c
+MD5sum: 4977e8bb3b3bc516ee1ed27323244133
+Description: Load Realtek Bluetooth Driver and firmware.
+
+Package: realtek-wifibt-firmware
+Version: 0.5
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 627
+Conflicts: rtl8723be-firmware
+Replaces: rtl8723be-firmware
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/r/realtek-wifibt-firmware/realtek-wifibt-firmware_0.5_all.deb
+Size: 232286
+SHA256: 2bb87572476a847c0ca1a1cc1f941fcd88f34c1c39a674536746ee4a4fabbd71
+SHA1: c9490bfc33001de882d975c0e9e55157c496c1cf
+MD5sum: 8f97cf66f91dcd4a0d2c7478c904672c
+Description: Realtek Bluetooth firmware
+Multi-Arch: foreign
+
+Package: resize-assistant
+Version: 0.2
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Depends: gdisk, parted, init-system-helpers (>= 1.18~)
+Priority: optional
+Section: utils
+Filename: pool/main/r/resize-assistant/resize-assistant_0.2_all.deb
+Size: 1700
+SHA256: 497cf1e3dd1d0e412d947a2ff0ec46aff8a87057d235ace95e81caae989c1290
+SHA1: 93b61c08d1cfef69b46e4492cb26ffacf1875e0e
+MD5sum: 8882c755e14783fefac59c3a0127bc59
+Description: resize-assistant package.
+ This package provides tools used to help resizing root filesystem
+ to fit available disk space.
+
+Package: rockchip-overlay
+Version: 4.1
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 10
+Depends: linux-base, file, bc, sed, coreutils
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_4.1_all.deb
+Size: 7164
+SHA256: a0438d6d11cb139f178fda966469718e42a4ab9dabb52a99dea35392f0fa7ed1
+SHA1: bcac04a441b3f63ca4b13af7addc08c3c14c0c34
+MD5sum: d5172e413c09e5e6ef2637384dd19c34
+Description: General rockchip overlay package
+Multi-Arch: foreign
+
+Package: rockpi4-dtbo
+Version: 5.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockpi4-dtbo/rockpi4-dtbo_5.1_all.deb
+Size: 4340
+SHA256: 10f4de18b521171dbc2027da62c3e5e0da611223e03c2df0fa0c1dee4fa1ecfe
+SHA1: 289a0e17a107f55bd1b0de0622828aa922c5127f
+MD5sum: d1d064ccffa0cc935fabddfb9e230efb
+Description: ROCK Pi 4 device tree overlays
+
+Package: rockpi4-dtbo-4.4
+Version: 4.8
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: rockpi4-dtbo
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockpi4-dtbo-4.4/rockpi4-dtbo-4.4_4.8_all.deb
+Size: 1034
+SHA256: b529fd3f28a752a1611d619e6fe069df45115403790c9cbafeb041db147a50e1
+SHA1: 608a415c1cb395ed53f6666d4afb46984dcbaaf2
+MD5sum: 38627a8eeae29b18ff6dbbf1e67b3640
+Description: ROCK Pi 4 device tree overlays
+Multi-Arch: foreign
+
+Package: rockpi4-dtbo-5.10
+Version: 4.8
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockpi4-dtbo-5.10/rockpi4-dtbo-5.10_4.8_all.deb
+Size: 1390
+SHA256: eb0954db4f97bdbecf341f023ac63d9a6cbc0e9bd2f33b1198d53a76d954b3dd
+SHA1: 33409ae440a8df031e390337cc3204bd88e72e5c
+MD5sum: a2f60195ebe7f450ebde628e8ae4b458
+Description: ROCK Pi 4 device tree overlays
+Multi-Arch: foreign
+
+Package: rtl8723be-firmware
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/r/rtl8723be-firmware/rtl8723be-firmware_0.1_all.deb
+Size: 114772
+SHA256: dcb9868ca1a0bf6a41ed2bc8592142b4febb5cd673d960513cf90d270c8eaddb
+SHA1: f3fc68dfe1eb087e909245da3bd2531a0e054768
+MD5sum: a8626e9b792fe2f67dfd594613d5293e
+Description: General chip rtl8723be firmware.
+

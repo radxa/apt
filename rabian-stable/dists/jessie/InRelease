@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: apt.radxa.com
+Label: apt repository
+Codename: jessie
+Date: Thu, 24 Nov 2022 12:38:14 UTC
+Architectures: armhf
+Components: main
+Description: Debian packages for radxa products
+MD5Sum:
+ 70cc9e1aed30df21aa8459239cb3fc30 31307 main/binary-armhf/Packages
+ 0c5fa317388ddcffd3e6f66618c8aed9 9680 main/binary-armhf/Packages.gz
+ e0ea1e5bc447b1e0cffaeec3873fe956 128 main/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ f479cba592f38fb325f3c142ef6c4c4d 129 main/source/Release
+SHA1:
+ 9bcca9d62a0a840948a642ea3db3d8275e6b88c8 31307 main/binary-armhf/Packages
+ fb8531fc387d3c55b87155898d17966eb9be1ae7 9680 main/binary-armhf/Packages.gz
+ 6544e72ab12c3acbbfac70a68b4d4eea1a20f270 128 main/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ 400127e46e9d5391f0200710ab7adc81939ee13f 129 main/source/Release
+SHA256:
+ 672f5cd645576dcebd2cef8692c4fa35d9473616869c3caa3ed908891c26f3b2 31307 main/binary-armhf/Packages
+ 1db85d0eda49958607d18cfcf4e01ec953aab520ae20fc88c100513cbe4ecdce 9680 main/binary-armhf/Packages.gz
+ 6de195245c70679a8cb234fbb0a2d1687544ada563598ff0136244b49d562f38 128 main/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ b83429f1468a2ec7185f1463528fcaac9a80ce587377e20557a98d52693c6770 129 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEzv7n7GQnsZPcMVECm5gRbJqjAscFAmN/ZbYACgkQm5gRbJqj
+AseAqgv9H9Atc84cjn12K/f2CYfVseyCnLWxip1Kq/sqobpRkMsjIT7/krf67w1k
+T1tr7PTuKfhK+/LYvq7tGAZjnliXjiQaRaf7pRhNxupeEiOj7Eot3T/59oAGSHoq
+kmZ9R/0NcEqluDm2309AH3wLGAT5/E3g3Ouo5AaFnmiwe4/nCWkPeInANXk1LhBV
+GrBk79KGLyPCm2N1mAA2Z/qcBHi39HT2WLoRfypoERoeUchGzKxT35P36i2PGL8Z
+2rcPBqrGsMgYlUbwuUHabfoMESIGJPa5mrBX8R5JZGmurMH0CjTZM1WDbso4jVER
+meZu/TNn/EtbtRkpdciaUrII7SV1RL7LwtEHu92AdEzjafCrgc1Nu8FalktNIWZK
+Br+huBdWLYHKm/vLdwOMP2MABmqB5/WBDNEdleZ6V6hrDQM/eb61vWZ6KqTFZzsu
+4pbbRzn3PimVN0daMsUXC9J4ZyZ/sBYgv5HUrGt6fYJ4IgxfVE3dZABjUi7wGKz4
+LVmWTnpz
+=FR/f
+-----END PGP SIGNATURE-----

@@ -1,0 +1,479 @@
+Package: 96boards-tools-common
+Source: 96boards-tools
+Version: 0.12
+Architecture: all
+Maintainer: Ricardo Salveti <ricardo.salveti@linaro.org>
+Installed-Size: 30
+Depends: gdisk, parted
+Homepage: https://github.com/96boards/96boards-tools
+Priority: optional
+Section: utils
+Filename: pool/main/9/96boards-tools/96boards-tools-common_0.12_all.deb
+Size: 5732
+SHA256: 9a2f5ff49898d361afd80e30ba0c944435d3dd8da006522325d005684d600866
+SHA1: c78ec0f06fdecad500606b822b8a355358a9acac
+MD5sum: c582c443006df60aa5dfc8fff5668aa7
+Description: common files used by 96boards
+ This package provides configuration and tools used to help
+ bringing a common user experience across different 96Boards.
+
+Package: brcm-patchram-plus1
+Version: 0.2
+Maintainer: Radxa <dev@radxa.com>
+Architecture: armhf
+Component: main
+Replaces: brcm-patchram-plus1-32
+Conflicts: brcm-patchram-plus1-32
+Provides: brcm-patchram-plus1-32
+Priority: optional
+Section: utils
+Filename: pool/main/b/brcm-patchram-plus1/brcm-patchram-plus1_0.2_armhf.deb
+Size: 7240
+SHA256: fe98a9cdb99ce459174ebb6fb437349188bc2c0096714316107d37265c3bba15
+SHA1: 4dfa7f8815ced44be91514ea5a68c331b43347cb
+MD5sum: 1ba72f44f1f6c506c193b3246e8f6bca
+Description: Broadcom bluetooth patching tool
+
+Package: broadcom-wifibt-firmware
+Version: 2.5
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 12300
+Depends: rfkill, brcm-patchram-plus1
+Conflicts: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware, ap6275s-firmware
+Replaces: ap6236-firmware, ap6255-firmware, ap6256-firmware, ap6356-firmware, ap6398s-firmware, ap6275s-firmware
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/b/broadcom-wifibt-firmware/broadcom-wifibt-firmware_2.5_all.deb
+Size: 8085050
+SHA256: 561037aa28957058ceadb561cd8766fddfba42fbd47bc79d88e3f23994397e37
+SHA1: 07de043330987e2b681666a0e63d06ec65e7fed7
+MD5sum: 28d331d62775de988866f2b0d44b4824
+Description: General Broadcom WiFi and Bluetooth chip firmware
+Multi-Arch: foreign
+
+Package: ffmpeg-doc
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 29412
+Depends: libjs-jquery, libjs-bootstrap
+Multi-Arch: foreign
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: doc
+Filename: pool/main/f/ffmpeg/ffmpeg-doc_3.4.1-1_all.deb
+Size: 2051576
+SHA256: bbbf799801dbcd42f7409b3bd0dd8997fd9fc0933e5b24fb0ad8d4658064e27b
+SHA1: d398c800b21b8294dc48f956e14d33c3a6e6f672
+MD5sum: 290ed38ecfb8512993de4d74067dac9c
+Description: Documentation of the FFmpeg multimedia framework
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This package contains the HTML documentation for the FFmpeg multimedia
+ framework including the API documentation created by doxygen and the manpages
+ for the libraries.
+
+Package: intel-wifibt-firmware
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/i/intel-wifibt-firmware/intel-wifibt-firmware_0.1_all.deb
+Size: 316604
+SHA256: e909e1d0286847aa0de506178f7bf2d55f84835062e143ecf9018986645bfc95
+SHA1: 3dba3e91f259e972e4fdc9a8bd7ec3944edd9ec0
+MD5sum: e069679b0d84a8ed0bc41dc6f15a1183
+Description: General Intel WiFi and Bluetooth chip firmware.
+
+Package: libav-tools
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 98
+Depends: ffmpeg
+Breaks: libav-tools-links (<< 7:2.7.2-2~)
+Replaces: libav-tools-links (<< 7:2.7.2-2~)
+Multi-Arch: foreign
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/f/ffmpeg/libav-tools_3.4.1-1_all.deb
+Size: 53994
+SHA256: 3da7b4e491baa21a743d8bc349a2299c77cc740b9bb575b05bd149a20833af29
+SHA1: 572f3479ed7b61c64376d21a54ea7d58f4ebbd45
+MD5sum: e8ee3b0d94f21c3d7dac3cd5603170d3
+Description: Compatibility links for libav-tools (transitional package)
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This is a transitional package that provides the following links:
+  * avconv  -> ffmpeg
+  * avplay  -> ffplay
+  * avprobe -> ffprobe
+ This package can be removed, when nothing uses the av* program names anymore.
+
+Package: libavcodec-extra
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 89
+Depends: libavcodec-extra57
+Multi-Arch: foreign
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: metapackages
+Filename: pool/main/f/ffmpeg/libavcodec-extra_3.4.1-1_all.deb
+Size: 53816
+SHA256: 70578cf250a5f38aa00446cedc92fe0f58e4391fdd1e46572dad2dff9b741c08
+SHA1: fbadb392ea8d9be9c78fb0f5879009c1412a75c1
+MD5sum: e2fa8baa5730b1e0c415f1d0ca222739
+Description: FFmpeg library with extra codecs (metapackage)
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This metapackage depends on the latest version of the libavcodec variant
+ that offers additional codec support. Application packages can depend
+ on it if they require or suggest this variant in a robust manner.
+
+Package: libavfilter-extra
+Source: ffmpeg
+Version: 7:3.4.1-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 89
+Depends: libavfilter-extra6
+Multi-Arch: foreign
+Homepage: https://ffmpeg.org/
+Priority: optional
+Section: metapackages
+Filename: pool/main/f/ffmpeg/libavfilter-extra_3.4.1-1_all.deb
+Size: 53804
+SHA256: 20a34c5dc59b3824be507c2625c290973b13059600b65d2815b41870e25b7fa0
+SHA1: 9cdf00a5ce9311fa0ed03c718e04ecf04b8e89f7
+MD5sum: a0c9840371b499bee71e4bc460a82cea
+Description: FFmpeg library with extra filters (metapackage)
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This metapackage depends on the latest version of the libavfilter variant
+ that offers additional filter support. Application packages can depend
+ on it if they require or suggest this variant in a robust manner.
+
+Package: libmraa
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: armhf
+Component: main
+Multi-Arch: foreign
+Replaces: libmraa-rockpis, libmraa-rockpi4
+Conflicts: libmraa-rockpis, libmraa-rockpi4
+Provides: libmraa-rockpis, libmraa-rockpi4
+Depends: libc6, libjson-c3, libjson-c-dev, libgtest-dev, libgcc1, libstdc++6,
+    python2.7, libpython2.7, python3.7, libpython3.7
+Priority: optional
+Section: libs
+Filename: pool/main/libm/libmraa/libmraa_0.1_armhf.deb
+Size: 202500
+SHA256: 9bdcbedb9dd3c2c240ba0754df2baf46a50ce0e81d93bb35e8905afd788af0d1
+SHA1: f238b4510a36cf835cc1c1ff0d4239933a1163e8
+MD5sum: aa1acb4b17fdcc0fde251f2d430b663c
+Description: Provide mraa interface package for C/C++, python and Java.
+
+Package: linux-4.4-rock-pi-4-latest
+Version: 4.4.154-116-rockchip
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.154-116-rockchip-g86a614bc15b3, linux-firmware-image-4.4.154-116-rockchip-g86a614bc15b3, linux-headers-4.4.154-116-rockchip-g86a614bc15b3
+Homepage: https://github.com/radxa/kernel
+Priority: optional
+Section: admin
+Filename: pool/main/l/linux-4.4-rock-pi-4-latest/linux-4.4-rock-pi-4-latest_4.4.154-116-rockchip_all.deb
+Size: 1160
+SHA256: 44f0f1b81154725253560c56f913896bb2df9fb034f7be70ae71959db5555399
+SHA1: 9910f45ec4b81ef1472716fa8b040bf97bf16873
+MD5sum: b3ce1772b82e04fd15befbc70e5dc14f
+Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
+Multi-Arch: foreign
+Replaces: linux-4.4-latest
+Conflicts: linux-4.4-latest
+Provides: linux-4.4-latest
+
+Package: linux-firmware-image-4.4.154-116-rockchip-g86a614bc15b3
+Source: linux-4.4.154-116-rockchip-g86a614bc15b3
+Version: 4.4.154-116-rockchip
+Architecture: all
+Maintainer: Anonymous <root@lara>
+Installed-Size: 588
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-116-rockchip-g86a614bc15b3/linux-firmware-image-4.4.154-116-rockchip-g86a614bc15b3_4.4.154-116-rockchip_all.deb
+Size: 186420
+SHA256: 8479c0322be5ed158e80f5d7db8a42a6c275d7aec24a09f80ef695c2bac1fdfe
+SHA1: 7a841754517c7ccf1c8dd6250176d55a5be63346
+MD5sum: 15a7c2315f04555c491ad28eb3d11bbd
+Description: Linux kernel firmware, version 4.4.154-116-rockchip-g86a614bc15b3
+ This package contains firmware from the Linux kernel, version 4.4.154-116-rockchip-g86a614bc15b3.
+
+Package: linux-headers-4.4.154-116-rockchip-g86a614bc15b3
+Source: linux-4.4.154-116-rockchip-g86a614bc15b3
+Version: 4.4.154-116-rockchip
+Architecture: all
+Maintainer: Anonymous <root@lara>
+Installed-Size: 70973
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-116-rockchip-g86a614bc15b3/linux-headers-4.4.154-116-rockchip-g86a614bc15b3_4.4.154-116-rockchip_all.deb
+Size: 10168664
+SHA256: ed6e62d200b2dda2d9e933234a3c02e76807888169cf8532ca44b8f4cb786aaa
+SHA1: 75a44263c2338405c1a95a2b4a98ee2669c7607c
+MD5sum: 970b1140ebd5a86c8200b12890d6a0a0
+Description: Linux kernel headers for 4.4.154-116-rockchip-g86a614bc15b3 on all
+ This package provides kernel header files for 4.4.154-116-rockchip-g86a614bc15b3 on all
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-4.4.154-116-rockchip-g86a614bc15b3
+Source: linux-4.4.154-116-rockchip-g86a614bc15b3
+Version: 4.4.154-116-rockchip
+Architecture: all
+Maintainer: Anonymous <root@lara>
+Installed-Size: 79491
+Suggests: linux-firmware-image-4.4.154-116-rockchip-g86a614bc15b3
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-116-rockchip-g86a614bc15b3
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.154-116-rockchip-g86a614bc15b3/linux-image-4.4.154-116-rockchip-g86a614bc15b3_4.4.154-116-rockchip_all.deb
+Size: 15132620
+SHA256: 6599f278678bce9fd96d703e84684e78ceb0714545deef9f7b74f5700836f230
+SHA1: b8e5b2ae00c8cb9291ac9ae08bfc05d48c2b9e8c
+MD5sum: 332fc3e8de79959df74e063b20cc1364
+Description: Linux kernel, version 4.4.154-116-rockchip-g86a614bc15b3
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-116-rockchip-g86a614bc15b3.
+
+Package: qualcomm-wifibt-firmware
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/q/qualcomm-wifibt-firmware/qualcomm-wifibt-firmware_0.1_all.deb
+Size: 206032
+SHA256: e85a8dfc9dbabd2f3e9171d7f6b5d8879431d63c0ae8bda7d9fa716c814e2204
+SHA1: e9bb0a462d2e5b7530ee533f4f0aed1be938a179
+MD5sum: 5e3136a28d6dfbdf75ff57cf53d96386
+Description: General Qualcomm WiFi and Bluetooth chip firmware.
+
+Package: radxa-add-overlay
+Version: 0.1
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 5
+Depends: python3
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/r/radxa-add-overlay/radxa-add-overlay_0.1_all.deb
+Size: 3084
+SHA256: efd9666130ee321e70340a89866a710b1f7370b799bc69df1bdd53c9cfeff9e5
+SHA1: cb3dcfde89dff5cc6f3db9133119ed1967459e0b
+MD5sum: b455c996007dfdb74d1ed7a621276ad5
+Description: Overlay add helper 
+Multi-Arch: foreign
+
+Package: radxa-installer
+Version: 0.1
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 13
+Depends: python3, python3-tk, python3-pexpect, mtd-utils
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/r/radxa-installer/radxa-installer_0.1_all.deb
+Size: 5242
+SHA256: 83e355102fa8ca3922ce09aff79e1659346b76e4547b9a070b6dbe41ff722cf8
+SHA1: 650d8c40f37acccc6d0141f9a74572720c979790
+MD5sum: 11bff3dedce35942126e1770aa165298
+Description: Radxa Installer
+Multi-Arch: foreign
+
+Package: realtek-bt-firmware
+Version: 0.2
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Depends: kmod
+Priority: optional
+Section: utils
+Filename: pool/main/r/realtek-bt-firmware/realtek-bt-firmware_0.2_all.deb
+Size: 46680
+SHA256: 9745517c0b30220f2cecf817d6172ab0dbaeb30b153f0e10fb76706734b8ce26
+SHA1: 742292ff38d3fbba02bb61c7e2008d17e842dc7c
+MD5sum: 4977e8bb3b3bc516ee1ed27323244133
+Description: Load Realtek Bluetooth Driver and firmware.
+
+Package: resize-assistant
+Version: 0.2
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Depends: gdisk, parted, init-system-helpers (>= 1.18~)
+Priority: optional
+Section: utils
+Filename: pool/main/r/resize-assistant/resize-assistant_0.2_all.deb
+Size: 1700
+SHA256: 497cf1e3dd1d0e412d947a2ff0ec46aff8a87057d235ace95e81caae989c1290
+SHA1: 93b61c08d1cfef69b46e4492cb26ffacf1875e0e
+MD5sum: 8882c755e14783fefac59c3a0127bc59
+Description: resize-assistant package.
+ This package provides tools used to help resizing root filesystem
+ to fit available disk space.
+
+Package: rockchip-fstab
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockchip-fstab/rockchip-fstab_0.1_all.deb
+Size: 1036
+SHA256: c4978b32a328a21b772faba40ceb6ec4e121601e07700ce1ea88885bdb8a2311
+SHA1: c0c157df1829b2451fe733fc880afc244247680c
+MD5sum: 8c926ece411831408a5d699c658bb996
+Description: Rockchip default fstab
+Depends: util-linux, bash
+
+Package: rockchip-overlay
+Version: 4.1
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 10
+Depends: linux-base, file, bc, sed, coreutils
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_4.1_all.deb
+Size: 7164
+SHA256: a0438d6d11cb139f178fda966469718e42a4ab9dabb52a99dea35392f0fa7ed1
+SHA1: bcac04a441b3f63ca4b13af7addc08c3c14c0c34
+MD5sum: d5172e413c09e5e6ef2637384dd19c34
+Description: General rockchip overlay package
+Multi-Arch: foreign
+
+Package: rockpi4-dtbo
+Version: 4.8
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 21
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockpi4-dtbo/rockpi4-dtbo_4.8_all.deb
+Size: 7090
+SHA256: ded88b20b6c31bc0164a76874a2d0c421f5f77698c0c9ffd5eb9baae6fd8caea
+SHA1: 436b7fb9254e9d2629398674377956522ec92edd
+MD5sum: 2f7ab4ae50430a5797432ad18420057a
+Description: ROCK Pi 4 device tree overlays
+Multi-Arch: foreign
+
+Package: rockpi4-dtbo-4.4
+Version: 4.8
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: rockpi4-dtbo
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockpi4-dtbo-4.4/rockpi4-dtbo-4.4_4.8_all.deb
+Size: 1034
+SHA256: b529fd3f28a752a1611d619e6fe069df45115403790c9cbafeb041db147a50e1
+SHA1: 608a415c1cb395ed53f6666d4afb46984dcbaaf2
+MD5sum: 38627a8eeae29b18ff6dbbf1e67b3640
+Description: ROCK Pi 4 device tree overlays
+Multi-Arch: foreign
+
+Package: rockpi4-dtbo-5.10
+Version: 4.8
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockpi4-dtbo-5.10/rockpi4-dtbo-5.10_4.8_all.deb
+Size: 1390
+SHA256: eb0954db4f97bdbecf341f023ac63d9a6cbc0e9bd2f33b1198d53a76d954b3dd
+SHA1: 33409ae440a8df031e390337cc3204bd88e72e5c
+MD5sum: a2f60195ebe7f450ebde628e8ae4b458
+Description: ROCK Pi 4 device tree overlays
+Multi-Arch: foreign
+
+Package: rockpis-dtbo
+Version: 4.5
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: admin
+Filename: pool/main/r/rockpis-dtbo/rockpis-dtbo_4.5_all.deb
+Size: 4208
+SHA256: f10bf30d51bb1ad675c200412e68a837b3ba3bb2f02d417ec77516ab7a1b6e57
+SHA1: f61d336d2f77f78ffd91cb2c2ad733ba1a57958c
+MD5sum: 75d15f9a15de1219097af1f30fae903f
+Description: ROCK Pi S device tree overlays
+
+Package: rtl8723be-firmware
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: all
+Component: main
+Priority: optional
+Section: utils
+Filename: pool/main/r/rtl8723be-firmware/rtl8723be-firmware_0.1_all.deb
+Size: 114772
+SHA256: dcb9868ca1a0bf6a41ed2bc8592142b4febb5cd673d960513cf90d270c8eaddb
+SHA1: f3fc68dfe1eb087e909245da3bd2531a0e054768
+MD5sum: a8626e9b792fe2f67dfd594613d5293e
+Description: General chip rtl8723be firmware.
+
