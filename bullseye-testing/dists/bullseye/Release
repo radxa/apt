@@ -1,0 +1,28 @@
+Origin: apt.radxa.com
+Label: apt.radxa.com
+Codename: bullseye
+Date: Mon, 28 Nov 2022 07:58:49 UTC
+Architectures: armhf arm64
+Components: main
+Description: Apt repository for Radxa products
+MD5Sum:
+ 5b97f88149bb8c10c1ab1ccef2e82844 569 main/binary-armhf/Packages
+ 6343aeb4db6fdc405e3943a72b3fa895 411 main/binary-armhf/Packages.gz
+ c565b989b8ee8e7795fc8705eff55600 126 main/binary-armhf/Release
+ 5b97f88149bb8c10c1ab1ccef2e82844 569 main/binary-arm64/Packages
+ 6343aeb4db6fdc405e3943a72b3fa895 411 main/binary-arm64/Packages.gz
+ 1948d7c313289de2d434bc8958eb4305 126 main/binary-arm64/Release
+SHA1:
+ 167c4247141a2e67c183f2a9deae508d149763a0 569 main/binary-armhf/Packages
+ 2e1e7a2141e5f25e9e5fab674765f5e45bc7fdaf 411 main/binary-armhf/Packages.gz
+ 23e42ffe5fe8220d4ce8cebe5afa9046010d91e9 126 main/binary-armhf/Release
+ 167c4247141a2e67c183f2a9deae508d149763a0 569 main/binary-arm64/Packages
+ 2e1e7a2141e5f25e9e5fab674765f5e45bc7fdaf 411 main/binary-arm64/Packages.gz
+ af41e6144b1def9a2be005d93fbb7932edd05a3c 126 main/binary-arm64/Release
+SHA256:
+ e4db8f9b39872fe816b925a0648357bba5c4a03366e1b87db4ccea519cdc51f2 569 main/binary-armhf/Packages
+ 479ce13117c1b4e5da34de41eab11035f47459451d266be4327a8e4f33c85f6d 411 main/binary-armhf/Packages.gz
+ 82b7adf84d0ca01b19114872693eb76ee52c66422528a43f813b163a4938b9af 126 main/binary-armhf/Release
+ e4db8f9b39872fe816b925a0648357bba5c4a03366e1b87db4ccea519cdc51f2 569 main/binary-arm64/Packages
+ 479ce13117c1b4e5da34de41eab11035f47459451d266be4327a8e4f33c85f6d 411 main/binary-arm64/Packages.gz
+ d75661930a67b30a72b8f44ddbb16f3960a82997c1150e8d92dac8b31b364e40 126 main/binary-arm64/Release

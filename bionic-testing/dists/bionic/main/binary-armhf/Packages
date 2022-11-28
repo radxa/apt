@@ -1,0 +1,19 @@
+Package: rockchip-overlay
+Version: 4.1
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 10
+Depends: linux-base, file, bc, sed, coreutils
+Homepage: http://example.com/no-uri-given
+Priority: optional
+Section: utils
+Filename: pool/main/r/rockchip-overlay/rockchip-overlay_4.1_all.deb
+Size: 7164
+SHA256: a0438d6d11cb139f178fda966469718e42a4ab9dabb52a99dea35392f0fa7ed1
+SHA1: bcac04a441b3f63ca4b13af7addc08c3c14c0c34
+MD5sum: d5172e413c09e5e6ef2637384dd19c34
+Description: General rockchip overlay package
+Multi-Arch: foreign
+

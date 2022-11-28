@@ -1,0 +1,5 @@
+Component: main
+Origin: apt.radxa.com
+Label: apt repository
+Architecture: source
+Description: Debian packages for radxa products

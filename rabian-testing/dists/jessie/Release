@@ -1,0 +1,28 @@
+Origin: apt.radxa.com
+Label: apt repository
+Codename: jessie
+Date: Mon, 28 Nov 2022 07:59:37 UTC
+Architectures: armhf
+Components: main
+Description: Debian packages for radxa products
+MD5Sum:
+ 5b97f88149bb8c10c1ab1ccef2e82844 569 main/binary-armhf/Packages
+ 6343aeb4db6fdc405e3943a72b3fa895 411 main/binary-armhf/Packages.gz
+ e0ea1e5bc447b1e0cffaeec3873fe956 128 main/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ f479cba592f38fb325f3c142ef6c4c4d 129 main/source/Release
+SHA1:
+ 167c4247141a2e67c183f2a9deae508d149763a0 569 main/binary-armhf/Packages
+ 2e1e7a2141e5f25e9e5fab674765f5e45bc7fdaf 411 main/binary-armhf/Packages.gz
+ 6544e72ab12c3acbbfac70a68b4d4eea1a20f270 128 main/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ 400127e46e9d5391f0200710ab7adc81939ee13f 129 main/source/Release
+SHA256:
+ e4db8f9b39872fe816b925a0648357bba5c4a03366e1b87db4ccea519cdc51f2 569 main/binary-armhf/Packages
+ 479ce13117c1b4e5da34de41eab11035f47459451d266be4327a8e4f33c85f6d 411 main/binary-armhf/Packages.gz
+ 6de195245c70679a8cb234fbb0a2d1687544ada563598ff0136244b49d562f38 128 main/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ b83429f1468a2ec7185f1463528fcaac9a80ce587377e20557a98d52693c6770 129 main/source/Release
