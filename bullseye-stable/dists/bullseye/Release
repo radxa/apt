@@ -1,7 +1,7 @@
 Origin: apt.radxa.com
 Label: apt.radxa.com
 Codename: bullseye
-Date: Mon, 05 Dec 2022 12:51:01 UTC
+Date: Mon, 05 Dec 2022 12:54:59 UTC
 Architectures: armhf arm64
 Components: main
 Description: Apt repository for Radxa products
@@ -9,20 +9,20 @@ MD5Sum:
  dbb85c8df8c95ec3464b9f0b61001a3b 9876 main/binary-armhf/Packages
  430009384cfaf7498ef18554a67cee3c 3180 main/binary-armhf/Packages.gz
  c565b989b8ee8e7795fc8705eff55600 126 main/binary-armhf/Release
- 902cf12dda9b40f1bb1d94b6a204b444 173692 main/binary-arm64/Packages
- ef8e4ab72222f06f30a7ef480df5d67d 40904 main/binary-arm64/Packages.gz
+ d295924946da476492f35aa2ec4e9cc1 175347 main/binary-arm64/Packages
+ e4123deb33bef3f2201e0c7aafba195c 41181 main/binary-arm64/Packages.gz
  1948d7c313289de2d434bc8958eb4305 126 main/binary-arm64/Release
 SHA1:
  1c24262e3a9ce6421fbe9c1607c30016732a1c16 9876 main/binary-armhf/Packages
  4477d916fb0ab7e7dbf5366a0ec173c5d443f140 3180 main/binary-armhf/Packages.gz
  23e42ffe5fe8220d4ce8cebe5afa9046010d91e9 126 main/binary-armhf/Release
- 9b4d3b40568f4e00b3f77608d1f9c1c4333a652d 173692 main/binary-arm64/Packages
- 4e1d9c8515a435f1347a3d4ae22f9d6cbf719a47 40904 main/binary-arm64/Packages.gz
+ d0c0ddd0dedac4634552c577a75cfbf8aefe79a6 175347 main/binary-arm64/Packages
+ cc26b8bb9ef9c8f3c644783eb0c8a7db24268a91 41181 main/binary-arm64/Packages.gz
  af41e6144b1def9a2be005d93fbb7932edd05a3c 126 main/binary-arm64/Release
 SHA256:
  161d22b0e0f0ea1f0ab80378af732c323e3e5abd7b34dd11a35cd48bd2bb94b5 9876 main/binary-armhf/Packages
  184283ef949f4b35b0cf6c43aa6e79c96fdf879cce190bba62b84222c8d96121 3180 main/binary-armhf/Packages.gz
  82b7adf84d0ca01b19114872693eb76ee52c66422528a43f813b163a4938b9af 126 main/binary-armhf/Release
- 58defb6c9aa501adafdf22ba0ad074cae08012d1e2855187ae9771d2f2cb1589 173692 main/binary-arm64/Packages
- b00ebdf691c63b686562e3a7b26781d143cd686f91e33900cb1beb475383f990 40904 main/binary-arm64/Packages.gz
+ db56382ddd41890dfbd5e889dd90c2e22938b25b2fbd50880af77e3131377e0c 175347 main/binary-arm64/Packages
+ 128d6ad05609d5a27c21bb89e68d1b62be277a950095d73e151083ea306255ae 41181 main/binary-arm64/Packages.gz
  d75661930a67b30a72b8f44ddbb16f3960a82997c1150e8d92dac8b31b364e40 126 main/binary-arm64/Release

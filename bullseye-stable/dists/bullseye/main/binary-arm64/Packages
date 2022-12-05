@@ -1984,21 +1984,21 @@ Conflicts: linux-5.10-radxa-zero-latest
 Provides: linux-5.10-radxa-zero-latest
 
 Package: linux-5.10-rock-5-latest
-Version: 5.10.110-31-rockchip
+Version: 5.10.110-32-rockchip
 License: GPL-2+
 Vendor: Radxa
 Architecture: arm64
 Maintainer: Radxa <dev@radxa.com>
 Installed-Size: 0
-Depends: linux-image-5.10.110-31-rockchip-ged1406c748b1, linux-headers-5.10.110-31-rockchip-ged1406c748b1
+Depends: linux-image-5.10.110-32-rockchip-ga5941066c2de, linux-headers-5.10.110-32-rockchip-ga5941066c2de
 Homepage: https://github.com/radxa/kernel
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux-5.10-rock-5-latest/linux-5.10-rock-5-latest_5.10.110-31-rockchip_arm64.deb
-Size: 1148
-SHA256: b4a0aa524945b47282ee41f04afe148db32355f958060f5c1969eb04de61ed0e
-SHA1: bdfa608e555e3be8f9d0baa70acf22596e9f88e7
-MD5sum: 21e1899f91a12644e2d66739a5b397e4
+Filename: pool/main/l/linux-5.10-rock-5-latest/linux-5.10-rock-5-latest_5.10.110-32-rockchip_arm64.deb
+Size: 1144
+SHA256: 47b1d73dfe10a61298f0d4e989a5b0d5a8722245e0b35a54ca455ab1bc90376f
+SHA1: 4701f5932f36e66c4eddcadeafc365728df15eb5
+MD5sum: 090f362750d17fa3a543ebb86d1ea728
 Description: This package will always depend on linux-image and linux-headers and linux-firmware-image.
 Multi-Arch: foreign
 Replaces: linux-5.10-rock-5-latest
@@ -2173,6 +2173,25 @@ SHA1: 0a775635b76500c603ca1594dead5e2bedd14ae5
 MD5sum: d1e74f524280d32f2d0d8e7ceba09895
 Description: Linux kernel headers for 5.10.110-31-rockchip-ged1406c748b1 on arm64
  This package provides kernel header files for 5.10.110-31-rockchip-ged1406c748b1 on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.10.110-32-rockchip-ga5941066c2de
+Source: linux-5.10.110-32-rockchip-ga5941066c2de
+Version: 5.10.110-32-rockchip
+Architecture: arm64
+Maintainer: stephen <stephen@lara.vamrs.com>
+Installed-Size: 47377
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.110-32-rockchip-ga5941066c2de/linux-headers-5.10.110-32-rockchip-ga5941066c2de_5.10.110-32-rockchip_arm64.deb
+Size: 7752432
+SHA256: 4bd7cca6374af29aa1a9b7503db9e364aee4c7f60bd8a6c1fc21f42496fdb95c
+SHA1: ffcee4bde1dd46c988bb03508e4d112eb1384047
+MD5sum: 15710b86f1253ed679899bcbe47a8bb6
+Description: Linux kernel headers for 5.10.110-32-rockchip-ga5941066c2de on arm64
+ This package provides kernel header files for 5.10.110-32-rockchip-ga5941066c2de on arm64
  .
  This is useful for people who need to build external modules
 
@@ -2394,6 +2413,24 @@ MD5sum: f99e3898d5c3922a5b0f37cabb51271f
 Description: Linux kernel, version 5.10.110-31-rockchip-ged1406c748b1
  This package contains the Linux kernel, modules and corresponding other
  files, version: 5.10.110-31-rockchip-ged1406c748b1.
+
+Package: linux-image-5.10.110-32-rockchip-ga5941066c2de
+Source: linux-5.10.110-32-rockchip-ga5941066c2de
+Version: 5.10.110-32-rockchip
+Architecture: arm64
+Maintainer: stephen <stephen@lara.vamrs.com>
+Installed-Size: 99808
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.110-32-rockchip-ga5941066c2de/linux-image-5.10.110-32-rockchip-ga5941066c2de_5.10.110-32-rockchip_arm64.deb
+Size: 21665068
+SHA256: c57fee0b1ceda22cfc02bfe18414da29ae49cc39bed9e23ca020cf5ed2435892
+SHA1: 30e8d523bc93696d1bbe378cbd4557eeef9a96b5
+MD5sum: f87690b552a623c84af0ee1509ce7064
+Description: Linux kernel, version 5.10.110-32-rockchip-ga5941066c2de
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.110-32-rockchip-ga5941066c2de.
 
 Package: linux-image-5.10.66-27-rockchip-gea60d388902d
 Source: linux-5.10.66-27-rockchip-gea60d388902d
