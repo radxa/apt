@@ -85,20 +85,20 @@ Description: OpenGL (ES) 2.0 benchmark suite -- data files
  This package provides data files.
 
 Package: intel-wifibt-firmware
-Version: 0.2-1
+Version: 0.3-1
 License: GPL-2+
 Vendor: Radxa
 Architecture: all
 Maintainer: Radxa <dev@radxa.com>
-Installed-Size: 3497
+Installed-Size: 4113
 Homepage: http://example.com/no-uri-given
 Priority: optional
 Section: utils
-Filename: pool/main/i/intel-wifibt-firmware/intel-wifibt-firmware_0.2-1_all.deb
-Size: 1499028
-SHA256: 71ff7b95b9429ff8cee783621ed7e46b41f7e3429bbc846602266498447bd38f
-SHA1: e033fe45e2e9e93c46b67814ea2b3e770b8ef322
-MD5sum: 58d569bf3a67473f3f5139708ca3715e
+Filename: pool/main/i/intel-wifibt-firmware/intel-wifibt-firmware_0.3-1_all.deb
+Size: 1958220
+SHA256: da84c5dcc991307fb667d34200980ab6c62823acd904435d2eeaee78658a438b
+SHA1: 2e262829af3fdadcc2e8ffb956980be91320629f
+MD5sum: 326144cc30cb63047ec4a7ff365b03c7
 Description: General Intel WiFi and Bluetooth chip firmware
 Multi-Arch: foreign
 
