@@ -125,7 +125,7 @@ Description: Doxygen generated documentation for libdvbv5
  This package provides doxygen generated documentation for the library.
 
 Package: libmraa
-Version: 1.9
+Version: 2.0
 Maintainer: Radxa <dev@radxa.com>
 Architecture: armhf
 Component: main
@@ -137,11 +137,11 @@ Depends: libc6, libjson-c5, libjson-c-dev, libgtest-dev, libgcc1, libstdc++6,
     python, python2.7, libpython2.7, python3.9, libpython3.9
 Priority: optional
 Section: libs
-Filename: pool/main/libm/libmraa/libmraa_1.9_armhf.deb
-Size: 207004
-SHA256: bad6a4cdbafd655846c7667d4a2a8ffe1a15ee4932e49e784a177c1419b464d7
-SHA1: 7edc1c1775965d15740a57e42b7e6af14c9d1305
-MD5sum: 4c6895f11fcd577b3d2e8963f8c70806
+Filename: pool/main/libm/libmraa/libmraa_2.0_armhf.deb
+Size: 203604
+SHA256: 3d2a5f4aa8d25e3564b27532b1a038ca2fc268a952546984208c51e8a04783b0
+SHA1: 21a9a2740ea004d460ab466e38410cc54ab7b37c
+MD5sum: 37e9be0585c08bb62accb3b4166966ed
 Description: Provide mraa interface package for C/C++, python and Java.
 
 Package: networkmanager-patch
