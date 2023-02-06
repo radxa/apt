@@ -1,7 +1,7 @@
 Origin: apt.radxa.com
 Label: apt.radxa.com
 Codename: bullseye
-Date: Tue, 31 Jan 2023 04:11:46 UTC
+Date: Mon, 06 Feb 2023 09:33:55 UTC
 Architectures: armhf arm64
 Components: main
 Description: Apt repository for Radxa products
@@ -9,20 +9,20 @@ MD5Sum:
  90fcb301a95e4456aa3e122af1182bec 10651 main/binary-armhf/Packages
  aba1c600083e71488171cae4010742cc 3436 main/binary-armhf/Packages.gz
  c565b989b8ee8e7795fc8705eff55600 126 main/binary-armhf/Release
- 70334fd8bd7f3c300cdaaf9e4a6ed735 183623 main/binary-arm64/Packages
- c93e599c1b79a72552ed92556cc35f66 42748 main/binary-arm64/Packages.gz
+ 57ae95aba3c4edafeea4db49b063606a 185279 main/binary-arm64/Packages
+ 030db224adef85428291f6091f7cd88b 43046 main/binary-arm64/Packages.gz
  1948d7c313289de2d434bc8958eb4305 126 main/binary-arm64/Release
 SHA1:
  27d526bc04b946d006cd364fa5f4e637f6a73aef 10651 main/binary-armhf/Packages
  c024ed1c6306c7f77cf969903f12965b7533b4cb 3436 main/binary-armhf/Packages.gz
  23e42ffe5fe8220d4ce8cebe5afa9046010d91e9 126 main/binary-armhf/Release
- bbbc8442b6b5a92ee7ca9002ec96e881ac6349ac 183623 main/binary-arm64/Packages
- 54543cb304ec57ed509f9dfdc3ef3ed8835b3943 42748 main/binary-arm64/Packages.gz
+ 00319a41460b7f7a0f6835389b7f3f7102d977ec 185279 main/binary-arm64/Packages
+ e7b4b8c8f1918493118e05b5fcaa7311bd04e35e 43046 main/binary-arm64/Packages.gz
  af41e6144b1def9a2be005d93fbb7932edd05a3c 126 main/binary-arm64/Release
 SHA256:
  76fd95cfb482e17cedd1842bd7da814aa2e320e514e90dc5a33a745a55b7ac3e 10651 main/binary-armhf/Packages
  c361a34a4d13778474d6307edcfde5c555e60fa6a309e3b022602a3f74c8d009 3436 main/binary-armhf/Packages.gz
  82b7adf84d0ca01b19114872693eb76ee52c66422528a43f813b163a4938b9af 126 main/binary-armhf/Release
- 2a453824823a4ac8e27e5b290d98a3fef2f8cf52d66de801b7b1cacf819bd2e8 183623 main/binary-arm64/Packages
- e1749393e50548f412c4e4a720c94e9cebdb02e23ecb182874c27d4133e8e32d 42748 main/binary-arm64/Packages.gz
+ c1376093c7f8d5e977f0ba02998f3e9bae9930d3bab269019730f492606a1007 185279 main/binary-arm64/Packages
+ 1ac8b0e9185b6238b7ae8add5c76de909c151c1154e7d0ee0c70fb78e73b980c 43046 main/binary-arm64/Packages.gz
  d75661930a67b30a72b8f44ddbb16f3960a82997c1150e8d92dac8b31b364e40 126 main/binary-arm64/Release
