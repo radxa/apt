@@ -1710,7 +1710,7 @@ Description: 3A libraries match Rockchip rkisp1 driver version 0.1.5.
 Version: 2.2.0-3
 
 Package: rockchip-adbd
-Version: 0.7
+Version: 0.8
 Maintainer: Radxa <dev@radxa.com>
 Architecture: arm64
 Component: main
@@ -1719,11 +1719,11 @@ Conflicts: rockchip-adb
 Provides: rockchip-adbd
 Priority: optional
 Section: utils
-Filename: pool/main/r/rockchip-adbd/rockchip-adbd_0.7_arm64.deb
-Size: 43912
-SHA256: d45604732008c912ccd52aeacf05d9ed60cd91e9b6f101867cda975bebb9f668
-SHA1: ed5f902642a7132cfa003809716b434aec3e6e2e
-MD5sum: 19c94d676ae3b57c8de897ebf709ad43
+Filename: pool/main/r/rockchip-adbd/rockchip-adbd_0.8_arm64.deb
+Size: 648176
+SHA256: 1676b118ac42d977061a63782af77a9cf3619947afb785e254392cc800540a77
+SHA1: 184d5647989be653ec808f43a26102dc7b113dbc
+MD5sum: 10a6d3bff17a1a2a6fc37141965a0293
 Description: rockchip-adbd package.
 
 Package: rockchip-mali-midgard-dev
